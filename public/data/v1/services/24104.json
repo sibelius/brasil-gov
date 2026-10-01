@@ -1,0 +1,281 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24104",
+  "nome": "Obter serviços da Infraestrutura de Dados Espaciais Marinhos da Diretoria de Hidrografia e Navegação.",
+  "sigla": "IDEM-DHN.",
+  "descricao": "O termo Infraestrutura de Dados Espaciais (IDE) é comumente utilizado para descrever o conjunto de tecnologias, políticas e acordos institucionais adotados em um sistema interoperável que permite a busca, o acesso e a visualização de dados geoespaciais. Nesse sentido, a Infraestrutura de Dados Espaciais Marinhos, ou no inglês, Marine Spatial Data Infrastructure (MSDI), pode ser compreendida como a componente marítima de uma IDE.\n\n A Infraestrutura de Dados Espaciais Marinhos da Diretoria de Hidrografia e Navegação (IDEM-DHN) atua como uma interface estratégica para a disseminação e o intercâmbio de dados provenientes do Banco Nacional de Dados Oceanográficos (BNDO). O BNDO, conforme estabelecido pelo Decreto de 5 de janeiro de 1994, é o repositório oficial de dados oceanográficos do Brasil. A IDEM-DHN não substitui o BNDO, mas sim o complementa, ao aplicar padrões e boas práticas de governança para tornar os dados do BNDO mais acessíveis, interoperáveis e exploráveis via tecnologias geoespaciais abertas. Dessa forma, a IDEM-DHN facilita a descoberta, visualização e o download de informações cruciais do BNDO, integrando-as ao ecossistema da Infraestrutura Nacional de Dados Espaciais (INDE) e atendendo a requisitos de intercâmbio de dados ambientais marinhos em escalas nacional e internacional.\n\n Fazem parte de sua estrutura as seguintes ferramentas: Catálogo de metadados, Catálogo de geosserviços e Visualizador (Geoportal).",
+  "flagPortalLogado": "N",
+  "contato": "Email: [chm.bndo@marinha.mil.br](mailto:chm.bndo@marinha.mil.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://idem.marinha.mil.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "IDEM",
+        "id": 124609
+      },
+      {
+        "item": "IDEM-DHN",
+        "id": 124610
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104350,
+        "tipo": "Qualquer pessoa pode utilizar os serviços descritos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/185",
+    "dbId": 7378,
+    "nomeOrgao": "Comando da Marinha (CMAR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174479
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 174480
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 174481
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 174482
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Material de Pesquisa"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Interoperabilidade de Dados Geoespaciais",
+        "id": 415329
+      },
+      {
+        "item": "Infraestrutura de Dados Espaciais Marinhos ",
+        "id": 415327
+      },
+      {
+        "item": "Banco Nacional de Dados Oceanográficos",
+        "id": 415328
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149899
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 243379,
+      "titulo": "Acessar a plataforma IDEM-DHN",
+      "descricao": "Acesse a plataforma da Infraestrutura de Dados Espaciais Marinhos da Diretoria de Hidrografia e Navegação (IDEM-DHN) por meio do endereço eletrônico oficial.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314446,
+            "tipo": "web",
+            "descricao": "Acesso Ã  plataforma IDEM-DHN:  \n<https://idem.marinha.mil.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243380,
+      "titulo": "Pesquisar os dados geoespaciais",
+      "descricao": "No Catálogo de Metadados, realize pesquisas utilizando palavras-chave, áreas geográficas ou temas de interesse, como oceanografia, batimetria e meteorologia.  \n   \n Analise as informações disponíveis, incluindo resumo, finalidade e abrangência dos dados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314447,
+            "tipo": "web",
+            "descricao": "Pesquisa de dados no CatÃ¡logo de Metadados da IDEM-DHN:  \n<https://idem.marinha.mil.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243381,
+      "titulo": "Visualizar os dados geoespaciais",
+      "descricao": "Utilize o Geoportal da IDEM-DHN para visualizar e explorar os dados geoespaciais de forma interativa por meio das camadas disponíveis na plataforma.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314448,
+            "tipo": "web",
+            "descricao": "Visualização de dados por meio do Geoportal da IDEM-DHN:  \n<https://idem.marinha.mil.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243382,
+      "titulo": "Obter os dados e geosserviços",
+      "descricao": "Realize o download dos dados geoespaciais disponíveis ou acesse os geosserviços por meio dos padrões WMS, WFS e WCS para integração em sistemas externos e aplicações SIG.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314449,
+            "tipo": "web",
+            "descricao": "Download de dados e acesso aos geosserviÃ§os WMS, WFS e WCS:  \n<https://idem.marinha.mil.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "Serviço não requer nenhum dado do usuário",
+  "url": "https://www.gov.br/pt-br/servicos/obter-servicos-da-infraestrutura-de-dados-espaciais-marinhos-da-diretoria-de-hidrografia-e-navegacao",
+  "statusDestaque": false
+}

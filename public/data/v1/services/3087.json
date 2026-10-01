@@ -1,0 +1,252 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3087",
+  "nome": "Obter Autorização para Reajuste de mensalidade de plano de saúde individual ou familiar",
+  "sigla": "",
+  "descricao": "As operadoras de planos de saúde devem pedir autorização da ANS para aplicar reajuste nas mensalidades de planos individuais ou familiares de assistência médico-hospitalar. O processo é feito pelo Sistema de Gestão Eletrônica de Autorização de Reajuste – GEAR.",
+  "flagPortalLogado": "N",
+  "contato": "gear.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "GEAR - Gestão Eletrônica de Autorização de Reajuste",
+        "id": 72849
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64046,
+        "tipo": "Operadoras de Plano de Saúde",
+        "requisitos": "Possuir registro ativo de operadoras junto à ANS e produtos de contratação individual/familiar com status  ativos e/ou com comercialização suspensa junto à ANS"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "5",
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 5,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101128
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "plano de saúde individual/familiar",
+        "id": 248176
+      },
+      {
+        "item": "Solicitação de autorização",
+        "id": 248177
+      },
+      {
+        "item": "GEAR",
+        "id": 248178
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 565/2022\n\n     [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)\n\n  \n\n  IN  30/2022\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)",
+        "id": 82498
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 15,
+    "negativas": 91
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 143643,
+      "titulo": "Solicitação de autorização para reajuste de mensalidade de plano de saúde individual ou familiar",
+      "descricao": "Todas as etapas são realizadas em meio digital, desde a solicitação de autorização e encaminhamento de documentos,  até a comunicação da decisão administrativa, por parte da ANS. A confirmação da solicitação é enviada ao e-mail indicado  e as informações sobre o andamento do processo são disponibilizadas e atualizadas no site da ANS, Após a análise da área técnica da ANS, a decisão é formalizada em ofício, disponibilizado à operadora, digitalmente, via Protocolo Eletrônico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203571,
+            "nome": "Comprovante de pagamento da Taxa por Pedido de Reajuste de Contraprestação Pecuniária (TRC). Estar regular quanto à última informação devida no Sistema de Informação de Beneficiários – SIB, no Sistema de Informação de Produtos – SIP e do Documento de Informações Periódicas de Planos de Assistência à Saúde – DIOPS."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 23830,
+            "descricao": "Taxa por Pedido de Reajuste de Contraprestação Pecuniária (operadoras com até 20.000 beneficiários)",
+            "moeda": "R$",
+            "valor": " 1.405,35",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 23831,
+            "descricao": "Taxa por Pedido de Reajuste de Contraprestação Pecuniária (operadoras com mais de 20.000 beneficiários)",
+            "moeda": "R$",
+            "valor": " 2.810,69",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186553,
+            "tipo": "web",
+            "descricao": "Web – Aplicativo GEAR Acesse o site: [Acesse o site](https://www2.ans.gov.br/ans-idp/ )",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143644,
+      "titulo": "Acompanhar andamento do processo",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186554,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143645,
+      "titulo": "Receber autorização",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186555,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "14",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-reajuste-de-mensalidade-de-plano-de-saude-individual-ou-familiar",
+  "statusDestaque": false
+}

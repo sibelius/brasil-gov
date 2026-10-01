@@ -1,0 +1,413 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9148",
+  "nome": "Realizar consulta especializada em hanseníase - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O Ambulatório Souza Araújo (ASA) oferece atendimento especializado para diagnóstico e tratamento da hanseníase em todas as suas formas clínicas. O serviço oferece parecer a pacientes de hanseníase que apresentam intercorrências, tratados em outras unidades de saúde, quando solicitado pelo médico dessa unidade.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (21) 2562-1594\n\n **E-mail:** [asa.lahan@ioc.fiocruz.br](mailto:asa.lahan@ioc.fiocruz.br)\n\n **Facebook:** <https://www.facebook.com/ambulatorio.souzaaraujo>",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 70332
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 62397,
+        "tipo": "* Cidadãos",
+        "requisitos": ""
+      },
+      {
+        "id": 62398,
+        "tipo": "* Órgãos e entidades públicas",
+        "requisitos": "O serviço atende cidadãos com suspeita de hanseníase ou que são portadores da doença, que possuem encaminhamento médico do SUS ou da rede particular e, também, aqueles que nos procuram por demanda espontânea."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 98166
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 98167
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Hanseníase",
+        "id": 240352
+      },
+      {
+        "item": "Lepra",
+        "id": 240353
+      },
+      {
+        "item": "Ambulatório",
+        "id": 240354
+      },
+      {
+        "item": "Atendimento médico",
+        "id": 240355
+      },
+      {
+        "item": "Tratamento",
+        "id": 240356
+      },
+      {
+        "item": "Consulta médica",
+        "id": 240357
+      },
+      {
+        "item": "Atendimento ambulatorial",
+        "id": 240358
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 79465
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 36,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "Rampa",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 139267,
+      "titulo": "Agendar consulta",
+      "descricao": "O agendamento da consulta pode ser presencial, no Ambulatório Souza Araujo, ou por telefone.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196641,
+            "nome": "Documento de identificação com foto"
+          },
+          {
+            "id": 196642,
+            "nome": "Cartão do SUS"
+          },
+          {
+            "id": 196643,
+            "nome": "Comprovante de residência"
+          },
+          {
+            "id": 196644,
+            "nome": "CPF"
+          }
+        ],
+        "casos": [
+          {
+            "id": 28986,
+            "descricao": "Pacientes encaminhados pela rede publica (SUS) ou rede particular",
+            "documento": [
+              {
+                "id": 196640,
+                "codigo": null,
+                "descricao": "Encaminhamento médico",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180396,
+            "tipo": "telefone",
+            "descricao": "O usuário pode telefonar para o número (21)2562-1594, tendo em mãos os documentos requisitados. Esse canal também pode ser utilizado para esclarecer dúvidas",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 180397,
+            "tipo": "presencial",
+            "descricao": "Fiocruz/Ambulatório Souza Araujo  \nAvenida Brasil, 4365 - Manguinhos  \nCEP: 21040-900 - Rio de Janeiro , RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 139268,
+      "titulo": "Realizar atendimento para cadastro",
+      "descricao": "O paciente deve comparecer ao Ambulatório Souza Araujo no horário e data previamente agendados, tendo em mãos os documentos requisitados para o preenchimento do cadastro no sistema do Ambulatório.\n\n Menores de 18 anos devem vir acompanhados dos pais ou responsáveis.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196646,
+            "nome": "Documento de identificação com foto"
+          },
+          {
+            "id": 196647,
+            "nome": "Cartão do SUS"
+          }
+        ],
+        "casos": [
+          {
+            "id": 28987,
+            "descricao": "Pacientes encaminhados pela rede publica (SUS) ou rede particular",
+            "documento": [
+              {
+                "id": 196645,
+                "codigo": null,
+                "descricao": "Encaminhamento médico",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180398,
+            "tipo": "presencial",
+            "descricao": "Fiocruz/Ambulatório Souza Araujo  \nAvenida Brasil, 4365 - Manguinhos  \nCEP: 21040-900 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 139269,
+      "titulo": "Consultar-se",
+      "descricao": "O paciente será atendido por um médico especializado, que confirmará ou não da suspeita de hanseníase.\n\n O atendimento será realizado no dia marcado, por ordem de chegada e respeitando as prioridades.\n\n O tempo total da consulta poderá variar caso seja necessário atendimento por mais de um especialista.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196648,
+            "nome": "Encaminhamento do médico"
+          },
+          {
+            "id": 196649,
+            "nome": "Documento pessoal com foto"
+          },
+          {
+            "id": 196650,
+            "nome": "Cartão do SUS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180399,
+            "tipo": "presencial",
+            "descricao": "Fiocruz/Ambulatório Souza Araujo  \nAvenida Brasil, 4365 - Manguinhos  \nCEP: 21040-900 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 139270,
+      "titulo": "Realizar exames para diagnóstico",
+      "descricao": "Caso os sinais e sintomas possam sugerir hanseníase, o paciente será encaminhado para realizar exames (biópsia, baciloscopia e coleta de sangue), com o objetivo de confirmar o diagnóstico.\n\n O resultado dos exames não serão fornecidos no mesmo dia.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196651,
+            "nome": "Termo de autorização para realização de exames assinado pelo paciente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180400,
+            "tipo": "presencial",
+            "descricao": "Fiocruz/Ambulatório Souza Araujo  \nAvenida Brasil, 4365 - Manguinhos  \nCEP: 21040-900 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 139271,
+      "titulo": "Retornar para consulta e resultado de exames",
+      "descricao": "Será marcada uma data para uma nova consulta, na qual o paciente terá seu diagnóstico confirmado ou não e receberá a orientação necessária de acordo com a conduta médica a ser adotada.\n\n Caso não seja confirmado o diagnóstico de hanseníase, o paciente será encaminhado com parecer médico para o mesmo setor de saúde que o encaminhou. Caso seja confirmado, o paciente poderá decidir se quer iniciar o tratamento de hanseníase em nosso serviço ou em uma unidade de saúde próxima de sua residência.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196652,
+            "nome": "Documento de identificação com foto"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180401,
+            "tipo": "presencial",
+            "descricao": "Fiocruz/Ambulatório Souza Araujo  \nAvenida Brasil, 4365 - Manguinhos  \nCEP: 21040-900 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "75",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-especializada-em-hanseniase",
+  "statusDestaque": false
+}

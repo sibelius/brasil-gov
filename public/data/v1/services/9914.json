@@ -1,0 +1,300 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9914",
+  "nome": "Solicitar informações do Inmetro",
+  "sigla": "SIC",
+  "descricao": "Por meio do sistema e-SIC, disponibilizado Controladoria-Geral da União (CGU), é possível realizar pedidos de acesso à informação, acompanhar os pedidos quanto aos trâmites e prazos, entrar com recursos e acompanhar seu andamento,  apresentar reclamação por omissão de resposta, consultar respostas recebidas.\n\n É possível que o cidadão tenha sua identidade protegida ao realizar um requerimento de informação cuja natureza possa vir a ser objeto de uma denúncia. Nesses casos, ao preencher os dados do Pedido, marque a opção “Gostaria de ter a minha identidade preservada neste pedido, conforme o disposto no art. 10, § 7º da Lei nº 13.460/2017” disponível ao final da página.\n\n",
+  "flagPortalLogado": "N",
+  "contato": "Se suas dúvidas sobre esse serviço não puderem ser sanadas em consulta às [Perguntas frequentes](https://www4.inmetro.gov.br/perguntas-frequentes), contate a Ouvidoria pelos seguintes canais:\n\n 0800-285-1818 / (21) 2563-2864\n\n",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://esic.cgu.gov.br/sistema/site/index.aspx",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Serviço de Informações ao Cidadão",
+        "id": 12403
+      },
+      {
+        "item": "Solicitar documento",
+        "id": 12404
+      },
+      {
+        "item": "e-SIC",
+        "id": 12405
+      },
+      {
+        "item": "LAI",
+        "id": 12406
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 15471,
+        "tipo": "Todas as pessoas físicas e jurídicas, independente de idade ou nacionalidade.  \nAo fazer o pedido de acesso à informação, não é necessário expor o motivo ou finalidade do pedido.\n\n",
+        "requisitos": "O pedido de acesso à informação deverá conter:\n\n  * nome do requerente;\n * número de documento de identificação válido;\n * especificação, de forma clara e precisa, da informação.\n "
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "1",
+      "max": "20",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 1,
+    "max": 20
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240",
+    "dbId": 36793,
+    "nomeOrgao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 24024
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 24025
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 24026
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 24027
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicação Governamental"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Pedido de informação ",
+        "id": 48627
+      },
+      {
+        "item": "Lei de acesso à informação",
+        "id": 48628
+      },
+      {
+        "item": "Serviço de informações ao cidadão",
+        "id": 48629
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 10239
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 78
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n ",
+  "etapas": [
+    {
+      "id": 29726,
+      "titulo": "Cadastre-se no e-SIC",
+      "descricao": "Acesse o [site](https://esic.cgu.gov.br/sistema/site/index.aspx \"site\");\n\n Na caixa “Faça seu pedido”, clique em “Cadastre-se”;\n\n Preencha o formulário de cadastro e clique em concluir.\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 51247,
+            "nome": "Número do CPF.\n\n"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 36170,
+            "tipo": "web",
+            "descricao": "<https://esic.cgu.gov.br/sistema/site/index.aspx>\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 36171,
+            "tipo": "presencial",
+            "descricao": "Dirigir-se à Ouvidoria do Inmetro:\n\n Av. Nossa Senhora das Graças, 50, Xerém, Prédio 37.  \nDuque de Caxias - RJ  \n25250-020.\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 29727,
+      "titulo": "Realizar pedido de informação",
+      "descricao": "Acesse o e-SIC e clique em “Registrar pedido”;  \n Preencha os campos do formulário do pedido:  \n - Órgão destinatário;  \n - Forma de Recebimento da Resposta;  \n - Resumo da Solicitação;  \n - Detalhamento da Solicitação - Especifique a informação a que deseja. Caso julgue necessário, é possível anexar documentos (são aceitos até 5 arquivos, mas tamanho total não pode exceder 10 MB);  \n O e-SIC informará um número de protocolo, que também será enviado por e-mail.\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 51248,
+            "nome": "Documentação que auxilie a esclarecer o pedido, caso desejar.\n\n"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 36172,
+            "tipo": "web",
+            "descricao": "<https://esic.cgu.gov.br/sistema/site/index.aspx>\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 36173,
+            "tipo": "presencial",
+            "descricao": "Dirigir-se à Ouvidoria do Inmetro:\n\n Av. Nossa Senhora das Graças, 50, Xerém, Prédio 37.  \nDuque de Caxias - RJ  \n25250-020.\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 29728,
+      "titulo": "Acessar a resposta",
+      "descricao": "Após receber notificação por e-mail avisando que seu pedido foi respondido, siga os passos descritos abaixo para localizar seu pedido no sistema:\n\n Acesse a área “Consultar pedido”, disponível no painel de navegação e no menu superior do sistema.\n\n Será exibida uma lista com todos os pedidos os seus pedidos já feitos. A tela de consulta de pedidos oferece vários filtros.\n\n A busca pelo número de protocolo é a mais direta, pois apresentará um único resultado.\n\n",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [],
+        "casos": [
+          {
+            "id": 4090,
+            "descricao": "Caso cidadão solicite informação em meio físico ou o e-SIC não suporte o tamanho do arquivo",
+            "custo": [
+              {
+                "id": 4076,
+                "descricao": "GRU",
+                "moeda": "R$",
+                "valor": null,
+                "valorVariavel": "Custos de cópia/impressão ou outros meios (CD, pendrive)",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 36174,
+            "tipo": "web",
+            "descricao": "<https://esic.cgu.gov.br/sistema/site/index.aspx>\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "1",
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 1,
+        "max": 20
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "20",
+  "percentualAvaliacoesPositivas": "14",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-informacoes-do-inmetro",
+  "statusDestaque": false
+}

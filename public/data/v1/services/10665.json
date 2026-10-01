@@ -1,0 +1,203 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10665",
+  "nome": "Consultar Cadastro Nacional de Obras de Construção Civil (CNO) na Receita Federal",
+  "sigla": "",
+  "descricao": "O CNO é o banco de dados, gerenciado pela Receita Federal, que armazena informações cadastrais de obras de construção civil e de seus responsáveis.\n\n Consulte as informações da sua construção civil que constam no Cadastro Nacional de Obras (CNO).",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre construção civil](https://www.gov.br/receitafederal/pt-br/assuntos/construcao-civil)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10022",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122629
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102527,
+        "tipo": "Responsável pela obra de construção civil ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171283
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171284
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171285
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171286
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Cadastros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "consulta",
+        "id": 408085
+      },
+      {
+        "item": "cadastro",
+        "id": 408086
+      },
+      {
+        "item": "obra",
+        "id": 408087
+      },
+      {
+        "item": "construção",
+        "id": 408088
+      },
+      {
+        "item": "proprietário",
+        "id": 408089
+      },
+      {
+        "item": "coletivo",
+        "id": 408090
+      },
+      {
+        "item": "consórcio",
+        "id": 408091
+      },
+      {
+        "item": "dono",
+        "id": 408092
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.110/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=126687)",
+        "id": 147297
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.061/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=122299)",
+        "id": 147298
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 224,
+    "negativas": 947
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239111,
+      "titulo": "Consultar informações da obra no CNO",
+      "descricao": "Acesse o sistema para consultar os dados das obras cadastradas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308717,
+            "tipo": "web",
+            "descricao": "[Minhas Obras de Construção Civil](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10022)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10664",
+      "nome": "Anular cadastro de obra de construção civil"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10700",
+      "nome": "Migrar cadastro específico do INSS (CEI) para cadastro nacional de obras"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10699",
+      "nome": "Inscrever ou atualizar cadastro de obra de construção civil."
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "19",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-cadastro-de-obra-de-construcao-civil",
+  "statusDestaque": false
+}

@@ -1,0 +1,273 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1699",
+  "nome": "Pedir informações ao BC",
+  "sigla": "",
+  "descricao": "Você pode obter informações sobre o funcionamento do Sistema Financeiro, as normas editadas pelo Banco Central e pelo Conselho Monetário Nacional, os direitos e deveres na relação entre cliente e instituição financeiras, cotações de moedas, indicadores econômicos, dicas de educação financeira e outros assuntos relacionados ao Banco Central.\n\n  Acesse [aqui](https://www.bcb.gov.br/acessoinformacao/perguntasfrequentes) as Perguntas e Respostas sobre temas diversos de responsabilidade do Banco Central.\n\n **O BC não atende demandas que configurem:**\n\n - consultoria, consultas em tese (sem existir uma situação real) ou sem a identificação da operação ou das partes envolvidas;  \n- interpretação de normas;  \n- análise jurídica de produtos, serviços ou contratos;  \n- produção ou tratamento de dados que exijam trabalhos adicionais de análise, interpretação ou consolidação.\n\n  \n\n Pedido de informações não-sigilosas: nível bronze, prata ou ouro pela Conta govbr. \n\n Pedido de informações sigilosas de pessoas físicas: nível prata ou ouro pela Conta govbr ou com envio da [Documentação](https://www.bcb.gov.br/acessoinformacao/docpf) necessária. \n\n Pedido de informações sigilosas de empresas: certificado digital pela Conta govbr ou com envio da [Documentação](https://www.bcb.gov.br/acessoinformacao/docpj) necessária.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](http://www.bcb.gov.br/acessoinformacao/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.bcb.gov.br/meubc/faleconosco",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 113177
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 95080,
+        "tipo": "Qualquer pessoa física ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 157950
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 157951
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 157952
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Normas",
+        "id": 378458
+      },
+      {
+        "item": "Sistema Financeiro Nacional",
+        "id": 378459
+      },
+      {
+        "item": "Cotações de moedas",
+        "id": 378460
+      },
+      {
+        "item": "Séries históricas",
+        "id": 378461
+      },
+      {
+        "item": "Normas",
+        "id": 378462
+      },
+      {
+        "item": "Indicadores Econômicos",
+        "id": 378463
+      },
+      {
+        "item": "Educação Financeira",
+        "id": 378464
+      },
+      {
+        "item": "Direitos e Deveres",
+        "id": 378465
+      },
+      {
+        "item": "Sistema Financeiro",
+        "id": 378466
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 132814
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 397,
+    "negativas": 595
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 220590,
+      "titulo": "Solicitar informação",
+      "descricao": "** **",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 294231,
+            "nome": "Informações não-sigilosas: nível bronze.\n\n Informações sigilosas:\n\n  * de pessoas: nível prata ou ouro.\n * de empresas: certificado digital."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 286243,
+            "tipo": "web",
+            "descricao": "Acesse o [Pedido de Informação](https://www.bcb.gov.br/acessoinformacao/faleconosco).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 286244,
+            "tipo": "telefone",
+            "descricao": "Pelo 145 (de segunda a sexta, das 08h às 18h - custo de ligação local).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 286245,
+            "tipo": "postal",
+            "descricao": "Banco Central do Brasil – Departamento de Atendimento Institucional - Divisão de Atendimento ao Cidadão\n\n SBS Quadra 3 Bloco B - 1º SS - Edifício-Sede - CEP 70074-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220591,
+      "titulo": "Receber resposta",
+      "descricao": "Os canais de resposta são os indicados abaixo, podendo variar diante de cada caso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 286246,
+            "tipo": "e-mail",
+            "descricao": "Resposta pelo e-mail que você indicar no pedido de informação.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 286247,
+            "tipo": "telefone",
+            "descricao": "Resposta fornecida imediatamente no atendimento (com exceção de casos específicos que precisem de consulta à área técnica).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 286248,
+            "tipo": "postal",
+            "descricao": "Resposta pelo endereço que você indicar no pedido de informação .",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "40",
+  "totalSimplifique": "4",
+  "simplifiqueSolicitacoes": "3",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-informacoes-do-banco-central",
+  "statusDestaque": false
+}

@@ -1,0 +1,195 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11200",
+  "nome": "Obter restituições financeiras oriundas do faturamento, por nota de crédito",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá solicitar a restituição de valores faturados, por nota de crédito, e eventualmente pagos a maior.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Faturamento  Telefone: (13) 3202-6565 Ramal 2517",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 73146
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64288,
+        "tipo": "Empresas que queiram solicitar restituição de valores faturados e eventualmente pagos a maior",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101548
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Restituição ",
+        "id": 248932
+      },
+      {
+        "item": "nota de crédito",
+        "id": 248933
+      },
+      {
+        "item": "financeiro",
+        "id": 248934
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 82838
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 150,
+    "negativas": 302
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 144142,
+      "titulo": "Solicitar restituição",
+      "descricao": "Em até 90 dias da emissão da fatura, o interessado deverá encaminhar contestação, por carta, via Sistema de Protocolo Digital, devidamente fundamentada, contendo o logotipo da empresa requerente, datada e assinada pelo seu representante legal ou seu preposto. Não serão aceitas cartas de terceiros.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 204279,
+            "nome": "Devem estar em anexo à carta de restituição, a cópia da fatura e/ou da Nota Fiscal (se houver) e o respectivo comprovante de quitação, obrigatoriamente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 187289,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](http://protocolo.portodesantos.com.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 144143,
+      "titulo": "Análise e resultado",
+      "descricao": "Após análise quanto a procedência do pedido de restituição, o requerente é comunicado. Em caso de indeferimento, o requisitante é comunicado com as devidas explanações. No caso de deferimento da restituição, é emitida nota de crédito sendo a carta de resposta enviada ao solicitante via e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 187290,
+            "tipo": "e-mail",
+            "descricao": "Resposta encaminhada ao e-mail do solicitante, pela Supervisão de Tesouraria e Contratos a Receber, contendo carta elaborada pela Gerência de Faturamento e respectiva Nota de Crédito, se houver.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "33",
+  "url": "https://www.gov.br/pt-br/servicos/obter-restituicoes-financeiras-oriundas-do-faturamento-por-nota-de-credito",
+  "statusDestaque": false
+}

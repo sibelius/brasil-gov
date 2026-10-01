@@ -1,0 +1,262 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10381",
+  "nome": "Peticionar documentos eletronicamente na Presidência da República",
+  "sigla": "",
+  "descricao": "O serviço possibilita aos cidadãos, por intermédio do Sistema Eletrônico de Informações - SEI/PR, enviar documentos endereçados às unidades internas da Presidência da República, de forma eletrônica, para fins de peticionamento ou assinatura de contratos, convênios, termos, acordos e outros documentos.",
+  "flagPortalLogado": "N",
+  "contato": "Coordenação de Documentação - CODOC/DILOG/SA/SE/CC/PR\n\n Telefones: (61) 3411-2485 / 3411-2133 / 3411-2482\n\n E-mail: [usuarioexterno@presidencia.gov.br](mailto:usuarioexterno@presidencia.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/casacivil/pt-br/peticionamento-eletronico",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 75860
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 66460,
+        "tipo": "Qualquer pessoa física.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2837",
+    "dbId": 6041,
+    "nomeOrgao": "Casa Civil da Presidência da República (CC-PR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 104929
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 104930
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 104931
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 104932
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicação Governamental"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Processo eletrônico",
+        "id": 257976
+      },
+      {
+        "item": "Peticionamento eletrônico",
+        "id": 257977
+      },
+      {
+        "item": "SUPER",
+        "id": 257978
+      },
+      {
+        "item": "Usuário externo",
+        "id": 257979
+      },
+      {
+        "item": "Assinatura eletrônica",
+        "id": 257980
+      },
+      {
+        "item": "Protocolo e documento",
+        "id": 257981
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Decreto nº 8.539, de 8 de outubro de 2015](https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2015-10-08;8539)",
+        "id": 86169
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 53,
+    "negativas": 32
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 148484,
+      "titulo": "Cadastrar usuário externo do SEI/PR",
+      "descricao": "O interessado deve preencher o cadastro como usuário externo do sistema SEI da Presidência da República/PR no site [https://www.gov.br/casacivil/pt-br](https://www.gov.br/casacivil/pt-br/peticionamento-eletronico \"www.gov.br/casacivil/pt-br/peticionamento-eletronico\"), observando os documentos exigidos para tal procedimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193331,
+            "tipo": "web-preencher",
+            "descricao": "[https://www.gov.br/casacivil/pt-br/peticionamento-eletronico](http://www.gov.br/casacivil/pt-br/peticionamento-eletronico \"https://www.gov.br/casacivil/pt-br/peticionamento-eletronico\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "1",
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 1,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 148485,
+      "titulo": "Enviar documentos para as unidades da Presidência da República",
+      "descricao": "O usuário pode enviar documentos, de forma eletrônica, endereçados para as diversas áreas da Presidência da República de forma eletrônica, sem a necessidade de enviar documentos em formato físico ao Protocolo Central.\n\n Após a realização do envio pelo sistema SEI/PR, o usuário externo receberá, no e-mail cadastrado, recibo contendo o número do processo e os dados básicos da entrega da documentação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193332,
+            "tipo": "web-preencher",
+            "descricao": "[https://www.gov.br/casacivil/pt-br/peticionamento-eletronico](http://www.gov.br/casacivil/pt-br/peticionamento-eletronico \"https://www.gov.br/casacivil/pt-br/peticionamento-eletronico\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 148486,
+      "titulo": "Realizar o acesso externo para Assinatura Eletrônica em documentos oficiais",
+      "descricao": "O usuário externo receberá um e-mail de notificação, com vistas à assinatura de documentos, disponibilizado pela unidade, em processos no sistema SEI/PR. Nessa etapa, o contato será realizado entre a unidade que libera o acesso para assinatura e o usuário externo interessado no processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193333,
+            "tipo": "web-consultar",
+            "descricao": "[https://www.gov.br/planalto/pt-br](https://www.gov.br/planalto/pt-br \"https://www.gov.br/planalto/pt-br\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "62",
+  "url": "https://www.gov.br/pt-br/servicos/peticionar-documentos-eletronicamente-na-presidencia-da-republica",
+  "statusDestaque": false
+}

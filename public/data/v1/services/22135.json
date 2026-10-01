@@ -1,0 +1,214 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22135",
+  "nome": "Verificar validade de QR Code da Carteira de Identidade Nacional",
+  "sigla": "CIN",
+  "descricao": "Serviço que verifica, por meio de aplicativo móvel, se o QR Code impresso na Carteira de Identidade Nacional (CIN) é válido e foi emitido pelo Ministério da Justiça e Segurança Pública. Também permite consultar dados constantes no documento, aprimorando a segurança e a confiabilidade na identificação dos cidadãos.\n\n A leitura do QR Code no aplicativo ocorre em dois modos:\n\n a) Leitura parcial: Verifica se o QR Code foi emitido pelo Ministério da Justiça e Segurança Pública e exibi CPF e data de nascimento. Não permite confirmar a validade do documento;\n\n b) Leitura completa: Verifica se o QR Code foi emitido pelo Ministério da Justiça e Segurança Pública, confirma a validade do documento e exibe os dados da CIN para comparação. Requer conexão ativa com a internet e conta no gov.br.\n\n Você pode acompanhar o número de emissões de Carteiras de Identidade Nacional no seu estado por meio do link: [Emissões de CINs](https://app.powerbi.com/view?r=eyJrIjoiMTI4NWY2NzctMWNhZC00MjVlLWFmYjEtOWM2NDFkNmM1MjFiIiwidCI6ImViMDkwNDIwLTQ0NGMtNDNmNy05MWYyLTRiOGRhNmJmZThlMSJ9 \"Emissões da CIN\")",
+  "flagPortalLogado": "N",
+  "contato": "O Ministério da Justiça e Segurança Pública pode ser acionado pelo FalaBr.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Carteira de Identidade Nacional",
+        "id": 114376
+      },
+      {
+        "item": "CIN",
+        "id": 114377
+      },
+      {
+        "item": "QR Code CIN",
+        "id": 114378
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96251,
+        "tipo": "Qualquer pessoa que tenha instalado em seu dispositivo móvel, celular ou tablet, o aplicativo de verificação do Qr Code da Carteira de Identidade Nacional.",
+        "requisitos": "Para verificar a validade e visualizar os dados da CIN, é necessário possuir uma conta no gov.br."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "DECRETO Nº 10.977  \nValidade da Carteira de Identidade\n\n Art. 15. O prazo de validade da Carteira de Identidade será estabelecido de acordo com a idade do titular no momento da expedição do documento.\n\n Parágrafo único. A Carteira de Identidade terá validade:\n\n I - de cinco anos, para pessoas com idade de zero a onze anos;\n\n II - de dez anos, para pessoas com idade de doze anos completos a cinquenta e nove anos; e\n\n III - indeterminada, para pessoas com idade a partir de sessenta anos."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 159540
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Direitos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CIN",
+        "id": 382548
+      },
+      {
+        "item": "Todos",
+        "id": 382549
+      },
+      {
+        "item": "Cidadão",
+        "id": 382550
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 135020
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1188,
+    "negativas": 4433
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 223186,
+      "titulo": "Acessar a loja de aplicativos móveis e instalar o App da  do seu aparelho e pesquise: \"Carteira de Identidade Nacional\".",
+      "descricao": "Realizar a instalação do App \"Carteira de Identidade Nacional\" a partir da loja de aplicativos de seu aparelho.\n\n Google Play: https://play.google.com/store/apps/details?id=com.identidadenacional\n\n ou\n\n Apple Store: https://apps.apple.com/br/app/carteira-identidade-nacional/id1642584147",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 289232,
+            "tipo": "aplicativo-movel",
+            "descricao": "Loja de aplicativos de seu aparelho",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 223187,
+      "titulo": "Abrir o aplicativo e escolher a opção",
+      "descricao": "Após a instalação do aplicativo, o mesmo deverá ser inicializado e o cidadão deverá optar por uma das duas opções de leitura de QR Code: a) Leitura Parcial - Visualize apenas o CPF e a data de nascimento. A validade da CIN só está disponível na Leitura Detalhada. b) Leitura Detalhada - Verifique a validade da CIN. Realize a leitura dos dados. Para a Leitura Detalhada, é necessário realizar o login único do gov.br, com qualquer nível de conta de acesso.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 296349,
+            "nome": "Ter a via física de Carteira de Identidade Nacional."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 289233,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo  de Verificação da Validade da Carteira de Identidade Nacional.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/8695",
+      "nome": "Registrar aplicativos móveis na conta única GOV.BR"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "21",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/verificar-validade-de-qr-code-da-carteira-de-identidade-nacional",
+  "statusDestaque": false
+}

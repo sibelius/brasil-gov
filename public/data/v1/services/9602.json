@@ -1,0 +1,282 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9602",
+  "nome": "Cadastrar anúncio com um bem ou serviço para doação para o Governo Federal",
+  "sigla": "Reuse",
+  "descricao": "Plataforma para o cadastramento de anúncios de bens e serviços para doação para a Administração Pública federal, direta, indireta, autárquica e fundacional.",
+  "flagPortalLogado": "N",
+  "contato": "Enviar mensagem para doacoes@economia.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/patrimonio/pt-br/doacoes",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Reuse",
+        "id": 106013
+      },
+      {
+        "item": "Doações",
+        "id": 106014
+      },
+      {
+        "item": "Doações.gov.br",
+        "id": 106015
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89251,
+        "tipo": "Usuários privados e órgãos públicos podem utilizar o serviço.",
+        "requisitos": "Cadastro no Gov.br"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "1",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308803",
+    "dbId": 58136,
+    "nomeOrgao": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 147884
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 147885
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 147886
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 147887
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Doação",
+        "id": 354545
+      },
+      {
+        "item": "Voluntariado",
+        "id": 354546
+      },
+      {
+        "item": "Bens",
+        "id": 354547
+      },
+      {
+        "item": "",
+        "id": 354548
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 9.764, de 11 de abril de 2019\n\n Instrução Normativa Seges nº 6, de 12 de agosto de 2019",
+        "id": 123269
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 50,
+    "negativas": 40
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 207269,
+      "titulo": "Cadastrar Manifestação de Interesse",
+      "descricao": "O particular interessado em doar clica no botão QUERO DOAR, que o direcionará para tela de login pelo Senha-Rede para o gestor de patrimônio ou para o Portal Gov.BR para particulares, que acessará com CPF do doador ou representante legal da pessoa jurídica.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280828,
+            "nome": "Declaração de propriedade do bem e Declaração de que inexistem pendências judiciais, administrativas e sociais sobre o bem"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269401,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://reuse.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 269402,
+            "tipo": "e-mail",
+            "descricao": "doacoes@economia.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 207270,
+      "titulo": "Cadastrar a doação",
+      "descricao": "O particular (pessoa física ou jurídica) identifica bens ou serviços que queira doar e anuncia no Reuse.Gov. O anúncio pode ser consultado por qualquer cidadão, porém o recebimento de um bem ou serviço anunciado estará restrito aos órgãos e entidades da Administração Pública Federal.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269403,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://reuse.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 207271,
+      "titulo": "Efetivar a doação",
+      "descricao": "Após decorrido o prazo do anúncio, caso haja órgão interessado na doação, o órgão entrará em contato com o doador para realização da doação e assinatura do termo de adesão, declaração ou termo de doação, a depender da espécie de doação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280829,
+            "nome": "Comprovação de posse do bem."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269404,
+            "tipo": "presencial",
+            "descricao": "Endereço do órgão donatário.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "56",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/doar-bens-moveis-e-servicos-para-a-administracao-publica-federal",
+  "statusDestaque": false
+}

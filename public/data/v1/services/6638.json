@@ -1,0 +1,320 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6638",
+  "nome": "Matricular-se em curso de graduação - UFG",
+  "descricao": "Se você deseja fazer graduação na Universidade, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Centro de Gestão Acadêmica - 62981222130 - fcbarrosma@hotmail.com",
+  "gratuito": "true",
+  "porcentagemDigital": 75,
+  "servicoDigital": false,
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 9333,
+        "tipo": "Cidadãos",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/422",
+    "dbId": 57767,
+    "nomeOrgao": "Universidade Federal de Goiás (UFG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 14476
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 18
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 17123,
+      "titulo": "Inscrição no processo seletivo - online.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 34170,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 34171,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 34172,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 34173,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 19127,
+            "tipo": "web",
+            "descricao": "www.sisu.mec. gov.br ; www.sisu.ufg.br ou www.cs.ufg.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 17124,
+      "titulo": "Confirmação de vaga, se aprovado - online.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 34174,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 19128,
+            "tipo": "web",
+            "descricao": "www.sisu.ufg.br ou cs.ufg.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 17125,
+      "titulo": "Entrega de documentos e entrevista, se for o caso - presencial.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 34175,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 34176,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 34177,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 34178,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 34179,
+            "nome": "Certidões da Receita Federal"
+          },
+          {
+            "id": 34180,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 34181,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 34182,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 34183,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 34184,
+            "nome": "CPF"
+          },
+          {
+            "id": 34185,
+            "nome": "Diploma"
+          },
+          {
+            "id": 34186,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 34187,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 19129,
+            "tipo": "presencial",
+            "descricao": "Centros de matrículas, definidos conforme o quantitativo de vagas a serem preenchidas por Campi da Universidade.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 17126,
+      "titulo": "Confirmação de Matrícula online, se for o caso.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 34188,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 34189,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 19130,
+            "tipo": "web",
+            "descricao": "www.sisu.ufg.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "28",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufg",
+  "statusDestaque": false
+}

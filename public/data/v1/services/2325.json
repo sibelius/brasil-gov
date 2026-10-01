@@ -1,0 +1,271 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2325",
+  "nome": "Obter Isenção de Requisitos de Proteção Radiológica de equipamentos geradores de radiação ionizante ou fontes radioativas",
+  "sigla": "IRPR",
+  "descricao": "Emissão de ofícios de isenção de requisitos de proteção radiológica para fontes radioativas ou equipamentos. Este Ato deve ser requerido pelo responsável pela fonte ou equipamento.",
+  "flagPortalLogado": "S",
+  "contato": "Coordenação-Geral de Instalações Médicas e Industriais – CGMI \n\n (21) 2586-1320\n\n [cgmi@cnen.gov.br](mailto:cgmi@cnen.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125828
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105242,
+        "tipo": "Os responsáveis de empresas que desejem utilizar equipamentos geradores de radiação ionizante ou fontes radioativas que estejam isentas dos requisitos de proteção radiológica de acordo com o disposto no capítulo IV, Norma CNEN NN 3.01, Resolução CNEN 323/24.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175906
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175907
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 175908
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Materiais e Equipamentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Isenção, ",
+        "id": 419056
+      },
+      {
+        "item": "declaração, ",
+        "id": 419057
+      },
+      {
+        "item": "isenção, ",
+        "id": 419058
+      },
+      {
+        "item": "espectrômetro, ",
+        "id": 419059
+      },
+      {
+        "item": "difratômetro, ",
+        "id": 419060
+      },
+      {
+        "item": "raios-X",
+        "id": 419061
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Norma CNEN NN 3.01 (Resolução CNEN 323/24)](https://www.gov.br/cnen/pt-br/acesso-rapido/normas/grupo-3/NormaCNENNN3.01.pdf \"NormaCNENNN3.01\") - Requisitos Básicos de Radioproteção e Segurança Radiológica de Fontes de Radiação",
+        "id": 151046
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 17,
+    "negativas": 32
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança;\n * Ética",
+  "etapas": [
+    {
+      "id": 245584,
+      "titulo": "Solicitar declaração de isenção no Portal GOV.BR",
+      "descricao": "Preencher o formulário de solicitação, anexar a documentação (caso seja necessário) e encaminhar o requerimento à CNEN para análise.\n\n Para consultar a base de equipamentos já isentos [Clique Aqui](https://appasp2019.cnen.gov.br/seguranca/formularios/isencao/isencao-lista-equipamento.asp).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321479,
+            "nome": "**Carta** assinada pelo responsável pela empresa, discriminando os equipamentos e fontes para os quais deseja a declaração de isenção. Documento opcional."
+          },
+          {
+            "id": 321480,
+            "nome": "**Manual** do equipamento emissor de radiação. Caso o Manual seja em língua estrangeira, deve ser fornecido também uma versão em português. Documento é solicitado apenas para os equipamentos que não constam na lista de isentos."
+          },
+          {
+            "id": 321481,
+            "nome": "**Laudo técnico** comprovando que em condições normais o equipamento não causa taxa equivalente de dose ambiente < 1 µSv/h, à distância de 0,1 m das superfícies externas. O laudo deve ser elaborado por instituição reconhecida e independente ou por Supervisor de Proteção Radiológica, que não faça parte da instituição, com a Certificação válida emitida pela CNEN. Laudos emitidos pelo fabricante não serão aceitos. Documento solicitado apenas para os equip. que não constam na lista de isentos."
+          },
+          {
+            "id": 321482,
+            "nome": "****Certificado de Fonte Radioativa** – **Documento opcional."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317646,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2325)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245585,
+      "titulo": "Aguardar Análise da Solicitação",
+      "descricao": "A CNEN irá analisar o requerimento. A solicitação pode retornar ao requerente para o cumprimento de exigências.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317647,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245586,
+      "titulo": "Receber Resultado da Análise da Solicitação",
+      "descricao": "Ao final da análise, a(s) declaração(ões) estará(ão) disponível(is) para download no portal GOV.BR. Nos casos de indeferimento, a justificativa também constará no portal.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317648,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "35",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-isencao-de-requisitos-de-protecao-radiologica-de-equipamentos-geradores-de-radiacao-ionizante-ou-fontes-radioativas",
+  "statusDestaque": false
+}

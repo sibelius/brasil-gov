@@ -1,0 +1,327 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6465",
+  "nome": "Matricular em curso de Educação Superior de Graduação (Licenciatura, Tecnologia e Bacharelado) - IF ES",
+  "sigla": "",
+  "descricao": "Serviço para formalizar o vínculo do(a) aprovado(a) em processo seletivo. As orientações e o calendário de matrícula são definidos por cada campus e divulgados com o resultado final. A lista de documentos exigidos fica publicada na página do campus. Chamada de suplentes pode ocorrer e o início do período letivo segue o Calendário Acadêmico do campus. Serviço gratuito",
+  "flagPortalLogado": "N",
+  "contato": "Na coordenadoria de registro acadêmico do campus.\n\n O endereço e o contato podem ser obtidos pelo link https://www.ifes.edu.br/campi",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ifes.edu.br/processosseletivos/alunos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 110006
+      },
+      {
+        "item": "Curso Superior",
+        "id": 110007
+      },
+      {
+        "item": "Graduação",
+        "id": 110008
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92648,
+        "tipo": "Cidadãos",
+        "requisitos": "Ter sido aprovado em processo seletivo\n\n Possuir ensino médio completo"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100912",
+    "dbId": 36754,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo (IFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 153641
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Bacharelado",
+        "id": 367615
+      },
+      {
+        "item": "Licenciatura",
+        "id": 367616
+      },
+      {
+        "item": "Tecnologia",
+        "id": 367617
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 127691
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 214689,
+      "titulo": "Consultar convocação e calendário do campus",
+      "descricao": "Após a homologação do Resultado Final, acesse ihttps://www.ifes.edu.br/processosseletivos/alunos, confirme sua convocação e consulte o calendário de matrícula do seu campus.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278937,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ifes.edu.br/processosseletivos/alunos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214690,
+      "titulo": "Requerer a matrícula no prazo",
+      "descricao": "Registre o requerimento de matrícula conforme instruções do campus, dentro do cronograma do campus. O requerimento fora do prazo pode implicar perda da vaga.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288980,
+            "nome": "Exigidos no edital"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278938,
+            "tipo": "web",
+            "descricao": "canal indicado pelo campus/portal do processo",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214691,
+      "titulo": "Entregar/enviar a documentação exigida",
+      "descricao": "Anexe/entregue a documentação que o campus publicou (ex.: identificação, conclusão do ensino médio e, se aplicável, documentos de cotas). Aguarde a análise.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288981,
+            "nome": "Conforme edital para o qual se inscreveu."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278939,
+            "tipo": "web",
+            "descricao": "upload/conferência conforme instruções do campus",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 278940,
+            "tipo": "presencial",
+            "descricao": "CRA do campus, se houver entrega física.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214692,
+      "titulo": "Acompanhar homologação e chamadas de suplentes",
+      "descricao": "Acompanhe a homologação da matrícula e eventuais diligências/pendências. Se surgirem vagas, suplentes podem ser convocados por publicação no site do campus.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278941,
+            "tipo": "web",
+            "descricao": "página do campus/portal do processo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214693,
+      "titulo": "Iniciar o período letivo",
+      "descricao": "Após matrícula homologada, verifique o Calendário Acadêmico do campus para conferir a data de início das aulas e orientações iniciais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278942,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/ifes.edu.br/calendario-academico) (calendário do campus).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "79",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-educacao-superior-de-graduacao-licenciatura-tecnologia-e-bacharelado-if-es",
+  "statusDestaque": false
+}

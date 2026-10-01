@@ -1,0 +1,248 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11232",
+  "nome": "Obter restituição de tributos de empregador doméstico",
+  "sigla": "DAE",
+  "descricao": "Solicite a restituição de tributos apurados pelo empregador doméstico pelo eSocial e pagos indevidamente ou a maior. Através deste serviço você também pode:\n\n  * Consultar o andamento dos pedidos; e\n * Alterar dados bancários para pagamento de restituição.\n * Cancelar pedidos em andamento.\n  **Importante:**\n\n  * Este serviço trata apenas de pagamentos realizados pelo Documento de Arrecadação do eSocial (DAE).\n * Para solicitar a restituição de pagamentos realizados em GPS (anteriores a 10/2015) utilize o serviço \"[Obter restituição de tributos federais](https://www.gov.br/pt-br/servicos/obter-restituicao-ressarcimento-ou-reembolso-de-tributos-federais)\" relacionado.",
+  "flagPortalLogado": "N",
+  "contato": "[Manual de orientação do o e-Social](https://www.gov.br/../../esocial/pt-br/documentacao-tecnica/manuais/manual-de-orientacao-do-esocial-mos-v-s-1-0.pdf)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10030",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124543
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104294,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174337
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Devolução",
+        "id": 415125
+      },
+      {
+        "item": "Restituir",
+        "id": 415126
+      },
+      {
+        "item": "Empregador doméstico",
+        "id": 415127
+      },
+      {
+        "item": "Documento de Arrecadação do eSocial",
+        "id": 415128
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Decreto nº 8.373/2014](https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1910-11-11;8373)",
+        "id": 149836
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002#2311139)",
+        "id": 149837
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 101,
+    "negativas": 172
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 243229,
+      "titulo": "Solicitar restituição",
+      "descricao": "1. Acesse o canal abaixo\n\n 2. clique em \"Solicitar Restituição\".\n\n 3. Em seguida, preencha o pedido eletrônico de restituição informando os dados do pagamento realizado indevidamente ou a maior (número do DAE, o período de arrecadação e o valor). Informe também os dados bancários para o pagamento da restituição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 319745,
+            "nome": "Comprovante de pagamento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314173,
+            "tipo": "web",
+            "descricao": "[Minhas Restituições de DAE (eSocial)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10030)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243230,
+      "titulo": "Acompanhar o processamento do pedido",
+      "descricao": "Acompanhe o processamento do pedido no mesmo canal utilizado para solicitar a restituição.\n\n O canal também permite alterar ou cancelar o pedido e alterar os dados bancários.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314174,
+            "tipo": "web",
+            "descricao": "[Minhas Restituições de DAE (eSocial)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10030)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243231,
+      "titulo": "Obter a restituição",
+      "descricao": "No pedido eletrônico de restituição a análise do crédito e pagamento são automatizados.\n\n Os pagamentos são realizados em lotes programados para o dia 20 de cada mês ou dia útil seguinte.\n\n Se o pedido for indeferido (negado), você poderá apresentar manifestação de inconformidade, no prazo de 30 (trinta) dias, contados da data da ciência da decisão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314175,
+            "tipo": "web",
+            "descricao": "[Minhas Restituições de DAE (eSocial)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10030)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10873",
+      "nome": "Obter restituição, ressarcimento ou reembolso de tributos federais"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "37",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-restituicao-de-tributos-do-empregador-domestico",
+  "statusDestaque": false
+}

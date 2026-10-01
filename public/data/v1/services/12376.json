@@ -1,0 +1,176 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12376",
+  "nome": "Verificar autenticidade de Certificado de Regularidade emitido",
+  "sigla": "",
+  "descricao": "Permite  verificar a autenticidade de Certificado de Regularidade emitido por pessoa física ou jurídica inscrita nos Cadastros Técnicos Federais do Ibama (CTF/APP e CTF/AIDA).",
+  "flagPortalLogado": "N",
+  "contato": "* [Serviços Ibama - Central de Atendimento](https://www.gov.br/ibama/pt-br/canais_atendimento/servicos-ibama-central-de-atendimento)\n * [cogiq.sede@ibama.gov.br](mailto:cogiq.sede@ibama.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.ibama.gov.br/ctf/publico/certificado_regularidade_validacao.php",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 113285
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 95265,
+        "tipo": "Pessoas físicas e jurídicas.",
+        "requisitos": "**Requisitos necessários:**\n\n  * CPF ou CNPJ a ser consultado\n * Chave de autenticação (para verificar se o certificado é verdadeiro)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 158112
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 158113
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificado de Regularidade do Ibama",
+        "id": 378850
+      },
+      {
+        "item": "Cadastro Técnico Federal de Atividades e Inst",
+        "id": 378851
+      },
+      {
+        "item": "CTF/AIDA ",
+        "id": 378852
+      },
+      {
+        "item": "Cadastro Técnico Federal de Atividades Potenc",
+        "id": 378853
+      },
+      {
+        "item": "CTF/APP ",
+        "id": 378854
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 6.938, de 31 de agosto de 1981](http://www.planalto.gov.br/ccivil_03/leis/L6938.htm) - Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências.",
+        "id": 133386
+      },
+      {
+        "item": "[Instrução Normativa nº 12, de 20 de agosto de 2021](https://www.gov.br/ibama/pt-br/servicos/cadastros/ctf/ctf-aida/20250702_Compilada_IN12_2021_julho_25.pdf), e alterações - Regulamenta o Cadastro Técnico Federal de Atividades e Instrumentos de Defesa Ambiental (CTF/AIDA).",
+        "id": 133387
+      },
+      {
+        "item": "[Instrução Normativa nº 13, de 23 de agosto de 2021](https://www.gov.br/ibama/pt-br/servicos/cadastros/ctf/ctf-app/ctf-app/20241211_IN_13_2021_atualizada.pdf) e alterações - Regulamenta o Cadastro Técnico Federal de Atividades Potencialmente Poluidoras e/ou Utilizadoras de Recursos Ambientais (CTF/APP).",
+        "id": 133388
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 22,
+    "negativas": 127
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 220929,
+      "titulo": "Consultar Certificado de Regularidade",
+      "descricao": "2. [Acesse o Portal de Serviços do Ibama](https://servicos.ibama.gov.br/ctf/publico/certificado_regularidade_validacao.php)\n 4. Preencha as informações solicitadas: \"CPF/CNPJ\" e \"Chave de Autenticação\"\n 6. Clique em \"Verificar\".",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 294487,
+            "nome": "Não é necessária a apresentação de documentação."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 286692,
+            "tipo": "web",
+            "descricao": "[Acesse o site dos Serviços Ibama](https://servicos.ibama.gov.br/ctf/publico/certificado_regularidade_validacao.php)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "15",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/verificar-autenticidade-de-certificado-de-regularidade-emitido",
+  "statusDestaque": false
+}

@@ -1,0 +1,417 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3307",
+  "nome": "Obter validação de Certificado Suplementar de Tipo  estrangeiro (STC - Supplementary Type Certificate) ou equivalente",
+  "sigla": "",
+  "descricao": "É a emissão de um Certificado Suplementar de Tipo (CST) brasileiro, de acordo com o RBAC 21, com base no STC estrangeiro, para que seja possível a incorporação da modificação em uma aeronave com Certificado de Aeronavegabilidade (CA) brasileiro ou que venha a ter marcas brasileiras.  \n  \nObs: Para a validação de um STC não é necessária a existência de um Acordo Bilateral entre o Brasil e o Estado de Projeto do STC. Porém, quando tal acordo existe, os procedimentos acordados devem ser adotados por ambas as partes envolvidas. Quando não existir o Acordo Bilateral ou documento equivalente, os procedimentos estabelecidos na instrução suplementar IS 21-010 da ANAC devem ser seguidos.  \n  \nLINKS ÚTEIS:  \n  \nPara consultar a [IS 21-010](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-010).  \n  \nPara consultar os [acordos bilaterais](https://sistemas.anac.gov.br/certificacao/Acordos/Acordos.asp).  \n  \nPara obter [informações sobre o andamento de um processo de validação específico](https://sistemas.anac.gov.br/certificacao/PST/index_pst.asp).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "STC",
+        "id": 87467
+      },
+      {
+        "item": "CST de Validação",
+        "id": 87468
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74992,
+        "tipo": "Detentor dos direitos do STC (ou equivalente) que se pretende validar no Brasil.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121464
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121465
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certificado suplementar de tipo",
+        "id": 294917
+      },
+      {
+        "item": "ANAC",
+        "id": 294918
+      },
+      {
+        "item": "suplementar",
+        "id": 294919
+      },
+      {
+        "item": "STC",
+        "id": 294920
+      },
+      {
+        "item": "aeronavegabilidade",
+        "id": 294921
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[IS-21-010 ( item 5.5)](https://sistemas.anac.gov.br/Certificacao/CI/CIDetail.asp?CITipo=IS&CINumero=21-010&CIRev=E)",
+        "id": 100476
+      },
+      {
+        "item": "[Acordos Bilaterais](https://sistemas.anac.gov.br/certificacao/Acordos/Acordos.asp)",
+        "id": 100477
+      },
+      {
+        "item": "[RBAC 21](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 100478
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 19
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n + Respeito;\n + Acessibilidade;\n + Cortesia;\n + Presunção da boa-fé do usuário;\n + Igualdade;\n + Eficiência;\n + Segurança; e\n + Ética.",
+  "etapas": [
+    {
+      "id": 169619,
+      "titulo": "Submeter requerimento",
+      "descricao": "O requerente deverá providenciar, através da sua Autoridade de Aviação Civil (AAC) primária, o envio por-email do requerimento (Formulário F-101-11), ou da carta com informações equivalentes ao formulário, acompanhado da carta de endosso da autoridade primária e da documentação do STC. Os documentos devem estar conforme o acordo bilateral, se houver, ou conforme a IS 21-010, quando não houver acordo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236021,
+            "nome": "[Formulário F-101-11](https://sistemas.anac.gov.br/certificacao/Form/Form.asp)"
+          },
+          {
+            "id": 236022,
+            "nome": "Cópia do STC e seus adendos e, se aplicável, o texto de todas as condições especiais, níveis equivalentes de segurança e isenções de requisitos de aeronavegabilidade, ruído e emissões"
+          },
+          {
+            "id": 236023,
+            "nome": "Uma lista de verificação de cumprimento (compliance checklist), ou documento similar"
+          },
+          {
+            "id": 236024,
+            "nome": "Quando aplicáveis, as marcações e placares requeridos em português ou bilíngue (português e inglês);"
+          },
+          {
+            "id": 236025,
+            "nome": "Suplementos ao Manual de Voo da Aeronave (Aircraft Flight Manual Supplement)  aplicáveis.\n\n Obs: Caso haja acordo bilateral, enviar documentação conforme exigido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222513,
+            "tipo": "e-mail",
+            "descricao": "O requerente deve encaminhar a documentação para o e-mail ccst@anac.gov.br.\n\n Os anexos de cada e-mail não podem ultrapassar 10MB. Alternativamente, o requerente pode informar o local (servidor FTP, Google Drive, etc) onde a documentação pode ser acessada pela ANAC.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169620,
+      "titulo": "Receber ofício de abertura do projeto e pagar TFAC, se aplicável",
+      "descricao": "O requerente receberá um ofício da ANAC informando o número do projeto correspondente e, se aplicável, o valor da Taxa de Fiscalização de Aviação Civil (TFAC) com as orientações para seu recolhimento.\n\n O requerente deverá pagar o valor da TFAC conforme as orientações do ofício de abertura do projeto e enviar comprovação do pagamento à ANAC.\n\n Caso tenha dúvida em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 37599,
+            "descricao": "Se necessário pagamento de TFAC",
+            "documento": [
+              {
+                "id": 236026,
+                "codigo": null,
+                "descricao": "Comprovante de pagamento da TFAC",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28122,
+            "descricao": "Custo varia entre R$ 500,00 e",
+            "moeda": "R$",
+            "valor": " 10.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 37600,
+            "descricao": "Caso se trate de Aeronave não tripulada com PMD até 25 kgf; de Hélice passo fixo; ou de Motor elétrico.",
+            "custo": [
+              {
+                "id": 28119,
+                "descricao": "TFAC 011901",
+                "moeda": "R$",
+                "valor": " 500,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37601,
+            "descricao": "Caso se trate de:  Planador; Balão; Dirigível; Aeronave não tripulada com PMD entre 26 e 150 kgf; Hélice passo variável; Motor alternativo à combustão",
+            "custo": [
+              {
+                "id": 28120,
+                "descricao": "TFAC 011902",
+                "moeda": "R$",
+                "valor": " 2.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37602,
+            "descricao": "Caso se trate de: Aeronave não tripulada com PMD acima de 150 kgf; Motor a turbina à combustão interna; Aviões com PMD acima de 8.620 kgf; ou de Helic",
+            "custo": [
+              {
+                "id": 28121,
+                "descricao": "TFAC 011903",
+                "moeda": "R$",
+                "valor": " 10.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222515,
+            "tipo": "e-mail",
+            "descricao": "A ANAC, por meio do sistema SEI, encaminhará e-mail com o Ofício de abertura do projeto.\n\n O requerente deverá encaminhar o comprovante de pagamento, se aplicável, para o e-mail ccst@anac.gov.br referenciando o número do Ofício de abertura do projeto",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37603,
+            "descricao": "Para emissão da GRU",
+            "canalDePrestacao": [
+              {
+                "id": 222514,
+                "tipo": "web",
+                "descricao": "[Clique aqui](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean).\n\n Caso tenha dúvidas para gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "25",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 25
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169621,
+      "titulo": "Submeter dados técnicos complementares, se requerido",
+      "descricao": "Após a avaliação da documentação recebida no requerimento, eventualmente, a ANAC pode solicitar dados adicionais, quando o requerente deverá enviá-los, mantendo sua AAC primária informada. Essa etapa pode ser iterativa até que todas as pendências sejam atendidas.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236027,
+            "nome": "Informações ou documentos, se requerido"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222516,
+            "tipo": "e-mail",
+            "descricao": "O requerente envia a documentação para o e-mail ccst@anac.gov.br, observando que os anexos a cada e-mail não podem ultrapassar 10MB.  \nAlternativamente, o requerente pode informar o local (servidor FTP, Google Drive, etc) onde a documentação pode ser acessada pela ANAC.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "25",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 25
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169622,
+      "titulo": "Receber o CST de validação",
+      "descricao": "Após a aceitação da documentação, o requerente receberá um ofício junto com o CST de validação emitido pela ANAC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236028,
+            "nome": "Informações ou documentos, se requerido"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222517,
+            "tipo": "e-mail",
+            "descricao": "E-mail enviado pela ANAC através do SEI!",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3306",
+      "nome": "Obter aprovação de Grande Modificação por Certificado Suplementar de Tipo (CST) / Obter aprovação de Grande Alteração por SEGVOO 001 (F-400-04)"
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "27",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-validacao-certificado-suplementar-cst-stc-estrangeiro",
+  "statusDestaque": false
+}

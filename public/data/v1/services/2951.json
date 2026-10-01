@@ -1,0 +1,182 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2951",
+  "nome": "Consultar Boletim de Ocorrências Policiais da PRF",
+  "sigla": "BOP",
+  "descricao": "Por meio deste serviço o usuário poderá consultar o formulário de registro ocorrências policiais registradas na PRF.",
+  "flagPortalLogado": "N",
+  "contato": "Serviço prestado em aplicação online.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://bop.prf.gov.br/bop/consultaBoletim.xhtml",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 33982
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 33133,
+        "tipo": "Qualquer pessoa envolvida em ocorrência policial registrada pela PRF ou seu representante legal pode utilizar esse serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 53178
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 53179
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 53180
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 53181
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Crimes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "consulta",
+        "id": 119454
+      },
+      {
+        "item": "boletim",
+        "id": 119455
+      },
+      {
+        "item": "ocorrencia",
+        "id": 119456
+      },
+      {
+        "item": "policial",
+        "id": 119457
+      },
+      {
+        "item": "rodovia",
+        "id": 119458
+      },
+      {
+        "item": "polícia",
+        "id": 119459
+      },
+      {
+        "item": "rodovia",
+        "id": 119460
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 34892
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 310,
+    "negativas": 1638
+  },
+  "condicoesAcessibilidade": "Serviço prestado em aplicação online.",
+  "tratamentoPrioritario": "Serviço prestado em aplicação online.",
+  "tratamentoDispensadoAtendimento": "Serviço prestado em aplicação online.",
+  "etapas": [
+    {
+      "id": 69685,
+      "titulo": "Obter cópia da ocorrência",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 98584,
+            "nome": "Número da ocorrência e sua respectiva chave de acesso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 89535,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://bop.prf.gov.br/bop/consultaBoletim.xhtml)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "16",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-boletim-de-ocorrencias-policiais-da-PRF-BOP",
+  "statusDestaque": false
+}

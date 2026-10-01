@@ -1,0 +1,180 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9771",
+  "nome": "Notificar suspeita de doenças em animais",
+  "sigla": "e-SISBRAVET",
+  "descricao": "A notificação imediata ao Serviço Veterinário Oficial de ocorrências de determinadas doenças animais é de fundamental importância para a proteção da pecuária nacional e da saúde pública. Pode ser feita presencialmente ou por telefone em qualquer instância do Serviço Veterinário Oficial, representado pelos Órgãos Estaduais de Sanidade Agropecuária e pelas Superintendências Federais de Agricultura do Ministério da Agricultura, Pecuária e Abastecimento. A notificação também pode ser realizada diretamente no sistema [e-SISBRAVET](http://sistemasweb.agricultura.gov.br/sisbravet/manterNotificacao!abrirFormInternet.action).",
+  "flagPortalLogado": "N",
+  "contato": "Coordenação-Geral de Planejamento e Avaliação Zoossanitária - CGPZ/DSA/MAPA  \nE-mail: cgpz.dsa@agro.gov.br  \nTel: (61) 3218-2654",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sistemasweb.agricultura.gov.br/sisbravet/manterNotificacao!abrirFormInternet.action",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 56851
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 52175,
+        "tipo": "Qualquer cidadão, bem como para todo profissional que atue na área de diagnóstico, ensino ou pesquisa em saúde animal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "12",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 12
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308793",
+    "dbId": 58142,
+    "nomeOrgao": "Ministério da Agricultura e Pecuária (MAPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 82381
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 82382
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 82383
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 82384
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Monitoramento"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Notificação",
+        "id": 196730
+      },
+      {
+        "item": "Doenças em animais",
+        "id": 196731
+      },
+      {
+        "item": "Saúde animal",
+        "id": 196732
+      },
+      {
+        "item": "e-SISBRAVET",
+        "id": 196733
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Decreto 5.741, de 30/03/06](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5741.htm)",
+        "id": 64558
+      },
+      {
+        "item": "[Instrução Normativa MAPA nº 50, de 23/09/13](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/31061237/do1-2013-09-25-instrucao-normativa-n-50-de-24-de-setembro-de-2013-31061233)",
+        "id": 64559
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 34,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 113588,
+      "titulo": "Notificar doença ao Serviço Veterinário Oficial",
+      "descricao": "Qualquer cidadão, organização ou instituição que tenha animais sob sua responsabilidade ou que tenha conhecimento de casos suspeitos ou casos confirmados das doenças listadas, deve notificar ao SVO, em conformidade com os prazos estabelecidos na IN MAPA 50/2013. A notificação é classificada para atendimento em até 12 horas pela instância local do SVO que será responsável pela investigação, se aplicável, de acordo com a doença notificada.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 159277,
+            "nome": "Dados da localização dos animais suspeitos ou doentes e descrição dos sinais apresentados. Se disponível, laudo de teste realizado."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145591,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sistemasweb.agricultura.gov.br/sisbravet/manterNotificacao!abrirFormInternet.action)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "12",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 12
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "74",
+  "url": "https://www.gov.br/pt-br/servicos/notificar-suspeita-de-doencas-em-animais",
+  "statusDestaque": false
+}

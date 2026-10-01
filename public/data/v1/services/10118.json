@@ -1,0 +1,274 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10118",
+  "nome": "Solicitar Alteração de Endereço no e-MEC",
+  "sigla": "",
+  "descricao": "Serviço destinado ao processo de atualização dos endereços de Instituições de Educação Superior (IES) no sistema e-MEC em quatro situações:\n\n ● Endereço extinto (quando o local não existe mais);\n\n ● Alteração de sede (mudança do endereço principal);\n\n ● Mudança por prefeitura (ajuste de logradouro por ação municipal);\n\n ● CEP inexistente (inclusão de CEP não cadastrado). \n\n **Observação:** Para mudança de endereço de cursos, use o fluxo específico no e-MEC.",
+  "flagPortalLogado": "S",
+  "contato": "*  Telefone: (61) 2022-8199\n\n \n *  Portal: Núcleo de Apoio SERES",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Extinção de endereço antigo",
+        "id": 126114
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105495,
+        "tipo": "Perfis habilitados no e-MEC:",
+        "requisitos": "* Procurador Institucional (PI) da IES;\n * Auxiliar Institucional (AI) com direitos de PI;\n * Representante Legal (RL) da IES."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176337
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Endereço da IES",
+        "id": 420051
+      },
+      {
+        "item": "Alteração de SEDE",
+        "id": 420052
+      },
+      {
+        "item": "Extinção de Endereço",
+        "id": 420053
+      },
+      {
+        "item": "CEP Inexistente",
+        "id": 420054
+      },
+      {
+        "item": "Inserir CEP",
+        "id": 420055
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 9.235/2020\n\n Portaria Normativa nº 21/2017\n\n Decreto nº 12.456/2025\n\n  \n\n Este é um serviço do Ministério da Educação (MEC). Para dúvidas, utilize os canais oficiais",
+        "id": 151371
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 45,
+    "negativas": 77
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 246193,
+      "titulo": "Preencher formulário",
+      "descricao": "* Acesse: Formulário: [Clique aqui](https://emec.mec.gov.br/modulos/visao_comum/php/login/comum_login.php \"Clique aqui\")\n * Documentos necessários (conforme o tipo de solicitação):     **Tipo de alteração** **O que enviar**   Endereço extinto Formulário I + lista de endereços a extinguir (em tabela)   Alteração de sede Formulário II + dados do novo endereço   Mudança por prefeitura Formulário III + comprovante da alteração municipal   CEP inexistente Formulário IV + detalhes do novo endereço",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 48868,
+            "descricao": "I. ENDEREÇO EXTINTO",
+            "documento": [
+              {
+                "id": 322066,
+                "codigo": null,
+                "descricao": "Formulário de Solicitação I, contendo:\n\n  * Código e Nome da IES; Indicação do Tipo da Solicitação = ENDEREÇO EXTINTO;\n * Código e-MEC do(s) endereço(s) a extinguir;\n * Descrição do(s) endereço(s) a ser extinguir (Logradouro, CEP, Município/UF).\n  Obs: Se for mais de um endereço, enviar a relação de endereços em formato de tabela para facilitar o atendimento.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48869,
+            "descricao": "II. ALTERAÇÃO DE SEDE",
+            "documento": [
+              {
+                "id": 322067,
+                "codigo": null,
+                "descricao": "Formulário de Solicitação II, contendo:\n\n  * Código e Nome da IES; Indicação do Tipo da Solicitação = ALTERAÇÃO DE SEDE;\n * Código e-MEC do endereço da nova sede;\n * Descrição do endereço da nova sede (Logradouro, CEP, Município/UF)\n  Obs: Se existem cursos na sede antiga que também terão mudança de endereço, realizar primeiro a solicitação de mudança de endereço dos cursos e depois solicitar a mudança da sede para que o novo endereço já seja inserido no Cadastro e-MEC.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48870,
+            "descricao": "III. MUDANÇA DO ENDEREÇO PELA PREFEITURA",
+            "documento": [
+              {
+                "id": 322068,
+                "codigo": null,
+                "descricao": "Formulário de Solicitação III, contendo:\n\n  * Código e Nome da IES; Indicação do Tipo da Solicitação = MUDANÇA DO ENDEREÇO PELA PREFEITURA;\n * Código e-MEC do endereço para adequação;\n * Texto indicando qual informação foi alterada pela Prefeitura; Descrição do endereço adequado (Logradouro, Nº, Bairro, CEP, Município/UF);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322069,
+                "codigo": null,
+                "descricao": "Documento que comprove a alteração realizada pela Prefeitura e que não houve mudança real das instalações.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48871,
+            "descricao": "IV.\tCEP INEXISTENTE",
+            "documento": [
+              {
+                "id": 322070,
+                "codigo": null,
+                "descricao": "Formulário de Solicitação IV, contendo:\n\n  * Código e Nome da IES; Indicação do Tipo da Solicitação = CEP INEXISTENTE;\n * CEP a ser inserido;\n * Descrição do endereço que se deseja inserir (Logradouro, Nro, Bairro, CEP, Município/UF).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318409,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=10118)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318410,
+            "tipo": "postal",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318411,
+            "tipo": "presencial",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246194,
+      "titulo": "Acompanhar resultado",
+      "descricao": "* **Se aprovado:** Alteração realizada automaticamente no e-MEC.\n * **Se negado: **\n  + Consulta no Sistema e-MEC: [Clique aqui](https://emec.mec.gov.br/emec/nova \"Clique aqui\")\n + Notificação por e-mail ou no sistema.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318412,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://emec.mec.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "37",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-alteracao-referente-a-endereco-da-ies-no-cadastro-e-mec",
+  "statusDestaque": false
+}

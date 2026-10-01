@@ -1,0 +1,171 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9485",
+  "nome": "Emitir comprovantes escolares de cursos realizados em parceria com a Fundacentro entre 1973 a 1986",
+  "sigla": "",
+  "descricao": "Atender às solicitações de documentos (segunda via de certificado, histórico escolar e declaração de conclusão de curso) referentes a cursos realizados no período de 1973 a 1986 por instituições em convênio com a Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho (Fundacentro) mediante busca nos bancos de dados digitalizados.\n\n Caso o documento solicitado conste nos arquivos, será emitida segunda via para atendimento de solicitações individuais.",
+  "flagPortalLogado": "N",
+  "contato": "Serviço de Cursos e Eventos\n\n E-mail:[ fundacentroescuta@fundacentro.gov.br](mailto:%20fundacentroescuta@fundacentro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 26757
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 27164,
+        "tipo": "Solicitações podem ser realizadas por profissionais que fizeram estes cursos ou por suas entidades de classes.",
+        "requisitos": "**Requisitos necessários**: ser ex-aluno do curso cuja documentação é solicitada ou ser representante de Conselho de Classe para validação dos certificados."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/221",
+    "dbId": 34308,
+    "nomeOrgao": "Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho (FUNDACENTRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 43019
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para Todos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cursos fundacentro",
+        "id": 96003
+      },
+      {
+        "item": "documentos cursos fundacentro,",
+        "id": 96004
+      },
+      {
+        "item": "cursos antigos fundacentro",
+        "id": 96005
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 26651
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 24,
+    "negativas": 31
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 56557,
+      "titulo": "Solicitar comprovante",
+      "descricao": "As solicitações são feitas  via e-mail O interessado poderá solicitar documentos, como: segunda via de certificado, histórico escolar e declaração de conclusão de curso.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 83603,
+            "nome": "Para atendimento às solicitações são necessárias as seguintes informações: CPF, nome do aluno, certificado (caso possua), data de conclusão do curso, Instituição onde foi realizado."
+          }
+        ],
+        "casos": [
+          {
+            "id": 6904,
+            "descricao": "Enfermagem do Trabalho",
+            "documento": [
+              {
+                "id": 83602,
+                "codigo": null,
+                "descricao": "Portarias nº 3.442/74, nº 3.460/75 e nº 3.214/78.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 72440,
+            "tipo": "e-mail",
+            "descricao": "Encaminhe um [e-mail](mailto:fundacentroescuta@fundacentro.gov.br) com as seguintes informações: \n\n  * CPF\n * Nome Completo\n * Tipo do Doc. Solicitado: 2ª via do Certificado, Histórico escolar ou Declaração de Conclusão de Curso\n * Ano de Conclusão\n * Curso Realizado: Aux. de enfermagem / Enf. do Trab. / Eng. de Seg. do Trab. / Médico do Trab. / Supervisor ou Téc. de Seg. do Trab.\n * Nome da instituição de ensino\n   Anexe qualquer documento que facilite o levantamento dos documentos solicitados.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "44",
+  "url": "https://www.gov.br/pt-br/servicos/emissao-de-documentacao-de-cursos-realizados-em-parceria-com-a-fundacentro-entre-1973-a-1986",
+  "statusDestaque": false
+}

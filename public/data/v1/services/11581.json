@@ -1,0 +1,255 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11581",
+  "nome": "Obter o Certificado Nacional de Vacinação COVID-19",
+  "sigla": "",
+  "descricao": "O Certificado Nacional de Vacinação Covid-19 é um documento que comprova a vacinação do cidadão contra a Covid-19. O Ministério da Saúde disponibiliza, por meio do **Meu SUS Digital**, a possibilidade do cidadão visualizar, salvar e imprimir o seu certificado.\n\n Após a conclusão do ciclo vacinal, o registro da vacinação deverá ser inserido nos sistemas de informação integrados à Rede Nacional de Dados em Saúde (RNDS), Sistema de Informações do Programa Nacional de Imunizações (SI-PNI), Sistema e-SUS Atenção Primária à Saúde (e-SUS APS) ou outros sistemas próprios, definidos pelos estados e municípios. Com esses dados enviados e processados para a RNDS/Ministério da Saúde, os dados são apresentados de forma automática no Meu SUS Digital. A partir desse momento, o cidadão poderá emitir o certificado no serviço vacina do aplicativo ou na versão web do Meu SUS Digital.\n\n Para o viajante: Apesar de não existir uma normativa internacional publicada, alguns países estão aceitando o Certificado Nacional de Vacinação contra a Covid-19 como comprovante de vacinação. O Certificado está disponível nos seguintes idiomas: português, inglês e espanhol.",
+  "flagPortalLogado": "N",
+  "contato": "Este é um serviço do Departamento de Informática do SUS (Datasus), do Ministério da Saúde. Em caso de dúvidas, reclamações ou sugestões favor contactá-los. Se você entrou em contato e não conseguiu resolver o seu problema, a Ouvidoria-Geral do SUS pode avaliar o seu caso. Entre em contato por um dos canais de atendimento disponibilizados:  \n\n  * Disque Saúde 136 \n * [Internet ](https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvidoria-do-sus)\n * Carta \n * Atendimento presencial",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meususdigital.saude.gov.br/inicio",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado COVID-19",
+        "id": 123268
+      },
+      {
+        "item": "Certificado Vacinação COVID-19",
+        "id": 123269
+      },
+      {
+        "item": "CNVC",
+        "id": 123270
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103008,
+        "tipo": "Todos os cidadãos que tiveram o ciclo vacinal finalizado contra a Covid-19 e tiveram seu Registro de Imunobiológico Administrado enviado à Rede Nacional de Dados em Saúde.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "1",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "No momento, este documento é válido somente em território nacional e não possui data de expiração.  ** **"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172290
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Informações e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificado",
+        "id": 410219
+      },
+      {
+        "item": "Vacinação",
+        "id": 410220
+      },
+      {
+        "item": "COVID-19",
+        "id": 410221
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "<https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-69-de-14-de-janeiro-de-2021-299306102>[2](https://soquasa.com.br)",
+        "id": 148159
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7491,
+    "negativas": 9916
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 240351,
+      "titulo": "Realizar o registro ao tomar a vacina",
+      "descricao": "Ao tomar a dose integral da vacina (dependendo do imunizante - duas doses ou dose única) em um Centro de Imunização ou em uma Unidade Básica de Saúde (UBS), será realizado o registro, pelo profissional responsável, em sistema de informação ou em papel. No último caso, há um processo de digitação, organizado pela Vigilância Epidemiológica local, que em alguns casos pode ou não ser realizado pelo vacinador.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310324,
+            "tipo": "presencial",
+            "descricao": ".",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240352,
+      "titulo": "Acompanhar o registro",
+      "descricao": "Você pode acompanhar o registro da vacina no sistema de informação com a equipe do estabelecimento de saúde ou Secretarias estaduais ou municipais de saúde. Certificar se os registros foram transmitidos à Rede Nacional de Dados em Saúde do Ministério da Saúde.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310325,
+            "tipo": "web",
+            "descricao": "Web :    Por meio do aplicativo ou da versão web do Meu SUS Digital [https://meususdigital.saude.gov.br/](https://meususdigital.saude.gov.br/ \"https://meususdigital.saude.gov.br/inicio\")[  \n](https://conectesus.saude.gov.br/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310326,
+            "tipo": "aplicativo-movel",
+            "descricao": "Google Play - [https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&pcampaignid=web\\_share  \n](https://play.google.com/store/apps)\n\n Apple Store  - [https://apps.apple.com/br/app/meu-sus-digital/id1045754608](https://apps.apple.com/br/app/meu-sus-digital/id1045754608 \"https://apps.apple.com/br/app/meu-sus-digital/id1045754608\")[  \n](https://apps.apple.com/br/app/apple-store/id375380948)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240353,
+      "titulo": "Emitir Certificado",
+      "descricao": "Identifique na tela \"Início\" a aba \"Minha Saúde\" e clique no botão \"Vacinas\" e acesse a aba \"Documentos\". Clique em \"Certificado de Vacinação Nacional de Covid-19\" e em \"Exportar Documento\". Escolha o idioma e o padrão desejado e clique no ícone \"PDF\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310327,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://meususdigital.saude.gov.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310328,
+            "tipo": "aplicativo-movel",
+            "descricao": "Google Play - [https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&pcampaignid=web\\_share  \n](https://play.google.com/store/apps)\n\n Apple Store  - [https://apps.apple.com/br/app/meu-sus-digital/id1045754608](https://apps.apple.com/br/app/meu-sus-digital/id1045754608 \"https://apps.apple.com/br/app/meu-sus-digital/id1045754608\")[  \n](https://apps.apple.com/br/app/apple-store/id375380948)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/certificado-nacional-de-vacinacao-covid-19",
+  "statusDestaque": true
+}

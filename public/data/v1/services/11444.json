@@ -1,0 +1,196 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11444",
+  "nome": "Obter autorização para acesso  e saída de caminhões no Porto de Itaguaí.",
+  "sigla": "",
+  "descricao": "Através deste serviço as transportadoras deverão programar as entradas e saídas de caminhões no Porto de Itaguaí.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: [gerait@portosrio.gov.br](mailto:gerait@portosrio.gov.br) ou telefone (21) 2219-8600 ramal 8655",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://agendamentoitg.portosrio.gov.br/docas",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Agendamento de caminhões",
+        "id": 118846
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 99393,
+        "tipo": "Transportadoras e terminais arrendados do Porto de Itaguaí.",
+        "requisitos": "Ser representante das transportadoras ou das arrendatárias que tenham cadastro ativo no sistema SGAD, concedido através do link https://sgad.portosrio.gov.br/"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "20",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 20
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/180",
+    "dbId": 8275,
+    "nomeOrgao": "Companhia Docas do Rio de Janeiro (CDRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 165778
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Agendamento de caminhões",
+        "id": 396579
+      },
+      {
+        "item": "Porto de Itaguaí",
+        "id": 396580
+      },
+      {
+        "item": "Acesso ao Porto de Itaguaí",
+        "id": 396581
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "1 - Lei dos Portos nº 12.815/2013 – Link - http://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2013/lei/l12815.htm",
+        "id": 140571
+      },
+      {
+        "item": "2 - Regulamento de Exploração dos Portos – CDRJ – link: [http://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO\\_DE\\_EXPLORACAO\\_DOS\\_PORTOS\\_0.pdf](http://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO_DE_EXPLORACAO_DOS_PORTOS_0.pdf)",
+        "id": 140572
+      },
+      {
+        "item": "Instrumento Normativo de Acesso Rodoviário ao  Porto de Itaguaí n°13.008\n\n <https://www.portosrio.gov.br/index.php/pt-br/institucional/instrumentos-normativos/in-gerait-13.008>",
+        "id": 140573
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "Não há necessidade de atendimento presencial, no entanto, a Gerência de Acesso Terrestre permanece à disposição do usuário, no prédio administrativo do Porto de Itaguaí.",
+  "tratamentoPrioritario": "Não há tratamento prioritário.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 232094,
+      "titulo": "Agendar caminhão",
+      "descricao": "O usuário deverá acessar o link <https://agendamentoitg.portosrio.gov.br/>. No “login” informar o CNPJ, sem pontos e traços, e a senha inicial informada pelo gerência de acesso terrestre ou pelo terminal arrendado.Aguardar a validação da arrendatária a que se destina a carga. Após aprovação, receberá um QrCode, através do próprio sistema de agendamento ou no e-mail cadastrado, para apresentar na portaria do porto.** **",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 307289,
+            "nome": "Informar CNH, placa do veículo, destino, nome da transportadora, motivo do acesso ao porto e a empresa validadora (arrendatária que irá confirmar o agendamento)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 46678,
+            "descricao": "Em caso de carga perigosa",
+            "documento": [
+              {
+                "id": 307288,
+                "codigo": null,
+                "descricao": "Anexar documentação de carga perigosa.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300204,
+            "tipo": "web",
+            "descricao": "Para agendar: <https://agendamentoitg.portosrio.gov.br/docas>\n\n Em caso de dúvidas enviar e-mail: [gerait@portosrio.gov.br](mailto:gerait@portosrio.gov.br)\n\n Telefone: (21) 2219-8600 ramal 8655\n\n [  \n](http://www.superviario.com.br/login.aspx)[](http://www.superviario.com.br/login.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 46679,
+            "descricao": "Usuário que não fala português",
+            "canalDePrestacao": [
+              {
+                "id": 300203,
+                "tipo": "e-mail",
+                "descricao": "Usuário que não fala português deverá encaminhar e-mail para [**gerait@portosrio.gov.br**](mailto:gerait@portosrio.gov.br)**) **",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-pedido-de-acesso-aquaviario-para-os-portos-administrados-pela-cdrj",
+  "statusDestaque": false
+}

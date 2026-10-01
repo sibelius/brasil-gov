@@ -1,0 +1,418 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11247",
+  "nome": "Emitir certidão de regularidade fiscal de obra",
+  "sigla": "CND",
+  "descricao": "Regularize a sua obra de construção civil e emita a certidão de regularidade fiscal para averbá-la no cartório de registro de imóveis ou para outras finalidades.\n\n A certidão de regularidade fiscal de obra de construção civil certifica a regularidade dos pagamentos de contribuições sociais referentes a uma obra inscrita no Cadastro Nacional de Obras (CNO) e submetida a aferição (verificação e cálculo) por meio do Serviço Eletrônico Para Aferição de Obras (Sero).\n\n A certidão ficará disponível para emissão pela internet após concluir os procedimentos de regularização da obra.\n\n Através deste serviço você também poderá retificar ou cancelar uma aferição (processo de regularização da obra). As funcionalidades estão disponíveis ao acessar o Sero.\n\n **Atenção:** Abra um processo digital nos seguintes casos:\n\n  * emissão/renovação de certidão com aferição efetuada em DISO/ARO até 31/05/2021;\n * se a certidão não for automaticamente liberada ou depender de comprovação de algum fato (medida judicial, por exemplo).",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre construção civil](https://www.gov.br/../../receitafederal/pt-br/assuntos/construcao-civil)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122995
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102797,
+        "tipo": "Somente o responsável pela obra de construção civil pode regularizá-la. Após a regularização, qualquer pessoa pode emitir a certidão.",
+        "requisitos": "**Podem ser responsáveis pela obra:**\n\n  * o **proprietário** do imóvel, o **dono** da obra ou o **incorporador**;\n * a **construtora**, quando contratada por empreitada total;\n * o **líder do consórcio**, quando contratada por empreitada total feito em nome das sociedades consorciadas; ou\n * o **consórcio**, quando contratado por empreitada total feito em seu nome.\n  Para regularizar a obra e emitir a certidão, ela precisa estar inscrita no Cadastro Nacional de Obras (CNO)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171871
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171872
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171873
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171874
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Atendimento",
+        "id": 409268
+      },
+      {
+        "item": "Certidão",
+        "id": 409269
+      },
+      {
+        "item": "Construção Civil",
+        "id": 409270
+      },
+      {
+        "item": "Obra",
+        "id": 409271
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.061/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=122299#2314933)",
+        "id": 147790
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.021/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116968)",
+        "id": 147791
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2163,
+    "negativas": 10105
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239790,
+      "titulo": "Regularizar a aferição da obra",
+      "descricao": "Acesse o Sero para iniciar o processo de aferição.\n\n Informe os dados da obra para que o sistema calcule as contribuições sociais devidas e, ao final emita o DARF para pagar eventuais valores devidos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 316168,
+            "nome": "Alvará de construção ou projeto licenciado da obra;"
+          },
+          {
+            "id": 316169,
+            "nome": "Habite-se da obra."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309592,
+            "tipo": "web",
+            "descricao": "[Minhas Aferições de Obra](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10031)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239791,
+      "titulo": "Obter a certidão de regularidade fiscal da obra",
+      "descricao": "Após a aferição da obra e o pagamento das contribuições devidas, acesse o canal abaixo para emitir a Certidão Negativa de Débitos (CND) relativa à obra.\n\n Se houver débitos a vencer ou dívidas suspensas (parceladas, por exemplo) o sistema emitirá a Certidão Positiva com Efeitos de Negativa de Débitos (CPEND) que também pode ser utilizada para averbar a obra no registro de imóveis.\n\n Havendo dívidas vencidas ou pendências no Sero, a certidão não será emitida.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309593,
+            "tipo": "web",
+            "descricao": "[CertidÃµes Federais (CND)](https://servicos.receitafederal.gov.br/servico/certidoes/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239792,
+      "titulo": "Consultar pendências",
+      "descricao": "Se não for possível emitir a certidão pela internet, consulte sua situação fiscal, nos canais abaixo, para verificar as pendências que impedem a emissão da certidão. A certidão será liberada automaticamente de 2 a 5 dias após a regularização das pendências.\n\n Se a certidão não for automaticamente liberada ou depender de comprovação de algum fato (medida judicial, por exemplo), solicite a liberação por meio de processo digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309594,
+            "tipo": "web",
+            "descricao": "[Minhas Dívidas e Pendências](https://servicos.receitafederal.gov.br/servico/pendencias) (Aferição em DISO/ARO até 31/05/2021)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309595,
+            "tipo": "web",
+            "descricao": "[Minhas Aferições de Obra](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10031) (Consultar relatório de apoio - aferição a partir de  01/06/2021)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239793,
+      "titulo": "Abrir processo digital nos casos de aferição efetuada em DISO/ARO até 31/05/2021 ou certidão não liberada automaticamente",
+      "descricao": "1. Abra o processo em Solicitar serviço via processo digital.\n\n 2, Escolha a área \"Certidões e Atestados\",\n\n 3. Selecione o serviço \"Emitir, renovar ou anular certidão de obra\" e indique o número do CNO da obra.\n\n Em seguida, junte (inclua) os documentos necessários, em arquivos separados e classificados por tipo.\n\n Abra um processo para cada obra. Documentos sem relação com o serviço serão rejeitados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 316172,
+            "nome": "Alvará de construção ou projeto licenciado da obra;"
+          },
+          {
+            "id": 316173,
+            "nome": "Habite-se da obra;"
+          },
+          {
+            "id": 316174,
+            "nome": "Comprovação de regularização das pendências."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48040,
+            "descricao": "Aferição realizado por DISO/ARO até 31/05/2021:",
+            "documento": [
+              {
+                "id": 316170,
+                "codigo": null,
+                "descricao": "DISO e ARO, relatório de situação fiscal atualizado do responsável pela obra.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48041,
+            "descricao": "Aferição  realizada pelo SERO (a partir de 01/06/2021):",
+            "documento": [
+              {
+                "id": 316171,
+                "codigo": null,
+                "descricao": "Relatório de apoio emitido no sistema SERO.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309596,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309597,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239794,
+      "titulo": "Acompanhar o resultado do processo",
+      "descricao": "A informação do resultado será juntada ao seu processo. Clique na opção \"Meus Processos\" e consulte os documentos para saber se o seu pedido foi aprovado ou não. Em algumas situações o processo é arquivado após a decisão. Neste caso, você encontrará o processo na aba \"Inativos\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309598,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309599,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10699",
+      "nome": "Inscrever ou atualizar cadastro de obra de construção civil."
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11248",
+      "nome": "Anular certidão de regularidade fiscal de obra"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10665",
+      "nome": "Consultar Cadastro Nacional de Obras de Construção Civil (CNO) na Receita Federal"
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "18",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-de-obra",
+  "statusDestaque": false
+}

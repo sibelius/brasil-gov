@@ -1,0 +1,263 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8999",
+  "nome": "Realizar exame de mamografia bilateral - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "É um exame radiológico, realizado por meio de Raios X com a principal finalidade de fazer o diagnóstico de câncer de mama em estágio inicial (rastreio). Além da finalidade de rastreio a mamografia pode ser utilizada no esclarecimento de dúvidas de alterações palpáveis referidas pela paciente ou pelo médico assistente (diagnóstica).",
+  "flagPortalLogado": "N",
+  "contato": "**Endereço:** Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF\n\n Avenida Rui Barbosa 716 Flamengo - CEP: 22250-020 - Rio de Janeiro , RJ\n\n **Telefone:** (21) 2554-1787\n\n **Site: **<http://www.iff.fiocruz.br>\n\n **Horário de atendimento: **O IFF funciona para atendimento ambulatorial em horário administrativo das 08:00 às 17:00h. O atendimento será realizado no horário agendado pelo SISREG.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 28504
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 28515,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "Para ter acesso ao serviço a paciente deverá ter sido encaminhada através do Sistema de Regulação - SISREG ou através de solicitação dos médicos dos ambulatórios de Ginecologia do IFF, após atendimento ambulatorial realizado à paciente."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 45448
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diagnóstico",
+        "id": 101542
+      },
+      {
+        "item": "Câncer de mama",
+        "id": 101543
+      },
+      {
+        "item": "Mamografia",
+        "id": 101544
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 28642
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 15
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 59506,
+      "titulo": "Realizar procedimentos de identificação",
+      "descricao": "Na recepção do IFF apresentar documento de identificação pessoal. No Arquivo Médico identificar-se para abertura do prontuário e geração do Cartão de Identificação IFF. Na recepção do Serviço de Radiologia, entregar o Cartão de Identificação IFF e a Guia de Encaminhamento do SISREG para registro na Agenda Eletrônica e efetivação no Sistema de Regulação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 86808,
+            "nome": "Carteira de Identidade"
+          }
+        ],
+        "casos": [
+          {
+            "id": 7244,
+            "descricao": "Pacientes SISREG",
+            "documento": [
+              {
+                "id": 86807,
+                "codigo": null,
+                "descricao": "Guia de Encaminhamento do SISREG",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 76385,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção de entrada do IFF, no Arquivo Médico e na recepção do Serviço de Radiologia. \n\n Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nAvenida Rui Barbosa, 716 - Flamengo - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 59507,
+      "titulo": "Realizar exame de Mamografia",
+      "descricao": "Consiste na realização efetiva do estudo das mamas através dos Raios X.  Neste momento a Técnica de Imagem realiza uma pequena anamnese.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 7245,
+            "descricao": "Pacientes indicados pelos médicos do IFF",
+            "documento": [
+              {
+                "id": 86809,
+                "codigo": null,
+                "descricao": "Pedido Médico",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 76386,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na Sala do Mamógrafo.\n\n   \nInstituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nAvenida Rui Barbosa, 716 - Flamengo - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 59508,
+      "titulo": "Receber resultado da Mamografia",
+      "descricao": "Esta etapa consiste na entrega do exame e do laudo para a paciente.  \n\n Obs.: O tempo de espera entre a realização do exame e o recebimento do resultado poderá levar até 10 dias",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 86810,
+            "nome": "Carteira de Identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 76387,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na Recepção do Serviço de Radiologia.\n\n   \nInstituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nAvenida Rui Barbosa 716 Flamengo - Rio de Janeiro , RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "44",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-exame-de-mamografia-bilateral",
+  "statusDestaque": false
+}

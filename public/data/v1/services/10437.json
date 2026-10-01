@@ -1,0 +1,231 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10437",
+  "nome": "Inscrever no CPF no exterior",
+  "sigla": "",
+  "descricao": "O Cadastro de Pessoas Físicas (CPF) é um banco de dados gerenciado pela Receita Federal do Brasil (RFB), que armazena informações cadastrais de contribuintes obrigados à inscrição no CPF ou de cidadãos que se inscreveram voluntariamente.\n\n Para brasileiros residentes no exterior, não é necessário comparecer à Repartição Consular. O serviço de inscrição no CPF é prestado preferencialmente pelo e-mail da Receita Federal ([cpf.residente.exterior@rfb.gov.br](mailto:cpf.residente.exterior@rfb.gov.br)), exceto nos casos de registros de nascimento no exterior, quando a solicitação do CPF será feita concomitantemente ao registro consular.\n\n Para estrangeiros residentes no exterior, a solicitação deve ser feita presencialmente em um posto da rede consular brasileira.",
+  "flagPortalLogado": "N",
+  "contato": "[Receita Federal](http://www.receita.fazenda.gov.br/Aplicacoes/ATCTA/CPF/ConsultaPublica.asp)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.receita.fazenda.gov.br/Servicos/CPF/cpfEstrangeiro/Fcpf.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "CPF",
+        "id": 70311
+      },
+      {
+        "item": "Tirar CPF",
+        "id": 70312
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 62377,
+        "tipo": "Cidadãos brasileiros e estrangeiros podem solicitar a inscrição no CPF.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/263",
+    "dbId": 37539,
+    "nomeOrgao": "Ministério das Relações Exteriores (MRE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 98143
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pessoa Física (CPF)"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CPF",
+        "id": 240263
+      },
+      {
+        "item": "Inscrição no CPF",
+        "id": 240264
+      },
+      {
+        "item": "Receita Federal",
+        "id": 240265
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 79439
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 678,
+    "negativas": 1040
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 139233,
+      "titulo": "Brasileiros residentes no exterior",
+      "descricao": "Preencher o formulário online no site da Receita Federal\n\n <https://servicos.receita.fazenda.gov.br/Servicos/CPF/cpfEstrangeiro/Fcpf.asp>.\n\n Atenção: o bloqueador de \"pop-ups\" do navegador deve estar desabilitado. Caso contrário, não será possível enviar a solicitação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196598,
+            "nome": "Envie um e-mail para cpf.residente.exterior@rfb.gov.br contendo:"
+          },
+          {
+            "id": 196599,
+            "nome": "[FCPF](https://servicos.receita.fazenda.gov.br/Servicos/CPF/cpfEstrangeiro/Fcpf.asp) preenchida e assinada;\n\n Documento de identificação;\n\n Certidão de nascimento ou de casamento;\n\n \"Selfie\" em que apareça segurando seu documento de identificação aberto, próximo ao rosto;\n\n Para menores de 16 anos: \"selfie\" do pai ou mãe, segurando seu próprio documento de identificação (não o do menor)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 28980,
+            "descricao": "Atendimento na Repartição Consular",
+            "documento": [
+              {
+                "id": 196597,
+                "codigo": null,
+                "descricao": "Caso o cidadão não consiga efetuar o pedido por e-mail, o serviço poderá ser requerido junto à Repartição Consular.\n\n Para maiores informações, busque a Repartição Consular mais próxima de sua residência [clicando aqui.](https://www.gov.br/mre/pt-br/assuntos/portal-consular/reparticoes-consulares-do-brasil/reparticoes-consulares-do-brasil)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180349,
+            "tipo": "web-preencher",
+            "descricao": "Para preencher o Formulário de Inscrição no CPF:\n\n <https://servicos.receita.fazenda.gov.br/Servicos/CPF/cpfEstrangeiro/Fcpf.asp>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 180350,
+            "tipo": "web-consultar",
+            "descricao": "Para consultar a situação do seu CPF:\n\n <https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/consultapublica.asp>\n\n  \n\n Para consultar seu requerimento:\n\n <https://servicos.receita.fazenda.gov.br/servicos/cpf/consultaandamento/consultaandamento.asp>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 139234,
+      "titulo": "Estrangeiros residentes no exterior",
+      "descricao": "Para estrangeiros residentes no exterior, procure a repartição consular responsável pelo local de sua jurisdição (<https://www.gov.br/mre/pt-br/assuntos/portal-consular/reparticoes-consulares-do-brasil>) e agende o serviço de solicitação de CPF por meio do sistema e-consular do posto do consulado ou embaixada escolhida (<https://econsular.itamaraty.gov.br/>).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196600,
+            "nome": "[FCPF](https://servicos.receita.fazenda.gov.br/Servicos/CPF/cpfEstrangeiro/Fcpf.asp) preenchida e assinada;\n\n Documento de identificação;\n\n Certidão de nascimento ou de casamento;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180351,
+            "tipo": "web-agendar",
+            "descricao": "Para estrangeiros residentes no exterior, procure a repartição consular responsável pelo local de sua jurisdição (<https://www.gov.br/mre/pt-br/assuntos/portal-consular/reparticoes-consulares-do-brasil>) e agende o serviço de solicitação de CPF por meio do sistema e-consular do posto do consulado ou embaixada escolhida (<https://econsular.itamaraty.gov.br/>).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10435",
+      "nome": "Fazer inscrição eleitoral no exterior"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "39",
+  "url": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf-no-exterior",
+  "statusDestaque": false
+}

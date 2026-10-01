@@ -1,0 +1,184 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12685",
+  "nome": "Solicitar restituição de pagamento indevido de Bolsas e/ou Auxílios",
+  "sigla": "",
+  "descricao": "Restituição de pagamento de Bolsas e/ou Auxílios recebidos indevidamente.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail:[apoiotecnico.cgaux@fnde.gov.br](mailto:apoiotecnico.cgaux@fnde.gov.br)  \n\n\n Fale Conosco: 0800-616161 de segunda a sexta-feira, das 8h às 20h\n\n Plataforma Fala/Br: <https://falabr.cgu.gov.br/>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://consulta.tesouro.fazenda.gov.br/gru_novosite/gru_simples.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 39075
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 36981,
+        "tipo": "Bolsista.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/253",
+    "dbId": 34339,
+    "nomeOrgao": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 59495
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Bolsas",
+        "id": 135453
+      },
+      {
+        "item": "Ensino Superior",
+        "id": 135454
+      },
+      {
+        "item": "Valores",
+        "id": 135455
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 41993
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 34,
+    "negativas": 88
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 78918,
+      "titulo": "Devolver valores indevidos de Bolsas e/ou Auxílios",
+      "descricao": "Se o bolsista precisar devolver valores recebidos indevidamente, deve entrar em contato com a CGAUX/DIGEF, para cálculo da atualização do valor a ser restituído.\n\n Após o cálculo, a restituição do valor atualizado deve ser feita por meio de GRU. Para emitir a GRU Simples do Banco do Brasil, o/a bolsista deve acessar o link [http://consulta.tesouro.fazenda.gov.br/gru\\_novosite/gru\\_simples.asp](http://consulta.tesouro.fazenda.gov.br/gru_novosite/gru_simples.asp) e preencher a guia.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 100538,
+            "tipo": "web",
+            "descricao": "[http://consulta.tesouro.fazenda.gov.br/gru\\_novosite/gru\\_simples.asp](http://consulta.tesouro.fazenda.gov.br/gru_novosite/gru_simples.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 78919,
+      "titulo": "Informar devolução do recurso",
+      "descricao": "O valor para pagamento da restituição vale até o último dia do mês em que foi calculada a atualização monetária, após mudança de mês é necessário novo cálculo para valor atualizado.\n\n Depois de ter devolvido o valor pago indevidamente, o bolsista deve encaminhar cópia da GRU e do comprovante de recolhimento emitido pelo Banco do Brasil para o FNDE para o e-mail ([apoiotecnico.cgaux@fnde.gov.br](mailto:apoiotecnico.cgaux@fnde.gov.br)), que tomará providências para cadastrar a restituição no SGB.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 100539,
+            "tipo": "e-mail",
+            "descricao": "[apoiotecnico.cgaux@fnde.gov.br](mailto:apoiotecnico.cgaux@fnde.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "28",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-restituicao-de-pagamento-indevido-de-bolsas-e-ou-auxilios",
+  "statusDestaque": false
+}

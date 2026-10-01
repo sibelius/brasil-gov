@@ -1,0 +1,248 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2974",
+  "nome": "Obter certidão de área - IBGE",
+  "sigla": "",
+  "descricao": "Consiste em receber solicitação do cidadão e encaminhar certidão que informa o valor da área territorial, em km², para cada um dos 5.568 municípios, do Distrito Federal e do Distrito Estadual de Fernando de Noronha, a partir dos valores que são reprocessados e divulgados anualmente pelo IBGE.\n\n Os valores de áreas territoriais são baseados na Malha Municipal Digital, que é atualizada anualmente por procedimentos fundamentados em: alterações de natureza legal ou judicial; alterações na subordinação político administrativa de localidades; alterações cartográficos comunicadas pelos órgãos estaduais responsáveis pela divisão política administrativa e/ou Assembleias Legislativas; aprimoramentos cartográficos em virtude de novos insumos de mapeamento e/ou melhores técnicas, a partir da evolução das geotecnologias aplicadas no monitoramento da dinâmica da divisão territorial brasileira, visando atender às etapas de Coleta de Dados, Apuração, Tabulação, Análise e Divulgação Geográfica e Estatística, associadas às Pesquisas Domiciliares e Censos.",
+  "flagPortalLogado": "S",
+  "contato": "ibge@ibge.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125874
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105276,
+        "tipo": "Todas as pessoas físicas e jurídicas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3",
+    "dbId": 34305,
+    "nomeOrgao": "Fundação Instituto Brasileiro de Geografia e Estatística (IBGE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175963
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175964
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175965
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 175966
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "território",
+        "id": 419184
+      },
+      {
+        "item": "município",
+        "id": 419185
+      },
+      {
+        "item": "área",
+        "id": 419186
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Acessar: <https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios.html?=&t=resolucoes-e-legislacao>",
+        "id": 151089
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 28,
+    "negativas": 32
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:      \n\n   + Urbanidade;\n + Respeito;\n + Acessibilidade;\n + Cortesia;\n + Presunção da boa-fé do usuário;\n + Igualdade;\n + Eficiência;\n + Segurança; e\n + Ética",
+  "etapas": [
+    {
+      "id": 245705,
+      "titulo": "Obter certidão de área",
+      "descricao": "Realizar acesso ao sistema através do Login Único do Governo Federal \n\n No formulário de solicitação, informar se é pessoa física ou jurídica, a motivação para a solicitação, e o nome da Unidade da Federação-UF e do Município para o qual deseja a Certidão de Área.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317825,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2974)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245706,
+      "titulo": "Analisar solicitação",
+      "descricao": "Caso não sejam necessários ajustes nos dados de solicitação a certidão é produzida e enviada ao cidadão, caso contrário, o cidadão recebe solicitação para realização de ajustes e, em seguida, nova análise da solicitação será realizada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317826,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245707,
+      "titulo": "Receber Certidão de Área",
+      "descricao": "O cidadão poderá acessar o serviço e imprimir a Certidão, caso o documento não esteja de acordo, questionar o resultado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317827,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "47",
+  "totalSimplifique": "1",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-de-area",
+  "statusDestaque": false
+}

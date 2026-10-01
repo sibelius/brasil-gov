@@ -1,0 +1,243 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23768",
+  "nome": "Solicitar parcelamento de débitos registrados pelo Ibama (TCFA,  autos de infração e PPA)",
+  "sigla": "",
+  "descricao": "Solicitar o parcelamento de débitos registrados pelo Ibama (TCFA e autos de infração)",
+  "flagPortalLogado": "S",
+  "contato": "Central de Atendimento do Ibama - 0800 061 8080",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 112862
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94769,
+        "tipo": "Pessoas físicas ou jurídicas que possuam débitos de TCFA, autos de infração e PPA junto ao Ibama e desejem regularizar sua situação por meio de pagamento parcelado.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 157427
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 157428
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Parcelamento de débitos",
+        "id": 377071
+      },
+      {
+        "item": "TCFA",
+        "id": 377072
+      },
+      {
+        "item": "Autos de infração",
+        "id": 377073
+      },
+      {
+        "item": "PPA",
+        "id": 377074
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 10.522/2002](https://www.planalto.gov.br/ccivil_03/LEIS/2002/L10522.htm)",
+        "id": 132222
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 220147,
+      "titulo": "Etapa 1 - Enviar o pedido",
+      "descricao": "* Iniciar um processo no [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)\n * Clicar em *Processo Novo*\n * Tipo de Processo: *Arrecadaço – Parcelamento Administrativo*\n * Incluir um *Requerimento*, formalizando a solicitação de parcelamento\n * Informar dados e documentos obrigatórios\n * *Peticionar*",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 293822,
+            "nome": "* Nome completo ou razão social\n * CPF ou estatuto social e CNPJ (no caso de pessoa jurídica)\n * Procuração (caso o pedido seja realizado por representante legal)\n * Endereço completo, com CEP\n * Telefone com DDD\n * E-mail\n * Relação de débitos que pretende parcelar"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285659,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220148,
+      "titulo": "Etapa 2 - Acompanhar o andamento do processo",
+      "descricao": "Acompanhar a tramitação do processo pelo SEI, onde será possível visualizar as comunicações e o andamento da análise.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285660,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220149,
+      "titulo": "Etapa 3 - Receber a resposta da decisão administrativa",
+      "descricao": "A decisão será comunicada por meio do SEI.  \nSe a solicitação for aceita, o Ibama providenciará o parcelamento e a notificação do interessado.   \nCaso contrário, o Ibama informará a razão do indeferimento do pedido de parcelamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285661,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-parcelamento-de-debitos-registrados-pelo-ibama-tcfa-autos-de-infracao-e-ppa",
+  "statusDestaque": false
+}

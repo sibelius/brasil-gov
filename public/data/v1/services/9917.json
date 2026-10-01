@@ -1,0 +1,289 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9917",
+  "nome": "Realizar Denúncia Trabalhista",
+  "sigla": "",
+  "descricao": "Serviço que possibilita aos trabalhadores registrarem denúncias trabalhistas de forma ágil e fácil. \n\n Os dados pessoais informados ao registrar uma denúncia são sigilosos e não serão divulgados no curso de uma possível fiscalização. Caso seja uma denúncia específica de trabalho análogo ao de escravo, não é exigida a identificação do denunciante. \n\n Não há previsão de atendimento nem funcionalidade de rastreamento da denúncia neste canal.\n\n  \n\n Para denunciar **trabalho escravo** acesse [**IPE (clique aqui)**.](https://ipe.sit.trabalho.gov.br/#!/)\n\n Para denunciar **trabalho infantil** acesse [**IPE de Trabalho Infantil (clique aqui)**.](https://ipetrabalhoinfantil.trabalho.gov.br/#!/)\n\n Para denunciar **desigualdade salarial entre homens e mulheres** acesse **[Desigualdade Salarial ](https://denuncia.sit.trabalho.gov.br/home?tipo_de_denuncia=28)**\n\n Para as demais denúncias, utilize a opção (ou o botão) **INICIAR** acima.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://denuncia.sit.trabalho.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Denúncia",
+        "id": 97652
+      },
+      {
+        "item": "Trabalho",
+        "id": 97653
+      },
+      {
+        "item": "Escravo",
+        "id": 97654
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 82762,
+        "tipo": "Qualquer usuário que desejar realizar denúncias ou reclamações trabalhistas.\n\n  - Público principal: trabalhadores; no caso de denúncia de trabalho infantil o cidadão em geral.\n\n  - Usuários potenciais: sindicatos e associações trabalhistas; organizações que se relacionam com a norma do trabalho; cidadãos em geral; no caso de denúncia de trabalho infantil acrescenta-se os membros da rede de proteção à criança e ao adolescente.",
+        "requisitos": "Para denúncia trabalhista em geral: dados pessoais e login no [gov.br](http://gov.br/).\n\n Para denúncia de trabalho análogo ao de escravo: não é exigida a identificação do denunciante."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "15",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 135462
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 135463
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para o cidadão"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Canal de denúncia trabalhista",
+        "id": 328411
+      },
+      {
+        "item": "Denúncia trabalhista",
+        "id": 328412
+      },
+      {
+        "item": "Reclamação trabalhista ",
+        "id": 328413
+      },
+      {
+        "item": "Irregularidades trabalhistas",
+        "id": 328414
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 113952
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4073,
+    "negativas": 5146
+  },
+  "condicoesAcessibilidade": "Serviço prestado via web.",
+  "tratamentoPrioritario": "Não se aplica.",
+  "tratamentoDispensadoAtendimento": "Apesar de a denúncia trabalhista em geral ser sigilosa (os dados do denunciante são mantidos sob sigilo), esta não poderá ser anônima.",
+  "etapas": [
+    {
+      "id": 188629,
+      "titulo": "Realizar  denúncia trabalhista em geral",
+      "descricao": "O interessado terá que acessar o Canal Digital de Denúncias Trabalhistas, se identificar e inserir o maior número de informações possível para que a fiscalização do trabalho identifique corretamente o problema.\n\n Observação: Para realizar uma denúncia trabalhista não é necessário ir a uma agência do trabalho.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 259200,
+            "nome": "Cadastro de Pessoa Física - CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247342,
+            "tipo": "web",
+            "descricao": "Para realizar a denÃºncia trabalhista, [clique aqui](https://denuncia.sit.trabalho.gov.br/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 188630,
+      "titulo": "Realizar denúncia de situação de trabalho análogo ao de escravo",
+      "descricao": "O interessado em fazer a denúncia terá de acessar um sistema específico e deverá inserir o maior número de informações possível para que a fiscalização do trabalho possa analisar os indicadores de trabalho análogo ao de escravo e promover as verificações no local indicado.\n\n Observação: Para realizar uma denúncia de situação de trabalho análogo ao de escravo não é necessário ir a uma agência do trabalho.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247343,
+            "tipo": "web",
+            "descricao": "Para realizar a denúncia de trabalho análogo ao de escravo, acesse[** IPE Trabalho Escravo (clique aqui)**](https://ipe.sit.trabalho.gov.br/#!/)[ .](https://ipe.sit.trabalho.gov.br/#!/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 188631,
+      "titulo": "Realizar denúncia de situação de trabalho infantil",
+      "descricao": "O interessado em fazer a denúncia terá de acessar um sistema específico e deverá inserir o maior número de informações possível para que a fiscalização do trabalho possa analisar os fatos relatados e, quando cabível, promover a ação de fiscalização.\n\n Observação: Para realizar uma denúncia de situação de trabalho infantil não é necessário ir à uma agência do trabalho.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247344,
+            "tipo": "web",
+            "descricao": "Web: Para denunciar **trabalho infantil** acesse [IPE de Trabalho Infantil (clique aqui)](https://ipetrabalhoinfantil.trabalho.gov.br/#!/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 188632,
+      "titulo": "Realizar denúncia relacionada à desigualdade salarial entre mulheres e homens",
+      "descricao": "O interessado em fazer a denúncia terá de acessar um sistema específico e deverá inserir o maior número de informações possível para que a fiscalização do trabalho possa analisar os fatos relatados e, quando cabível, promover a ação de fiscalização.\n\n Observação: Para realizar uma denúncia relacionada à desigualdade salarial entre mulheres e homens não é necessário ir à uma agência do trabalho.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247345,
+            "tipo": "web",
+            "descricao": "Para denunciar desigualdade salarial entre mulheres e homens acesse [https://denuncia.sit.trabalho.gov.br/home?tipo\\_de\\_denuncia=28](https://denuncia.sit.trabalho.gov.br/home?tipo_de_denuncia=28)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "44",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-denuncia-trabalhista",
+  "statusDestaque": true
+}

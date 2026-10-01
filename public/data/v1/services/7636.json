@@ -1,0 +1,266 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7636",
+  "nome": "Consultar informações do CRV atual do veículo",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito (Senatran) que permite consultar online os dados do CRV (Certificado de Registro de Veículo), documento que contém as informações de registro e propriedade do veículo.\n\n O CRV era conhecido anteriormente como DUT (Documento Único de Transferência).\n\n Entre as informações que podem ser consultadas estão:\n\n  * Código do RENAVAM;\n * Nome do proprietário;\n * Número da placa e do chassi;\n * Marca e modelo;\n * Ano de fabricação.",
+  "flagPortalLogado": "N",
+  "contato": "- [Central de serviços](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2776)\n - Telefone: 08007282324\n - e-mail: [css.serpro@serpro.gov.br](mailto:css.serpro@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/veiculos/validar-crv",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Validar CRV",
+        "id": 126862
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106101,
+        "tipo": "**Pessoas físicas** que:",
+        "requisitos": "* Estejam cadastradas no **Portal de Serviços do SENATRAN**."
+      },
+      {
+        "id": 106102,
+        "tipo": "**Entidades Públicas ou Privadas** que:",
+        "requisitos": "*  Estejam cadastradas no **Portal de Serviços do SENATRAN**\n *  **Obs:** Caso necessitem de um volume maior de consultas, as entidades públicas e privadas podem solicitar autorização ao SENATRAN e contratar o serviço de Consulta On-line SENATRAN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177334
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 177335
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 177336
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 177337
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DENATRAN",
+        "id": 422709
+      },
+      {
+        "item": "CRV",
+        "id": 422710
+      },
+      {
+        "item": "DUT",
+        "id": 422711
+      },
+      {
+        "item": "registro do veículo",
+        "id": 422712
+      },
+      {
+        "item": "documento do veículo",
+        "id": 422713
+      },
+      {
+        "item": "CRLV",
+        "id": 422714
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152192
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3522,
+    "negativas": 7978
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 247773,
+      "titulo": "Realizar Login",
+      "descricao": "Você deve realizar o login no Portal de Serviços SENATRAN com Certificado Digital ou Login com CPF/SENHA. Clique em “Entrar com [gov.br](http://gov.br/)” no canto superior direito da sua tela e insira seus dados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323391,
+            "nome": "CPF"
+          }
+        ],
+        "casos": [
+          {
+            "id": 49074,
+            "descricao": "Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 323390,
+                "codigo": null,
+                "descricao": "Certificado Digital",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320302,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247774,
+      "titulo": "Realizar Consulta",
+      "descricao": "Após fazer o login no Portal de Serviços, localize no canto superior esquerdo da página o bloco “Veículos” e clique em “Validar CRV”.\n\n Informe o CPF/CNPJ do proprietário do veículo, a placa e código RENAVAM do veículo e o código de segurança do CRV (exclusivo para documentos emitidos a partir de dezembro de 2006) clique em prosseguir, serão exibidas informações do CRV mais recente do veículo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323392,
+            "nome": "Número do CPF ou CNPJ do proprietário do veículo"
+          },
+          {
+            "id": 323393,
+            "nome": "Número da placa do veículo"
+          },
+          {
+            "id": 323394,
+            "nome": "Código RENAVAM do veículo"
+          },
+          {
+            "id": 323395,
+            "nome": "Código de segurança do CRV do veículo"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320303,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/validacao/crv)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4786",
+      "nome": "Instalar aplicativo CDT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7613",
+      "nome": "Consultar online dados de seus veículos"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-informacoes-do-crv-atual-do-veiculo",
+  "statusDestaque": false
+}

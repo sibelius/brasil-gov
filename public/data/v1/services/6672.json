@@ -1,0 +1,162 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6672",
+  "nome": "Registro de diplomas de instituições externas à UFRPE",
+  "sigla": "",
+  "descricao": "Registro de diplomas de instituições externas, que não têm a prerrogativa de registrar o diploma.",
+  "flagPortalLogado": "N",
+  "contato": "Departamento de Registro e Controle Acadêmico\n\n E-mail ([cra.drca@ufrpe.br](mailto:cra.drca@ufrpe.br) / [sred.drca@ufrpe.br](mailto:sred.drca@ufrpe.br)) e telefone (33206086).",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "revalidação de diploma",
+        "id": 111610
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93824,
+        "tipo": "Instituições de Ensino Superior que não possuem a prerrogativa de registro do diploma emitido.",
+        "requisitos": "*  Ofício de encaminhamento do diploma;\n\n \n *  Diploma a ser registrado;\n\n \n *  Histórico escolar do curso de graduação concluído;\n\n \n *  Documentação pessoal: certidão de nascimento/casamento, documento de identidade, CPF, certidão de quitação eleitoral, certificado de conclusão do ensino médio, histórico escolar do ensino médio e reservista (para homens até 45 anos);\n\n \n *  Termo de responsabilidade de expedição do diploma."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/433",
+    "dbId": 57757,
+    "nomeOrgao": "Universidade Federal Rural de Pernambuco (UFRPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 155726
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Registro de diploma",
+        "id": 372776
+      },
+      {
+        "item": "instituições de ensino",
+        "id": 372777
+      },
+      {
+        "item": "revalidação",
+        "id": 372778
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 129980
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 217713,
+      "titulo": "Entregar os documentos e diplomas para serem registrados.",
+      "descricao": "As faculdades e instituições interessadas devem entrar em contato com o Departamento de Registro e Controle Acadêmico da UFRPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 38175,
+            "descricao": "Taxa para registro de diplomas de graduação obtidos em outra IES.",
+            "moeda": "R$",
+            "valor": " 120,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282831,
+            "tipo": "presencial",
+            "descricao": "Departamento de Registro e Controle Acadêmico da UFRPE, localizado no prédio central.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufrpe",
+  "statusDestaque": false
+}

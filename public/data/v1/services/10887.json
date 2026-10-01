@@ -1,0 +1,210 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10887",
+  "nome": "Solicitar credenciamento inicial de laboratório analítico",
+  "sigla": "",
+  "descricao": "É um pedido eletrônico para que o laboratório analítico solicite o seu credenciamento inicial junto à Anvisa. \n\n O credenciamento é uma permissão para que laboratório realize análises de orientação, de controle - AC e fiscais. Ou seja, de delegar atividade preparatória para fins de fiscalização e monitoramento dos produtos sujeitos à vigilância sanitária pelo SNVS.\n\n [Saiba mais sobre o credenciamento de laboratórios.](https://www.gov.br/anvisa/pt-br/assuntos/laboratorios/laboratorios-credenciados)",
+  "flagPortalLogado": "N",
+  "contato": "[**Central de Atendimento da Anvisa**](https://www.gov.br/../../anvisa/pt-br/canais_atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 91259
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 78005,
+        "tipo": "Pessoas jurídicas legalmente constituídas no Brasil e com cadastro válido junto à Anvisa.",
+        "requisitos": "Deve possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o Sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/../../anvisa/pt-br/setorregulado/administrativo/cadastro)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 126607
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Produtos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Credenciamento de Laboratórios, ",
+        "id": 307719
+      },
+      {
+        "item": "Laboratórios Analíticos, ",
+        "id": 307720
+      },
+      {
+        "item": "Credenciamento",
+        "id": 307721
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 6.360/1979](http://www.planalto.gov.br/ccivil_03/leis/l6360.htm) - Dispõe sobre a Vigilância Sanitária a que ficam sujeitos os Medicamentos, as Drogas, os Insumos Farmacêuticos e Correlatos, Cosméticos, Saneantes e Outros Produtos, e dá outras Providências.",
+        "id": 105343
+      },
+      {
+        "item": "[RDC nº 928/2024](https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-928-de-25-de-setembro-de-2024-586760472) - Estabelece critérios, requisitos e procedimentos para o funcionamento, a habilitação na Reblas e o credenciamento de laboratórios analíticos que realizam análises em produtos sujeitos ao regime de vigilância sanitária e dá outras providências.",
+        "id": 105344
+      },
+      {
+        "item": "[RDC nº 512/2021](https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-2021-322975673) - Dispõe sobre as Boas Práticas para Laboratórios de Controle de Qualidade.",
+        "id": 105345
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 176947,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Acesse o Sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição inicial”. Clique na lupa e selecione a “Atividade/Tipo de produto”> “Empresas” e localize o assunto cuja descrição seja compatível com o pedido.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 242938,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](https://www.gov.br/../../anvisa/pt-br/sistemas/assuntos-de-peticao)). A Anvisa fornece um *checklist* (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 232497,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 176948,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no sistema Solicita, selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” no canto superior direito para localizar o processo desejado.\n\n A solicitação também poderá ser consultada no Portal de Consultas, utilizando os filtros na opção Situação de Documentos > Documentos Técnicos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 232498,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "14",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-credenciamento-inicial-de-laboratorio-analitico",
+  "statusDestaque": false
+}

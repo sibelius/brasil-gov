@@ -1,0 +1,254 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3035",
+  "nome": "Solicitar Benefício Assistencial ao Trabalhador Portuário Avulso",
+  "sigla": "",
+  "descricao": "Serviço para pedir benefício para a trabalhadora e trabalhador avulso de baixa renda, com 60 anos ou mais, que trabalha em área portuária e não completou o tempo necessário para se aposentar.\n\n Para ter direito ao benefício não é necessário ter contribuído para o INSS. No entanto, não dá direito ao 13º salário e não deixa pensão por morte.\n\n Este pedido é realizado totalmente pela internet, você não precisa ir ao INSS.",
+  "flagPortalLogado": "N",
+  "contato": "135",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://gov.br/meuinss",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124839
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104526,
+        "tipo": "Trabalhadora e trabalhador avulso que atua em área portuária.",
+        "requisitos": "E que:\n\n  * tiver 60 anos ou mais;\n * não tiver o tempo necessário para se aposentar;\n * tiver renda individual inferior a um salário mínimo por mês, calculada com base na média aritmética simples dos últimos 12 meses de contribuição anteriores à data do pedido do benefício;\n * for brasileiro(a), nato(a) ou naturalizado(a) ou tiver nacionalidade portuguesa, desde que comprovada a residência fixa no Brasil;\n * comprovar que exerce atividade portuária há pelo menos 15 anos e que compareceu ao mínimo de 80% das convocações e turnos de trabalho para os quais tenha sido escalado;\n * Cadastro único (CadÚnico)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934",
+    "dbId": 36802,
+    "nomeOrgao": "Instituto Nacional do Seguro Social (INSS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174839
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Benefícios"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "porto",
+        "id": 416058
+      },
+      {
+        "item": "independente",
+        "id": 416059
+      },
+      {
+        "item": "estivador",
+        "id": 416060
+      },
+      {
+        "item": "OGMO",
+        "id": 416061
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150111
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 81,
+    "negativas": 149
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 243842,
+      "titulo": "Pedir o benefício",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga para **Do que você precisa?**\n * Digite: *Benefício assistencial ao trabalhador portuário*\n * Escolha o benefício e\n * Avance conforme as orientações",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320192,
+            "nome": "**Da pessoa titular e de todas as pessoas da família que moram na mesma casa:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)"
+          },
+          {
+            "id": 320193,
+            "nome": "**Da pessoa com procuração ou representação legal, se houver:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)\n * Procuração no modelo do INSS ou pública\n * Termo de representação legal - tutela, curatela ou termo de guarda"
+          },
+          {
+            "id": 320194,
+            "nome": "**Podem ser pedidos documentos para comprovar:**\n\n  * O exercício da atividade portuária e a presença aos turnos de trabalho, com a Certidão do Órgão Gestor de Mão de Obra."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315126,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 315127,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 315128,
+            "tipo": "telefone",
+            "descricao": "Ligue 135, caso o sistema esteja indisponível.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 315129,
+            "tipo": "presencial",
+            "descricao": "**Se necessário atendimento presencial:**\n\n  * Agende pelo telefone 135, ou\n * Busque uma unidade que tenha [acordo](https://www.gov.br/inss/pt-br/canais_atendimento/acts) com o INSS na sua região",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243843,
+      "titulo": "Receber resposta",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga no botão **Consultar Pedidos**\n * Encontre o seu pedido na lista\n * Detalhe para mais dados",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315130,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 315131,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "45",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 45
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2995",
+      "nome": "Solicitar Aposentadoria da Pessoa com Deficiência por Tempo de Contribuição"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2999",
+      "nome": "Solicitar Benefício Assistencial ao Idoso"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "35",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-beneficio-assistencial-ao-trabalhador-portuario-avulso",
+  "statusDestaque": false
+}

@@ -1,0 +1,243 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9038",
+  "nome": "Cadastrar recurso relativo ao seguro-desemprego",
+  "sigla": "SD",
+  "descricao": "Caso seu requerimento do Seguro-Desemprego seja indeferido, você pode solicitar a revisão do seu pedido por meio de um recurso administrativo ao Ministério do Trabalho e Emprego.\n\n O prazo para solicitar revisão do seguro-desemprego é de 120 dias contados da data da notificação.",
+  "flagPortalLogado": "N",
+  "contato": "Central telefônica 158.\n\n Caso você ainda possua alguma dúvida, veja a página de[ ](https://www.gov.br/pt-br/temas/perguntas-frequentes-seguro-desemprego)[Perguntas Frequentes.](https://www.gov.br/pt-br/temas/perguntas-frequentes-seguro-desemprego)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.mte.gov.br/spme-v2/#/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "seguro-desemprego",
+        "id": 128059
+      },
+      {
+        "item": "benefício",
+        "id": 128060
+      },
+      {
+        "item": "recurso",
+        "id": 128061
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107225,
+        "tipo": "Trabalhadores dispensados sem justa causa que, ao solicitar o Seguro-Desemprego na modalidade Formal ou trabalhador Doméstico, tiveram o benefício indeferido",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179112
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para o cidadão"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Seguro-desemprego",
+        "id": 426915
+      },
+      {
+        "item": "Recurso",
+        "id": 426916
+      },
+      {
+        "item": "Recurso seguro-desemprego",
+        "id": 426917
+      },
+      {
+        "item": "",
+        "id": 426918
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Nº 7.998/1990](https://www.planalto.gov.br/ccivil_03/Leis/L7998.htm)  \n[Resolução do Codefat Nº 467/2005](https://portalfat.mte.gov.br/wp-content/uploads/2016/02/Res467.pdf)",
+        "id": 153604
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5618,
+    "negativas": 14205
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei 10.048, de 8 de novembro de 2000.​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250390,
+      "titulo": "Cadastrar Recurso",
+      "descricao": "Você pode solicitar a revisão de seu pedido de seguro-desemprego por meio do cadastro de recurso disponível no portal de serviços ou no aplicativo da Carteira de Trabalho Digital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325602,
+            "nome": "A documentação necessária para a análise do recurso será apontada no momento do cadastro."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323653,
+            "tipo": "web",
+            "descricao": "O atendimento poderÃ¡ ser realizado mediante agendamento pela [Plataforma Facilita](https://portalcidadao.dataprev.gov.br/#/trabalho) ou diretamente nas unidades do** Sistema Nacional de Emprego (SINE)**, conforme a disponibilidade de atendimento de cada unidade.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323654,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo da Carteira de Trabalho Digital:\n\n   + Sistema [Android](https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&hl=pt_BR) \n     + Sistema [IOS](https://apps.apple.com/br/app/ctps-digital/id1295257499)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323655,
+            "tipo": "presencial",
+            "descricao": "Nas [unidades das Superintendências Regionais do Trabalho](https://www.gov.br/trabalho-e-emprego/pt-br/canais_atendimento/unidades-de-atendimento). O agendamento do atendimento presencial deverá ser feito pela central 158.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250391,
+      "titulo": "Acompanhar a análise do recurso",
+      "descricao": "Você pode acompanhar a análise do seu recurso do seguro-desemprego pelo portal de serviços ou pelo aplicativo da Carteira de Trabalho Digital. O tempo médio de análise de recurso seguro-desemprego dependerá do tipo de notificação, mas em regra a análise dura em torno de 30 dias.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325603,
+            "nome": "Existe a possibilidade de anexar documentos ao recurso a qualquer tempo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323656,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://servicos.mte.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323657,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo da Carteira de Trabalho Digital:\n\n  * Sistema[ Android](https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital)\n * Sistema [IOS](https://apps.apple.com/br/app/ctps-digital/id1295257499)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "28",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-recurso-relativo-ao-seguro-desemprego",
+  "statusDestaque": false
+}

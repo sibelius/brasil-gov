@@ -1,0 +1,180 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5943",
+  "nome": "Registrar diplomas de faculdades, centros universitários e universidades privadas - UFSC",
+  "sigla": "",
+  "descricao": "Instituições privadas de Educação Superior precisam registrar seus diplomas de graduação e pós-graduação junto a Instituições Federais de Ensino Superior para que estes tenham validade. Para registrar diplomas nesta instituição, siga as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Departamento de Administração Escolar - 48-37217409 - jose.regis@ufsc.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Registro Diplomas outras IES",
+        "id": 74424
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65340,
+        "tipo": "Instituições de Ensino Superior Privadas",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "90",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 90,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/429",
+    "dbId": 57773,
+    "nomeOrgao": "Universidade Federal de Santa Catarina (UFSC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 103022
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 103023
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 252950
+      },
+      {
+        "item": "Universidade",
+        "id": 252951
+      },
+      {
+        "item": "Emissão",
+        "id": 252952
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 84378
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 145859,
+      "titulo": "Encaminhar os requerimentos e diplomas para registro.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207291,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 207292,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 207293,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 207294,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 207295,
+            "nome": "CPF"
+          },
+          {
+            "id": 207296,
+            "nome": "Diploma"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189666,
+            "tipo": "presencial",
+            "descricao": "Na instituição",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufsc",
+  "statusDestaque": false
+}

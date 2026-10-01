@@ -1,0 +1,337 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10733",
+  "nome": "Realizar consulta em ginecologia - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "A consulta em ginecologia destina-se, principalmente, à confirmação do diagnóstico do problema de saúde da paciente. Na consulta a paciente é avaliada clinicamente e são verificados os resultados dos exames. A partir dos dados obtidos, o médico responsável poderá indicar tratamento clínico ou cirúrgico. Poderão ser solicitados exames complementares, incluindo exames para avaliação de risco cirúrgico, quando necessário. Tanto o tratamento clínico quanto o cirúrgico poderão ser realizados no Instituto Nacional de Saúde da Mulher, da Criança e do Adolescente Fernandes Figueira - IFF.",
+  "flagPortalLogado": "N",
+  "contato": "**Endereço:** Instituto Nacional de Saúde da Mulher, da Criança e do Adolescente  Fernandes Figueira - IFF \n\n Avenida Rui Barbosa,716 - Flamengo - Rio de Janeiro - RJ  - CEP: 22250-020\n\n **Telefone: **(21) 2554-1727\n\n **Site:** http://www.iff.fiocruz.br\n\n **Horário de atendimento: **O IFF funciona para atendimento ambulatorial em horário administrativo das 08:00 às 17:00h.  O atendimento será realizado no horário agendado pelo SISREG.   \n\n Compareça à consulta com 15 minutos de antecedência (quando não puder comparecer, avise-nos o mais breve possível pelo telefone: 2554-1728)",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 55029
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 50691,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "Cidadã agendada pela Atenção Básica de Saúde (ABS), via SISREG."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 80066
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "dificuldade de engravidar",
+        "id": 190044
+      },
+      {
+        "item": "fertilidade ",
+        "id": 190045
+      },
+      {
+        "item": "infertilidade ",
+        "id": 190046
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 62173
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 27,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 110302,
+      "titulo": "Realizar procedimentos de identificação",
+      "descricao": "Na recepção do IFF apresentar documento de Identificação Pessoal.\n\n No Arquivo Médico identificar-se para abertura do prontuário e geração do Cartão de Identificação IFF.\n\n Na recepção do Ambulatório de Ginecologia, entregar o Cartão de Identificação IFF e a Guia de Encaminhamento do SISREG para registro na Agenda Eletrônica e efetivação no Sistema de Regulação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 155010,
+            "nome": "Guia de encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 155011,
+            "nome": "Carteira de identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 141501,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção de entrada do IFF, no Arquivo Médico e na recepção do Ambulatório de Ginecologia.\n\n Endereço: Avenida Rui Barbosa,716\n\n Flamengo - Rio de Janeiro - RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 110303,
+      "titulo": "Receber o acolhimento da enfermagem",
+      "descricao": "Nesta etapa é aferida a pressão arterial, verificado peso, altura e registrados em prontuário. Também entregue um folder instrutivo sobre o procedimento para ser atendido no Ambulatório de Ginecologia. Após o acolhimento o paciente aguarda na sala de espera. A chamada será feita pelo nome para a próxima etapa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 141502,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada no consultório do Ambulatório de Ginecologia. \n\n Endereço: Avenida Rui Barbosa,716\n\n Flamengo - Rio de Janeiro - RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 110304,
+      "titulo": "Realizar consulta para avaliação dos critérios médicos",
+      "descricao": "A paciente será avaliada pelo médico quanto aos requisitos necessários para acessar o serviço. Caso não atenda aos critérios clínicos e cirúrgicos para ser atendida no IFF, será contrarreferenciada para unidade de origem.\n\n Exames adicionais podem ser solicitados. Após a realização do procedimento é agendada uma consulta de ginecologia para avaliação e prescrição de tratamento clínico ou indicação cirúrgica, conforme parecer médico. O tempo médio para retorno é de 90 dias.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 155012,
+            "nome": "Exames do preparo (são os exames indicados pelo SISREG, que a paciente deverá apresentar para a consulta no IFF)"
+          },
+          {
+            "id": 155013,
+            "nome": "Cartão de Identificação IFF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 141503,
+            "tipo": "presencial",
+            "descricao": "No consultório do Ambulatório de Ginecologia.   Endereço: Avenida Rui Barbosa,716\n\n Flamengo - Rio de Janeiro - RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 40,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 110305,
+      "titulo": "Realizar a consulta ginecológica",
+      "descricao": "A paciente é atendida seguindo o Protocolo do IFF. São avaliadas as condições clínica e ginecológicas, através da anamnese e avaliação dos exames atuais. Após a avaliação poderá ser indicado tratamento clinico ou cirúrgico. Se indicação for de tratamento clinico, a paciente é orientada sobre os procedimentos clínicos e medicamentos para o seu caso de saúde e reencaminhada à unidade de origem. Se for indicação cirúrgica, serão solicitados exames pré-operatórios para avaliação de risco cirúrgico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 155014,
+            "nome": "Cartão de Identificação IFF"
+          },
+          {
+            "id": 155015,
+            "nome": "Exames solicitados"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 141504,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada no consultório do Ambulatório de Ginecologia.\n\n Endereço: Avenida Rui Barbosa,716\n\n Flamengo - Rio de Janeiro - RJ\n\n **Observação**: O tempo médio de espera para a consulta de risco cirúrgico é de aproximadamente de 30 dias. Neste  período a paciente deverá providenciar os exames pré-operatórios  solicitados.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 40,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 110306,
+      "titulo": "Realizar consulta de risco cirúrgico",
+      "descricao": "A paciente é avaliada de acordo com o Protocolo IFF. A partir dos dados obtidos e da avaliação dos exames, o médico responsável poderá liberar a realização da cirurgia. A paciente não liberada será contrarreferenciada para sua unidade de origem, com a documentação necessária para dar prosseguimento ao seu tratamento.\n\n Poderão ser solicitados exames complementares. A paciente com risco cirúrgico liberado é orientada a aguardar a comunicação do agendamento da cirurgia pela Instituição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 155016,
+            "nome": "Exames pré-operatórios"
+          },
+          {
+            "id": 155017,
+            "nome": "Cartão de Identificação do IFF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 141505,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada no consultório do Ambulatório de Ginecologia.\n\n Endereço: Avenida Rui Barbosa,716\n\n Flamengo - Rio de Janeiro - RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 40,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "63",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-em-ginecologia-fiocruz-iff-rj",
+  "statusDestaque": false
+}

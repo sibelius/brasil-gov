@@ -1,0 +1,278 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6070",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UFLA",
+  "sigla": "",
+  "descricao": "Este serviço permite a obtenção do diploma (ou 2ª via) para quem concluiu com aprovação a graduação na Universidade Federal de Lavras.",
+  "flagPortalLogado": "N",
+  "contato": "Setor de Expedição e Registro de Diplomas (SERD)\n\n Telefone: +55 (35) 3829-1134\n\n Site: <https://drca.ufla.br/>\n\n E-mail: diploma.drca@ufla.br\n\n Endereço Postal :  \n   \nUNIVERSIDADE FEDERAL DE LAVRAS  \nDIRETORIA DE REGISTRO E CONTROLE ACADÊMICO – DRCA  \nSETOR DE EXPEDIÇÃO E REGISTRO DE DIPLOMAS - SERD  \nCAMPUS UNIVERSITÁRIO  \nCEP 37200-900 - LAVRAS - MG - Brasil",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 87755
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75223,
+        "tipo": "1. Serviço destinado ao estudante que concluiu seu curso de graduação e participou da colação de grau na UFLA.",
+        "requisitos": "Requisito do solicitante 1:  \n- Ter integralizado o curso de graduação e participado da colação de grau."
+      },
+      {
+        "id": 75224,
+        "tipo": "2. Serviço destinado ao egresso que precisa da expedição da 2ª via do diploma da graduação.",
+        "requisitos": "Requisito do solicitante 2:  \n- Por se tratar de 2ª via, preencher formulário específico, indicando a motivação da solicitação."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/463",
+    "dbId": 57770,
+    "nomeOrgao": "Universidade Federal de Lavras (UFLA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121760
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "obter diploma graduação UFLA",
+        "id": 295789
+      },
+      {
+        "item": "obter segunda via de diplomas graduação UFLA",
+        "id": 295790
+      },
+      {
+        "item": "diploma graduação UFLA",
+        "id": 295791
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 100783
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário às pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n • Urbanidade;\n\n • Respeito;\n\n • Acessibilidade;\n\n • Cortesia;\n\n • Presunção da boa-fé do usuário;\n\n • Igualdade;\n\n • Eficiência;\n\n • Segurança; e\n\n • Ética.",
+  "etapas": [
+    {
+      "id": 170341,
+      "titulo": "Solicitar a expedição do diploma.",
+      "descricao": "Nessa etapa, o estudante concluinte (solicitante 1) deverá preencher o Requerimento para Expedição do Diploma, disponível na [página da DRCA](https://drca.ufla.br/graduacao/formularios), na ocasião da sua participação na colação de grau. Caso seja constatado qualquer impedimento para a emissão do diploma, o requerente será contatado pelos contatos informados no requerimento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236896,
+            "nome": "Requerimento específico para a Expedição de Diploma."
+          }
+        ],
+        "casos": [
+          {
+            "id": 37718,
+            "descricao": "Alteração de dados cadastrais",
+            "documento": [
+              {
+                "id": 236895,
+                "codigo": null,
+                "descricao": "Caso tenha havido alguma alteração (por exemplo, mudança no nome em virtude de alteração de estado civil) nova certidão - casamento ou nascimento - deverá ser apresentada.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 223415,
+            "tipo": "e-mail",
+            "descricao": "colacao.drca@ufla.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 170342,
+      "titulo": "Solicitar a 2ª via do diploma",
+      "descricao": "A expedição da segunda via do diploma é condicionada à apresentação, pelo egresso (solicitante 2), de formulário específico, ao Setor de Expedição e Registro de Diplomas (SERD) da Diretoria de Registro e Controle Acadêmico (DRCA) e pagamento da taxa fixado pelo Conselho de Ensino, Pesquisa e Extensão (CEPE) da UFLA.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236897,
+            "nome": "Requerimento específico para a Expedição da 2ª via do Diploma."
+          },
+          {
+            "id": 236898,
+            "nome": "Cópia simples dos documentos pessoais."
+          },
+          {
+            "id": 236899,
+            "nome": "Comprovante de pagamento da taxa."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28309,
+            "descricao": "2ª via do diploma",
+            "moeda": "R$",
+            "valor": " 273,46",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 223416,
+            "tipo": "e-mail",
+            "descricao": "diploma.drca@ufla.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 170343,
+      "titulo": "Retirar o diploma",
+      "descricao": "Tanto o solicitante 1 quanto o solicitante 2, receberão o diploma digital, como previsto na [legislação educacional](http://portal.mec.gov.br/diplomadigital/). Para consultar se o diploma está disponível [clique aqui](https://sig.ufla.br/modulos/registros_diplomas/liberacao_diploma/acesso_publico/index.php). Estando o documento disponível, o solicitante terá acesso ao diploma digital conforme orientações disponíveis na [página da DRCA](https://drca.ufla.br/diplomas/diploma-digital).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 223417,
+            "tipo": "e-mail",
+            "descricao": "diploma.drca@ufla.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "60",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-de-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufla",
+  "statusDestaque": true
+}

@@ -1,0 +1,253 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11141",
+  "nome": "Obter certificado de operador portuário",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá obter a emissão ou renovação de certificado de operador portuário.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Contratos de Arrendamento\n\n Telefone: (13) 3202-6565 - Ramal 2840",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128248
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107383,
+        "tipo": "Empresas que queiram obter ou renovar o certificado de operador portuário.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179405
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Exigências"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certificado",
+        "id": 427464
+      },
+      {
+        "item": "operador",
+        "id": 427465
+      },
+      {
+        "item": "portuário",
+        "id": 427466
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 12.815/2013\n\n Portaria SEP nº 111/2013, alterada pela Portaria SEP nº 87/2016\n\n [Tarifa Portuária do Porto de Santos](http://www.portodesantos.com.br/informacoes-operacionais/operacoes-portuarias/tarifas-portuarias/)",
+        "id": 153776
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250814,
+      "titulo": "Solicitar a emissão do certificado",
+      "descricao": "O interessado deve encaminhar, via Sistema de Protocolo Digital, requerimento direcionado à Diretoria de Desenvolvimento de Negócios e Regulação – DINEG, em papel timbrado, subscrito por seu representante legal, de acordo com os termos da Portaria SEP nº 111, de 07/08/2013. Além disso o interessado pode obter informações no site do Porto de Santos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325791,
+            "nome": "Os constantes na Portaria SEP 111/2013, inclusive o comprovante de pagamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41890,
+            "descricao": "Custo Portuário, conforme item 12.5.1, da Tabela VII da Tarifa Portuária do Porto de Santos",
+            "moeda": "R$",
+            "valor": " 814,55",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324175,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](http://protocolo.portodesantos.com.br/)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 324176,
+            "tipo": "web",
+            "descricao": "Informações para Operadores Portuários\n\n <https://www.portodesantos.com.br/relacoes-com-o-mercado/operadores-portuarios/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250815,
+      "titulo": "Realizar análise do pleito",
+      "descricao": "Após o recebimento, é realizada análise do pleito e o solicitante é comunicado. Caso haja necessidade, poderá ser solicitada a complementação das informações, conforme diretrizes da Portaria SEP nº 111/2013",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324177,
+            "tipo": "e-mail",
+            "descricao": "A resposta quanto à solicitação será encaminhada ao e-mail do solicitante.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250816,
+      "titulo": "Emitir certificado",
+      "descricao": "Quando satisfeitos os requisitos, haverá a emissão do Certificado, que será enviado por e-mail ao solicitante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324178,
+            "tipo": "e-mail",
+            "descricao": "A resposta quanto à solicitação será encaminhada ao e-mail do solicitante",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-de-operador-portuario",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

@@ -1,0 +1,300 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10895",
+  "nome": "Obter autorização para voo de aeronaves privadas estrangeiras no Brasil",
+  "sigla": "",
+  "descricao": "As aeronaves com registro estrangeiro necessitam de uma notificação ou de uma autorização para voar no Brasil.\n\n Se o operador da aeronave civil estrangeira for pessoa física ou empresa privada, ou ainda, um operador de Táxi Aéreo Estrangeiro em serviço de transporte aéreo remunerado não regular (sob demanda) com aeronave configurada para 19 ou menos passageiros, isto é, se esse operador deseja realizar transporte aéreo não remunerado no Brasil, deve solicitar autorização à ANAC ou realizar uma notificação.\n\n A AVANAC é emitida apenas quando as aeronaves fazem dois ou mais voos no Brasil. Quando a aeronave realizar apenas 1 pouso ou apenas o sobrevoo sobre o Brasil, não é necessário emitir AVANAC. Nesse caso, o interessado deve notificar a Agência, pelo sistema [https://sistemas.anac.gov.br/SIAVANAC/pouso\\_sobrevoo/solicitacaosp.asp](https://sistemas.anac.gov.br/SIAVANAC/pouso_sobrevoo/solicitacaosp.asp).\n\n O sistema de notificação é automático, produzindo um e-mail para o solicitante, sem interação do interessado com a Agência.",
+  "flagPortalLogado": "N",
+  "contato": "Quaisquer dúvidas adicionais podem ser apresentadas diretamente pelo [sistema de manifestações da ANAC ](https://www.gov.br/../../anac/pt-br/canais_atendimento/fale-com-a-anac)ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sistemas.anac.gov.br/SIAVANAC/pouso_sobrevoo/SolicitacaoPP.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "AVANAC",
+        "id": 103017
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 86959,
+        "tipo": "Operador Aéreo Estrangeiro (pessoa física ou empresa privada ou táxi aéreo com aeronave configurada para até 19 assentos)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 143499
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 143500
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 143501
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 143502
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 345191
+      },
+      {
+        "item": "AVANAC",
+        "id": 345192
+      },
+      {
+        "item": "Autorização de Voo da ANAC",
+        "id": 345193
+      },
+      {
+        "item": "Operador Estrangeiro",
+        "id": 345194
+      },
+      {
+        "item": "",
+        "id": 345195
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução ANAC n°178/2010](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2010/resolucao-no-178-de-21-12-2010)",
+        "id": 119900
+      },
+      {
+        "item": "[Instrução Normativa RFB n°1600 de 2015, e suas alterações posteriores.](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=70297&visao=anotado)",
+        "id": 119901
+      },
+      {
+        "item": "[Instrução Normativa RFB n°1602 de 2015, e suas alterações posteriores.](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=70299)",
+        "id": 119902
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 29
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 200463,
+      "titulo": "Solicitar AVANAC",
+      "descricao": "Acessar o sistema, registrar os pilotos e aeronave e anexar a documentação dos mesmos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 274218,
+            "nome": "Certificado de Registro da aeronave"
+          },
+          {
+            "id": 274219,
+            "nome": "Certificado de aeronavegabilidade"
+          },
+          {
+            "id": 274220,
+            "nome": "Revisão do Certificado de Aeronavegabilidade, caso a mesma deva acompanhar o Certificado de Aeronavegabilidade"
+          },
+          {
+            "id": 274221,
+            "nome": "Seguro aeronáutico da aeronave, com prova de garantia de seguro contra danos a terceiros na superfície"
+          },
+          {
+            "id": 274222,
+            "nome": "Licença dos pilotos e/ou documento de convalidação da licença"
+          },
+          {
+            "id": 274223,
+            "nome": "Certificado médico dos pilotos"
+          }
+        ],
+        "casos": [
+          {
+            "id": 42579,
+            "descricao": "No caso de táxi aéreo, enviar também:",
+            "documento": [
+              {
+                "id": 274215,
+                "codigo": null,
+                "descricao": "Autorização de operação da empresa",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 274216,
+                "codigo": null,
+                "descricao": "Especificações operativas",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 42580,
+            "descricao": "No caso de importação de aeronave, enviar também:",
+            "documento": [
+              {
+                "id": 274217,
+                "codigo": null,
+                "descricao": "Documento de exportação da autoridade aeronáutica do registro da aeronave, caso pertinente",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 261308,
+            "tipo": "web",
+            "descricao": "O interessado deve acessar o sistema [https://sistemas.anac.gov.br/SIAVANAC/pouso\\_sobrevoo/SolicitacaoPP.asp](https://sistemas.anac.gov.br/SIAVANAC/pouso_sobrevoo/SolicitacaoPP.asp) e enviar a documentação.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 42581,
+            "descricao": "No caso de Táxi Aéreo estrangeiro",
+            "canalDePrestacao": [
+              {
+                "id": 261307,
+                "tipo": "web",
+                "descricao": "O interessado deve acessar o sistema <https://sistemas.anac.gov.br/AVANAC/en-us/SolicitacaoVoo/Cadastrar/0> e enviar a documentação.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 200464,
+      "titulo": "Receber AVANAC",
+      "descricao": "O solicitante deve aguardar o processamento da documentação enviada, eventualmente sendo demanda a solucionar pendências.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 261309,
+            "tipo": "web",
+            "descricao": "Mesmo canal usado na etapa anterior.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-voo-de-aeronaves-privadas-estrangeiras-no-brasil",
+  "statusDestaque": false
+}

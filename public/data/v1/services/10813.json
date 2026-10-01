@@ -1,0 +1,240 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10813",
+  "nome": "Emitir DARF para pagamento de tributos federais",
+  "sigla": "",
+  "descricao": "Emita o Documento de Arrecadação de Receitas Federais (DARF) para pagar tributos federais (impostos, taxas e contribuições).\n\n De acordo com o sistema utilizado para emitir o DARF, o documento pode ter código barras ou não. Você pode pagar o DARF, mesmo sem código de barras, em terminais de autoatendimento, páginas ou aplicativos dos bancos na internet (*Internet Banking*).\n\n [Consulte os bancos da rede arrecadadora de receitas federais.](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/rede-arrecadadora-de-receitas-federais-bancos) \n\n Se optar pelo preenchimento de DARF manual (nos casos cabíveis) [consulte os códigos de receita](https://siefreceitas.receita.economia.gov.br/).\n\n Importante lembrar que desde 2020, todos os DARFs para pagamento do imposto de renda podem ser ser emitidos pelo próprio programa IRPF baixado no seu computador. Se preferir, os DARFs também podem ser emitidos por todos os demais canais listados abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre documentos de arrecadação ](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/emissao-e-pagamento-de-darf-das-gps-e-dae/emissao-e-pagamento-de-darf-e-gps)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sicalc.receita.fazenda.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128277
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107406,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179431
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179432
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 179433
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 179434
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Documento de Arrecadação",
+        "id": 427535
+      },
+      {
+        "item": "DARF",
+        "id": 427536
+      },
+      {
+        "item": "Pagamento",
+        "id": 427537
+      },
+      {
+        "item": "Imposto de Renda",
+        "id": 427538
+      },
+      {
+        "item": "Sicalc",
+        "id": 427539
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria Codac nº 89/2013](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=43982&visao=anotado)",
+        "id": 153802
+      },
+      {
+        "item": "[Instrução Normativa nº 672/2006](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15610&visao=anotado)",
+        "id": 153803
+      },
+      {
+        "item": "[Instrução Normativa nº 736/2007](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15679&visao=anotado)",
+        "id": 153804
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 1.265/2012](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=37672&visao=anotado)",
+        "id": 153805
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12520,
+    "negativas": 57814
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito ao atendimento prioritário as pessoas com deficiência, pessoas com transtorno de espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250871,
+      "titulo": "Emitir DARF",
+      "descricao": "Preencha o Documento de Arrecadação de Receitas Federais (DARF) para pagar os tributos federais (impostos, taxas e contribuições) ou emita diretamente pelos canais abaixo, conforme o caso.\n\n Para emitir o DARF de imposto de renda de pessoa física já preenchido, utilize o sistema **Meu Imposto de Renda.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324245,
+            "tipo": "web-emitir",
+            "descricao": "[Calcular e emitir DARF](https://sicalc.receita.fazenda.gov.br/sicalc/principal)Â (SicalcWeb)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49490,
+            "descricao": "Para emitir DARF de imposto de renda de pessoa física",
+            "canalDePrestacao": [
+              {
+                "id": 324241,
+                "tipo": "web",
+                "descricao": "[Meu Imposto de Renda](https://mir.receita.fazenda.gov.br/portalmir)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 324242,
+                "tipo": "web-emitir",
+                "descricao": "[Calcular e emitir quota de imposto de renda](https://sicalc.receita.fazenda.gov.br/sicalc/rapido/calculo/0211/01)Â (SicalcWeb)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          },
+          {
+            "id": 49491,
+            "descricao": "Para emitir DARF de débitos declarados na DCTFWeb",
+            "canalDePrestacao": [
+              {
+                "id": 324243,
+                "tipo": "web",
+                "descricao": "[DCTFWeb](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10015)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          },
+          {
+            "id": 49492,
+            "descricao": "Para dívidas vencidas ou pendentes de recurso",
+            "canalDePrestacao": [
+              {
+                "id": 324244,
+                "tipo": "web",
+                "descricao": "[Minhas Dívidas e Pendências](https://servicos.receitafederal.gov.br/servico/pendencias)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "18",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-darf-para-pagamento-de-tributos-federais",
+  "statusDestaque": false
+}

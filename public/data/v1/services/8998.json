@@ -1,0 +1,371 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8998",
+  "nome": "Realizar exame de histeroscopia diagnóstica - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O exame de histeroscopia é um procedimento ginecológico realizado ambulatorialmente, quando há suspeita de doenças que acometem o interior da cavidade uterina; para reposicionamento e retirada de DIU. Alguns casos, poderá ser necessário a realização de biópsia.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone: **(21) 2554-1700\n\n **Site: **<http://www.iff.fiocruz.br>",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 33478
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32772,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "Para ter acesso ao serviço o usuário deverá ter sido encaminhado pela atenção primária através do Sistema de Regulação em Saúde (Sisreg) e atender os critério de atendimento do IFF para agendamento da histeroscopia diagnóstica:\n\n 1) Investigação de possível câncer de endométrio (sangramento pós-menopausa com espessamento endometrial) detectado em ultrassonografia transvaginal (USG TV);\n\n 2) Sangramento uterino anormal e imagem sugestiva de mioma submucoso em USG TV."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "1",
+      "max": "3",
+      "unidade": "horas"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 1,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 52522
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Espessamento endometrial",
+        "id": 117867
+      },
+      {
+        "item": "Mioma",
+        "id": 117868
+      },
+      {
+        "item": "Sangramento uterino",
+        "id": 117869
+      },
+      {
+        "item": "Endométrio",
+        "id": 117870
+      },
+      {
+        "item": "Diagnóstico de câncer",
+        "id": 117871
+      },
+      {
+        "item": "Diagnóstico ginecológico",
+        "id": 117872
+      },
+      {
+        "item": "Exame ginecológico",
+        "id": 117873
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 34255
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 48,
+    "negativas": 13
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 68806,
+      "titulo": "Identificar-se na recepção",
+      "descricao": "Apresentar-se na recepção com a guia do Sistema de Regulação em Saúde constando o nome, data da consulta, para receber orientação e liberação para acesso ao Hospital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 97255,
+            "nome": "Guia de encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 97256,
+            "nome": "Carteira de identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88476,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção de entrada do Instituto.\n\n Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nEndereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro , RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 68807,
+      "titulo": "Identificar-se para abertura de prontuário médico",
+      "descricao": "Consiste na apresentação dos documentos pelo usuário para abertura do prontuário pelo Arquivo Médico do IFF com objetivo de identificação e geração do Cartão de Agendamento Institucional que é entregue ao paciente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 97257,
+            "nome": "Carteira de Identidade"
+          },
+          {
+            "id": 97258,
+            "nome": "Cartão do SUS"
+          },
+          {
+            "id": 97259,
+            "nome": "Guia de Encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 97260,
+            "nome": "Comprovante de residência"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88477,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção do Arquivo Médico após entrada do usuário no Instituto.\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro , RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 68808,
+      "titulo": "Identificar-se junto à recepção da Unidade de internação da ginecologia.",
+      "descricao": "Esta etapa consiste na entrega do Cartão de Agendamento Institucional e Guia de Encaminhamento do Sistema de Regulação em Saúde na recepção da Unidade de internação da ginecologia (terceiro andar), para registrar a chegada para o atendimento e posterior efetivação no Sistema de Regulação em Saúde e na Agenda Eletrônica do Sistema Absolute.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 97261,
+            "nome": "Cartão de Agendamento Institucional"
+          },
+          {
+            "id": 97262,
+            "nome": "Guia de Encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 97263,
+            "nome": "Guia de Contra referência"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88478,
+            "tipo": "presencial",
+            "descricao": "Na Recepção da Unidade de internação da ginecologia (terceiro andar).\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro , RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 68809,
+      "titulo": "Realizar o Exame de Histeroscopia Diagnóstica",
+      "descricao": "Inicialmente a paciente será orientada pela equipe médica sobre o procedimento, serão avaliados os exames de ultrassonografia transvaginal (USG TV) para confirmar a indicação do exame. A realização do procedimento seguirá o protocolo do IFF, e o resultado será anexado no prontuário, com a entrega da via do paciente. Se for constatado a necessidade de biópsia durante o exame e a mesma for realizada, será agendado o retorno para entrega do resultado do laudo histopatológico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 97264,
+            "nome": "Ultrassonografia transvaginal (USG TV)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88479,
+            "tipo": "presencial",
+            "descricao": "Na sala de Exames da Unidade de Internação da Ginecologia.\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro , RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 68810,
+      "titulo": "Receber resultado da biópsia",
+      "descricao": "Consiste na entrega do resultado da biópsia, quando esta for realizada durante o exame de histeroscopia diagnóstica.\n\n Com o resultado do exame e a guia de contra-referência, o paciente retorna ao profissional de saúde da Unidade de Saúde solicitante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 97265,
+            "nome": "Cartão de Agendamento Institucional"
+          },
+          {
+            "id": 97266,
+            "nome": "Guia de contra-referência"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88480,
+            "tipo": "presencial",
+            "descricao": "É realizado no Consultório do ambulatório de Ginecologia (primeiro andar).\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro , RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "79",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-exame-de-histeroscopia-diagnostica",
+  "statusDestaque": false
+}

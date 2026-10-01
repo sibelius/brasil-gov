@@ -1,0 +1,357 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12817",
+  "nome": "Solicitar empréstimo interbibliotecário de materiais bibliográficos - UFRB",
+  "sigla": "",
+  "descricao": "É a disponibilização de Materiais bibliográficos que constam no acervo do Sistema de Bibliotecas da UFRB para empréstimo.",
+  "flagPortalLogado": "N",
+  "contato": "NÚCLEO DE CIRCULAÇÃO E REFERENCIA DA BIBLIOTECA CENTRAL (NUCIREF)\n\n E-mail: [nuciref.cobic@proplan.ufrb.edu.br](mailto:nuciref.cobic@proplan.ufrb.edu.br) \n\n Presencial: Rua Rui Barbosa, nº 710 – Centro, Cruz das Almas – BA, CEP: 44.380-000\n\n Telefone: (75-36213004)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 44237
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 41307,
+        "tipo": "- Estudantes da UFRB;\n\n  -Servidores da UFRB;\n\n - Sociedade em Geral (consultar no local).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/84710",
+    "dbId": 57785,
+    "nomeOrgao": "Universidade Federal do Recôncavo da Bahia (UFRB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 66788
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "EMPRÉSTIMO",
+        "id": 153019
+      },
+      {
+        "item": "ACERVO ",
+        "id": 153020
+      },
+      {
+        "item": "PESQUISA",
+        "id": 153021
+      },
+      {
+        "item": "",
+        "id": 153022
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Regulamento do Sistema de Bibliotecas <https://www.ufrb.edu.br/biblioteca/documentos/category/2-documentos-do-sistema-de-bibliotecas-da-ufrb?download=345:regulamento-da-biblioteca&start=20>",
+        "id": 48578
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 88829,
+      "titulo": "Solicitar cadastro na biblioteca",
+      "descricao": "Comparecer à unidade de biblioteca do Centro de Ensino a que está vinculado para realização de cadastro que dará acesso ao sistema Pergamum.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 126251,
+            "nome": "Documento original com foto e comprovante de matrícula assinado e carimbado pelo Coordenador do Curso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 113489,
+            "tipo": "presencial",
+            "descricao": "NÚCLEO DE CIRCULAÇÃO E REFERENCIA DA BIBLIOTECA CENTRAL (NUCIREF)\n\n Presencial: Rua Rui Barbosa, nº 710 – Centro, Cruz das Almas – BA, CEP: 44.380-000\n\n Telefone: (75-36213004)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 113490,
+            "tipo": "e-mail",
+            "descricao": "[nuciref.cobic@proplan.ufrb.edu.br](mailto:nuciref.cobic@proplan.ufrb.edu.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 88830,
+      "titulo": "Buscar o número da chamada do acervo.",
+      "descricao": "Acessar o link <http://acervo.ufrb.edu.br/pergamum/biblioteca/index.php>, escolher “Unidade de Informação”, o “Tipo de obra”, em seguida a opção de “Buscar por” e, por último, “Digite o termo para a pesquisa”, na página de pesquisa, e anotar o “Número de Chamada”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 113491,
+            "tipo": "web",
+            "descricao": "<http://acervo.ufrb.edu.br/pergamum/biblioteca/index.php>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 88831,
+      "titulo": "Solicitar o empréstimo dos materiais pretendidos",
+      "descricao": "De posse do número de chamada o usuário deverá dirigir-se ao balcão de atendimento e fornecer o número de chamada ao atendente que irá buscar os materiais desejados no acervo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 126252,
+            "nome": "Documento original com foto."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 113492,
+            "tipo": "presencial",
+            "descricao": "NÚCLEO DE CIRCULAÇÃO E REFERENCIA DA BIBLIOTECA CENTRAL (NUCIREF)\n\n Presencial: Rua Rui Barbosa, nº 710 – Centro, Cruz das Almas – BA, CEP: 44.380-000\n\n Telefone: (75-36213004)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 113493,
+            "tipo": "e-mail",
+            "descricao": "[nuciref.cobic@proplan.ufrb.edu.br](mailto:nuciref.cobic@proplan.ufrb.edu.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 88832,
+      "titulo": "Renovar prazo de empréstimo de material",
+      "descricao": "Na data estipulada pelo sistema (7 dias úteis) o usuário poderá realizar a renovação do material pela internet pelo site <http://acervo.ufrb.edu.br/pergamum/biblioteca/index.php>  na opção Meu Pergamum, acessando o sistema com o login e senha previamente cadastrados na Biblioteca.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 113494,
+            "tipo": "web",
+            "descricao": "<http://acervo.ufrb.edu.br/pergamum/biblioteca/index.php>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 88833,
+      "titulo": "Devolver material",
+      "descricao": "Na data estipulada pelo sistema (7 dias úteis) o usuário deverá realizar a devolução do material na Biblioteca Central.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 113495,
+            "tipo": "presencial",
+            "descricao": "NÚCLEO DE CIRCULAÇÃO E REFERENCIA DA BIBLIOTECA CENTRAL (NUCIREF)\n\n Presencial: Rua Rui Barbosa, nº 710 – Centro, Cruz das Almas – BA, CEP: 44.380-000\n\n Telefone: (75-36213004)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 113496,
+            "tipo": "e-mail",
+            "descricao": "[nuciref.cobic@proplan.ufrb.edu.br](mailto:nuciref.cobic@proplan.ufrb.edu.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "63",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-emprestimo-interbibliotecario-de-materiais-bibliograficos-ufrb",
+  "statusDestaque": false
+}

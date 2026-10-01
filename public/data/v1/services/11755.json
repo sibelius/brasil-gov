@@ -1,0 +1,197 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11755",
+  "nome": "Realizar parto no HCPA - Centro Obstétrico",
+  "sigla": "CO",
+  "descricao": "A Emergência Obstétrica do Hospital de Clínicas é um serviço do Sistema Único de Saúde (SUS), gratuito, com funcionamento 24 horas por dia, e recebe gestantes a partir de 20 semanas de gestação. Está localizada no 12º andar do Bloco A. Atende gestantes que necessitam de atendimento de emergência e urgência, mulheres durante o período de parturição (pré-parto, parto e pós-parto imediato) e recém-nascidos nas primeiras horas de vida. Atende também as gestantes que necessitam de internação hospitalar, seja para tratamento clínico ou obstétrico, ou para o parto. A Maternidade faz parte da Rede Cegonha (programa do Ministério da Saúde que garante às mulheres uma atenção humanizada na gravidez) e realiza o atendimento a gestantes de alto risco. Vinculada à Universidade Federal do Rio Grande do Sul (UFRGS), a assistência no Hospital de Clínicas é prestada por professores da UFRGS, médicos e equipe de enfermagem do Corpo Clínico da instituição, com a participação de residentes e estudantes de graduação e pós-graduação.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone (51) 3359 8192 Para registrar reclamações ou sugestões favor acessar: https://www.hcpa.edu.br/fale-conosco/ouvidoria/registre-sua-manifestacao ou envie email para ouvidoria@hcpa.edu.br Para entrar em contato com o Hospital de Clínicas de Porto Alegre, telefone para: (51) 3359-8000",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Maternidade",
+        "id": 117070
+      },
+      {
+        "item": "Centro Obstétrico",
+        "id": 117071
+      },
+      {
+        "item": "Emergência Obstétrica",
+        "id": 117072
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98199,
+        "tipo": "Gestantes a partir de 20 semanas de gestação, que necessitam de atendimento de emergência e urgência, e pacientes direcionadas para o atendimento de emergência obstétrica pela Rede de Atenção à Saúde (SUS).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/258",
+    "dbId": 36614,
+    "nomeOrgao": "Hospital de Clínicas de Porto Alegre (HCPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 163450
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Maternidade ",
+        "id": 391329
+      },
+      {
+        "item": "Emergência Obstétrica",
+        "id": 391330
+      },
+      {
+        "item": "Maternidade do Hospital de Clínicas de Porto ",
+        "id": 391331
+      },
+      {
+        "item": "\t\t\t\t\t\t\t\t\t\t",
+        "id": 391332
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 138182
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Gestantes com idade gestacional de 20 semanas ou mais em situações consideradas urgentes e/ou graves são priorizadas no atendimento, conforme o Protocolo de Classificação de Risco do Centro Obstétrico do HCPA.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: • Urbanidade; • Respeito; • Acessibilidade; • Cortesia; • Presunção da boa-fé do usuário; • Igualdade; • Eficiência; • Segurança; e • Ética.",
+  "etapas": [
+    {
+      "id": 228613,
+      "titulo": "Cadastrar-se na rede básica de saúde",
+      "descricao": "Realizar o cadastro no Sistema Único de Saúde (SUS), caso a paciente não possua.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296083,
+            "tipo": "presencial",
+            "descricao": "O cadastro poderá ocorrer em qualquer momento da gestação, nas Unidade Básicas de Saúde (UBS), no Centro Obstétrico é realizado, somente, caso a gestante ainda não possua o cartão do SUS.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 228614,
+      "titulo": "Dirigir-se ao Hospital de Clínicas de Porto Alegre",
+      "descricao": "Gestantes com 20 semanas ou mais de gestação, referenciadas pelas Unidades Básicas de Saúde (UBS) de Porto Alegre, ou em situação de emergência ou urgência clínica ou obstétrica, ou para o parto.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296084,
+            "tipo": "presencial",
+            "descricao": "Deslocar-se para o Hospital de Clinicas de Porto Alegre, Rua Ramiro Barcelos, 2350, 12º andar, Bloco A, Porto Alegre-RS. Tempo estimado de espera: É preconizado que o acolhimento no Centro Obstétrico do HCPA seja realizado em até 15 minutos. Já a consulta será realizada conforme a prioridade de atendimento descrita no Protocolo de Classificação de Risco do Centro Obstétrico do HCPA. VERMELHO - Emergência, LARANJA – Muito Urgente, AMARELO - Urgente, VERDE – Pouco Urgente, AZUL – Não prioritário.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-parto-no-hcpa",
+  "statusDestaque": false
+}

@@ -1,0 +1,324 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23044",
+  "nome": "Agendar Consulta Especializada no Hospital Universitário Walter Cantidio",
+  "sigla": "HUWC",
+  "descricao": "Lista de Especialidades 1",
+  "flagPortalLogado": "N",
+  "contato": "(85) 3366‑8000",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 100027
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84699,
+        "tipo": "Usuários do SUS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201444",
+    "dbId": 32670,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Walter Cantídio (EBSERH-UFCE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 139348
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Encaminhamento médico",
+        "id": 335923
+      },
+      {
+        "item": "Marcação de consulta",
+        "id": 335924
+      },
+      {
+        "item": "Regulação ambulatorial",
+        "id": 335925
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 116580
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 194529,
+      "titulo": "Confirmar a presença na Central de Agendamento",
+      "descricao": "Paciente comparece no balão da recepção da Central de Agendamento no dia e horário informados na Guia de Encaminhamento e retira uma senha para cadastro dos sistemas internos Hospital Universitário Walter Cantidio",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 266394,
+            "nome": "Guia de encaminhamento da Unidade Básica de Saúde\n\n  *       Documento de identificação com foto"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254191,
+            "tipo": "presencial",
+            "descricao": "Rua Pastor Samuel Munguba, nº 1290 – Bairro Rodolfo Teófilo, Fortaleza – CE, CEP 60430‑370 \n\n (85) 3366‑8000",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194530,
+      "titulo": "Realizar cadastro nos sistemas internos Hospital Universitário Walter Cantidio",
+      "descricao": "Paciente, após retirar a senha no balcão, aguarda seu chamado no Painel Eletrônico. Ao ser chamado, confirma seus dados junto ao atendente, que agenda a consulta nos sistemas internos e abre o seu prontuário físico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 266395,
+            "nome": "* Guia de Encaminhamento da Unidade Básica de Saúde\n *  Documento de identificação com foto\n\n \n *  Comprovante de residência\n\n \n *  Cartão SUS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254192,
+            "tipo": "presencial",
+            "descricao": "Rua Pastor Samuel Munguba, nº 1290 – Bairro Rodolfo Teófilo, Fortaleza – CE, CEP 60430‑370 \n\n (85) 3366‑8000",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194531,
+      "titulo": "Encaminhar paciente para ambulatório da Especialidade",
+      "descricao": "Após o registro da consulta nos sistemas internos, paciente é orientado a dirigir-se ao ambulatório específico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 266396,
+            "nome": "Carteirinha do HUWC"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254193,
+            "tipo": "presencial",
+            "descricao": "Rua Pastor Samuel Munguba, nº 1290 – Bairro Rodolfo Teófilo, Fortaleza – CE, CEP 60430‑370 \n\n (85) 3366‑8000",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194532,
+      "titulo": "Apresentar-se no balcão de atendimento",
+      "descricao": "Paciente entrega sua carteirinha do HUWC e seu prontuário no balcão do ambulatório e é orientado a aguardar sua chamada pelo médico na recepção",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 266397,
+            "nome": "Carteirinha do HUWC"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254194,
+            "tipo": "presencial",
+            "descricao": "Rua Pastor Samuel Munguba, nº 1290 – Bairro Rodolfo Teófilo, Fortaleza – CE, CEP 60430‑370 \n\n (85) 3366‑8000",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194533,
+      "titulo": "Encaminhar pós-consulta",
+      "descricao": "Após a consulta o paciente pode ter 3 tipos de encaminhamentos:\n\n - Agendar retorno direto no ambulatório;\n\n - Agendar interconsulta na Central de Agendamento;\n\n - Alta médica.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 266398,
+            "nome": "*  Carteirinha do HUWC"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254195,
+            "tipo": "presencial",
+            "descricao": "Rua Pastor Samuel Munguba, nº 1290 – Bairro Rodolfo Teófilo, Fortaleza – CE, CEP 60430‑370 \n\n (85) 3366‑8000",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-consulta-especializada-no-hospital-universitario-walter-cantidio",
+  "statusDestaque": false
+}

@@ -1,0 +1,252 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10418",
+  "nome": "Consultar Cadastro de Pessoa Física (CPF) na Receita Federal",
+  "sigla": "",
+  "descricao": "Consulte a situação cadastral do seu CPF junto à Receita Federal. Por meio deste serviço você também pode emitir o comprovante de situação cadastral, consultar as informações do cadastro e confirmar a autenticidade de comprovantes de situação cadastral do CPF.\n\n Acesse os serviços pelos canais listados na aba \"Etapas para a realização deste serviço\".",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)\n\n [Orientações sobre o CPF](https://www.gov.br/../../receitafederal/pt-br/assuntos/meu-cpf)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122683
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102569,
+        "tipo": "Cidadão inscrito no Cadastro de Pessoas Físicas (CPF).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171396
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171397
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171398
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171399
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pessoa Física (CPF)"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CPF",
+        "id": 408298
+      },
+      {
+        "item": "Consulta CPF",
+        "id": 408299
+      },
+      {
+        "item": "Consultar CPF",
+        "id": 408300
+      },
+      {
+        "item": "Cartão CPF",
+        "id": 408301
+      },
+      {
+        "item": "CPF Digital",
+        "id": 408302
+      },
+      {
+        "item": "Situação cadastral",
+        "id": 408303
+      },
+      {
+        "item": "Autenticidade",
+        "id": 408304
+      },
+      {
+        "item": "Informações CPF",
+        "id": 408305
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.172/2024](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=135611 )",
+        "id": 147366
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 83063,
+    "negativas": 88493
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239223,
+      "titulo": "Consultar cadastro de pessoas físicas (CPF)",
+      "descricao": "Acesse o sistema e informe seus dados pessoais quando for solicitado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308864,
+            "tipo": "web",
+            "descricao": "[Consultar Situação do CPF](https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 308865,
+            "tipo": "web",
+            "descricao": "[Consultar Informações do CPF](https://cav.receita.fazenda.gov.br/autenticacao/login/index/15)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 308866,
+            "tipo": "web",
+            "descricao": "[Validar Comprovante do CPF](https://servicos.receita.fazenda.gov.br/Servicos/CPF/ComprovanteAutenticidade/CPFautentic.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239224,
+      "titulo": "Consultar pendências",
+      "descricao": "Se o seu CPF estiver na situação \"**Pendente de regularização**\", consulte suas pendências para saber qual declaração de imposto de renda está faltando. Ao enviar a declaração correta, seu CPF ficará na situação \"**Regular**\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308867,
+            "tipo": "web",
+            "descricao": "[Minhas Dívidas e Pendências](https://servicos.receitafederal.gov.br/servico/pendencias/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10420",
+      "nome": "Inscrever Cidadão no Cadastro de Pessoas Físicas (CPF)"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10416",
+      "nome": "Atualizar CPF"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10424",
+      "nome": "Obter Cartão de CPF"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "48",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-cadastro-de-pessoas-fisicas",
+  "statusDestaque": false
+}

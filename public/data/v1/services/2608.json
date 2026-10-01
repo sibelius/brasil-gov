@@ -1,0 +1,391 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2608",
+  "nome": "Obter ou renovar Licença Originária para transporte rodoviário internacional de cargas",
+  "sigla": "LO",
+  "descricao": "Solicitar Licença Originária para a prestação regular de serviço de transporte rodoviário internacional de cargas entre Brasil e determinado país",
+  "flagPortalLogado": "N",
+  "contato": "**CTRIC - ctric@antt.gov.br  \nOuvidoria - ouvidoria@antt.gov.br ou telefone 166  \nDúvidas relacionadas às solicitações: (61) 3410-1215**",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0#",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Habilitação para transporte internacional de cargas",
+        "id": 106540
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89697,
+        "tipo": "Empresas e Cooperativas de transporte rodoviário.",
+        "requisitos": "Cadastradas no Registro Nacional de Transportadores Rodoviários de Cargas - RNTRC"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 148588
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "internacional",
+        "id": 356209
+      },
+      {
+        "item": "transporte",
+        "id": 356210
+      },
+      {
+        "item": "carga",
+        "id": 356211
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução nº 6.038, de 08 de fevereiro de 2024](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&sgl_tipo=RES&num_ato=00006038&seq_ato=000&vlr_ano=2024&sgl_orgao=DG/ANTT/MT&cod_modulo=623&cod_menu=8720)",
+        "id": 124103
+      },
+      {
+        "item": "[Portaria nº 6, de 1º de março de 2024 - SUROC/ANTT/MT](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&sgl_tipo=POR&num_ato=00000006&seq_ato=000&vlr_ano=2024&sgl_orgao=SUROC/ANTT/MT&cod_modulo=421&cod_menu=8720)",
+        "id": 124104
+      },
+      {
+        "item": "[Resolução nº 5.908, de 15 de setembro de 2020](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&num_ato=00005908&sgl_tipo=RES&sgl_orgao=DG/ANTT/MI&vlr_ano=2020&seq_ato=000)",
+        "id": 124105
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 208118,
+      "titulo": "Solicitação",
+      "descricao": "Verifique os detalhes dos procedimentos em https://portal.antt.gov.br/web/guest/tric",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 281786,
+            "nome": "Instruções de preenchimento de requerimento de Licença Originária no site da ANTT, em Cargas no portal do TRIC: <https://www.gov.br/antt/pt-br/assuntos/sistemas-antt-1/prestacao-regular-de-transporte-rodoviario-internacional-de-cargas-por-transportador-brasileiro>"
+          },
+          {
+            "id": 281787,
+            "nome": "Documentação da empresa transportadora ou da cooperativa de transportadores"
+          },
+          {
+            "id": 281788,
+            "nome": "Procuração do representante legal (se for o caso)"
+          },
+          {
+            "id": 281789,
+            "nome": "Informações dos veículos a serem autorizados"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270455,
+            "tipo": "postal",
+            "descricao": "**ANTT** - Setor de Clubes Esportivos Sul - SCES, Lote 10, Trecho 3, Projeto Orla Polo 8, Bloco A, Térreo - Brasília / DF - CEP: 70.200-003",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270456,
+            "tipo": "presencial",
+            "descricao": "**ANTT** - Setor de Clubes Esportivos Sul - SCES, Lote 10, Trecho 3, Projeto Orla Polo 8, Bloco A, Térreo - Brasília / DF - CEP: 70.200-003",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270457,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208119,
+      "titulo": "Análise e publicação do ato de outorga de Licença Originária ou Renovação",
+      "descricao": "Análise da documentação pela área técnica e emissão de Parecer. Em caso de deferimento, há a emissão de Decisão SUROC para habilitação da empresa à prestação do serviço de transporte rodoviário internacional de cargas e posterior envio para ciência da Diretoria e publicação no DOU. Caso contrário, o Parecer de indeferimento é enviado ao requerente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270458,
+            "tipo": "e-mail",
+            "descricao": "Envio de Parecer de indeferimento ou da Licença Originária e do Modelo A (quadro de frota habilitado) por meio do SEI (utiliza a caixa da ctric@antt.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270459,
+            "tipo": "web",
+            "descricao": "Publicação de Decisão SUROC para habilitar a empresa à prestação do serviço de transporte rodoviário internacional de cargas \n\n [ ](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=categorias&cod_modulo=421&menuOpen=true)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208120,
+      "titulo": "Emissão de documento de Licença Originária e Emissão",
+      "descricao": "Emissão de documento de Licença Originária nos termos dos Acordo Internacionais e da Resolução ANTT nº 6.038/2024 e transmissão para os Organismos estrangeiros competentes e para o requerente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270460,
+            "tipo": "e-mail",
+            "descricao": "ctric@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270461,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI: [Acesse o site](https://portal.antt.gov.br/web/guest/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208121,
+      "titulo": "Recurso, quando for o caso.",
+      "descricao": "Recursos podem ser feitos a qualquer tempo pelos meios de peticionamentos disponíveis.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270462,
+            "tipo": "e-mail",
+            "descricao": "ctric@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270463,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI: [Acesse o site](https://portal.antt.gov.br/web/guest/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208122,
+      "titulo": "Aprovação tácita, quando for o caso.",
+      "descricao": "Aprovação tácita em até 30 dias corridos desde que atendidos os requisitos previstos nos Acordos Internacionais, traduzidos na Resolução ANTT 6.038/2024.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270464,
+            "tipo": "e-mail",
+            "descricao": "ctric@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "76",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-ou-renovar-licenca-originaria-para-transporte-rodoviario-internacional-de-cargas",
+  "statusDestaque": false
+}

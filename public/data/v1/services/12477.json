@@ -1,0 +1,229 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12477",
+  "nome": "Consultar Comunicação de Acidente de Trabalho",
+  "sigla": "CAT",
+  "descricao": "É o serviço para consultar e imprimir a sua Comunicação de Acidente de Trabalho (CAT).\n\n Este pedido é realizado totalmente pela internet, você não precisa ir ao INSS.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas, ligue para a Central de Atendimento do INSS pelo telefone 135.\n\n O serviço está disponível de segunda a sábado das 7h às 22h (horário de Brasília).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meu.inss.gov.br/#/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94612
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80498,
+        "tipo": "Pessoas que já registraram a Comunicação de Acidente de Trabalho por terem passado por acidente de trabalho, de trajeto ou uma doença ocupacional.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934",
+    "dbId": 36802,
+    "nomeOrgao": "Instituto Nacional do Seguro Social (INSS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 131218
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "previdência",
+        "id": 318821
+      },
+      {
+        "item": "inss ",
+        "id": 318822
+      },
+      {
+        "item": "cat",
+        "id": 318823
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109239
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 365,
+    "negativas": 567
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 182833,
+      "titulo": "Pedir o serviço",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga para** Do que você precisa?**\n * Digite: *Comunicação de acidente*\n * Escolha o serviço\n * Vá em **Consultar CAT** e baixe o documento",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 249900,
+            "nome": "**Da pessoa titular:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240042,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240043,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240044,
+            "tipo": "telefone",
+            "descricao": "Ligue 135, caso o sistema esteja indisponível.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240045,
+            "tipo": "presencial",
+            "descricao": "Se necessário atendimento presencial:\n\n  * Agende pelo telefone 135, ou\n * Busque uma unidade que tenha [acordo](https://www.gov.br/inss/pt-br/canais_atendimento/acts) com o INSS na sua região",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 182834,
+      "titulo": "Receber resposta",
+      "descricao": "**Pelo Meu INSS:** o documento pode ser baixado no momento do pedido.\n\n **Para receber na Agência:** o documento será entregue no dia e hora agendados.   \n   \nDúvidas? Ligue 135.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240046,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240047,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "39",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-comunicacao-de-acidente-de-trabalho-cat",
+  "statusDestaque": false
+}

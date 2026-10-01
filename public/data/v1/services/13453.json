@@ -1,0 +1,197 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13453",
+  "nome": "Realizar consulta especializada em Hematologia Geral Adulto no Humap-UFMS",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, pacientes regulados via Sisreg e egressos da internação, recebem atendimento especializado em Hematologia Geral Adulto.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (67)3345-3248\n\n E-mail: uhho.humap-ufms@ebserh.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74110
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65106,
+        "tipo": "Pacientes regulados via Sisreg, que necessitam de atendimento especializado em Hematologia Geral Adulto.",
+        "requisitos": ""
+      },
+      {
+        "id": 65107,
+        "tipo": "Pacientes egressos da internação no Humap-UFMS, que precisam de consulta especializada em Hematologia Geral Adulto.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 102714
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "saúde",
+        "id": 252085
+      },
+      {
+        "item": "atendimento",
+        "id": 252086
+      },
+      {
+        "item": "hematologia",
+        "id": 252087
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 83893
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145388,
+      "titulo": "Dirigir-se ao Ambulatório de Hematologia no dia e horário agendados para a consulta",
+      "descricao": "Comparecer ao Guichê do Ambulatório de Hematologia no dia e horário agendados para a consulta, com os seguintes documentos: Exames anteriores (caso tenha); Número da chave (autorização da consulta); Documento de identificação com foto; Comprovante de residência; Carteirinha de Identificação do Humap-UFMS (desejável). Informar para a recepcionista que veio para a consulta.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 206506,
+            "nome": "Exames anteriores (caso tenha);"
+          },
+          {
+            "id": 206507,
+            "nome": "Número da chave (autorização da consulta);"
+          },
+          {
+            "id": 206508,
+            "nome": "Documento de identificação com foto;"
+          },
+          {
+            "id": 206509,
+            "nome": "Comprovante de residência;"
+          },
+          {
+            "id": 206510,
+            "nome": "Carteirinha de Identificação do Humap-UFMS (desejável)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24166,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189078,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada pelo portão principal, localizado no prédio do antigo Banco de Sangue.\n\n Horário de atendimento no Ambulatório de Hematologia:\n\n De segunda a quinta-feira, das 07h às 11h - 12h30 às 16h\n\n Sexta-feira, das 07h às 11h - 12h30 às 15h\n\n Telefone: (67)3345-3248\n\n E-mail: uhho.humap-ufms@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 31888,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189077,
+                "tipo": "telefone",
+                "descricao": "(67)3345-3248",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-especializada-em-hematologia-geral-adulto-no-humap-ufms",
+  "statusDestaque": false
+}

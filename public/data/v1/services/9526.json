@@ -1,0 +1,274 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9526",
+  "nome": "Obter restituição de multa junto à ANAC",
+  "sigla": "",
+  "descricao": "Consiste na restituição de multas decorrentes de infrações ao Código Brasileiro de Aeronáutica - CBA que foram canceladas ou que tiveram o seu valor reduzido.\n\n A restituição poderá, a pedido do devedor, ser convertida em compensação com outros débitos de multa vencidos.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://anacpay.anac.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Restituição de multas em dívida corrente",
+        "id": 125501
+      },
+      {
+        "item": "Compensação de multas junto à ANAC",
+        "id": 125502
+      },
+      {
+        "item": "Restituição de multas do Código Brasileiro de Aeronáutica - CBA",
+        "id": 125503
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104998,
+        "tipo": "Pessoa física ou seu procurador",
+        "requisitos": "* O requisitante deve ser a pessoa física autuada que tem a obrigação de pagar a multa ou seu procurador.\n * Possuir cadastro no Protocolo Eletrônico da ANAC. Para realizar seu cadastro, [clique aqui](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei)."
+      },
+      {
+        "id": 104999,
+        "tipo": "Representante legal ou procurador de pessoa jurídica, pública ou privada",
+        "requisitos": "* O requisitante deve ser representante legal ou procurador da pessoa jurídica autuada que tem a obrigação de pagar a multa.\n * O representante legal ou o procurador do requisitante deve possuir cadastro no Protocolo Eletrônico da ANAC. Para realizar seu cadastro, [clique aqui](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175533
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175534
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175535
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 175536
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Taxas e Multas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 418061
+      },
+      {
+        "item": "Multa",
+        "id": 418062
+      },
+      {
+        "item": "CBA",
+        "id": 418063
+      },
+      {
+        "item": "Restituição",
+        "id": 418064
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução ANAC 472/2018](http://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2018/resolucao-no-472-06-06-2018).",
+        "id": 150712
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 245030,
+      "titulo": "Solicitar a restituição da multa",
+      "descricao": "Ao acessar o Protocolo Eletrônico, clique em “Peticionamento” > “Processo Novo”  e selecione o tipo de processo “Arrecadação: Restituição de multas CBA”. Preencha e assine eletronicamente o documento “Requerimento de Restituição de Multas (CBA)” gerado automaticamente pelo SEI. Inclua no processo a **documentação** abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321084,
+            "nome": "cópia simples do **comprovante de pagamento**, caso possua**.**"
+          }
+        ],
+        "casos": [
+          {
+            "id": 48757,
+            "descricao": "Para Pessoa Jurídica de Direito Privado",
+            "documento": [
+              {
+                "id": 321081,
+                "codigo": null,
+                "descricao": "Cópia simples do contrato social e eventual alteração que identifique o(s) atual(ais) responsável(is) legal(is) do interessado.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48758,
+            "descricao": "Para Pessoa Jurídica de Direito Público",
+            "documento": [
+              {
+                "id": 321082,
+                "codigo": null,
+                "descricao": "Cópia simples da lei de criação do órgão/instituição pública ou Lei Orgânica do Município ou Constituição Estadual e termo de posse do representante legal.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48759,
+            "descricao": "No caso de procurador:",
+            "documento": [
+              {
+                "id": 321083,
+                "codigo": null,
+                "descricao": "Procuração e cópia simples do documento de identidade do mandante.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316949,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245031,
+      "titulo": "Receber comunicação da Anac",
+      "descricao": "Após a análise pela ANAC, o deferimento da solicitação será informado no processo.  O requerente deve aguardar a confirmação da admissibilidade da solicitação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316950,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2191",
+      "nome": "Obter restituição de Taxa de Fiscalização da Aviação Civil"
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "57",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-restituicao-de-multa-junto-a-anac",
+  "statusDestaque": false
+}

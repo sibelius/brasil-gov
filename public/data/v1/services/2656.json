@@ -1,0 +1,200 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2656",
+  "nome": "Obter determinação de radioisótopos naturais ou artificiais em amostras diversas",
+  "sigla": "",
+  "descricao": "* Consiste na determinação de radioisótopos em diversos tipos de amostras por técnicas de Análises Radiométricas ou Radioquímicas.\n * É realizado mediante consulta prévia e contrato, podendo ser necessário o desenvolvimento de método analítico especifico para a amostra desejada. Inclui-se a Espectrometria Gama (por exemplo, para determinação radio-226, radio-228 e chumbo-210, entre outros), especialmente em amostras ambientais, e a determinação de Trítio e Oxigênio-15 em água.\n * Destacam-se os métodos de Ativação Neutronica e Espectrometria Gama, úteis em um sem-número de amostras ambientais, industriais e de pesquisa, em razão de serem técnicas multielementares, de alta especificidade e rápida execução.",
+  "flagPortalLogado": "N",
+  "contato": "Serviço de Análise e Meio Ambiente – SEAMA/CDTN  \nE-mail: rpgm@cdtn.br  \nTelefone de contato: (31) 3439 - 9655",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 110164
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92738,
+        "tipo": "Empresas jurídicas da área de pesquisa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 153813
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Análises"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "radiatividade",
+        "id": 367955
+      },
+      {
+        "item": "contaminação",
+        "id": 367956
+      },
+      {
+        "item": "análise",
+        "id": 367957
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 127803
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n · Urbanidade;\n\n · Respeito;\n\n · Acessibilidade;\n\n · Cortesia;\n\n · Presunção da boa-fé do usuário;\n\n · Igualdade;\n\n · Eficiência;\n\n · Segurança; e\n\n · Ética",
+  "etapas": [
+    {
+      "id": 214962,
+      "titulo": "Solicitar analise",
+      "descricao": "2. Solicitação do serviço pelo cliente, por meio de mensagem eletrônica, contato telefônico ou carta endereçada ao setor que executa as análises.\n 4. Análise crítica da solicitação do cliente para avaliar a viabilidade de execução das análises solicitadas.\n 6. Informação para o cliente, no caso de viabilidade de execução ou não do serviço.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289253,
+            "nome": "Proposta de execução\n\n  2. Caso seja viável a execução do serviço, encaminhar para o cliente a proposta de prestação do serviço analítico, considerando custos, prazo para execução do serviço e condições de recebimento das amostras."
+          },
+          {
+            "id": 289254,
+            "nome": "Requerimento\n\n Após aprovada a proposta inicia-se a execução das análises, após o recebimento das amostras, considerando o prazo estabelecido na proposta."
+          },
+          {
+            "id": 289255,
+            "nome": "Guia de pagamento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37846,
+            "descricao": "Pagamento pelo serviço",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "O valor depende do tipo de serviço analítico prestado",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279320,
+            "tipo": "presencial",
+            "descricao": "**Comissão Nacional de Energia Nuclear (CNEN) - Centro de Desenvolvimento da Tecnologia Nuclear - CDTN** -  **Serviço de Análise e Meio Ambiente – SEAMA/CDTN** - Avenida Presidente Antônio Carlos, 6.627 - Campus da UFMG - Pampulha - CEP 31270-901 - Belo Horizonte - MG, Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 279321,
+            "tipo": "telefone",
+            "descricao": "(31) 3439 – 9655",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 279322,
+            "tipo": "e-mail",
+            "descricao": "rpgm@cdtn.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 279323,
+            "tipo": "postal",
+            "descricao": "**Comissão Nacional de Energia Nuclear (CNEN) - Centro de Desenvolvimento da Tecnologia Nuclear - CDTN** -  **Serviço de Análise e Meio Ambiente – SEAMA/CDTN** - Avenida Presidente Antônio Carlos, 6.627 - Campus da UFMG - Pampulha - CEP 31270-901 - Belo Horizonte - MG, Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-determinacao-de-radioisotopos-naturais-ou-artificiais-em-amostras-diversas",
+  "statusDestaque": false
+}

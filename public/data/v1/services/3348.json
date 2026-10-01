@@ -1,0 +1,224 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3348",
+  "nome": "Obter radiofármaco FluorGlic® no Centro Regional de Ciências Nucleares do Nordeste",
+  "sigla": "FDG-18",
+  "descricao": "Fornecer o radiofármaco Fluordeoxiglicose (FDG) - 18F para uso em exames de PET scan. As solicitações podem ser feitas por clínicas e hospitais da região Nordeste, de modo a suprir a demanda do cliente por este produto.",
+  "flagPortalLogado": "S",
+  "contato": "[sac.crcn@cnen.gov.br](mailto:sac.crcn@cnen.gov.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Obter radiofármaco FDG-18 no Centro Regional de Ciências Nucleares do Nordeste",
+        "id": 125899
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105290,
+        "tipo": "Clinicas e hospitais da Região Nordeste que realizem exames de PET Scan.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "1",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175995
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175996
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 175997
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Material"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "radiofármaco",
+        "id": 419236
+      },
+      {
+        "item": "exame",
+        "id": 419237
+      },
+      {
+        "item": "nordeste",
+        "id": 419238
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151103
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 245738,
+      "titulo": "Solicitar doses",
+      "descricao": "Antes de fazer a solicitação das doses, a clínica/hospital precisará realizar o seu cadastro no portal GOV.BR. É importante destacar que a clínica/hospital precisará observar a quantidade de doses semanal de FDG-18 prevista no site da CNEN, com base na sua autorização de instalação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321621,
+            "nome": "Comprovante de pagamento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41422,
+            "descricao": "Preço (por dose)",
+            "moeda": "R$",
+            "valor": " 834,77",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317863,
+            "tipo": "e-mail",
+            "descricao": "sac.crcn@cnen.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317864,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3348)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245739,
+      "titulo": "Receber radiofármaco",
+      "descricao": "Após a realização do pedido, a clínica/hospital deverá providenciar um serviço de transporte especializado para que esteja presencialmente ao Centro Regional de Ciências Nucleares do Nordeste-CRCN/NE para recolher o referido material na radiofarmácia do CRCN/NE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317865,
+            "tipo": "presencial",
+            "descricao": "Centro Regional de Ciências Nucleares do Nordeste\n\n Av. Prof. Luiz Freire, 200; Cidade Universitária; CEP: 50740-545 - Recife - PE.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "93",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-radiofarmaco-fdg-18-no-centro-regional-de-ciencias-nucleares-do-nordeste",
+  "statusDestaque": false
+}

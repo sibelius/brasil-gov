@@ -1,0 +1,278 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13647",
+  "nome": "Parcelar Débitos Decididos pelo Voto de Qualidade do Carf",
+  "sigla": "",
+  "descricao": "Faça sua proposta de quitação de débitos decididos no Conselho Administrativo de Recursos Fiscais (Carf) e garanta a isenção de multas e/ou juros.\n\n Esses débitos são resultado de decisões finais a favor da Receita Federal, baseadas no voto de qualidade no Carf.\n\n Você tem até 90 (noventa) dias para manifestar seu interesse em pagar os débitos. O prazo começa a ser contado da data da ciência da decisão definitiva do Carf.\n\n O pedido de pagamento deve ser feito diretamente no processo de discussão do débito.\n\n O débito pode ser pago em até 12 parcelas mensais e sucessivas, com redução de 100% dos juros.\n\n Para abater a dívida, você pode usar créditos de prejuízo fiscal, base de cálculo negativa da CSLL ou créditos de precatórios, conforme regras específicas da Receita Federal.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/51",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126557
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105833,
+        "tipo": "Pessoas Físicas e Jurídicas.",
+        "requisitos": "Contribuintes que têm processos administrativos fiscais com decisão definitiva em favor da Fazenda Nacional com base no voto de qualidade no Carf."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176968
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176969
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176970
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 176971
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Carf",
+        "id": 421691
+      },
+      {
+        "item": "Parcelamento",
+        "id": 421692
+      },
+      {
+        "item": "Voto de Qualidade",
+        "id": 421693
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.205, de 2024](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=139420)",
+        "id": 151873
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 247090,
+      "titulo": "Emitir documento para pagamento da entrada",
+      "descricao": "Emita o Documento de Arrecadação de Receitas Federais (Darf), com o código 6307, pelo canal abaixo e faça o pagamento da entrada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319469,
+            "tipo": "web",
+            "descricao": "[Gerar Darf (Sicalc)](https://sicalc.receita.economia.gov.br/sicalc/rapido/contribuinte)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247091,
+      "titulo": "Juntar documentação no processo administrativo fiscal",
+      "descricao": "A solicitação do pedido de parcelamento deve ser realizada via processo digital.\n\n Junte os documentos necessários ao pedido de parcelamento pelo canal abaixo.\n\n Clique em “Processos em que sou o Interessado Principal” e selecione o processo que teve decisão do Carf por voto de qualidade e seja o objeto do pedido de parcelamento. Em seguida, clique em “Solicitar Juntada de Documento”.\n\n Faça seu pedido deixando claras todas as informações abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322850,
+            "nome": "Identificação do processo administrativo fiscal, do contribuinte e do responsável;"
+          },
+          {
+            "id": 322851,
+            "nome": "Indicação dos créditos tributários objeto de pagamento na forma do art. 5º da IN RFB nº 2.205, de 2024;"
+          },
+          {
+            "id": 322852,
+            "nome": "O número das prestações pretendidas, se for o caso;"
+          },
+          {
+            "id": 322853,
+            "nome": "Os montantes dos créditos decorrentes de prejuízo fiscal e de base de cálculo negativa da CSLL, por detentor do crédito, se for o caso;"
+          },
+          {
+            "id": 322854,
+            "nome": "O montante de precatórios utilizados; e"
+          },
+          {
+            "id": 322855,
+            "nome": "O Documento de Arrecadação de Receitas Federais (Darf) que comprove o pagamento integral da dívida ou da primeira prestação, conforme o caso, com o código de receita 6307."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319470,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247092,
+      "titulo": "Acompanhar o resultado do pedido",
+      "descricao": "O resultado do seu pedido de parcelamento será informado no processo.\n\n Para consultar, acesse o canal abaixo, clique na opção \"Processos em que sou o interessado principal\" e consulte os documentos do seu processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319471,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 319472,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/parcelar-debitos-decididos-pelo-voto-de-qualidade-do-carf",
+  "statusDestaque": false
+}

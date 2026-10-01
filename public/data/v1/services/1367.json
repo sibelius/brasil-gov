@@ -1,0 +1,215 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1367",
+  "nome": "Obter anuência prévia para importação de agrotóxicos",
+  "sigla": "",
+  "descricao": "Consentimento prévio a importadores para o ingresso de agrotóxicos, componentes e afins, no Brasil, em conformidade com o registro concedido pelo Ministério da Agricultura, Pecuária e Abastecimento (Mapa).",
+  "flagPortalLogado": "N",
+  "contato": "vigiagro@agro.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/pt-br/servicos/obter-licenca-de-importacao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 56775
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 52111,
+        "tipo": "Empresas importadoras de agrotóxicos ou afins",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308793",
+    "dbId": 58142,
+    "nomeOrgao": "Ministério da Agricultura e Pecuária (MAPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 82270
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação e Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "agrotóxicos",
+        "id": 196436
+      },
+      {
+        "item": "importação",
+        "id": 196437
+      },
+      {
+        "item": "autorização de embarque",
+        "id": 196438
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[INSTRUÇÃO NORMATIVA Nº 19, DE 8 DE JULHO DE 2013](http://www.agricultura.gov.br/assuntos/insumos-agropecuarios/insumos-agricolas/agrotoxicos/legislacao/arquivos-de-legislacao/in-19-2013-importacao)",
+        "id": 64397
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 113449,
+      "titulo": "Registrar LI no Siscomex",
+      "descricao": "Registro da LI no Siscomex, momento em que se exigem informações acerca da mercadoria a ser importada e da operação de importação de maneira geral, tais como importador, exportador, país de origem, procedência e aquisição, regime tributário, cobertura cambial, entre outras\n\n Clique [aqui ](http://www.agricultura.gov.br/assuntos/insumos-agropecuarios/insumos-agricolas/agrotoxicos/legislacao/arquivos-de-legislacao/in-19-2013-importacao)para obter o modelo do formulário de requerimento (Anexo I)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 159111,
+            "nome": "Formulário de requerimento devidamente preenchido e assinado"
+          },
+          {
+            "id": 159112,
+            "nome": "Licença de importação"
+          },
+          {
+            "id": 159113,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 159114,
+            "nome": "Procuração do representante legal"
+          },
+          {
+            "id": 159115,
+            "nome": "Documento de identificação oficial do representante legal"
+          },
+          {
+            "id": 159116,
+            "nome": "Certificado de Registro no MAPA do produto"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145440,
+            "tipo": "web",
+            "descricao": "Através do [SISCOMEX](https://www.gov.br/../../obter-licenca-de-importacao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 113450,
+      "titulo": "Receber anuência do MAPA",
+      "descricao": "A solicitação é analisada por um Auditor Fiscal Federal Agropecuário no ponto de ingresso da mercadoria no país.\n\n A conferência da documentação e fiscalização será realizada pelo Sistema de Vigilância Agropecuária Internacional (Vigiagro) no momento de chegada da mercadoria.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145441,
+            "tipo": "web",
+            "descricao": "Através do sistema [SIGVIG](https://sistemasweb.agricultura.gov.br/pages/SIGVIG.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/obter-anuencia-previa-para-importacao-de-agrotoxicos",
+  "statusDestaque": false
+}

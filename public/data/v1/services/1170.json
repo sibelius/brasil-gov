@@ -1,0 +1,279 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1170",
+  "nome": "Obter autorização prévia para importação de fertilizantes, inoculantes e corretivos",
+  "sigla": "",
+  "descricao": "Trata-se de autorização para as importações de fertilizantes, inoculantes e corretivos, e suas respectivas matérias primas.",
+  "flagPortalLogado": "N",
+  "contato": "vigiagro@agro.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/pt-br/servicos/obter-licenca-de-importacao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Requerimento de Importação de Fertilizantes, Inoculantes e Corretivos",
+        "id": 57032
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 52331,
+        "tipo": "Pessoas físicas ou jurídicas",
+        "requisitos": "Que pretendem importar fertilizantes, inoculantes e corretivos, e suas respectivas matérias primas."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "8",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 8,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308793",
+    "dbId": 58142,
+    "nomeOrgao": "Ministério da Agricultura e Pecuária (MAPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 82650
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 82651
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 82652
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação e Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "autorização",
+        "id": 197591
+      },
+      {
+        "item": "fertilizante",
+        "id": 197592
+      },
+      {
+        "item": "inoculante",
+        "id": 197593
+      },
+      {
+        "item": "corretivo",
+        "id": 197594
+      },
+      {
+        "item": "solo",
+        "id": 197595
+      },
+      {
+        "item": "produtos químicos",
+        "id": 197596
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa SARC Nº 014, de 16 de outubro de 2003](https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-agricolas/fertilizantes/legislacao/in-sarc-14-de-16-10-2003-importacao-de-fertlizantes.pdf/view)",
+        "id": 64898
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 50,
+    "negativas": 15
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 113919,
+      "titulo": "Registrar LI no Siscomex",
+      "descricao": "Registro da LI no Siscomex, momento em que se exigem informações acerca da mercadoria a ser importada e da operação de importação de maneira geral, tais como importador, exportador, país de origem, procedência e aquisição, regime tributário, cobertura cambial, entre outras",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 159793,
+            "nome": "**Dossiê no Portal Único do SISCOMEX contendo:**\n\n - Extrato da licença de Importação\n\n - Fatura\n\n - Conhecimento de Carga\n\n - Certificado de Análise\n\n - Registro do produto\n\n  -Processo Produtivo, se for o caso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145995,
+            "tipo": "web",
+            "descricao": "Através do [SISCOMEX](https://www.gov.br/../../obter-licenca-de-importacao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 113920,
+      "titulo": "Encaminhar Requerimento Modelo MAPA",
+      "descricao": "Enviar requerimento por peticionamento eletrônico via SEI ou envio por e-mail para o Serviço de Sanidade Vegetal e Insumos Agrícolas da Superintendência Federal do MAPA no estado de localização do importador",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 159794,
+            "nome": "Requerimento (Instrução Normativa SARC Nº 014, de 16 de outubro de 2003)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145996,
+            "tipo": "e-mail",
+            "descricao": "Para as UFs abaixo utilizar os e-mails:\n\n      **UF** **E-mail para encaminhamento**   CE shirley.mapurunga@agro.gov.br   GO carlos.michel@agro.gov.br  \n marcio.queiroz@agro.gov.br  \n leonardo.amorim@agro.gov.br   MG sefia.uberaba@agro.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 145997,
+            "tipo": "e-mail",
+            "descricao": "Para as UFs abaixo utilizar os e-mails:\n\n    **UF** **E-mail para encaminhamento**   PI diolino.henriques@agro.gov.br   RR insumosagricolas.rr@agro.gov.br   RS fertilizantes.rs@agro.gov.br   SP fertcomex.sfa-sp@agro.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 145998,
+            "tipo": "web",
+            "descricao": "**Para as outras UFs não listadas utilizar o Peticionamento Eletrônico do SEI**\n\n Através do Módulo de [Peticionamento Eletrônico do SEI](https://sistemas.agricultura.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&acao_origem=usuario_externo_logar&id_orgao_acesso_externo=0)\n\n Utilize o Tipo de processo: **Insumos Agrícolas: Fertilizantes**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 113921,
+      "titulo": "Receber autorização",
+      "descricao": "A informação de autorização será lançada diretamente no sistema SISCOMEX/SIGVIG",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145999,
+            "tipo": "web",
+            "descricao": "Consultar o status no sistema [SISCOMEX](https://www.gov.br/../../obter-licenca-de-importacao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "77",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-previa-para-importacao-de-fertilizantes-inoculantes-e-corretivos",
+  "statusDestaque": false
+}

@@ -1,0 +1,210 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/936",
+  "nome": "Obter autorização para fabricação de produtos para alimentação animal com medicamentos de uso veterinário em estabelecimentos registrados.",
+  "sigla": "",
+  "descricao": "Autorização concedida para que o estabelecimento fabricante registrado de produtos destinados à alimentação de animais de produção possa manipular medicamentos de uso veterinário e incorporar em produtos destinados à alimentação animal.",
+  "flagPortalLogado": "N",
+  "contato": "* Entre em contato por e-mail ou telefone do Serviço de Inspeção de Produtos de Origem Animal - SIPOA de sua jurisdição.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 56976
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 52286,
+        "tipo": "Estabelecimentos fabricantes de produtos destinados à alimentação de animais de produção.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308793",
+    "dbId": 58142,
+    "nomeOrgao": "Ministério da Agricultura e Pecuária (MAPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 82587
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 82588
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Mercado Interno"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "fabricação",
+        "id": 197359
+      },
+      {
+        "item": "alimentação animal",
+        "id": 197360
+      },
+      {
+        "item": "medicamento veterinário",
+        "id": 197361
+      },
+      {
+        "item": "incorporação em produtos de alimentação anima",
+        "id": 197362
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Decreto 6.296/2007](http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/D6296.htm \"Decreto 6296\")",
+        "id": 64799
+      },
+      {
+        "item": "[Instrução Normativa nº 65, de 21 de novembro de 2006.](https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-pecuarios/alimentacao-animal/arquivos-alimentacao-animal/legislacao/instrucao-normativa-no-65-de-21-de-novembro-de-2006.pdf \"IN 65-2006\")",
+        "id": 64800
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 113828,
+      "titulo": "Requerer Autorização",
+      "descricao": "Apresentação, por meio de peticionamento eletrônico no Sistema Eletrônico de Informações - SEI, de requerimento para manipular medicamentos de uso veterinário em alimentos destinados a animais.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 159613,
+            "nome": "Requerimento preenchido conforme consta no endereço: <https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-pecuarios/alimentacao-animal/requerimentos/estabelecimentos>"
+          },
+          {
+            "id": 159614,
+            "nome": "Plano de prevenção da contaminação cruzada."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145894,
+            "tipo": "web",
+            "descricao": "Através do [Módulo de Peticionamento Eletrônico do SEI](http://sistemasweb.agricultura.gov.br/pages/SEI.html)\n\n Utilize o Tipo de processo \"Alimentação animal: autorização para uso de medicamentos\".",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 113829,
+      "titulo": "Auditoria",
+      "descricao": "O estabelecimento deverá receber auditoria do MAPA para fins de verificação do cumprimento dos procedimentos que visam a segurança dos produtos fabricados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145895,
+            "tipo": "presencial",
+            "descricao": "Etapa presencial realizada no estabelecimento do requerente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 120,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "60",
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 60,
+        "max": 120
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "58",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-fabricacao-de-produtos-para-alimentacao-animal-com-o-uso-de-medicamentos-de-uso-veterinario",
+  "statusDestaque": false
+}

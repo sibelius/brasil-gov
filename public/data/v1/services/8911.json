@@ -1,0 +1,168 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8911",
+  "nome": "Consultar acervo da Biblioteca Instituto Aggeu Magalhães - Fiocruz/PE",
+  "sigla": "",
+  "descricao": "A Biblioteca do Instituto Aggeu Magalhães/Fiocruz Pernambuco é especializada em saúde pública, ciências biomédicas, e áreas afins. Sua missão é reunir, organizar e disseminar documentação para dar suporte às atividades de pesquisa e ensino da instituição. Está à disposição de todos os alunos, docentes, pesquisadores, estagiários e funcionários para fins de empréstimo, consulta e uso de seus serviços. Sua coleção é aberta ao público em geral para consulta.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** 8121012590\n\n  \n\n **E-mail:** [biblioteca@cpqam.fiocruz.br](mailto:biblioteca@cpqam.fiocruz.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 31443
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31045,
+        "tipo": "* Cidadãos",
+        "requisitos": "Qualquer acesso ao acervo deverá ser feito presencialmente. A consulta ao catálogo poderá ser realizada de forma on-line."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 49521
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pesquisas e Ensaios"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Biblioteca",
+        "id": 111426
+      },
+      {
+        "item": "Acervo bibliográfico",
+        "id": 111427
+      },
+      {
+        "item": "Livros",
+        "id": 111428
+      },
+      {
+        "item": "Bibliografia",
+        "id": 111429
+      },
+      {
+        "item": "Consulta bibliográfica",
+        "id": 111430
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 31980
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 64796,
+      "titulo": "Realizar consulta ao acervo",
+      "descricao": "O cidadão deverá se identificar na portaria do IAM e seguir para a biblioteca.\n\n Na biblioteca irá consultar o catálogo e se dirigir ao acervo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 93219,
+            "nome": "Documento de identificação"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 83293,
+            "tipo": "presencial",
+            "descricao": "O cidadão deverá comparecer à biblioteca para consultar o acervo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 83294,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.cpqam.fiocruz.br/ensino/biblioteca)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "87",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-acervo-da-biblioteca-do-iam-fiocruz-pernambuco",
+  "statusDestaque": false
+}

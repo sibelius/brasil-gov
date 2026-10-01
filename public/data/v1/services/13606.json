@@ -1,0 +1,388 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13606",
+  "nome": "Obter análise técnica detalhada de materiais (Cinemateca Brasileira)",
+  "sigla": "",
+  "descricao": "Exame técnico qualificado de materiais audiovisuais em diferentes formatos e qualificação destes materiais no conjunto disponível da obra audiovisual. Envolve a movimentação de materiais, análise técnica e elaboração de laudo ou ficha de análise.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: atendimento@cinemateca.org.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123932
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103743,
+        "tipo": "Qualquer pessoa que tenha como interesse emprestar algum material fílmico seja para exibição ou processamento interno ou externo, como por exemplo, projetos de restauro.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308821",
+    "dbId": 58143,
+    "nomeOrgao": "Ministério da Cultura (MinC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173376
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173377
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 173378
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Audiovisual"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Audiovisual",
+        "id": 412648
+      },
+      {
+        "item": "Cinemateca Brasileira",
+        "id": 412649
+      },
+      {
+        "item": "Secretaria do Audiovisual",
+        "id": 412650
+      },
+      {
+        "item": "Preservação Audiovisual",
+        "id": 412651
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149098
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241828,
+      "titulo": "Solicitação",
+      "descricao": "Enviar e-mail com os dados dos filmes solicitados, informando a finalidade do levantamento dessas informações, bem como se está elaborando um projeto de digitalização, nova produção ou restauração das obras.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312220,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241829,
+      "titulo": "Autorização dos detentores de direitos dos filmes solicitados",
+      "descricao": "Solicitar aos detentores de direitos e depositantes dos filmes solicitados a autorização para que a Cinemateca Brasileira realize a análise dos materiais.   \n  \nA Cinemateca poderá fornecer os contatos dos detentores e depositantes, caso os tenha. Esta autorização deverá ser encaminhada para o setor de Atendimento da Cinemateca Brasileira.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318289,
+            "nome": "Documento que comprove a autorização por parte dos detentores de direitos dos filmes e dos materiais solicitados para análise."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312221,
+            "tipo": "e-mail",
+            "descricao": "Contatos fornecidos pela Cinemateca ou obtidos pelo solicitante.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241830,
+      "titulo": "Aguardar disponibilização da proposta comercial de Análise Técnica Detalhada de Materiais",
+      "descricao": "O setor de Atendimento elaborará uma proposta comercial de Análise Técnica Detalhada de Materiais e disponibilizará a mesma na plataforma ClickSign para assinatura do responsável pela solicitação, em caso de pessoa jurídica, a pessoa responsável pela empresa deverá assinar a proposta. A proposta tem validade de 10 dias, caso o documento não seja assinado no prazo, o processo deve ser reiniciado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318290,
+            "nome": "Documentação em comum para todos os casos: Ficha de cadastro de pessoa física ou jurídica, o solicitante deverá preencher a ficha enviada pelo setor de Atendimento para que seja elaborada a proposta comercial."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312222,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "17",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 17
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241831,
+      "titulo": "Aguardar a elaboração de termo de Análise Técnica Detalhada de Materiais",
+      "descricao": "Será elaborado um termo de Análise Técnica Detalhada de Materiais e disponibilizado em até 7 dias para assinatura do solicitante e uma testemunha na plataforma ClickSign, este documento ficará disponível para assinatura por 7 dias, caso este não seja assinado será necessário iniciar o processo novamente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312223,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "14",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 14
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241832,
+      "titulo": "Realizar Pagamento",
+      "descricao": "Para o caso de serviço oneroso, o solicitante deverá realizar o pagamento do serviço contratado, nos canais indicados no documento termo de Análise Técnica Detalhada de Materiais, os valores variam conforme a quantidade de materiais solicitados. Para consultar os valores veja a [tabela de serviços](https://cinemateca.org.br/wp-content/uploads/2024/08/tabela_valores_servicos.pdf).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318291,
+            "nome": "Documentação em comum para todos os casos: Envio do comprovante de pagamento para o e-mail do setor de Atendimento – [atendimento@cinemateca.org.br](mailto:atendimento@cinemateca.org.br). Após esse envio o solicitante receberá um recibo pelo pagamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41238,
+            "descricao": "Pagamento do serviço",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "A depender do serviço",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312224,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241833,
+      "titulo": "Aguardar a análise técnica detalhada",
+      "descricao": "O serviço envolve a movimentação dos materiais solicitados, o exame técnico qualificado destes e a qualificação deles no conjunto de materiais disponíveis da obra audiovisual.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312225,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-analise-tecnica-detalhada-de-materiais-cinemateca-brasileira",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

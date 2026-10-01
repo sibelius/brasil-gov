@@ -1,0 +1,289 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6166",
+  "nome": "Matricular-se em curso de graduação - UFJF",
+  "sigla": "",
+  "descricao": "O sistema eletrônico de matrícula está apto a receber documentos dos alunos convocados em processo seletivo de ingresso originários. Eles podem acompanhar a análise de seus documentos através do sistema e também protocolar recursos de cotas (em caso de indeferimento) e enviar documentos adicionais.",
+  "flagPortalLogado": "N",
+  "contato": "Coordenadoria de Assuntos e Registros Acadêmicos - 32-2102´-3730 - coordenacao.cdara@ufjf.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://accounts.ufjf.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Matrícula em curso de graduação",
+        "id": 31837
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31369,
+        "tipo": "Candidatos aprovados nos processos seletivos de ingresso da UFJF.",
+        "requisitos": "Ter sido aprovado em processo seletivo."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "8",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 8,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/424",
+    "dbId": 57769,
+    "nomeOrgao": "Universidade Federal de Juiz de Fora (UFJF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50170
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 112675
+      },
+      {
+        "item": "Envio de Documentos",
+        "id": 112676
+      },
+      {
+        "item": "Pré-matrícula",
+        "id": 112677
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 32484
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 65559,
+      "titulo": "Realizar a pré-matrícula",
+      "descricao": "Realização de pré-matrícula através de link disposto na página do edital específico, que se encontra na página https://www2.ufjf.br/cdara/graduacao/matricula-graduacao/sisu/.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84281,
+            "tipo": "web",
+            "descricao": "Acessar o link e preencher formulário de pré-matrícula.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 65560,
+      "titulo": "Realizar a Matrícula",
+      "descricao": "Realização da matrícula com de envio de documentos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 93874,
+            "nome": "Foto recente, tamanho 3x4"
+          },
+          {
+            "id": 93875,
+            "nome": "Cópia simples e legível da certidão de nascimento ou casamento"
+          },
+          {
+            "id": 93876,
+            "nome": "Cópia simples e legível da cédula de identidade (frente e verso)"
+          },
+          {
+            "id": 93877,
+            "nome": "Cópia simples e legível da Declaração ou Certificado de Conclusão do Ensino Médio Regular ou equivalente, quando se tratar de curso técnico e/ ou profissionalizante, com data de conclusão do curso anterior à data do requerimento da matrícula presencial."
+          },
+          {
+            "id": 93878,
+            "nome": "Cópia simples e legível do Histórico Escolar completo do Ensino Médio ou equivalente."
+          },
+          {
+            "id": 93879,
+            "nome": "Cópia simples e legível do CPF."
+          },
+          {
+            "id": 93880,
+            "nome": "Cópia simples e legível do Título de Eleitor (frente e verso) para brasileiros maiores de 18 (dezoito) anos, acompanhado da quitação eleitoral da última eleição (1º e 2º turnos). Caso não possua os comprovantes de votação, deverá retirar certidão de quitação eleitoral no site do Tribunal Superior Eleitoral –TSE."
+          },
+          {
+            "id": 93881,
+            "nome": "Cópia simples e legível do Certificado de Reservista ou Atestado de Alistamento Militar com os carimbos atualizados ou Atestado de Matrícula em CPOR ou NPOR ou CDI, para brasileiros maiores de 18 anos, se do sexo masculino."
+          },
+          {
+            "id": 93882,
+            "nome": "Para candidatos(as)selecionados(as) para vagas de Escola Pública (GruposA,A1,B,B1,D,D1 ou E, E1): cópia simples e legível da declaração do (s) estabelecimento(s) de ensino onde cursou o Ensino Médio, informando a sua natureza, se pública, caso esta informação não conste no Histórico Escolar. Na(s) declaração(ões) deve(m) constar que o(a) candidato(a) cursou integralmente o Ensino Médio em escola(s) pública(s)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 8016,
+            "descricao": "Candidatos beneficiários da Política de Ação Afirmativa",
+            "documento": [
+              {
+                "id": 93873,
+                "codigo": null,
+                "descricao": "Os candidatos beneficiários da política de ação afirmativa deverão comprovar a situação socioeconômica de acordo com documentos solicitados em edital.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84282,
+            "tipo": "web-inscrever-se",
+            "descricao": "[Â Inscrever-se](http://accounts.ufjf.br/login)[  \n](<a href='https://www.gov.br/<a'> Inscrever-se</a> href='http:/accounts.ufjf.br/login'> Inscrever-se</a>)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 65561,
+      "titulo": "Interpor Recurso",
+      "descricao": "O(a) candidato(a) cujo requerimento de matrícula foi indeferido, estando seu cadastro no SIGA na condição de “matrícula em análise”, poderá interpor recurso contra o resultado em formulário próprio, preenchido e assinado, disponibilizado no endereço eletrônico www.uf.br/cdara e enviado através do sistema de matrícula, respeitando o prazo estipulado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 93883,
+            "nome": "O candidato poderá enviar novos documentos e/ou justificativa para subsidiar sua solicitação conforme descrito em edital."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84283,
+            "tipo": "web",
+            "descricao": "Enviar formulário através do sistema de matrícula: [Acesse o site](http://accounts.ufjf.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufjf",
+  "statusDestaque": false
+}

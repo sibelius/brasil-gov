@@ -1,0 +1,295 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13066",
+  "nome": "Recorrer de julgamento da Receita Federal em processo de pequeno valor",
+  "sigla": "",
+  "descricao": "Apresente seu recurso voluntário contra acórdão (decisão) da Delegacia da Receita Federal de Julgamento (DRJ) em processos de pequeno valor.\n\n São considerados processos de pequeno valor aqueles cujo valor não supere 60 salários mínimos.\n\n O prazo para apresentar o recurso é de 30 dias corridos, contados da data de ciência do julgamento da DRJ.\n\n Após a publicação da pauta da sessão de julgamento, você poderá pedir sustentação oral, por meio de funcionalidade própria em Meus Processos, em Serviços da Receita Federal.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientação sobre processos digitais](https://www.gov.br/receitafederal/pt-br/servicos/processos-digitais)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/51",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127309
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106516,
+        "tipo": "Sujeito passivo no processo ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "365",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 365
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178022
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178023
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 178024
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 178025
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Alegação",
+        "id": 424400
+      },
+      {
+        "item": "Alegações",
+        "id": 424401
+      },
+      {
+        "item": "Defesa",
+        "id": 424402
+      },
+      {
+        "item": "DRJ",
+        "id": 424403
+      },
+      {
+        "item": "Julgamento",
+        "id": 424404
+      },
+      {
+        "item": "Oral",
+        "id": 424405
+      },
+      {
+        "item": "Recurso",
+        "id": 424406
+      },
+      {
+        "item": "Sustentação",
+        "id": 424407
+      },
+      {
+        "item": "11000-000-000/0000-00",
+        "id": 424408
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria MF nº 20/2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=129047)",
+        "id": 152661
+      },
+      {
+        "item": "[Portaria RFB nº 309/2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=129873)",
+        "id": 152662
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 29,
+    "negativas": 38
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248739,
+      "titulo": "Protocolar o recurso voluntário",
+      "descricao": "Acesse o canal abaixo e solicite a juntada do recurso voluntário ao processo julgado pela DRJ, selecionando o tipo de documento \"Recurso Voluntário\". Os demais documentos devem ser incluídos em arquivos separados e classificados por tipo.\n\n Documentos que não tenham relação com o processo ou com o interessado serão rejeitados e não serão juntados ao processo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323939,
+            "nome": "Recurso Voluntário (petição livre); e"
+          },
+          {
+            "id": 323940,
+            "nome": "Todos os documentos comprobatórios (provas das alegações)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321419,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 248740,
+      "titulo": "Realizar sustentação oral e enviar memorial",
+      "descricao": "A apresentação de arquivo de sustentação oral ou de memorial é facultativa, devendo ser realizada em até 5 dias contados da publicação da pauta de julgamento no DOU por meio da funcionalidade \"Participar de Reunião de Julgamento\" em Processos Digitais.\n\n [Acesse aqui](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/julgamento-administrativo/arquivos-e-imagens/roteiro-nova-funcionalidade-envio-so.pdf) para orientação do envio do vídeo/áudio de sustentação oral.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323941,
+            "nome": "Procuração nos autos para realizar sustentação oral."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321420,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 248741,
+      "titulo": "Consultar o julgamento",
+      "descricao": "A decisão do julgamento (acórdão) será juntada ao seu processo. Clique na opção “Processos em que sou o interessado principal” e consulte os documentos para saber se o seu pedido foi aprovado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321421,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 321422,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "365",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/recorrer-de-julgamento-da-receita-federal-em-processo-de-baixo-valor",
+  "statusDestaque": false
+}

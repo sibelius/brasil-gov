@@ -1,0 +1,182 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3350",
+  "nome": "Obter os radiofármacos Iodeto de sódio (NaI) e meta-iodobenzilguanidina (MIBG) no Instituto de Engenharia Nuclear",
+  "sigla": "",
+  "descricao": "Produzir e fornecer radiofármacos iodeto de sódio (NaI) e meta-iodobenzilguanidina (MIBG) marcados com Iodo 123 para uso em hospitais e clínicas de diagnósticos em medicina nuclear. O produto é produzido e fornecido semanalmente às 3a e 4a-feiras na forma de MIBG e 5a-feiras na forma de NaI. Os pedidos devem ser feitos diretamente junto ao IEN/CNEN por hospitais e clínicas de todo o País. O transporte deve ser contratado pelo cliente junto a empresas credenciadas pela CNEN.",
+  "flagPortalLogado": "N",
+  "contato": "Comissão Nacional de Energia nuclear-CNEN",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 33339
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32652,
+        "tipo": "Hospitais e clínicas de diagnósticos em medicina nuclear",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 52304
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 52305
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 52306
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Material"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "radiofármaco",
+        "id": 117425
+      },
+      {
+        "item": "cnen",
+        "id": 117426
+      },
+      {
+        "item": "raio x",
+        "id": 117427
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 34044
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 68510,
+      "titulo": "Requerer o produto",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96940,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 96941,
+            "nome": "Autorização da CNEN para uso de material radioativo"
+          },
+          {
+            "id": 96942,
+            "nome": "Comprovante de pagamento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 10359,
+            "descricao": "Preço do produto",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Em função do tipo de radiofarmaco, a dose necessária e a distancia a ser transportada.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88130,
+            "tipo": "e-mail",
+            "descricao": "seom@ien.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "60",
+  "url": "https://www.gov.br/pt-br/servicos/obter-os-radiofarmacos-iodeto-de-sodio-nai-e-meta-iodobenzilguanidina-mibg-no-instituto-de-engenharia-nuclear",
+  "statusDestaque": false
+}

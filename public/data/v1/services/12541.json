@@ -1,0 +1,212 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12541",
+  "nome": "Registrar diplomas de faculdades, centros universitários e universidades privadas para graduação - UFRN",
+  "sigla": "",
+  "descricao": "Serviço oferecido pela **Universidade Federal do Rio Grande do Norte - UFRN.** Permite que as Instituições de Ensino Superior – IES, que não possuem autonomia para registrar os diplomas por elas expedidos, solicitem esse registro.",
+  "flagPortalLogado": "N",
+  "contato": "**E-mail:** diplomas@prograd.ufrn.br  \n**Telefones:** (84) 3342-2299 (R 124 / 125) / (84) 99474-6725",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 49547
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 46208,
+        "tipo": "Instituições de Ensino Superior- IES que não possuem autonomia para registrar os diplomas por elas expedidos.",
+        "requisitos": "* As Instituições de Ensino Superior- IES expedidoras devem ser credenciadas pelo MEC;\n * A IES deve estar localizada no estado do Rio Grande do Norte – RN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/417",
+    "dbId": 57786,
+    "nomeOrgao": "Universidade Federal do Rio Grande do Norte (UFRN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 73707
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 172598
+      },
+      {
+        "item": "Faculdade",
+        "id": 172599
+      },
+      {
+        "item": "Universidade",
+        "id": 172600
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 54883
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 99075,
+      "titulo": "Agendar solicitação",
+      "descricao": "O usuário deve submeter a solicitação de agendamento para o e-mail **diplomas@prograd.ufrn.br**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 126714,
+            "tipo": "e-mail",
+            "descricao": "A solicitação de agendamento deve ser endereçada para o e-mail **diplomas@prograd.ufrn.br**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 99076,
+      "titulo": "Cadastrar solicitação",
+      "descricao": "O usuário deve enviar a documentação necessária para a instrução do processo, conforme regulamentação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 141390,
+            "nome": "2. Ofício/documento equivalente da autoridade da IES expedidora com o diploma\n 4. Termo de responsabilidade da autoridade competente para a expedição do diploma\n 6. Cópia do documento de identidade civil do aluno\n 8. Comprovação de conclusão do ensino médio\n 10. Histórico escolar do curso superior\n 12. Estrutura curricular do discente\n 14. Diploma a ser registrado\n 16. Termo de responsabilidade emitido pela UFRN\n 18. Comprovação da colação de grau\n 20. Comprovante de pagamento da taxa"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 15174,
+            "descricao": "Registro de primeira via",
+            "moeda": "R$",
+            "valor": " 50,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 15175,
+            "descricao": "Registro de segunda via",
+            "moeda": "R$",
+            "valor": " 75,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 126715,
+            "tipo": "e-mail",
+            "descricao": "A documentação deve ser endereçada para o e-mail **diplomas@prograd.ufrn.br**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufrn",
+  "statusDestaque": false
+}

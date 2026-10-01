@@ -1,0 +1,189 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2525",
+  "nome": "Realizar Inscrição no INSS",
+  "sigla": "",
+  "descricao": "Serviço para fazer a sua inscrição no INSS e gerar o Número de Inscrição do Trabalhador (NIT).  \n  \nSe você já é cadastrado no PIS, PASEP ou NIS, esse já é seu número de inscrição também para o INSS.\n\n Este serviço é realizado totalmente à distância, você não precisa ir ao INSS.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas, ligue para a Central de Atendimento do INSS pelo telefone 135.\n\n  \n\n O serviço está disponível de segunda a sábado, das 7h às 22h (horário de Brasília).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://gov.br/meuinss",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Inscrição",
+        "id": 125408
+      },
+      {
+        "item": "Cadastro",
+        "id": 125409
+      },
+      {
+        "item": "NIT",
+        "id": 125410
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104917,
+        "tipo": "Pessoa que quer se inscrever no INSS para:\n\n  * começar a contribuir;\n * ser procurador ou representante legal de outra pessoa; ou,\n * pedir algum serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934",
+    "dbId": 36802,
+    "nomeOrgao": "Instituto Nacional do Seguro Social (INSS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175426
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CNIS",
+        "id": 417776
+      },
+      {
+        "item": "INSS",
+        "id": 417777
+      },
+      {
+        "item": "Registro",
+        "id": 417778
+      },
+      {
+        "item": "Inscrever-se",
+        "id": 417779
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150603
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9052,
+    "negativas": 18706
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 244879,
+      "titulo": "Pedir o serviço",
+      "descricao": "* Entre no Meu INSS com seu CPF e senha. Caso você ainda não tenha inscrição, ela poderá ser criada nesse acesso.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320968,
+            "nome": "**Da pessoa titular:**\n\n • Identificação - RG, CIN, CNH ou CTPS   \n • Cadastro de Pessoa Física (CPF)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316661,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316662,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316663,
+            "tipo": "telefone",
+            "descricao": "Ligue 135, caso o sistema esteja indisponível.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "totalSimplifique": "0",
+  "simplifiqueSolicitacoes": "0",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-inscricao-no-inss",
+  "statusDestaque": false
+}

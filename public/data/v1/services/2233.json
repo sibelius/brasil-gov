@@ -1,0 +1,226 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2233",
+  "nome": "Consultar a nota de operadoras de plano de saúde",
+  "sigla": "IDSS",
+  "descricao": "Este serviço permite consultar a nota das operadoras de planos de saúde, com base no [IDSS - o Índice de Desempenho da Saúde Suplementar](https://www.gov.br/ans/pt-br/assuntos/informacoes-e-avaliacoes-de-operadoras/qualificacao-ans).\n\n Essa nota mostra como a operadora está se saindo em áreas importantes como qualidade do atendimento, acesso aos serviços, equilíbrio financeiro e cumprimento das regras da ANS.\n\n O IDSS é uma ferramenta criada pela ANS para ajudar você a comparar o desempenho das operadoras e fazer escolhas mais informadas.\n\n **Notas acima de 0,6 são consideradas de bom desempenho, correspondendo às faixas 1 (0,8 a 1,0) e 2 (0,6 a 0,79) dentro das cinco faixas de avaliação.**\n\n     **Faixa**\n\n   **Nota**\n\n       1\n\n   0,80 a 1,00\n\n     2\n\n   0,60 a 0,79\n\n     3\n\n   0,40 a 0,59\n\n     4\n\n   0,20 a 0,39\n\n     5\n\n   0,00 a 0,19\n\n     Você pode usar esse serviço para conhecer melhor as operadoras e escolher com mais segurança um plano de saúde para você, sua família ou sua empresa.",
+  "flagPortalLogado": "N",
+  "contato": "Você pode solicitar informações por meio do Disque ANS (0800 - 701 9656) ou em um dos núcleos da ANS ([confira os endereços](https://www.gov.br/../../ans/pt-br/canais_atendimento/nossos-enderecos)).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ans.gov.br/qualificacao_consumidor/consulta_dados/pesquisa_operadora.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "IDSS",
+        "id": 104228
+      },
+      {
+        "item": "PQO",
+        "id": 104229
+      },
+      {
+        "item": "Qualificação de Operadoras",
+        "id": 104230
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 87816,
+        "tipo": "Qualquer pessoa pode usar este serviço.\n\n Você pode consultar as notas das operadoras se estiver pensando em contratar um plano de saúde ou apenas se informar.\n\n Empresas também podem usar o serviço para escolher planos para seus funcionários.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 144988
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 144989
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 144990
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 144991
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "plano de saúde",
+        "id": 348978
+      },
+      {
+        "item": "avaliação",
+        "id": 348979
+      },
+      {
+        "item": "nota",
+        "id": 348980
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução Normativa - RN n° 505, de 30 de março de 2022](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDE2NQ==)",
+        "id": 121176
+      },
+      {
+        "item": "[Instrução Normativa - IN n° 10, de 30 de marco de 2022](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDE4Mg==)",
+        "id": 121177
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 110,
+    "negativas": 293
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei nº 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 202581,
+      "titulo": "Realizar consulta",
+      "descricao": "+ **Acesse o sistema** de [consulta do IDSS](http://www.ans.gov.br/qualificacao_consumidor/consulta_dados/pesquisa_operadora.asp) no Portal da ANS.\n + **Escolha a aba desejada:** por operadora, tipo de serviço ou comparação.\n + **Preencha os dados solicitados** (nome, CNPJ, registro na ANS, tipo de serviço ou faixa de avaliação) conforme a aba escolhida.\n + **Clique em \"Consultar\"** para ver os resultados.”",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 276218,
+            "nome": "Você não precisa apresentar nenhum documento para usar este serviço. Mas, dependendo do tipo de consulta, será necessário informar o número de registro na ANS, o nome da operadora ou o CNPJ para ver ou comparar as notas."
+          }
+        ],
+        "casos": [
+          {
+            "id": 42839,
+            "descricao": "Para consulta de uma operadora em específico",
+            "documento": [
+              {
+                "id": 276215,
+                "codigo": null,
+                "descricao": "Preencha um dos campos informando o \"Registro ANS\", o \"Nome da operadora\" ou o \"CNPJ\" par consultar a nota de uma operadora.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 42840,
+            "descricao": "Para Comparar Operadoras",
+            "documento": [
+              {
+                "id": 276216,
+                "codigo": null,
+                "descricao": "Preencha um dos campos informando o \"Registro ANS\", o \"Nome da operadora\" ou o \"CNPJ\" de cada operadora que deseja comparar as notas.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 42841,
+            "descricao": "Para consultar por Tipo/Faixa de Avaliação",
+            "documento": [
+              {
+                "id": 276217,
+                "codigo": null,
+                "descricao": "Selecione o tipo de operadora (médico- hospitalar ou odontológico) e a Faixa de Avaliação para realizar consulta.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263862,
+            "tipo": "web",
+            "descricao": "[SistemaÂ de consulta ao IDSS](http://www.ans.gov.br/qualificacao_consumidor/consulta_dados/pesquisa_operadora.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10955",
+      "nome": "Solicitar homologação de acreditação de operadoras de planos de saúde"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "27",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-a-nota-de-operadoras-de-plano-de-saude",
+  "statusDestaque": false
+}

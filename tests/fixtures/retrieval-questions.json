@@ -1,0 +1,59 @@
+[
+  {
+    "question": "Quais documentos preciso para tirar passaporte de uma criança?",
+    "status": "ready",
+    "services": ["62"],
+    "sources": ["62:/etapas/5/documentos"],
+    "contains": ["Acompanhante do menor", "responsável legal"]
+  },
+  {
+    "question": "Quanto custa o passaporte?",
+    "status": "ready",
+    "services": ["62"],
+    "sources": ["62:/etapas/1/custos"]
+  },
+  {
+    "question": "Qual o prazo do passaporte?",
+    "status": "ready",
+    "services": ["62"],
+    "sources": ["62:/tempoTotalEstimado"]
+  },
+  {
+    "question": "Qual prazo e custo do passaporte?",
+    "status": "ready",
+    "services": ["62"],
+    "sources": ["62:/tempoTotalEstimado", "62:/etapas/1/custos"]
+  },
+  {
+    "question": "Como abrir MEI?",
+    "status": "ready",
+    "services": ["9435"],
+    "sources": ["9435:/etapas/0/descricao"]
+  },
+  {
+    "question": "Como tirar passaporte e carteira de trabalho digital?",
+    "status": "ready",
+    "services": ["62", "60"],
+    "sources": ["62:/etapas/0/descricao", "60:/etapas/0/descricao"]
+  },
+  {
+    "question": "E quanto custa?",
+    "selectedServiceId": "62",
+    "status": "ready",
+    "services": ["62"],
+    "sources": ["62:/etapas/1/custos"]
+  },
+  {
+    "question": "Quais documentos para passaporte e CPF?",
+    "status": "needs_clarification",
+    "reason": "ambiguous"
+  },
+  { "question": "aposentadoria", "status": "needs_clarification", "reason": "ambiguous" },
+  { "question": "Quanto custa?", "status": "needs_clarification", "reason": "missing_service" },
+  { "question": "receita de bolo", "status": "insufficient_evidence", "reason": "no_match" },
+  {
+    "question": "Quanto custa uma viagem para a lua?",
+    "status": "insufficient_evidence",
+    "reason": "no_match"
+  }
+]

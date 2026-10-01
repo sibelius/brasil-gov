@@ -1,0 +1,346 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24012",
+  "nome": "Obter diploma ou 2ª via de diploma de pós-graduação",
+  "sigla": "",
+  "descricao": "Obtenção de diploma ou 2ª via de diploma de pós-graduação emitido pela UFC.",
+  "flagPortalLogado": "N",
+  "contato": "• Endereço: PRPPG – Av. Mister Hull, s/n – Campus do Pici, Bloco 848.\n\n     • Telefone: (85) 3366-9902 (ver horário de atendimento).\n\n **Informações adicionais**\n\n Link da Carta de Serviços ao Cidadão da UFC: <https://ouvidoria.ufc.br/pt/carta-de-servicos-ao-cidadao/>",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 117863
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98795,
+        "tipo": "* Alunos de cursos de pós-graduação que cumpriram todos os requisitos do curso para conclusão.\n * Egressos de cursos de pós-graduação cuja primeira via do diploma ou certificado tenha sido recebida e exista necessidade de uma nova via por motivo de extravio ou atualização de dados",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/416",
+    "dbId": 57778,
+    "nomeOrgao": "Universidade Federal do Ceará (UFC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 164786
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Emissão",
+        "id": 393875
+      },
+      {
+        "item": "Diploma",
+        "id": 393876
+      },
+      {
+        "item": "Segunda",
+        "id": 393877
+      },
+      {
+        "item": "Via",
+        "id": 393878
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 139089
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 230519,
+      "titulo": "Solicitar a expedição e o registro do diploma ou da 2ª via",
+      "descricao": "Para a segunda via do diploma, realizar solicitação por e-mail.\n\n Obs.: No caso da emissão original do diploma (primeira via), as etapas iniciais podem variar segundo as especificidades de cada Programa de Pós-Graduação, então é importante consultar a coordenação sobre os procedimentos próprios do curso.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 304271,
+            "nome": "formulário de solicitação de segunda via preenchido (apenas parte correspondente ao requerimento do interessado), disponível em: https://prppg.ufc.br/pt/sobre/setores/coordenadoria-de-ensino-de-pos-graduacao-cens/diplomas-e-certificados/"
+          },
+          {
+            "id": 304272,
+            "nome": "boletim de ocorrência (assinar o boletim de ocorrência no campo \"responsável pela informação\");"
+          },
+          {
+            "id": 304273,
+            "nome": "documento oficial com foto que contenha a naturalidade (preferencialmente RG);"
+          },
+          {
+            "id": 304274,
+            "nome": "tratando-se de especialização, anexar cópia do certificado (quando possível)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 45646,
+            "descricao": "Solicitante possui a primeira via do diploma (para descarte)",
+            "documento": [
+              {
+                "id": 304269,
+                "codigo": null,
+                "descricao": "Caso apresente a primeira via original do diploma para ser descartada na PRPPG, no momento do recebimento da segunda via, não necessita a apresentação do B.O;",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 45647,
+            "descricao": "Solicitante deseja alterar seu nome no documento",
+            "documento": [
+              {
+                "id": 304270,
+                "codigo": null,
+                "descricao": "Caso o interesse seja mudança de nome, deverá ser enviado também o documento emitido pelo cartório onde conste a alteração do nome.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298254,
+            "tipo": "e-mail",
+            "descricao": "Os documentos devem ser enviados por e-mail para div\\_ensino\\_pos@ufc.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 230520,
+      "titulo": "Acompanhar o andamento da confecção do diploma",
+      "descricao": "Verificar, no sistema de acompanhamento se o diploma está pronto.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298255,
+            "tipo": "web-acompanhar",
+            "descricao": "[Sistema de Acompanhamento Processo de Diplomas](https://sysprppg.ufc.br/components/com_infodiplomas/infodiplomas.php \"Sistema de Acompanhamento Processo de Diplomas\")\n\n Obs.: No site da PRPPG ([Link](https://prppg.ufc.br/)), clique em Catálogo de Serviços > Siga seu processo de diploma.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 230521,
+      "titulo": "Realizar o pagamento da taxa (apenas para 2ª via)",
+      "descricao": "Após certificar-se de que a segunda via do diploma está pronta (as informações de acompanhamento serão enviadas para o e-mail do solicitante), realizar o pagamento da taxa.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 304275,
+            "nome": "Não se aplica."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 40074,
+            "descricao": "Taxas e emolumentos",
+            "moeda": "R$",
+            "valor": " 150,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298256,
+            "tipo": "web-preencher",
+            "descricao": "Link: [PagUFC](https://si3.ufc.br/public/jsp/pagtesouro/solicitarPagamento.jsf)\n\n Orientações para preenchimento: [ Site da PRPPG](https://prppg.ufc.br/pt/sobre/legislacao/taxas-e-emolumentos/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 230522,
+      "titulo": "Receber documento",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 304277,
+            "nome": "Comprovante de pagamento de taxas."
+          }
+        ],
+        "casos": [
+          {
+            "id": 45648,
+            "descricao": "Retirada de documento por terceiros",
+            "documento": [
+              {
+                "id": 304276,
+                "codigo": null,
+                "descricao": "É permitida a retirada do documento por um representante legal, desde que apresente:\n\n procuração original com firma reconhecida em cartório, ou;\n\n procuração com assinatura eletrônica via Gov.br. Nesse caso, a procuração assinada deve ser enviada para validação prévia ao e-mail: div\\_ensino\\_pos@ufc.br. Instruções para assinatura eletrônica estão disponíveis em: https://www.gov.br/governodigital/pt-br/assinatura-eletronica (Link para site externo).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298257,
+            "tipo": "presencial",
+            "descricao": "A entrega de diplomas e certificados ocorre de segunda a sexta-feira, das 8h às 12h e das 13h às 17h, por ordem de chegada. O atendimento é individual, e não há necessidade de agendamento prévio.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-pos-graduacao-1",
+  "statusDestaque": false
+}

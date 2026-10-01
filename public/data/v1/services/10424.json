@@ -1,0 +1,243 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10424",
+  "nome": "Obter Cartão de CPF",
+  "sigla": "",
+  "descricao": "Obtenha o seu cartão de CPF (comprovante de inscrição) para impressão.\n\n O cartão físico do CPF, em formato plástico, não é mais emitido. Os comprovantes de inscrição impressos e em formato digital, nos aplicativos oficiais, têm a mesma validade.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)\n\n [Orientações sobre CPF](https://www.gov.br/../../receitafederal/pt-br/assuntos/meu-cpf)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/5090",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Imprimir cartão de CPF",
+        "id": 124336
+      },
+      {
+        "item": "Obter o seu comprovante de inscrição no CPF",
+        "id": 124337
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104116,
+        "tipo": "Cidadão inscrito no Cadastro de Pessoas Físicas (CPF).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174034
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pessoa Física (CPF)"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CPF",
+        "id": 414267
+      },
+      {
+        "item": "Cartão CPF",
+        "id": 414268
+      },
+      {
+        "item": "2ª via do CPF",
+        "id": 414269
+      },
+      {
+        "item": "Comprovante de inscrição",
+        "id": 414270
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.172/2024](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=135611)",
+        "id": 149592
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14960,
+    "negativas": 35270
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 242744,
+      "titulo": "Obter o comprovante de inscrição no CPF",
+      "descricao": "Acesse o sistema e informe seus dados pessoais quando for solicitado.\n\n Se você está inscrito no CPF, mas não sabe o seu número, entre em contato com a Receita Federal através de uma de nossas [unidades de atendimento](https://www.gov.br/../../receitafederal/pt-br/canais_atendimento/fale-conosco/presencial) ou solicite atendimento por e-mail.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 319287,
+            "nome": "Documento de Identificação oficial com foto do cidadão;"
+          }
+        ],
+        "casos": [
+          {
+            "id": 48499,
+            "descricao": "Para solicitar o comprovante por outra pessoa",
+            "documento": [
+              {
+                "id": 319283,
+                "codigo": null,
+                "descricao": "Documento de Identificação oficial com foto do solicitante;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 319284,
+                "codigo": null,
+                "descricao": "Documentos que comprovem a representação, como procuração, termo de tutela ou curatela, certidão de óbito, termo de compromisso de inventariante, etc.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48500,
+            "descricao": "Para solicitar por e-mail",
+            "documento": [
+              {
+                "id": 319285,
+                "codigo": null,
+                "descricao": "A foto do cidadão ou do seu responsável legal, se for o caso, segurando o seu documento de identificação com foto próximo ao rosto, em que o documento apareça completo, com imagem nítida;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 319286,
+                "codigo": null,
+                "descricao": "Documentos adicionais poderão ser solicitados pelo atendente.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313420,
+            "tipo": "web",
+            "descricao": "[Emitir Meu Cartão de CPF (2ª via)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/5090)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48501,
+            "descricao": "Se você não apresentou declaração de imposto de renda nos últimos dois anos",
+            "canalDePrestacao": [
+              {
+                "id": 313418,
+                "tipo": "web",
+                "descricao": "[Emitir Meu Cartão de CPF (2ªvia) Sem Gov.br](https://servicos.receita.fazenda.gov.br/Servicos/CPF/ImpressaoComprovante/ConsultaImpressao.asp \"Impressão do Comprovante de Inscrição\")",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 313419,
+                "tipo": "e-mail",
+                "descricao": "[Atendimento por e-mail](https://www.gov.br/../../receitafederal/pt-br/assuntos/meu-cpf/envio-de-documentos-por-e-mail/)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10416",
+      "nome": "Atualizar CPF"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10418",
+      "nome": "Consultar Cadastro de Pessoa Física (CPF) na Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10420",
+      "nome": "Inscrever Cidadão no Cadastro de Pessoas Físicas (CPF)"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "30",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-cartao-de-cpf",
+  "statusDestaque": true
+}

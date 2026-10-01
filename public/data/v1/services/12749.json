@@ -1,0 +1,154 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12749",
+  "nome": "Autorizar Utilização de Produtos Químicos",
+  "sigla": "",
+  "descricao": "Autorizar a utilização de produtos químicos por pessoas físicas e jurídicas.",
+  "flagPortalLogado": "N",
+  "contato": "Informações no site da DFPC:\n\n http://www.dfpc.eb.mil.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 43242
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 40449,
+        "tipo": "Pessoas físicas e jurídicas que necessitem utilizar produtos químicos classificados como PCE.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 65351
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 65352
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Produtos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Produto Químico",
+        "id": 149992
+      },
+      {
+        "item": "PCE",
+        "id": 149993
+      },
+      {
+        "item": "SFPC",
+        "id": 149994
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 47127
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 86880,
+      "titulo": "Requerer a autorização de utilização de Produto Químico",
+      "descricao": "Requerer a autorização de utilização de Produto Químico classificado como PCE em um posto de atendimento do SFPC.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111031,
+            "tipo": "presencial",
+            "descricao": "Posto de atendimento do SFPC em uma Organização Militar da Região Militar do solicitante.\n\n http://www.dfpc.eb.mil.br/mapa/",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "url": "https://www.gov.br/pt-br/servicos/autorizar-utilizacao-de-produtos-quimicos",
+  "statusDestaque": false
+}

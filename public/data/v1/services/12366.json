@@ -1,0 +1,196 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12366",
+  "nome": "Solicitar o Desligamento/Interrupção de Energia Elétrica (APS S.A.)",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá solicitar o desligamento - interrupção da energia elétrica fornecida pela **Autoridade Portuária de Santos**, para fins de manutenção programada.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Saneamento Básico, Energia e Conservação\n\n Telefone: (13) 3202-6565 -  Ramal 2892",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128236
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107371,
+        "tipo": "Empresas (arrendatários, empresas terceirizadas, construtoras, entre outros) que necessitem do serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "7",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179378
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infraestrutura"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Desligamento",
+        "id": 427414
+      },
+      {
+        "item": "Interrupção",
+        "id": 427415
+      },
+      {
+        "item": "Energia",
+        "id": 427416
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153752
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 26
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048/00](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm \"Lei nº 10.048/00\")",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250789,
+      "titulo": "Solicitar serviço",
+      "descricao": "O interessado deve encaminhar, com no mínimo 7 (sete) dias úteis de antecedência, e-mail para eletrica@portodesantos.gov.br com a solicitação à Gerência de Saneamento Básico, Energia e Conservação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325752,
+            "nome": "Data e horário previstos em caso de manutenção programada\n\n Local da instalação\n\n Dados cadastrais do requisitante\n\n Síntese dos serviços a serem realizados"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324137,
+            "tipo": "e-mail",
+            "descricao": "eletrica@portodesantos.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250790,
+      "titulo": "Obter parecer para execução do serviço",
+      "descricao": "Após análise, o solicitante será contatado e informado do deferimento da solicitação e dos procedimentos operacionais e de segurança necessários para a realização do serviço. O tempo de duração desta etapa é de 05 (cinco) dias corridos, se toda a documentação encaminhada estiver em conformidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324138,
+            "tipo": "e-mail",
+            "descricao": "Será encaminhada resposta, por e-mail, ao interessado pela Gerência de Saneamento Básico, Energia e Conservação ou Gerência de Contratos de Arrendamento, conforme o caso. (comunicação aos arrendatários)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "38",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-o-desligamento-interrupcao-de-energia-eletrica",
+  "statusDestaque": false
+}

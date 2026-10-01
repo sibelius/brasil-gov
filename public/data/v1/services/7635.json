@@ -1,0 +1,258 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7635",
+  "nome": "Validar autenticidade de sua CNH",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito (Senatran) que permite consultar e validar online os dados da Carteira Nacional de Habilitação (CNH) mais recente do condutor.\n\n Ao validar a CNH, é possível consultar informações como:\n\n  * CPF do condutor;\n * Número de registro;\n * Número do formulário da CNH;\n * Código de segurança;\n * Nome do condutor;\n * Categoria; e\n * Validade.",
+  "flagPortalLogado": "N",
+  "contato": "- [Central de serviços](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2776)\n - Telefone: 08007282324\n - e-mail: [css.serpro@serpro.gov.br](mailto:css.serpro@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/condutor/validar-cnh",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126870
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106111,
+        "tipo": "**Pessoas físicas** que:",
+        "requisitos": "+ Estejam cadastradas no **Portal de Serviços do SENATRAN.**"
+      },
+      {
+        "id": 106112,
+        "tipo": "**Entidades Públicas ou Privadas** que:",
+        "requisitos": "+ Estejam cadastradas no **Portal de Serviços do SENATRAN.**\n + **Obs:** Caso necessitem de um volume maior de consultas, as entidades públicas e privadas podem solicitar autorização ao SENATRAN e contratar o serviço de Consulta On-line SENATRAN.\n   [ ](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/35707510/do1-2018-08-07-portaria-n-215-de-6-de-agosto-de-2018-35707506)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177348
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 177349
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 177350
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 177351
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DENATRAN",
+        "id": 422735
+      },
+      {
+        "item": "CNH",
+        "id": 422736
+      },
+      {
+        "item": "Carteira de motorista",
+        "id": 422737
+      },
+      {
+        "item": "CNH Digital",
+        "id": 422738
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152197
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3067,
+    "negativas": 4071
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 247783,
+      "titulo": "Realizar Login",
+      "descricao": "Você deve realizar o login no Portal de Serviços SENATRAN com sua conta [gov.br](http://gov.br/) (CPF e Senha) ou Certificado Digital. Clique em “Entrar com [gov.br](http://gov.br/)” no canto superior direito da sua tela e insira seus dados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323404,
+            "nome": "CPF"
+          }
+        ],
+        "casos": [
+          {
+            "id": 49076,
+            "descricao": "Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 323403,
+                "codigo": null,
+                "descricao": "Certificado Digital",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320312,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247784,
+      "titulo": "Realizar Consulta",
+      "descricao": "Após fazer login no Portal de Serviços da Senatran, localize o bloco “Condutor”, no canto superior esquerdo da página, e selecione “Validar CNH”.\n\n Informe seu CPF, o número de registro da CNH e o código de segurança da CNH. O código de segurança é exclusivo para CNHs emitidas a partir de julho de 2006.\n\n Em seguida, clique em “Prosseguir” para consultar as informações da sua CNH mais recente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323405,
+            "nome": "Número do CPF"
+          },
+          {
+            "id": 323406,
+            "nome": "Número de registro da CNH"
+          },
+          {
+            "id": 323407,
+            "nome": "Código de segurança da CNH"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320313,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/condutor/validar-cnh)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7612",
+      "nome": "Consultar online dados de sua habilitação de trânsito"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4786",
+      "nome": "Instalar aplicativo CDT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7624",
+      "nome": "Consultar online suas infrações de trânsito"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/validar-cnh",
+  "statusDestaque": false
+}

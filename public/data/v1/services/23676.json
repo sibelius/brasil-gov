@@ -1,0 +1,264 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23676",
+  "nome": "Acessar sistema e-SUS Notifica",
+  "sigla": "ESAVI",
+  "descricao": "Sistema de informação para o registro da notificação e investigação de casos de eventos supostamente atribuíveis à vacinação ou imunização (ESAVI) e erros de imunização, permitindo o monitoramento da segurança dos imunobiológicos em uso no Brasil.",
+  "flagPortalLogado": "N",
+  "contato": "esavi.cgpni@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "módulo ESAVI",
+        "id": 118939
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 99458,
+        "tipo": "Profissionais de saúde",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 165870
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "módulo ESAVI",
+        "id": 396809
+      },
+      {
+        "item": "ESAVI ",
+        "id": 396810
+      },
+      {
+        "item": "Acessar Sistema e-SUS Notifica (módulo ESAVI)",
+        "id": 396811
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 140660
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 27,
+    "negativas": 45
+  },
+  "condicoesAcessibilidade": "O(a) usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n     \n\n   Urbanidade; \n\n   Respeito; \n\n   Acessibilidade; \n\n   Cortesia; \n\n   Presunção da boa-fé do usuário; \n\n   Igualdade; \n\n   Eficiência; \n\n   Segurança e \n\n   Ética.",
+  "etapas": [
+    {
+      "id": 232240,
+      "titulo": "Criar/entrar na conta gov.br",
+      "descricao": "Clicar em “Entrar” → Caso não possua cadastro, criar conta e validar a identidade (nível prata ou ouro recomendado).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300378,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 232241,
+      "titulo": "Acessar o sistema",
+      "descricao": "Clicar em “Entrar com gov.br” → autorizar acesso → selecionar o módulo ESAVI.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300379,
+            "tipo": "web",
+            "descricao": "Â [Acesse o site](https://notifica.saude.gov.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 232242,
+      "titulo": "Solicitar perfil de acesso",
+      "descricao": "Caso o módulo não apareça, contatar o gestor local do e-SUS Notifica (Secretaria Municipal/Estadual) → solicitar o perfil “ESAVI”, informando nome, CPF, e-mail institucional, cargo, unidade e justificativa (“registro e acompanhamento de notificações de ESAVI/erros de imunização”).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300380,
+            "tipo": "web",
+            "descricao": "Â [Acesse o site](https://notifica.saude.gov.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 232243,
+      "titulo": "Aguardar liberação",
+      "descricao": "Após liberação do perfil → registrar, consultar e acompanhar notificações de ESAVI e erros de imunização.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300381,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://notifica.saude.gov.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "38",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-sistema-e-sus-notifica",
+  "statusDestaque": false
+}

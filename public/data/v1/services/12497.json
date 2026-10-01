@@ -1,0 +1,250 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12497",
+  "nome": "Comunicar à PRF de ocorrência que possa alterar fluidez ou segurança viária",
+  "sigla": "",
+  "descricao": "Por meio deste serviço o usuário poderá informar à PRF a ocorrência de situações que possam alterar a segurança/fluidez do trânsito nas rodovias federais.",
+  "flagPortalLogado": "N",
+  "contato": "191",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 101952
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 86185,
+        "tipo": "Qualquer pessoa ou condutor que se deparar com alguma situação que possa alterar a fluidez ou segurança do trânsito.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 142063
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acidentes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Acidente",
+        "id": 342128
+      },
+      {
+        "item": "Fluidez",
+        "id": 342129
+      },
+      {
+        "item": "Manifestação",
+        "id": 342130
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118839
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 18,
+    "negativas": 65
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 198479,
+      "titulo": "Entrar em contato com a PRF",
+      "descricao": "O usuário, ao ter conhecimento da ocorrência que possa alterar fluidez ou segurança viária, deverá entrar em contato através do telefone 191 ou comparecendo a um dos postos policiais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258665,
+            "tipo": "telefone",
+            "descricao": "O usuário deverá entrar em contato pelo telefone 191.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258666,
+            "tipo": "presencial",
+            "descricao": "O usuário deverá procurar algum posto de atendimento da PRF ([Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 198480,
+      "titulo": "Comunicar o fato que possa causar prejuízos ao trânsito e sua localidade.",
+      "descricao": "O usuário deverá informar sobre a ocorrência, trazendo o máximo de informações e detalhes que possam auxiliar a atuação da PRF.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258667,
+            "tipo": "telefone",
+            "descricao": "O usuário deverá entrar em contato pelo telefone 191.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258668,
+            "tipo": "presencial",
+            "descricao": "O usuário deverá procurar algum posto de atendimento da PRF ([Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 198481,
+      "titulo": "Tomar conhecimento das providências a serem tomadas pela PRF.",
+      "descricao": "Após informações dadas pelo usuário, a PRF, com o conhecimento do fato, planejará sua atuação e informará ao usuário comunicante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258669,
+            "tipo": "telefone",
+            "descricao": "O usuário deverá entrar em contato pelo telefone 191.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258670,
+            "tipo": "presencial",
+            "descricao": "O usuário deverá procurar algum posto de atendimento da PRF ([Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/comunicar-a-prf-de-ocorrencia-que-possa-alterar-fluidez-ou-seguranca-viaria",
+  "statusDestaque": false
+}

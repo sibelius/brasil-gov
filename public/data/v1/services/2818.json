@@ -1,0 +1,297 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2818",
+  "nome": "Obter aprovação de modelo de instrumento de medição",
+  "sigla": "",
+  "descricao": "**Procedimento de avaliação realizado em um ou vários exemplares de um modelo de um instrumento de medição.**\n\n Os procedimentos e critérios gerais para o processo de Avaliação de Modelo estão estabelecidos na [Portaria Inmetro nº 176/2021](http://inmetro.gov.br/legislacao/detalhe.asp?seq_classe=1&seq_ato=2746) e a norma [NIE-Dimel-013](http://www.inmetro.gov.br/metlegal/docdisponiveis.asp#normas-inmetro) estabelece as diretrizes para avaliação de modelo.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88365
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75706,
+        "tipo": "Pode solicitar uma aprovação de modelo toda pessoa jurídica, pública ou privada, nacional ou estrangeira, sediada no Brasil, que desenvolva atividades de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de instrumentos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "150",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 150
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240",
+    "dbId": 36793,
+    "nomeOrgao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 122624
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Permissões"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "aprovação",
+        "id": 297870
+      },
+      {
+        "item": "modelo",
+        "id": 297871
+      },
+      {
+        "item": "inmetro",
+        "id": 297872
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101426
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 24,
+    "negativas": 80
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 171426,
+      "titulo": "Solicitar avaliação do modelo",
+      "descricao": "Para solicitar avaliação do modelo, é necessário [realizar o cadastro no Gov.Br](https://www.gov.br/pt-br/servicos/criar-sua-conta-gov.br) para acessar ao [Sistema Orquestra](https://orquestra.inmetro.gov.br/inmetrobcweb/).\n\n Ao acessar o sistema, inicie um processo do tipo \"P020 - Avaliação de Modelo\" e anexe cópias digitais dos documentos listados abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237686,
+            "nome": "Cartão CNPJ — prova de inscrição no Cadastro Nacional da Pessoa Jurídica."
+          },
+          {
+            "id": 237687,
+            "nome": "Ato constitutivo e respectivas alterações (estatuto ou contrato social) consolidados e em vigor, devidamente registrados no órgão competente."
+          },
+          {
+            "id": 237688,
+            "nome": "Desenhos descritivos do instrumento, no [MOD-Dimel-037](http://www.inmetro.gov.br/metlegal/docDisponiveis.asp#modelos)."
+          },
+          {
+            "id": 237689,
+            "nome": "Formulário específico do instrumento preenchido (Item 8 da [NIE-Dimel-013](http://www.inmetro.gov.br/metlegal/docDisponiveis.asp#normas-inmetro))."
+          },
+          {
+            "id": 237690,
+            "nome": "Carta de autorização do fabricante, caso o requerente não seja o fabricante (em caso de fabricante estrangeiro, anexar tradução juramentada por tradutor domiciliado no Brasil). Sem modelo, autorização simples."
+          },
+          {
+            "id": 237691,
+            "nome": "Outros documentos exigidos no [Regulamento Técnico Metrológico](http://www.inmetro.gov.br/legislacao/consulta.asp?seq_classe=1&sig_classe=RTAC) específico do instrumento de medição ou [normas internas](http://www.inmetro.gov.br/metlegal/docdisponiveis.asp)."
+          },
+          {
+            "id": 237692,
+            "nome": "Relatórios de exames e ensaios já executados, com no máximo 3 anos, se houverem."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 224883,
+            "tipo": "e-mail",
+            "descricao": "dgtec@inmetro.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171427,
+      "titulo": "Entregar instrumentos",
+      "descricao": "**Não serão recebidos instrumentos enviados sem agendamento prévio ou Nota Fiscal.**\n\n Antes de agendar a entrega, o técnico responsável apresentará uma estimativa de custos. Neste momento, o requerente poderá desistir do serviço sem compromisso.\n\n Após a aprovação da estimativa, o técnico responsável solicitará exemplares e o agendamento deverá ser feito pelo requerente através do e-mail [expediçãodimel@inmetro.gov.br](mailto:expediçãodimel@inmetro.gov.br).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237693,
+            "nome": "Nota Fiscal"
+          },
+          {
+            "id": 237694,
+            "nome": "GRU"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28489,
+            "descricao": "Taxas de Serviços Metrológicos",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "O custo efetivo e o prazo de execução do serviço são variáveis em função da complexidade de cada instrumento.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": [
+          {
+            "id": 37894,
+            "descricao": "Legislação",
+            "custo": [
+              {
+                "id": 28488,
+                "descricao": "O custo da hora de serviço é estabelecido por:",
+                "moeda": "R$",
+                "valor": null,
+                "valorVariavel": "Lei n° 12.249, de 11 de Junho de 2010, atualizada pela Portaria Interministerial nº 44/2017.",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 224884,
+            "tipo": "presencial",
+            "descricao": "**AGENDAMENTO  \n****Expedição Dimel/Inmetro  \n**Telefone: (21) 2679-9155  \nE-mail: expedicaodimel@inmetro.gov.br\n\n **ENDEREÇO  \n******Inmetro - **Instituto Nacional de Metrologia, Qualidade e Tecnologia  \n**Diretoria de Metrologia Legal - Prédio 11  \nAv. Nossa Senhora das Graças, 50 - Xerém  \nDuque de Caxias - RJ  \nCEP 25250-020",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 171428,
+      "titulo": "Retirar instrumentos",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237695,
+            "nome": "Nota fiscal"
+          },
+          {
+            "id": 237696,
+            "nome": "GRU"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 224885,
+            "tipo": "presencial",
+            "descricao": "**AGENDAMENTO  \n****Expedição Dimel/Inmetro  \n**Telefone: (21) 2679-9155  \nE-mail: expedicaodimel@inmetro.gov.br\n\n **ENDEREÇO  \n******Inmetro - **Instituto Nacional de Metrologia, Qualidade e Tecnologia  \n**Diretoria de Metrologia Legal - Prédio 11  \nAv. Nossa Senhora das Graças, 50 - Xerém  \nDuque de Caxias - RJ  \nCEP 25250-020",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "150",
+  "percentualAvaliacoesPositivas": "23",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-aprovacao-de-modelo-de-instrumento-de-medicao",
+  "statusDestaque": false
+}

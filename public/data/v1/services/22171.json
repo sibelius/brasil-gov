@@ -1,0 +1,244 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22171",
+  "nome": "Consultar Descontos de Entidades Associativas",
+  "sigla": "",
+  "descricao": "Serviço para consultar se foram feitos descontos de entidade associativa no benefício previdenciário, a partir de março de 2020.\n\n Importante: O prazo para pedir ressarcimento foi encerrado em 20/06/2026. Poderão seguir com o pedido apenas aqueles que já fizeram o cadastro para comprovar que são sucessores ou herdeiros.\n\n Você não precisa ir a uma agência do INSS para pedir este serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Ligue para a Central de Atendimento do INSS pelo telefone 135.\n\n O serviço está disponível de segunda a sábado das 7h às 22h (horário de Brasília).\n\n   \nEste é um serviço do(a) Instituto Nacional do Seguro Social . Em caso de dúvidas, reclamações ou sugestões favor entrar em contato.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meu.inss.gov.br/#/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Descontos Sindicato",
+        "id": 123870
+      },
+      {
+        "item": "Mensalidade Associativa",
+        "id": 123871
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103674,
+        "tipo": "Pessoas que comprovarem ser sucessoras ou herdeiras de beneficiário do INSS que teve desconto de entidade associativa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "15",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934",
+    "dbId": 36802,
+    "nomeOrgao": "Instituto Nacional do Seguro Social (INSS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173259
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Entidade Associativa",
+        "id": 412404
+      },
+      {
+        "item": "Desconto",
+        "id": 412405
+      },
+      {
+        "item": "Mensalidade",
+        "id": 412406
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148982
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 184,
+    "negativas": 821
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241623,
+      "titulo": "Pedir o serviço",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga para **Do que você precisa?**\n * Digite: *Consultar descontos de entidades*\n * Escolha o serviço e\n * Avance conforme as orientações",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318147,
+            "nome": "**Da pessoa titular:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)"
+          },
+          {
+            "id": 318148,
+            "nome": "**Da pessoa com procuração ou representação legal, se houver:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)\n * Procuração no modelo do INSS ou pública\n * Termo de representação legal - tutela, curatela ou termo de guarda"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311992,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311993,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311994,
+            "tipo": "telefone",
+            "descricao": "Ligue 135, caso o sistema esteja indisponível.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241624,
+      "titulo": "Receber resposta",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga no botão **Consultar Pedidos**\n * Encontre o seu pedido na lista\n * Detalhe para mais dados",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311995,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311996,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311997,
+            "tipo": "telefone",
+            "descricao": "Ligue 135, caso o sistema esteja indisponível.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "45",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 45
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "18",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-descontos-de-entidades-associativas",
+  "statusDestaque": true
+}

@@ -1,0 +1,171 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/4814",
+  "nome": "Atualizar cadastro de beneficiário assentado",
+  "sigla": "",
+  "descricao": "É atualizar os dados pessoais dos beneficiários do Programa Nacional de Reforma Agrária. Isso vale tanto para os titulares dos lotes quanto para os outros integrantes da unidade familiar assentada.\n\n A atualização das informações pessoais é necessária para acessar alguns serviços da Sala da Cidadania do Incra.",
+  "flagPortalLogado": "N",
+  "contato": "[Superintendências do Incra nos estados.](https://www.gov.br/../../incra/pt-br/composicao/superintendencias-regionais)\n\n Outras manifestações (acesso à informação, denúncia, elogio, reclamação, sugestão e solicitação) devem ser registradas na [plataforma Fala.BR](https://falabr.cgu.gov.br/).",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://saladacidadania.incra.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 28598
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 28595,
+        "tipo": "Beneficiários da reforma agrária.",
+        "requisitos": "Estar homologado na Relação de Beneficiário (RB)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "20",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 20
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1799",
+    "dbId": 36785,
+    "nomeOrgao": "Instituto Nacional de Colonização e Reforma Agrária (INCRA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 45615
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Reforma Agrária"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Reforma Agrária",
+        "id": 101896
+      },
+      {
+        "item": "Cadastro",
+        "id": 101897
+      },
+      {
+        "item": "Atualização",
+        "id": 101898
+      },
+      {
+        "item": "Beneficiário",
+        "id": 101899
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa Incra nº 99/2019](https://www.in.gov.br/en/web/dou/-/instrucao-normativa-n-99-de-30-de-dezembro-de-2019-236098411)",
+        "id": 28729
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 362,
+    "negativas": 507
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público tem direito ao atendimento presencial, quando necessário, em instalações higiênicas, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Com base na [Lei nº 10.048/2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm), serão atendidos primeiro:\n\n Pessoas com deficiência;\n\n Idosos (idade igual ou maior que 60 anos);\n\n Grávidas;\n\n Mulheres que ainda estão amamentando;\n\n Pessoas com crianças de colo;\n\n Obesos.",
+  "tratamentoDispensadoAtendimento": "Conforme a [Lei nº 13.460/2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), o usuário deverá receber um atendimento com:\n\n Urbanidade;\n\n Respeito;\n\n Acessibilidade;\n\n Cortesia;\n\n Presunção da boa-fé do usuário;\n\n Igualdade;\n\n Eficiência;\n\n Segurança;\n\n Ética.",
+  "etapas": [
+    {
+      "id": 59658,
+      "titulo": "Atualizar Cadastro",
+      "descricao": "Atualizar os dados no Sistema de Informações de Projetos de Reforma Agrária (Sipra) em uma unidade do Incra de forma presencial ou via internet na página da Sala da Cidania do Incra nos seguintes casos:\n\n Atualizar nome do beneficiário, nome da mãe, nome do pai, identidade e/ou situação conjugal;\n\n Inserir, excluir ou alterar dados do outro titular;\n\n Inserir, excluir ou alterar dados de integrantes que não são titulares da unidade familiar;\n\n Alterar assentamento e endereço.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 86938,
+            "nome": "CPF e documento de identificação oficial."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 76578,
+            "tipo": "presencial",
+            "descricao": "Nas Salas da Cidadania das Superintendências Regionais e Unidades Avançadas do Incra;  \nNas Salas da Cidadania existentes nas prefeituras e entidades parceiras do Incra.  \n[Consulte os endereços e telefones de contatos das unidades de atendimento por estado.](http://www.gov.br/incra/pt-br/composicao/superintendencias-regionais)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 76579,
+            "tipo": "web",
+            "descricao": "Na página da [Sala da Cidadania](http://saladacidadania.incra.gov.br/) na opção Programa de Reforma Agrária ou ainda pelo [portal do Incra no menu Serviços](https://www.gov.br/../../../../incra/pt-br/servicos).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "1",
+          "max": "20",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 1,
+        "max": 20
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "20",
+  "percentualAvaliacoesPositivas": "42",
+  "url": "https://www.gov.br/pt-br/servicos/atualizar-cadastro-de-beneficiario",
+  "statusDestaque": false
+}

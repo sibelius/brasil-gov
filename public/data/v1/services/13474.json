@@ -1,0 +1,244 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13474",
+  "nome": "Realizar Hemodiálise no Humap-UFMS",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, pacientes admitidos no Pronto Atendimento Médico (PAM), internados ou vindos de outros ambulatórios do Humap-UFMS, recebem atendimento especializado para realizar o procedimento de hemodiálise.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (67)3345-3111\n\n E-mail: usur.humap-ufms@ebserh.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74498
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65484,
+        "tipo": "Pacientes admitidos no Pronto Atendimento Médico (PAM) do Humap-UFMS e que tenham prescrição médica para hemodiálise;",
+        "requisitos": ""
+      },
+      {
+        "id": 65485,
+        "tipo": "Pacientes internados no Humap-UFMS e que necessitam de hemodiálise;",
+        "requisitos": ""
+      },
+      {
+        "id": 65486,
+        "tipo": "Pacientes vindos de outros ambulatórios do Humap-UFMS e que precisam fazer hemodiálise.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 103099
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "saúde ",
+        "id": 253202
+      },
+      {
+        "item": "hemodiálise ",
+        "id": 253203
+      },
+      {
+        "item": "renal",
+        "id": 253204
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 84452
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145958,
+      "titulo": "Pacientes vindos de outros ambulatórios ou internados nas enfermarias do Humap-UFMS: dirigir-se à Unidade Renal/Setor de Hemodiálise.",
+      "descricao": "Pacientes vindos de outros ambulatórios do Humap-UFMS ou internados nas enfermarias do Humap-UFMS, comparecer à Unidade Renal/Setor de Hemodiálise, com os seguintes documentos:\n\n Encaminhamento médico e\n\n Carteirinha de Identificação do Humap-UFMS (desejável).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207564,
+            "nome": "Encaminhamento médico;"
+          },
+          {
+            "id": 207565,
+            "nome": "Carteirinha de Identificação do Humap-UFMS (desejável)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24306,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189838,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - portão 01 - primeiro corredor à direita -  próximo à Recepção do Raio-X.\n\n Horário de atendimento para realização de hemodiálise na Unidade Renal/Setor de Hemodiálise: \n\n De segunda a sábado das 06h às 18h\n\n Domingo: das 06h às 12h\n\n Telefone: (67)3345-3111\n\n E-mail: usur.humap-ufms@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 90,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32104,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189837,
+                "tipo": "telefone",
+                "descricao": "(67)3345-3111",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 145959,
+      "titulo": "Pacientes internados em áreas críticas (PAM Vermelha; UTIs Adulto e Pediátrico; UCO): a hemodiálise é feita à beira do leito.",
+      "descricao": "Pacientes internados em áreas críticas (PAM Vermelha; UTIs Adulto e Pediátrico; UCO):\n\n A hemodiálise é feita à beira do leito.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189840,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 \n\n Horário de atendimento para realização de hemodiálise à beira leito: conforme demanda e disponibilidade de aparelhos e profissionais.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 90,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32105,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189839,
+                "tipo": "telefone",
+                "descricao": "(67)3345-3111",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 60,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-hemodialise-no-humap-ufms",
+  "statusDestaque": false
+}

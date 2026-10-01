@@ -1,0 +1,291 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2630",
+  "nome": "Requerer posicionamento do Tribunal Administrativo sobre questão concorrencial",
+  "sigla": "",
+  "descricao": "O serviço refere-se ao encaminhamento, por qualquer interessado, de consulta ao Tribunal Administrativo do Cade sobre a aplicação da legislação concorrencial. O requerimento pode ser feito eletronicamente por meio do ambiente de Usuário Externo do Sistema Eletrônico de Informações (SEI) do Cade, disponível em www.cade.gov.br > Usuário Externo. Alternativamente, o requerimento pode ser entregue fisicamente no Protocolo do Cade ou enviada pelos Correios ou por e-mail para protocolo@cade.gov.br. A decisão do Tribunal Administrativo do Cade sobre a consulta proposta será publicada no Diário Oficial da União por meio da Ata da Sessão de Julgamento.",
+  "flagPortalLogado": "N",
+  "contato": "¨ **Endereço:** SEPN 515 CONJUNTO D, LOTE 4 ED. CARLOS TAURISANO CEP: 70770-504 - BRASÍLIA/DF;      \n¨ **Email:** cade@cade.gov.br;         \n¨ **Fone:** (61) 3221 8500",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "porcentagemManual": false,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Formular consulta ao Tribunal Administrativo do Cade",
+        "id": 4091
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 6683,
+        "tipo": "Pessoas físicas e jurídicas de direito privado.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "30",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": "",
+    "min": 30,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/322",
+    "dbId": 8382,
+    "nomeOrgao": "Conselho Administrativo de Defesa Econômica (CADE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 11432
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 11433
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 11434
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Finanças, Impostos e Gestão Pública"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Consultar",
+        "id": 22134
+      },
+      {
+        "item": "CADE",
+        "id": 22135
+      },
+      {
+        "item": "Tribunal administrativo",
+        "id": 22136
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 13
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n· Urbanidade;\n· Respeito;\n· Acessibilidade;\n· Cortesia;\n· Presunção da boa-fé do usuário;\n· Igualdade;\n· Eficiência;\n· Segurança; e\n· Ética",
+  "etapas": [
+    {
+      "id": 12108,
+      "titulo": "Requerer consulta",
+      "descricao": "Entrega do requerimento de consulta sobre questão concorrencial ao Tribunal Administrativo do Cade, assim como de documentos necessários.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 18062,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 14387,
+            "tipo": "presencial",
+            "descricao": "**Sede do Conselho Administrativo de Defesa Econômica** - Setor de Edifícios de Utilidade Pública Norte – SEPN, Entrequadra 515, Conjunto D, Lote 4, Edifício Carlos Taurisano. Cep: 70770-504 - Brasília/DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 14386,
+            "tipo": "e-mail",
+            "descricao": "protocolo@cade.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 14388,
+            "tipo": "web",
+            "descricao": "https://sei.cade.gov.br/sei/modulos/usuarioexterno/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 14389,
+            "tipo": "postal",
+            "descricao": "**Sede do Conselho Administrativo de Defesa Econômica** - Setor de Edifícios de Utilidade Pública Norte – SEPN, Entrequadra 515, Conjunto D, Lote 4, Edifício Carlos Taurisano. Cep: 70770-504 - Brasília/DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 12109,
+      "titulo": "Pagar taxa processual",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 18063,
+            "nome": "Guia de recolhimento da União (GRU)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 1250,
+            "descricao": "Taxa processual para apresentar consulta sobre questão concorrencial",
+            "moeda": "R$",
+            "valor": " 15.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 14390,
+            "tipo": "presencial",
+            "descricao": "Rede bancária.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 1795,
+            "descricao": "Para obter a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 6197,
+                "tipo": "web",
+                "descricao": "http://www.cade.gov.br/servicos/taxas/taxa-processual",
+                "procedimentoSistemaIndisponivel": null,
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 12110,
+      "titulo": "Receber resposta",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 14391,
+            "tipo": "web",
+            "descricao": "http://www.imprensanacional.gov.br/",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "52",
+  "url": "https://www.gov.br/pt-br/servicos/requerer-posicionamento-do-tribunal-administrativo-sobre-questao-concorrencial",
+  "statusDestaque": false
+}

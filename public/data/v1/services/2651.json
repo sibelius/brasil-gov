@@ -1,0 +1,181 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2651",
+  "nome": "Saber contaminação e níveis de exposição em instalações radiativas.",
+  "sigla": "",
+  "descricao": "Realizar amostragem por esfregaço ou de ar, e levantamento radiométrico de instalações radiativas. O serviço é solicitado sob demanda via telefone ou pelo sitio eletrônico do IEN. O benefício é evitar a propagação de material radioativo e proteger a saúde de trabalhadores de instalações. O produto final é um relatório de avaliação das condições ocupacionais da instalação radiativa.",
+  "flagPortalLogado": "N",
+  "contato": "Comissão Nacional de Energia Nuclear-CNEN",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 33313
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32628,
+        "tipo": "Pessoas jurídicas",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 52254
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Análises"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "teste",
+        "id": 117343
+      },
+      {
+        "item": "radioatividade",
+        "id": 117344
+      },
+      {
+        "item": "nuclear",
+        "id": 117345
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 34020
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 29,
+    "negativas": 23
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 68442,
+      "titulo": "Agendar serviço",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96900,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 96901,
+            "nome": "Termo para realização de serviços de ensaios e testes - teste de esfregaço"
+          },
+          {
+            "id": 96902,
+            "nome": "Ficha cadastral (para aqueles que estão utilizando o serviço pela primeira vez)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 10347,
+            "descricao": "Taxa de verificação de contaminação",
+            "moeda": "R$",
+            "valor": " 221,55",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88049,
+            "tipo": "telefone",
+            "descricao": "(21) 2172-3715",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 88050,
+            "tipo": "e-mail",
+            "descricao": "secom@ien.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "56",
+  "url": "https://www.gov.br/pt-br/servicos/saber-contaminacao-e-niveis-de-exposicao-em-instalacoes-radiativas",
+  "statusDestaque": false
+}

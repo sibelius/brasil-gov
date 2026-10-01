@@ -1,0 +1,234 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2770",
+  "nome": "Visitar as dependências da Fundação Casa de Rui Barbosa",
+  "sigla": "",
+  "descricao": "Visitas às dependências da FCRB, incluindo o Museu Casa de Rui Barbosa, o Jardim Histórico e demais dependências abertas ao público.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "porcentagemManual": false,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Visitação ao Museu",
+        "id": 2184
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 3347,
+        "tipo": "Qualquer pessoa pode utilizar este serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": "",
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/261",
+    "dbId": 34301,
+    "nomeOrgao": "Fundação Casa de Rui Barbosa (FCRB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 6327
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 6328
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 6329
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 6330
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cultura, Artes, História e Esportes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "museu",
+        "id": 12078
+      },
+      {
+        "item": "rui barbosa",
+        "id": 12079
+      },
+      {
+        "item": "escritor",
+        "id": 12080
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 21,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\\n· Urbanidade;\\n· Respeito;\\n· Acessibilidade;\\n· Cortesia;\\n· Presunção da boa-fé do usuário;\\n· Igualdade;\\n· Eficiência;\\n· Segurança; e\\n· Ética",
+  "etapas": [
+    {
+      "id": 6439,
+      "titulo": "Realizar visita",
+      "descricao": "",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 748,
+            "descricao": "Maiores de 65 anos que desejem usufruir da gratuidade do ingresso",
+            "documento": [
+              {
+                "id": 8342,
+                "codigo": null,
+                "descricao": "Carteira de identidade",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 749,
+            "descricao": "Estudantes de escola pública que desejem usufruir a gratuidade do ingresso",
+            "documento": [
+              {
+                "id": 8343,
+                "codigo": null,
+                "descricao": "Carteira escolar ou outro comprovante de matrícula em escola da rede pública de ensino.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 472,
+            "descricao": "Ingresso",
+            "moeda": "R$",
+            "valor": " 2,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 753,
+            "descricao": "Maiores de 65 anos",
+            "custo": [
+              {
+                "id": 473,
+                "descricao": "Ingresso",
+                "moeda": "R$",
+                "valor": null,
+                "valorVariavel": "Gratuito",
+                "statusCustoVariavel": 1
+              }
+            ]
+          },
+          {
+            "id": 754,
+            "descricao": "Estudantes de escola pública",
+            "custo": [
+              {
+                "id": 474,
+                "descricao": "Ingresso",
+                "moeda": "R$",
+                "valor": null,
+                "valorVariavel": "Gratuito",
+                "statusCustoVariavel": 1
+              }
+            ]
+          },
+          {
+            "id": 755,
+            "descricao": "Todos os viisitantes aos domingos",
+            "custo": [
+              {
+                "id": 475,
+                "descricao": "Ingresso",
+                "moeda": "R$",
+                "valor": null,
+                "valorVariavel": "Gratuito",
+                "statusCustoVariavel": 1
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 6503,
+            "tipo": "presencial",
+            "descricao": "**Museu Casa de Rui Barbosa** - Rua São Clemente 134, Botafogo - CEP: 22260-000, Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "68",
+  "url": "https://www.gov.br/pt-br/servicos/visitar-as-dependencias-da-fundacao-casa-de-rui-barbosa",
+  "servicoIndisponivel": 0,
+  "statusDestaque": false
+}

@@ -1,0 +1,241 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24160",
+  "nome": "Solicitar a restituição de valores pagos ao Funttel",
+  "sigla": "",
+  "descricao": "A solicitação de restituição de valores pagos ao Funttel é um serviço que permite aos contribuintes solicitarem a restituição de valores pagos indevidamente, como por exemplo nos casos de cobrança ou pagamento espontâneo indevido ou em valor maior que o devido.\n\n Esse serviço só pode ser solicitado por Pessoa Física devidamente vinculada ao CNPJ da empresa na plataforma gov.br. Isso se deve à necessidade de resguardar o sigilo fiscal (art. 198 da Lei nº 5.172, de 1966, Código Tributário Nacional).\n\n Assim, o acesso ao serviço por parte da Pessoa Jurídica está **integrado ao login do gov.br**, sendo necessário vincular o CNPJ desejado a uma conta gov.br de Pessoa Física. Esse processo é feito usando um **Certificado Digital de Pessoa Jurídica (e-CNPJ).**\n\n **[Requerimento\\_Restituição\\_Template\\_portal\\_Gov.br](https://www.gov.br/pt-br/arquivos-de-servicos/04-1-requerimento_restituicao_template_portal_gov-br.docx/view)**",
+  "flagPortalLogado": "S",
+  "contato": "Em caso de dúvida, se você precisar de mais informações e esclarecimentos, envie e-mail para [coope@mcom.gov.br](mailto:coope@mcom.gov.br).\n\n Para reclamações ou sugestões, entrar em contato com a Ouvidoria do Ministério das Comunicações.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125044
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104659,
+        "tipo": "Este serviço pode ser utilizado pelas pessoas jurídicas sobre as quais incide a contribuição para o Funttel (Cide-Funttel), que são:\n\n  * as empresas prestadoras de serviços de telecomunicações; e\n * as instituições autorizadas, na forma da lei, a realizar eventos participativos por meio de ligações telefônicas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/264359",
+    "dbId": 58112,
+    "nomeOrgao": "Ministério das Comunicações (MCOM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175041
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Restituição",
+        "id": 416624
+      },
+      {
+        "item": "Valores pagos ao Funtell",
+        "id": 416625
+      },
+      {
+        "item": "Pagos",
+        "id": 416626
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução CGF nº 170, de 2 de outubro de 2024. Disponível em: <https://www.gov.br/mcom/pt-br/acesso-a-informacao/acoes-e-programas/funttel/legislacao>.",
+        "id": 150292
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244203,
+      "titulo": "Realizar a vinculação de CNPJ no gov.br",
+      "descricao": "As orientações para vinculação de CNPJ no gov.br podem ser obtidas no link: [Dúvidas na vinculação de CNPJ no gov.br — Governo Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-conta-gov.br/duvidas-na-vinculacao-de-cnpj-no-gov.br). Após a vinculação, o serviço pode ser solicitado por pessoa física vinculada ao CNPJ ou por colaborador cadastrado (ver Etapa 2 para cadastro de colaboradores).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320463,
+            "nome": "Consultar o link [Dúvidas na vinculação de CNPJ no gov.br — Governo Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-conta-gov.br/duvidas-na-vinculacao-de-cnpj-no-gov.br)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315631,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos/iniciar?codServico=24160)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244204,
+      "titulo": "Realizar o cadastro de colaborador do CNPJ",
+      "descricao": "Além do responsável pelo e-CNPJ, pode ser realizado através de colaboradores cadastrados. Porém, apenas o responsável pelo e-CNPJ pode realizar o cadastro de colaboradores. As orientações para realizar o cadastro de colaborador do CNPJ estão disponíveis no link: [Como Gerenciar Colaboradores](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-conta-gov.br/duvidas-na-vinculacao-de-cnpj-no-gov.br/como-gerenciar-colaboradores).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320464,
+            "nome": "Consultar o link [Como Gerenciar Colaboradores](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-conta-gov.br/duvidas-na-vinculacao-de-cnpj-no-gov.br/como-gerenciar-colaboradores)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315632,
+            "tipo": "web",
+            "descricao": "[Acesse o link](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244205,
+      "titulo": "Protocolar requerimento",
+      "descricao": "Para protocolar requerimento, clique no botão “Iniciar”, desta página; faça login utilizando CPF vinculado à respectiva Pessoa Jurídica ou CPF de colaborador cadastrado; e anexe o requerimento com assinatura do solicitante (preferencialmente eletrônica). Ver modelo de requerimento em “Documentação necessária”. Em caso de deferimento, será enviado e-mail contendo o Número Único de Protocolo (NUP).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320465,
+            "nome": "Requerimento de Restituição de Valores Pagos ao Funttel assinado [Clique aqui](https://www.gov.br/pt-br/arquivos-de-servicos/04-1-requerimento_restituicao_template_portal_gov-br.docx/view) para acessar o Modelo de Requerimento de Restituição de Valores Pagos ao Funttel."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315633,
+            "tipo": "web",
+            "descricao": "[Acesse o link](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-a-restituicao-de-valores-pagos-ao-funttel",
+  "statusDestaque": false
+}

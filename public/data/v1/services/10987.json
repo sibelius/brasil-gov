@@ -1,0 +1,163 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10987",
+  "nome": "Obter certidão de regularidade de envio do SIP - Serviço de Informações de Produtos",
+  "sigla": "",
+  "descricao": "Requerimento de certidão sobre a regularidade do envio, pela operadora de plano de saúde, do Sistema de Informação de Produtos - SIP.\n\n O Sistema de Informações de Produtos - **SIP,  ** é o instrumento regulamentado pela Agência Nacional de Saúde Suplementar - **ANS** para envio de informações e acompanhamento da assistência prestada aos beneficiários dos planos privados de assistência à saúde e a operadora pode requisitar certidão de regularidade deste envio.",
+  "flagPortalLogado": "N",
+  "contato": "email :\n\n     ggras.dipro@ans.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 72854
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64053,
+        "tipo": "Operadoras de planos de saúde",
+        "requisitos": "registro ativo na ANS"
+      },
+      {
+        "id": 64054,
+        "tipo": "*operadoras de planos de saúde*",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101134
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certidão",
+        "id": 248191
+      },
+      {
+        "item": " SIP",
+        "id": 248192
+      },
+      {
+        "item": "ANS",
+        "id": 248193
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "§    RN nº 534 de 02/05/22. \n\n Link:  [ANS - LEGISLAÇÃO - RN nº 534/2022](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDIyOA==#capitulo3 \"https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDIyOA==#capitulo3\") \n\n ###",
+        "id": 82503
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 143652,
+      "titulo": "Solicitar certidão de regularidade de envio de SIP",
+      "descricao": "Encaminhamento de solicitação de certidão, nos moldes da RN 408/2016, pelo Peticionamento Eletrônico constante no site da Agência : link https://www2.ans.gov.br/ans-idp/",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203576,
+            "nome": "Formulário constante do Anexo I da RN 408/2016 devidamente assinado pelo representante Legal da operadora."
+          },
+          {
+            "id": 203577,
+            "nome": "A certidão solicitada será encaminhada ao requerente através do protocolo eletrônico, constante no Portal Operadoras do site da Agência: https://www2.ans.gov.br/ans-idp/"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186562,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "20",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-de-regularidade-de-envio-do-sip",
+  "statusDestaque": false
+}

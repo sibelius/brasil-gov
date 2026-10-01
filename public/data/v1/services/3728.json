@@ -1,0 +1,351 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3728",
+  "nome": "Incluir, alterar ou excluir itens na lista de Ex-Tarifário Vigente no Regime de Autopeças Não Produzidas",
+  "sigla": "",
+  "descricao": "Inclusão de novos itens, alteração ou exclusão de itens da Lista de Autopeças Não Produzidas, que elenca as autopeças sem produção nacional equivalente com redução da alíquota do Imposto de Importação na condição de Ex-Tarifário.",
+  "flagPortalLogado": "S",
+  "contato": "[exautopecas@mdic.gov.br](mailto:exautopecas@mdic.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125903
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105295,
+        "tipo": "Empresas do setor automotivo.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308814",
+    "dbId": 58150,
+    "nomeOrgao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176005
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Benefícios Fiscais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "camex",
+        "id": 419251
+      },
+      {
+        "item": "autopeças",
+        "id": 419252
+      },
+      {
+        "item": "benefício fiscal",
+        "id": 419253
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução GECEX nº 368, de 20 de julho de 2022.](https://in.gov.br/en/web/dou/-/resolucao-gecex-n-368-de-20-de-julho-de-2022-417056499)",
+        "id": 151111
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 44,
+    "negativas": 38
+  },
+  "condicoesAcessibilidade": "A pessoa usuária do serviço público, conforme estabelecido pela Lei nº 13.460, de 26 de junho de 2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, as pessoas idosas com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e as pessoas obesas, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "A pessoa usuária deverá receber, conforme os princípios expressos na Lei nº 13.460, de 26 de junho de 2017, um atendimento pautado nas seguintes diretrizes:  \n  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética.",
+  "etapas": [
+    {
+      "id": 245747,
+      "titulo": "Solicitar alteração da lista",
+      "descricao": "Apresentação de pleito de inclusão de novos itens, alteração de redação ou exclusão de itens da Lista de Autopeças Não Produzidas.\n\n Cada pleito deverá apresentar o conjunto completo da documentação especificada abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321628,
+            "nome": "Código NCM (Nomenclatura Comum do Mercosul) baseado no Sistema Harmonizado de Designação e de Codificação de Mercadorias."
+          },
+          {
+            "id": 321629,
+            "nome": "Descrição detalhada da autopeça, suas características, sua aplicação e composição dos insumos e materiais que compõem o produto."
+          },
+          {
+            "id": 321630,
+            "nome": "Proposta de redação específica para o Ex-Tarifário, no padrão da Tarifa Externa Comum (TEC), que caracterize suficientemente o produto."
+          },
+          {
+            "id": 321631,
+            "nome": "Catálogo original (com tradução técnica, quando em língua estrangeira), sem impedimentos ou restrições de confidencialidade, de modo que possa ser divulgado em consulta pública."
+          },
+          {
+            "id": 321632,
+            "nome": "Layout, croqui, desenhos esquemáticos, fotos representativas ou quaisquer outros meios de identificação visual do item, sem impedimentos ou restrições de confidencialidade, de modo que possam ser divulgados em consulta pública."
+          },
+          {
+            "id": 321633,
+            "nome": "Outras informações relevantes, como:\n\n  * Se a autopeça solicitada representa a introdução de nova tecnologia ou se o item já é utilizado no processo produtivo;\n * Previsão anual de importação, em valores US$ FOB; e\n * Material adicional ou literatura técnica."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317873,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3728)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317874,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/pt-br/servicos/protocolar-documentos-junto-ao-ministerio-do-desenvolvimento-industria-comercio-e-servicos)**  \n**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245748,
+      "titulo": "Acompanhar Consulta Pública",
+      "descricao": "Atendidos os requisitos mínimos de conteúdo e forma, colocam-se os pleitos em Consulta Pública pelo prazo de 45 dias corridos, para que fabricantes nacionais de produtos equivalentes ou associações possam apresentar contestação aos pleitos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317875,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/mdic/pt-br/assuntos/sdic/setor-automotivo/regime-autopecas/consultas-publicas-regime-de-autopecas-nao-produzidas)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "45",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 45
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245749,
+      "titulo": "Apresentar defesa do pleito (caso haja contestação na Consulta Pública)",
+      "descricao": "Admitida a contestação, a empresa pleiteante será informada para apresentação de réplica no prazo de 20 dias corridos. Caso o(a) pleiteante não apresente a réplica no prazo estipulado, presumir-se-á a desistência do pleito e o processo será imediatamente arquivado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317876,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3728)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245750,
+      "titulo": "Apresentar recurso final à decisão (caso haja indeferimento pelo GECEX)",
+      "descricao": "Os pleitos são analisados pela Secretaria de Desenvolvimento Industrial, Inovação, Comércio e Serviços (SDIC) e encaminhados ao Comitê-Executivo de Gestão (GECEX), a quem compete o deferimento ou não dos pleitos apresentados.\n\n Da decisão de indeferimento cabe recurso hierárquico à SDIC, para eventual reconsideração, no prazo de 30 dias corridos, a contar da ciência da comunicação da decisão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317877,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3728)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245751,
+      "titulo": "Verificar resultado em Resolução do GECEX",
+      "descricao": "Se o pleito for definitivamente indeferido, o(a) pleiteante é comunicado(a) quanto ao fim do processo. Caso seja deferido, a concessão do Ex-Tarifários será publicada em Resolução do Comitê-Executivo de Gestão (GECEX).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317878,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/mdic/pt-br/assuntos/camex/resolucoes/resolucoes)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "54",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/incluir-alterar-ou-excluir-itens-na-lista-de-ex-tarifario-vigente-no-regime-de-autopecas-nao-produzidas",
+  "statusDestaque": false
+}

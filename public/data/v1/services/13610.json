@@ -1,0 +1,555 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13610",
+  "nome": "Solicitar empréstimo de materiais audiovisuais do acervo da Cinemateca Brasileira para exibição",
+  "sigla": "",
+  "descricao": "Empréstimo para exibição pública de materiais de propriedade da Cinemateca Brasileira, aqueles confeccionados com recursos próprios da instituição, ou de materiais de terceiros.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: atendimento@cinemateca.org.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123880
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103684,
+        "tipo": "Qualquer pessoa que esteja produzindo uma mostra e tenha estrutura para exibir os filmes nos formatos disponíveis no acervo.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "75",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 75
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308821",
+    "dbId": 58143,
+    "nomeOrgao": "Ministério da Cultura (MinC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173274
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173275
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 173276
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Artes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cinemateca Brasileira",
+        "id": 412436
+      },
+      {
+        "item": "Difusão Audiovisual",
+        "id": 412437
+      },
+      {
+        "item": "Preservação Audiovisual",
+        "id": 412438
+      },
+      {
+        "item": "Secretaria do Audiovisual",
+        "id": 412439
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148991
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 17,
+    "negativas": 14
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241660,
+      "titulo": "Enviar solicitação",
+      "descricao": "Envio de e-mail com os dados dos filmes solicitados, formatos possíveis para exibição, data da mostra e prazo limite para receber os materiais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312033,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241661,
+      "titulo": "Aguardar a pesquisa de materiais no acervo",
+      "descricao": "Pesquisa de dados a ser realizada pela equipe da Cinemateca Brasileira, sobre os materiais solicitados disponíveis no acervo da Cinemateca Brasileira para verificar a disponibilidade deles nos formatos solicitados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312034,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241662,
+      "titulo": "Solicitar licenciamento ou autorização dos detentores de direitos dos filmes solicitados,caso necessário, e encaminhar à Cinemateca Brasileira",
+      "descricao": "O solicitante deverá entrar em contato com os detentores de direitos dos filmes solicitados para realizar o licenciamento ou a autorização das exibições. A Cinemateca poderá fornecer os contatos dos detentores caso os tenha. Essa autorização deverá ser encaminhada para a Cinemateca Brasileira por e-mail para dar seguimento ao atendimento.\n\n Caso os filmes sejam de direito da Cinemateca Brasileira, é necessário licenciar os mesmos com a Cinemateca em serviço específico de licenciamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312035,
+            "tipo": "e-mail",
+            "descricao": "Contatos fornecidos pela Cinemateca ou obtidos pelo solicitante.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241663,
+      "titulo": "Aguardar disponibilização da proposta comercial de Empréstimo e assinar a proposta",
+      "descricao": "Será elaborarada uma proposta comercial de empréstimo de material que considera até duas exibições por filme e disponibilizará a mesma na plataforma ClickSign para assinatura do solicitante, em caso de pessoa jurídica, a pessoa responsável pela empresa deverá assinar a proposta. A proposta tem validade de 10 dias, caso o documento não seja assinado no prazo, o processo deve ser reiniciado. Para materiais de propriedade da Cinemateca Brasileira, será solicitado um seguro dos materiais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41228,
+            "descricao": "Seguro obrigatório para materiais pertencentes à Cinemateca Brasileira.",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "20.000",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312036,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "17",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 17
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241664,
+      "titulo": "Aguardar a elaboração de termo de Empréstimo e assinar o termo",
+      "descricao": "A proposta assinada será usada como base para a elaboração de um termo de empréstimo dos materiais solicitados e disponibilizado em até 7 dias para assinatura do solicitante e de uma testemunha na plataforma ClickSign, este documento ficará disponível por 7 dias, caso não seja assinado será necessário reiniciar o processo novamente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312037,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241665,
+      "titulo": "Realizar pagamento",
+      "descricao": "O solicitante deverá realizar o pagamento do serviço nos canais indicados no documento termo de empréstimo, os valores variam conforme o tipo de material, duração e finalidade da exibição. Para consultar os valores veja a [tabela de serviços](https://cinemateca.org.br/wp-content/uploads/2024/08/tabela_valores_servicos.pdf).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318162,
+            "nome": "Envio do comprovante de pagamento para o e-mail do setor de Atendimento – [atendimento@cinemateca.org.br](mailto:atendimento@cinemateca.org.br). Após esse envio o solicitante receberá um recibo pelo pagamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41229,
+            "descricao": "Pagamento do serviço executado",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "A depender dos materiais",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312038,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241666,
+      "titulo": "Enviar a apólice de seguro dos materiais. (Ação necessária apenas para materiais físicos de propriedade da Cinemateca Brasileira)",
+      "descricao": "O solicitante deverá encaminhar por e-mail a apólice do seguro contratado dos materiais a serem emprestados. A apólice deve apresentar a ficha técnica das obras solicitadas bem como as informações sobre os materiais a serem disponibilizados, estas informações constam na proposta comercial e no termo de empréstimo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318163,
+            "nome": "Apólice de seguro dos materiais a serem emprestados."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312039,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241667,
+      "titulo": "Aguardar a análise técnica detalhada dos materiais a serem emprestados",
+      "descricao": "Ação pertinente para materiais fílmicos. A ação consiste no exame técnico por parte da equipe da Cinemateca Brasileira de obras e materiais em diferentes suportes e formatos para determinação do estado de conservação do material e suas condições para exibição.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312040,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241668,
+      "titulo": "Agendar coleta dos materiais ou aguardar envio",
+      "descricao": "Para materiais físicos, como filmes em película, é necessário agendar a coleta dos mesmos pela empresa que fará o transporte dos materiais; a empresa deverá ser especializada em transporte de materiais fílmicos.\n\n Para materiais digitais, os arquivos dos filmes serão enviados pela nuvem ou via FTP (File Transfer Protocol).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312041,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241669,
+      "titulo": "Agendar a devolução dos materiais emprestados",
+      "descricao": "Para materiais físicos, como filmes em película, é necessário agendar a devolução dos mesmos pela empresa que fará o transporte dos materiais; a empresa deverá ser especializada em transporte de filme.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318164,
+            "nome": "Para os materiais físicos é feito um Boletim de Devolução dos filmes."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312042,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "75",
+  "percentualAvaliacoesPositivas": "55",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-emprestimo-de-materiais-audiovisuais-do-acervo-da-cinemateca-brasileira-para-exibicao",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

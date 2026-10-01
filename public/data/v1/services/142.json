@@ -1,0 +1,300 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/142",
+  "nome": "Obter autorização de residência para fins laborais a imigrantes",
+  "sigla": "",
+  "descricao": "Este serviço proporciona ao imigrante ou interessado obter autorização de residência para fins laborais e de investimentos, nos termos da [Lei de Migração 13.445, de 24 de maio de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm), e do [Decreto 9.199, de 20 de novembro de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm).",
+  "flagPortalLogado": "N",
+  "contato": "<https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/fale-conosco>",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/migranteweb-1/migranteweb/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Autorização de Trabalho",
+        "id": 123112
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102864,
+        "tipo": "2. Imigrante que pretenda exercer atividade laboral no Brasil; e\n 4. Interessado, pessoa física ou jurídica, que deseje utilizar mão de obra imigrante.",
+        "requisitos": "Para mais informações [Clique aqui](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/portal-de-imigracao-laboral)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171995
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171996
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171997
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171998
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços para Estrangeiros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "imigrante",
+        "id": 409667
+      },
+      {
+        "item": "estrangeiro",
+        "id": 409668
+      },
+      {
+        "item": "autorização",
+        "id": 409669
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 9.199, de 20 de novembro de 2017 [Acessar](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm)",
+        "id": 147905
+      },
+      {
+        "item": "Resoluções Normativas do Conselho Nacional de Imigração [Acessar](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/autorizacao-de-residencia-laboral-1/normas-de-imigracao-laboral/resolucoes-normativas/resolucoes-normativas)",
+        "id": 147906
+      },
+      {
+        "item": "Lei nº 13.445, de 24 de maio de 2017 [Acessar](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm)",
+        "id": 147907
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 482,
+    "negativas": 300
+  },
+  "condicoesAcessibilidade": "O sistema é totalmente eletrônico, não necessitando de atendimento presencial.",
+  "tratamentoPrioritario": "Devido à natureza não-presencial da prestação do serviço, os casos que demandam atendimento preferencial são avaliados pelo Coordenador-Geral de Imigração laboral, nos termos da legislação aplicável.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460, de 2017, um atendimento pautado nas seguintes diretrizes:  \nUrbanidade;  \nRespeito;  \nAcessibilidade;  \nCortesia;  \nPresunção da boa-fé do usuário;  \nIgualdade;  \nEficiência;  \nSegurança; e  \nÉtica.",
+  "etapas": [
+    {
+      "id": 239989,
+      "titulo": "Realizar o cadastro no Sistema de Gestão e Controle de Imigração (MIGRANTEWEB)",
+      "descricao": "Acessar o Sistema **[MigranteWeb](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/migranteweb-1/migranteweb/)** e preencher o formulário eletrônico com as informações solicitadas.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 316269,
+            "nome": "CPF ou CNPJ;"
+          },
+          {
+            "id": 316270,
+            "nome": "Documento de viagem ou Registro Nacional Migratório;"
+          },
+          {
+            "id": 316271,
+            "nome": "Nome Completo;"
+          },
+          {
+            "id": 316272,
+            "nome": "E-mail Válido; e"
+          },
+          {
+            "id": 316273,
+            "nome": "Telefone."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309874,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/migranteweb-1/migranteweb/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239990,
+      "titulo": "Solicitar autorização de residência para fins laborais e de investimentos no Sistema de Gestão e Controle de Imigração (MIGRANTEWEB)",
+      "descricao": "Acessar o Sistema [**MigranteWeb** ](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/migranteweb-1/migranteweb/)para protocolar o pedido de autorização de residência para fins laborais.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 316274,
+            "nome": "Documentos exigidos pela Resolução Normativa nº 01/2017, que podem ser consultados [Aqui](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/autorizacao-de-residencia-laboral-1/normas-de-imigracao-laboral/resolucoes-normativas/resolucao_normativa_no_01_de_1o_de_dezembro_de_2017_alterada.pdf); e"
+          },
+          {
+            "id": 316275,
+            "nome": "Cópia da Guia de Recolhimento da União referente à taxa de processamento e avaliação de pedido de autorização de residência e do comprovante de pagamento. A guia pode ser gerada [Aqui](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/migranteweb-1/preenchimento-da-guia-de-recolhimento-da-uniao/guia-de-recolhimento-da-uniao-gru)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41132,
+            "descricao": "Taxa de processamento e avaliação de pedido de autorização de residência",
+            "moeda": "R$",
+            "valor": " 168,13",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309875,
+            "tipo": "web",
+            "descricao": "[Acesse o Site](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/migranteweb-1/migranteweb/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239991,
+      "titulo": "Análise e concessão de autorização de residência para fins laborais e de investimento",
+      "descricao": "Após a análise da realizada pela equipe técnica, o pedido sera deferido ou indeferido. \n\n Detectada falha na instrução processual, o processo entrará “em exigência” e será aberto prazo para as devidas correções, nos termos da [RN 01/2017](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/autorizacao-de-residencia-laboral-1/normas-de-imigracao-laboral/normas-de-imigracao-laboral).  Após as correções, haverá reanálise da solicitação, com a respectiva decisão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309876,
+            "tipo": "web",
+            "descricao": "Os trâmites processuais poderão ser consultados [aqui](https://migrante.mj.gov.br/consulta-publica).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "62",
+  "totalSimplifique": "1",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-de-residencia-para-fins-laborais-a-imigrantes",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

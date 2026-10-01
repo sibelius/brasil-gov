@@ -1,0 +1,289 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12864",
+  "nome": "Solicitar avaliação sanitária para designar aeroporto como internacional",
+  "sigla": "",
+  "descricao": "É uma solicitação de avaliação sanitária para que um aeroporto pode ser designado como internacional. A designação como internacional é feita pela Anac (Agência Nacional de Aviação), e a autorização da Anvisa é um dos documentos exigidos.\n\n Para fazer a solicitação, o operador do aeroporto deve enviar as informações e documentos para a Anvisa, que também pode realizar inspeção no local para verificar os requisitos.  O prazo para análise da Agência é de 90 dias, caso a documentação seja enviada de forma completa no primeiro pedido.",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 95987
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81551,
+        "tipo": "Empresas Concessionárias ou Administradoras de Aeródromos",
+        "requisitos": "Deve possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o Sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastros)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 133100
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Designação de Aeroporto Internacional",
+        "id": 323481
+      },
+      {
+        "item": "Internacionalização de Aeroporto",
+        "id": 323482
+      },
+      {
+        "item": "Avaliação Sanitária de Aeroporto",
+        "id": 323483
+      },
+      {
+        "item": "",
+        "id": 323484
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução - RDC nº 21, de 28 de março de 2008](http://antigo.anvisa.gov.br/documents/10181/2718376/RDC_346_2002_COMP.pdf/dc8fe152-fa84-400d-9781-6e84beda93e4) – Dispõe sobre a Orientação e Controle Sanitário de Viajantes em Portos, Aeroportos, Passagens de Fronteiras e Recintos Alfandegados.",
+        "id": 111061
+      },
+      {
+        "item": "[Resolução nº 181, de 25 de janeiro de 2011](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2011/resolucao-no-181-de-25-01-2011). Estabelece regras para designação dos aeroportos internacionais brasileiros, Brasília, DF, 27 jan. 2011. Seção 1, p. 7",
+        "id": 111062
+      },
+      {
+        "item": "[Decreto nº 10.212, de 30 de janeiro de 2020.](https://legislacao.presidencia.gov.br/atos/?tipo=DEC&numero=10212&ano=2020&ato=e5eQTTE1EMZpWT562) Promulga o texto revisado do Regulamento Sanitário Internacional, acordado na 58ª Assembleia Geral da Organização Mundial de Saúde, em 23 de maio de 2005.",
+        "id": 111063
+      },
+      {
+        "item": "[RDC n° 622 de 9 de março de 2022](http://antigo.anvisa.gov.br/legislacao#/visualizar/477735). Dispõe sobre o funcionamento de empresas especializadas na prestação de serviço de controle de vetores e pragas urbanas e dá outas providências. Diário Oficial da República Federativa do Brasil, Poder Executivo, Brasília, DF, 16 mar. 2022. Seção 1, p. 118.",
+        "id": 111064
+      },
+      {
+        "item": "[RDC n° 216 de 15 de setembro de 2004](http://antigo.anvisa.gov.br/legislacao#/visualizar/27436). Dispõe sobre o regulamento técnico de Boas Práticas para Serviços de Alimentação. Diário Oficial [da] República Federativa do Brasil, Poder Executivo, Brasília, DF, 16 set. 2004. Seção 1, p. 25.",
+        "id": 111065
+      },
+      {
+        "item": "[RDC n° 222 de 28 de março de 2018.](http://antigo.anvisa.gov.br/legislacao#/visualizar/371442) Regulamenta as Boas Práticas de Gerenciamento dos Resíduos de Serviços de Saúde e dá outras providências. Diário Oficial da República Federativa do Brasil, Poder Executivo, Brasília, DF, 29 mar. 2018. Seção 1, p. 228.",
+        "id": 111066
+      },
+      {
+        "item": "[ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 13971](https://www.normas.com.br/visualizar/abnt-nbr-nm/10612/nbr13971-sistemas-de-refrigeracao-condicionamento-de-ar-ventilacao-e-aquecimento-manutencao-programada): Sistemas de Refrigeração. Condicionamento de Ar e Ventilação - Manutenção Programada. Rio de Janeiro: ABNT, 28 jan. 2014.",
+        "id": 111067
+      },
+      {
+        "item": "[Portaria nº 2048, de 5 de novembro de 2002.](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2002/prt2048_05_11_2002.html) Regulamento Técnico dos Sistemas Estaduais de Urgência e Emergência. Diário Oficial da República Federativa do Brasil, Poder Executivo, Brasília, DF, 12 nov. 2022. Seção 1.",
+        "id": 111068
+      },
+      {
+        "item": "[ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 13537](https://www.normas.com.br/visualizar/abnt-nbr-nm/9998/abnt-nbr13537-carga-aerea-e-equipamentos-de-apoio-no-solo-para-aeronave-vocabulario): carga aérea e equipamento de apoio no solo para aeronave - vocabulário. Rio de Janeiro: ABNT, 2006.",
+        "id": 111069
+      },
+      {
+        "item": "[Portaria/SVS nº 344, de 12 de maio de 1998](https://bvsms.saude.gov.br/bvs/saudelegis/svs/1998/prt0344_12_05_1998_rep.html). Aprova o Regulamento Técnico sobre substâncias e medicamentos sujeitos a controle especial. Diário Oficial da República Federativa do Brasil, Poder Executivo, Brasília, DF, 15 mai. 1998. Seção 1, p. 3.",
+        "id": 111070
+      },
+      {
+        "item": "[Resolução, RDC n° 16 de 1º de abril de 2014.](http://antigo.anvisa.gov.br/legislacao#/visualizar/355258) Dispõe sobre os Critérios para Peticionamento de AFE e AE de Empresas. DOU 02 abr. 2014. Seção 1, p. 58. \n\n [Resolução, RDC n° 2 de 08 de janeiro de 2003](http://antigo.anvisa.gov.br/legislacao#/visualizar/27088). Regulamento para fiscalização e controle sanitário em aeroportos e aeronaves, anexo a esta Resolução. DOU 13 jan. 2003. Seção 1, p. 45.",
+        "id": 111071
+      },
+      {
+        "item": "[Resolução, RDC n° 661 de 30 de março de 2022.](http://antigo.anvisa.gov.br/legislacao#/visualizar/479684) Dispõe sobre as Boas Práticas Sanitárias no Gerenciamento de Resíduos Sólidos nas áreas de Portos, Aeroportos, Passagens de Fronteiras e Recintos Alfandegados. Diário Oficial da República Federativa do Brasil, Poder Executivo, Brasília, DF, 31 mar. 2022. Seção 1, p. 334.",
+        "id": 111072
+      },
+      {
+        "item": "[Lei n° 6.437, de 20 de agosto de 1977](http://www.planalto.gov.br/ccivil_03/leis/l6437.htm). Configura infrações à legislação sanitária federal, estabelece as sanções respectivas, e dá outras providências.\n\n [Lei n° 9.784, de 29 de janeiro de 1999](http://www.planalto.gov.br/ccivil_03/leis/l9784.htm). Regula o processo administrativo no âmbito da Administração Pública Federal.",
+        "id": 111073
+      },
+      {
+        "item": "[Portaria de Consolidação nº 5, de 28 de setembro de 2017](http://portalsinan.saude.gov.br/images/documentos/Legislacoes/Portaria_Consolidacao_5_28_SETEMBRO_2017.pdf). Consolidação das normas sobre as ações e os serviços de saúde do Sistema Único de Saúde. Diário Oficial da República Federativa do Brasil, Poder Executivo, Brasília, DF, 03 out. 2017. Seção 1. Suplemento, p. 360.",
+        "id": 111074
+      },
+      {
+        "item": "[Portaria nº 3523, de 28 de agosto de 1998](https://bvsms.saude.gov.br/bvs/saudelegis/gm/1998/prt3523_28_08_1998.html). Plano de Manutenção, Operação e Controle - PMOC dos sistemas de climatização. Diário Oficial da República Federativa do Brasil, Poder Executivo, Brasília, DF, 31 ago. 1998. Seção 1.",
+        "id": 111075
+      },
+      {
+        "item": "[RDC n° 345, de 16 de dezembro de 2002](http://antigo.anvisa.gov.br/legislacao#/visualizar/27055).  Aprovar, conforme anexo I, o Regulamento Técnico para a Autorização de Funcionamento de empresas interessadas em prestar serviços de interesse da saúde pública em veículos terrestres que operem transportes coletivos internacional de passageiros, embarcações, aeronaves, terminais aquaviários, portos organizados, aeroportos, postos de fronteira e recintos alfandegados.",
+        "id": 111076
+      },
+      {
+        "item": "[RDC n° 346 de 16 de dezembro de 2002.](http://antigo.anvisa.gov.br/legislacao#/visualizar/27057) Aprovar, conforme Anexo I, o Regulamento Técnico para a Autorização de Funcionamento e Autorização Especial de Funcionamento de Empresas interessadas em operar a atividade de armazenar mercadorias sob vigilância sanitária em Terminais Aquaviários, Portos Organizados, Aeroportos, Postos de Fronteira e Recintos Alfandegados.",
+        "id": 111077
+      },
+      {
+        "item": "[PORTARIA GM/MS Nº 888, DE 4 DE MAIO DE 2021.](https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-888-de-4-de-maio-de-2021-318461562) Altera o Anexo da Portaria de Consolidação GM/MS nº 5, de 28 de setembro de 2017, para dispor sobre os procedimentos de controle e de vigilância da qualidade da água para consumo humano e seu padrão de potabilidade.",
+        "id": 111078
+      },
+      {
+        "item": "[Resolução CONAMA nº 274 de 29 de novembro de 2000](http://www.mma.gov.br/port/conama/res/res00/res27400.html.). Estabelece as condições de balneabilidade das águas brasileiras. Brasília, 2000.",
+        "id": 111079
+      },
+      {
+        "item": "[Resolução CONAMA nº 357 de 17 de março de 2005.](http://www.mma.gov.br/port/conama/res%20/res05/res35705.pdf) Dispõe sobre a classificação dos corpos de água e diretrizes ambientais para o seu enquadramento, bem como estabelece as condições e padrões de lançamento de efluentes, e dá outras providências. Brasília, 2005.",
+        "id": 111080
+      },
+      {
+        "item": "[RDC n° 664 de 30 de março de 2022](http://antigo.anvisa.gov.br/legislacao#/visualizar/479687). Dispõe sobre as Boas Práticas Sanitárias para o Sistema de Abastecimento de Água ou Solução Alternativa Coletiva de Abastecimento de Água em Portos, Aeroportos e Passagens de Fronteiras. Diário Oficial da República Federativa do Brasil.",
+        "id": 111081
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 185187,
+      "titulo": "Fazer a solicitação",
+      "descricao": "2. Acesse o Sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição Inicial”.\n 4. Localize o assunto cuja descrição seja compatível e preencha as informações solicitadas. Ao término das inserções, envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 252613,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao)). A Anvisa fornece um *checklist* (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 243094,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 185188,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no sistema Solicita, selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” no canto superior direito para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), utilizando os filtros na opção Situação de Documentos > Documentos Técnicos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 243095,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2894",
+      "nome": "Obter designação ou alteração nas características de aeroporto como internacional"
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-avaliacao-sanitaria-para-designar-aeroporto-como-internacional",
+  "statusDestaque": false
+}

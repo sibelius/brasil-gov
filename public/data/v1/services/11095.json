@@ -1,0 +1,191 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11095",
+  "nome": "Entregar Escrituração Fiscal Digital de retenções e outras informações fiscais",
+  "sigla": "EFD-Reinf",
+  "descricao": "Envie informações (eventos) sobre retenções de tributos e outras informações fiscais à Receita Federal, para compor a **Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais** (EFD-Reinf).\n\n A EFD-Reinf é um dos módulos do Sistema Público de Escrituração Digital (SPED), que deve ser utilizado, em complemento ao **Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas** (eSocial) para informar rendimentos pagos e retenções de imposto de renda e contribuições sociais, exceto aquelas relacionadas ao trabalho (informadas pelo eSocial). Também deve ser informada a Contribuição Previdenciária sobre Receita Bruta (CPRB), substituindo, portanto, o módulo da EFF-Contribuições.\n\n Esta escrituração é organizada em módulos por eventos de informação. Isso significa que é possível enviar vários arquivos em formato XML, separadamente, para compor a escrituração digital de um mesmo período de apuração.\n\n O envio das informações pode ser realizado por meio de um aplicativo próprio (privado), com transmissão dos arquivos via WebService, ou pelo sistema disponibilizado para esse fim, acessível pelos canais de atendimento indicados nas etapas abaixo.\n\n Depois de enviar os eventos de informação com o fechamento do período e também enviar o fechamento do eSocial, a Declaração de Créditos e Débitos Tributários (DCTFWeb) ficará disponível no para ser editada e transmitida, liberando o DARF para o pagamento dos tributos (impostos, taxas e contribuições).",
+  "flagPortalLogado": "N",
+  "contato": "Mais informações:  \n[Orientações sobre EFD-Reinf](http://sped.rfb.gov.br/projeto/show/1196)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10019",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123440
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103167,
+        "tipo": "**São obrigados ao envio da EFD-Reinf, mesmo que imunes e isentos:**\n\n  * empresas que prestam e contratam serviços realizados mediante cessão de mão de obra;\n * pessoas jurídicas responsáveis pela retenção de PIS/Pasep, Cofins e CSLL;\n * pessoas jurídicas optantes pelo recolhimento da CPRB;",
+        "requisitos": ""
+      },
+      {
+        "id": 103168,
+        "tipo": "* produtor rural pessoa jurídica e agroindústria quando sujeitos a contribuição previdenciária substitutiva sobre a receita bruta proveniente da comercialização da produção rural;\n * adquirente de produto rural;",
+        "requisitos": ""
+      },
+      {
+        "id": 103169,
+        "tipo": "* associações desportivas que mantenham equipe de futebol profissional que tenham recebido valores a título de patrocínio, licenciamento de uso de marcas e símbolos, publicidade, propaganda e transmissão de espetáculos desportivos;",
+        "requisitos": ""
+      },
+      {
+        "id": 103170,
+        "tipo": "* empresa ou entidade patrocinadora que tenha destinado recursos a associação desportiva que mantenha equipe de futebol profissional a título de patrocínio, licenciamento de uso de marcas e símbolos, publicidade, propaganda e transmissão de espetáculos desportivos;\n * entidades promotoras de eventos desportivos realizados em território nacional, em qualquer modalidade desportiva, dos quais participe ao menos 1 (uma) associação desportiva que mantenha equipe de futebol profissional; e",
+        "requisitos": ""
+      },
+      {
+        "id": 103171,
+        "tipo": "* pessoas jurídicas e físicas que pagaram ou creditaram rendimentos sobre os quais haja retenção do Imposto sobre a Renda Retido na Fonte (IRRF), por si ou como representantes de terceiros.",
+        "requisitos": "**Atenção!**\n\n Acompanhe o cronograma de implantação da EFD-Reinf pela [ IN RFB 2.043/2021 ](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=119859) e saiba a partir de quando você estará obrigado à entregar as escriturações e declaração."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172603
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172604
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172605
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 172606
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Declarações e Comunicações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Contabilidade",
+        "id": 410760
+      },
+      {
+        "item": "Escrituração",
+        "id": 410761
+      },
+      {
+        "item": "SPED",
+        "id": 410762
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.043/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=119859)",
+        "id": 148412
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 177,
+    "negativas": 393
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240778,
+      "titulo": "Acessar o sistema EFD-Reinf",
+      "descricao": "Acesse o sistema EFD-Reinf para enviar os eventos de informação. No sistema você também pode consultar os eventos que já foram enviados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310853,
+            "tipo": "web",
+            "descricao": "[Acessar a EFD-Reinf](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10019)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10969",
+      "nome": "Declarar débitos e créditos previdenciários e de outras entidades e fundos"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/efd-reinf",
+  "statusDestaque": false
+}

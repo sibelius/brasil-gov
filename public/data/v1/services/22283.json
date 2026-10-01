@@ -1,0 +1,356 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22283",
+  "nome": "Agendar Primeiras Consultas no Hospital Universitário de Santa Maria (HUSM)",
+  "sigla": "",
+  "descricao": "O Hospital Universitário é o maior hospital público 100% SUS do interior do Estado do RS e   presenta um dos marcos regionais na saúde. Com capacidade de 380 leitos, dispõe de 67 ambulatórios que atendem um total de 50 especialidades médicas e 12 especialidades multiprofissional. Também é referência regional para Pronto Socorro e gestação de alto risco para uma abrangência de 43 municípios e população de mais de um milhão de habitantes.\n\n O Hospital Universitário de Santa Maria conta com 42.000m² de área construída. Por ser um Hospital de ensino credenciado pelo Ministério da Educação e Cultura, serve de campo de estágio para alunos de graduação e pós-graduação nos cursos da área da saúde.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone (55) 3213 1771\n\n                (55) 3213 1767\n\n                (55) 3213 1776\n\n                 (55) 3213 1773",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/area-do-paciente/especialidades-medicas",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125648
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105103,
+        "tipo": "Usuários do SUS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201459",
+    "dbId": 32675,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário de Santa Maria (EBSERH-UFSM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175668
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Saúde,",
+        "id": 418459
+      },
+      {
+        "item": "Ambulatório,",
+        "id": 418460
+      },
+      {
+        "item": "Consultas, ",
+        "id": 418461
+      },
+      {
+        "item": "Especialidades.",
+        "id": 418462
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150850
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 245260,
+      "titulo": "Agendar primeira consulta",
+      "descricao": "O paciente deverá consultar na Unidade Básica de Saúde (UBS), mais perto de sua casa. O médico solicitará o encaminhamento para o especialista, preenchendo o formulário de Referência e Contra referências. Com o encaminhamento, o paciente deverá dirigir-se à Secretaria de Saúde de seu município para realizar o agendamento para a especialidade, que após o agendamento irá informar o paciente sobre o dia e a hora da consulta.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317297,
+            "tipo": "presencial",
+            "descricao": "Secretaria de Saúde dos Municípios de abrangência para atendimento no HUSM.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 245261,
+      "titulo": "Confirmar presença na Central de Agendamento no HUSM",
+      "descricao": "No dia agendado para a consulta, o paciente comparece no guichê das senhas e informa ao atendente sobre sua consulta, o atendente irá fornecer uma senha para Marcação de Consultas (paciente deve comparecer com uma hora de antecedência ao hospital).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321220,
+            "nome": "Carteira de Identidade (RG);\n\n No caso de criança que não tenha RG: Certidão de Nascimento ou Carteira de Vacinação;\n\n CPF;\n\n Cartão Nacional do SUS (CNS);\n\n Formulário de Referência ou Contrarreferência (encaminhamento) fornecida pelo profissional da saúde;\n\n Comprovante de residência."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41402,
+            "descricao": "100% SUS",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317298,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900 Santa Maria - RS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 245262,
+      "titulo": "Realizar cadastro nos sistemas internos do HUSM",
+      "descricao": "Paciente, após retirar senha para a Marcação de Consultas, aguarda ser chamado no Painel Eletrônico. Ao ser chamado, paciente confirma seus dados junto ao atendente, que irá realizar o cadastro do paciente no sistema interno do HUSM.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317299,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900 Santa Maria - RS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 245263,
+      "titulo": "Encaminhar para ambulatório da Especialidade",
+      "descricao": "Após o registro dos dados do paciente no sistema interno do HUSM e emissão de prontuário e da carteirinha do HUSM o paciente é orientado a dirigir-se ao ambulatório da especialidade médica que ele tem a consulta agendada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317300,
+            "tipo": "presencial",
+            "descricao": "As consultas ambulatoriais são realizadas de acordo com o agendamento prévio, que irá constar o dia e horário. O espaço físico do ambulatório funciona de segunda a sexta-feira das 07:00 horas ás 19:00 horas. Ainda, o espaço conta com 44 servidores com jornada flexibilizada, quais sejam: 10 Enfermeiras, 27 Técnicos em Enfermagem e 7 Auxiliar de Enfermagem.\n\n Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22. Bairro Camobi, CEP: 97105-900 Santa Maria - RS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 245264,
+      "titulo": "Consultar no ambulatório de atendimento",
+      "descricao": "Paciente aguardar sua chamada pelo médico na ala do ambulatório. O paciente é chamado pela equipe médica e é atendido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317301,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900 Santa Maria - RS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 245265,
+      "titulo": "Encaminhar pós consulta",
+      "descricao": "Após a consulta o paciente pode ter 3 tipos de encaminhamentos:\n\n  * Agendar retorno diretamente na marcação de consultas;\n * Agendar interconsulta na marcação de consultas quando a equipe médica encaminhar o paciente para continuidade do tratamento em outra especialidade;\n * Alta médica quando a equipe médica entender não ser caso de atendimento em nível especializado. Nesse caso, o paciente deve retornar à sua Unidade Básica de Saúde para continuidade do atendimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317302,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900 Santa Maria - RS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-primeiras-consultas-no-hospital-universitario-de-santa-maria-husm",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

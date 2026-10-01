@@ -1,0 +1,261 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23775",
+  "nome": "Consultar relação de débitos junto ao Ibama",
+  "sigla": "",
+  "descricao": "Verificar a existência de débitos em seu nome ou em nome de sua instituição junto ao Ibama",
+  "flagPortalLogado": "S",
+  "contato": "Central de Atendimento do Ibama\n\n  * 0800 061 8080",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.ibama.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125577
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105063,
+        "tipo": "Qualquer pessoa física ou jurídica",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175617
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175618
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "TCFA",
+        "id": 418308
+      },
+      {
+        "item": "Débitos",
+        "id": 418309
+      },
+      {
+        "item": "Taxas",
+        "id": 418310
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 5.172/1966 (CTN)](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm)",
+        "id": 150810
+      },
+      {
+        "item": "[Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)",
+        "id": 150811
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 13
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 245154,
+      "titulo": "Enviar o pedido",
+      "descricao": "Enviar o pedido por algum dos canais de prestação indicados abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321174,
+            "nome": "* Nome completo ou razão social\n * CPF ou estatuto social e CNPJ (no caso de pessoa jurídica)\n * Procuração (caso o pedido seja realizado por representante legal)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317171,
+            "tipo": "web",
+            "descricao": "**Por processo eletrônico**\n\n  * [Acessar o Sei! Ibama](https://sei.ibama.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)\n * Clicar em *Processo Novo*\n * Tipo de Processo*:* *Arrecadação*\n * Incluir um *Requerimento*\n * Preencher os campos\n * Anexar os documentos\n * *Peticionar*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317172,
+            "tipo": "web",
+            "descricao": "**Pela Plataforma FalaBR[  \n](https://www.gov.br/Fala.BR)**\n\n  * [Acessar a Plataforma FalaBR](https://falabr.cgu.gov.br/v2/)[  \n](https://www.gov.br/Fala.BR)\n * Em *Usuário > Ouvidoria > Nova manifestação > **Solicitação*\n * Inserir dados e documentos\n * Clicar em* Avançar*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317173,
+            "tipo": "e-mail",
+            "descricao": "**Por e-mail**\n\n  * Enviar e-mail para [cobranca.sede@ibama.gov.br](mailto:cobranca.sede@ibama.gov.br)\n * No campo *Assunto* escrever: Consultar relação de débitos junto ao Ibama\n * No texto da mensagem informar os dados obrigatórios e anexar os documentos solicitados\n * Clicar em *Enviar* para finalizar o envio",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245155,
+      "titulo": "Acompanhar o andamento do processo",
+      "descricao": "Acompanhar a tramitação do processo pelo Sei! Ibama, pela Plataforma FalaBR ou por e-mail, onde será possível visualizar as comunicações e o andamento da análise.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317174,
+            "tipo": "web",
+            "descricao": "* [Sei! Ibama](https://sei.ibama.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)\n * [Plataforma FalaBR](https://falabr.cgu.gov.br/v2/)\n * e-mailÂ [cobranca.sede@ibama.gov.br](mailto:cobranca.sede@ibama.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245156,
+      "titulo": "Receber a resposta de conclusão do pedido",
+      "descricao": "A resposta será comunicada ao interessado por meio do Sei! Ibama, pela Plataforma FalaBR ou por e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317175,
+            "tipo": "web",
+            "descricao": "* [Sei! Ibama](https://sei.ibama.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)\n * [Plataforma FalaBR](https://falabr.cgu.gov.br/v2/)\n * e-mailÂ [cobranca.sede@ibama.gov.br](mailto:cobranca.sede@ibama.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "19",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-relacao-de-debitos-junto-ao-ibama",
+  "statusDestaque": false
+}

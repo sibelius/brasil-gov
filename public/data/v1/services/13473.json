@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13473",
+  "nome": "Realizar Exames Laboratoriais no Humap-UFMS",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, pacientes atendidos em consultas ambulatoriais ou que estiveram internados no Humap-UFMS, recebem atendimento para fazer exames laboratoriais solicitados.",
+  "flagPortalLogado": "N",
+  "contato": "Telefones: (67)33453170 / 3345-3071\n\n E-mail: ulac.humap-ufms@ebserh.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74499
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65487,
+        "tipo": "Pacientes atendidos em consultas ambulatoriais no Humap-UFMS;",
+        "requisitos": ""
+      },
+      {
+        "id": 65488,
+        "tipo": "Pacientes que estiveram internados no Humap-UFMS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 103100
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "exames",
+        "id": 253205
+      },
+      {
+        "item": "laboratoriais",
+        "id": 253206
+      },
+      {
+        "item": "saúde",
+        "id": 253207
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 84453
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145960,
+      "titulo": "Dirigir-se ao Laboratório de Análises Clínicas, no dia e horário agendados para realizar exames solicitados - coleta de sangue ou entrega de materiais",
+      "descricao": "Comparecer ao balcão do Laboratório de Análises Clínicas, no dia e horário agendados, com os seguintes documentos: Pedido do exame; Cartão do SUS; Documento de identificação com foto; Carteirinha de Identificação do Humap-UFMS (desejável).\n\n Ao chegar no balcão do Laboratório, favor avisar que veio fazer exames de sangue (coletar material) e/ou entregar material (exame de urina, fezes, etc.)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207566,
+            "nome": "Pedido do exame;"
+          },
+          {
+            "id": 207567,
+            "nome": "Cartão do SUS;"
+          },
+          {
+            "id": 207568,
+            "nome": "Documento de identificação com foto;"
+          },
+          {
+            "id": 207569,
+            "nome": "Carteirinha de Identificação do Humap-UFMS (desejável)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24307,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189842,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - portão 01 - prédio do Laboratório, localizado ao lado do Ambulatório Geral.\n\n Horário de atendimento no Laboratório de Análises Clínicas:\n\n De segunda a quinta-feira: 07h às 16h\n\n Sexta-feira: 07h às 15h\n\n Telefones: (67)33453170 / 3345-3071\n\n E-mail: ulac.humap-ufms@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32106,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189841,
+                "tipo": "telefone",
+                "descricao": "(67)33453170 / 3345-3071",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "38",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-exames-laboratoriais-no-humap-ufms",
+  "statusDestaque": false
+}

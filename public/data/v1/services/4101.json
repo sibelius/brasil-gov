@@ -1,0 +1,184 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/4101",
+  "nome": "Emitir Darf - dívida ativa da União",
+  "sigla": "",
+  "descricao": "É o serviço que possibilita a obtenção do Documento de Arrecadação de Receitas Federais (Darf) para o pagamento integral (valor total) ou parcial (apenas uma parte do valor) de **débitos tributários não previdenciários e débitos não tributários** inscritos em dívida ativa da União.\n\n **Atenção!** O pagamento integral ou parcial de **débitos previdenciários** inscritos em dívida ativa da União é feito por meio de emissão da **Guia da Previdência Social (GPS)**.",
+  "flagPortalLogado": "N",
+  "contato": "Clique [aqui](http://www.gov.br/pgfn/pt-br/canais_atendimento/atendimento-ao-contribuinte/contribuinte) para acessar os contatos da Procuradoria-Geral da Fazenda Nacional.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.regularize.pgfn.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Emissão de Darf integral ou parcial",
+        "id": 122391
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102329,
+        "tipo": "Pessoa física e pessoa jurídica.",
+        "requisitos": "É possível emitir Darf de terceiros, basta ter o CPF/CNPJ do contribuinte devedor e o número da inscrição."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170861
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 170862
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 170863
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 170864
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "darf",
+        "id": 407255
+      },
+      {
+        "item": "pagar dívida ativa ",
+        "id": 407256
+      },
+      {
+        "item": "dívida ativa da união ",
+        "id": 407257
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 146823
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 798,
+    "negativas": 3112
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "A Lei 10.048, de 08/11/2000, criou a obrigatoriedade de atendimento prioritário a pessoas:  \n- Pessoas com Deficiência;   \n- Idosos com idade superior a 60 anos;  \n- Gestantes;   \n- Lactantes;   \n- Pessoas com crianças de colo; e  \n- Obesos.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 238487,
+      "titulo": "Emitir Darf integral ou parcial",
+      "descricao": "* Acesse o portal REGULARIZE e clique na opção \"Emitir Guia de Pagamento\" > \"Emitir Darf/DAS parcial ou integral\".\n * Informe o CPF ou CNPJ do contribuinte devedor e o número da inscrição.\n * Clique em \"Emitir Darf integral\" ou \"Emitir Darf parcial\".\n * Salve o documento ou imprima para realizar o pagamento em uma agência bancária, correspondente bancário ou canal de autoatendimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307956,
+            "tipo": "web",
+            "descricao": "[Portal REGULARIZEÂ ](http://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4102",
+      "nome": "Emitir GPS - dívida ativa da União"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 1954,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 1955,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/emitir-darf-divida-ativa-da-uniao",
+  "statusDestaque": false
+}

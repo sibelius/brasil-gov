@@ -1,0 +1,239 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5895",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UFPI",
+  "sigla": "",
+  "descricao": "Após a formatura, os estudantes serão desligados em um prazo de até 30 (trinta) dias úteis. Depois do desligamento, o status acadêmico do aluno passará de “graduando” para “concluído”. A partir de então, a Certidão de Conclusão de Curso e o Histórico Escolar atualizado serão completamente disponibilizados digitalmente.",
+  "flagPortalLogado": "N",
+  "contato": "Diretoria de Administração Acadêmica - 8632155543 - daa@ufpi.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SRDC",
+        "id": 80463
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 69898,
+        "tipo": "Estudante da Universidade Federal do Piauí (UFPI) que tenha recém finalizado seu curso",
+        "requisitos": "Podem solicitar o Diploma Digital (que não há 2° via) os alunos graduados que colarem grau após 01/01/2022, conforme Portaria MEC n° 1001 de 08 de dezembro de 2021. Já os alunos que colarem grau até 31/12/2021, alunos que colarem grau por decisão judicial e alunos PEC-G independente da data de colação de grau, terão seus diplomas apenas em formato impresso, conforme a legislação vigente."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/468",
+    "dbId": 34331,
+    "nomeOrgao": "Fundação Universidade Federal do Piauí (UFPI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 111456
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DIPLOMA",
+        "id": 273276
+      },
+      {
+        "item": "GRADUAÇÃO",
+        "id": 273277
+      },
+      {
+        "item": "2ª VIA",
+        "id": 273278
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 91381
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 156985,
+      "titulo": "Requisição do diploma digital",
+      "descricao": "Diploma digital de curso superior de graduação é o documento com existência, emissão e armazenamento integralmente digitais.\n\n Além de evitar fraudes ao reforçar a segurança para registro e emissão de diplomas digitais, essa inovação permitirá a desburocratização do processo de geração e emissão do diploma.\n\n O diploma digital da UFPI possui validação digital nacional, através de ambientes com segurança garantida, tanto no sistema acadêmico próprio (SIGAA/UFPI), quanto no sistema MEC (Gov.br).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 219316,
+            "nome": "I – Requerimento de Diploma de Graduação;\n\n II – RG;\n\n III – CPF;\n\n IV – Certidão de quitação eleitoral;\n\n V – Certificado de Dispensa de Incorporação (CDI)\n\n VI – Certificado de Conclusão do Ensino Médio;\n\n VII – Histórico Escolar do Ensino Médio (frente e verso), para aqueles que ingressaram pelo sistema de cotas;\n\n VIII – Documento Nada Consta, expedido pela Biblioteca;\n\n IX – Histórico Escolar da Graduação;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 205031,
+            "tipo": "web",
+            "descricao": "Para maiores informações: <https://ufpi.br/diplomas-ufpi-srdc>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 156986,
+      "titulo": "Análise e envio da documentação",
+      "descricao": "A documentação de solicitação de diploma, citada anteriormente, que deve ser analisada no prazo de 10 dias úteis após o recebimento, deverá ser organizada em arquivo digital único, formato PDF/A-1b com até 7MB de tamanho, na ordem indicada anteriormente, e enviada por email para o seu respectivo Campus.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 205032,
+            "tipo": "e-mail",
+            "descricao": "I – Alunos do Campus Ministro Petrônio Portela (CMPP), do PARFOR, e do CEAD, solicitam via e-mail: srdc@ufpi.edu.br\n\n II – Alunos do CAFS, solicitam via e-mail: secretariaacademicacafs@ufpi.edu.br\n\n III – Alunos do CSHNB, solicitam via e-mail: scgpicos@ufpi.edu.br\n\n IV – Alunos do CPCE, solicitam via e-mail: secgradcpce@ufpi.edu.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 156987,
+      "titulo": "Recebimento do Diploma Digital",
+      "descricao": "Após a expedição do diploma digital, o discente graduado, receberá notificação do processo de diploma. A partir de então poderá acessar e baixar seu diploma digital direto do Portal do Discente no SIGAA, pelo caminho SIGAA>Portal do Discente>Ensino>Certidões e Diplomas> Diploma de Conclusão de Curso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 205033,
+            "tipo": "web",
+            "descricao": "<https://sigaa.ufpi.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "48",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-de-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufpi",
+  "statusDestaque": false
+}

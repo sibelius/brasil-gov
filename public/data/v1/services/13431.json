@@ -1,0 +1,189 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13431",
+  "nome": "Agendar consulta especializada em Nefrologia no Humap-UFMS",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, paciente internado e/ou admitido no Pronto Atendimento Adulto (PAM) do Humap-UFMS, recebe atendimento para agendar consulta em nefrologia.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (67)3345-3153\n\n E-mail: usur.humap-ufms@ebserh.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74446
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65370,
+        "tipo": "Paciente internado no Humap-UFMS, que necessite de atendimento em nefrologia.",
+        "requisitos": ""
+      },
+      {
+        "id": 65371,
+        "tipo": "Paciente admitido no Pronto Atendimento Adulto (PAM) do Humap-UFMS, que necessite de atendimento em nefrologia.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 103047
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "saúde ",
+        "id": 253031
+      },
+      {
+        "item": "consulta ",
+        "id": 253032
+      },
+      {
+        "item": "agendamento ",
+        "id": 253033
+      },
+      {
+        "item": "nefrologia ",
+        "id": 253034
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 84400
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145894,
+      "titulo": "Dirigir-se ao Ambulatório de Nefrologia",
+      "descricao": "Comparecer ao balcão do Ambulatório de Nefrologia, com documento de indentificação com foto e encaminhamento médico. Solicitar o agendamento da consulta para a recepcionista.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207354,
+            "nome": "Documento de indentificação com foto."
+          },
+          {
+            "id": 207355,
+            "nome": "Encaminhamento médico."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24248,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100%  pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189710,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - próximo à recepção de Raio-X\n\n Horário de atendimento do Ambulatório de Nefrologia:\n\n De segunda a quinta-feira, das 06h30 às 11h30 e das 12h30 às 17h\n\n Sexta-feira: das 06h30 às 11h30 e das 12h30 às 15h\n\n E-mail: usur.humap-ufms@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32032,
+            "descricao": "Em caso de dúvidas ou para maiores informações, entre em contato pelo telefone",
+            "canalDePrestacao": [
+              {
+                "id": 189709,
+                "tipo": "telefone",
+                "descricao": "Telefone: (67)3345-3153",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-consulta-especializada-em-nefrologia-no-humap-ufms",
+  "statusDestaque": false
+}

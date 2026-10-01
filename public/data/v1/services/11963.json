@@ -1,0 +1,154 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11963",
+  "nome": "Buscar requerimento de título urbano",
+  "sigla": "",
+  "descricao": "Consultar o requerimento de titulação de área urbana da União para a Prefeitura via Sistema de Gestão Fundiária - Módulo Titulação.\n\n O representante legal da Prefeitura no processo pode verificar o estágio do requerimento de titulação de área da União para o município e consultar eventual pendência, se for o caso.\n\n Este serviço destina-se às Prefeituras com áreas da União ou do Incra situadas no perímetro urbano não regularizadas para o município.",
+  "flagPortalLogado": "N",
+  "contato": "Consulte a Coordenação-Geral de Regularização Fundiária do Sede do Incra pelo correio [coordenacao.fundiaria@incra.gov.br](mailto:coordenacao.fundiaria@incra.gov.br) ou o Serviço de Regularização Fundiária das Superintendências do Incra nos estados. [Consulte os endereços e telefones das unidades do Incra nos estados](https://www.gov.br/../../incra/pt-br/composicao/superintendencias-regionais).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sigeftitulacao.incra.gov.br/urbano/publico/requerimentos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 46501
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 42996,
+        "tipo": "Representante legal da Prefeitura indicado na solicitação de regularização de área da União para a Prefeitura no Sistema de Gestão Fundiária - Módulo Titulação.",
+        "requisitos": "A área urbana objeto de regularização fundiária deve estar cadastrada em nome da União ou do Incra para doação por meio de título de domínio."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1799",
+    "dbId": 36785,
+    "nomeOrgao": "Instituto Nacional de Colonização e Reforma Agrária (INCRA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 69659
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imóveis"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Regularização fundiária",
+        "id": 160754
+      },
+      {
+        "item": "Sistema de Gestão Fundiária - Módulo Titulaçã",
+        "id": 160755
+      },
+      {
+        "item": "Titulação de área urbana",
+        "id": 160756
+      },
+      {
+        "item": "Transferência de área",
+        "id": 160757
+      },
+      {
+        "item": "",
+        "id": 160758
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 51155
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 20
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 92616,
+      "titulo": "Consultar o requerimento",
+      "descricao": "Acessar via internet a pesquisa de requerimento urbano de regularização de área da União para a Prefeitura no Sistema de Gestão Fundiária - Módulo Titulação.\n\n O representante legal da Prefeitura deve informar o código do processo para realizar a consulta.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 118073,
+            "tipo": "web-consultar",
+            "descricao": "[Buscar o requerimento de regularização de área da União ou do Incra para a Prefeitura no Sistema de Gestão Fundiária - Módulo Titulação.](https://sigeftitulacao.incra.gov.br/urbano/publico/requerimentos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "41",
+  "url": "https://www.gov.br/pt-br/servicos/buscar-requerimento-de-titulo-urbano",
+  "statusDestaque": false
+}

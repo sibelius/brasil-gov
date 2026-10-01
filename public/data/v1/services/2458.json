@@ -1,0 +1,188 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2458",
+  "nome": "Obter autorização para o trânsito de resíduos",
+  "sigla": "",
+  "descricao": "Autorizar o trânsito de resíduos.\n\n",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (61) 3316-1352\n\n",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.ibama.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Convenção de Basileia",
+        "id": 13692
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 16444,
+        "tipo": "Pessoas físicas e jurídicas\n\n",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 25559
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 25560
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 25561
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 25562
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "transporte",
+        "id": 52543
+      },
+      {
+        "item": "resíduos sólidos",
+        "id": 52544
+      },
+      {
+        "item": "poluição",
+        "id": 52545
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 11384
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 20
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética\n\n",
+  "etapas": [
+    {
+      "id": 31912,
+      "titulo": "Requerer  autorização",
+      "descricao": "Entrega da documentação para análise e envio da autorização de trânsito\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 53715,
+            "nome": "Formulários oficiais da Convenção de Basileia\n\n"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 38873,
+            "tipo": "e-mail",
+            "descricao": "residuos.sede@ibama.gov.br\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 38874,
+            "tipo": "postal",
+            "descricao": "**IBAMA** - SCEN Trecho 2 - Edifício Sede - L4 Norte - Brasília/DF - CEP: 70818-900\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 38875,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sei.ibama.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "33",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-o-transito-de-residuos",
+  "statusDestaque": false
+}

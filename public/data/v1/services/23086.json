@@ -1,0 +1,235 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23086",
+  "nome": "Solicitar Cópia de Prontuário na Maternidade Escola Januário Cicco (MEJC) - EBSERH/UFRN",
+  "sigla": "",
+  "descricao": "O prontuário é um documento confidencial que reúne todas as informações sobre a saúde de um paciente, registradas durante o seu atendimento por profissionais de saúde. Por meio deste serviço, pacientes da MEJC/UFRN/EBSERH e/ou familiares, podem ter acesso à cópia de seu prontuário médico.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações ou dúvidas sobre este serviço, entre em contato Telefone: 84 3342-5847 Este é um serviço do(a) EBSERH - Filial Maternidade Escola Januário Cicco . Em caso de dúvidas, reclamações ou sugestões favor entrar em contato.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124233
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104003,
+        "tipo": "a) **O próprio paciente**, desde que maior de 18 anos e com documento de identificação original com foto.\n\n b) **Representante legal do paciente**:\n\n Menores de idade: pai, mãe ou responsável legal com documentação.\n\n Pessoa com incapacidade civil: tutor/curador legalmente nomeado.\n\n c) **Terceiros autorizados por procuração**:\n\n Procuração pública ou particular com firma reconhecida.",
+        "requisitos": "d) **Em caso de óbito do paciente**:\n\n Cônjuge, descendente, ascendente, colateral até 4º grau com comprovação legal de vínculo (certidão de óbito + documentos).\n\n e)** Advogado com procuração da família.**"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "15",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/200695",
+    "dbId": 32687,
+    "nomeOrgao": "EBSERH - Filial Maternidade Escola Januário Cicco (EBSERH-MEJC-UFRN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173860
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Prontuário",
+        "id": 413783
+      },
+      {
+        "item": "MEJC",
+        "id": 413784
+      },
+      {
+        "item": "EBSERH",
+        "id": 413785
+      },
+      {
+        "item": "SUS",
+        "id": 413786
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149442
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 242451,
+      "titulo": "Retirar senha para atendimento",
+      "descricao": "Usuário se dirige à recepção do Ambulatório, de segunda a sexta-feira, das 8:30h às 11h e das 13:30h às 16:30h, e informa da intenção de solicitar cópia de prontuário. Solicitante, após retirar senha para o Arquivo, aguarda seu chamado no Painel Eletrônico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313080,
+            "tipo": "presencial",
+            "descricao": "Na Maternidade Escola Januário Cicco, acesso pela entrada lateral, Portão das ambulâncias. Se dirige à recepção do Ambulatório.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 242452,
+      "titulo": "Solicitar cópia de prontuário",
+      "descricao": "Ao ser chamado, o solicitante formaliza o pedido de cópia do prontuário em formulário específico, mediante comprovação de identidade. O prazo para retirada da cópia do prontuário é de 15 dias após a realização da solicitação. É sugerido que entre em contato através do telefone (84) 3215-5959 para verificar se a cópia já está disponível para retirada. A retirada poderá ser feita por pessoa designada pelo solicitante, desde que informada no momento do contato telefônico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313081,
+            "tipo": "presencial",
+            "descricao": "Na Maternidade Escola Januário Cicco, acesso pela entrada lateral, Portão das ambulâncias. Se dirige à recepção do Ambulatório. As cópias dos documentos serão entregues no mesmo local da solicitação.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 242453,
+      "titulo": "Retirar cópia de prontuário",
+      "descricao": "Recomenda-se ligar para (84) 3215-5959 para verificar se a cópia já está disponível para retirada. A retirada pode ser feita por pessoa autorizada, com documento com foto. Após o prazo ou contato, dirija-se à Recepção do Ambulatório, de segunda a sexta, das 8h30 às 11h e das 13h30 às 16h30. É possível optar por receber a cópia em formato digital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318976,
+            "nome": "Pessoa identificada, designada pelo solicitante, desde que informado no momento do contato telefônico."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313082,
+            "tipo": "presencial",
+            "descricao": "Na Maternidade Escola Januário Cicco, acesso pela entrada lateral, Portão das ambulâncias. Se dirige à recepção do Ambulatório. As cópias dos documentos serão entregues no mesmo local da solicitação.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "80",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitacao-de-copia-de-prontuario",
+  "statusDestaque": false
+}

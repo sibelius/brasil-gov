@@ -1,0 +1,189 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2246",
+  "nome": "Solicitar parcelamento de débitos junto à ANTT não inscritos em Dívida Ativa da União",
+  "sigla": "",
+  "descricao": "É o serviço relativo à solicitação do parcelamento administrativo dos débitos não inscritos em Dívida Ativa, oriundos de multas aplicadas pela ANTT em razão do exercício do seu poder de polícia em até 60 (sessenta) prestações mensais e sucessivas (Resolução ANTT nº 5.830/2018).",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "porcentagemManual": false,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi#",
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 11033,
+        "tipo": "Pessoa Físicas:",
+        "requisitos": "Requerimento de parcelamento devidamente assinado;\n\nCópia do documento de identidade e do CPF; \n \nPagamento da Primeira Prestação.\n\n**Observação:** Somente produzem efeitos os pedidos de parcelamento acompanhados de toda a documentação exigida e mediante o pagamento da primeira prestação."
+      },
+      {
+        "id": 11034,
+        "tipo": "Pessoa Jurídica:",
+        "requisitos": "Requerimento de parcelamento devidamente assinado;\n\nCópia do contrato social, estatuto ou ata e eventuais alterações que identifiquem os atuais representantes legais do requerente;\n\nPagamento da Primeira Prestação.\n\n**Observação:** Somente produzem efeitos os pedidos de parcelamento acompanhados de toda a documentação exigida e mediante o pagamento da primeira prestação."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": "",
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 16739
+      },
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 16736
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 16737
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 16738
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito e Transportes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "débitos",
+        "id": 30379
+      },
+      {
+        "item": "multa",
+        "id": 30380
+      },
+      {
+        "item": "Parcelamento",
+        "id": 30381
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 70,
+    "negativas": 288
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048/2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deve receber, conforme os princípios expressos na lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção de boa-fé do usuário; Igualdade; Eficiência; Segurança; e Ética.",
+  "etapas": [
+    {
+      "id": 20351,
+      "titulo": "Requerer parcelamento",
+      "descricao": "Logado na [ÁREA DO AUTUADO](https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi), o interessado deve acessar a aba PARCELAMENTO e em seguida clicar em SOLICITAR PARCELAMENTO. \n\nO Requerimento de Parcelamento assinado deve ser encaminhado acompanhado da documentação exigida, pelo próprio sistema eletrônico ([ÁREA DO AUTUADO](https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi)), ou via Correios.\n\nO interessado deve efetuar o pagamento da Primeira Parcela.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 23735,
+            "tipo": "web",
+            "descricao": "https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 20352,
+      "titulo": "Receber resposta da Análise da Documentação",
+      "descricao": "O interessado será comunicado nas seguintes hipóteses:\n1. Solicitação de correção de documentação;\n2. Deferimento do parcelamento;\n3. Indeferimento do parcelamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 23736,
+            "tipo": "e-mail",
+            "descricao": "E-mail informado no Requerimento de Parcelamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-parcelamento-de-debitos-junto-a-antt-nao-inscritos-em-divida-ativa-da-uniao",
+  "statusDestaque": false
+}

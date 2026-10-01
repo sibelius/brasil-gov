@@ -1,0 +1,280 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11618",
+  "nome": "Pesquisar planos de saúde disponíveis para contratação",
+  "sigla": "",
+  "descricao": "Pesquisar, conhecer e comparar opções de planos de saúde disponíveis para contratação",
+  "flagPortalLogado": "N",
+  "contato": "ggrep.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "GUIA DE PLANOS",
+        "id": 99141
+      },
+      {
+        "item": "Pesquisa de planos disponíveis para contratação",
+        "id": 99142
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84076,
+        "tipo": "Cidadãos interessados em contratar ou aderir a um plano de saúde",
+        "requisitos": "Não há"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O beneficiário deve formalizar sua solicitação na operadora do plano escolhido em até 5 (cinco) dias a partir da emissão do número de protocolo"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 138252
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Plano de saúde",
+        "id": 333227
+      },
+      {
+        "item": " Operadora",
+        "id": 333228
+      },
+      {
+        "item": " ANS ",
+        "id": 333229
+      },
+      {
+        "item": "Pesquisa",
+        "id": 333230
+      },
+      {
+        "item": " Seleção",
+        "id": 333231
+      },
+      {
+        "item": " Protocolo",
+        "id": 333232
+      },
+      {
+        "item": " Contratação",
+        "id": 333233
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN nº 557/2022 \n\n [https://www.ans.gov.br/component/legislacao/?view=legislacao&task=pdfAtualizado&format=raw&id=NDMyOQ==](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)",
+        "id": 115546
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 43,
+    "negativas": 163
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 192690,
+      "titulo": "Pesquisar Planos de Saúde",
+      "descricao": "Clique no botão “Iniciar” ou no canal indicado abaixo. Escolha a forma de acesso: login Gov.Br ou anônimo. Selecione \"Pesquisa de Planos\".  Preencha os campos obrigatórios. Selecione os filtros de busca. Escolha o plano de interesse. Visualize e emita o relatório . Emita o protocolo. Preencha a pesquisa de satisfação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 263969,
+            "nome": "Dados pessoais do consumidor"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 32532,
+            "descricao": "gratuito",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251860,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192691,
+      "titulo": "Formalizar a solicitação diretamente com operadora do plano de interesse",
+      "descricao": "Em até 5 dias contados da data de emissão do relatório, entre em contato com a operadora do plano escolhido e formalize sua solicitação. A operadora terá até 10 dias para analisar o seu pedido e respondê-lo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251861,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192692,
+      "titulo": "Consultar Andamento do Protocolo Gerado",
+      "descricao": "**Após a formalização de requerimento ****na Operadora do plano escolhido, o andamento do protocolo da sua consulta pode ser acompanhado no item “Consulta de Protocolo” disponível na página inicial do Guia de Planos da ANS ([https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml](https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml \"https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml\")).”**",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 263970,
+            "nome": "Dados pessoais do consumidor"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 32533,
+            "descricao": "gratuito",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251862,
+            "tipo": "web",
+            "descricao": "**[https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml](https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml \"https://www.ans.gov.br/gpw-beneficiario/pages/inicial.xhtml\")**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "21",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/pesquisar-planos-disponiveis-para-contratacao-no-mercado-de-saude-suplementar",
+  "statusDestaque": true
+}

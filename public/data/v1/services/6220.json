@@ -1,0 +1,344 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6220",
+  "nome": "Obter diploma ou 2ª via de diploma de pós-graduação - UFCG",
+  "sigla": "",
+  "descricao": "Esse serviço contempla a solicitação e obtenção do diploma físico em 1ª ou 2ª via para egressos dos programas de pós-graduação stricto sensu da UFCG.",
+  "flagPortalLogado": "N",
+  "contato": "Ramal: 2101-1516  \nEmail: sd\\_prpg@ufcg.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 66,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.ufcg.edu.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 49383
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 46097,
+        "tipo": "Egressos dos programas de pós-graduação stricto sensu da UFCG.",
+        "requisitos": "Requisitos:\n\n  * Ter concluído a carga horária mínima necessária, de acordo com resolução do programa de pós-graduação;\n * Ter cursado e defendido sua tese ou dissertação, tendo obtido como conceito final “Aprovado”."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "0",
+      "max": "6",
+      "unidade": "meses"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 0,
+    "max": 6
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/67671",
+    "dbId": 57766,
+    "nomeOrgao": "Universidade Federal de Campina Grande (UFCG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 73400
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 172051
+      },
+      {
+        "item": "Pós-graduação",
+        "id": 172052
+      },
+      {
+        "item": "Certificação",
+        "id": 172053
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 54527
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 98807,
+      "titulo": "Abrir processo de solicitação de diplomas no SEI",
+      "descricao": "* [Cadastrar-se](https://sei.ufcg.edu.br/sei/controlador_externo.php?acao=usuario_externo_avisar_cadastro&id_orgao_acesso_externo=0) no SEI, caso não seja cadastrado;\n * Abrir processo do tipo “Pós-Graduação: Solicitação de diplomas ou certificados”;\n * Adicionar requerimento do tipo \"PRPG – Formulário Geral Peticionamento”;\n * Anexar documentos;\n * Remeter à Coordenação do Programa de Pós-Graduação cursado para que seja anexada documentação de sua competência;\n * Remeter à PRPG.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 140805,
+            "nome": "Identidade (Legível, frente e verso)"
+          },
+          {
+            "id": 140806,
+            "nome": "CPF"
+          },
+          {
+            "id": 140807,
+            "nome": "Cópia do título de eleitor e comprovante de quitação eleitoral (última eleição)"
+          },
+          {
+            "id": 140808,
+            "nome": "Certificado de Reservista (para homens)"
+          },
+          {
+            "id": 140809,
+            "nome": "Diploma de Graduação (Legível, frente e verso)"
+          },
+          {
+            "id": 140810,
+            "nome": "Diploma de Pós-Graduação (Legível, frente e verso, para expedição de diploma doutorado)"
+          },
+          {
+            "id": 140811,
+            "nome": "Declaração de inexistência de débitos na Biblioteca Central da UFCG"
+          },
+          {
+            "id": 140812,
+            "nome": "Procuração pública (quando for o caso)"
+          },
+          {
+            "id": 140813,
+            "nome": "Certidão de Homologação da defesa da tese ou dissertação"
+          },
+          {
+            "id": 140814,
+            "nome": "Ata de defesa da tese ou dissertação"
+          },
+          {
+            "id": 140815,
+            "nome": "Relatório final do orientador"
+          },
+          {
+            "id": 140816,
+            "nome": "Histórico escolar da Pós-Graduação"
+          },
+          {
+            "id": 140817,
+            "nome": "Declaração de entrega dos exemplares a coordenação"
+          },
+          {
+            "id": 140818,
+            "nome": "Declaração de interrupção de estudos (quando for o caso)"
+          },
+          {
+            "id": 140819,
+            "nome": "Pedido de Prorrogação (quando for o caso)"
+          },
+          {
+            "id": 140820,
+            "nome": "Boletim de Ocorrência (em caso de solicitação de 2ª via por perda ou extravio)"
+          },
+          {
+            "id": 140821,
+            "nome": "Comprovante de GRU paga (em caso de 2ª via)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [],
+        "casos": [
+          {
+            "id": 16669,
+            "descricao": "2ª via",
+            "custo": [
+              {
+                "id": 15079,
+                "descricao": "Emissão de 2ª via",
+                "moeda": "R$",
+                "valor": " 30,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 126417,
+            "tipo": "web",
+            "descricao": "[Sistema SEI](https://sei.ufcg.edu.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 98808,
+      "titulo": "Aguardar comunicação",
+      "descricao": "Aguardar a coordenação do Programa de Pós-Graduação cursado informar, por e-mail, que o diploma foi emitido e está disponível.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 126418,
+            "tipo": "web",
+            "descricao": "O usuário pode acompanhar o andamento do processo pelo [SEI](https://sei.ufcg.edu.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 126419,
+            "tipo": "e-mail",
+            "descricao": "O e-mail cadastrado no SEI",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 126420,
+            "tipo": "telefone",
+            "descricao": "Telefone da secretaria do programa de Pós-Graduação cursado ou ramal do setor de diplomas da PRPG (2101-1516)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "0",
+          "max": "3",
+          "unidade": "meses"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 0,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 98809,
+      "titulo": "Retirar diploma",
+      "descricao": "Se dirigir à Coordenação do Programa de Pós-Graduação que cursou para pegar o diploma e assinar protocolo de recebimento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 140822,
+            "nome": "Documento oficial com foto (original)"
+          },
+          {
+            "id": 140823,
+            "nome": "Procuração pública, em caso de não ser o titular do diploma"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 126421,
+            "tipo": "presencial",
+            "descricao": "No endereço do Programa de Pós-Graduação que cursou",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "180",
+  "percentualAvaliacoesPositivas": "0",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-pos-graduacao-ufcg",
+  "statusDestaque": false
+}

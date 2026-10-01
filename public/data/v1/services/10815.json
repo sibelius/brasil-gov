@@ -1,0 +1,282 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10815",
+  "nome": "Solicitar reunião com a ANS",
+  "sigla": "",
+  "descricao": "Mediante solicitação, poderá ser concedida audiência a particular por agente público em exercício na Agência Nacional de Saúde Suplementar (ANS), para tratar de assuntos afetos às suas atribuições regimentais.",
+  "flagPortalLogado": "N",
+  "contato": "Disque ANS 0800 7019656",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 72701
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 63945,
+        "tipo": "Interessados em processos administrativos em posse da ANS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 100940
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 100941
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 100942
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "reunião",
+        "id": 247684
+      },
+      {
+        "item": "agendamento",
+        "id": 247685
+      },
+      {
+        "item": "audiência",
+        "id": 247686
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 408\n\n https://www.ans.gov.br/component/legislacao/?view=legislacao&task=TextoLei&format=raw&id=MzI2MQ==",
+        "id": 82297
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 26
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n **ATENÇÃO:** Diante da suspensão temporária do atendimento presencial como medida de combate ao Coronavírus (COVID-19), as reuniões serão realizadas através de aplicativo de reunião online.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 143365,
+      "titulo": "Acessar o Protocolo Eletrônico da ANS",
+      "descricao": "ATENÇÃO: Existem duas formas de acesso ao Protocolo Eletrônico da ANS:\n\n  2. **Portal Operadoras**: exclusivo para as operadoras de planos de saúde e seus representantes;\n 4. **SEI**: para fornecedores, prestadores de serviços de saúde e pessoas físicas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186174,
+            "tipo": "web",
+            "descricao": "Portal Operadoras:Â [Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 186175,
+            "tipo": "web",
+            "descricao": "SEI:Â [Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143366,
+      "titulo": "Solicitar reunião",
+      "descricao": "Enviar documentação necessária à formalização da solicitação de reunião.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203034,
+            "nome": "Formulário de solicitação de reunião;"
+          },
+          {
+            "id": 203035,
+            "nome": "Documento legal de identificação;"
+          },
+          {
+            "id": 203036,
+            "nome": "Procuração, se for o caso;"
+          },
+          {
+            "id": 203037,
+            "nome": "Ato constitutivo, se for o caso, podendo ser utilizado em substituição às informações contidas no Sistema de Cadastro de Operadoras – CADOP."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186176,
+            "tipo": "web",
+            "descricao": "Portal Operadoras:Â [Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 186177,
+            "tipo": "web",
+            "descricao": "SEI:Â [Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143367,
+      "titulo": "Receber resposta sobre o pedido de reunião",
+      "descricao": "O responsável pela unidade organizacional a que foi direcionado o pedido de reunião entrará em contato com o interessado confirmando o local, hora e a data em que deverá ser realizada a reunião. Na ocasião da reunião, caso o participante seja distinto do relacionado no formulário de solicitação, será exigida a apresentação de procuração, que deverá ser anexada à respectiva ata.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186178,
+            "tipo": "web",
+            "descricao": "Portal Operadoras:Â [Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 186179,
+            "tipo": "web",
+            "descricao": "SEI:Â [Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "26",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-reuniao-com-a-ans",
+  "statusDestaque": false
+}

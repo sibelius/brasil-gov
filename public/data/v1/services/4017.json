@@ -1,0 +1,253 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/4017",
+  "nome": "Obter Listagem de Taxas Cobradas pela Suframa",
+  "sigla": "",
+  "descricao": "O serviço é realizado para atender às empresas que necessitam dos valores pagos de taxas.",
+  "flagPortalLogado": "S",
+  "contato": "* Coordenação de Arrecadação\n * Fone: (92) 2020-1647 ramais 1194 e 1195\n * e-*mail*: [coarr@suframa.gov.br](mailto:coarr@suframa.gov.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125912
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105304,
+        "tipo": "Pessoas Físicas e Pessoas Jurídicas.\n\n Empresas que tenham pago as taxas da Suframa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/166",
+    "dbId": 55699,
+    "nomeOrgao": "Superintendência da Zona Franca de Manaus (SUFRAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176019
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176020
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Coordenação de Arrecadação",
+        "id": 419287
+      },
+      {
+        "item": "Solicitação de Listagem",
+        "id": 419288
+      },
+      {
+        "item": "Taxa Suframa",
+        "id": 419289
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "* Lei n.º 13.451, de 23 de junho de 2017, disponível em: [http://www.planalto.gov.br/ccivil\\_03/\\_ato2015-2018/2017/lei/L13451.htm](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/L13451.htm)\n    * Portaria nº 925, de 4 de julho de 2023, publicada no DOU em: 01/08/2023, Edição: 145, Seção: 1, Página: 17.",
+        "id": 151122
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 21
+  },
+  "condicoesAcessibilidade": "* Acesso para automóvel até a rampa de cadeirante, placas de identificação das unidades, ambiente limpo e arejado, recepcionistas que auxiliam nas informações.",
+  "tratamentoPrioritario": "* Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048/2000​.",
+  "tratamentoDispensadoAtendimento": "* O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes: urbanidade; respeito; acessibilidade; cortesia; presunção da boa-fé do usuário; igualdade; eficiência; segurança; e ética.",
+  "etapas": [
+    {
+      "id": 245775,
+      "titulo": "Solicitar a Listagem de Valores Pagos",
+      "descricao": "Solicitar a listagem de valores de taxas pagas e anexar a documentação listada nesta página.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321658,
+            "nome": "Requerimento com carimbo da empresa\n\n Última alteração do contrato social da empresa (JUCEA)\n\n Procuração autenticada no Cartório do Amazonas se a solicitação for do Amazonas\n\n CPF e RG do requerente (proprietário ou procurador)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317902,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=4017)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245776,
+      "titulo": "Apresentar Comprovante de Pagamento e GRU",
+      "descricao": "Recebida comunicação da Suframa, quanto aos valores a serem pagos, decorrente da taxa de serviços oriunda do Anexo II da Lei nº 13.451/2017, deverá ser apresentado o comprovante de pagamento e a Guia de Recolhimento da União correspondente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321659,
+            "nome": "GRU\n\n Comprovante de Pagamento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41425,
+            "descricao": "Custo por Folha",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "R$ 2,81",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317903,
+            "tipo": "web",
+            "descricao": "[Acompanhar.](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245777,
+      "titulo": "Concluir a Solicitação",
+      "descricao": "Ao receber o resultado da demanda, que estará disponível no GOV.BR, o solicitante deverá concluir a solicitação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317904,
+            "tipo": "web",
+            "descricao": "[Acompanhar](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-listagem-de-taxa-cobrada-pela-suframa",
+  "statusDestaque": false
+}

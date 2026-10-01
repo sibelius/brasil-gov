@@ -1,0 +1,245 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11638",
+  "nome": "Obter parcelamento de multas emitidas pela Antaq",
+  "sigla": "",
+  "descricao": "*Parcelamento/reparcelamento de débitos, que ainda não foram enviados para inscrição em dívida ativa, a ser solicitado pelo devedor junto à  Agência Nacional de Transportes Aquaviários (ANTAQ).*\n\n *Após inscrição em dívida ativa, o parcelamento/reparcelamento deve ser solicitado junto à Procuradoria-Geral da Fazenda Nacional.*",
+  "flagPortalLogado": "N",
+  "contato": "Contatos: *[gof@antaq.gov.br](mailto:gof@antaq.gov.br),* (61) 2029-6905, (61) 2029-6910",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://web.antaq.gov.br/arrecadacao/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Parcelamento",
+        "id": 101242
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85743,
+        "tipo": "*Pessoa física ou pessoa jurídica com débitos junto à  Agência Nacional de Transportes Aquaviários (ANTAQ).*",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 141172
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141173
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 141174
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Parcelamento",
+        "id": 340330
+      },
+      {
+        "item": "Pagamento de débitos",
+        "id": 340331
+      },
+      {
+        "item": "Negociação ou Acordo",
+        "id": 340332
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118171
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 197248,
+      "titulo": "Solicitar o Parcelamento",
+      "descricao": "* Na Notificação do débito *é enviada a** senha provisória de acesso ao sistema*, a qual deve ser alterada no primeiro acesso.*\n\n *Entrar no sistema \"arrecadação\", selecionar o Processo Administrativo Sancionador, preencher o formulário de pedido de parcelamento e anexar os documentos previstos no art. 8º. da Resolução Normativa ANTAQ nº 54, de 24/08/2021.*",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257332,
+            "tipo": "web",
+            "descricao": "Acessar o sistema através do link [Acesse o site](https://web3.antaq.gov.br/arrecadacao/) solicitar o parcelamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197249,
+      "titulo": "Analisar, aprovar e emitir Guias de Recolhimento da União (GRU) do parcelamento",
+      "descricao": "A área técnica analisará a solicitação de parcelamento de multas aplicadas pela Antaq, com base nos critérios pré-estabelecidos na norma interna, estando em conformidade, realiza a emissão das Guias de Recolhimento da União (GRU).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257333,
+            "tipo": "web",
+            "descricao": "Analise pela área técnica da solicitação de parcelamento de multas aplicadas pela Antaq, com base nos critérios pré-estabelecidos na norma interna, estando em conformidade, realiza a emissão das Guias de Recolhimento da União (GRU).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197250,
+      "titulo": "Obter a GRU para realizar o pagamento",
+      "descricao": "Entrar no sistema \"arrecadação\"; selecionar o respectivo Processo Administrativo para emitir a GRU ou selecionar PagTesouro e optar pelas formas de pagamento: Pix ou Cartão de Crédito.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257334,
+            "tipo": "web",
+            "descricao": "Acessar o sistema através do link [Acesse o site](https://web3.antaq.gov.br/arrecadacao/) para realizar o pagamento das parcelas do parcelamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-parcelamento-de-multas-emitidas-pela-antaq",
+  "statusDestaque": false
+}

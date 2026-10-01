@@ -1,0 +1,297 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10415",
+  "nome": "Consultar tramitação de processos administrativos no âmbito das Superintendências do Inmetro.",
+  "sigla": "",
+  "descricao": "Permite que o usuário consulte e receba informações referentes ao andamento dos processos que estejam tramitando na Superintendência do Inmetro em Goiás ou no Rio Grande do Sul, tais como decisões proferidas e demais documentos constantes nos autos processuais, em cumprimento ao disposto no Decreto nº 9.094/2017 e a Lei nº 9.784/99.",
+  "flagPortalLogado": "S",
+  "contato": "**Em Goiás:**\n\n Rua 148 s/n, Setor Sul – Goiânia/GO (Horário de Atendimento: 8 h às 12 h e das 13 h às 17 h)\n\n (62) 3237-3518, 3237-3525 e 3237-3548\n\n **No Rio Grande do Sul:**\n\n Av. Berlim, 627, Bairro São Geraldo – Porto Alegre / RS (Horário de Atendimento: 8 h às 12 h e das 13 h às 17 h)\n\n (51) 3375-1087 e 3375-1094",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Tramitação",
+        "id": 126151
+      },
+      {
+        "item": "Processos administrativos",
+        "id": 126152
+      },
+      {
+        "item": "superintendências",
+        "id": 126153
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105523,
+        "tipo": "**1) Autuado:**",
+        "requisitos": "Necessário que o autuado faça solicitação informando o número do CNPJ/CPF e/ou número do processo administrativo, para obter a consulta do andamento processual, decisões proferidas, documentos constantes nos autos e débitos oriundos de multa aplicada quando houver, bem como apresente os documentos que comprovem ser parte interessada no processo."
+      },
+      {
+        "id": 105524,
+        "tipo": "**2) Representante do autuado:**",
+        "requisitos": "Necessário que o representante do autuado faça solicitação informando o número do CNPJ/CPF e/ou número do processo administrativo, para obter a consulta do andamento processual, decisões proferidas, documentos constantes nos autos e débitos oriundos de multa aplicada quando houver, bem como apresente os documentos que comprovem ser representante da parte interessada no processo."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Tempo indeterminado, pois a informação prestada refere-se ao conteúdo integral do processo administrativo."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240",
+    "dbId": 36793,
+    "nomeOrgao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176403
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176404
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cópia do processo",
+        "id": 420172
+      },
+      {
+        "item": "Vistas aos autos",
+        "id": 420173
+      },
+      {
+        "item": "Decisões proferidas",
+        "id": 420174
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151397
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 26,
+    "negativas": 109
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246266,
+      "titulo": "Solicitar o serviço",
+      "descricao": "Solicitação pelo usuário, com o fornecimento das informações/dados necessários para a realização da pesquisa do processo administrativo.\n\n Para ter sua solicitação atendida, Informe o número do processo administrativo no qual está interessado",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322107,
+            "nome": "Documento de identificação com foto"
+          }
+        ],
+        "casos": [
+          {
+            "id": 48873,
+            "descricao": "Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 322102,
+                "codigo": null,
+                "descricao": "Documento de identificação com foto do representante legal",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322103,
+                "codigo": null,
+                "descricao": "Identificação do sócio ou representante legal",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322104,
+                "codigo": null,
+                "descricao": "Comprovante de inscrição do CNPJ",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322105,
+                "codigo": null,
+                "descricao": "Estatuto social da empresa",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322106,
+                "codigo": null,
+                "descricao": "Cópia de procuração (caso seja representante legal)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318485,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos/iniciar?codServico=10415)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246267,
+      "titulo": "Aguardar analise da solicitação",
+      "descricao": "Aguardar análise da solicitação pelo Inmetro para prosseguimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318486,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246268,
+      "titulo": "Receber resultado",
+      "descricao": "Recebimento das informações solicitadas",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318487,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "19",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-tramitacao-de-processos-administrativos-no-ambito-das-superintendencias-do-inmetro",
+  "statusDestaque": false
+}

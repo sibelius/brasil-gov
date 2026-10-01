@@ -1,0 +1,426 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11276",
+  "nome": "Obter Certificado de Aeronavegabilidade para Aeronaves Recém-Fabricadas (CAARF)",
+  "sigla": "",
+  "descricao": "Conforme estabelecido no Regulamento Brasileiro de Aviação Civil 21.190-I, este certificado é emitido pela ANAC para aeronaves novas que foram fabricadas no Brasil de acordo com um certificado de organização de produção ou somente com um certificado de tipo, após vistoriar e se certificar que a aeronave está conforme com o projeto de tipo e apresenta condições de operação segura. Este certificado tem por objetivo permitir o voo da aeronave entre a data em que foi realizada sua vistoria inicial e a data de entrega ao seu primeiro comprador ou operador. Este certificado substitui o certificado referido no parágrafo 21.175(a) e o Certificado de Matrícula e só permite que a aeronave seja operada pelo fabricante ou seus representantes.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 87323
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74874,
+        "tipo": "Empresas Brasileiras fabricantes de aeronaves certificadas, com projeto de tipo aprovado pela ANAC.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121261
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 294455
+      },
+      {
+        "item": "CAARF",
+        "id": 294456
+      },
+      {
+        "item": "Certificado de Aeronavegabilidade para Aerona",
+        "id": 294457
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 21 - Certificação de Produto](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 100242
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 169312,
+      "titulo": "Solicitar Emissão do Certificado de Aeronavegabilidade para Aeronaves Recém-Fabricadas",
+      "descricao": "O requerente deve enviar à ANAC pelo peticionamento eletrônico do SEI os documentos listados a seguir.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235380,
+            "nome": "Formulário F-100-06 devidamente preenchido, conforme determinam as instruções de preenchimento contidas no formulário. Um requerimento separado deve ser preenchido para cada aeronave."
+          },
+          {
+            "id": 235381,
+            "nome": "Cópias digitalizadas da Taxa de Fiscalização da Aviação Civil (TFAC) pertinente à emissão de Certificado de Aeronavegabilidade para Exportação, enquadrada conforme tipo de aeronave, categoria de registro e peso máximo de decolagem, e seu respectivo comprovante de pagamento."
+          },
+          {
+            "id": 235382,
+            "nome": "Declaração de conformidade em formulário apropriado (F-300-18), caso seja uma aeronave nova e não tenha sido fabricada segundo um certificado de organização de produção."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 27994,
+            "descricao": "Caso de Aeronaves de Asa Fixa Certificadas sob RBAC 23 (categoria normal): TFAC Cód. 012203",
+            "moeda": "R$",
+            "valor": " 1.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 27995,
+            "descricao": "Caso de Aeronaves de Asas Rotativas Certificadas sob RBAC 27 (asas rotativas cat. normal): TFAC Cód. 012204",
+            "moeda": "R$",
+            "valor": " 1.500,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 27996,
+            "descricao": "Caso de Aeronaves de Asas Rotativas Certificadas sob RBAC 29 (asas rotativas cat. transporte): TFAC Cód. 012205",
+            "moeda": "R$",
+            "valor": " 2.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 27997,
+            "descricao": "Caso de Aeronaves de Asa Fixa Certificadas sob RBAC 25 (aviões cat. transporte): TFAC Cód. 012206",
+            "moeda": "R$",
+            "valor": " 3.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221912,
+            "tipo": "web",
+            "descricao": "O requerente deve enviar a documentação preferencialmente pelo peticionamento eletrônico do SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37426,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 221911,
+                "tipo": "web",
+                "descricao": "[Clique aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean)\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169313,
+      "titulo": "Aguardar definição da Equipe de Vistoria",
+      "descricao": "A ANAC decide se a vistoria será realizada por Servidores da Agência ou se será atribuída a um Profissional Credenciado em Aeronavegabilidade com habilitação em Exportação de Aeronaves.\n\n Caso a vistoria seja realizada por Profissional Credenciado, a Anac emitirá Autorização de Atividade de Profissional Credenciado, conforme credenciamento do profissional.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221913,
+            "tipo": "web-acompanhar",
+            "descricao": "O requerente deve acompanhar o andamento do processo pelo SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169314,
+      "titulo": "Receber a Vistoria Técnica",
+      "descricao": "Servidores ou Profissionais Credenciados realizam a vistoria conforme procedimentos estabelecidos pela ANAC.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221914,
+            "tipo": "web-acompanhar",
+            "descricao": "O requerente deve acompanhar o andamento do processo pelo SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169315,
+      "titulo": "Aguardar analise do resultado da Vistoria Técnica",
+      "descricao": "Quando a vistoria é realizada por Profissionais Credenciados, o resultado apresentado é apurado pela ANAC a fim de se verificar o cumprimento de requisitos e procedimentos estabelecidos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235383,
+            "nome": "Requerimento para CAARF (F-100-06) original."
+          },
+          {
+            "id": 235384,
+            "nome": "Relatório de Inspeção (F-300-10) original."
+          },
+          {
+            "id": 235385,
+            "nome": "Cópia da Licença de Estação."
+          },
+          {
+            "id": 235386,
+            "nome": "Cópia do CAARF (F-100-05)."
+          },
+          {
+            "id": 235387,
+            "nome": "Relatório Final de Inspeção, o qual deve conter:\n\n  * Liberação para voo de produção;\n * Teste em Voo (*Flight Test*) ou Voo de Produção;\n * Ficha de Peso e Balanceamento da aeronave;\n * Certificados de conformidade emitidos pelo setor de qualidade do fabricante;\n * Certificados de exportação dos grandes componentes (motor, hélice, *Auxiliary Power Unit* – APU, etc.); e\n * Registro das medições e testes realizados durante o processo de produção."
+          },
+          {
+            "id": 235388,
+            "nome": "Laudo de Vistoria de Aeronave (F-100-39)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221915,
+            "tipo": "web",
+            "descricao": "A documentação deve ser enviada preferencialmente pelo peticionamento eletrônico do SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "25",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 25
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169316,
+      "titulo": "Aguardar emissão do Certificado de Aeronavegabilidade para Aeronaves Recém-Fabricadas",
+      "descricao": "A ANAC emite o Certificado de Aeronavegabilidade para Aeronaves Recém-Fabricadas.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235389,
+            "nome": "Requerimento para CAARF (F-100-06) original."
+          },
+          {
+            "id": 235390,
+            "nome": "Relatório de Inspeção (F-300-10) original."
+          },
+          {
+            "id": 235391,
+            "nome": "Cópia da Licença de Estação."
+          },
+          {
+            "id": 235392,
+            "nome": "Cópia do CAARF (F-100-05)."
+          },
+          {
+            "id": 235393,
+            "nome": "Relatório Final de Inspeção, o qual deve conter:\n\n  * Liberação para voo de produção;\n * Teste em Voo (*Flight Test*) ou Voo de Produção;\n * Ficha de Peso e Balanceamento da aeronave;\n * Certificados de conformidade emitidos pelo setor de qualidade do fabricante;\n * Certificados de exportação dos grandes componentes (motor, hélice, *Auxiliary Power Unit* – APU, etc.); e\n * Registro das medições e testes realizados durante o processo de produção."
+          },
+          {
+            "id": 235394,
+            "nome": "Laudo de Vistoria de Aeronave (F-100-39)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221916,
+            "tipo": "web-acompanhar",
+            "descricao": "O requerente deve acompanhar o andamento do processo pelo SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "55",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-de-aeronavegabilidade-para-aeronaves-recem-fabricadas",
+  "statusDestaque": false
+}

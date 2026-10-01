@@ -1,0 +1,153 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1549",
+  "nome": "Solicitar credenciamento de Laboratórios Regionais de Prótese Dentária",
+  "sigla": "LRPD",
+  "descricao": "Os Laboratórios Regionais de Prótese Dentária (LRPD) são serviços que realizam a etapa laboratorial de confecção das próteses dentárias, oferecidas em Unidades de Saúde da Família, Postos de Saúde, Unidades Básicas de Saúde e/ou em Centro de Especialidades Odontológicas (CEO) ou Serviços de Especialidades em Saúde Bucal (Sesb) aos usuários do SUS. Os LRPD são pontos de apoio da Rede de Atenção à Saúde Bucal.",
+  "flagPortalLogado": "N",
+  "contato": "[cosab@saude.gov.br](mailto:cosab@saude.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 114605
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96465,
+        "tipo": "Gestor.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 159887
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Credenciamentos e Habilitações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "laboratório",
+        "id": 383296
+      },
+      {
+        "item": "saúde dental",
+        "id": 383297
+      },
+      {
+        "item": "prótese dentária",
+        "id": 383298
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 135400
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 129,
+    "negativas": 140
+  },
+  "condicoesAcessibilidade": "O(a) usuário(a) do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança e\n * Ética.",
+  "etapas": [
+    {
+      "id": 223845,
+      "titulo": "Solicitar credenciamento",
+      "descricao": "A solicitação de credenciamento deve ser realizado gestor municipal/estadual por meio do Sistema online e-Gestor. Após a aprovação do credenciamento e emissão de portaria específica, o gestor deve cadastrar o LRPD no CNES e enviar a produção mensal.  \nA produção executada deve ser enviada mensalmente, por meio do Sistema de Informações Ambulatoriais do SUS (SIA/SUS), utilizando os instrumentos de registro direcionados a cada especialidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 290017,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://egestorab.saude.gov.br/paginas/login.xhtml)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1044",
+      "nome": "Solicitar credenciamento de Centros de Especialidades Odontológicas"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "48",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/credenciar-laboratorio-regional-de-protese-dentaria-lrpd",
+  "statusDestaque": false
+}

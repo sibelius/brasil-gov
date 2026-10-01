@@ -1,0 +1,292 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10700",
+  "nome": "Migrar cadastro específico do INSS (CEI) para cadastro nacional de obras",
+  "sigla": "CNO",
+  "descricao": "O Cadastro Específico do INSS (CEI) está sendo substituído pelo Cadastro Nacional de Obras (CNO). Este é um novo banco de dados que armazena informações cadastrais de obras de construção civil e de seus responsáveis. \n\n As antigas matrículas do CEI que ainda estiverem ativas devem ser migradas para o CNO. Essa mudança é necessária para regularizar a obra e solicitar a certidão de regularidade fiscal à Receita Federal. \n\n Se você já possui uma matrícula CEI (Cadastro Específico do INSS) para a sua construção, os seus dados poderão ser transferidos para o CNO por meio da funcionalidade “Inscrever uma obra a partir de matrícula CEI”. O CNO irá manter o número da CEI.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre construção civil](https://www.gov.br/receitafederal/pt-br/assuntos/construcao-civil)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10022",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124041
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103868,
+        "tipo": "* Proprietário do imóvel, o dono da obra;",
+        "requisitos": ""
+      },
+      {
+        "id": 103869,
+        "tipo": "* Representante de construção em nome coletivo ou o incorporador de construção civil (pessoa física ou pessoa jurídica);",
+        "requisitos": ""
+      },
+      {
+        "id": 103870,
+        "tipo": "* Pessoa jurídica construtora, quando contratada para execução de obra por empreitada total;",
+        "requisitos": ""
+      },
+      {
+        "id": 103871,
+        "tipo": "* Sociedade líder do consórcio, no caso de contrato para execução de obra de construção civil mediante empreitada total celebrado em nome das sociedades consorciadas; e",
+        "requisitos": ""
+      },
+      {
+        "id": 103872,
+        "tipo": "* Consórcio, no caso de contrato para execução de obra de construção civil mediante empreitada total celebrado em seu nome.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173606
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173607
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 173608
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 173609
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Cadastros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "inscrição",
+        "id": 413246
+      },
+      {
+        "item": "alteração",
+        "id": 413247
+      },
+      {
+        "item": "atualização",
+        "id": 413248
+      },
+      {
+        "item": "cadastro",
+        "id": 413249
+      },
+      {
+        "item": "obra",
+        "id": 413250
+      },
+      {
+        "item": "construção",
+        "id": 413251
+      },
+      {
+        "item": "civil",
+        "id": 413252
+      },
+      {
+        "item": "proprietário",
+        "id": 413253
+      },
+      {
+        "item": "consórcio",
+        "id": 413254
+      },
+      {
+        "item": "dono",
+        "id": 413255
+      },
+      {
+        "item": "CEI",
+        "id": 413256
+      },
+      {
+        "item": "migrar",
+        "id": 413257
+      },
+      {
+        "item": "migração",
+        "id": 413258
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 8.212, de 24 de julho de 1991](https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8212)",
+        "id": 149286
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.110/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=126687)",
+        "id": 149287
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.061/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=122299)",
+        "id": 149288
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 190,
+    "negativas": 378
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 242146,
+      "titulo": "Inscrever uma obra a partir de matrícula CEI",
+      "descricao": "Acesse o sistema e preencha os dados solicitados para fazer a migração da matrícula CEI de obra de construção civil para o CNO.\n\n Atualize os dados da construção civil conforme os documentos listados abaixo. Quando você solicitar a emissão da certidão de regularidade fiscal da obra, a Receita Federal pode pedir os documentos abaixo para comprovar as informações.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318779,
+            "nome": "Alvará de concessão de licença para construção; ou"
+          },
+          {
+            "id": 318780,
+            "nome": "Projeto aprovado pela prefeitura municipal; ou"
+          },
+          {
+            "id": 318781,
+            "nome": "Habite-se; ou"
+          },
+          {
+            "id": 318782,
+            "nome": "Certidão da Prefeitura Municipal."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48433,
+            "descricao": "Para obra contratada com Administração Publica",
+            "documento": [
+              {
+                "id": 318776,
+                "codigo": null,
+                "descricao": "Contrato e a ordem de serviço; ou",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 318777,
+                "codigo": null,
+                "descricao": "Autorização para inicio de execução da obra, quando não sujeita à fiscalização municipal; ou",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 318778,
+                "codigo": null,
+                "descricao": "Termo de recebimento da obra.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312692,
+            "tipo": "web",
+            "descricao": "[Minhas Obras de Construção Civil](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10022)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10665",
+      "nome": "Consultar Cadastro Nacional de Obras de Construção Civil (CNO) na Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10699",
+      "nome": "Inscrever ou atualizar cadastro de obra de construção civil."
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10664",
+      "nome": "Anular cadastro de obra de construção civil"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/migrar-cadastro-especifico-do-inss-cei-para-cadastro-nacional-de-obras",
+  "statusDestaque": false
+}

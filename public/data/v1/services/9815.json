@@ -1,0 +1,364 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9815",
+  "nome": "Solicitar seguro-desemprego empregado doméstico",
+  "sigla": "",
+  "descricao": "O Seguro-Desemprego para o empregado doméstico tem a finalidade de garantir assistência financeira temporária em caso de desemprego involuntário (demissão sem justa causa). O trabalhador recebe no máximo três parcelas do benefício no valor de um salário-mínimo.\n\n   \n\n  \n\n *  \n  \n*",
+  "flagPortalLogado": "N",
+  "contato": "É importante você verificar se está utilizando a versão mais atualizada da Carteira de Trabalho Digital para que estejam disponíveis todas as funcionalidades. \n\n E-mail de contato: trabalho.(uf) @trabalho.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.mte.gov.br/spme-v2/#/seguro-desemprego",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127866
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107015,
+        "tipo": "Trabalhador doméstico dispensado sem justa causa que:",
+        "requisitos": "a) não possua renda própria para seu sustento e de sua família;\n\n b) tenha trabalhado pelo menos 15 meses nos últimos 24 meses;\n\n c) não receba nenhum benefício previdenciário, com exceção do auxílio-acidente e de pensão por morte; e\n\n d) tenha solicitado o seguro-desemprego no prazo de 7 a 90 dias contados da data da demissão."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178870
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para o cidadão"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Empregado Doméstico,",
+        "id": 426259
+      },
+      {
+        "item": "Seguro-Desemprego Empregado Doméstico, ",
+        "id": 426260
+      },
+      {
+        "item": "Requerimento Empregado Doméstico.",
+        "id": 426261
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar 150/2015 ](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp150.htm)\n\n [Resolução Codefat 754/2015 ](https://portal.esocial.gov.br/institucional/legislacao/resolucao-codefat-no-754-de-26-08.2015)",
+        "id": 153378
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3224,
+    "negativas": 3112
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249924,
+      "titulo": "Solicitar Seguro-Desemprego",
+      "descricao": "O trabalhador poderá receber atendimento presencial nas unidades do Sistema Nacional de Emprego (SINE) e nas Superintendências Regionais do Trabalho e Emprego (SRTEs).\n\n Para atendimento presencial nas unidades das SRTEs, o agendamento poderá ser realizado por meio da [Plataforma FACILITA](https://portalcidadao.dataprev.gov.br/#/trabalho).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324985,
+            "nome": "CPF do empregador"
+          },
+          {
+            "id": 324986,
+            "nome": "Data de admissão"
+          },
+          {
+            "id": 324987,
+            "nome": "Data de demissão"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322957,
+            "tipo": "aplicativo-movel",
+            "descricao": "Carteira de Trabalho Digital, disponíveis para as versões [ANDROID](https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&hl=pt_BR) e [IOS](https://apps.apple.com/br/app/ctps-digital/id1295257499)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322958,
+            "tipo": "web",
+            "descricao": "Â [Plataforma Facilita](https://portalcidadao.dataprev.gov.br/#/trabalho).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322959,
+            "tipo": "telefone",
+            "descricao": "158",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249925,
+      "titulo": "Analisar solicitação",
+      "descricao": "As informações recebidas do trabalhador serão analisadas para verificar se ele atende aos requisitos necessários para receber o benefício.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322960,
+            "tipo": "aplicativo-movel",
+            "descricao": "Carteira de Trabalho Digital, disponíveis para as versões [ANDROID](https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&hl=pt_BR) e [IOS](https://apps.apple.com/br/app/ctps-digital/id1295257499)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322961,
+            "tipo": "web",
+            "descricao": "[Acompanhar](https://portalcidadao.dataprev.gov.br/#/trabalho)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322962,
+            "tipo": "telefone",
+            "descricao": "158",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249926,
+      "titulo": "Receber resposta da solicitação",
+      "descricao": "O sistema apresentará resposta imediata quando à sua solicitação. Caso atenda aos requisitos necessários para a habilitação, as parcelas serão emitidas. Se houver algum impedimento, o sistema apresentará notificação informando o motivo pelo qual o seu seguro-desemprego não foi concedido.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324988,
+            "nome": "Caso seu benefício não seja concedido, você pode solicitar a revisão de seu pedido. Para isso, preencha o [formulário](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=9815) com informações complementares."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322963,
+            "tipo": "aplicativo-movel",
+            "descricao": "Carteira de Trabalho Digital, disponíveis para as versões [ANDROID](https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&hl=pt_BR) e [IOS](https://apps.apple.com/br/app/ctps-digital/id1295257499)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322964,
+            "tipo": "web",
+            "descricao": "[Resultado](https://portalcidadao.dataprev.gov.br/#/trabalho)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322965,
+            "tipo": "telefone",
+            "descricao": "158",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249927,
+      "titulo": "Receber o seguro-desemprego",
+      "descricao": "O trabalhador terá direito a 3 parcelas de um salário mínimo a cada trinta dias se forem atendidos os critérios estabelecidos em lei.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322967,
+            "tipo": "web-consultar",
+            "descricao": "**O recebimento será feito na seguinte ordem, por meio de:**\n\n a)      depósito em conta e banco informados pelo próprio trabalhador.\n\n b)     depósito em conta poupança de titularidade do trabalhador identificada na CAIXA.\n\n c)      depósito em conta poupança social digital da CAIXA.\n\n d)     nos terminais de autoatendimento, lotéricas e casas de conveniência da CAIXA, com uso do Cartão Cidadão.\n\n e)     Em agências da CAIXA, com apresentação de documento de identificação e número de CPF.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322968,
+            "tipo": "presencial",
+            "descricao": "Caso o trabalhador não tenha informado os dados de conta e banco ou não possua conta poupança na CAIXA, o recebimento será feito por meio de:\n\n d) terminais de auto-atendimento, lotéricas e casas de conveniência da CAIXA com o [cartão cidadão](http://www.caixa.gov.br/cadastros/cartao-cidadao/Paginas/default.aspx);\n\n e) agências da CAIXA, com apresentação de documento de identificação e número de CPF.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49330,
+            "descricao": "Observações:",
+            "canalDePrestacao": [
+              {
+                "id": 322966,
+                "tipo": "web-acompanhar",
+                "descricao": "1. A conta bancária ou poupança informada deve ser de titularidade do trabalhador, não é admitida conta salário ou conjunta.\n\n 2. Para depósito na conta, deve ser registrado corretamente o nº do banco, da agência e da conta do trabalhador.\n\n 3. Caso o trabalhador não informe os dados bancários para depósito, caso os dados estejam incorretos ou a conta apresente impedimentos para o depósito, a CAIXA está autorizada a disponibilizar o benefício, na sequência descrita nas letras (b), (c), (d) e (e)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "51",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-seguro-desemprego-empregado-domestico",
+  "statusDestaque": false
+}

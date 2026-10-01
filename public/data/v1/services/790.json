@@ -1,0 +1,181 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/790",
+  "nome": "Validar Certidão de Antecedentes Criminais",
+  "sigla": "",
+  "descricao": "Conferência da veracidade (validação) da Certidão de Antecedentes Criminais emitida pela Polícia Federal- PF.",
+  "flagPortalLogado": "N",
+  "contato": "No caso de erro no sistema, o requerente deverá enviar uma mensagem eletrônica ao endereço suporte.sinic@pf.gov.br, descrevendo o erro, se possível com a imagem da tela que contém a mensagem da inconsistência apresentada, informando também os dados pessoais e telefone de contato.\n\n  \n\n Informações adicionais no Portal da Polícia Federal em \"ASSUNTOS – ANTECEDENTES CRIMINAIS\" - <https://www.gov.br/pf/pt-br/assuntos/antecedentes-criminais>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.pf.gov.br/epol-sinic-publico/validar-cac",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Antecedentes",
+        "id": 122945
+      },
+      {
+        "item": "Criminais",
+        "id": 122946
+      },
+      {
+        "item": "Validação",
+        "id": 122947
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102747,
+        "tipo": "Qualquer cidadão",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171768
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Crimes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Antecedentes",
+        "id": 409031
+      },
+      {
+        "item": "Criminais",
+        "id": 409032
+      },
+      {
+        "item": "Validação",
+        "id": 409033
+      },
+      {
+        "item": "Certidão",
+        "id": 409034
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei 9051/95.",
+        "id": 147680
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2475,
+    "negativas": 2839
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000\n\n ​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 239682,
+      "titulo": "Acesse o Portal PF",
+      "descricao": "Acessar o *link *<https://servicos.pf.gov.br/epol-sinic-publico/validar-cac>*,** *preencher o formulário com os dados solicitados (número da certidão), acionar o reCaptcha e clicar no botão Validar CAC.\n\n O sistema deverá apresentar uma certidão idêntica, com os mesmos dados preenchidos na Certidão de antecedentes Criminais original.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309395,
+            "tipo": "web",
+            "descricao": "Acesse o site:Â <https://servicos.pf.gov.br/epol-sinic-publico/validar-cac>[  \n](https://servicos.pf.gov.br/epol-sinic-publico/validar-cac/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 47956,
+            "descricao": "Atendimento presencial",
+            "canalDePrestacao": [
+              {
+                "id": 309394,
+                "tipo": "presencial",
+                "descricao": "Unidades descentralizadas da Polícia Federal em todo o país e no exterior:\n\n  No caso de dúvidas relativas à particularidades locais das unidades de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras, consulte uma [unidade da Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/788",
+      "nome": "Emitir Certidão de Antecedentes Criminais"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "47",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/validar-certidao-de-antecedentes-criminais",
+  "statusDestaque": false
+}

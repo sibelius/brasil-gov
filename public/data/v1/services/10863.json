@@ -1,0 +1,197 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10863",
+  "nome": "Autorizar ou discordar da compensação de ofício da Receita Federal",
+  "sigla": "",
+  "descricao": "A Receita Federal envia notificações de compensação de ofício quando uma pessoa possui direito a restituição de valores, mas é constatado que também possui dívidas, ou com a Receita Federal, ou com a Procuradoria-Geral da Fazenda Nacional (PGFN).\n\n Através deste serviço você pode:\n\n  * consultar as dívidas detectadas;\n * imprimir uma 2ª via da notificação;\n * autorizar a compensação imediata; ou\n * discordar da compensação de ofício.\n   \n\n **Mas atenção!** Se você discordar da compensação, deve buscar a regularização das dívidas para que possa receber a restituição. Enquanto isso, a restituição ficará suspensa.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre restituição, ressarcimento e reembolso](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/restituicao-ressarcimento-reembolso-e-compensacao) \n\n [Fale Conosco ](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121974
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102037,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170208
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 170209
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 170210
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 170211
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Compensar",
+        "id": 405887
+      },
+      {
+        "item": "Notificação",
+        "id": 405888
+      },
+      {
+        "item": "Malha Débito",
+        "id": 405889
+      },
+      {
+        "item": "PER/DCOMP",
+        "id": 405890
+      },
+      {
+        "item": "PERDCOMP",
+        "id": 405891
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002#2311139)",
+        "id": 146049
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 129,
+    "negativas": 284
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237743,
+      "titulo": "Autorizar ou discordar da compensação",
+      "descricao": "Autorize ou discorde da compensação diretamente pelos canais abaixo. \n\n Se a restituição decorre de Declaração de Imposto de Renda, retida em Malha Débito, autorize ou discorde da compensação diretamente pelo sistema Meu Imposto de Renda (Extrato da DIRPF).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 313961,
+            "nome": "Notificação de Compensação de Ofício"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307009,
+            "tipo": "web",
+            "descricao": "[Minhas Compensações de Ofício](https://cav.receita.fazenda.gov.br/autenticacao/login/index/83)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 47582,
+            "descricao": "Se a restituição decorre da Declaração de Imposto de Renda (Malha Débito)",
+            "canalDePrestacao": [
+              {
+                "id": 307008,
+                "tipo": "web",
+                "descricao": "[Meu Imposto de Renda](https://irpf.cav.receita.fazenda.gov.br/portalmir/)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/autorizar-ou-discordar-da-compensacao-de-oficio-da-receita-federal",
+  "statusDestaque": false
+}

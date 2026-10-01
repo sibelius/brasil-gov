@@ -1,0 +1,239 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11982",
+  "nome": "Solicitar Exclusão da Lista de Devedores da PGFN",
+  "sigla": "",
+  "descricao": "É o serviço que permite ao contribuinte solicitar a exclusão de seu nome ou a correção de dados da [Lista de Devedores da PGFN](https://www.listadevedores.pgfn.gov.br/), por conta da regularização da dívida.\n\n **Vale destacar que a exclusão da Lista é automática e ocorre quando o sistema identifica:**  \n- o pagamento integral da dívida;  \n- a formalização de uma negociação (parcelamento e transação), é preciso que o acordo esteja em situação regular;  \n- o registro de garantia integral na dívida;  \n- que a dívida está com a exigibilidade (cobrança) suspensa.\n\n Antes de solicitar esse serviço, é preciso verificar:\n\n **1. o prazo de exclusão automática do sistema**\n\n Feita a regularização, a exclusão automática da Lista ocorre em:\n\n  * **até 7 dias**, no caso de débito com a Fazenda Nacional (previdenciário e não previdenciário);\n * **até 75 dias**, no caso de débito junto ao FGTS.\n    \n**2. a situação da dívida **\n\n Pode ser que a dívida tenha sido regularizada, mas no sistema ela permanece em situação irregular. Para verificar a situação da dívida, acesse o serviço ***Consultar Dívida Ativa***, no portal [REGULARIZE](http://www.regularize.pgfn.gov.br/).\n\n Se a causa extintiva, suspensiva ou a garantia integral da dívida não estiver anotada na respectiva inscrição, o contribuinte deverá previamente protocolar o requerimento:\n\n - de **pedido de revisão de dívida inscrita** para comprovar a regularização da dívida.\n\n -  de** averbação de garantia em execução fiscal** para registrar, perante a PGFN, a existência de uma garantia integral e suficiente aceita no âmbito de uma execução fiscal.",
+  "flagPortalLogado": "N",
+  "contato": "Clique [aqui](https://www.gov.br/pgfn/pt-br/canais_atendimento/atendimento-ao-contribuinte/contribuinte) para acessar os contatos da Procuradoria-Geral da Fazenda Nacional.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.regularize.pgfn.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122187
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102196,
+        "tipo": "A pessoa física e a pessoa jurídica, devedor principal ou corresponsável, que regularizou os débitos, mas continua na Lista de Devedores.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170541
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 170542
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 170543
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 170544
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Correção de Dados na Lista de Devedores",
+        "id": 406640
+      },
+      {
+        "item": "Lista de Devedores da PGFN",
+        "id": 406641
+      },
+      {
+        "item": "Aplicativo Dívida Aberta",
+        "id": 406642
+      },
+      {
+        "item": "Exclusão de nome da Lista de Devedores ",
+        "id": 406643
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria nº 636, de 9 de janeiro de 2020 ](https://www.in.gov.br/web/dou/-/portaria-n-636-de-9-de-janeiro-de-2020-239634966)- Dispõe sobre a divulgação de informações relativas à dívida ativa da União e do FGTS e seus devedores.",
+        "id": 146397
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 17,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 238104,
+      "titulo": "Protocolar requerimento",
+      "descricao": "* Acesse o REGULARIZE e clique em ***Outros Serviços*** > selecione a opção ***Exclusão da Lista de Devedores***.\n * Preencha todos os campos do formulário eletrônico e anexe as cópias dos documentos exigidos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 314550,
+            "nome": "Providenciar os documentos que comprovam a manutenção indevida do contribuinte na Lista de Devedores por parte da PGFN, após decorrido o prazo de exclusão automática."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307558,
+            "tipo": "web",
+            "descricao": "[Portal REGULARIZEÂ ](http://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238105,
+      "titulo": "Acompanhar o andamento do requerimento",
+      "descricao": "Acesse o REGULARIZE e clique em*** Consultar Requerimento***.\n\n **Atenção!** A Procuradoria da Fazenda Nacional poderá intimar o contribuinte, por meio da Caixa de Mensagens do REGULARIZE, para apresentar informações complementares ao requerimento. Por isso, fique atento à Caixa de Mensagens e aos prazos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307559,
+            "tipo": "web",
+            "descricao": "[Portal REGULARIZE](http://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/8727",
+      "nome": "Pedir revisão de dívida inscrita"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9791",
+      "nome": "Averbar garantia em execução fiscal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9854",
+      "nome": "Consultar Lista de Devedores da PGFN"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "74",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 1844,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 1845,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-exclusao-da-lista-de-devedores",
+  "statusDestaque": false
+}

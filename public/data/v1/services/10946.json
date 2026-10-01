@@ -1,0 +1,366 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10946",
+  "nome": "Obter cópia de declaração enviada à Receita Federal",
+  "sigla": "",
+  "descricao": "Baixe cópias das suas declarações enviadas à Receita Federal, em arquivos PDF, inclusive as Declarações de Imposto de Renda. Os arquivos podem ser baixados pelo Portal de Serviços, acessando com sua conta gov.br, de nível prata ou ouro.\n\n Você pode solicitar cópias das declarações ou demonstrativos quando não há possibilidade de fazer o download direto.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/3",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125135
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104732,
+        "tipo": "Pessoa física ou jurídica titular da declaração.",
+        "requisitos": "Se a declaração for de pessoa jurídica, o solicitante deve constar no quadro de sócios e administradores (QSA) do CNPJ."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175141
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175142
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175143
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 175144
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Declarações e Comunicações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cópia",
+        "id": 416892
+      },
+      {
+        "item": "Documentos",
+        "id": 416893
+      },
+      {
+        "item": "Declaração",
+        "id": 416894
+      },
+      {
+        "item": "Declarações",
+        "id": 416895
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria RFB nº 1.087/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=93479&visao=anotado)",
+        "id": 150380
+      },
+      {
+        "item": "[Portaria RFB nº 4261/2020](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/112023)",
+        "id": 150381
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6304,
+    "negativas": 16217
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito ao atendimento prioritário as pessoas com deficiência, pessoas com transtorno de espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244395,
+      "titulo": "Baixar cópias",
+      "descricao": "Acesse o canal abaixo, com sua conta gov.br de nível prata ou ouro, e selecione a declaração e os períodos desejados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315917,
+            "tipo": "web",
+            "descricao": "[Baixar Cópia de Declarações](https://cav.receita.fazenda.gov.br/autenticacao/login/index/3)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48715,
+            "descricao": "Para cópia da Declaração de Imposto de Renda",
+            "canalDePrestacao": [
+              {
+                "id": 315915,
+                "tipo": "web",
+                "descricao": "[Meu Imposto de Renda](https://mir.receita.fazenda.gov.br/portalmir)Â (a partir de 2008)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 315916,
+                "tipo": "aplicativo-movel",
+                "descricao": "[Apple](https://apps.apple.com/br/app/meu-imposto-de-renda/id922529225) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.irpf) (Meu Imposto de Renda)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244396,
+      "titulo": "Solicitar a cópia",
+      "descricao": "Solicite cópia de sua declaração ou demonstrativo pelo canal correspondente.\n\n São fornecidas pelo Chat as cópias de GFIP.\n\n Solicite as cópias do Dacon, DMED, Dimob, PER/DCOMP e DIRPF via processo. Acesse o canal abaixo. selecione \"Cópia de Declarações e Demonstrativos\" e escolha o serviço desejado.\n\n Ou solicite pelo atendimento presencial cópias das demais declarações não disponíveis, exceto a DIRPF e seu recibo. Agende um horário e leve um pendrive.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320631,
+            "nome": "[Formulário de solicitação de cópias](https://www.gov.br/../../receitafederal/pt-br/centrais-de-conteudo/formularios/declaracoes/pedido-de-copia) (apenas para o atendimento presencial)"
+          },
+          {
+            "id": 320632,
+            "nome": "[Documento oficial de identificação](https://www.gov.br/receitafederal/pt-br/assuntos/processos-digitais/documentos) (apenas para o atendimento presencial)"
+          }
+        ],
+        "casos": [
+          {
+            "id": 48716,
+            "descricao": "Para declarações de imóvel rural",
+            "documento": [
+              {
+                "id": 320629,
+                "codigo": null,
+                "descricao": "Documento que identifique o imóvel rural e comprove a propriedade/posse, caso essa informação não se encontre atualizada no sistema da Receita Federal (Matrícula do imóvel no Cartório de Registro de Imóveis; ou escritura/contrato/compromisso de compra e venda; ou CCIR - Certificado de Cadastro de Imóvel Rural (INCRA).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48717,
+            "descricao": "Para solicitações em papel, em unidade presencial",
+            "documento": [
+              {
+                "id": 320630,
+                "codigo": null,
+                "descricao": "Comprovante do pagamento do DARF, com código de receita 3292.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41352,
+            "descricao": "Custo de impressão em papel.",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Entre 11 e 30 folhas, R$ 10,00. Acima de 30, R$ 0,30 por cópia excedente.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315918,
+            "tipo": "web",
+            "descricao": "[Falar com Atendente ](https://cav.receita.fazenda.gov.br/autenticacao/login/index/5224)(Chat - cÃ³pias de GFIP)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 315919,
+            "tipo": "web",
+            "descricao": "[Abrir Novo Processo (Requerimento)](https://www3.cav.receita.fazenda.gov.br/requer/) (Cópias de Dacon, DMED, Dimob, PER/DCOMP e DIRPF anterior a 2008)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 315920,
+            "tipo": "presencial",
+            "descricao": "[Agendar horário presencial](https://servicos.receita.fazenda.gov.br/Servicos/saga/agendamento/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244397,
+      "titulo": "Obter ou retirar a cópia",
+      "descricao": "Obtenha a cópia diretamente pelo canal abaixo.\n\n O atendente fornecerá um número de processo por meio do qual você poderá obter a cópia da declaração, se não for fornecida imediatamente.\n\n Se a solicitação foi feita em uma unidade de atendimento presencial, as cópias solicitadas em papel ficarão disponíveis para retirada naquela unidade, conforme orientação do atendente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 315922,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 315923,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48718,
+            "descricao": "Para solicitações em papel",
+            "canalDePrestacao": [
+              {
+                "id": 315921,
+                "tipo": "presencial",
+                "descricao": "[Agendar horário presencial](https://servicos.receita.fazenda.gov.br/Servicos/saga/agendamento/)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 15,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "28",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-copia-de-declaracao-enviada-a-receita-federal",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

@@ -1,0 +1,297 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6104",
+  "nome": "Matricular-se em curso de graduação - UFMG",
+  "descricao": "Se você deseja fazer graduação na Universidade, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Departamento de Registro e Controle Acadêmico - 31 3409-4195 - dir@drca.ufmg.br",
+  "gratuito": "true",
+  "porcentagemDigital": 66,
+  "servicoDigital": false,
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Registro Acadêmico",
+        "id": 5451
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 8799,
+        "tipo": "Cidadãos",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/423",
+    "dbId": 57771,
+    "nomeOrgao": "Universidade Federal de Minas Gerais (UFMG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 13888
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 16097,
+      "titulo": "Acessar instruções.",
+      "descricao": null,
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17613,
+            "tipo": "web",
+            "descricao": "www.ufmg.br/sisu; \nwww.ufmg.br/drca",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 16098,
+      "titulo": "Efetuar registro online.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 30100,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 30101,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 30102,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 30103,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 30104,
+            "nome": "CPF"
+          },
+          {
+            "id": 30105,
+            "nome": "Diploma"
+          },
+          {
+            "id": 30106,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 30107,
+            "nome": "Comprovante de quitação com o Serviço Militar; Histórico Escolar do Ensino Médio"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17614,
+            "tipo": "web",
+            "descricao": "www.ufmg.br/sisu; \nwww.ufmg.br/drca",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 16099,
+      "titulo": "Apresentar documentação de registro.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 30108,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 30109,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 30110,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 30111,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 30112,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 30113,
+            "nome": "Certidões da Receita Federal"
+          },
+          {
+            "id": 30114,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 30115,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 30116,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 30117,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 30118,
+            "nome": "CPF"
+          },
+          {
+            "id": 30119,
+            "nome": "Diploma"
+          },
+          {
+            "id": 30120,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 30121,
+            "nome": "Procuração do representante legal"
+          },
+          {
+            "id": 30122,
+            "nome": "Comprovante de quitação com o Serviço Militar; Histórico Escolar do Ensino Médio; Autodeclarações; Laudo médico em caso de pessoa com deficiência"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17615,
+            "tipo": "presencial",
+            "descricao": "Centro de Atividades Didáticas; \nUnidade Administrativa III",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "47",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufmg",
+  "statusDestaque": false
+}

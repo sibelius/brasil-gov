@@ -1,0 +1,157 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10537",
+  "nome": "Emitir Boleto para a Cobrança pelo Uso da Água de Domínio da União",
+  "sigla": "",
+  "descricao": "A ANA emite o boleto que permite ao usuário pagar a cobrança pelo uso de recursos hídricos de domínio da União, ou seja,  \ndaqueles rios ou demais cursos d’água que atravessam mais de um estado da federação e que já estão com serviço de cobrança  \nvigorando.",
+  "flagPortalLogado": "N",
+  "contato": "Envie um e-mail para: COBRANCA@ANA.GOV.BR",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://boletoonline.ana.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cobrança pelo Uso da Água",
+        "id": 109349
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92011,
+        "tipo": "Para os usuários de recursos hídricos em rios de domínio da União localizados nas bacias hidrográficas que já tenham  \nimplementado a cobrança pelo uso da água.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/46876",
+    "dbId": 915,
+    "nomeOrgao": "Agência Nacional de Águas e Saneamento Básico (ANA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 152481
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 152482
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cobrança pelo uso da água",
+        "id": 365322
+      },
+      {
+        "item": "cobrança",
+        "id": 365323
+      },
+      {
+        "item": "agência nacional de águas",
+        "id": 365324
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 126903
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 25,
+    "negativas": 71
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 213264,
+      "titulo": "Emitir boleto",
+      "descricao": "Visitar https://boletoonline.ana.gov.br/ \n\n Preencha o registro para emitir o boleto com o endereço do empreendimento, o nome do representante legal, o n.º CNARH e o  \ncadastramento da senha para o acesso; siga a orientações.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 287270,
+            "nome": "* Código de registro no Cadastro Nacional de Usuários de Recursos Hídricos (CNARH).\n * Número do Cadastro de Pessoa Física (CPF) ou Cadastro Nacional de Pessoa Jurídica (CNPJ)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277046,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://boletoonline.ana.gov.br/) ou [Acesse o site](http://www.snirh.gov.br/cnarh/index.jsf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "26",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-boleto-para-a-cobranca-pelo-uso-da-agua-de-dominio-da-uniao",
+  "statusDestaque": false
+}

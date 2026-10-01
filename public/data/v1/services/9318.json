@@ -1,0 +1,292 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9318",
+  "nome": "Obter certificação da qualificação de supervisor em proteção radiológica",
+  "sigla": "",
+  "descricao": "Serviço que realiza processo de qualificação para certificação de supervisores de proteção radiológica de acordo com normas específicas. O processo inicial trata-se de aplicação de provas com diferentes fases até que o candidato ao certificado seja aprovado em todas as fases para então obter sua certificação.\n\n Uma vez obtida a certificação, o supervisor necessita renovar a certificação periodicamente, de acordo com critérios determinados em Norma ([CNEN NN 7.01](https://www.gov.br/../../cnen/pt-br/acesso-rapido/normas/grupo-7/grupo7-nrm701.pdf \"Norma CNEN\")).",
+  "flagPortalLogado": "S",
+  "contato": "através do e-mail: examedecertificacaosupervisores@cnen.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126005
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105403,
+        "tipo": "Profissionais que pretendam trabalhar como supervisores de proteção radiológica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "6",
+      "max": "9",
+      "unidade": "meses"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 6,
+    "max": 9
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176169
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Nucleares e Radiativas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certificação de supervisores",
+        "id": 419664
+      },
+      {
+        "item": "proteção radiológica",
+        "id": 419665
+      },
+      {
+        "item": "radioproteção",
+        "id": 419666
+      },
+      {
+        "item": "",
+        "id": 419667
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151242
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 32,
+    "negativas": 21
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 245989,
+      "titulo": "Realizar inscrição",
+      "descricao": "Preencher formulário de inscrição no Gov.br",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321861,
+            "nome": "Documento de Identificação com foto;"
+          },
+          {
+            "id": 321862,
+            "nome": "Certificado de Conclusão de curso"
+          }
+        ],
+        "casos": [
+          {
+            "id": 48850,
+            "descricao": "Documentação específica",
+            "documento": [
+              {
+                "id": 321860,
+                "codigo": null,
+                "descricao": "A documentação específica será definida em edital",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41438,
+            "descricao": "Valor da inscrição será definido no edital do concurso",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "- pagamento de GRU",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": [
+          {
+            "id": 48851,
+            "descricao": "Pagamento de taxa específica",
+            "custo": [
+              {
+                "id": 41437,
+                "descricao": "Taxa de Licenciamento, Controle e Fiscalização (TLC)",
+                "moeda": "R$",
+                "valor": null,
+                "valorVariavel": "- Ver tabela com valores de TLC - https://appasp2019.cnen.gov.br/seguranca/lfc/listas/Tabela-Anexa-Lei-14222-v5.pdf",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318143,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=9318)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245990,
+      "titulo": "Realizar prova escrita",
+      "descricao": "Realizar concurso de provas de conhecimentos gerais e específicos, presencialmente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321863,
+            "nome": "Locais de prova serão definidos em edital específico."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318144,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=9318)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "8",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 8
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245991,
+      "titulo": "Realizar prova prática",
+      "descricao": "Realizar prova para avaliação da capacidade prática. O concurso inclui prova oral sobre aplicação prática dos conhecimentos específicos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318145,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=9318)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "8",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 8
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "270",
+  "percentualAvaliacoesPositivas": "60",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificacao-da-qualificacao-de-supervisor-em-radioprotecao-radiologica",
+  "statusDestaque": true
+}

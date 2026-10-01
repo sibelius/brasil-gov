@@ -1,0 +1,246 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24406",
+  "nome": "Obter habilitação de centros e equipes para solicitar e utilizar tecidos em transplantes de ossos, pele, valvas cardíacas e membrana amniótica.",
+  "sigla": "",
+  "descricao": "Por meio desse serviço, as pessoas que estão aguardando a realização de transp´lante de tecidos como ossos, pele, valvas cardíacas, membrana amniótica. podem  \nconsultar o prontuário médico e acompanhar a posição delas na lista de espera de transplantes.",
+  "flagPortalLogado": "N",
+  "contato": "Telefones: (61) 3315-8953 ou (61) 3315-9212  \nEmail: snt@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 66,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127527
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106693,
+        "tipo": "Pacientes diagnosticados com problemas de saúde que requeiram transplante de tecidos como ossos, pele, valvas cardíacas, membrana amniótica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178401
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178402
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "valva cardíaca",
+        "id": 425221
+      },
+      {
+        "item": "membrana aminiótica",
+        "id": 425222
+      },
+      {
+        "item": "transplante",
+        "id": 425223
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152953
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249213,
+      "titulo": "Ser incluído na lista nacional de transplantes",
+      "descricao": "Caso o paciente concorde com a realização do transplante, o médico autorizado irá providenciar a inscrição do  \nmesmo no sistema informatizado, incluindo dados do paciente e do diagnóstico da doença.  \nO paciente será posicionado na lista de espera, de acordo com a ordem de inscrição, gravidade e urgência da  \nsituação e compatibilidade com doador existente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324442,
+            "nome": "Diagnóstico,\n\n Exames realizados e demais documentos providenciados pelo médico que comprovem a  \nnecessidade de transplante."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322045,
+            "tipo": "e-mail",
+            "descricao": "Prontuário/lista São Paulo - ctrans@saude.sp.gov.br - enviar e-mail somente se o sistema estiver indisponível\n\n Prontuário/lista Demais Estados - snt@saude.gov.br - enviar e-mail somente se o sistema estiver indisponível",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249214,
+      "titulo": "Acompanhar posição e evolução na lista para transplante",
+      "descricao": "É possível acompanhar, durante a espera pelo órgão, a posição relativa do paciente na lista de espera.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324443,
+            "nome": "Possuir em mãos o número do Registro Geral da Central de Transplantes – RGCT, ano de nascimento e CPF."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322046,
+            "tipo": "e-mail",
+            "descricao": "Prontuário/lista São Paulo - ctrans@saude.sp.gov.br - enviar e-mail somente se o sistema estiver indisponível\n\n Prontuário/lista Demais Estados - snt@saude.gov.br - enviar e-mail somente se o sistema estiver indisponível",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249215,
+      "titulo": "Passar por procedimento de transplante de órgão",
+      "descricao": "Quando surgir um órgão compatível, considerando o tempo em lista e a gravidade de cada caso entre os inscritos  \nna lista de espera, o paciente será encaminhado ao hospital onde realizará o procedimento de transplante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324444,
+            "nome": "Possuir em mãos o número do Registro Geral da Central de Transplantes – RGCT e CPF."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322047,
+            "tipo": "presencial",
+            "descricao": "Atencimento presencial",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "meses",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-habilitacao-de-centros-e-equipes-para-solicitar-e-utilizar-tecidos-em-transplantes-de-ossos-pele-valvas-cardiacas-e-membrana-amniotica",
+  "statusDestaque": false
+}

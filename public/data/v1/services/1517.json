@@ -1,0 +1,489 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1517",
+  "nome": "Obter cálculo de garantia física de energia de empreendimento gerador",
+  "sigla": "",
+  "descricao": "A Lei nº 10.848/04, regulamentada pelo art. 2º do Decreto nº 5.163/04, estabelece que a **garantia física de energia** é a quantidade máxima de energia elétrica associada a um determinado empreendimento, incluindo importação, que poderá ser utilizada para comprovação de atendimento de carga ou comercialização por meio de contratos, visto que corresponde à máxima quantidade de energia que pode ser entregue ao sistema elétrico, dado critério de garantia de suprimento.\n\n Segundo esse decreto, a definição da forma de cálculo da garantia física dos empreendimentos de geração é de responsabilidade do Ministério de Minas e Energia - MME, sendo a execução do cálculo realizada pela Empresa de Pesquisa Energética - EPE, e o seu valor, após publicação de Portaria deste Ministério, é estabelecido no contrato de concessão ou ato de autorização.",
+  "flagPortalLogado": "N",
+  "contato": "As demandas são recebidas principalmente de agentes do setor elétrico, os quais solicitam esclarecimentos sobre dúvidas relacionadas aos procedimentos e metodologias de cálculo e revisão da garantia física de energia, assim como informações sobre o andamento dos seus processos.\n\n  \n\n As solicitações de cálculo ou revisão de garantia física de energia devem ser formalizadas e endereçadas ao endereço [protocolo@mme.gov.br](mailto:protocolo@mme.gov.br), acompanhadas de informações necessárias e documentos comprobatórios de representação legal do empreendimento.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 103802
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 87537,
+        "tipo": "Empresas de energia do segmento Geração e/ou Importação.",
+        "requisitos": "Anteriormente à definição ou revisão de garantia física, o agente, proprietário de um empreendimento de geração de energia elétrica, deve seguir os ritos e legislações correlatos para o cadastro de seu junto à Agência Nacional de Energia Elétrica – ANEEL. Após avaliação e aprovação da Agência, o empreendimento receberá a autorização, concessão ou permissão para implementar, explorar e/ou alterar o empreendimento.\n\n Na sequência, a partir da solicitação do Agente ao MME ou conforme estabelecido em legislação, o processo de definição ou revisão de garantia física segue metodologias e critérios específicos, a depender do tipo de empreendimento, definidos em Portarias do MME.\n\n A seguir será apresentado um panorama sobre os trâmites específicos para cálculo e revisão de garantia física de empreendimentos de geração. Ressalta-se, porém, que a especificidade de cada empreendimento pode exigir tratativas diferenciadas dos exemplos apresentados."
+      },
+      {
+        "id": 87538,
+        "tipo": "**PCH e CGH - Primeiro Cálculo e revisão com base na alteração de Característica técnica**",
+        "requisitos": "**Requisito: **Para as Pequenas Centrais Hidrelétricas - PCHs, o agente interessado, para solicitar o cálculo de garantia física de energia de seu empreendimento deve buscar junto à Agência Nacional de Energia Elétrica - ANEEL a aprovação ou revisão do Projeto Básico, a emissão do Despacho de Registro de Adequabilidade do Sumário Executivo (DRS-PCH) e a homologação dos parâmetros da usina, que serão reconhecidos por meio de Despacho e/ou Resolução Autorizativa.\n\n Para as Centrais Geradoras Hidrelétricas - CGHs, o agente interessado solicita à ANEEL a aprovação do projeto proposto que, mediante a validação, receberá a Declaração de Registro de Central Geradora.\n\n **Referência: **Portaria MME n° 463/2009, para a cálculo e revisão de garantia física de Usinas Hidrelétricas não despachadas Centralizadamente"
+      },
+      {
+        "id": 87539,
+        "tipo": "**Definição de Garantia Física (Primeiro Cálculo) para as demais fontes**",
+        "requisitos": "**Requisito: **O agente interessado solicita à ANEEL a aprovação do projeto proposto que, mediante validação, recebe, por meio da Resolução Autorizativa, o direito de implementação e exploração como Produtor Independente de Energia – PIE.\n\n **Referência: **Portaria MME n° 101/2016, para a definição de garantia física de novos empreendimentos."
+      },
+      {
+        "id": 87540,
+        "tipo": "**Revisão de Garantia Física das Usinas Termelétricas Movidas à Biomassa com Custo Variável Unitário – CVU nulo com base na Alteração da Potência Instalada.**",
+        "requisitos": "**Requisito: **O agente interessado solicita à ANEEL a aprovação do projeto proposto que, mediante validação, recebe, por meio de Despacho ou Resolução Autorizativa a autorização para a alteração da potência da usina."
+      },
+      {
+        "id": 87541,
+        "tipo": "**Revisão dos Montantes de Garantia Física da Usinas Termelétricas Despachadas Centralizadamente com Custo Variável Unitário – CVU não nulo com base na Alteração da Potência Instalada.**",
+        "requisitos": "**Requisito: **O agente interessado solicita à ANEEL a aprovação do projeto proposto que, mediante validação, receberá, por meio de Despacho ou Resolução Autorizativa, a autorização para a alteração da potência da usina.\n\n **Referência:** Portaria MME n° 492/2014, Revisão dos Montantes de Garantia Física da Usinas Termelétricas Despachadas Centralizadamente com Custo Variável Unitário – CVU não nulo com base na Alteração da Potência Instalada."
+      },
+      {
+        "id": 87542,
+        "tipo": "**Revisão de Garantia Física das Usinas Eólicas, Fotovoltaicas e Térmicas com base na Geração Verificada.**",
+        "requisitos": "**Requisito: **A usina deve estar em operação comercial e efetivamente cadastrada junto à CCEE.\n\n **Resumo da atividade: **As usinas Eólicas, Fotovoltaicas e Térmicas, que possuírem mais de 24 meses de operação comercial, com os dados de geração registrados junto à CCEE, sem que haja, durante período de análise, alteração de características técnicas consideradas fatores relevantes para a definição de garantia física, passarão, anualmente, pelo cálculo ou revisão de garantia física com base na geração de energia elétrica verificada.\n\n Os montantes de garantia física serão publicados no Diário Oficial da União no dia 30 de setembro do ano presente e entrará em vigência a partir de 1° de janeiro do ano subsequente.\n\n Não necessita de solicitação por parte do agente, uma vez que é um rito ordinário instituído periodicamente.\n\n **Referência:** Portaria MME n° 564/2014, Portaria MME n° 416/2015 e Portaria MME n° 60/2020."
+      },
+      {
+        "id": 87543,
+        "tipo": "**Revisão de Garantia Física das Usinas Eólicas com Base na Alteração de Característica Técnica.**",
+        "requisitos": "**Requisito: **O agente interessado solicita à ANEEL a aprovação do projeto proposto que, mediante validação, receberá, por meio de Despacho ou Resolução Autorizativa a autorização para a alteração da(s) característica(s) técnica(s).\n\n **Resumo da atividade: **As usinas que já possuírem garantia física definida e passarem por alteração de características técnicas consideradas fatores relevantes para o cálculo de garantia física, a depender da data de publicação do documento de modificação de característica técnica do empreendimento, será enquadrada em um dos três blocos anuais de revisão de garantia física (março, julho ou novembro), que fecham no dia 30 de cada mês.\n\n Não necessita de solicitação por parte do agente.\n\n **Referência:** Portaria MME n° 416/2015, Revisão dos Montantes de Garantia Física da Usinas Eólicas com base na Alteração de Características técnicas."
+      },
+      {
+        "id": 87544,
+        "tipo": "**Revisão de Garantia Física das Usinas Fotovoltaicas com Base na Alteração de Característica Técnica.**",
+        "requisitos": "**Requisito: **O Agente se cadastra no Sistema AEGE.\n\n O agente interessado solicita à ANEEL a aprovação do projeto proposto que, mediante validação, recebe, por meio de Despacho ou Resolução Autorizativa, a autorização para a alteração das características técnicas.\n\n **Resumo da atividade: **As usinas que já possuírem garantia física definida e passarem por alteração de características técnicas consideradas fatores relevantes para o cálculo de garantia física, participarão do bloco de revisão de garantia conforme a publicação de autorização de modificação de característica técnica do empreendimento. Sem a previsão de data de publicação.\n\n Não necessita de solicitação por parte do agente.\n\n **Referência:** Portaria MME n° 60/2020, Revisão dos Montantes de Garantia Física da Usinas Fotovoltaicas com base na Alteração de Características técnicas"
+      },
+      {
+        "id": 87545,
+        "tipo": "**Revisão Extraordinária de Garantia Física das Usinas Hidrelétricas.**",
+        "requisitos": "**Requisito: **O agente interessado solicita à ANEEL a aprovação do projeto proposto que, mediante validação, recebe, por meio de Despacho ou Resolução Autorizativa, a autorização para a alteração das características técnicas com os novos parâmetros homologados.\n\n **Resumo da atividade: **As usinas que já possuírem garantia física definida e passarem por alteração de características técnicas consideradas fatores relevantes para o cálculo de garantia física, a depender da data de publicação do documento de modificação de característica técnica do empreendimento, a usina será enquadrada em um dos dois blocos de revisão de garantia física de (março ou setembro), que fecham no dia 30 de cada mês.\n\n Não necessita de solicitação por parte do agente.\n\n **Referência:** Portaria MME n° 406/2017, Revisão Extraordinária dos Montantes de Garantia Física da Usinas Hidrelétricas com base na Alteração de Características técnicas."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2852",
+    "dbId": 37540,
+    "nomeOrgao": "Ministério de Minas e Energia (MME)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 144550
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "garantia fisica",
+        "id": 347709
+      },
+      {
+        "item": "cálculo",
+        "id": 347710
+      },
+      {
+        "item": "habilitação",
+        "id": 347711
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 9.427, de 26 de dezembro de 1996](http://www.planalto.gov.br/ccivil_03/leis/l9427cons.htm)",
+        "id": 120716
+      },
+      {
+        "item": "[Lei nº 10.848, de 15 de março de 2004](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.848.htm)",
+        "id": 120717
+      },
+      {
+        "item": "[Decreto nº 5.163, de 30 de junho de 2004](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5163.HTM)",
+        "id": 120718
+      },
+      {
+        "item": "[Portaria MME n° 463, de 3 de dezembro de 2009](https://www.gov.br/../../mme/pt-br/acesso-a-informacao/legislacao/portarias/2009/portaria_n_463-2009.pdf)",
+        "id": 120719
+      },
+      {
+        "item": "[Portaria MME n° 484, de 24 de agosto de 2012](http://antigo.mme.gov.br/documents/72128/268757/Portaria+484+de+24-08-2012+Publicado+no+DOU+de+27-08-2012.pdf/7dcad616-eb62-c86c-f0d1-4ddfb16263f2?version=1.0)",
+        "id": 120720
+      },
+      {
+        "item": "[Portaria MME n° 564, de 17 de outubro de 2014](http://antigo.mme.gov.br/documents/72128/268765/Portaria+564+de+17-10-2014+Publicada+no+DOU+de+20-10-2014.pdf/b7c3fc3d-d7e2-bb65-b748-d4d6daa4124c?version=1.0)",
+        "id": 120721
+      },
+      {
+        "item": "[Portaria MME n° 416, de 1º de setembro de 2016](https://www.gov.br/../../mme/pt-br/acesso-a-informacao/legislacao/portarias/2015/portaria_n_416-2015.pdf)",
+        "id": 120722
+      },
+      {
+        "item": "[Portaria MME n° 101, de 06 de julho de 2016](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/23173114/do1-2016-07-07-portaria-no-101-de-6-de-julho-de-2016-23173047)",
+        "id": 120723
+      },
+      {
+        "item": "[Portaria MME n° 406, de 16 de outubro de 2017](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19357604/do1-2017-10-17-portaria-n-406-de-16-de-outubro-de-2017-19357404)",
+        "id": 120724
+      },
+      {
+        "item": "[Portaria MME n° 60, de 21 de fevereiro de 2020](https://www.gov.br/../../mme/pt-br/acesso-a-informacao/legislacao/portarias/2020/portaria_n_60-2020.pdf)",
+        "id": 120725
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 20
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Não há previsão de atendimento prioritário, os processos serão analisados por ordem de chegada dos documentos.​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética.",
+  "etapas": [
+    {
+      "id": 201948,
+      "titulo": "PCH e CGH - Primeiro Cálculo e revisão com base na alteração de Característica técnica",
+      "descricao": "**Passo 1: **Solicitação do agente ao MME. \n\n **Passo 2: **Verificação dos dados homologados pela ANEEL.\n\n **Passo 3: **Análise do MME (Nota Técnica e Minuta de Portaria).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263082,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)[  \n](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201949,
+      "titulo": "Definição de Garantia Física (Primeiro Cálculo) para as demais fontes",
+      "descricao": "**Passo 1: **Solicitação do agente ao MME. \n\n **Passo 2: **Análise da EPE.\n\n **Passo 3: **Análise do MME (Nota Técnica e Minuta de Portaria).\n\n **Passo 4: **Publicação de Portaria SPE.** **",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263083,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201950,
+      "titulo": "Revisão de Cálculo de Garantia Física - UTEE's à Biomassa com base na alteração da Potência Instalada",
+      "descricao": "**Passo 1: **Solicitação do agente ao MME. \n\n **Passo 2: **Análise da EPE.\n\n **Passo 3: **Análise do MME (Nota Técnica e Minuta de Portaria).\n\n **Passo 4: **Publicação de Portaria SPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263084,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201951,
+      "titulo": "Revisões Extraordinárias de GF de UTE's Despachadas",
+      "descricao": "**Passo 1: **Solicitação do agente ao MME. \n\n **Passo 2: **MME define o bloco de Usinas a terem suas GFs revisadas.\n\n **Passo 3: **Análise da EPE.\n\n **Passo 4: **Análise do DPE.\n\n **Passo 5: **Publicação de Portaria SPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263085,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201952,
+      "titulo": "Revisão de Garantia Física das Usinas Eólicas, Fotovoltaicas e Térmicas com base na Geração Verificada",
+      "descricao": "**Passo 1: **CCEE envia dados de geração verificada para EPE e MME. \n\n **Passo 2: **Análise da EPE.\n\n **Passo 3: **Análise do DPE.\n\n **Passo 4: **Publicação de Portaria SPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263086,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201953,
+      "titulo": "Revisão de Garantia Física de Usinas Eólicas com base na Alteração de Característica Técnica",
+      "descricao": "**Passo 1: **MME define o bloco de Usinas a terem suas GFs revisadas. \n\n **Passo 2: **Análise da EPE.\n\n **Passo 3: **Análise do DPE.\n\n **Passo 4: **Publicação de Portaria SPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263087,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201954,
+      "titulo": "Revisão de Garantia Física das Usinas Fotovoltaicas com Base na Alteração de Característica Técnica",
+      "descricao": "**Passo 1: **Cadastramento no AEGE e análise da EPE. \n\n **Passo 2: **Análise do DPE.\n\n **Passo 3: **Publicação de Portaria SPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263088,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201955,
+      "titulo": "Revisão Extraordinária de Garantia Física das Usinas Hidrelétricas",
+      "descricao": "**Passo 1: **ANEEL encaminha ao MME as alterações de características técnicas autorizadas pela Agência. \n\n **Passo 2: **MME define o bloco de Usinas a terem suas GFs revisadas. \n\n **Passo 3: **Análise da EPE.\n\n **Passo 4: **Análise do DPE.\n\n **Passo 5: **Publicação de Portaria SPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263089,
+            "tipo": "e-mail",
+            "descricao": "[protocolo@mme.gov.br](mailto:protocolo@mme.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "49",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-calculo-de-garantia-fisica-de-energia-de-empreendimento-gerador",
+  "statusDestaque": false
+}

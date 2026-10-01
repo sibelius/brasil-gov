@@ -1,0 +1,145 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8104",
+  "nome": "Solicitar arbitramento de conflitos entre usuários e concessionárias ferroviárias de cargas",
+  "sigla": "",
+  "descricao": "Solicitar a intervenção da ANTT quanto há alguma reclamação de usuário acerca da prestação do serviço.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "porcentagemManual": false,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0#",
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 11101,
+        "tipo": "Usuário de serviço de transporte ferroviário pu usuário em potencial.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": "",
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 16848
+      },
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 16849
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito e Transportes",
+      "Empresa, Indústria e Comércio"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Transporte Ferroviário",
+        "id": 30613
+      },
+      {
+        "item": "Transporte",
+        "id": 30614
+      },
+      {
+        "item": "Usuário",
+        "id": 30615
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 10.233, de 5 de junho de 2001.\nLEI Nº 8.987, DE 13 DE FEVEREIRO DE 1995.\nLEI Nº 9.784 , DE 29 DE JANEIRO DE 1999.\nResolução ANTT nº 3694, de 14 de julho de 2011",
+        "id": 5644
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n· Urbanidade;\n· Respeito;\n· Acessibilidade;\n· Cortesia;\n· Presunção da boa-fé do usuário;\n· Igualdade;\n· Eficiência;\n· Segurança; e\n· Ética",
+  "etapas": [
+    {
+      "id": 20467,
+      "titulo": "Apresentação da Reclamação junto à ANTT",
+      "descricao": "Protocolar junto à ANTT reclamação contendo descrição dos fatos, bem como o máximo de documentos possíveis.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 23922,
+            "tipo": "web",
+            "descricao": "https://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-arbitramento-de-conflitos-entre-usuarios-e-concessionarias-ferroviarias-de-cargas",
+  "statusDestaque": false
+}

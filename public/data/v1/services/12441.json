@@ -1,0 +1,488 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12441",
+  "nome": "Obter autorização para administrar contrato de propriedade compartilhada",
+  "sigla": "",
+  "descricao": "Oferecer a uma organização que administre ou pretenda administrar um programa de propriedade compartilhada de aeronaves, conforme a Subparte K do RBAC nº 91. Este processo de emissão das Especificações Administrativas - EA de administrador de programa de propriedade compartilhada de aeronaves, adotado pela ANAC, possui cinco fases:\n\n a) Fase 1 – Solicitação prévia;\n\n b) Fase 2 – Solicitação formal;\n\n c) Fase 3 – Avaliação de documentos;\n\n d) Fase 4 – Demonstrações e inspeções;\n\n  e) Fase 5 – Emissão das EA.\n\n [Clique aqui ](https://www.gov.br/../../anac/pt-br/sistemas/protocolo-eletronico-sei)para Orientações referentes ao Protocolo Eletrônico.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Compartilhamento de aeronave.",
+        "id": 95899
+      },
+      {
+        "item": "Subparte K 91",
+        "id": 95900
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81476,
+        "tipo": "Pessoa jurídica que pretenda administrar um programa de propriedade compartilhada de aeronaves.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 132972
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132973
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 132974
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 132975
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Anac",
+        "id": 323207
+      },
+      {
+        "item": "Compartilhamento",
+        "id": 323208
+      },
+      {
+        "item": "aeronaves",
+        "id": 323209
+      },
+      {
+        "item": "subparte K",
+        "id": 323210
+      },
+      {
+        "item": "Propriedade compartilhada",
+        "id": 323211
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[IS91-013A](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-013/@@display-file/arquivo_norma/IS91-013A.pdf)",
+        "id": 110901
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 185042,
+      "titulo": "Solicitar reunião prévia",
+      "descricao": "Essa etapa não é obrigatória. Porém, caso a organização tenha interesse, pode solicitar uma reunião com a ANAC para obter informações básicas e gerais da certificação. A reunião inicial pode ser solicitada por meio do Sistema Eletrônico de Informações – SEI, utilizando o tipo de processo: Processo 91K: Obtenção Inicial de Especificação Administrativa.\n\n Devem estar presentes na ROP o gestor responsável da empresa e demais membros da administração requerida, que deverão estar indicados na carta",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 252497,
+            "nome": "Carta ou ofício solicitando a ROP."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242933,
+            "tipo": "web",
+            "descricao": "Via [Peticionamento Eletrônico](https://www.gov.br/../../anac/pt-br/sistemas/protocolo-eletronico-sei), utilizando o tipo de processo 91K: Obtenção Inicial de Especificação Administrativa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 185043,
+      "titulo": "Solicitar reunião formal",
+      "descricao": "Nesta etapa deverá apresentar o Pacote de Solicitação Formal (PSF) para o início da emissão das Especificações Administrativas - EA. Para solicitar o PSF, a organização requerente deverá apresentar uma carta ou ofício de solicitação de emissão das EA, contendo informações relevantes para o processo, assim como os documentos que serão necessários para análise na Fase 3.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 252498,
+            "nome": "a) razão social da organização;"
+          },
+          {
+            "id": 252499,
+            "nome": "b) CNPJ;"
+          },
+          {
+            "id": 252500,
+            "nome": "c) utilização de nome comercial ou fantasia, se aplicável;"
+          },
+          {
+            "id": 252501,
+            "nome": "d) endereço da sede operacional;"
+          },
+          {
+            "id": 252502,
+            "nome": "e) nome e CPF do gestor responsável;"
+          },
+          {
+            "id": 252503,
+            "nome": "f) telefone de contato;"
+          },
+          {
+            "id": 252504,
+            "nome": "g) e-mail de contato;"
+          },
+          {
+            "id": 252505,
+            "nome": "h) listagem do pessoal de administração requerido;"
+          },
+          {
+            "id": 252506,
+            "nome": "i) listagem dos modelos das aeronaves que serão utilizadas no programa (fabricante e modelo);\n\n Nota: Com relação ao item (i), deverá ser apresentada ao menos uma aeronave (matrícula) para cada modelo listado no PSF, acompanhando documentos que comprovam as capacidades operacionais (laudo de vistoria, LOA, ficha de pesagem, planta baixa, entre outros)"
+          },
+          {
+            "id": 252507,
+            "nome": "j) listagem do(s) tripulante(s);"
+          },
+          {
+            "id": 252508,
+            "nome": "k) modelo(s) de contrato de administração do programa;"
+          },
+          {
+            "id": 252509,
+            "nome": "l) documento de gerenciamento da frota, contendo informações atualizadas sobre as aeronaves específicas (marcas de nacionalidade e matrícula) que serão utilizadas no programa;"
+          },
+          {
+            "id": 252510,
+            "nome": "m) modelo de lista de cotistas;"
+          },
+          {
+            "id": 252511,
+            "nome": "n) cadastro do pessoal de administração requerido;"
+          },
+          {
+            "id": 252512,
+            "nome": "o) informações sobre área de operação;"
+          },
+          {
+            "id": 252513,
+            "nome": "p) informações acerca de operação sobre água;"
+          },
+          {
+            "id": 252514,
+            "nome": "q) declaração de conformidade;"
+          },
+          {
+            "id": 252515,
+            "nome": "r) representação da estrutura organizacional da organização requerente;"
+          },
+          {
+            "id": 252516,
+            "nome": "s) solicitações de autorização para operações específicas;"
+          },
+          {
+            "id": 252517,
+            "nome": "t) solicitações de isenção de cumprimento de regra, se aplicável;  \n\n Nota: o sistema de documentos de segurança operacional deverá estar desenvolvido para entrega como parte do PSF"
+          },
+          {
+            "id": 252518,
+            "nome": "u) manual de operações (MO), que pode ser apresentado em um ou mais volumes, incluindo manual de peso e balanceamento, e o manual de comissários de voo (MCV), se aplicável;\n\n Nota: manuais como o manual de peso e balanceamento, e manual de comissários de voo (MCV), quando aplicável, são considerados volumes complementares ao MO"
+          },
+          {
+            "id": 252519,
+            "nome": "v) manual de procedimentos operacionais padronizados (SOP) para cada modelo de aeronave. O administrador de programa que optar por utilizar um AOM, deverá apresentar o SOP como um capítulo do AOM."
+          },
+          {
+            "id": 252520,
+            "nome": "w) manual de gerenciamento de segurança operacional (MGSO), incluindo o Plano de Resposta à Emergências (PRE);"
+          },
+          {
+            "id": 252521,
+            "nome": "x) programa de treinamento operacional (PTO), incluindo o programa de treinamento de artigos perigosos (PTAP) e o programa de treinamento em CRM (PCRM);\n\n Nota: programas como programa de treinamento de artigos perigosos (PTAP) e programa de treinamento em CRM (PCRM), são considerados volumes complementares ao PTO."
+          },
+          {
+            "id": 252522,
+            "nome": "y) lista de equipamentos mínimos (MEL), para cada modelo de aeronave que será empregada na operação,\n\n Nota: somente é obrigatória caso o operador tenha intenção de operar com equipamentos inoperantes"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242934,
+            "tipo": "web",
+            "descricao": "Via [Peticionamento Eletrônico](https://www.gov.br/../../anac/pt-br/sistemas/protocolo-eletronico-sei), utilizando o tipo de processo 91K: Obtenção Inicial de Especificação Administrativa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 185044,
+      "titulo": "Avaliar documento",
+      "descricao": "Depois da aceitação do PSF, a ANAC analisará detalhadamente todos os manuais, programas e documentos exigidos que foram apresentados pela organização requerente das EA no PSF. Após aprovação de todos os documentos a organização requerente deverá se preparar para proceder às demonstrações requeridas nas datas acordadas, conforme solicitações do Escritório emissor das EA - EsEA.\n\n A ANAC notificará a organização requerente sobre o encerramento da fase 3 do processo de certificação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 252523,
+            "nome": "Caso sejam necessárias correções e/ou alterações, a organização deverá encaminhar através de carta ou ofício, por peticionamento intercorrente com referência ou diretamente no processo"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 30175,
+            "descricao": "TFAC 011206",
+            "moeda": "R$",
+            "valor": " 10.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242936,
+            "tipo": "web",
+            "descricao": "Via [peticionamento intercorrente](https://www.gov.br/../../../../../../../../anac/pt-br/sistemas/protocolo-eletronico-sei) , informando o número de processo de referência.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 39916,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 242935,
+                "tipo": "web",
+                "descricao": "[Clique aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean)\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "45",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 45
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 185045,
+      "titulo": "Demonstrações e inspeções",
+      "descricao": "Caso sejam necessárias correções e/ou alterações, a organização deverá encaminhar através de carta ou ofício, por peticionamento intercorrente com referência ou diretamente no processo.\n\n A ANAC notificará a organização requerente sobre o encerramento da fase 4 do processo de certificação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242937,
+            "tipo": "web",
+            "descricao": "Via [peticionamento intercorrente](https://www.gov.br/../../../../../../../../../../anac/pt-br/sistemas/protocolo-eletronico-sei), informando o número de processo de referência.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 185046,
+      "titulo": "Emissão das EA",
+      "descricao": "Após as quatro fases anteriores terem sido concluídas, o Escritório emissor das EA - EsEA aprovará e as emitirá, do novo administrador de programa de propriedade compartilhada de aeronaves, com todas as autorizações, aprovações, limitações e isenções concedidas, conforme aplicável",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 252524,
+            "nome": "Caso sejam necessárias correções e/ou alterações, a organização deverá encaminhar através de carta ou ofício, por peticionamento intercorrente com referência ou diretamente no processo"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242938,
+            "tipo": "web",
+            "descricao": "Via [peticionamento intercorrente](https://www.gov.br/../../../../../../../../../../anac/pt-br/sistemas/protocolo-eletronico-sei), informando o número de processo de referência.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-administrar-contrato-de-propriedade-compartilhada",
+  "statusDestaque": false
+}

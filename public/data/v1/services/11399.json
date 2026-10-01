@@ -1,0 +1,443 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11399",
+  "nome": "Programar navios para atracar e desatracar no Porto de Itaguaí",
+  "sigla": "SILOG",
+  "descricao": "Por meio deste serviço, o usuário poderá programar as manobras das embarcações que irão atracar, fundear ou desatracar no Porto de Itaguaí, bem como solicitar o acesso ao canal de navegação para embarcações com destino ou provenientes de Terminais de Uso Privado (TUPs).",
+  "flagPortalLogado": "N",
+  "contato": "**Plantão: **\n\n ** **[**gerita@portosrio.gov.br**](mailto:gerita@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8656**\n\n **(21) 99383-2520**\n\n **Gerência Aquaviária:**\n\n ** ****Julia.crisostomo@portosrio.gov.br**\n\n ** ****(21) 98881-0601**",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://silog.portosrio.gov.br/silog/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Número de Programação",
+        "id": 116829
+      },
+      {
+        "item": "Porto Sem Papel",
+        "id": 116830
+      },
+      {
+        "item": "Documento Único Virtual",
+        "id": 116831
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98030,
+        "tipo": "Agências Marítimas/Armadores.",
+        "requisitos": "Antes de solicitar a utilização da infraestrutura portuária, é fundamental que o usuário esteja familiarizado com o Regulamento de Exploração dos Portos – REP.\n\n Esse regulamento estabelece as normas básicas de funcionamento dos portos organizados sob jurisdição da PortosRio (Rio de Janeiro, Niterói, Itaguaí e Angra dos Reis), devendo ser observado por todos que utilizam ou exercem atividades nas instalações portuárias, disponível no link:\n\n [https://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO\\_DE\\_EXPLORACAO\\_DOS\\_PORTOS\\_0.pdf](https://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO_DE_EXPLORACAO_DOS_PORTOS_0.pdf)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/180",
+    "dbId": 8275,
+    "nomeOrgao": "Companhia Docas do Rio de Janeiro (CDRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 163009
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Programação de embarcações no Porto de Itagua",
+        "id": 390426
+      },
+      {
+        "item": "Pedido de Acesso",
+        "id": 390427
+      },
+      {
+        "item": "Cadastro de Navios",
+        "id": 390428
+      },
+      {
+        "item": "",
+        "id": 390429
+      },
+      {
+        "item": "",
+        "id": 390430
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei 12.815 de 2013. \n\n (https://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2013/lei/l12815.htm)",
+        "id": 137960
+      },
+      {
+        "item": "Regulamento de Exploração dos Portos organizados do Rio de Janeiro, Niterói, Itaguaí e Angra dos Reis.\n\n (https://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO\\_DE\\_EXPLORACAO\\_DOS\\_PORTOS\\_0.pdf)",
+        "id": 137961
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "Não há atendimento presencial.",
+  "tratamentoPrioritario": "Não existe uma prioridade estabelecida para atendimento aos usuários e sim uma prioridade na programação das manobras de atracação e desatracação das embarcações que irão utilizar a infraestrutura aquaviária, conforme estabelecido nos artigos 29 e 30 do Regulamento de Exploração dos Portos organizados do Rio de Janeiro, Niterói, Itaguaí e Angra dos Reis.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 228252,
+      "titulo": "Cadastramento do solicitante",
+      "descricao": "Para acesso ao sistema **SILOG**, o agente marítimo deverá:",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301551,
+            "nome": "Solicitar ao setor financeiro da PortosRio, por meio do e-mail **faturamento@portosrio.gov.br**, o cadastramento da Agência Marítima no *Sistema Starsoft Aplication *(SSA), encaminhando os seguintes documentos:\n\n  * Contrato Social e última alteração contratual ou Estatuto;\n * Procuração para fins de solicitação de infraestrutura portuária."
+          },
+          {
+            "id": 301552,
+            "nome": "Solicitar, por e-mail para cadastro.portodeitaguai@portosrio.gov.br, o cadastramento da empresa na base de dados do SILOG. Para realizar o cadastro, informar os seguintes dados da empresa:\n\n  * Número do CNPJ\n * Razão Social\n * Nome Fantasia\n * Tipo de Atividade\n * Tipo de Pessoa"
+          },
+          {
+            "id": 301553,
+            "nome": "Além disso, **informar os dados dos usuários que irão acessar o sistema**, contendo:\n\n  * Nome completo\n * E-mail\n * CPF\n * Telefone"
+          },
+          {
+            "id": 301554,
+            "nome": "Para o cadastro no sistema Porto Sem Papel (PSP), por meio do qual será possível gerar o Documento Único Virtual (DUV), o agente marítimo deve estar previamente cadastrado no sistema **Mercante**, da Receita Federal do Brasil."
+          },
+          {
+            "id": 301555,
+            "nome": "Após essa etapa, deverá ser enviado um e-mail para **cadastro.portodeitaguai@portosrio.gov.br**, com a **ficha de habilitação** devidamente preenchida e anexada, a fim de viabilizar a definição do perfil de acesso ao PSP. No momento do cadastro, devem ser informados os seguintes dados da empresa:\n\n  * CNPJ;\n * Razão social;\n * Situação cadastral;\n * Telefone;\n * CNAE;\n * Endereço;\n * Inscrição Estadual;\n * Inscrição Municipal;\n * E-mail;\n * Nome do executivo-chefe;\n * Cargo do executivo-chefe."
+          },
+          {
+            "id": 301556,
+            "nome": "Além disso, é necessário informar os dados dos empregados habilitados a operar o sistema, incluindo: nome completo, CPF, e-mail, telefone e endereço.\n\n A ficha de habilitação está disponível no site oficial do Porto Sem Papel, no seguinte endereço:  \n <https://concentrador.portosempapel.gov.br/PSP-CDP/public/pages/normas/formularios/formularios.xhtml>"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295589,
+            "tipo": "e-mail",
+            "descricao": "**Plantão: **\n\n ** **[**gerita@portosrio.gov.br**](mailto:gerita@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8656**\n\n **(21) 99383-2520**\n\n ** ****Gerência Aquaviária:**\n\n ** ****Julia.crisostomo@portosrio.gov.br**\n\n ** ****(21) 98881-0601**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228253,
+      "titulo": "Gerar o Documento Único Virtual (DUV) no sistema Porto Sem Papel (PSP)",
+      "descricao": "O DUV é o principal instrumento de formalização da escala de um navio. Antes de concluir o DUV, verificar se os dados da embarcação estão corretos, especialmente o DWT. Em caso de divergências, atualizar o cadastro da embarcação junto à ANTAQ, por meio do link: <https://www.gov.br/portos-e-aeroportos/pt-br/assuntos/transporte-aquaviario/porto-sem-papel/noticias/orientacoes-para-cadastro-de-embarcacoes-inclusao-ou-alteracao>",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301558,
+            "nome": "Para gerar o Documento Único Virtual (DUV) no sistema Porto Sem Papel (PSP), os seguintes dados devem ser informados:\n\n  * Agência de Navegação;\n * CPF do representante da agência;\n * Porto de estadia;\n * Natureza da estadia;\n * Data/hora prevista de chegada ao porto (fundeio);\n * Data/hora prevista de atracação;\n * Local previsto de atracação;\n * Data/hora prevista de desatracação."
+          }
+        ],
+        "casos": [
+          {
+            "id": 45300,
+            "descricao": "Dados da Embarcação",
+            "documento": [
+              {
+                "id": 301557,
+                "codigo": null,
+                "descricao": "** – Importante: antes de gerar o DUV, verificar os dados da embarcação no PSP.**",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295590,
+            "tipo": "web",
+            "descricao": "<https://concentrador.portosempapel.gov.br/portal/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228254,
+      "titulo": "Gerar o anúncio no sistema SILOG",
+      "descricao": "Realizar o anúncio do navio, após a criação do DUV. Para ser validado, o anúncio deverá ser aceito pelo Operador Portuário, pelo Terminal Portuário Arrendado e pela gerência de acesso aquaviário do Porto de Itaguaí/PortosRio. Nos casos de embarcações que apenas irão fundear ou se destinar a Terminais de Uso Privado (TUPs), caberá exclusivamente à gerência de acesso aquaviário realizar a análise e registrar o aceite.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301559,
+            "nome": "As informações necessárias para a geração do anúncio de navio no sistema SILOG estão detalhadas no **item 4.1.2 – Cadastrar Anúncio de Navio**, do módulo **Agente Marítimo**. O manual pode ser acessado por meio do seguinte link:  \n[https://www.portosrio.gov.br/sites/default/files/2023-files/op-mnu-2023006-anuncio-de-navio-agentes-externos\\_0.pdf](https://www.portosrio.gov.br/sites/default/files/2023-files/op-mnu-2023006-anuncio-de-navio-agentes-externos_0.pdf)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295591,
+            "tipo": "web",
+            "descricao": "<https://silog.portosrio.gov.br/silog/default.aspx>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228255,
+      "titulo": "Solicitar a ratificação do DUV no PSP",
+      "descricao": "Solicitar para a gerência de acesso aquaviário. Após receber a ratificação DUV ficará na situação \"Aguardando Solicitação de Atracação\". O usuário da Agência de Navegação deverá preencher as demais informações da estadia convencional da embarcação. Caso ocorra a situação de outra agência assumir a estadia da embarcação após o término da operação, o usuário da Agência Marítima deverá informar o CNPJ desta agência que estará assumindo a estadia no menu \"Características da Estadia\"",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301560,
+            "nome": "Abaixo estão as informações necessárias para **solicitar a ratificação do DUV** no sistema Porto Sem Papel (PSP):\n\n  * Dados da embarcação;\n * Portos de origem e destino;\n * Afretador e armador;\n * Local de atracação;\n * Tipo de contrato;\n * Datas previstas de atracação e desatracação;\n * Calado de proa e popa na entrada e na saída;\n * Tipo de carga;\n * Quantidade a ser movimentada;\n * Tipo de operação"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295592,
+            "tipo": "web",
+            "descricao": "<https://concentrador.portosempapel.gov.br/portal/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228256,
+      "titulo": "Solicitar a atracação e a desatracação no PSP",
+      "descricao": "O usuário deverá confirmar a solicitação de atracação. O DUV estará na situação \"Aguardando Anuências de Atracação\". Após, os Órgãos Anuentes poderão autorizar a atracação ou solicitar novas exigências para a embarcação, caso em que o usuário deverá registrar as informações exigidas. Quando as anuências de atracação forem fornecidas, o DUV passará para a \"Aguardando Atracação\" ou “Aguardando Desatracação”. Programada a atracação/desatracação, o usuário poderá solicitar a reprogramação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301561,
+            "nome": "* Lista de tripulantes;\n * Lista de passageiros;\n * Armas e munições;\n * Características da estadia;\n * Características da embarcação;\n * Informações sanitárias;\n * Provisões de bordo;\n * Manifestos de carga."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295593,
+            "tipo": "web",
+            "descricao": "<https://concentrador.portosempapel.gov.br/portal/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228257,
+      "titulo": "Realizar o Pedido de Manobra no SILOG",
+      "descricao": "A agência marítima irá realizar o Pedido de Manobra no SILOG, das 11 às 14 horas. Após a solicitação dos horários a gerência de acesso aquaviário analisará os horários solicitados pelos agentes marítimos no SILOG, de acordo com o Regulamento dos Portos da CDRJ, e ás 15 horas a programação será publicada no site e os dados também serão inseridos no sistema porto sem papel.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301562,
+            "nome": "* Sentido da manobra: entrada, mudança ou saída;\n * Local de origem;\n * Local de destino;\n * Início da manobra;\n * Indicar se será praticado (Sim ou Não)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295594,
+            "tipo": "web",
+            "descricao": "<https://silog.portosrio.gov.br/silog/default.aspx>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13287",
+      "nome": "Indicar operador portuário da escala da embarcação em porto brasileiro"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/12601",
+      "nome": "Cadastrar usuário no Porto Sem Papel"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1211",
+      "nome": "Obter autorização para estadia de embarcações em portos brasileiros no Porto Sem Papel"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/12603",
+      "nome": "Obter autorização para movimentação de cargas perigosas no Porto Sem Papel"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13283",
+      "nome": "Alterar atracação/passe de saída do porto"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/programar-navios-para-atracar-e-desatracar-no-porto-de-itaguai",
+  "statusDestaque": false
+}

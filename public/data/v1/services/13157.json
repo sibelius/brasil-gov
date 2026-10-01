@@ -1,0 +1,218 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13157",
+  "nome": "Solicitar transferência de titularidade de autorização para operação de terminal",
+  "sigla": "",
+  "descricao": "Nesse serviço o usuário solicita a transferência de titularidade de autorização para operação de terminal, de acordo com a [Resolução ANP Nº 52/2015](https://atosoficiais.com.br/anp/resolucao-n-52-2015).\n\n **Para utilizar esse serviço você deve ter um cadastro como usuário externo do SEI-ANP e ser um agente regulado pela ANP. Para mais informações acesse o serviço \"[Solicitar cadastro como usuário externo no SEI-ANP](http://www.gov.br/pt-br/servicos/cadastrar-usuario-externo-no-sei-anp)\" e \"[Solicitar cadastro de agente regulado](https://www.gov.br/pt-br/servicos/solicitar-cadastro-de-agente-regulado)\"**",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento nº 0800 970 0267.\n\n Página: https://www.gov.br/anp/pt-br/canais\\_atendimento/fale-conosco.\n\n E-mail: faleconosco@anp.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 110911
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93263,
+        "tipo": "Pessoa jurídica que cumpra os requisitos mínimos de caráter técnico, jurídico e econômico, estabelecidos previamente em regulamentação específica da ANP.",
+        "requisitos": "Para que tenha sua autorização concedida é indispensável que o solicitante seja um agente regulado pela ANP. As informações sobre como realizar esse cadastro podem ser encontradas em [\"Solicitar cadastro de agente regulado\"](https://www.gov.br/pt-br/servicos/solicitar-cadastro-de-agente-regulado)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 154811
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Armazenamento"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autorização",
+        "id": 370504
+      },
+      {
+        "item": "Titularidade",
+        "id": 370505
+      },
+      {
+        "item": "Operação de Terminal",
+        "id": 370506
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução ANP nº 52/2015 (https://atosoficiais.com.br/anp/resolucao-n-52-2015)",
+        "id": 128717
+      },
+      {
+        "item": "Resolução ANP nº 960/2023 ([Resolução 960 2023 da ANP BR](https://atosoficiais.com.br/anp/resolucao-n-960-2023-disciplina-a-autorizacao-de-operacao-de-instalacao-de-armazenamento-de-combustiveis-liquidos-automotivos-combustiveis-de-aviacao-solventes-oleos-lubrificantes-basicos-e-acabados-gas-liquefeito-de-petroleo-oleo-combustivel-querosene-iluminante-e-asfaltos-e-a-homologacao-de-contratos-de-cessao-de-espaco-ou-de-carregamento-rodoviario?origin=instituicao)).",
+        "id": 128718
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 216167,
+      "titulo": "Realizar pedido de autorização",
+      "descricao": "O requerente deverá acessar o sistema eletrônico de informação, abrir um novo processo e anexar o pedido de transferência de titularidade de autorização para operação de terminal.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 290506,
+            "nome": "Os documentos necessários estão relacionados no art. 23 da [Resolução 52 2015 da ANP BR](https://atosoficiais.com.br/anp/resolucao-n-52-2015)"
+          }
+        ],
+        "casos": [
+          {
+            "id": 44040,
+            "descricao": "Art. 23 - Solicitação de documentos e informações adicionais",
+            "documento": [
+              {
+                "id": 290505,
+                "codigo": null,
+                "descricao": "§ 2º A ANP analisará a solicitação de transferência de titularidade em um prazo máximo de 60 (sessenta) dias, contados da data de entrega da mesma.\n\n § 3º A ANP poderá solicitar à interessada documentos e informações adicionais e, neste caso, o prazo mencionado no parágrafo 2º do presente artigo passa a ser contado da data de entrega destes.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280855,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216168,
+      "titulo": "Acompanhar o processo eletrônico",
+      "descricao": "Após obter o login, senha e número do processo aberto anteriormente, o usuário poderá acessar o Sistema Eletrônico de Informação e acompanhar o atendimento da demanda realizada. Ao entrar no sistema, localize a opção 'processo intermitente' e forneça o número do processo para prosseguir.\n\n Caso a solicitação seja favorável, a autorização concedida será publicada no [Diário Oficial da União](https://www.in.gov.br/leiturajornal).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280856,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13054",
+      "nome": "Solicitar cadastro de usuário externo no SEI-ANP"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2917",
+      "nome": "Solicitar cadastro de agente regulado"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-transferencia-de-titularidade-de-autorizacao-para-operacao-de-terminal",
+  "statusDestaque": false
+}

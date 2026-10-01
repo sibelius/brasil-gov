@@ -1,0 +1,266 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23813",
+  "nome": "Entrar em contato com o Disque-Notifica.",
+  "sigla": "",
+  "descricao": "Este serviço permite que **profissionais de saúde e cidadãos** realizem a **notificação de doenças, agravos e eventos de notificação compulsória imediata**, bem como comuniquem eventos inesperados ou inusitados e esclareçam dúvidas relacionadas à vigilância em saúde.\n\n O atendimento é realizado por meio do canal telefônico do Disque-Notifica, operado pelo Centro de Informações Estratégicas em Vigilância em Saúde (CIEVS Nacional), com funcionamento ininterrupto.",
+  "flagPortalLogado": "N",
+  "contato": "cievs@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123486
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103213,
+        "tipo": "*  Pessoa usuária do SUS\n\n \n *  Profissionais de saúde",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172694
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172695
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Notificação de doenças",
+        "id": 410971
+      },
+      {
+        "item": "diski notifica",
+        "id": 410972
+      },
+      {
+        "item": "notificação compulsória imediata",
+        "id": 410973
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148500
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 45
+  },
+  "condicoesAcessibilidade": "O(a) usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n     \n\n   Urbanidade; \n\n   Respeito; \n\n   Acessibilidade; \n\n   Cortesia; \n\n   Presunção da boa-fé do usuário; \n\n   Igualdade; \n\n   Eficiência; \n\n   Segurança e \n\n   Ética.",
+  "etapas": [
+    {
+      "id": 240896,
+      "titulo": "Solicitar atendimento pelo Disque-Notifica.",
+      "descricao": "Entrar em contato com o canal telefônico do Disque-Notifica para iniciar o atendimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311048,
+            "tipo": "telefone",
+            "descricao": "0800-644-6645",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240897,
+      "titulo": "Identificar-se e informar a demanda.",
+      "descricao": "Identificar-se ao plantonista do CIEVS Nacional e informar a notificação a ser realizada ou a dúvida a ser esclarecida.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311049,
+            "tipo": "telefone",
+            "descricao": "☎️ Telefone: 0800-644-6645",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240898,
+      "titulo": "Registrar a notificação ou esclarecer a dúvida.",
+      "descricao": "Registrar a notificação de doença, agravo ou evento de interesse em saúde pública, ou receber orientações técnicas conforme a demanda apresentada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311050,
+            "tipo": "telefone",
+            "descricao": "☎️ Telefone: 0800-644-6645",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240899,
+      "titulo": "Receber orientações complementares.",
+      "descricao": "Receber orientações adicionais sobre os procedimentos a serem adotados após a notificação, quando aplicável.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311051,
+            "tipo": "telefone",
+            "descricao": "☎️ Telefone: 0800-644-6645",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "17",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/entrar-em-contato-com-o-disque-notifica",
+  "statusDestaque": false
+}

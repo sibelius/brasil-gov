@@ -1,0 +1,220 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2237",
+  "nome": "Emitir certidão de situação cadastral de plano de saúde",
+  "sigla": "",
+  "descricao": "A emissão de certidão da situação cadastral de um plano de saúde, fornece certidão à operadora com registro na ANS,  que aponta a regularidade cadastral, assim como a situação dos produtos registrados pela operadora no sistema de Registro de Produtos  ( RPS) e  a situação de operação dos produtos (ativo, ativo com comercialização suspensa ou cancelado). É fornecida à operadora para uso em situações como demandas jurídicas, ou para utilização pela mesma em licitações.",
+  "flagPortalLogado": "N",
+  "contato": "ggrep.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.acesso.gov.br/login?client_id=comprova_ans.prod&authorization_id=197d0e4bc6a",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "certidão de situação cadastral de plano de saúde",
+        "id": 97987
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 82970,
+        "tipo": "Operadoras de planos de saúde",
+        "requisitos": "Operadoras de planos de saúde com registro na ANS e que possuam produtos registrados junto à Agência."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-uteis"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A certidão não possui data de validade expressa, pois a modificação do status do produto é dinâmica. Recomenda-se que a operadora requeira a certidão sempre que participar de processo licitatório."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 135956
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "plano de saúde",
+        "id": 329208
+      },
+      {
+        "item": "certidão",
+        "id": 329209
+      },
+      {
+        "item": "situação",
+        "id": 329210
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 534/2022\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?temaId=&diretoriaId=&relevancia=Relevancia&assuntoId=&normaId=7&numero=534&revogada=1&palavra_chave=&publicacao=Igual+a&data_dou=&buscar=&acao=buscar&limit=5&option=com_legislacao&origin=&post=index.php%3Foption%3Dcom_legislacao%26view%3Dlegislacao&view=legislacao)",
+        "id": 114160
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 42,
+    "negativas": 187
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 189460,
+      "titulo": "Solicitação de certidão de situação cadastral de planos de saúde",
+      "descricao": "Protocolizar junto à Agência, através do Peticionamento Eletrônico, disposto no link https://www2.ans.gov.br/ans-idp/,  a solicitação de certidão de situação cadastral de planos de saúde de acordo com a RN 534/2022",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 260194,
+            "nome": "o interessado poderá requerê-la mediante formulário próprio, obtido do sistema de processo administrativo eletrônico disponível no portal operadoras, link https://www2.ans.gov.br/ans-idp/, no sítio institucional da ANS na internet, devendo constar esclarecimentos relativos aos fins e às razões do seu pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 31306,
+            "descricao": "gratuito",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 248258,
+            "tipo": "web",
+            "descricao": "Peticionamento Eletrônico constante no Portal Operadoras\n\n [Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 189461,
+      "titulo": "Encaminhamento de certidão solicitada pela Agência",
+      "descricao": "Encaminhamento pela ANS, da certidão solicitada através do protocolo eletrônico, disposto no portal operadoras, no site da ANS através do link https://www2.ans.gov.br/ans-idp/",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 31307,
+            "descricao": "gratuito",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 248259,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "18",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-situacao-cadastral-de-plano-de-saude",
+  "statusDestaque": false
+}

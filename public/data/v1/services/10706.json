@@ -1,0 +1,316 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10706",
+  "nome": "Obter Assistência Estudantil - IFRR",
+  "sigla": "",
+  "descricao": "Alunos dos cursos técnicos e de graduação que vivam em situação familiar de baixa renda podem receber auxílio para ter condições de continuar com seus estudos. Se este é seu caso, você pode obter Assistência Estudantil através deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Fone: (95) 3624-1224  \n E-mail: [gabinete.reitoria@ifrr.edu.br](mailto:gabinete.reitoria@ifrr.edu.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/3561/servico/10706/solicitar/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "obter",
+        "id": 45272
+      },
+      {
+        "item": "assistência",
+        "id": 45273
+      },
+      {
+        "item": "IFRR",
+        "id": 45274
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 42065,
+        "tipo": "Estudantes",
+        "requisitos": "2. Possuir matrícula regular e preferencialmente ter frequência mínima de 75%\n 4. Ter idade igual ou superior a 18 (dezoito) anos ou 16 (dezesseis) anos, se emancipado (devidamente comprovado) para auxílio moradia"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "10",
+      "max": "30",
+      "unidade": "dias-uteis"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 10,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3561",
+    "dbId": 36745,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia de Roraima (IFRR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 68083
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Assistência Estudantil",
+        "id": 156160
+      },
+      {
+        "item": "Bolsas",
+        "id": 156161
+      },
+      {
+        "item": "Auxílios",
+        "id": 156162
+      },
+      {
+        "item": "IFRR",
+        "id": 156163
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 49702
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 36,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 90731,
+      "titulo": "Realizar inscrição",
+      "descricao": "Acessar o sistema SUAP e preencher o formulário de inscrição, anexando a documentação requerida.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 129188,
+            "nome": "Comprovante de Residência atual (obrigatório)"
+          }
+        ],
+        "casos": [
+          {
+            "id": 12395,
+            "descricao": "Se a pessoa com idade igual ou maior de 18 anos (incluindo o estudante) estiver trabalhando e/ou possuir renda",
+            "documento": [
+              {
+                "id": 129177,
+                "codigo": null,
+                "descricao": "Último contracheque atualizado",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129178,
+                "codigo": null,
+                "descricao": "Carteira de trabalho (CTPS) constando: a página de identificação/qualificação civil, páginas do contrato de trabalho assinada e páginas onde conste o valor atualizado do salário (quando houver);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129179,
+                "codigo": null,
+                "descricao": "Extrato do último pagamento de Benefício ou Aposentadoria (quando houver);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129180,
+                "codigo": null,
+                "descricao": "Comprovante do Registro/Cadastro Formal do Microempreendedor Individual(MEI); (quando houver);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129181,
+                "codigo": null,
+                "descricao": "Declaração de Atividade Informal/Autônomo - disponível em Anexo ao Edital de Seleção(quando houver);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129182,
+                "codigo": null,
+                "descricao": "Declaração de Trabalhador Rural ou Pescador emitida pelos respectivos sindicatos mensurando o ganho mensal (quando houver);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129183,
+                "codigo": null,
+                "descricao": "Declaração Comprobatória de Percepção de Rendimentos – DECORE, feita por contador ou técnico contábil inscrito no CRC;",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 12396,
+            "descricao": "Se a pessoa com idade igual ou maior de 18 anos (incluindo o aluno) NÃO estiver trabalhando e/ou NÃO possuir renda",
+            "documento": [
+              {
+                "id": 129184,
+                "codigo": null,
+                "descricao": "Declaração de que não possui renda, modelo disponível em Anexo ao Edital de Seleção (quando houver);",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 12397,
+            "descricao": "Documentação complementar - opcional",
+            "documento": [
+              {
+                "id": 129185,
+                "codigo": null,
+                "descricao": "Cartão de Programa Social e último extrato do recebimento do Programa, quando houver;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129186,
+                "codigo": null,
+                "descricao": "Certidão de óbito do pai ou da mãe, se for o caso;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 129187,
+                "codigo": null,
+                "descricao": "Se o Imóvel financiado:  \na) Recibo/comprovantes de pagamento de prestações do imóvel financiado.  \nSe Imóvel alugado:  \na) contrato de aluguel;  \nb) recibo/comprovantes de pagamento do aluguel. No caso de não possuir tais documentos, apresentar  \ndeclaração de aluguel assinada pelo proprietário do imóvel conforme modelo em em Anexo ao Edital;",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 115760,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://suap.ifrr.edu.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 115761,
+            "tipo": "presencial",
+            "descricao": "Nas Coordenações e Diretorias de Atividades Estudantis dos campi do IFRR, em caso de dificuldade ou indisponibilidade de acesso ao sistema.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 90732,
+      "titulo": "Receber resultado",
+      "descricao": "Avaliação por parte das Coordenações e das Diretorias de Atividades Estudantis das informações e documentação associadas aos pedidos e consequente divulgação dos resultados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 115762,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://suap.ifrr.edu.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "82",
+  "url": "https://www.gov.br/pt-br/servicos/obter-assistencia-estudantil-ifrr",
+  "statusDestaque": false
+}

@@ -1,0 +1,347 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23471",
+  "nome": "Obter a anotação de alteração de nome, sede ou endereço em pedido ou registro de marca",
+  "sigla": "",
+  "descricao": "A anotação de alteração de nome, sede ou endereço em pedido ou registro de marca é o processo formalizado no Instituto Nacional da Propriedade Industrial (INPI) para atualizar os dados cadastrais do titular de uma marca.\n\n **ALERTA CONTRA FRAUDES: O INPI NÃO ENVIA BOLETOS NEM FAZ COBRANÇAS. LEIA MAIS [AQUI.](https://www.gov.br/inpi/pt-br/central-de-conteudo/alerta-contra-fraudes \"Aqui\")**",
+  "flagPortalLogado": "N",
+  "contato": "<https://www.gov.br/inpi/pt-br/plataforma-integrada-de-atendimento>",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/inpi/pt-br/plataforma-integrada-de-atendimento/logica-dos-servicos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 117189
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98300,
+        "tipo": "Pessoa física ou jurídica solicitante de pedido ou titular de registro de marca, ou seu procurador devidamente constituído por instrumento de mandato.",
+        "requisitos": "É necessário ser cadastrado no Sistema e-INPI."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/382",
+    "dbId": 36783,
+    "nomeOrgao": "Instituto Nacional da Propriedade Industrial (INPI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 163735
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 163736
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 163737
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Marcas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "INPI",
+        "id": 391720
+      },
+      {
+        "item": "Marcas",
+        "id": 391721
+      },
+      {
+        "item": "conformidade de produtos e serviços",
+        "id": 391722
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "<https://www.gov.br/inpi/pt-br/central-de-conteudo/legislacao>",
+        "id": 138354
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460, de 2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "De acordo com o disposto no art. 69-A da Lei nº 9.784, de 29 de janeiro de 1999, o INPI confere trâmite prioritário a idosos, a portadores de deficiência física ou mental, e a portadores de doenças graves.",
+  "tratamentoDispensadoAtendimento": "Assiste aos usuários do INPI: I – obter a proteção de seus dados e informações pessoais, e daqueles considerados sensíveis; II – ter acesso a dados e informações necessárias à tutela judicial ou administrativa de direitos fundamentais, e daqueles relativos à sua pessoa, contidos em registros ou documentos, produzidos ou custodiados pelo INPI, e constantes das bases de dados do Instituto e de suas unidades administrativas; III – acompanhar e monitorar os serviços públicos solicitados ao INPI, evitando, quando possível, a necessidade de atendimento presencial; IV – receber atendimento igualitário, prestado com urbanidade, respeito, cortesia e em linguagem cidadã; V – ter assegurado o recebimento de requerimentos pelos serviços de protocolo, exceto quando o INPI ou suas unidades administrativas forem manifestamente incompetentes; VI – ter assegurada a simplificação de processos e procedimentos de atendimento, com a valorização da jornada e experiência para a obtenção do serviço público.",
+  "etapas": [
+    {
+      "id": 229067,
+      "titulo": "Fazer o login",
+      "descricao": "Após o cadastro, fazer o login no Sistema e-INPI",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302554,
+            "nome": "Ser cadastrado no Sistema e-INPI"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296572,
+            "tipo": "web-inscrever-se",
+            "descricao": "[Inscrever-se](http://www.gov.br/inpi/pt-br/cadastro-no-e-inpi \"Inscrever-se\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229068,
+      "titulo": "Pagar a Guia de Recolhimento da União",
+      "descricao": "Emitir e pagar a Guia de recolhimento da União (relativa ao serviço). Acesse a [Tabela de Retribuições do INPI.](https://www.gov.br/inpi/pt-br/inpi-data/precificacao-dos-servicos/NovaTabeladeRetribuiesINPI_PortariaINPI_Final_20_dez_25.pdf \"Tabela de Retribuições do INPI\")",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302555,
+            "nome": "Ser cadastrado no Sistema e-INPI"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 39602,
+            "descricao": "Serviço 348: Alteração de Nome ,Sede e endereço",
+            "moeda": "R$",
+            "valor": " 50,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296573,
+            "tipo": "web-emitir",
+            "descricao": "[Emitir](https://meu.inpi.gov.br/pag/ \"Emitir\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229069,
+      "titulo": "Peticionar",
+      "descricao": "Acessar o Sistema e-Marcas e preencher o formulário eletrônico",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302556,
+            "nome": "* Dados de identificação do solicitante\n * Numeração da GRU paga (também indicado como “Nosso número” no boleto);\n   * Petição e documentação relativa às alterações de dados do titular."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296574,
+            "tipo": "web-preencher",
+            "descricao": "[Preencher](https://gru.inpi.gov.br/emarcas/ \"Preencher\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229070,
+      "titulo": "Acompanhar o serviço",
+      "descricao": "Para acompanhar o andamento da anotação de alteração de nome, sede ou endereço de pedido ou registro de marca, o usuário deverá consultar o sistema BuscaWeb, e também andamento da petição pela consulta à Revista da Propriedade Industrial (RPI). Para informações mais detalhadas sobre o acompanhamento, observe o item \" Alteração de Nome, razão social, sede ou endereço\" do Manual de Marcas do INPI, disponível em \" Outras Informações\".",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302557,
+            "nome": "Acesso ao Sistema BuscaWeb"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296575,
+            "tipo": "web-acompanhar",
+            "descricao": "[Acompanhar](https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_num_processo.jsp \"Acompanhar\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229071,
+      "titulo": "Tome conhecimento da decisão",
+      "descricao": "A decisão sobre alteração de nome, sede ou endereço de registro de marca será publicada na RPI após o exame da petição em questão. Ela também poderá ser visualizada pelo usuário através do sistema Busca Web do INPI.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302558,
+            "nome": "Acesso à RPI ou ao Sistema Busca Web"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296576,
+            "tipo": "web-consultar",
+            "descricao": "[Consultar](https://revistas.inpi.gov.br/rpi/ \"Consultar\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-a-anotacao-de-alteracao-de-nome-sede-ou-endereco-em-pedido-ou-registro-de-marca",
+  "statusDestaque": false
+}

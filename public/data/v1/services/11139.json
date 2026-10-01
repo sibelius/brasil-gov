@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11139",
+  "nome": "Obter autorização de acesso eventual no Sistema de Segurança Pública Portuária (SSPP)",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá realizar solicitação de acesso eventual para as agências marítimas ou operadores portuários, que atuam no Porto de Santos, para acesso às áreas controladas pela Autoridade Portuária.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Planejamento da Unidade de Segurança\n\n Telefone (13) 3202-6565 Ramais 2070, 2239, 2546, 2570, 2123, 2277.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sspp.portodesantos.com.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128222
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107357,
+        "tipo": "Empresas (agência marítima ou operador portuário habilitado no SSPP) que necessitem de autorização de acesso eventual para acesso às áreas controladas pela Autoridade Portuária.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179352
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Licenças"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "credenciamento",
+        "id": 427356
+      },
+      {
+        "item": "segurança ",
+        "id": 427357
+      },
+      {
+        "item": "sistema",
+        "id": 427358
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Plano de Segurança Pública Portuária do Porto de Santos (PSPP)\n\n Portaria ALF/STS nº 200/2011\n\n [NAP.SUPGP.OPR.003/2023](https://intranet.portodesantos.com.br/docs_codesp/doc_codesp_pdf_site.asp?id=140131)\n\n [Cartilha Instruções Básicas do Sistema de Segurança Pública Portuária](http://sspp.brssz.com.br/)",
+        "id": 153730
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250752,
+      "titulo": "Solicitar acesso eventual",
+      "descricao": "A empresa solicitante deve proceder com a solicitação no Sistema de Segurança Pública Portuária com no mínimo 48 horas de antecedência.\n\n Em caso de atendimento presencial, quando a solicitação eletrônica não é possível, a empresa deve apresentar a documentação descrita na Norma da Autoridade Portuária, devendo estar dentro do número limite de solicitações estipulado nessa norma.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325730,
+            "nome": "Petição disponível na área de downloads do Sistema de Segurança Pública Portuária e documentos nela descritos.\n\n Em caso de solicitação a estrangeiros, apresentar também a devida autorização da Polícia Federal.\n\n Em caso de serviço em embarcação atracada ou fundeada na barra, apresentar também a devida autorização da Receita Federal do Brasil (RFB)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324098,
+            "tipo": "web",
+            "descricao": "Sistema de Segurança Portuária\n\n [Acesse o site](http://sspp.portodesantos.com.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250753,
+      "titulo": "Obter autorização",
+      "descricao": "Após análise e realização dos trâmites internos, o interessado é cientificado quanto a autorização, mediante alteração do status no SSPP.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324099,
+            "tipo": "web",
+            "descricao": "Sistema de Segurança Pública Portuária [Acesse o site](http://sspp.portodesantos.com.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "64",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitacao-de-acesso-eventual-sistema-de-seguranca-publica-portuaria-sspp",
+  "statusDestaque": false
+}

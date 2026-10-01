@@ -1,0 +1,336 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23161",
+  "nome": "Solicitar Transferência de Arma de Fogo entre Caçador Excepcional, Atirador Desportivo e Colecionador",
+  "sigla": "",
+  "descricao": "É o serviço de transferência de propriedade de arma de fogo entre caçadores excepcionais, ou atiradores desportivos, ou colecionadores.",
+  "flagPortalLogado": "N",
+  "contato": "O serviço deve ser solicitado de forma direta na Delegacia de Polícia Federal da circunscrição do requerente por e-mail.\n\n Obtenha outras informações na página principal: [https://www.gov.br/pf/pt-br/assuntos/armas](https://www.gov.br/pf/pt-br/assuntos/armas \"Armas\")",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Transferência entre CACs",
+        "id": 123418
+      },
+      {
+        "item": "Transferência de arma de fogo entre CACs",
+        "id": 123419
+      },
+      {
+        "item": "Transferir arma de fogo entre CACs",
+        "id": 123420
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103147,
+        "tipo": "Caçador Excepcional, Atirador Desportivo e Colecionador.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172567
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Armas de Fogo"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Transferência de arma de fogo para CACs.",
+        "id": 410703
+      },
+      {
+        "item": "Transferir arma de fogo - CACs.",
+        "id": 410704
+      },
+      {
+        "item": "Transferência de propriedade de arma de fogo ",
+        "id": 410705
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148392
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 40,
+    "negativas": 156
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240748,
+      "titulo": "Transferência de arma de fogo para Caçador Excepcional, Atirador Desportivo e Colecionador.",
+      "descricao": "Apresentar requerimento para transferência de arma registrada de propriedade de terceiro com os documentos obrigatórios.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317145,
+            "nome": "documento de identificação pessoal;"
+          },
+          {
+            "id": 317146,
+            "nome": "comprovação de idoneidade e inexistência de inquérito policial ou processo criminal, por meio de certidões de antecedentes criminais das Justiças Federal, Estadual ou Distrital, Militar e Eleitoral - [acesse para localizar as páginas de geração das certidões](https://www.gov.br/pf/pt-br/assuntos/armas/normativos/certidoes-criminais-negativas \"Antecedentes criminais\");"
+          },
+          {
+            "id": 317147,
+            "nome": "comprovante de ocupação lícita;"
+          },
+          {
+            "id": 317148,
+            "nome": "comprovantes de residência fixa;"
+          },
+          {
+            "id": 317149,
+            "nome": "comprovante de capacidade técnica para o manuseio de arma de fogo, expedido por instrutor de armamento credenciado na Polícia Federal;"
+          },
+          {
+            "id": 317150,
+            "nome": "laudo de aptidão psicológica para o manuseio de arma de fogo, fornecido por psicólogo credenciado pela Polícia Federal;"
+          },
+          {
+            "id": 317151,
+            "nome": "declaração de não estar respondendo a inquérito policial ou processo criminal;"
+          },
+          {
+            "id": 317152,
+            "nome": "declaração de segurança do acervo (DSA), de que a sua residência possui cofre ou lugar seguro, com tranca, para armazenamento das armas de fogo desmuniciadas de que seja proprietário, e de que adotará as medidas necessárias para impedir que menor de dezoito anos de idade ou pessoa civilmente incapaz se apodere de arma de fogo sob sua posse ou de sua propriedade;"
+          },
+          {
+            "id": 317153,
+            "nome": "comprovante de pagamento da taxa correspondente ao serviço;"
+          },
+          {
+            "id": 317154,
+            "nome": "documento comprobatório das participações em treinamentos e em competições para o atirador desportivo na forma do artigo 35 do Decreto n. 11.615 de 2023; documento de autorização do Ibama e do proprietário do terreno para caçadores excepcionais; declaração ou laudo de arma de fogo histórica para colecionador;"
+          },
+          {
+            "id": 317155,
+            "nome": "termo de transferência de propriedade."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41184,
+            "descricao": "Taxa de registro de arma de fogo de produtos controlados (Lei n. 10.834, de 29 de dezembro de 2003)",
+            "moeda": "R$",
+            "valor": " 88,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310819,
+            "tipo": "e-mail",
+            "descricao": "Apresentar requerimento para a transferência de arma de fogo entre proprietários com a documentação através de e-mail da [Delegacia da Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias) da respectiva circunscrição.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240749,
+      "titulo": "Realizar o pagamento da taxa",
+      "descricao": "A taxa é gerada através da página do Exército Brasileiro - [Acesse o site](https://www.dfpc.eb.mil.br/index.php/informacoes/sisgcorp/instrucoes-gru) - GRU instruções (Exército Brasileiro).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310820,
+            "tipo": "web",
+            "descricao": "O requerente deve acessar a página do Exército Brasileiro, gerar a taxa e anexar o comprovante de pagamento ao requerimento.\n\n Solicita-se acessar a página do Exército Brasileiro para geração do boleto bancário.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240750,
+      "titulo": "Obter o Certificado de Registro de Arma de Fogo",
+      "descricao": "O Certificado de Registro de Arma de Fogo é encaminhado para o requerente via e-mail ou pode ser solicitada a presença na [Delegacia de Polícia Federal.](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias \"Unidades da Polícia Federal\")",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310821,
+            "tipo": "e-mail",
+            "descricao": "A [Delegacia de Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias \"Unidades da Polícia Federal\") providenciará a respectiva comunicação ao requerente e deixará disponível o Certificado de Registro de Arma de Fogo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240751,
+      "titulo": "Apresentar recurso por indeferimento do pedido",
+      "descricao": "Se o pedido for indeferido, o requerente poderá apresentar recurso contra a decisão através do e-mail da [Delegacia de Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias \"Unidades da Polícia Federal\").",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310822,
+            "tipo": "e-mail",
+            "descricao": "O recorrente poderá encaminhar o recurso via e-mail para a [Delegacia de Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias \"Unidades da Polícia Federal\") e apresentar o recurso com as razões e o número do requerimento indeferido.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/transferir-arma-de-fogo-entre-cacador-excepcional-atirador-desportivo-e-colecionador",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

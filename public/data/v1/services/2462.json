@@ -1,0 +1,245 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2462",
+  "nome": "Emitir certidão de quitação de informações estatísticas do IBGE",
+  "sigla": "",
+  "descricao": "Consiste na emissão de certidões de quitação de informações estatísticas por parte das empresas sobre a sua situação com relação à prestação de informações para as pesquisas do IBGE.",
+  "flagPortalLogado": "N",
+  "contato": "[ibge@ibge.gov.br](mailto:ibge@ibge.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ibge.gov.br/servicos-do-ibge/certidao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 92009
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 78568,
+        "tipo": "Todas as pessoas jurídicas de direito público e privado inscritas no Cadastro Nacional de Pessoa Jurídica (CNPJ).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O prazo de validade de 90 (noventa) dias, estipulado para a Certidão condiciona-se ao não surgimento, durante esse período de qualquer pendência da empresa associada a seu dever de prestar informações estatísticas ao IBGE;"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3",
+    "dbId": 34305,
+    "nomeOrgao": "Fundação Instituto Brasileiro de Geografia e Estatística (IBGE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 127574
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certificado",
+        "id": 310341
+      },
+      {
+        "item": "nada consta do ibge",
+        "id": 310342
+      },
+      {
+        "item": "informações sociais",
+        "id": 310343
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 106062
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 100,
+    "negativas": 172
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 178125,
+      "titulo": "Emitir certidão",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244059,
+            "nome": "CNPJ"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233972,
+            "tipo": "web",
+            "descricao": "<https://www.ibge.gov.br/servicos-do-ibge/certidao>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 178126,
+      "titulo": "Consultar pendências",
+      "descricao": "Se não for possível emitir a certidão de quitação de informações estatísticas do IBGE pela internet, a empresa deverá entrar em contato com o canal de atendimento do IBGE por e-mail a fim de verificar as pendências que impedem a emissão da certidão. Após 3 (três) dias úteis da regularização, a empresa poderá realizar uma nova solicitação de emissão através do Portal do IBGE responsável pelo serviço de emissão de certidões.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244060,
+            "nome": "* Dados pessoais do solicitante: nome completo, cargo na empresa, telefone e e-mail para contato."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233973,
+            "tipo": "e-mail",
+            "descricao": "[ibge@ibge.gov.br](mailto:ibge@ibge.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 178127,
+      "titulo": "Validar a certidão emitida",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244061,
+            "nome": "* Certidão emitida com código"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233974,
+            "tipo": "web",
+            "descricao": "<https://www.ibge.gov.br/servicos-do-ibge/certidao>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "37",
+  "totalSimplifique": "1",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-de-quitacao-de-informacoes",
+  "statusDestaque": true
+}

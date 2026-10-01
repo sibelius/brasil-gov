@@ -1,0 +1,156 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6206",
+  "nome": "Registrar diplomas de faculdades, centros universitários e universidades privadas - UFAM",
+  "descricao": " Instituições privadas de Educação Superior precisam registrar seus diplomas de graduação e pós-graduação junto a Instituições Federais de Ensino Superior para que estes tenham validade. Para registrar diplomas nesta instituição, siga as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "COORDENAÇÃO DE REGISTRO DE DIPLOMAS - 92 3305-1793 - crdproeg@ufam.edu.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "REGISTRO DE FACULDADES PARTICULARES",
+        "id": 5523
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 8901,
+        "tipo": "Cidadãos, Empresas Privadas",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 60
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/465",
+    "dbId": 34336,
+    "nomeOrgao": "Fundação Universidade do Amazonas (UFAM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 14000
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 14001
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 16296,
+      "titulo": "SOLICITAR REGISTRO DO DIPLOMA",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 30948,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 30949,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 30950,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 30951,
+            "nome": "Comprovante de pagamento"
+          },
+          {
+            "id": 30952,
+            "nome": "Diploma"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 1582,
+            "descricao": "TAXA DE REGISTRO DE DIPLOMAS",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": null,
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17890,
+            "tipo": "presencial",
+            "descricao": "COORD. DE REGISTRO DE DIPLOMA",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "44",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufam",
+  "statusDestaque": false
+}

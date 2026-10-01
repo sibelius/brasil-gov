@@ -1,0 +1,152 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2978",
+  "nome": "Consultar acervo da Biblioteca Central do IBRAM",
+  "sigla": "",
+  "descricao": "A Biblioteca Central é especializada em Museologia e áreas correlatas, com cerca de 4 mil volumes. É constituída por livros, periódicos, obras de referência e multimeios, estando disponível para consulta ou estudo, a qualquer usuário interessado. A consulta ao acervo é permitida a todos os usuários por intermédio de um técnico especializado. O acesso às estantes é restrito a funcionários do Cenedom. O usuário deverá assinar a lista de controle de consulta na recepção. Após a consulta, o item deverá ser devolvido no balcão de recepção.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "porcentagemManual": false,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Biblioteca do Cenedom",
+        "id": 2274
+      },
+      {
+        "item": "Biblioteca do IBRAM",
+        "id": 2275
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 3561,
+        "tipo": "Qualquer pessoa pode utilizar este serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "1",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": "",
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100584",
+    "dbId": 36722,
+    "nomeOrgao": "Instituto Brasileiro de Museus (IBRAM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 6770
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cultura, Artes, História e Esportes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "pesquisa",
+        "id": 12701
+      },
+      {
+        "item": "biblioteca",
+        "id": 12702
+      },
+      {
+        "item": "museologia",
+        "id": 12703
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 20,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\\n· Urbanidade;\\n· Respeito;\\n· Acessibilidade;\\n· Cortesia;\\n· Presunção da boa-fé do usuário;\\n· Igualdade;\\n· Eficiência;\\n· Segurança; e\\n· Ética",
+  "etapas": [
+    {
+      "id": 6841,
+      "titulo": "Requerer consulta",
+      "descricao": "Atendimento no balão de empréstimo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 9233,
+            "nome": "Carteira de identidade (RG)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 7099,
+            "tipo": "presencial",
+            "descricao": "**Instituto Brasileiro de Museus - Centro Nacional de Estudos e Documentação da Museologia – Cenedom** - SBN Quadra 2 Lote 8 Bloco N Edifício CNC III – Andar S1 - CEP: 70040-020 Brasília-DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "67",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-acervo-da-biblioteca-central-do-ibram",
+  "servicoIndisponivel": 0,
+  "statusDestaque": false
+}

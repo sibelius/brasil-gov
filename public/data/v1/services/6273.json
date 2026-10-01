@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6273",
+  "nome": "Participar de Processo Seletivo para curso de graduação (SISU) - UFABC",
+  "sigla": "",
+  "descricao": "A inscrição de candidatos a cursos de graduação em universidades federais é realizada através do Sisu (Sistema de Seleção Unificada), sistema informatizado do Ministério da Educação, no qual instituições públicas de ensino superior oferecem vagas para estudantes participantes do Exame Nacional do Ensino Médio (Enem). Os candidatos podem optar pelos cursos da instituição por meio de plataforma do MEC através de login único.\n\n Se você deseja fazer graduação na Universidade, você precisa concorrer a uma vaga no curso escolhido através da plataforma Sistema de Seleção Unificada (sisu.mec.gov.br).",
+  "flagPortalLogado": "N",
+  "contato": "Pró-reitoria de graduação - central.prograd@ufabc.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://enem.inep.gov.br/participante/#!/inicial",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "ENEM, Vestibular, SiSU",
+        "id": 41292
+      },
+      {
+        "item": "Ingresso",
+        "id": 41293
+      },
+      {
+        "item": "Inscrever-se em curso de graduação da UFABC",
+        "id": 41294
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 38864,
+        "tipo": "Cidadãos",
+        "requisitos": "Ter realizado Exame Nacional do Ensino Médio (ENEM)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/84703",
+    "dbId": 34326,
+    "nomeOrgao": "Fundação Universidade Federal do ABC (UFABC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 62610
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Sisu",
+        "id": 143419
+      },
+      {
+        "item": "ingresso",
+        "id": 143420
+      },
+      {
+        "item": "matrícula",
+        "id": 143421
+      },
+      {
+        "item": "graduação",
+        "id": 143422
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 44713
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 30,
+    "negativas": 31
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 83006,
+      "titulo": "Inscrição e realização de prova",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 119036,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 119037,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 106088,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://enem.inep.gov.br/participante/#!/inicial)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 83007,
+      "titulo": "Inscrição",
+      "descricao": "O candidato por meio do login único poderá visualizar as opções de cursos da UFABC para se inscrever.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 106089,
+            "tipo": "web",
+            "descricao": "Â [Acesse o site](https://sisu.mec.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "49",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-graduacao-sisu-ufabc",
+  "statusDestaque": false
+}

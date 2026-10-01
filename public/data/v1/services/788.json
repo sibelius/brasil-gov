@@ -1,0 +1,174 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/788",
+  "nome": "Emitir Certidão de Antecedentes Criminais",
+  "sigla": "",
+  "descricao": "A Certidão Antecedentes Criminais – CAC é um documento que retorna a informação de NADA CONSTA quando não houver registro de decisão condenatória com trânsito em julgado em favor da pessoa consultada.\n\n Não será emitida uma certidão de “consta” neste serviço, pois essa informação dependerá de confirmação presencial junto à Polícia Federal, notadamente em razão do número de homônimos existentes.\n\n Os dados do SINIC são alimentados com os Boletins Individuais Criminais (art. 809 do Código de Processo Penal) e, portanto, destina-se ao registro de cada uma das etapas da persecução penal, tais como indiciamentos, denúncias, condenações ou absolvições, início do cumprimento da pena, dentre outros, envolvendo determinada pessoa que supostamente tenha praticado determinado crime, sendo obrigatoriamente incluídos os crimes de competência da Polícia Judiciária da União e Justiça Federal. Contempla também as informações de Tribunais Superiores, Justiças Estaduais, Polícias Civis e Polícias Penais que em algum momento incluíram no sistema ou enviaram as informações a serem incluídas à Polícia Federal por meio de acordos firmados entre as entidades, **não contemplando** 100 % (cem por cento) das informações desses outros órgãos de persecução penal, sendo necessário, atualmente, a extração de certidões em cada órgão e de cada ente da federação, tendo em vista a não obrigatoriedade legal de envio de informações de todos os órgãos ao sistema gerido pela Polícia Federal, para a obtenção de informações da Justiça Estadual. \n\n No presente serviço, por força do art. 6º da Lei 12.037/2009, apenas são consideradas, para fins civis, as decisões condenatórias com trânsito em julgado:\n\n *Art. 6º É vedado mencionar a identificação criminal do indiciado em atestados de antecedentes ou em informações não destinadas ao juízo criminal, antes do trânsito em julgado da sentença condenatória.*\n\n  \n\n Fornecida para fins civis, a Certidão emitida poderá ser impressa e terá a validade de 90 dias.\n\n Este serviço é gratuito.",
+  "flagPortalLogado": "N",
+  "contato": "No caso de erro no sistema, o requerente deverá enviar uma mensagem eletrônica ao endereço suporte.sinic@pf.gov.br, descrevendo o erro, se possível com a imagem da tela que contém a mensagem da inconsistência apresentada, informando também os dados pessoais e telefone para contato.\n\n  \n\n Informações adicionais no Portal da Polícia Federal em \"ASSUNTOS – ANTECEDENTES CRIMINAIS\" - <https://www.gov.br/pf/pt-br/assuntos/antecedentes-criminais>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.pf.gov.br/epol-sinic-publico/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certidão",
+        "id": 122818
+      },
+      {
+        "item": "Antecedentes Criminais",
+        "id": 122819
+      },
+      {
+        "item": "Nada Consta",
+        "id": 122820
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102663,
+        "tipo": "Todos os cidadãos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "[ ](https://conselhodeusuarios.cgu.gov.br/home)"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171597
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Crimes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certidão",
+        "id": 408652
+      },
+      {
+        "item": "Antecedentes",
+        "id": 408653
+      },
+      {
+        "item": "Criminais",
+        "id": 408654
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei 9051/95](http://www.planalto.gov.br/ccivil_03/Leis/L9051.htm)",
+        "id": 147532
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 28180,
+    "negativas": 23250
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239465,
+      "titulo": "Preencher o formulário.",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309139,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://servicos.pf.gov.br/epol-sinic-publico/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309140,
+            "tipo": "presencial",
+            "descricao": "Unidades descentralizadas da Polícia Federal em todo o país e no exterior.\n\n **Horários e peculiaridades de atendimento nas unidades PF:**\n\n No caso de dúvidas relativas à particularidades locais das unidades de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras, consulte uma [unidade da Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/790",
+      "nome": "Validar Certidão de Antecedentes Criminais"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "55",
+  "totalSimplifique": "2",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-antecedentes-criminais",
+  "statusDestaque": false
+}

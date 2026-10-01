@@ -1,0 +1,182 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23892",
+  "nome": "Consultar Nota Fiscal de Serviço Eletrônica",
+  "sigla": "NFS-e",
+  "descricao": "Consulte todas as notas fiscais emitidas e recebidas, recupere e visualize os documentos fiscais.\n\n Cidadãos e empresas podem realizar a \"Consulta Pública\" para verificar a autenticidade de um documento.\n\n Para Municípios e empresas com alto volume, a consulta também é disponibilizada, permitindo a integração direta com sistemas de gestão e fiscalização.",
+  "flagPortalLogado": "N",
+  "contato": "[Mais informações sobre a NFS-e](https://www.gov.br/nfse/pt-br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.nfse.gov.br/consultapublica",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122797
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102649,
+        "tipo": "* Cidadãos e Empresas (Tomadores e Prestadores).\n * Municípios (via Painel Administrativo ou API de Distribuição).\n * Terceiros interessados (via Consulta Pública com Chave de Acesso).",
+        "requisitos": "**Requisitos: **\n\n Possuir a Chave de Acesso da NFS-e ou dados da DPS."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171558
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171559
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171560
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Consulta NFS-e",
+        "id": 408584
+      },
+      {
+        "item": "DANFSe",
+        "id": 408585
+      },
+      {
+        "item": "Autenticidade",
+        "id": 408586
+      },
+      {
+        "item": "API de Distribuição.",
+        "id": 408587
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)",
+        "id": 147511
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 55,
+    "negativas": 340
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239438,
+      "titulo": "Consultar Nota Fiscal de Serviço Eletrônica (NFS-e)",
+      "descricao": "1. Acesse o Portal da NFS-e.\n\n 2. Para autenticidade: Selecione \"Consulta Pública\" e digite a Chave de Acesso.\n\n 3. O sistema exibirá o Documento Auxiliar (DANFSe) para visualização ou download.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309091,
+            "tipo": "web",
+            "descricao": "[Portal de ServiÃ§os do Contribuinte](http://www.gov.br/nfse)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309092,
+            "tipo": "web",
+            "descricao": "[Integração via API](https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/apis-prod-restrita-e-producao) (API de Distribuição do ADN para softwares contábeis e Prefeituras)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309093,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App NFS-e](https://www.gov.br/pt-br/apps/nfse-mobile) (Consulta de notas tomadas por PF)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "14",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-nota-fiscal-de-servico-eletronica",
+  "statusDestaque": false
+}

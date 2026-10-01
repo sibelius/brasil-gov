@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23483",
+  "nome": "Consultar Histórico de Emissões da CNH",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito – Senatran que consiste na consulta online do histórico de emissões da Carteira Nacional de Habilitação (CNH) do cidadão. Algumas das informações presentes no histórico são:\n\n  * Datas de emissão de CNHs cujo portador do documento seja o usuário logado;\n * Categorias habilitadas;\n * Alterações realizadas;\n * Unidades da federação (UF) emissores.",
+  "flagPortalLogado": "N",
+  "contato": "+ [Central de serviços](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2776)\n + Telefone: 08007282324\n + e-mail: [css.serpro@serpro.gov.br](mailto:css.serpro@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/condutor/consultar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Emissões",
+        "id": 106744
+      },
+      {
+        "item": "Histórico",
+        "id": 106745
+      },
+      {
+        "item": "CNH",
+        "id": 106746
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90012,
+        "tipo": "**Cidadão **que:",
+        "requisitos": "* Possua Carteira Nacional de Habilitação (CNH) válida;\n   * Esteja autenticado no Portal de Serviços SENATRAN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 148919
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Histórico de Emissões",
+        "id": 356939
+      },
+      {
+        "item": "CNH",
+        "id": 356940
+      },
+      {
+        "item": "CDT",
+        "id": 356941
+      },
+      {
+        "item": "Consulta",
+        "id": 356942
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124315
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 276,
+    "negativas": 466
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 208518,
+      "titulo": "Consultar o histórico de emissões da CNH pelo aplicativo da Carteira Digital de Trânsito (CDT) - (Opção 1)",
+      "descricao": "No app da Carteira Digital, faça login e acesse **“Condutor” > “Habilitação”**. É necessário ter a **CNH digital (CNH-e)** baixada no dispositivo. Caso não tenha, aparecerá o aviso para baixá-la — clique em **“Entendi”** e depois em **“Baixar CNH-e”**. Com o documento disponível, selecione **“Histórico de emissões da CNH”** para visualizar as informações.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270977,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App Store](https://apps.apple.com/br/app/carteira-digital-de-tr%C3%A2nsito/id1275057217?l=pt_BR)\n\n [Google Play](https://play.google.com/store/apps/details?id=br.gov.serpro.cnhe&hl=pt_BR&gl=US)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208519,
+      "titulo": "Consultar o histórico de emissões da CNH pelo Portal de Serviços - (Opção 2)",
+      "descricao": "Realizar o login no [Portal de Serviços](https://portalservicos.senatran.serpro.gov.br/#/usuario/painel), SENATRAN com Certificado Digital ou CPF/SENHA. Clique em “Entrar com [gov.br](http://gov.br/)”.\n\n Após fazer o login, localize o bloco “Condutor” e clique em “Consultar Minha Habilitação”.\n\n Após será exibido o histórico de emissões da CNH. Para ver os detalhes de cada uma delas, você deverá clicar na linha correspondente ao documento que deseja consultar.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282324,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270978,
+            "tipo": "web",
+            "descricao": "[Portal de Serviços Senatran](https://portalservicos.senatran.serpro.gov.br/#/condutor/consultar)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "37",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-historico-de-emissoes-da-cnh",
+  "statusDestaque": false
+}

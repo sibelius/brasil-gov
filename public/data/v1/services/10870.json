@@ -1,0 +1,270 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10870",
+  "nome": "Obter restituição de imposto de renda não resgatada no banco",
+  "sigla": "PERES",
+  "descricao": "A restituição de Imposto de Renda de Pessoas Físicas (IRPF) é feita através do processamento da Declaração de Imposto de Renda (DIRPF).\n\n Se a sua restituição de imposto de renda não está correta, ou você não recebeu os valores, consulte o extrato para entender o que aconteceu. Se for o caso, [entregue uma declaração retificadora](https://irpf.cav.receita.fazenda.gov.br/portalmir/) (nova declaração, que corrige a anterior). \n\n Se a restituição estiver na situação \"Disponível para reagendamento\", acesse o site do Banco do Brasil ou entre em contato com a Central de Atendimento do BB por meio dos telefones 4004-0001 (capitais), 0800-729-0001 (demais localidades) e 0800-729-0088 (telefone especial exclusivo para deficientes auditivos.\n\n Utilize este serviço, se a restituição foi depositada, mas você não sacou no banco dentro de 1 ano e os valores retornaram para a Receita Federal.\n\n Porém, se você quer obter restituição de imposto que foi pago indevidamente ou a maior que o devido, depois do processamento da declaração, solicite a restituição pelo sistema web, ou programa, Pedido de Restituição, Ressarcimento ou Reembolso e Declaração de Compensação (PER/DCOMP).",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre restituição, ressarcimento e reembolso](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/restituicao-ressarcimento-reembolso-e-compensacao) \n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://irpf.cav.receita.fazenda.gov.br/portalmir/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124546
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104297,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174340
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Devolução",
+        "id": 415135
+      },
+      {
+        "item": "Restituir",
+        "id": 415136
+      },
+      {
+        "item": "Crédito",
+        "id": 415137
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002#2311139)",
+        "id": 149840
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3084,
+    "negativas": 5632
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 243238,
+      "titulo": "Consultar extrato da declaração",
+      "descricao": "Consulte a situação da sua restituição ou o extrato da sua declaração para entender detalhadamente o processamento .",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314191,
+            "tipo": "web",
+            "descricao": "[Consultar Restituição de IRPF](https://www.restituicao.receita.fazenda.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48657,
+            "descricao": "Para consultar informações mais detalhadas",
+            "canalDePrestacao": [
+              {
+                "id": 314188,
+                "tipo": "web",
+                "descricao": "[Meu Imposto de Renda](https://irpf.cav.receita.fazenda.gov.br/portalmir/)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 314189,
+                "tipo": "aplicativo-movel",
+                "descricao": "[Meu Imposto de Renda](https://apps.apple.com/br/app/meu-imposto-de-renda/id922529225) (App Store)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 314190,
+                "tipo": "aplicativo-movel",
+                "descricao": "[Meu Imposto de Renda](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.irpf) (Google Play)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243239,
+      "titulo": "Solicitar restituição não resgatada no banco",
+      "descricao": "1. Acesse o **Meu Imposto de Renda**\n\n 2. Selecione a opção **Solicitar restituição não resgatada na rede bancária**, que aparece na seção **Restituição e Compensação**.\n\n 3. Informe a conta bancária que será usada para receber os valores. O titular da conta deve ser o próprio contribuinte e a conta deve ser do tipo conta-corrente ou poupança.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314192,
+            "tipo": "web",
+            "descricao": "[Meu Imposto de Renda](https://irpf.cav.receita.fazenda.gov.br/portalmir/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243240,
+      "titulo": "Acompanhar o processamento do pedido",
+      "descricao": "Acompanhe o processamento pelo extrato da declaração. Os valores serão depositados na conta bancária informada no pedido eletrônico realizado na etapa anterior.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314193,
+            "tipo": "web",
+            "descricao": "[Meu Imposto de Renda](https://irpf.cav.receita.fazenda.gov.br/portalmir/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10861",
+      "nome": "Alterar dados bancários para restituição de tributos federais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10966",
+      "nome": "Consultar restituição de imposto de renda"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "35",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-restituicao-de-imposto-de-renda-nao-resgatada-no-banco",
+  "statusDestaque": false
+}

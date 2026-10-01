@@ -1,0 +1,171 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13491",
+  "nome": "Apurar imposto sobre renda variável",
+  "sigla": "ReVar",
+  "descricao": "Calcule o imposto de renda sobre operações de RENDA VARIAVEL realizadas em bolsas de valores , mercadorias e futuros e emita o Documento de Arrecadação de Receitas Federais (DARF) para pagar.\n\n  No ano seguinte, os registros poderão ser importados para sua Declaração de Imposto de Renda (DIRPF), facilitando o preenchimento.\n\n Antes de utilizar o serviço, autorize o compartilhamento das suas informações sobre renda variável com a Receita Federal e vincule sua conta. Basta acessar a área do investidor na B3 (https://www.investidor.b3.com.br), selecionar o serviço “Calculadora da Receita Federal” e assinar o termo de consentimento.\n\n Após a assinatura do termo, o primeiro conjunto de informações pode levar até 30 (trinta) dias para ser recebido. A partir de então, as informações serão atualizadas diariamente. O envio das informações ocorre de forma centralizada pela B3, que é a instituição responsável pela guarda dos ativos.",
+  "flagPortalLogado": "N",
+  "contato": "[Manual de utilização do ReVar](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/renda-variavel/manual)\n\n [Orientações sobre renda variável](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/renda-variavel)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)[  \n](https://www.gov.br/receitafederal/pt-br/canais_atendimento/fale-conosco/cidadao/irpf/declaracao-do-imposto-de-renda)\n\n [Atendimento da B3](https://atendimento.b3.com.br/atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10043",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121952
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102016,
+        "tipo": "Investidor pessoa física, residente no Brasil, cadastrado na bolsa de valores.\n\n Quem poderá usar o ReVar nesta primeira versão?\n\n  * quem autorizar a B3 a compartilhar seus dados com a RFB;\n * quem tenha realizado apenas operações de mercado à vista, exceto ouro como ativo financeiro e que não tenha realizado operações envolvendo aluguel de ativos.",
+        "requisitos": "**Atenção:** o acesso ficará restrito, até dezembro/2024, para quem foi convidado pela Bolsa de Valores - B3 para participar da versão destinada a testes de funcionamento e validação de regras."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170155
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imposto de Renda e Malha Fiscal"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Apuração",
+        "id": 405776
+      },
+      {
+        "item": "B3",
+        "id": 405777
+      },
+      {
+        "item": "Bolsa de valores",
+        "id": 405778
+      },
+      {
+        "item": "Darf",
+        "id": 405779
+      },
+      {
+        "item": "Pagamento",
+        "id": 405780
+      },
+      {
+        "item": "Renda variável",
+        "id": 405781
+      },
+      {
+        "item": "Revar",
+        "id": 405782
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.585/2015](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=67494)",
+        "id": 146010
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.164/2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=134324)",
+        "id": 146011
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 46,
+    "negativas": 82
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237685,
+      "titulo": "Conferir e emitir o Darf",
+      "descricao": "Acesse o canal abaixo, confira o preço médio por meio dos demonstrativos de cálculo importados da B3 e emita o Documento de Arrecadação de Receitas Federais (Darf) para pagar o imposto devido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306863,
+            "tipo": "web",
+            "descricao": "[Minha Renda VariÃ¡vel](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10043)**  \n**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/apurar-imposto-sobre-renda-variavel",
+  "statusDestaque": false
+}

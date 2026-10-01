@@ -1,0 +1,183 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6457",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação e de pós-graduação - UNIRIO",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito graduação ou pós-graduação na Universidade, pode obter o seu diploma (ou 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Diretoria de Políticas, Normatização e Registros Acadêmicos de Graduação - DIPRAG - 21 2542-7996 - diplomas@unirio.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "DIPLOMAS",
+        "id": 125206
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104777,
+        "tipo": "Cidadãos, Estrangeiros",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/260",
+    "dbId": 57780,
+    "nomeOrgao": "Universidade Federal do Estado do Rio de Janeiro (UNIRIO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175211
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 417063
+      },
+      {
+        "item": "Digital",
+        "id": 417064
+      },
+      {
+        "item": "Universidade",
+        "id": 417065
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150435
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 244579,
+      "titulo": "RETIRAR O DIPLOMA",
+      "descricao": "*  Entrar em contato com diplomas@unirio.br, informando nome completo, número de matrícula e curso;  \nPrimeira via - Após o pedido no Portal do Aluno, aguardar o envio de e-mail da SDRU solicitando o comparecimento no endereço e horário de atendimento informados acima para retirar seu diploma, munido de documento de identidade oficial com foto;  \nPara a emissão da 2ª via do diploma, fazer a solicitação no Portal do Aluno (https://ensino.unirio.br/).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320691,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 320692,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41369,
+            "descricao": "Taxa para emissão e registro da 2ª via de diplomas.",
+            "moeda": "R$",
+            "valor": " 100,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316141,
+            "tipo": "presencial",
+            "descricao": "SETOR DE DIPLOMAS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316142,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://ensino.unirio.br/)\n\n A autenticidade do diploma digital da UNIRIO pode ser verificada nesta pÃ¡gina ([Acesse o site](https://diploma.unirio.br/))",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "16",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 16,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-unirio",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

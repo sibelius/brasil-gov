@@ -1,0 +1,241 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11751",
+  "nome": "Solicitar carregamento antecipado",
+  "sigla": "",
+  "descricao": "Carregamento antecipado de mercadorias é uma operação permitida nos Entrepostos do Interior e consiste na entrada de veículos antes dos horários fixados para a abertura dos mercados.",
+  "flagPortalLogado": "N",
+  "contato": "### Para mais informações ou dúvidas sobre este serviço, entre em contato\n\n ### Presencialmente na Administração dos Entrepostos, no horário das 08:00 às 12:00 e das 13:00 às 17:00 - de segunda a sexta-feira ou através do e-mail da Unidade; ou no Departamento de Entrepostos do Interior (DEINT), através do telefone (11) 3643-3747 ou e-mail [deint@ceagesp.gov.br](mailto:deint@ceagesp.gov.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111095
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93421,
+        "tipo": "Permissionários, concessionários, supermercados, hotéis, restaurantes, quitandas, dentre outros, cujo atraso no recebimento das mercadorias possam prejudicar as atividades desenvolvidas e/ou serviços oferecidos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/29415",
+    "dbId": 8326,
+    "nomeOrgao": "Companhia de Entrepostos e Armazéns Gerais de São Paulo  (CEAGESP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 154988
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Antecipação",
+        "id": 371132
+      },
+      {
+        "item": "Cargas",
+        "id": 371133
+      },
+      {
+        "item": "Mercadoria",
+        "id": 371134
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 129025
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 216554,
+      "titulo": "Solicitar antecipação de carregamento",
+      "descricao": "O interessado no carregamento antecipado deverá efetuar o seu cadastro junto à Administração do Entreposto, quando deverá especificar o tipo de veículo (pequeno, médio ou grande).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281310,
+            "tipo": "presencial",
+            "descricao": "Atendimento de segunda a sexta-feira, das 08:00h às 17:00h, na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 216555,
+      "titulo": "Efetuar o pagamento da taxa",
+      "descricao": "O direito para o carregamento antecipado poderá ser adquirido para diárias, quinzena ou mês, variando os valores de acordo com o total de entradas antecipadas, tipo de veículo e em conformidade com a tabela administrativa. Para pagamento da taxa de carregamento antecipado será emitido 01 (um) Boleto ou o valor poderá ser** ****incluído**** na remuneração mensal quando o interessado se tratar de permissionários/concessionário.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 38047,
+            "descricao": "Variável, observando a tabela administrativa, tipo de veículo e quantidade de entrada antecipada",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "0,00",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281311,
+            "tipo": "presencial",
+            "descricao": "Atendimento de segunda a sexta-feira, das 08:00h às 17:00h, na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 216556,
+      "titulo": "Acessar o Entreposto",
+      "descricao": "O interessado deverá apresentar o recibo impresso “ENTRADA ANTECIPADA” na portaria do Entreposto para acessar o mercado e realizar o carregamento antecipado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281312,
+            "tipo": "presencial",
+            "descricao": "Atendimento de segunda a sexta-feira, das 08:00h às 17:00h, na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 40,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-carregamento-antecipado",
+  "statusDestaque": false
+}

@@ -1,0 +1,266 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23817",
+  "nome": "Realizar o diagnóstico de vírus que afetam o trato intestinal",
+  "sigla": "Enterovírus",
+  "descricao": "Este serviço permite que instituições de saúde e laboratórios autorizados solicitem ao **Instituto Evandro Chagas (IEC)** a realização de **diagnóstico laboratorial de enterovírus**, por meio de técnicas de **biologia molecular (RT-qPCR)**.\n\n Ao final do processo, o solicitante recebe o **resultado do exame laboratorial**, que subsidia ações de vigilância epidemiológica, confirmação diagnóstica e tomada de decisão clínica e sanitária.",
+  "flagPortalLogado": "N",
+  "contato": "sevir@iec.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://gal.saude.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123521
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103246,
+        "tipo": "*  Laboratórios Centrais de Saúde Pública (LACEN);\n\n \n *  Instituições de saúde cadastradas no Sistema Gerenciador de Ambiente Laboratorial (GAL);\n\n \n *  Atendimento Médico Unificado da Seção de Epidemiologia do IEC (SEEPI/IEC).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172780
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Realizar o diagnóstico de vírus que afetam o ",
+        "id": 411115
+      },
+      {
+        "item": "Enterovírus",
+        "id": 411116
+      },
+      {
+        "item": " vírus que afetam o trato intestinal ",
+        "id": 411117
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148552
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240964,
+      "titulo": "Solicitar o exame diagnóstico no Sistema GAL",
+      "descricao": "Registrar a solicitação do exame laboratorial de enterovírus no Sistema Gerenciador de Ambiente Laboratorial (GAL).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317502,
+            "nome": "- Ficha de encaminhamento do solicitante, via (GAL)                                     \n\n - Formulário do SINAN (quando aplicável)               \n\n - Ficha Epidemiológica"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311154,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/aids/pt-br/sistemas-de-informacao/gal)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240965,
+      "titulo": "Enviar a amostra biológica ao Instituto Evandro Chagas",
+      "descricao": "A amostra deve ser encaminhada para o Setor de Gerenciamento de Amostras (SEGEA), localizado no Campus Ananindeua-PA, no Instituto Evandro Chagas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311155,
+            "tipo": "presencial",
+            "descricao": "Rodovia BR-316 km 7 s/n - Levilândia - 67030-000 Ananindeua – PA",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240966,
+      "titulo": "Analisar a amostra laboratorialmente",
+      "descricao": "Realizar o processamento da amostra e a análise por técnica de RT-qPCR para identificação de enterovírus.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311156,
+            "tipo": "presencial",
+            "descricao": "Instituto Evandro Chagas",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240967,
+      "titulo": "Disponibilizar o resultado do exame",
+      "descricao": "Disponibilizar o resultado do exame no Sistema GAL para consulta pelo solicitante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311157,
+            "tipo": "web",
+            "descricao": "🌐 Web: Sistema GAL",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-o-diagnostico-de-virus-que-afetam-o-trato-intestinal",
+  "statusDestaque": false
+}

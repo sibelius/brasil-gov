@@ -1,0 +1,494 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6043",
+  "nome": "Matricular-se em curso de graduação - UFPR",
+  "sigla": "",
+  "descricao": "Recepção e análise de documentos para efeivar o registro acadêmico, de acordo com a categoria de concorrência.",
+  "flagPortalLogado": "N",
+  "contato": "NÚCLEO DE CONCURSOS DA UFPR - (41) 3313.8800  www.nc.ufpr.br\n\n COORDENADORIA DE POLÍTICAS DE ACESSO E PERMANÊNCIA - copap.saac@ufpr.br - (41) 3310-2665",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.nc.ufpr.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Registro Acadêmico",
+        "id": 47353
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 43754,
+        "tipo": "Pessoas que foram aprovadas no processo seletivo da UFPR",
+        "requisitos": "Aprovação dentro do número de vagas ofertados no Processo Seletivo vigente"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Guarda permanente em arquivo digital"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/428",
+    "dbId": 57783,
+    "nomeOrgao": "Universidade Federal do Paraná (UFPR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 70928
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Aprovados",
+        "id": 164028
+      },
+      {
+        "item": "Resultado ",
+        "id": 164029
+      },
+      {
+        "item": "UFPR",
+        "id": 164030
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-12-20;9394\n\n https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2012-08-29;12711",
+        "id": 52412
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "Análise dos documentos e deferimento ou não do registro acadêmico",
+  "etapas": [
+    {
+      "id": 94294,
+      "titulo": "Divulgação dos aprovados",
+      "descricao": "Os estudantes aprovados no Processo Seletivo podem acessar o site oficial do Núcleo de Concursos e verificar a relação dos aprovados",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120664,
+            "tipo": "web",
+            "descricao": "[Acesse o sit](https://www.gov.br/../../../../<a'>Acesse o site</a> href='<a href='<a href='<a href='<a href='<a href='<a href='<a href='<a href='<a href='www.nc.ufpr.br'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a>)e [Acesse o site](https://www.gov.br/../../../../<a href=)'>Acesse o site",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 94295,
+      "titulo": "Upload dos documentos",
+      "descricao": "O estudante deve enviar, por meio eletrônico, no site do Núcleo de Concursos os documentos previamente definidos no edital de normatização e no guia do candidato",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 134383,
+            "nome": "Documento de identificação, certidão de nascimento ou casamento, comprovante de situação cadastral no CPF, histórico e declaração de conclusão do ensino médio"
+          }
+        ],
+        "casos": [
+          {
+            "id": 13628,
+            "descricao": "Cotistas",
+            "documento": [
+              {
+                "id": 134382,
+                "codigo": null,
+                "descricao": "Cotistas deverão apresentar documentação específica prevista em edital e no guia do candidato",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120665,
+            "tipo": "web",
+            "descricao": "Entrar em contato com o sistema interativo do Núcleo de Concursos para verificar a situação",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "3",
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 3,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 94296,
+      "titulo": "Análise dos documentos",
+      "descricao": "Uma Comissão de servidores e funcionários devidamente qualificados analisa, em um sistema próprio e específico, os documentos enviados",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 134384,
+            "nome": "Documentos enviados pelos estudantes"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 13830,
+            "descricao": "Avaliador",
+            "moeda": "R$",
+            "valor": " 100,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120666,
+            "tipo": "web",
+            "descricao": "Sistema de Apoio ao Registro Acadêmico ([Acesse o site](https://app.nc.ufpr.br/sistemas/sistemaRegistroAcademico/analise/index.php))",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 94297,
+      "titulo": "Divulgação do resultado provisório",
+      "descricao": "Após a análise, os avaliadores definem se o registro acadêmico foi deferido ou indeferido e esta análise é divulgada no site do Núcleo de Concursos",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120667,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/../../www.nc.ufpr.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 94298,
+      "titulo": "Recurso das solicitações indeferidas e possibilidade de upload de novos documentos",
+      "descricao": "Estudantes que não tiveram a documentação aceita e por isso o registro indeferido podem interpor recurso administartivo no site do Núcleo de Concursos e, se for necessário, também poderão enviar novos documentos para análise",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 134385,
+            "nome": "Documentos faltantes ou não aceitos na análise"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120668,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/../../www.nc.ufpr.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 94299,
+      "titulo": "Análise dos recursos e dos novos documentos enviados",
+      "descricao": "Os avaliadores, em sistema próprio e específico, analisam os recursos e os novos documentos",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 134386,
+            "nome": "Recurso administrativo e documentos enviados para nova análise"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 13831,
+            "descricao": "Se houver necessidade para avaliador/dia",
+            "moeda": "R$",
+            "valor": " 100,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120669,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/../../www.nc.ufpr.br)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 94300,
+      "titulo": "Divulgação do resultado definitivo",
+      "descricao": "Os estudantes que interpuseram recurso têm a oportunidade de verificar se o registro acadêmico foi deferido ou não",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120670,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/../../www.nc.ufpr.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 94301,
+      "titulo": "Disponibilização do Termo de Registro Acadêmico para ao estudantes com registro acadêmico deferido",
+      "descricao": "No caso de registro acadêmico deferido, os estudantes poderão imprimir declaração de Registro Acadêmico, com informações acadêmicas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 120671,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/../../www.nc.ufpr.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "33",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufpr",
+  "statusDestaque": false
+}

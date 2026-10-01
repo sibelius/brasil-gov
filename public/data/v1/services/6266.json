@@ -1,0 +1,251 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6266",
+  "nome": "Obter diploma ou 2ª via de diploma - IFAM",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito um curso no Instituto, pode obter o seu diploma (ou 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Pró-Reitoria de Ensino - 92 3306-0051 - cgra.proen@ifam.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/100910/servico/6266/solicitar/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado",
+        "id": 125517
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105013,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100910",
+    "dbId": 36752,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Amazonas (IFAM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175554
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 418114
+      },
+      {
+        "item": "Primeira",
+        "id": 418115
+      },
+      {
+        "item": "Segunda",
+        "id": 418116
+      },
+      {
+        "item": "Via",
+        "id": 418117
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150738
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 245059,
+      "titulo": "Protocolar solicitação; Receber documento",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321111,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 321112,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317007,
+            "tipo": "presencial",
+            "descricao": "Campus ao qual o aluno é vinculado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317008,
+            "tipo": "telefone",
+            "descricao": "9233060051",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317009,
+            "tipo": "e-mail",
+            "descricao": "cgra.proen@ifam.edu.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317010,
+            "tipo": "web",
+            "descricao": "O discente deve acessar [https://sig.ifam.edu.br/sigaa](https://sig.ifam.edu.br/sigaa \"https://sig.ifam.edu.br/sigaa\"), entrar com login e senha. Em seguida deve escolher o módulo Portal Discente e depois a aba Ensino e posteriormente a opção Diploma Digital.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "31",
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 31,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245060,
+      "titulo": "Receber Diploma",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321113,
+            "nome": "Carteira de identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317011,
+            "tipo": "presencial",
+            "descricao": "Campus no qual o usuário possui o vinculo institucional de sua solicitação.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317012,
+            "tipo": "web",
+            "descricao": "Depois que o discente está de posse de seu documento, pode validar no endereço: [https://sig.ifam.edu.br/sigaa/public/autenticidade/tipo\\_documento.jsf](https://sig.ifam.edu.br/sigaa/public/autenticidade/tipo_documento.jsf \"https://sig.ifam.edu.br/sigaa/public/autenticidade/tipo_documento.jsf\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "31",
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 31,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "82",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-ifam",
+  "statusDestaque": false
+}

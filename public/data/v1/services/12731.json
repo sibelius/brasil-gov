@@ -1,0 +1,199 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12731",
+  "nome": "Transferir Armas entre acervos para Pessoa Física",
+  "sigla": "",
+  "descricao": "Serviço destinado à transferência de armas entre acervos da mesma pessoa, Caçadores, Atiradores Desportivos e Colecionadores.",
+  "flagPortalLogado": "N",
+  "contato": "Informações no site da DFPC:\n\n http://www.dfpc.eb.mil.br",
+  "gratuito": "false",
+  "porcentagemDigital": 50,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 42609
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 39954,
+        "tipo": "Pessoas físicas com Certificado de Registro no Exército para as atividades de Caça, Tiro Desportivo e Colecionamento.",
+        "requisitos": "Possuir registro válido no Exército para as atividades de Caça, Tiro Desportivo e Colecionamento."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 64409
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Armamentos e Explosivos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Acervo",
+        "id": 147675
+      },
+      {
+        "item": "CAC",
+        "id": 147676
+      },
+      {
+        "item": "Transferência",
+        "id": 147677
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 46201
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 63
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 85458,
+      "titulo": "Requerer a transferência de arma de um acervo para outro",
+      "descricao": "Preencher requerimento contendo os documentos obrigatórios para a transferência de armas entre os acervos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 109260,
+            "tipo": "presencial",
+            "descricao": "Apresentar o requerimento para a transferência de arma de um acervo para outro em um dos postos de atendimento do Sistema de Fiscalização de Produtos Controlados.\n\n  http://www.dfpc.eb.mil.br/mapa/\n\n Informações no site da DFPC:\n\n http://www.dfpc.eb.mil.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 85459,
+      "titulo": "Realizar o pagamento",
+      "descricao": "O pagamento poderá ser realizado via Pix, cartão de crédito ou boleto bancário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 12510,
+            "descricao": "Taxa de Apostilamento de Certificado de Registro",
+            "moeda": "R$",
+            "valor": " 50,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 109261,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.dfpc.eb.mil.br/index.php/gru-instrucoes)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "23",
+  "url": "https://www.gov.br/pt-br/servicos/transferir-armas-entre-acervos-para-pessoa-fisica",
+  "statusDestaque": false
+}

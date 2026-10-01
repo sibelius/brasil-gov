@@ -1,0 +1,550 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1079",
+  "nome": "Consultar documentos do acervo do Arquivo Nacional",
+  "sigla": "",
+  "descricao": "Acesso à informação pública contida em documentos guardados pelo Arquivo Nacional.",
+  "flagPortalLogado": "N",
+  "contato": "consultasdf@an.gov.br\n\n  \n\n consultasdf@an.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sian.an.gov.br/sianex/consulta/login.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Arquivo Nacional",
+        "id": 105592
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 88949,
+        "tipo": "Qualquer pessoa",
+        "requisitos": "Assinatura dos Termos de Responsabilidade correspondentes nos casos necessários."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "1",
+      "max": "3",
+      "unidade": "meses"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 1,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308803",
+    "dbId": 58136,
+    "nomeOrgao": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 147323
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 147324
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 147325
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 147326
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Capacitações e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Documentação e Informação",
+        "id": 353247
+      },
+      {
+        "item": "Pesquisa e Memória",
+        "id": 353248
+      },
+      {
+        "item": "Acesso à documentação pública",
+        "id": 353249
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 12.527/2011](http://www.lexml.gov.br/urn/urn:lex:br:rede.virtual.bibliotecas:artigo.revista:2013;1000973764)",
+        "id": 122721
+      },
+      {
+        "item": "[Lei nº 12.528/2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12528)\n\n  \n\n [Lei nº 8.159/1991](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-01-08;8159)",
+        "id": 122722
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 296,
+    "negativas": 304
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 206454,
+      "titulo": "Cadastrar-se",
+      "descricao": "Presencial: cadastramento do usuário mediante apresentação de  \ndocumento de identificação.  \nÀ distância: para acesso ao Sistema de Informação do Arquivo Nacional - SIAN é necessário se cadastrar e aceitar os termos e regras de acesso a informação, assumindo responsabilidade pelo seu uso.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280044,
+            "nome": "Documento de identificação com foto."
+          }
+        ],
+        "casos": [
+          {
+            "id": 43006,
+            "descricao": "Estrangeiro",
+            "documento": [
+              {
+                "id": 280043,
+                "codigo": null,
+                "descricao": "Passaporte",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268426,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268427,
+            "tipo": "telefone",
+            "descricao": "+55 (21) 3952-4300  \n+55 (61) 3774-3713",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268428,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268429,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268430,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268431,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://consulta.an.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268432,
+            "tipo": "e-mail",
+            "descricao": "consultasdf@an.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 206455,
+      "titulo": "Apresentar pedido de consulta",
+      "descricao": "Identificar as informações que quer ter acesso.  \nObs: A rapidez do atendimento dependerá do nível de precisão do pedido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268433,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268434,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268435,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://consulta.an.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268436,
+            "tipo": "e-mail",
+            "descricao": "consultasdf@an.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268437,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268438,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 206456,
+      "titulo": "Complementar Informação (se necessário)",
+      "descricao": "Quando necessário a equipe do Arquivo Nacional entrará em contato com o usuário para pedir informações adicionais para auxiliar a busca.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268439,
+            "tipo": "e-mail",
+            "descricao": "consultasdf@an.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268440,
+            "tipo": "telefone",
+            "descricao": "+55 (21) 3952-4300  \n+55 (61) 3774-3713",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268441,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268442,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 206457,
+      "titulo": "Acessar a informação",
+      "descricao": "O usuário terá acesso às informações contidas nos documentos guardados pelo Arquivo Nacional.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268443,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268444,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268445,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://consulta.an.gov.br/)  \nObs: A visualização da documentação pelo SIAN ocorre apenas para os documentos já digitalizados.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 206458,
+      "titulo": "Solicitar Cópia  ou Transcrição Paleográfica ou Emissão de Certidão (se houver interesse)",
+      "descricao": "O usuário pode solicitar esses serviços, mas o prazo do atendimento e o valor do serviço variará de acordo com o tipo e a quantidade de cópias solicitadas.   \nVer tabela de prazos e custos: (tabela de prazos e custos)\n\n [https://www.gov.br/arquivonacional/pt-br/arquivos%20pdf/Tabela\\_prazos\\_valores\\_2023\\_AN.pdf]",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280045,
+            "nome": "Preenchimento do Formulário de Requisição de Reprodução de Documentos"
+          },
+          {
+            "id": 280046,
+            "nome": "Comprovante de pagamento da Guia de Recolhimento da União - GRU"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 36345,
+            "descricao": "Custo mínimo por unidade",
+            "moeda": "R$",
+            "valor": " 20,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 36346,
+            "descricao": "Custo máximo por unidade",
+            "moeda": "R$",
+            "valor": " 100,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268446,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268447,
+            "tipo": "presencial",
+            "descricao": "Sala de Consultas  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268448,
+            "tipo": "e-mail",
+            "descricao": "consultasdf@an.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268449,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nArquivo Nacional - Sede  \nPraça da República , 173 – Centro –  \nCEP 20211-350 – Rio de Janeiro – RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 268450,
+            "tipo": "postal",
+            "descricao": "Atendimento à distância  \nSuperintendência Regional no Distrito Federal  \nSetor de Indústrias Gráficas, Quadra 6, Lote 800  \nPrédio Anexo da Imprensa Nacional  \nCEP 70610-460 – Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "49",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-documentos-do-acervo-do-arquivo-nacional",
+  "statusDestaque": false
+}

@@ -1,0 +1,322 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1036",
+  "nome": "Obter passaporte diplomático ou oficial",
+  "sigla": "",
+  "descricao": "Trata-se da emissão de passaporte diplomático ou oficial às pessoas que fazem jus ao documento, nos termos do Regulamento de Documentos de Viagem anexo ao Decreto 5.978, de 4 de dezembro de 2006.",
+  "flagPortalLogado": "N",
+  "contato": "Divisão de Documentos e Atos Consulares  \n  \nMinistério das Relações Exteriores  \n  \nEsplanada dos Ministérios - Bloco H  \n  \nCEP 70170-900",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 62748
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 56795,
+        "tipo": "Órgãos, fundações e autarquias públicas",
+        "requisitos": ""
+      },
+      {
+        "id": 56796,
+        "tipo": "Empresas públicas ou Sociedade de economia mista",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "5",
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 5,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/263",
+    "dbId": 37539,
+    "nomeOrgao": "Ministério das Relações Exteriores (MRE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 89084
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 89085
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Brasileiro indo para o exterior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "passaporte diplomático",
+        "id": 216187
+      },
+      {
+        "item": "passaporte oficial",
+        "id": 216188
+      },
+      {
+        "item": "missão internacional",
+        "id": 216189
+      },
+      {
+        "item": "viagem a trabalho",
+        "id": 216190
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Decreto 5.978, de 4 de dezembro de 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5978.htm)",
+        "id": 70693
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 984,
+    "negativas": 1505
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 125159,
+      "titulo": "Preencher formulário eletrônico e requisitar passaporte",
+      "descricao": "O formulário eletrônico deve ser preenchido e, então, o órgão público apresenta, por meio de representante, a documentação necessária à emissão do passaporte.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 174971,
+            "nome": "Carteira de identidade original"
+          },
+          {
+            "id": 174972,
+            "nome": "Certidão de nascimento original"
+          },
+          {
+            "id": 174973,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 174974,
+            "nome": "Ofício original da Assessoria Internacional ou do Gabinete da chefia máxima do órgão solicitante"
+          },
+          {
+            "id": 174975,
+            "nome": "Recibo de Entrega de Requerimento (RER) do formulário preenchido online com os dados do requerente do passaporte e da missão a ser desempenhada, com assinatura do requerente"
+          },
+          {
+            "id": 174976,
+            "nome": "Foto 5x7, recente, colorida e de fundo branco."
+          }
+        ],
+        "casos": [
+          {
+            "id": 23856,
+            "descricao": "Para menores de idade",
+            "documento": [
+              {
+                "id": 174970,
+                "codigo": null,
+                "descricao": "Autorização de emissão de passaporte para menores (a autorização deve ser, para atender a disposições legais, original e com firmas dos genitores ou responsáveis legais reconhecidas por autenticidade).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 161954,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://formulario-autoridades.serpro.gov.br/sci/pages/web/pasofPadipWebInicial.jsf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161955,
+            "tipo": "presencial",
+            "descricao": "Divisão de Documentos e Atos Consulares  \n  \nMinistério das Relações Exteriores   \n  \nEsplanada dos Ministérios - Bloco H   \n  \nCEP 70170-900   \n  \nBrasília - DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161956,
+            "tipo": "presencial",
+            "descricao": "Escritório de Representação do MRE - Rio de Janeiro (ERERIO)   \n  \nAv. Marechal Floriano, 196   \n  \n20080-002 - Rio de Janeiro - RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161957,
+            "tipo": "presencial",
+            "descricao": "Escritório de Representação do MRE - São Paulo (ERESP)   \n  \nRua Estados Unidos, 1342   \n  \n01427-001 - Jardim América - São Paulo - SP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161958,
+            "tipo": "presencial",
+            "descricao": "[Postos da Rede Consular Brasileira no Exterior](http://www.portalconsular.itamaraty.gov.br/rede-consular)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161959,
+            "tipo": "postal",
+            "descricao": "Divisão de Documentos e Atos Consulares  \n  \nMinistério das Relações Exteriores   \n  \nEsplanada dos Ministérios - Bloco H   \n  \nCEP 70170-900   \n  \nBrasília - DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 125160,
+      "titulo": "Retirar passaporte",
+      "descricao": "O representante do órgão retira, depois de 10 dias úteis, os passaportes impressos. O representante do órgão assina recibo de retirada dos documentos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 174977,
+            "nome": "Comprovante do protocolo recebido na entrega dos documentos."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 161960,
+            "tipo": "presencial",
+            "descricao": "Divisão de Documentos e Atos Consulares  \n  \nMinistério das Relações Exteriores   \n  \nEsplanada dos Ministérios - Bloco H   \n  \nCEP 70170-900   \n  \nBrasília - DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161961,
+            "tipo": "presencial",
+            "descricao": "Escritório de Representação do MRE - Rio de Janeiro (ERERIO)   \n  \nAv. Marechal Floriano, 196   \n  \n20080-002 - Rio de Janeiro - RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161962,
+            "tipo": "presencial",
+            "descricao": "Escritório de Representação do MRE - São Paulo (ERESP)   \n  \nRua Estados Unidos, 1342   \n  \n01427-001 - Jardim América - São Paulo - SP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 161963,
+            "tipo": "presencial",
+            "descricao": "[Postos da Rede Consular Brasileira no Exterior](http://www.portalconsular.itamaraty.gov.br/rede-consular)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "40",
+  "totalSimplifique": "0",
+  "simplifiqueSolicitacoes": "0",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "url": "https://www.gov.br/pt-br/servicos/obter-passaporte-diplomatico-ou-oficial",
+  "statusDestaque": false
+}

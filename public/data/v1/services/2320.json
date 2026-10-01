@@ -1,0 +1,234 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2320",
+  "nome": "Obter textos técnico-científicos da área nuclear ou correlatas",
+  "sigla": "",
+  "descricao": "O serviço de atendimento a texto completo destina-se a atender aos pedidos de pesquisadores da área nuclear e correlatas e de alunos da pós-graduação de cursos dos institutos da CNEN e de universidades brasileiras, que não conseguem obter um determinado documento técnico cientifico quer seja por não encontrá-lo ou por não ter acesso para obtê-lo. Através da página da CNEN, o usuário preenche um formulário com a referência bibliográfica do documento que está procurando, e o CIN, através de consultas no seu próprio acervo ou nos das redes de bibliotecas das quais é membro, tenta localizar o documento e disponibilizá-lo para o solicitante.",
+  "flagPortalLogado": "S",
+  "contato": "servir@cnen.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SERVIR",
+        "id": 125825
+      },
+      {
+        "item": "Texto completo de documento técnico científico",
+        "id": 125826
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105240,
+        "tipo": "Qualquer pessoa da comunidade científica nacional (estudantes de pós-graduação, pesquisadores, bibliotecas de universidades, órgãos governamentais etc.) que busque um documento técnico-científico da área nuclear ou correlata.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175904
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "nuclear",
+        "id": 419048
+      },
+      {
+        "item": "pesquisa",
+        "id": 419049
+      },
+      {
+        "item": "texto acadêmico",
+        "id": 419050
+      },
+      {
+        "item": "texto de pesquisa",
+        "id": 419051
+      },
+      {
+        "item": "texto difícil",
+        "id": 419052
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151044
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 245578,
+      "titulo": "Preencher formulário de requisição",
+      "descricao": "Preencher formulário de requisição ou enviar um e-mail contendo referências bibliográficas de interesse para servir@cnen.gov.br.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317639,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2320)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245579,
+      "titulo": "Comprovar direito a isenção ou pagar cópias",
+      "descricao": "São isentos deste pagamento:\n\n  * Servidor ativo ou aposentado, estagiário ou bolsista da CNEN e seus institutos; \n * Servidor ativo ou aposentado de instituições nacionais de pesquisa em C&T; \n * Funcionário ativo ou aposentado de empresas nucleares; \n * Alunos ou professores de cursos de graduação ou pós-graduação na área nuclear;",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 48827,
+            "descricao": "Para requerentes de isenção",
+            "documento": [
+              {
+                "id": 321474,
+                "codigo": null,
+                "descricao": "Documentos comprobatórios da condição que lhe dá direito à isenção.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317641,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2320)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48828,
+            "descricao": "Para requerentes de isenção",
+            "canalDePrestacao": [
+              {
+                "id": 317640,
+                "tipo": "e-mail",
+                "descricao": "servir@cnen.gov.br",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-textos-tecnicos-cientificos-do-campo-da-engenharia-nuclear-ou-areas-correlatas",
+  "statusDestaque": false
+}

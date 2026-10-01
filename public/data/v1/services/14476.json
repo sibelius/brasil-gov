@@ -1,0 +1,406 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/14476",
+  "nome": "Obter Passe livre Interestadual Digital",
+  "sigla": "PASSELIVRE",
+  "descricao": "O Passe Livre Interestadual é a gratuidade no transporte coletivo interestadual de passageiros concedida à pessoa com deficiência comprovadamente carente, nos termos da Lei nº 8.899, de 29 de junho de 1994. \n\n Por meio desta solicitação, o público beneficiário poderá obter a credencial e garantir a gratuidade para o seu acompanhante.\n\n Nos casos em que há a necessidade de acompanhante para os deslocamentos do beneficiário, essa inclusão poderá ser feita a qualquer momento. Para isso, basta que o médico realize o registro da informação.  \n\n O registro deverá ser realizado na área médica, disponível na página inicial do Sistema Passe Livre (https://passelivre.antt.gov.br/), no campo \"Sou médico\".\n\n Os médicos terão acesso ao preenchimento do modelo de atestado de acompanhante constante no sistema do Passe Livre Digital por meio do seu login na plataforma GOV.BR, que verificará sua autenticidade ao fornecer seu CRM para checagem na API do Conselho Federal de Medicina - CFM.\n\n Uma vez que o médico registra a necessidade de acompanhante, assina e realiza o registro do laudo, a credencial é automaticamente atualizada com \"Sim \" no campo \"ACOMPANHANTE\". É dispensado o cadastro prévio do acompanhante, bastando que este apresente documento de identificação, no momento da emissão do bilhete de passagem, para que o requerente consiga viajar acompanhado.",
+  "flagPortalLogado": "N",
+  "contato": "Mais informações sobre o Passe Livre Interestadual podem ser obtidas no link: <https://passelivre.antt.gov.br/> ou pelo telefone 166 (Ouvidoria da Agência Nacional de Transportes Terrestres).",
+  "gratuito": "true",
+  "porcentagemDigital": 85,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://passelivre.antt.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "GRATUIDADE",
+        "id": 127951
+      },
+      {
+        "item": "PASSE LIVRE",
+        "id": 127952
+      },
+      {
+        "item": "PASSE LIVRE PCD",
+        "id": 127953
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107102,
+        "tipo": "O Passe Livre Interestadual é a gratuidade no transporte coletivo interestadual de passageiros concedida à pessoa com deficiência comprovadamente carente, nos termos da Lei nº 8.899, de 29 de junho de 1994.",
+        "requisitos": "Para fazer jus ao benefício do Passe Livre Interestadual, o interessado deverá comprovar, cumulativamente, o atendimento dos dois requisitos: ser pessoa com deficiência e hipossuficiência financeira – renda familiar per capta de até 1 salário-mínimo. \n\n O atendimento aos critérios para concessão do benefício poderá ser realizado de duas maneiras: \n\n 1ª) Ser beneficiário do **Benefício de Prestação Continuada-BPC (código B87)**; **ou**\n\n 2ª) Estar inscrito no **CadÚnico**, com renda per capita de até um salário-mínimo, **e** constar no **Cadastro-Inclusão; ou**\n\n 3ª) Estar inscrito no **CadÚnico**, com renda per capita de até um salário-mínimo, **e **realizar a inserção do **atesto de pessoa com deficiência** por meio do médico no portal** **[***https://passelivre.antt.gov.br***](https://passelivre.antt.gov.br/ \"https://passelivre.antt.gov.br/\") ."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "As solicitações realizadas de forma online resultam no deferimento ou indeferimento imediato do benefício. Já os requerimentos enviados fisicamente para o endereço da Agência Nacional de Transportes Terrestres devem ser analisados dentro de um prazo de 30 dias, prorrogável por igual período.\n\n  \n\n Este serviço é gratuito ao cidadão."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178968
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Passageiros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "PASSE-LIVRE",
+        "id": 426549
+      },
+      {
+        "item": "PCD",
+        "id": 426550
+      },
+      {
+        "item": "ANTT",
+        "id": 426551
+      },
+      {
+        "item": "DEFICIÊNCIA",
+        "id": 426552
+      },
+      {
+        "item": "TRANSPORTE",
+        "id": 426553
+      },
+      {
+        "item": "GRATUIDADES",
+        "id": 426554
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 8.899, de 29 de junho de 1994.",
+        "id": 153485
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 553,
+    "negativas": 316
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250134,
+      "titulo": "Acessar o site do Passe Livre Interestadual",
+      "descricao": "O usuário deve acessar o Site do Passe Livre Digital por meio de navegador web, utilizando computador ou celular. O usuário deve ter acesso à internet para concluir essa etapa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323293,
+            "tipo": "web",
+            "descricao": "Acessar o site do Passe Livre Interestadual no endereço eletrônico [Acesse o site](https://passelivre.antt.gov.br/ \"passelivre.antt.gov.br/\") .",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250135,
+      "titulo": "Realizar Login no GovBr",
+      "descricao": "O usuário deve então utilizar o botão de login no GovBr. Para concluir essa etapa com sucesso, o usuário deve possuir acesso prévio ao GovBr.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323294,
+            "tipo": "web",
+            "descricao": "Realizar login com os dados da conta GOV BR selecionando a opção “Entrar com o GOV BR”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250136,
+      "titulo": "Selecionar a opção \"Obter o Passe Livre\"",
+      "descricao": "No ambiente do site e, após logado com o seu login GovBR, o usuário poderá então iniciar o processo para obtenção do Passe Livre Digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323295,
+            "tipo": "web",
+            "descricao": "No ambiente logado, o requerente será redirecionado para a Página Inicial do Sistema Passe Livre. Nesse novo ambiente, poderá selecionar a opção \"Obter o Passe Livre\".",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250137,
+      "titulo": "Preencher Requerimento",
+      "descricao": "Será disponibilizado ao usuário um Requerimento para que o mesmo valide suas informações e as opções desejadas, quando for o caso. O usuário deverá preencher todas as informações solicitadas e receber a mensagem de envio concluído para concluir esta etapa com sucesso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323296,
+            "tipo": "web",
+            "descricao": "Uma vez atendidos os requisitos para concessão, o requerente poderá clicar na opção \"Preencher Requerimento\", validar as informações registradas e confirmar o envio do pedido.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250138,
+      "titulo": "Emitir Credencial do Passe Livre Digital",
+      "descricao": "Ao término da solicitação, a credencial digital será imediatamente emitida refletindo as informações validadas pelo beneficiário.   \n\n Para acessar a credencial digital, o beneficiário poderá selecionar a opção “Meu Passe Livre” e, em seguida, clicar em “Acessar Credencial”. O documento digital estará disponível para download ou impressão.  \n\n A consulta do benefício poderá ser realizada por meio do site passelivre.antt.gov.br/consultar-credencial, com CPF e nome completo do beneficiário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323297,
+            "tipo": "web",
+            "descricao": "Realizar a Emissão da Credencial por meio da opção “Meu Passe Livre”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250139,
+      "titulo": "Solicitar Credencial do Passe Livre por Correios (Alternativo)",
+      "descricao": "Caso o requerente prefira solicitar o Passe Livre Interestadual via Correios e Telégrafos, siga as instruções disponíveis no link [https://www.gov.br/antt/pt-br/assuntos/passageiros/passageiros-rodoviarios/passe-livre/passe-livre-interestadual/](https://www.gov.br/antt/pt-br/assuntos/passageiros/passageiros-rodoviarios/passe-livre/passe-livre-interestadual/ \"https://www.gov.br/antt/pt-br/assuntos/passageiros/passageiros-rodoviarios/passe-livre/passe-livre-interestadual/\")",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323298,
+            "tipo": "postal",
+            "descricao": "Caso o requerente prefira solicitar o Passe Livre Interestadual via Correios e Telégrafos, siga as instruções disponíveis no link [https://www.gov.br/antt/pt-br/assuntos/passageiros/passageiros-rodoviarios/passe-livre/passe-livre-interestadual/](https://www.gov.br/antt/pt-br/assuntos/passageiros/passageiros-rodoviarios/passe-livre/passe-livre-interestadual/ \"https://www.gov.br/antt/pt-br/assuntos/passageiros/passageiros-rodoviarios/passe-livre/passe-livre-interestadual/\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "meses"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250140,
+      "titulo": "Passo a Passo Atesto de Pessoa com Deficiência",
+      "descricao": "O registro do Atestado de Pessoa com Deficiência no **Passe Livre Interestadual Digital** é realizado diretamente pelo médico, conforme orientações a seguir:\n\n **1. **O médico deverá acessar: [https://passelivre.antt.gov.br](https://passelivre.antt.gov.br/ \"https://passelivre.antt.gov.br/\")\n\n **2. **Na página inicial, deverá selecionar a opção **“Sou médico”**. O acesso é realizado mediante login na conta gov.br, que valida o profissional junto ao Conselho Federal de Medicina (CFM).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325370,
+            "nome": "Ao clicar na opção **“Área Médica”** e, selecionar** “Atestar Deficiência”, **o médico deverá preencher as informações solicitadas, conforme os dados do paciente, incluindo:\n\n  * CPF do requerente;\n * Nome completo;\n * Data de Nascimento;\n * Estado e município;\n  Após o preenchimento, o médico deverá, obrigatoriamente, marcar o checkbox se responsabilizando pela veracidade das informações, a fim de prosseguir com a conclusão do registro, clicando em** \"Enviar\"** e em seguida** \"Confirmar\"**."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323299,
+            "tipo": "web",
+            "descricao": "Apenas pelo canal do Passe Livre.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "64",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-passe-livre-interestadual-digital",
+  "statusDestaque": false
+}

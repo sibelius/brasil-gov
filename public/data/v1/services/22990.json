@@ -1,0 +1,165 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22990",
+  "nome": "Entregar Certificado de Origem Digital",
+  "sigla": "COD",
+  "descricao": "Comprove a origem das mercadorias comercializadas entre países por meio do Certificado de Origem Digital (COD).\n\n O COD é um documento eletrônico que comprova a origem de mercadorias comercializadas entre países. Ele substitui a versão em papel, trazendo mais agilidade, redução de custos e maior segurança e autenticidade das informações.\n\n Criado no âmbito da Aladi (Associação Latino-Americana de Integração), o COD tem como objetivo facilitar o comércio entre os países-membros, tornando o processo de certificação e validação da origem mais eficiente.\n\n Nas importações, o COD é transmitido por meio do Módulo Aduaneiro de Recepção e Validação de Certificados de Origem Digital, conhecido como LPCO (Licença, Permissão, Certificado ou Outro Documento), dentro do Portal Siscomex.",
+  "flagPortalLogado": "N",
+  "contato": "[Manuais importantes](https://www.gov.br/siscomex/pt-br/informacoes/manuais/manuais)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalunico.siscomex.gov.br/portal/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 120864
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101257,
+        "tipo": "Pessoa Física e Pessoa Jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 168550
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 168551
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 168552
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 168553
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificado de Origem",
+        "id": 402621
+      },
+      {
+        "item": "COD",
+        "id": 402622
+      },
+      {
+        "item": "Países-membros",
+        "id": 402623
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.984/2020](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/113361)",
+        "id": 144668
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 236083,
+      "titulo": "Entregar certificado de origem digital",
+      "descricao": "Acesse o Portal Siscomex e selecione o sistema IMP.\n\n No acesso COD, faça o upload do arquivo XML enviado pelo exportador, escolhendo o importador e o arquivo.\n\n A inclusão do COD é obrigatória **antes** do registro da DI.\n\n Clique em “Gerar LPCO” para validar o XML; se correto, o LPCO será criado.\n\n Ao registrar a DI, informe o número do COD na seção “Documento de instrução do despacho”, selecionando “Certificado de Origem Digital (COD).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 304967,
+            "tipo": "web",
+            "descricao": "[Portal Ãšnico Siscomex](https://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/entregar-certificado-de-origem-digital",
+  "statusDestaque": false
+}

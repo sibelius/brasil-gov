@@ -1,0 +1,241 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2256",
+  "nome": "Solicitar o desligamento de RESPONSÁVEL TÉCNICO do RNTRC",
+  "sigla": "",
+  "descricao": "O Responsável Técnico cadastrado no RNTRC por uma Empresa de Transporte de Cargas (ETC) ou Cooperativa de Transporte de Cargas (CTC) que não exerce mais esta função e queira o seu desligamento da ETC ou CTC.",
+  "flagPortalLogado": "N",
+  "contato": "A resposta será enviada ao solicitante por **e-mail** no endereço informado no formulário.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portal.antt.gov.br/documents/359159/0/Form+RT.pdf/61df66ed-d2e9-74ca-7131-8219fa049e27?t=1643823797920&download=true",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 106633
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89788,
+        "tipo": "Responsável Técnico cadastrado no RNTRC",
+        "requisitos": "Preenchimento do formulário de requerimento e enviar em anexo a documentação necessária, para a ANTT."
+      },
+      {
+        "id": 89789,
+        "tipo": "Representante legal da ETC ou CTC",
+        "requisitos": "Preenchimento do formulário de requerimento e enviar em anexo a documentação necessária, para a ANTT."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 148726
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 148727
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 148728
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cadastro",
+        "id": 356518
+      },
+      {
+        "item": "transporte rodoviário",
+        "id": 356519
+      },
+      {
+        "item": "cargas",
+        "id": 356520
+      },
+      {
+        "item": "caminhão",
+        "id": 356521
+      },
+      {
+        "item": "caminhoneiro",
+        "id": 356522
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124197
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 208314,
+      "titulo": "Solicitar o DESLIGAMENTO DE RESPONSÁVEL TÉCNICO do RNTRC",
+      "descricao": "preenchimento do formulário de requerimento e enviar em anexo a documentação necessária, para a ANTT.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 281932,
+            "nome": "Cópia do documento de identidade do Responsável Técnico"
+          },
+          {
+            "id": 281933,
+            "nome": "Certidão simplificada atualizada da junta comercial do estado da sede, ou cópia do Estatuto ou Contrato Social, devidamente registrado na Junta Comercial correspondente, caso o solicitante seja ETC/CTC"
+          },
+          {
+            "id": 281934,
+            "nome": "Cópia da Procuração (Se for o caso)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270735,
+            "tipo": "web",
+            "descricao": "Opção 1 – PREFERENCIALMENTE – pela internet via Sistema Eletrônico de Informações (SEI – peticionamento eletrônico)\n\n Instruções para cadastro e peticionamento no SEI estão na página: <https://portal.antt.gov.br/web/guest/sei> > Arquivos para downloads > Orientações para habilitação e peticionamento\n\n *O processo será disponibilizado para acesso e consulta pelo interessado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270736,
+            "tipo": "postal",
+            "descricao": "Opção 2 – via correspondência \n\n Agência Nacional de Transportes Terrestres \n\n Superintendência de Serviços de Transporte Rodoviário e Multimodal de Cargas – SUROC \n\n Gerência de Registro e Acompanhamento Transporte Rodoviário e Multimodal de Cargas – GERAR \n\n Setor de Clubes Esportivos Sul - SCES, Lote 10, Trecho 3, Projeto Orla, Polo 8 - Brasília – DF CEP: 70.200-003",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208315,
+      "titulo": "Receber ofício de desligamento",
+      "descricao": "A resposta será encaminhada por ofício.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270737,
+            "tipo": "web",
+            "descricao": "A resposta será enviada ao solicitante por **e-mail** no endereço informado no formulário.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-exclusao-do-encargo-de-responsavel-tecnico-no-rntrc",
+  "statusDestaque": false
+}

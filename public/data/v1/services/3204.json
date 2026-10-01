@@ -1,0 +1,187 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3204",
+  "nome": "Emitir Carteira Nacional de Vigilante",
+  "sigla": "CNV",
+  "descricao": "Documento de identificação funcional do vigilante em todo o território nacional. Emitido pela internet através do sistema GESP, e de uso obrigatório em serviço.\n\n Serviço disponível para as empresas especializadas de segurança privada, empresas com serviço orgânico de segurança privada, escolas de formação de vigilantes e sindicatos da categoria de vigilantes cadastrados junto à PF.",
+  "flagPortalLogado": "N",
+  "contato": "* **Horários e peculiaridades de atendimento nas unidades PF:**\n  No caso de dúvidas relativas à particularidades locais das unidades de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras, consulte uma [unidade da Polícia Federal](https://www.gov.br/../../pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias).\n\n  \n\n Para obter mais informações sobre a emissão da CNV enviar e-mail para dicof.cgcsp@dpf.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.dpf.gov.br/gesp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "CNV",
+        "id": 122884
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102711,
+        "tipo": "Empresas especializadas em Segurança Privada, Empresas com Serviço Orgânico de Segurança Privada, Sindicatos da categoria de vigilantes",
+        "requisitos": "As empresas ou sindicatos devem acessar o Sistema GESP para efetuar a emissão da CNV. O documento é expedido em formato de arquivo PDF com QR Code para a verificação de autenticidade. Pode ser impresso em meio papel ou cartão PVC e deve ser entregue ao vigilante para porte exclusivamente em serviço.\n\n *A emissão da 2º via da CNV pode ser efetuada pela empresa de segurança privada onde o vigilante trabalha ou no sindicato da categoria de sua região.*\n\n *Certificado Digital*"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Tempo de validade da CNV foi modificado de 5 para 2 anos pela Portaria 18.045/2023 - DG/PF. Contudo, as CNV já emitidas com a validade anterior de 5 anos permanecerão válidas até o sua data de vencimento ou até a emissão de nova CNV,"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171700
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Segurança Privada"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "vigilante",
+        "id": 408860
+      },
+      {
+        "item": "identificação funcional",
+        "id": 408861
+      },
+      {
+        "item": "carteirinha de vigilante",
+        "id": 408862
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 147613
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3055,
+    "negativas": 1566
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 239575,
+      "titulo": "Emitir nova CNV",
+      "descricao": "A empresa deve acessar o Sistema GESP (link acesso ao sistema GESP: <https://servicos.dpf.gov.br/gesp/>) no menu, CNV, Solicitar.\n\n Preencher os dados da GRU e o CPF do vigilante.\n\n Clicar em Buscar Vigilante.\n\n Conferir se os dados do vigilante estão corretos e clicar em Emitir CNV.\n\n Salvar o arquivo PDF da CNV que será disponibilizada.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 315733,
+            "nome": "O vigilante deve estar em situação regular junto à Polícia Federal (reciclagem em dia) e possuir cadastro atualizado junto ao Sistema GESP."
+          },
+          {
+            "id": 315734,
+            "nome": "GRU paga em nome da empresa que fará a emissão da CNV.\n\n A GRU deve ser preenchida com os dados da empresa (razão social, CNPJ, Endereço) e código de arrecadação específico para esse serviço. Pode efetuado pagamento de valor único correspondente à emissão de várias CNVs\n\n Caso seja necessário solicitar a restituição de GRU paga indevidamente, [clique aqui](https://www.gov.br/requerer-restituicao-de-taxas-ou-multas-da-policia-federal \"clique aqui\")"
+          }
+        ],
+        "casos": [
+          {
+            "id": 47925,
+            "descricao": "Sindicatos",
+            "documento": [
+              {
+                "id": 315732,
+                "codigo": null,
+                "descricao": "Obs.: É necessário informar via e-mail dicof.cgcsp.dpa@pf.gov.br a razão social, CNPJ e UF do sindicato e indicar até 4 representantes com nome completo e CPF.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41043,
+            "descricao": "Taxa de expedição da Carteira Nacional de Vigilante",
+            "moeda": "R$",
+            "valor": " 26,94",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309265,
+            "tipo": "web",
+            "descricao": "[Acesso ao sistema GESP](https://www.gov.br/pf/pt-br/assuntos/seguranca-privada/sistemas)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "66",
+  "totalSimplifique": "17",
+  "simplifiqueSolicitacoes": "17",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-a-carteira-nacional-de-vigilante",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

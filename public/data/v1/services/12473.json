@@ -1,0 +1,198 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12473",
+  "nome": "Digitalizar material bibliográfico",
+  "sigla": "",
+  "descricao": "A Biblioteca do MCTI realiza a digitalização de artigos de periódicos, capítulos de livros entre outros que estejam disponíveis em seu [acervo](http://sophiaweb.mctic.gov.br/index.html).\n\n O material digitalizado é enviado para o e-mail do solicitante, sendo sempre observada a [Lei n. 9.610, de 19/02/1998](http://www.planalto.gov.br/ccivil_03/leis/l9610.htm) (Lei de Direitos Autorais)",
+  "flagPortalLogado": "N",
+  "contato": "[biblioteca@mcti.gov.br](mailto:biblioteca@mcti.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sophiaweb.mctic.gov.br/index.html",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Digitalização",
+        "id": 32336
+      },
+      {
+        "item": "Cópia digital",
+        "id": 32337
+      },
+      {
+        "item": "Reprodução de publicações",
+        "id": 32338
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31711,
+        "tipo": "A digitalização pode ser solicitada por qualquer cidadão.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50716
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Digitalização",
+        "id": 114102
+      },
+      {
+        "item": "Cópia",
+        "id": 114103
+      },
+      {
+        "item": "Reprodução",
+        "id": 114104
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33025
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 66398,
+      "titulo": "Consultar o Acervo Bibliográfico",
+      "descricao": "O catálogo do acervo bibliográfico poderá ser pesquisado no sítio da [Biblioteca MCTI](http://sophiaweb.mctic.gov.br/index.html).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85414,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sophiaweb.mctic.gov.br/index.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 66399,
+      "titulo": "Solicitar digitalização de publicações",
+      "descricao": "No texto da solicitação deve conter o nome completo, CPF e contato (telefone e email) do solicitante, bem como a descrição clara do material a ser digitalizado.\n\n Na descrição da solicitação deve conter as seguintes informações da publicação que podem ser verificadas no [catálogo do acervo](http://sophiaweb.mctic.gov.br/index.html) da Biblioteca do MCTI:\n\n  * Título;\n * Autor;\n * Ano;\n * Edição;\n * Capítulo/artigo a ser digitalizado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85415,
+            "tipo": "e-mail",
+            "descricao": "[biblioteca@mcti.gov.br](mailto:biblioteca@mcti.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/digitalizar-material-bibliografico",
+  "statusDestaque": false
+}

@@ -1,0 +1,177 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13151",
+  "nome": "Consultar Meu Imposto de Renda",
+  "sigla": "",
+  "descricao": "Consulte a situação do seu imposto de renda desse ano e de anos anteriores junto à Receita Federal.\n\n Por meio dos serviços você pode fazer sua declaração; consultar as declarações entregues e recibos; consultar débitos e emitir o Documento de Arrecadação de Receitas Federeis (Darf) para pagamento do imposto de renda devido ou programar o débito automático; consultar seus rendimentos informados por fontes pagadoras.\n\n Você também pode, dentre outros serviços, verificar as pendências, caso tenha caído na malha fina e retificar sua declaração, ou ainda melhor, verificar se você está na fila da restituição.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre o imposto de renda](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/)\n\n [Regras de uso do app para celulares e tablets](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/preenchimento/limites)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://mir.receita.fazenda.gov.br/portalmir",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122793
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102645,
+        "tipo": "Contribuinte ou seu representante.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171550
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imposto de Renda e Malha Fiscal"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DIRPF",
+        "id": 408571
+      },
+      {
+        "item": "Restituição",
+        "id": 408572
+      },
+      {
+        "item": "Malha Fina",
+        "id": 408573
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.178/2024](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=136488)",
+        "id": 147507
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10566,
+    "negativas": 16340
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239434,
+      "titulo": "Consultar Meu Imposto de Renda",
+      "descricao": "Consulte o todos as informações do seu imposto de renda desse ano e de anos anteriores.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309084,
+            "tipo": "web",
+            "descricao": "[Meu Imposto de Renda](https://mir.receita.fazenda.gov.br/portalmir)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309085,
+            "tipo": "aplicativo-movel",
+            "descricao": "[ App Receita Federal](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/app/rfb)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10942",
+      "nome": "Declarar meu imposto de renda"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10947",
+      "nome": "Obter cópia de rendimentos informados por fontes pagadoras"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10966",
+      "nome": "Consultar restituição de imposto de renda"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11055",
+      "nome": "Apurar carnê-leão"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "39",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-meu-imposto-de-renda",
+  "statusDestaque": false
+}

@@ -1,0 +1,264 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23818",
+  "nome": "Solicitar  a Caderneta de Saúde do Adolescente",
+  "sigla": "",
+  "descricao": "Este serviço permite a **adolescentes, responsáveis legais, profissionais de saúde e gestores** obter a **Caderneta de Saúde do Adolescente**, instrumento do Ministério da Saúde destinado à promoção da saúde, ao acompanhamento do crescimento e desenvolvimento, à prevenção de doenças e à garantia de direitos da população adolescente de 10 a 19 anos.\n\n A Caderneta é disponibilizada gratuitamente pelo Sistema Único de Saúde (SUS), em versões específicas para meninas e para meninos, e pode ser acessada nos formatos **impresso** e **digital**.",
+  "flagPortalLogado": "N",
+  "contato": "dgci@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_saude_adolescente_masculino_4ed1rempr.pdf",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123539
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103263,
+        "tipo": "*  Adolescentes e jovens (10 a 19 anos)\n\n \n *  Responsáveis legais\n\n \n *  Profissionais de saúde\n\n \n *  Gestores do SUS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172818
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "caderneta",
+        "id": 411190
+      },
+      {
+        "item": "caderneta do adolescente",
+        "id": 411191
+      },
+      {
+        "item": "caderneta de saúde",
+        "id": 411192
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148586
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240995,
+      "titulo": "Solicitar a Caderneta de Saúde do Adolescente",
+      "descricao": "Solicitar a caderneta conforme o perfil do solicitante:\n\n  *  **Gestores:** solicitar o arquivo digital para impressão ou a versão impressa ao Ministério da Saúde.\n\n \n *  **Usuários:** solicitar a caderneta em uma Unidade Básica de Saúde (UBS) ou acessar a versão digital no site do Ministério da Saúde.\n\n \n    \nPARA O USUÁRIO: A caderneta pode ser solicitada nas Unidades Básicas de Saúde (UBS) ou acessada no formato digital no site do Ministério da Saúde.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311197,
+            "tipo": "presencial",
+            "descricao": "Unidades Básicas de Saúde (UBS)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240996,
+      "titulo": "Validar a solicitação",
+      "descricao": "Verificar as informações da solicitação e a disponibilidade da Caderneta de Saúde do Adolescente no formato solicitado (digital ou impresso).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311198,
+            "tipo": "presencial",
+            "descricao": "Unidades Básicas de Saúde (UBS)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240997,
+      "titulo": "Disponibilizar a caderneta",
+      "descricao": "Disponibilizar a Caderneta de Saúde do Adolescente ao solicitante, em formato digital ou impresso, conforme o canal utilizado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311199,
+            "tipo": "presencial",
+            "descricao": "Unidades Básicas de Saúde (UBS)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240998,
+      "titulo": "Utilizar a caderneta para acompanhamento em saúde",
+      "descricao": "Utilizar a caderneta para registrar e acompanhar informações sobre crescimento, desenvolvimento, vacinação e cuidados em saúde do adolescente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311200,
+            "tipo": "presencial",
+            "descricao": "Presencial: Unidades Básicas de Saúde (UBS)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "56",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/ofertar-a-caderneta-de-saude-da-adolescente-caderneta-de-saude-do-adolescente",
+  "statusDestaque": false
+}

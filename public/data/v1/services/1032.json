@@ -1,0 +1,312 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1032",
+  "nome": "Reclamar contra serviço ou produto de empresas privadas - Consumidor.gov.br",
+  "sigla": "",
+  "descricao": "O Consumidor.gov.br é um serviço público que permite a interlocução direta entre consumidores e empresas para solução de conflitos de consumo pela internet. O consumidor registra sua reclamação, a empresa trata e responde, a Senacon e os Procons monitoram, e por fim, o consumidor avalia o atendimento da empresa. O serviço pode ser acessado via internet ou aplicativo móvel.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas, favor utilizar o suporte da plataforma [Consumidor.gov.br](https://consumidor.gov.br/pages/faleconosco/externo/novo).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.consumidor.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Consumidor.gov.br",
+        "id": 106942
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90146,
+        "tipo": "Cidadãos e Famílias",
+        "requisitos": ""
+      },
+      {
+        "id": 90147,
+        "tipo": "Empresas privadas",
+        "requisitos": ""
+      },
+      {
+        "id": 90148,
+        "tipo": "Órgãos e entidades do Sistema Nacional de Defesa do Consumidor",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 149135
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 149136
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 149137
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Mediação e Negociação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "reclame aqui",
+        "id": 357407
+      },
+      {
+        "item": "reclamação",
+        "id": 357408
+      },
+      {
+        "item": "proteção ao consumidor",
+        "id": 357409
+      },
+      {
+        "item": "avaliação de serviços",
+        "id": 357410
+      },
+      {
+        "item": "denúncia contra empresas",
+        "id": 357411
+      },
+      {
+        "item": "PROCON",
+        "id": 357412
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124510
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1589,
+    "negativas": 2283
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 208916,
+      "titulo": "Cadastrar-se no Consumidor.gov.br",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282685,
+            "nome": "CPF"
+          },
+          {
+            "id": 282686,
+            "nome": "Dados pessoais, de residência e de contato"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271436,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://consumidor.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 271437,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Google Store - Android](https://play.google.com/)  \n[Apple Store - iOS](https://www.apple.com/br/app-store/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208917,
+      "titulo": "Registrar a reclamação.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282687,
+            "nome": "Documentos relacionados à relação de consumo (nota fiscal, contrato, comprovantes de pagamento, boletos, etc)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271438,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://consumidor.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 271439,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Google Store - Android](https://play.google.com/)  \n[Apple Store - iOS](https://www.apple.com/br/app-store/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208918,
+      "titulo": "Avaliar o atendimento.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282688,
+            "nome": "Nenhum"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271440,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://consumidor.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 271441,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Google Store - Android](https://play.google.com/)  \n[Apple Store - iOS](https://www.apple.com/br/app-store/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "41",
+  "totalSimplifique": "6",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "5",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/reclamar-contra-servico-ou-produto-de-empresas-privadas",
+  "statusDestaque": false
+}

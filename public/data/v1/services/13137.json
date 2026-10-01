@@ -1,0 +1,211 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13137",
+  "nome": "Solicitar autorização para realizar Testes de Longa Duração e extensão Testes Formação em Poço Revestido - Fase Exploração",
+  "sigla": "TLD e TFR",
+  "descricao": "Consiste em receber dos operadores de contrato de concessão, partilha e cessão onerosa o documento referente a solicitação para realização de Teste de Longa Duração (TLD) ou da extensão de Teste de Formação em Poço Revestido (TFR). Após a análise do documento, pode ser autorizado por meio de despacho do Superintendente de Exploração.\n\n Mais informações sobre esse serviço podem ser encontrados em [Teste de Poço - Agência Nacional de Petróleo de Biocombustíveis](https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/gestao-de-contratos-de-e-p/orientacoes-aos-concessionarios-e-contratados/teste-de-poco)\n\n **Para utilizar esse serviço você deve ter um cadastro como usuário externo do SEI-ANP. Para mais informações acesse o serviço \"[Solicitar cadastro como usuário externo no SEI-ANP](http://www.gov.br/pt-br/servicos/cadastrar-usuario-externo-no-sei-anp)\".**",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento ANP: 0800 970 0267",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "TLD",
+        "id": 65080
+      },
+      {
+        "item": "TFR",
+        "id": 65081
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 58712,
+        "tipo": "Operadores de Contrato de Concessão, Partilha e Cessão Onerosa.",
+        "requisitos": "Cumprir os requisitos definidos em contrato de E&P e em [Teste de Poço - Agência Nacional de Petróleo de Biocombustíveis](https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/gestao-de-contratos-de-e-p/orientacoes-aos-concessionarios-e-contratados/teste-de-poco)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 92186
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exploração e Produção"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Teste de Formação em Poço Revestido ",
+        "id": 223994
+      },
+      {
+        "item": "Teste de de Longa Duração ",
+        "id": 223995
+      },
+      {
+        "item": "Fase de Exploração ",
+        "id": 223996
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Contrato da Rodada de Licitação Específica  (https://www.gov.br/anp/pt-br/rodadas-anp/rodadas-concluidas).",
+        "id": 73696
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 130038,
+      "titulo": "Protocolar solicitação",
+      "descricao": "Acessar SEI, anexar carta de solicitação em processo pré existente a etapa vinculada (PAD ou PEM).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 181803,
+            "nome": "**Para TLD:**\n\n  * Previsão de início;\n * Cálculo dos tempos de fluxo e estática com base nos dados existentes;\n * Programa de abertura gradativa do poço com acompanhamento de razão de gás-óleo (RGO) e o quociente entre a vazão de água mais os sedimentos que estão sendo produzidos e a vazão total de liquido e sedimentos (BSW);\n * Cálculos de vazão limite nos casos de reservatórios com capa de gás e/ou aquífero;"
+          },
+          {
+            "id": 181804,
+            "nome": "* Cálculo preliminar da reserva a partir dos dados disponíveis;\n * Demonstração de que a produção durante o teste não será significativa em relação à reserva total prevista;\n * Demonstração de que a produção prevista para o teste não afetará as condições originais do reservatório no que concerne à conservação de energia, recuperação final e produtividade dos poços;"
+          },
+          {
+            "id": 181805,
+            "nome": "* Programação de tomadas de pressão ou da utilização de registrador de fundo em tempo real com leitura instantânea de dados;\n * Estabelecimento prévio do limite máximo de depleção para o reservatório com relação à pressão de saturação e pressão original."
+          },
+          {
+            "id": 181806,
+            "nome": "**Para TFR:**\n\n  * Informações do teste, cronograma e justificativas."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 168409,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 130039,
+      "titulo": "Acompanhar o processo",
+      "descricao": "Após obter o login, senha e número do processo aberto anteriormente, será possível acessar o Sistema Eletrônico de Informação e acompanhar o atendimento da demanda realizada. Ao entrar no sistema, localize a opção 'processo intermitente' e forneça o número do processo para prosseguir.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 168410,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13054",
+      "nome": "Solicitar cadastro de usuário externo no SEI-ANP"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/autorizacao-da-realizacao-de-testes-de-longa-duracao-tld-e-da-extensao-de-testes-de-formacao-em-poco-revestido-tfr-durante-a-fase-de-exploracao",
+  "statusDestaque": false
+}

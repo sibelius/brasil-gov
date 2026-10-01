@@ -1,0 +1,171 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7877",
+  "nome": "Solicitar Exclusão de Empréstimo Consignado",
+  "sigla": "",
+  "descricao": "Serviço para  pedir a exclusão ou cancelamento de empréstimo consignado do benefício no INSS.\n\n **Atenção! As reclamações e denúncias** sobre empréstimo consignado, assim como o pedido de exclusão de empréstimo, **devem ser feitas direto no [Portal do Consumidor](https://consumidor.gov.br/pages/principal/?1686592063067 \"Portal do Consumidor\").**",
+  "flagPortalLogado": "N",
+  "contato": "Pelo telefone 135 ou  \n[Meu INSS](https://meu.inss.gov.br/central/#/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.consumidor.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125440
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104944,
+        "tipo": "Cidadão que alega não ter contratado o empréstimo consignado.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934",
+    "dbId": 36802,
+    "nomeOrgao": "Instituto Nacional do Seguro Social (INSS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175459
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicações e Requerimentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "empréstimo",
+        "id": 417873
+      },
+      {
+        "item": "exclusão",
+        "id": 417874
+      },
+      {
+        "item": "cobrança indevida",
+        "id": 417875
+      },
+      {
+        "item": "consignado",
+        "id": 417876
+      },
+      {
+        "item": "cancelar",
+        "id": 417877
+      },
+      {
+        "item": "cancelamento",
+        "id": 417878
+      },
+      {
+        "item": "excluir",
+        "id": 417879
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150630
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1256,
+    "negativas": 922
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 244927,
+      "titulo": "Solicitar o serviço",
+      "descricao": "* Acesse a página do [Portal do Consumidor](https://consumidor.gov.br/pages/principal/?1686592063067)\n * Leia o texto que aparece na tela e avance seguindo as instruções",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320984,
+            "nome": "**Da pessoa titular:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316743,
+            "tipo": "web-consultar",
+            "descricao": "[Portal do Consumidor](http://www.consumidor.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "58",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-exclusao-de-emprestimo-consignado",
+  "statusDestaque": false
+}

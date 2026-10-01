@@ -1,0 +1,253 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22293",
+  "nome": "Doar materiais informacionais à Biblioteca Setorial do Centro de Ciência e Tecnologia em Energia e Sustentabilidade - UFRB",
+  "sigla": "",
+  "descricao": "A doação de materiais informacionais consiste na transferência pelo doador de materiais como livros, revistas, etc.",
+  "flagPortalLogado": "N",
+  "contato": "Núcleo de Biblioteca Setorial \n\n Rua Godofredo Rebello de Figueiredo Filho, 697, SIM, Feira de Santana – BA, 44085-132",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://ufrb.edu.br/bibliotecacetens/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 96835
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 82222,
+        "tipo": "- Estudantes;\n\n - Professores;\n\n - Técnicos-Administrativos;\n\n - Qualquer Pessoa (física ou jurídica).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/84710",
+    "dbId": 57785,
+    "nomeOrgao": "Universidade Federal do Recôncavo da Bahia (UFRB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 134308
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 134309
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 134310
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 134311
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Material de Pesquisa"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Acervo",
+        "id": 326219
+      },
+      {
+        "item": "Doação",
+        "id": 326220
+      },
+      {
+        "item": "Títulos",
+        "id": 326221
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 113201
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 187036,
+      "titulo": "Consultar o interesse da Biblioteca",
+      "descricao": "Elaborar relação dos livros para pré-seleção, em listagem única, descrevendo o nome do autor, título, edição, editora, volume e ano, enviar para o e-mail da Biblioteca do CETENS.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 245277,
+            "tipo": "e-mail",
+            "descricao": "[biblioteca@cetens.ufrb.edu](mailto:biblioteca@cetens.ufrb.edu)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 187037,
+      "titulo": "Aguardar confirmação da Biblioteca",
+      "descricao": "Os servidores da biblioteca enviarão resposta por e-mail confirmando ou não o aceite do material.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 245278,
+            "tipo": "e-mail",
+            "descricao": "Aguardar recebimento de e-mail da Biblioteca do CETENS.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 187038,
+      "titulo": "Enviar material aceito para a Biblioteca",
+      "descricao": "O usuário deverá preencher o formulário de doação e apresentar o material doado e o formulário na Biblioteca do CETENS.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 245279,
+            "tipo": "web-preencher",
+            "descricao": "<https://www.ufrb.edu.br/bibliotecacetens/documentos/category/1-formularios>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 245280,
+            "tipo": "presencial",
+            "descricao": "Núcleo de Biblioteca Setorial \n\n Rua Godofredo Rebello de Figueiredo Filho, 697, SIM, Feira de Santana – BA, 44085-132",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/doar-materiais-informacionais-a-biblioteca-setorial-do-centro-de-ciencia-e-tecnologia-em-energia-e-sustentabilidade-ufrb",
+  "statusDestaque": false
+}

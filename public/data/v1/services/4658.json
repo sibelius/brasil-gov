@@ -1,0 +1,257 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/4658",
+  "nome": "Solicitar Alteração Estatutária de Entidade Sindical",
+  "sigla": "SA",
+  "descricao": "Procedimento de alteração de categoria e base territorial abrangida por entidade sindical registrada no Cadastro Nacional de Entidades Sindicais – CNES.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail:  [atendimento.cgrs@trabalho.gov.br](mailto:atendimento.cgrs@economia.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cnes.trabalho.gov.br/app/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 97838
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 82862,
+        "tipo": "Entidades sindicais (Sindicatos, Federações e Confederações), que estejam com o cadastro ativo e o mandato da diretoria atualizado no Sistema CNES - Cadastro Nacional de Entidades Sindicais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "1",
+      "unidade": "horas"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 135665
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 135666
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 135667
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 135668
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para outras entidades"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Alteração estatutária",
+        "id": 328799
+      },
+      {
+        "item": "Solicitação de SA",
+        "id": 328800
+      },
+      {
+        "item": "Pedido de alteração estatutária",
+        "id": 328801
+      },
+      {
+        "item": "Solicitação de Alteração Estatutária",
+        "id": 328802
+      },
+      {
+        "item": "Pedido de SA",
+        "id": 328803
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[CF/1988](http://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm);  \n  \n[CLT](http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm) - Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943.\n\n [PORTARIA MTE Nº 3.472, DE 4 DE OUTUBRO DE 2023](http://www.gov.br/trabalho-e-emprego/pt-br/pdfs/2023-portaria-3472.pdf)",
+        "id": 114054
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 53,
+    "negativas": 52
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Serviço oferecido de forma digital.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 189106,
+      "titulo": "Solicitar a Alteração Estatutária (SA)",
+      "descricao": "A entidade deve acessar o [Sistema CNES](https://www.gov.br/trabalho-e-emprego/pt-br/servicos/sindicatos/cadastro-de-entidades) e escolher a opção: Solicitar Alteração Estatutária (SA), selecionar o grau da entidade a qual se deseja fazer a solicitação (Sindicato, Federação ou Confederação), informar o CNPJ, preencher todas as informações necessárias e finalizar o procedimento clicando no botão **TRANSMITIR**.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247852,
+            "tipo": "web",
+            "descricao": "[Sistema CNES](https://cnes.trabalho.gov.br/app/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 189107,
+      "titulo": "Protocolar documentos",
+      "descricao": "A entidade sindical após a transmissão eletrônica da solicitação no CNES deverá encaminhar, no prazo de 30 (trinta) dias, à Coordenação-Geral de Registro Sindical, além do requerimento eletrônico gerado pelo CNES, os documentos listados na Portaria MTE nº 3.472, de 2023, por meio do sistema SEI/MTE, sob pena de invalidação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 259784,
+            "nome": "a)   **Entidade Sindical de Primeiro Grau:** Art. 4º da Portaria 3.472/2023.\n\n I -  edital de convocação dos membros da categoria, subscrito pelo representante legal do sindicato, para assembleia geral de alteração estatutária, publicado no DOU e em jornal, impresso ou digital, de circulação na base territorial representada e pretendida, do qual conste:\n\n a) nome completo do subscritor;"
+          },
+          {
+            "id": 259785,
+            "nome": "b) descrição de toda a categoria ou categorias representadas e pretendidas com indicação nominal de todos os municípios ou estados representados e pretendidos; e\n\n c) data, horário e local da realização da assembleia;"
+          },
+          {
+            "id": 259786,
+            "nome": "II - ata da assembleia geral, registrada em cartório, na qual deverá constar expressamente a aprovação da alteração estatutária, a descrição da categoria e da base territorial aprovadas, acompanhada de lista de presença contendo a finalidade da assembleia, a data, o horário e o local da realização e, ainda, o nome completo, o número de inscrição no CPF, a razão social da empresa, se entidade patronal, e as assinaturas dos participantes; e"
+          },
+          {
+            "id": 259787,
+            "nome": "III - estatuto social, registrado em cartório, aprovado em assembleia geral, que contenha objetivamente a categoria e a base territorial aprovadas, não sendo aceitos termos genéricos, como “afins”, “conexos” e “similares”.\n\n ** **"
+          },
+          {
+            "id": 259788,
+            "nome": "**Atenção:** Necessário observar as disposições previstas nos parágrafos seguintes do citado artigo."
+          },
+          {
+            "id": 259789,
+            "nome": "**b)  Entidade Sindical de Grau Superior**: [Art. 9º da Portaria 3.472/2023.](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/legislacao/portarias-1/portarias-vigentes-3/PDFPortariaMTEn3.472de4deoutubrode2023compiladaem26.09.2024.pdf)\n\n I - edital de convocação do conselho de representantes da entidade sindical de grau superior, publicado no DOU com antecedência mínima de 30 (trinta) dias da data da assembleia, do qual conste:\n\n a) nome completo do subscritor;"
+          },
+          {
+            "id": 259790,
+            "nome": "b) objeto da alteração; e \n\n c) data, horário e local da realização da assembleia;"
+          },
+          {
+            "id": 259791,
+            "nome": "II - ata da assembleia geral, registrada em cartório, na qual deverá constar o objeto da alteração, acompanhada de lista de presença contendo a finalidade da assembleia, a data, o horário e o local da realização, os nomes completos, os números de inscrição no CPF e as respectivas assinaturas dos participantes; e"
+          },
+          {
+            "id": 259792,
+            "nome": "III - estatuto social aprovado em assembleia geral, registrado em cartório. Atenção: Necessário observar as disposições previstas nos parágrafos seguintes do citado artigo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247853,
+            "tipo": "web",
+            "descricao": "[Sistema Eletrônico de Informações - SEI](https://processoeletronico.trabalho.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=3 \"SEI\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "S",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-alteracao-estatutaria-de-entidade-sindical",
+  "statusDestaque": false
+}

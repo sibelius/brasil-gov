@@ -1,0 +1,233 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10719",
+  "nome": "Realizar registro de órgão autuador no sistema RENAINF",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito (SENATRAN) que realiza o registro do código de órgão autuador no sistema RENAINF (Registro Nacional de Infrações de Trânsito).",
+  "flagPortalLogado": "N",
+  "contato": "cgsie@transportes.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/transportes/pt-br/servicos/protocolo-eletronico-super",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "registro de órgão autuador",
+        "id": 76780
+      },
+      {
+        "item": "sistema RENAINF",
+        "id": 76781
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 67353,
+        "tipo": "Este serviço pode ser solicitado por órgão ou entidade de trânsito autuador, que esteja integrado ao **Sistema Nacional de Trânsito - SNT.**",
+        "requisitos": "Deve possuir cadastro no Sistema de Notificação Eletrônica - SNE e no Registro Nacional de Infrações de Trânsito - RENAINF."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 106338
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "RENAINF;",
+        "id": 261440
+      },
+      {
+        "item": "Registro de Órgão Autuador;",
+        "id": 261441
+      },
+      {
+        "item": "Registro Nacional de Infrações de Trânsito;",
+        "id": 261442
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 9.503, de 23 de setembro de 1997, artigo 19, inciso XXX](http://www.planalto.gov.br/ccivil_03/leis/L9503Compilado.htm \"http://www.planalto.gov.br/ccivil_03/leis/L9503Compilado.htm\")",
+        "id": 87724
+      },
+      {
+        "item": "Portaria nº 2, de 8 de janeiro de 2018.",
+        "id": 87725
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 21,
+    "negativas": 126
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 150237,
+      "titulo": "Enviar os documentos via peticionamento eletrônico - SUPER",
+      "descricao": "O órgão autuador deve encaminhar os documentos, conforme [Anexo II](https://www.gov.br/../../infraestrutura/pt-br/assuntos/transito/arquivos-denatran/portarias/2018/portaria0022018.pdf \"https://www.gov.br/infraestrutura/pt-br/assuntos/transito/arquivos-denatran/portarias/2018/portaria0022018.pdf\") da Portaria DENATRAN nº 2, de 8 de janeiro de 2018.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 196025,
+            "tipo": "web",
+            "descricao": "[Peticionamento Eletrônico](https://www.gov.br/transportes/pt-br/servicos/protocolo-eletronico-super)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 150238,
+      "titulo": "Aguardar análise da documentação",
+      "descricao": "O interessado aguarda a análise da documentação. Caso haja pendência, o SENATRAN entrará em contato através de e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 196026,
+            "tipo": "web-consultar",
+            "descricao": "[Consultar Processo](https://sei.infraestrutura.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0 \"https://sei.infraestrutura.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 150239,
+      "titulo": "Envio de Ofício informando o atendimento",
+      "descricao": "O SENATRAN irá encaminhar Ofício ao órgão/entidade informando que sobre o atendimento da solicitação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 196027,
+            "tipo": "web-consultar",
+            "descricao": "[Consultar Processo](https://sei.infraestrutura.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0 \"https://sei.infraestrutura.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "14",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-registro-de-codigo-de-orgao-autuador",
+  "statusDestaque": false
+}

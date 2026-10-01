@@ -1,0 +1,170 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11969",
+  "nome": "Acompanhar análise de cédulas e moedas pelo BC",
+  "sigla": "",
+  "descricao": "É o serviço de acompanhamento da análise realizada pelo Banco Central do Brasil (BCB) de cédulas e moedas em Reais que foram recebidas ou retidas pelos bancos . A análise de cédulas e moedas compreende os casos listados abaixo:\n\n  * cédulas e moedas nacionais identificadas como falsas ou de legitimidade duvidosa;\n * cédulas rasgadas e moedas danificadas;\n * cédulas manchadas com tinta suspeita de ser proveniente de dispositivo antifurto; e\n * cédulas com defeito de fabricação.\n  Somente é possível acompanhar o andamento da análise a partir do momento em que a instituição financeira informa, no sistema, os dados da cédula ou moeda.\n\n Em casos de consultas feitas por pessoa jurídica, o CNPJ a ser informado deve ser o mesmo registrado na Receita Federal como responsável pela empresa.\n\n Ao consultar o andamento da análise, a situação do numerário será exibida. Relacionamos abaixo o que significa cada uma: \n\n  * **a ser encaminhado: **a cédula ainda não foi enviada ao BCB pela instituição financeira;\n * **recebido:** a cédula foi recebida fisicamente no BCB ;\n * **examinado:** a cédula foi avaliada pelo BCB e o seu resultado foi publicado, sendo legítima ou falsa; e\n * **excluído:** o registro da cédula foi excluído, pois foi identificado erro de dados, duplicidade de registro, ou outro motivo.[  \n](file:///C:/Users/Paula%20Melissa/Downloads/Modelo_servi%C3%A7o_an%C3%A1lisedenumer%C3%A1rio_Conor%20-%2013%209%2021.docx#_msocom_1)\n  **Prazo para exame de cédulas identificadas como falsas ou de legitimidade duvidosa**: Os bancos devem reter e encaminhar ao BCB as cédulas que provocarem dúvidas em relação à sua legitimidade. Quando a retenção da cédula ocorrer nas praças onde o BCB possui representação (Porto Alegre, Curitiba, São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, Salvador, Recife, Fortaleza e Belém), o prazo máximo para encaminhamento é de 30 dias corridos contados a partir da data em que a cédula foi retida pelo banco; e de, no máximo, 45 dias corridos nas praças onde não há representação do BCB (demais cidades). O prazo para conclusão da análise é de, no máximo, 20 dias corridos a partir da data do recebimento da cédula pelo BCB.",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o [Fale conosco](https://www.bcb.gov.br/acessoinformacao/faleconosco \"Fale Conosco\").",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.bcb.gov.br/mecpublico/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Análise de numerário",
+        "id": 88506
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75807,
+        "tipo": "Qualquer pessoa física ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122808
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 122809
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Adicionais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Dinheiro rasgado",
+        "id": 298272
+      },
+      {
+        "item": "Cédula falsa",
+        "id": 298273
+      },
+      {
+        "item": "Moeda danificada",
+        "id": 298274
+      },
+      {
+        "item": "Análise de cédula ",
+        "id": 298275
+      },
+      {
+        "item": "Análise de moeda",
+        "id": 298276
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101573
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 43,
+    "negativas": 30
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 171719,
+      "titulo": "Acompanhar análise de numerário",
+      "descricao": "Acesse o link: [análise de numerário enviado para exame](https://www3.bcb.gov.br/mecpublico/ \"Análise de numerário\") no site do BCB e preencha os campos solicitados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225296,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/mecpublico/ \"Análise de numerário\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1085",
+      "nome": "Comprar moeda comemorativa"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1086",
+      "nome": "Aprender sobre elementos de segurança do Real"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "59",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acompanhar-analise-de-cedulas-e-moedas-pelo-bcb",
+  "statusDestaque": false
+}

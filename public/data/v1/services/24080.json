@@ -1,0 +1,282 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24080",
+  "nome": "Solicitar adesão ao Move Brasil Táxi e Aplicativos",
+  "sigla": "",
+  "descricao": "O Move Brasil Táxi e Aplicativos é uma iniciativa do Governo do Brasil que facilita que motoristas de táxi e de aplicativos comprem carros  novos com juros mais baixos. O programa estabelece  linhas de financiamento com condições facilitadas, exclusiva para a aquisição de automóveis novos, e voltada especificamente para profissionais que atuam no transporte individual de passageiros.",
+  "flagPortalLogado": "N",
+  "contato": "Contato com  o MDIC através do e-mail [movebrasil@mdic.gov.br](mailto:movebrasil@mdic.gov.br \"mailto:movebrasil@mdic.gov.br\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://movebrasil.sistema.gov.br/login-gov",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 120971
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101320,
+        "tipo": "Taxistas e Motoristas de Aplicativo",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308814",
+    "dbId": 58150,
+    "nomeOrgao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 168630
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 168631
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 168632
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 168633
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Move Brasil, ",
+        "id": 402845
+      },
+      {
+        "item": "Aplicativos,",
+        "id": 402846
+      },
+      {
+        "item": "Taxistas",
+        "id": 402847
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 144785
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1610,
+    "negativas": 435
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 236239,
+      "titulo": "Aderir e consentir",
+      "descricao": "Logar com a conta gov.br e autorizar que seja analisada a compatibilidade do motorista com as condições de acesso ao Programa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305123,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://movebrasil.sistema.gov.br/login-gov)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236240,
+      "titulo": "Validar participação",
+      "descricao": "Em até 5 dias úteis após o cadastro na plataforma, o pedido de adesão do motorista é validado com base nos critérios para participação no programa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305124,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://movebrasil.sistema.gov.br/login-gov)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236241,
+      "titulo": "Conferir resultado",
+      "descricao": "Após o prazo para validação, o motorista pode conferir diretamente na plataforma se o pedido de adesão foi aprovado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305125,
+            "tipo": "web-acompanhar",
+            "descricao": "[ Acompanhar](https://movebrasil.sistema.gov.br/login-gov)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236242,
+      "titulo": "Solicitar financiamento junto às instituições financeiras",
+      "descricao": "A partir do dia 19 de junho, os motoristas com cadastro aprovado para participação no programa podem procurar as instituições financeiras cadastradas ao programa para análises de crédito e de viabilidade de concessão do financiamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305126,
+            "tipo": "web-consultar",
+            "descricao": "[ Consultar](https://movebrasil.sistema.gov.br/login-gov)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "79",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-adesao-ao-move-brasil-taxi-e-aplicativos",
+  "statusDestaque": false
+}

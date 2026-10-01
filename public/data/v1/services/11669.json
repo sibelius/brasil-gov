@@ -1,0 +1,257 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11669",
+  "nome": "Revalidar e Reconhecer diplomas de graduação e pós-graduação - UFMS",
+  "sigla": "",
+  "descricao": "Registrar diplomas de conclusão de graduação, mestrado e doutorado obtidos no exterior.",
+  "flagPortalLogado": "N",
+  "contato": "Comitê Permanente de Revalidação e Reconhecimento de Diplomas\n\n E-mail: cprrd@ufms.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://plataformacarolinabori.mec.gov.br/usuario/acesso",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "revalidação de diploma",
+        "id": 110364
+      },
+      {
+        "item": "reconhecimento de diploma",
+        "id": 110365
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92885,
+        "tipo": "Cidadãos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "180",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 180
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/827",
+    "dbId": 34317,
+    "nomeOrgao": "Fundação Universidade Federal de Mato Grosso do Sul (UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 154068
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "registro de diploma",
+        "id": 368572
+      },
+      {
+        "item": "revalidação de diploma",
+        "id": 368573
+      },
+      {
+        "item": "reconhecimento de diploma",
+        "id": 368574
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 128007
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança; e Ética.",
+  "etapas": [
+    {
+      "id": 215279,
+      "titulo": "Processo de registro/revalidação de diploma",
+      "descricao": "A Resolução do CNE nº 01/2022, informa que os candidatos interessados em revalidação/reconhecer diplomas de graduação e pós-graduação stricto sensu deverão apresentar, além das informações solicitadas pela instituição revalidadora/reconhecedora, a documentação de acordo com a legislação vigente no país de origem, apostilado no caso de sua origem ser de um país signatário da convenção de Haia (HCCH) ou, no caso de país não signatário, autenticado por autoridade consular competente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289590,
+            "nome": "Para revalidar diploma de graduação, é necessário apresentar os documentos relacionados no art 7º da Resolução CNE/CES Nº 01/2022.\n\n Para revalidar diploma de pós-graduação, é necessário apresentar os documentos relacionados no art 18, § 4º da Resolução CNE/CES Nº 01/2022.\n\n A documentação pode ser consultada no link: <http://portal.mec.gov.br/docman/julho-2022-pdf/239261-rces001-22/file>."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37899,
+            "descricao": "Taxa de Revalidação e Reconhecimento de Diploma",
+            "moeda": "R$",
+            "valor": " 7.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279756,
+            "tipo": "web",
+            "descricao": "Plataforma Carolina BORI:Â [Acesse o site](http://plataformacarolinabori.mec.gov.br/usuario/acesso)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215280,
+      "titulo": "Solicitar a revalidação/reconhecimento",
+      "descricao": "Ao acessar o sistema Plataforma Carolina Bori, você irá informar os dados necessários, fazer upload das documentações exigidas e selecionar a universidade brasileira para qual deseja enviar sua solicitação de revalidação ou reconhecimento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289591,
+            "nome": "**Documentação em comum para todos os casos**\n\n  - Diploma estrangeiro\n\n  - Documento de identificação pessoal\n\n  - CPF\n\n  - Documentações relativas à instituição que expediu o diploma\n\n  - Outras documentações que a instituição possa achar necessário, variando de caso a caso\n\n  - Senha da Plataforma\n\n **Requerente estrangeiro sem CPF**\n\n  - RNE"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279757,
+            "tipo": "web",
+            "descricao": "Plataforma Carolina BORI:Â [Acesse o site](http://plataformacarolinabori.mec.gov.br/usuario/acesso)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215281,
+      "titulo": "Resultado da solicitação de revalidação/reconhecimento",
+      "descricao": "O resultado é disponibilizado na Plataforma Carolina Bori, por meio de acesso do usuário.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289592,
+            "nome": "**Documentação para acesso ao resultado**\n\n  - CPF\n\n - Senha da Plataforma Carolina Bori"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279758,
+            "tipo": "web",
+            "descricao": "Plataforma Carolina BORI:Â [Acesse o site](http://plataformacarolinabori.mec.gov.br/usuario/acesso)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "180",
+  "percentualAvaliacoesPositivas": "86",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/revalidar-e-reconhecer-diplomas-de-graduacao-mestrado-e-doutorado-ufms",
+  "statusDestaque": true
+}

@@ -1,0 +1,238 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10252",
+  "nome": "Obter certidão negativa de débitos de titulação de lote agrícola",
+  "sigla": "DNOCS",
+  "descricao": "Você pode solicitar a Certidão Negativa de Débitos de Titulação de Lote que comprova o pagamento de todos os valores devidos ao Departamento Nacional de Obras contra as Secas (DNOCS). Se houver alguma dívida, será emitida uma Certidão Positiva.\n\n Os lotes agrícolas se referem a projetos públicos de irrigação (perímetros irrigados) do DNOCS.",
+  "flagPortalLogado": "S",
+  "contato": "Núcleo de Arrecadação - DA-NCA  \nTelefone: (85) 3391-5131  \nE-mail: arrecadacaofundiaria@dnocs.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126125
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105504,
+        "tipo": "Cidadão ou empresa titular de lotes agrícolas de Projeto Público de Irrigação (Perímetro Irrigado) do DNOCS, ou seu representante.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/367",
+    "dbId": 23733,
+    "nomeOrgao": "Departamento Nacional de Obras Contra as Secas (DNOCS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176353
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176354
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Demonstrativo",
+        "id": 420093
+      },
+      {
+        "item": "Débito",
+        "id": 420094
+      },
+      {
+        "item": "Lote",
+        "id": 420095
+      },
+      {
+        "item": "perímetro irrigado",
+        "id": 420096
+      },
+      {
+        "item": "projeto público de irrigação",
+        "id": 420097
+      },
+      {
+        "item": "K1",
+        "id": 420098
+      },
+      {
+        "item": "Certidão",
+        "id": 420099
+      },
+      {
+        "item": "Quitação",
+        "id": 420100
+      },
+      {
+        "item": "",
+        "id": 420101
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "* Portaria DNOCS/DG/GAB nº 43/17 (Regimento Interno), Art. 30, III;\n * Lei nº 12.292/13 (Política Nacional de Irrigação).",
+        "id": 151380
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 28
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246211,
+      "titulo": "Solicitar o serviço",
+      "descricao": "O cidadão ou empresa solicitará consulta sobre dados de débito do lote relacionado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322080,
+            "nome": "Nome Completo;"
+          },
+          {
+            "id": 322081,
+            "nome": "CPF ou CNPJ do Titular do lote;"
+          },
+          {
+            "id": 322082,
+            "nome": "Identificação do lote;"
+          },
+          {
+            "id": 322083,
+            "nome": "Identificação do projeto público de irrigação do DNOCS;"
+          },
+          {
+            "id": 322084,
+            "nome": "Procuração ou outro documento caso a solicitação seja feita por um representante legal."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318430,
+            "tipo": "web-preencher",
+            "descricao": "Através do Portal: [Acesse o site](https://solicitacao.servicos.gov.br/processos/iniciar?codServico=10252)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246212,
+      "titulo": "Receber certidão",
+      "descricao": "O DNOCS disponibilizará a certidão solicitada. Se não conseguir atender o pedido, informará a você o motivo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318431,
+            "tipo": "web",
+            "descricao": "Acesse [\"Minhas solicitações\"](https://solicitacao.servicos.gov.br/processos) para acompanhar o status.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-negativa-de-debitos-de-lote-com-o-dnocs",
+  "statusDestaque": false
+}

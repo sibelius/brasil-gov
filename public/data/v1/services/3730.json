@@ -1,0 +1,337 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3730",
+  "nome": "Restituir ou compensar pagamento - CVM",
+  "sigla": "",
+  "descricao": "As regras para restituição e compensação no âmbito da CVM encontram-se previstas na [Resolução CVM 56](http://conteudo.cvm.gov.br/legislacao/resolucoes/resol056.html).\n\n Por meio deste serviço, o usuário poderá solicitar a restituição ou a compensação de créditos decorrentes de valores recolhidos indevidamente à CVM, a título de pagamento da Taxa de Fiscalização do Mercado de Valores Mobiliários, de multas, ou de qualquer outra obrigação pecuniária do sujeito passivo perante a Autarquia.\n\n A Compensação destina-se a quitar ou a abater parcialmente débitos vencidos ou vincendos de Taxa de Fiscalização, por meio da utilização de créditos de Taxa em nome contribuinte. \n\n A Restituição configura mera devolução de valores pagos indevidamente.",
+  "flagPortalLogado": "S",
+  "contato": "Gerência de Arrecadação (GEARC) - gac@cvm.gov.br, ou acesse o [FAQ - Perguntas Frequentes.](https://www.gov.br/../../cvm/pt-br/assuntos/regulados/taxa-de-fiscalizacao/perguntas-frequentes)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125904
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105296,
+        "tipo": "Qualquer pessoa física ou jurídica.",
+        "requisitos": "O Requerimento de Restituição ou a Declaração de Compensação (Pessoa Jurídica) deverão possuir **assinatura eletrônica avançada ou qualificada** (certificado digital) dos representantes legais ou procuradores, nos termos do Decreto n.º 10.543/2020.\n\n A assinatura eletrônica avançada poderá ser realizada conforme detalhado no link: [https://www.gov.br/governodigital/pt-br/assinatura-eletronica](https://www.gov.br/../../governodigital/pt-br/assinatura-eletronica)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "45",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 45
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478",
+    "dbId": 7907,
+    "nomeOrgao": "Comissão de Valores Mobiliários (CVM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176006
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176007
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Valores Mobiliários"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "devolução de recursos",
+        "id": 419254
+      },
+      {
+        "item": "créditos",
+        "id": 419255
+      },
+      {
+        "item": "restituição",
+        "id": 419256
+      },
+      {
+        "item": "CVM",
+        "id": 419257
+      },
+      {
+        "item": "Compensação",
+        "id": 419258
+      },
+      {
+        "item": "taxa",
+        "id": 419259
+      },
+      {
+        "item": "multa",
+        "id": 419260
+      },
+      {
+        "item": "fiscalização",
+        "id": 419261
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei n.º 5.172, de 25 de outubro de 1966](http://www.planalto.gov.br/ccivil_03/leis/l5172.htm)",
+        "id": 151112
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 174,
+    "negativas": 155
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética.",
+  "etapas": [
+    {
+      "id": 245752,
+      "titulo": "Preencher o formulário online",
+      "descricao": "Preencher e enviar o formulário para a CVM, conforme orientações constantes de cada campo.\n\n Atenção!\n\n Os dados bancários para depósito decorrente de restituição devem ser os do Credor (PF ou PJ), ou, em caso de Fundo de Investimento, do próprio Fundo, ou de seu Administrador. Em caso de Investidor Não Residente (INR), poderá ser indicada a conta bancária de seu representante. \n\n Não é possível compensar débitos entre pessoas físicas e pessoas jurídicas.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 48838,
+            "descricao": "Credor Pessoa Física",
+            "documento": [
+              {
+                "id": 321634,
+                "codigo": null,
+                "descricao": "Identidade do Credor, com assinatura;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 321635,
+                "codigo": null,
+                "descricao": "Instrumento de mandato (procuração outorgada por instrumento público ou particular, alvará ou decisão judicial, que autorize o Requerente a agir nome do Credor), se for o caso.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48839,
+            "descricao": "Credor Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 321636,
+                "codigo": null,
+                "descricao": "Contrato Social, Estatuto, ou equivalente. Em caso de Fundo de Investimento, documento de constituição do Administrador do Fundo;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 321637,
+                "codigo": null,
+                "descricao": "Documento(s) de identificação pessoal do(s) Requerente(s) (representantes legais/ procuradores que assinarão o pedido), com assinatura;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 321638,
+                "codigo": null,
+                "descricao": "Instrumento de mandato do(s) Requerente(s) (ata da eleição da diretoria e administradores; procuração outorgada por instrumento público ou particular, alvará; ou decisão judicial).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48840,
+            "descricao": "Restituição de taxa de Registro \"Tabela D\" ou de Multa",
+            "documento": [
+              {
+                "id": 321639,
+                "codigo": null,
+                "descricao": "Além dos mencionados acima, anexar todos os documentos que dão suporte à solicitação, a exemplo de Ofícios, Comprovantes de Pagamento e Guias de Recolhimento da União - GRU.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48841,
+            "descricao": "Restituição de valor pago em Termo de Compromisso",
+            "documento": [
+              {
+                "id": 321640,
+                "codigo": null,
+                "descricao": "Além dos mencionados acima, anexar todos os documentos que dão suporte à solicitação, a exemplo do Termo de Compromisso, Ofícios, Comprovantes de Pagamento e Guias de Recolhimento da União - GRU.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317879,
+            "tipo": "web",
+            "descricao": "[Web](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3730)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245753,
+      "titulo": "Análise do Pedido pela CVM",
+      "descricao": "Após o envio do formulário online, a CVM fará a análise do pedido.\n\n Em havendo pendências, restituirá o formulário ao Solicitante, com o detalhamento dos ajustes necessários.\n\n Em sendo a solicitação considerada indevida, o pedido será devolvido ao Solicitante com a devida fundamentação para o indeferimento.\n\n Caso as informações e documentos sejam considerados suficientes, o pedido será concluído no Portal e instruído em processo administrativo específico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317880,
+            "tipo": "web",
+            "descricao": "[Web](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3730)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245754,
+      "titulo": "Instrução Processual e Encerramento",
+      "descricao": "Os pedidos concluídos no Portal serão objeto de processo administrativo específico, a ser instaurado pela CVM.\n\n O depósito decorrente de restituição será efetuado até o último dia útil do mês do protocolo.\n\n Pedidos protocolados após o dia 15 serão, em regra, finalizados até o último dia útil do mês seguinte.\n\n O requerente será comunicado acerca do encerramento do procedimento, via e-mail cadastrado no formulário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317881,
+            "tipo": "e-mail",
+            "descricao": "e-mail CVM",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "45",
+  "percentualAvaliacoesPositivas": "53",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/restituir-ou-compensar-pagamento-cvm",
+  "statusDestaque": false
+}

@@ -1,0 +1,312 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23633",
+  "nome": "Agendar um exame no Hospital Universidade Dr. Miguel Riet Corrêa Jr. (HU-FURG/EBSERH)",
+  "sigla": "",
+  "descricao": "O agendamento de exames de apoio diagnóstico no HU-FURG/EBSERH funciona através do encaminhamento via **Sistema GERCON**, solicitado pela unidade básica de saúde (UBS) ou por encaminhamento interno ambulatorial. A instituição dispõe de um amplo parque tecnológico que abrange exames laboratoriais, de imagem (como Raio-X, Tomografia e Ultrassonografia) e métodos gráficos.\n\n O setor de diagnósticos do HU-FURG/EBSERH é igualmente um espaço de aprendizado, onde a realização dos procedimentos e a análise dos laudos contam com a atuação de professores da Universidade FURG e técnicos especializados, em conjunto com residentes e estudantes das áreas da saúde, garantindo a precisão técnica aliada ao ensino.",
+  "flagPortalLogado": "N",
+  "contato": "(53) 3233-8874.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125176
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104759,
+        "tipo": "Usuários que estão inscritos no Sistema Único de Saúde (SUS), encaminhadas pela sua Unidade Básica de Saúde, via GERCON.",
+        "requisitos": "Paciente precisa, inicialmente, comparecer na sua Unidade Básica para realizar consulta em atenção básica para posterior encaminhamento para atendimento especializado no HU-FURG/EBSERH."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/206368",
+    "dbId": 32661,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Dr Miguel Riet Côrrea Júnior (EBSERH/FURG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175193
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "agendamento de exames",
+        "id": 416996
+      },
+      {
+        "item": "exames especializados",
+        "id": 416997
+      },
+      {
+        "item": "exames hu-furg",
+        "id": 416998
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150412
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244471,
+      "titulo": "Realizar agendamento de exames de imagens:",
+      "descricao": "Para exames de Ressonância, Tomografia, Mamografia e Ultrassonografia o horário de agendamento é das 10:00 H às 16:00 H, de segunda a sexta-feira.\n\n Para exames de Raio-X o horário de atendimento é das 07:30 H às 19:00 H, de segunda a sexta-feira.\n\n Os exames de Raio-X são realizados imediatamente após a chegada do paciente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320672,
+            "nome": "Identidade com foto\n\n Carteirinha do SUS\n\n Requisição do exame\n\n *Para Mamografia cópia do comprovante de residência.*"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316024,
+            "tipo": "presencial",
+            "descricao": "Rua Comendador Vasco Viêira da Fonseca S/N. (portaria do Setor de Imagens).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 244472,
+      "titulo": "Retirar ficha de atendimento:",
+      "descricao": "Paciente comparece no balcão da recepção da radiologia com a guia do seu exame e retira uma senha para agendamento nos sistemas internos do HU-FURG. Paciente, após retirar senha no totem da recepção da radiologia, aguarda seu chamado no Painel Eletrônico. Ao ser chamado, paciente confirma seus dados junto ao atendente, que agenda o exame nos sistemas internos do HU-FURG.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316025,
+            "tipo": "presencial",
+            "descricao": "Rua Comendador Vasco Viêira da Fonseca S/N. (portaria do Setor de Imagens).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 244473,
+      "titulo": "Receber orientações sobre o exame:",
+      "descricao": "No agendamento, receba a guia com local e orientações de preparo:\n\n **Ressonância: **tempo médio de agenda 1 mês.\n\n **Tomografia: **tempo médio de agenda 2 meses.\n\n **Mamografia: **tempo médio de agenda 15 dias.\n\n **Ultrassonografia: **tempo médio de agenda 4 a 6 meses.\n\n **No dia do exame:** Dirija-se à recepção para fazer a ficha de atendimento. Em seguida, aguarde na sala de espera. O atendimento ocorre por ordem de agendamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316026,
+            "tipo": "presencial",
+            "descricao": "Rua Comendador Vasco Viêira da Fonseca S/N. (portaria do Setor de Imagens).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 244474,
+      "titulo": "Obter resultado dos Exames:",
+      "descricao": "O resultado do exame pode ser retirado no balcão da recepção do setor de imagens em 5 dias uteis após a realização do exame.\n\n A retirada do exame pode ser feita por terceiros mediante a apresentação de cópia simples do documento de identidade assinada pelo paciente autorizando a retirada (medida utilizada para agilizar o atendimento de pacientes de outras cidades da região).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320673,
+            "nome": "Para retirada do exame é necessário a apresentação de documento oficial com foto."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316027,
+            "tipo": "presencial",
+            "descricao": "Rua Comendador Vasco Viêira da Fonseca S/N. (portaria do Setor de Imagens).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 244475,
+      "titulo": "Realizar exames em pacientes internados:",
+      "descricao": "Os pacientes internados neste hospital têm acesso a realização de exames de imagens 24 horas por dia, (exceto mamografia) que só tem no período diurno 12 horas diárias.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316028,
+            "tipo": "presencial",
+            "descricao": "Os resultados dos exames ficam disponíveis em até 24 horas para pacientes internados.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 24,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-um-exame-no-hospital-universidade-dr-miguel-riet-correa-jr-hu-furg-ebserh",
+  "statusDestaque": false
+}

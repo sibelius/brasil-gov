@@ -1,0 +1,182 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13596",
+  "nome": "Solicitar serviço de escolta de cargas superdimensionadas à PRF",
+  "sigla": "",
+  "descricao": "Solicitação de escolta dedicada PRF de veículos com cargas superdimensionadas desde que a combinação dos veículos + carga ultrapasse 70 metros de comprimento ou 5 metros de largura. Esse serviço atende a Resolução 01 do DNIT (https://www.in.gov.br/en/web/dou/-/resolucao-n-1-de-8-de-janeiro-de-2021-298507898), que exige a escolta dedicada para esses veículos superdimensionados visando a segurança viária.",
+  "flagPortalLogado": "N",
+  "contato": "Para o acionamento da escolta dedicada da PRF, a empresa de escolta deverá enviar solicitação por correio eletrônico para escolta@prf.gov.br,",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 77290
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 67683,
+        "tipo": "Representante legal de empresas previamente credenciadas pela PRF e especializadas em escolta dos conjuntos transportadores que transportam cargas superdimensionadas em peso e/ou dimensões.",
+        "requisitos": "Empresa de escolta ser previamente credenciada pela PRF e apresentar todos os documentos necessários."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 107015
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Capacitações e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Escolta",
+        "id": 263209
+      },
+      {
+        "item": "Carga superdimensionada",
+        "id": 263210
+      },
+      {
+        "item": "Solicitar escolta",
+        "id": 263211
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[PORTARIA NORMATIVA PRF Nº 15, DE 24 DE MARÇO DE 2022 - PORTARIA NORMATIVA PRF Nº 15, DE 24 DE MARÇO DE 2022 - DOU - Imprensa Nacional (in.gov.br)](https://www.in.gov.br/web/dou/-/portaria-normativa-prf-n-15-de-24-de-marco-de-2022-389928790)",
+        "id": 88187
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 151144,
+      "titulo": "Solicitação à PRF para o serviço de escolta de cargas superdimensionadas.",
+      "descricao": "Após o envio da documentação e análise pela PRF, a empresa receberá o cronograma com datas, horários, itinerário e demais informações acerca da escolta que será realizada.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 213456,
+            "nome": "Artigo 47 da PORTARIA NORMATIVA PRF Nº 15, DE 24 DE MARÇO DE 2022 <https://in.gov.br/en/web/dou/-/portaria-normativa-prf-n-15-de-24-de-marco-de-2022-389928790>"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 25222,
+            "descricao": "Escolta por unidade de viatura por quilômetro rodado (01 km/h – 30 km/h, conforme velocidade prevista na AET)",
+            "moeda": "R$",
+            "valor": " 16,07",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 25223,
+            "descricao": "Escolta por unidade de viatura por quilômetro rodado (31 km/h – 60 km/h, conforme velocidade prevista na AET)",
+            "moeda": "R$",
+            "valor": " 6,77",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 25224,
+            "descricao": "Escolta por unidade de viatura por quilômetro rodado (acima de 60km/h, conforme velocidade prevista na AET)",
+            "moeda": "R$",
+            "valor": " 5,55",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 197281,
+            "tipo": "e-mail",
+            "descricao": "Para o acionamento da escolta dedicada da PRF, a empresa de escolta deverá enviar solicitação por correio eletrônico ou outro meio digital, acompanhado dos documentos descritos. Correio eletrônico: escolta@prf.gov.br \n\n  \n\n .",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-servico-de-escolta-de-cargas-superdimensionadas-a-prf",
+  "statusDestaque": false
+}

@@ -1,0 +1,159 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10716",
+  "nome": "Renovar Protocolo de Refúgio para solicitante que está no Sisconare",
+  "sigla": "",
+  "descricao": "**Este serviço permite renovar o Protocolo de Refúgio de solicitantes já cadastrados no Sisconare.**\n\n O Protocolo de Refúgio identifica o solicitante e comprova que sua situação migratória está regular enquanto o pedido de reconhecimento da condição de refugiado aguarda decisão.\n\n O documento deve ser renovado anualmente na Polícia Federal até a decisão final sobre a solicitação de refúgio.",
+  "flagPortalLogado": "N",
+  "contato": "conare@mj.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124466
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104214,
+        "tipo": "Solicitante de refúgio que precise renovar o Protocolo de Refúgio e cujo último protocolo tenha sido emitido por meio do Sisconare.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "1",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O Protocolo de Refúgio tem validade de 1 ano e deve ser renovado anualmente até a decisão final do Conare."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174239
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços para Estrangeiros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Refúgio",
+        "id": 414663
+      },
+      {
+        "item": "Protocolo",
+        "id": 414664
+      },
+      {
+        "item": "Renovar",
+        "id": 414665
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149719
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1069,
+    "negativas": 562
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 242977,
+      "titulo": "Comparecer à Polícia Federal",
+      "descricao": "Verifique se a unidade da Polícia Federal onde será realizado o atendimento exige agendamento prévio.\n\n Se for necessário agendar, utilize o [formulário eletrônico da Polícia Federal.](https://servicos.pf.gov.br/agenda-web/formulario/2)\n\n Compareça à unidade da Polícia Federal no dia e horário agendados e leve o Protocolo de Refúgio que precisa ser renovado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313780,
+            "tipo": "presencial",
+            "descricao": "Comparecimento presencial à Polícia Federal.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3704",
+      "nome": "Solicitar Refúgio pela primeira vez no Brasil"
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "66",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/renovar-protocolo-de-refugio-para-solicitante-que-esta-no-sisconare",
+  "statusDestaque": false
+}

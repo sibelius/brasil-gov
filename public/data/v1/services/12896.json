@@ -1,0 +1,216 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12896",
+  "nome": "Alterar registro de dispositivo médico",
+  "sigla": "",
+  "descricao": "É um pedido para alterar o registro de dispositivo médico. Deve ser solicitada em casos de mudanças nas indicações de uso, contraindicações, precauções, condições de armazenamento e transporte, inclusão de acessórios de uso exclusivo, modificação de nome comercial, prazo de validade, entre outras.\n\n Clique aqui para saber mais: <https://www.gov.br/anvisa/pt-br/setorregulado/regularizacao/produtos-para-saude/registro/alteracao-pos-registro>",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 89064
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76240,
+        "tipo": "Empresas que possuem dispositivos médicos registrados e tenham interesse em alterar a regularização do produto.",
+        "requisitos": "Deve possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o Sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastros)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "150",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 150
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Enquanto durar o registro do produto."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123745
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Medicamentos e Produtos para Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Alteração de registro",
+        "id": 300085
+      },
+      {
+        "item": "Dispositivos Médicos",
+        "id": 300086
+      },
+      {
+        "item": "Produtos para Saúde",
+        "id": 300087
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa - IN nº 74, de 16 de setembro de 2020](https://anvisalegis.datalegis.net/action/UrlPublicasAction.php?acao=abrirAtoPublico&num_ato=00000074&sgl_tipo=INM&sgl_orgao=DC/ANVISA/MS&vlr_ano=2020&seq_ato=000&cod_modulo=134&cod_menu=1696) – estabelece os assuntos para alterações de informações apresentadas no processo de regularização de dispositivos médicos na ANVISA, nos termos da RDC nº 340, de 6 de março de 2020.",
+        "id": 102309
+      },
+      {
+        "item": "[Resolução - RDC nº 751, de 15 de setembro de 2022](https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-751-de-15-de-setembro-de-2022-430797145) - Dispõe sobre a classificação de risco, os regimes de notificação e de registro, e os requisitos de rotulagem e instruções de uso de dispositivos médicos.",
+        "id": 102310
+      },
+      {
+        "item": "[Resolução - RDC nº 830, de 6 de dezembro de 2023](https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-830-de-6-de-dezembro-de-2023-529557724) – dispõe sobre a classificação de risco, os regimes de notificação e registro e os requisitos de rotulagem e instruções de uso de dispositivos médicos para diagnóstico in vitro, inclusive seus instrumentos",
+        "id": 102311
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 172877,
+      "titulo": "Fazer a solicitação",
+      "descricao": "2. Acesse o Sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo já existente”.\n 4. Localize o processo relacionado e o assunto relacionado ao pedido. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 239346,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao)). A Anvisa fornece um *checklist* (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28806,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "de acordo com o tipo do produto",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226875,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172878,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no sistema Solicita, selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” no canto superior direito para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), utilizando os filtros na opção Situação de Documentos > Documentos Técnicos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226876,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "150",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/alterar-registro-de-dispositivo-medico",
+  "statusDestaque": false
+}

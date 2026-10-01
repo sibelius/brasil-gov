@@ -1,0 +1,247 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8912",
+  "nome": "Consultar acervo da Biblioteca Dr. Antonio Levino - Fiocruz/AM",
+  "sigla": "",
+  "descricao": "O serviço de acesso à informação disponibilizada no acervo bibliográfico físico e digital da Seção de Biblioteca Dr. Antônio Levino da Silva Neto visa atender às demandas de usuários que buscam conhecimento técnico-científico na área de Saúde Pública. Uma consulta prévia ao acervo do Instituto Leônidas e Maria Deane (ILMD) poderá ser realizada pelo usuário no endereço: <http://acervoilmd.icict.fiocruz.br>. A biblioteca está localizada no campus da Fiocruz Amazonas, em Manaus.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (92) 3621-2373\n\n  \n\n **E-mail:** [biblioteca.ilmd@fiocruz.br](mailto:biblioteca.ilmd@fiocruz.br)\n\n  \n\n **Site: **https://amazonia.fiocruz.br/?page\\_id=16331",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 31990
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31473,
+        "tipo": "* Cidadãos",
+        "requisitos": "Acesso livre"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "minutos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50334
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pesquisas e Ensaios"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Acervo bibliográfico",
+        "id": 113159
+      },
+      {
+        "item": "Biblioteca",
+        "id": 113160
+      },
+      {
+        "item": "Consulta bibliográfica",
+        "id": 113161
+      },
+      {
+        "item": "Empréstimo de livro",
+        "id": 113162
+      },
+      {
+        "item": "Consulta de livros",
+        "id": 113163
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 32655
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 34,
+    "negativas": 30
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 65840,
+      "titulo": "Registrar Identificação na Portaria",
+      "descricao": "O usuário prestará informações na portaria para registro de entrada e saída nas dependências do ILMD. Na oportunidade será orientado em como chegar à biblioteca.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 94287,
+            "nome": "Documento de identificação"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84674,
+            "tipo": "presencial",
+            "descricao": "A identificação será realizada na portaria",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 65841,
+      "titulo": "Contatar o Bibliotecário",
+      "descricao": "O Bibliotecário irá atender às demandas de informações e orientar acesso ao acervo da biblioteca.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84675,
+            "tipo": "presencial",
+            "descricao": "Atendimento é realizado nas dependências da biblioteca.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 65842,
+      "titulo": "Consultar o Acervo",
+      "descricao": "O usuário terá disponível o acervo bibliográfico físico e digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84676,
+            "tipo": "presencial",
+            "descricao": "O usuário poderá utilizar a sala de leitura para acessar o acervo físico ou os computadores da biblioteca para acesso digital.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 84677,
+            "tipo": "web",
+            "descricao": "[Consultar acervo](http://acervoilmd.icict.fiocruz.br \"Consultar acervo\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "53",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-acervo-da-biblioteca-dr-antonio-levino-da-silva-neto-do-instituto-leonidas-e-maria-deane-ilmd",
+  "statusDestaque": false
+}

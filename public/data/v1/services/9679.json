@@ -1,0 +1,247 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9679",
+  "nome": "Reclamar contra bancos e outras instituições",
+  "sigla": "",
+  "descricao": "Sua reclamação ajuda o Banco Central a melhorar as normas e a fiscalização do sistema financeiro. No entanto, o BC não faz parte do Sistema Nacional de Defesa do Consumidor, coordenado pelo Ministério da Justiça. Isso significa que o BC não tem autorização para interferir na sua relação contratual com a instituição financeira (bancos, cooperativas, corretoras etc).\n\n O Banco Central não interfere no seu caso individual. Se você tiver algum problema com uma dessas instituições, procure:\n\n  * O local do atendimento ou o Serviço de Atendimento ao Consumidor (SAC) da instituição;\n * A ouvidoria da instituição;\n * O Procon do seu estado.\n  Acesso para pessoas físicas: Conta gov.br, nível prata ou ouro, com a verificação em duas etapas habilitada.\n\n Acesso para empresas: certificado digital vinculado à Conta govbr.\n\n Atenção! Não é possível reclamar em nome de outras pessoas físicas.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](http://www.bcb.gov.br/acessoinformacao/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.bcb.gov.br/acessoinformacao/registrar_reclamacao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Fale Conosco - Reclamações, Registrar demanda",
+        "id": 113178
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 95081,
+        "tipo": "Qualquer pessoa física ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 157953
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 157954
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Reclamação",
+        "id": 378467
+      },
+      {
+        "item": "Banco central",
+        "id": 378468
+      },
+      {
+        "item": "Fale conosco",
+        "id": 378469
+      },
+      {
+        "item": "Banco",
+        "id": 378470
+      },
+      {
+        "item": "Financeira",
+        "id": 378471
+      },
+      {
+        "item": "Cooperativa",
+        "id": 378472
+      },
+      {
+        "item": "Consórcio",
+        "id": 378473
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 132815
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1259,
+    "negativas": 1212
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 220592,
+      "titulo": "Registrar reclamação",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 294232,
+            "nome": "Acesso para pessoas físicas: Conta gov.br, nível prata ou ouro, com a verificação em duas etapas habilitada.\n\n Acesso para empresas: certificado digital vinculado a Conta govbr."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 286249,
+            "tipo": "web",
+            "descricao": "Acesse o [site](http://www.bcb.gov.br/acessoinformacao/registrar_reclamacao).Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 286250,
+            "tipo": "telefone",
+            "descricao": "Pelo telefone 145 (de segunda a sexta, das 08h às 18h - custo de ligação local).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 286251,
+            "tipo": "postal",
+            "descricao": "Para o endereço: \n\n Banco Central do Brasil – Departamento de Atendimento Institucional - Divisão de Atendimento ao Cidadão\n\n SBS Quadra 3 Bloco B  - 1º SS - Edifício-Sede - CEP 70074-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220593,
+      "titulo": "Receber resposta",
+      "descricao": "Atenção! A resposta à reclamação é dada pelos bancos e demais instituições financeiras reclamados, e não pelo Banco Central. As instituições financeiras têm até 10 (dez) dias úteis para enviar a resposta por escrito (e-mail ou correspondência).\n\n A reclamação não é garantia de solução do problema, mas ajuda o Banco Central a melhorar as normas e a fiscalização do sistema financeiro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 286252,
+            "tipo": "e-mail",
+            "descricao": "Resposta pelo e-mail que consta em seu cadastro na instituição financeira reclamada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 286253,
+            "tipo": "postal",
+            "descricao": "Resposta pelo endereço que consta em seu cadastro na instituição financeira reclamada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "51",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "S",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-reclamacao-contra-instituicao-supervisionada-pelo-banco-central",
+  "statusDestaque": false
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24007",
+  "nome": "Emitir Certificado de Registro de Alimentos e de Produto Notificado",
+  "sigla": "",
+  "descricao": "É uma solicitação junto a Anvisa para emitir o Certificado de Alimentos e de produtos Registrados e/ou Notificados para fins de sua regularização. O documento serve para atestar que o produto  pode ser  comercializado no Brasil e pode ser exigido por alguns países caso a empresa deseje exportar seus produtos.",
+  "flagPortalLogado": "N",
+  "contato": "[Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123698
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103530,
+        "tipo": "Pessoas jurídicas legalmente constituídas no Brasil e com cadastro válido junto à Anvisa.",
+        "requisitos": "Devem possuir CNPJ cadastrado na Anvisa e usuário com perfil ou vínculo apropriado para acesso ao [sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F). [Saiba mais sobre o Cadastro na Anvisa aqui](https://www.gov.br/anvisa/pt-br/sistemas/cadastro). Mais informações sobre o acesso ao [sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F) podem ser obtidas no [Manual do Solicita](https://www.gov.br/anvisa/pt-br/sistemas/peticionamento/arquivos/manual-do-solicita)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173056
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certidão;",
+        "id": 411877
+      },
+      {
+        "item": "Certificado;",
+        "id": 411878
+      },
+      {
+        "item": "Alimentos Notificados.",
+        "id": 411879
+      },
+      {
+        "item": "",
+        "id": 411880
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "A legislação aplicável a cada código de assunto pode ser obtida por meio da [Consulta de Assuntos](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao).",
+        "id": 148845
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241364,
+      "titulo": "Fazer a solicitação",
+      "descricao": "• Acesse o sistema Solicita. Selecione: “Rascunho” > “Novo” > “Solicitar Certidão / Certificado”.  \n • Informe o número do processo ou da regularização para localizar o produto desejado.  \n • Selecione o tipo de documento a ser emitido.  \n • Pré-visualize as informações para garantir que estão corretas.  \n • Realize o pagamento da taxa quando pertinente.  \n • Selecione “Enviar” para gerar o documento.  \n • Localize o processo na aba “Processos”, o documento estará acessível na árvore à esquerda.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41205,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "varia de acordo com o porte da empresa e tipo de solicitação e pode ser obtido por meio da Consulta de Assuntos.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311664,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241365,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "O processo pode ser acompanhado pelo [sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F). Selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” para localizar o processo desejado. O certificado estará disponível como anexo da petição secundária de emissão de certificado naquele processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311665,
+            "tipo": "web",
+            "descricao": "[sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F) e [Portal de Consultas](https://consultas.anvisa.gov.br/#/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-certificado-de-registro-de-alimentos-e-de-produto-notificado",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

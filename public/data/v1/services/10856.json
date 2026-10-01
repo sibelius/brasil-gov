@@ -1,0 +1,165 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10856",
+  "nome": "Acompanhar Programa de Recuperação Fiscal de 2000",
+  "sigla": "REFIS",
+  "descricao": "O Programa de Recuperação Fiscal (REFIS) é um regime opcional de parcelamento de débitos fiscais para pessoas jurídicas com dívidas com a Receita Federal (RFB), Procuradoria Geral da Fazenda Nacional (PGFN) e o Instituto Nacional do Seguro Social (INSS).\n\n Através deste serviço você pode consultar o extrato do parcelamento e outras informações.\n\n O prazo de adesão está encerrado.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre o REFIS](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/parcelamentos-especiais/parcelamento-refis-2013-programa-de-recuperacao-fiscal-paginas-e-links/orientacoes-gerais-refis)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121861
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101929,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 169968
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Parcelamento",
+        "id": 405361
+      },
+      {
+        "item": "Parcelamento Especial",
+        "id": 405362
+      },
+      {
+        "item": "REFIS",
+        "id": 405363
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 9.964/2000](https://www.planalto.gov.br/ccivil_03/leis/l9964.htm)",
+        "id": 145740
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 77,
+    "negativas": 277
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237497,
+      "titulo": "Acompanhar o parcelamento",
+      "descricao": "Acesse os sistemas para consultar o extrato parcelamento especial.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306610,
+            "tipo": "web",
+            "descricao": "[Extrato da conta Refis](https://servicos.receita.fazenda.gov.br/Servicos/refis/ExtratoRefis/extrato1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 306611,
+            "tipo": "web",
+            "descricao": "[Consulta situação da conta Refis](https://servicos.receita.fazenda.gov.br/Servicos/refis/ConsSituacao/Consulta1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 306612,
+            "tipo": "web",
+            "descricao": "[Demonstrativos dos dÃ©bitos consolidados](https://servicos.receita.fazenda.gov.br/Servicos/refis/Consolidacao/saldos1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acompanhar-programa-de-recuperacao-fiscal-de-2000",
+  "statusDestaque": false
+}

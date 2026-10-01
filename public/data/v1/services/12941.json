@@ -1,0 +1,246 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12941",
+  "nome": "Emitir PPP Eletrônico - Perfil Profissiográfico Previdenciário",
+  "sigla": "",
+  "descricao": "Serviço para emitir o PPP Eletrônico (Perfil Profissiográfico Previdenciário Eletrônico).\n\n Este documento traz os dados informados pela empresa sobre as condições de trabalho e de exposição a agentes prejudiciais à saúde do colaborador (empregado, prestador de serviço cooperado ou trabalhador avulso).  \n  \nA emissão do PPP de forma eletrônica tornou-se obrigatória para os períodos trabalhados a partir de 01/01/2023.  \n  \nEste pedido é realizado totalmente pela internet, você não precisa ir ao INSS.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas, ligue para a Central de Atendimento do INSS pelo telefone 135.\n\n O serviço está disponível de segunda a sábado das 7h às 22h (horário de Brasília).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meu.inss.gov.br/#/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "PPP",
+        "id": 94619
+      },
+      {
+        "item": "Perfil Profissiográfio Previdenciário",
+        "id": 94620
+      },
+      {
+        "item": "PPP Eletrônico",
+        "id": 94621
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80501,
+        "tipo": "Pessoas que tiveram o PPP Eletrônico emitido a partir de 01/01/2023.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934",
+    "dbId": 36802,
+    "nomeOrgao": "Instituto Nacional do Seguro Social (INSS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 131223
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 131224
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "PPP",
+        "id": 318830
+      },
+      {
+        "item": "PPP Eletrônico",
+        "id": 318831
+      },
+      {
+        "item": "Perfil Profissiográfico Profissional",
+        "id": 318832
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109242
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 967,
+    "negativas": 558
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 182839,
+      "titulo": "Pedir o serviço",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga para **Do que você precisa?**\n * Digite: *PPP*\n * Escolha o serviço\n * Escolha a empresa e baixe o documento",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 249905,
+            "nome": "**Da pessoa titular:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)"
+          },
+          {
+            "id": 249906,
+            "nome": "**Da pessoa com procuração ou representação legal, se houver:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)\n * [Procuração no modelo do INSS](https://www.gov.br/inss/pt-br/centrais-de-conteudo/formularios/inss_procuracao.docx) ou pública\n * Termo de representação legal - tutela, curatela ou termo de guarda"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240059,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play ](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR)ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240060,
+            "tipo": "web",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240061,
+            "tipo": "telefone",
+            "descricao": "Ligue 135, caso o sistema esteja indisponível.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240062,
+            "tipo": "presencial",
+            "descricao": "Se necessário atendimento presencial:\n\n Agende pelo telefone 135, ou\n\n Busque uma unidade que tenha [acordo](http://https://www.gov.br/inss/pt-br/canais_atendimento/acts) com o INSS na sua região",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 182840,
+      "titulo": "Receber resposta",
+      "descricao": "**Pelo Meu INSS:** o documento pode ser baixado no momento do pedido.\n\n **Para receber na Agência:** o documento será entregue no dia e hora agendados.   \n   \nDúvidas? Ligue 135.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240063,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play ](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR)ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240064,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-ppp-eletronico-perfil-profissiografico-previdenciario",
+  "statusDestaque": false
+}

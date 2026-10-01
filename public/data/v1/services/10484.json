@@ -1,0 +1,207 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10484",
+  "nome": "Habilitar Packing House (Casa de processamento/Embalagem)",
+  "sigla": "",
+  "descricao": "Habilitar o packing house (casa de embalagem processamento) a processar produto vegetal X para exportação para país Y conforme acordo bilateralmente quando do estabelecimento dos requisitos fitossanitários",
+  "flagPortalLogado": "N",
+  "contato": "* Procure o SISV ou SIFISV na [Superintêndencia Federal de Agricultura/SFA](https://www.gov.br/../../agricultura/pt-br/acesso-a-informacao/institucional/quem-e-quem-novo/superintendencias-federais-de-agricultura-sfa) no seu estado.\n\n * Sobre o Peticionamento Eletrônico do SEI no MAPA consulte [aqui ](http://sistemasweb.agricultura.gov.br/pages/manuais/manual-peticionamento.pdf)o Manual.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 56801
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 52131,
+        "tipo": "Exportadores produto vegetal  cujo acordo bilateral determina que somente os packing house habilitados pelo Mapa poderão exportar  aquele produto para aquele destino",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308793",
+    "dbId": 58142,
+    "nomeOrgao": "Ministério da Agricultura e Pecuária (MAPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 82298
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação e Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Packing House",
+        "id": 196539
+      },
+      {
+        "item": "Embalagem",
+        "id": 196540
+      },
+      {
+        "item": "Processamento",
+        "id": 196541
+      },
+      {
+        "item": "Acordos bilaterais",
+        "id": 196542
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução normativa nº 13, de 31 de março de 2006](https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=13/04/2006&jornal=1&pagina=18&totalArquivos=96)",
+        "id": 64483
+      },
+      {
+        "item": "[Instrução normativa nº 16, 05 de março de 2006](https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=12/04/2006&jornal=1&pagina=2&totalArquivos=128)",
+        "id": 64484
+      },
+      {
+        "item": "[Instrução normativa nº 20, de 17 de agosto de 2010](https://www.gov.br/../../agricultura/pt-br/assuntos/inspecao/produtos-vegetal/legislacao-1/biblioteca-de-normas-vinhos-e-bebidas/instrucao-normativa-no-20-de-17-de-agosto-de-2010.pdf/view)",
+        "id": 64485
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 113489,
+      "titulo": "Solicitar habilitação",
+      "descricao": "O exportador solicita a habilitação para processar produto para o país de destino em cumprimento ao acordo bilateral estabelecido",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 159182,
+            "nome": "Ofício de solicitação de habilitação especificando o produto e o país de destino"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145480,
+            "tipo": "web",
+            "descricao": "Através do [Módulo de Peticionamento Eletrônico do SEI](https://sistemasweb.agricultura.gov.br/pages/SEI.html)\n\n Utilize o Tipo de processo \"Sanidade Vegetal: Programas de Exportação\"",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 113490,
+      "titulo": "Análise e habilitação",
+      "descricao": "Serviço de Defesa Vegetal na SFA trata a demanda internamente em processo SEI, porém se comunica com o demandante por e-mail ou telefone.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 145481,
+            "tipo": "web",
+            "descricao": "[Sistema Eletrônico de Informações - SEI](https://sistemas.agricultura.gov.br/sip/login.php?sigla_orgao_sistema=MAPA&sigla_sistema=SEI&infra_url=L3NlaS8=)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "84",
+  "url": "https://www.gov.br/pt-br/servicos/habilitar-packing-house-casa-de-processamento-embalagem",
+  "statusDestaque": false
+}

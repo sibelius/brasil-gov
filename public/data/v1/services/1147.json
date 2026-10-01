@@ -1,0 +1,234 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1147",
+  "nome": "Consultar débitos inscritos em dívida ativa da União e do FGTS",
+  "sigla": "",
+  "descricao": "É o serviço que possibilita ao contribuinte consultar informações sobre os débitos inscritos em dívida ativa da União e do FGTS, nos quais seja devedor principal ou corresponsável.\n\n **Atenção!** Para consultar a dívida ativa de outros contribuintes, acesse a [Lista de Devedores](https://www.listadevedores.pgfn.gov.br/) ou baixe o [aplicativo Dívida Aberta ](https://www.gov.br/pt-br/servicos/acessar-o-aplicativo-divida-aberta)no celular.\n\n Na tela do serviço, é possível consultar diversas informações sobre a dívida:\n\n  * os **valores** (principal, multa, juros de mora, encargo legal e o valor consolidado);\n * o **órgão de origem** e a **natureza** (tributária, previdenciária, Simples Nacional, não tributária, FGTS);\n * a **situação** (ativa em cobrança, negociada, garantida, suspensa ou extinta);\n * a identificação do **devedor principal** e do **corresponsável**, se houver;\n * o **processo administrativo** e o **processo judicial**, se houver;\n * a **data da inscrição** e o **período da dívida**.\n * as informações de **protesto** (se há protesto ativo, o cartório responsável, a data, o histórico).\n   \n\n Mais informações podem ser obtidas no **relatório completo da inscrição**, também disponível para exportação no formato PDF.",
+  "flagPortalLogado": "N",
+  "contato": "Clique [aqui ](https://www.gov.br/pgfn/pt-br/canais_atendimento/atendimento-ao-contribuinte/contribuinte)para acessar os contatos da Procuradoria-Geral da Fazenda Nacional.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.regularize.pgfn.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Consulta à dívida ativa",
+        "id": 122338
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102280,
+        "tipo": "O contribuinte pessoa física ou jurídica devedor principal ou corresponsável da dívida, bem como o seu representante legal ou técnico, este devidamente habilitado na [procuração digital do e-CAC da RFB](https://www.gov.br/pt-br/servicos/cadastrar-ou-cancelar-procuracao-para-acesso-ao-e-cac).",
+        "requisitos": "No caso de pessoa jurídica, a consulta não apresenta os débitos previdenciários das empresas incorporadas. Neste caso, a consulta deve ser realizada em relação a cada um dos CNPJs, ainda que o CNPJ da incorporada tenha sido baixado."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170728
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 170729
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 170730
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 170731
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "consultar",
+        "id": 407053
+      },
+      {
+        "item": "DAU",
+        "id": 407054
+      },
+      {
+        "item": "divida ativa",
+        "id": 407055
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria PGFN nº 838, de 01 de agosto de 2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=132412#:~:text=PGFN%20n%C2%BA%20838%2F2023&text=Estabelece%20as%20regras%20do%20atendimento,da%20Fazenda%20Nacional%20(PGFN).) - Estabelece as regras do atendimento às pessoas usuárias dos serviços prestados pela Procuradoria-Geral da Fazenda Nacional (PGFN).",
+        "id": 146668
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1129,
+    "negativas": 2130
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "A Lei 10048 de 08/11/2000 criou a obrigatoriedade de atendimento prioritário a pessoas:  \n- Pessoas com Deficiência,   \n- Idosos com idade superior a 60 anos;  \n- Gestantes,   \n- Lactantes,   \n- Pessoas com crianças de colo e  \n- Obesos.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 238327,
+      "titulo": "Acessar o serviço",
+      "descricao": "* Acesse o REGULARIZE e clique em ***Consultar Dívida Ativa***.\n * A tela do serviço exibirá os seguintes gráficos: ***Situação da dívida*** e ***Consolidado por natureza***.\n * As abas para consulta (tributária, previdenciária, Simples Nacional, não tributária, FGTS) aparecerão apenas se o contribuinte tiver inscrições na respectiva natureza.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307792,
+            "tipo": "web",
+            "descricao": "[REGULARIZEÂ ](https://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238328,
+      "titulo": "Acessar e exportar relatório",
+      "descricao": "* Na tela consulta, clique em cima do número da inscrição para acessar o **relatório resumido** e o **relatório completo**.\n * Para exportar no formato PDF, clique no botão ***Imprimir***.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307793,
+            "tipo": "web",
+            "descricao": "[REGULARIZE](https://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9665",
+      "nome": "Consultar pagamentos não alocados no débito inscrito em dívida ativa da União"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4101",
+      "nome": "Emitir Darf - dívida ativa da União"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1316",
+      "nome": "Emitir documento para pagamento de débitos inscritos em dívida ativa da União"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "35",
+  "totalSimplifique": "8",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "7",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 1874,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 1875,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/consultar-debitos-inscritos-em-divida-ativa-da-uniao",
+  "statusDestaque": true
+}

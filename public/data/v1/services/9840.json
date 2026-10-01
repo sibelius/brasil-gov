@@ -1,0 +1,239 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9840",
+  "nome": "Consultar multas aplicadas pelo Departamento Nacional de Infraestrutura de Transportes - DNIT",
+  "sigla": "",
+  "descricao": "Consulta para identificação de multas aplicadas pelo Departamento Nacional de Infraestrutura de Transportes (DNIT). A consulta é realizada pelo Portal de Multas de Trânsito, no Portal do DNIT. \n\n O DNIT pode fazer a fiscalização e multas condutores nas rodovias e estradas federais, conforme Lei [10.233/01](http://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10233.htm) e Lei [9.503/97](http://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm).\n\n **Este serviço é gratuito para o cidadão.**",
+  "flagPortalLogado": "N",
+  "contato": "Atendimento ao Cidadão\n\n (61) 3315-4000 (9h às 17h)\n\n E-mail: multas@dnit.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.dnit.gov.br/multas/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94921
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80749,
+        "tipo": "Todos os cidadãos.",
+        "requisitos": "Para realizar a pesquisa é necessário possuir a PLACA e o RENAVAM do veículo."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844",
+    "dbId": 23732,
+    "nomeOrgao": "Departamento Nacional de Infraestrutura de Transportes (DNIT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 131692
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 131693
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DNIT",
+        "id": 320039
+      },
+      {
+        "item": "DENIT",
+        "id": 320040
+      },
+      {
+        "item": "Multas de Trânsito",
+        "id": 320041
+      },
+      {
+        "item": "Consulta de Multas",
+        "id": 320042
+      },
+      {
+        "item": "Infração de Trânsito",
+        "id": 320043
+      },
+      {
+        "item": "Consultas de Multas do DNIT",
+        "id": 320044
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109726
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1772,
+    "negativas": 5385
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183480,
+      "titulo": "Consulta Simples - Placa e Renavam",
+      "descricao": "Você deve entrar no [Portal de Multas de Trânsito](http://servicos.dnit.gov.br/multas/) do DNIT e realizar a consulta informando a placa e o renavam do veículo.\n\n Através dessa consulta, é possível:\n\n  * Consultar as infrações de trânsito aplicadas ao veículo;\n * Obter a descrição da infração, como data, hora e local;\n * Emitir Guia de Recolhimento da União - GRU (boleto);\n * Acompanhar as fases do processo administrativo, bem como os prazos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241014,
+            "tipo": "web",
+            "descricao": "[Portal de Multas de TrÃ¢nsito](https://servicos.dnit.gov.br/multas/conta/login \"portal\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183481,
+      "titulo": "Consulta Completa - Login Govbr",
+      "descricao": "Acesse a página, clique em “Entrar”. Se o proprietário do veículo for Pessoa Física:\n\n  * Clique em “Entrar com gov.br”;\n * Caso não possua login, clique em “crie sua conta no gov.br”.\n  Pessoa Jurídica:\n\n  * Caso não possua login, clique em “Pessoa Jurídica não tem cadastro? Cadastre-se”. Você será redirecionado e deverá preencher os dados da empresa, e-mail e senha. Aguardar o envio do e-mail de confirmação.\n * Se já tem cadastro, digite o CNPJ ou o e-mail, a senha e clique em “entrar”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241015,
+            "tipo": "web",
+            "descricao": "[Portal de Multas de TrÃ¢nsito.](http://servicos.dnit.gov.br/multas/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9749",
+      "nome": "Apresentar Defesa da Autuação (Defesa Prévia) - DNIT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/74",
+      "nome": "Apresentar Formulário de Identificação do Condutor Infrator (Transferência de Pontuação) - DNIT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9838",
+      "nome": "Apresentar Indicação do Responsável por Infração de Trânsito"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/282",
+      "nome": "Apresentar Recurso contra Penalidade de Multa de Trânsito - DNIT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9839",
+      "nome": "DNIT - Apresentar Solicitação para Substituir Multa por Advertência"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9353",
+      "nome": "Emitir e Validar Nada Consta - DNIT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9294",
+      "nome": "Solicitar Restituição de Multa de Trânsito - DNIT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11768",
+      "nome": "DNIT - Realizar Pagamento de Multa de Trânsito"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-multas-aplicadas-pelo-departamento-nacional-de-infraestrutura-de-transportes",
+  "statusDestaque": false
+}

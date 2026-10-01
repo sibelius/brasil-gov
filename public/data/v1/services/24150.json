@@ -1,0 +1,208 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24150",
+  "nome": "Consultar lista de espera de cirurgia eletiva no Hospital Universitário de Santa Maria (HUSM)",
+  "sigla": "",
+  "descricao": "Por meio deste serviço os usuários podem consultar sua posição em lista de espera cirúrgica eletiva e as diretrizes do serviço.",
+  "flagPortalLogado": "N",
+  "contato": "As informações também podem ser obtidas por meio de contato telefônico por meio do número (55) 32131473, no horário das 16:00 ás 16:45 ou presencial exceto finais de semana.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/acesso-a-informacao/consulta-a-lista-de-cirurgias-eletivas",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Lista de Espera",
+        "id": 124227
+      },
+      {
+        "item": "Lista Cirúrgica",
+        "id": 124228
+      },
+      {
+        "item": "Lista de Cirurgias Eletivas",
+        "id": 124229
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103999,
+        "tipo": "Usuários do SUS  -  pacientes inscritos na lista de espera para cirurgia eletiva",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201459",
+    "dbId": 32675,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário de Santa Maria (EBSERH-UFSM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173856
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Lista;",
+        "id": 413770
+      },
+      {
+        "item": "Lista Cirúrgica;",
+        "id": 413771
+      },
+      {
+        "item": "Lista Eletiva.",
+        "id": 413772
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149438
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 242438,
+      "titulo": "Ingressar na lista de espera cirúrgica",
+      "descricao": "Na consulta ambulatorial, o médico irá inserir o paciente em lista de espera e irá classificar a prioridade do paciente. Que pode ser: **ONCOLÓGICA, COM BREVIDADE e SEM BREVIDADE**.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318972,
+            "nome": "Número do CPF ou;\n\n Número do Cartão Nacional do SUS (CNS) - (Cartão SUS)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41268,
+            "descricao": "100% SUS",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313067,
+            "tipo": "presencial",
+            "descricao": "Consulta ambulatórial",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 242439,
+      "titulo": "Consultar posição em lista de espera cirúrgica",
+      "descricao": "O usuário do serviço poderá consultar sua posição em lista de espera, disponível no sítio institucional do Hospital Universitário de Santa Maria. Por meio deste serviço o usuário, consulta sua posição na especialidade, e para o procedimento específico por qual aguarda, também poderá ter acesso às diretrizes do serviço de Lista de Cirurgia Eletiva, as quais apresentam os critérios da lista, bem como, as hipóteses de priorização.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313068,
+            "tipo": "web",
+            "descricao": "Para consultar a lista de espera cirúrgica, o paciente deverá acessar a página do HUSM:\n\n <https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/acesso-a-informacao/consulta-a-lista-de-cirurgias-eletivas>\n\n  Informar o CPF ou número do cartão SUS;\n\n Clicar em não sou um robô; \n\n Clicar em enviar e após será informado de sua posição em lista.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "13",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-lista-de-espera-de-cirurgia-eletiva-no-hospital-universitario-de-santa-maria-husm",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

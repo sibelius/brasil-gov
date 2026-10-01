@@ -1,0 +1,262 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11030",
+  "nome": "Declarar serviços médicos e da saúde",
+  "sigla": "DMED",
+  "descricao": "Preencha e envie a Declaração de Serviços Médicos e de Saúde (Dmed) à Receita Federal. Na Dmed, devem ser informados os pagamentos recebidos por pessoas jurídicas (ou pessoa física equiparada) prestadoras de serviços de saúde e operadoras de planos privados de assistência à saúde.\n\n A Dmed deverá ser enviada anualmente à Receita Federal. O envio da declaração após o prazo legal gera multa de atraso.\n\n [Perguntas Frequentes](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/dmed \"Perguntas Frequentes\")\n\n **Erro ao enviar DMED x CNAE – Como resolver**\n\n O sistema só permite enviar a DMED se o CNPJ tiver CNAE de atividade de saúde.\n\n Se o CNAE foi alterado, mas for necessário entregar DMED de período anterior, adote as seguintes providências:\n\n  * Abra um processo digital;\n * Solicite a inclusão de um CNAE das divisões 861 a 865 ou 871 a 873 (serviços médicos de saúde) como atividade secundária do CNPJ matriz; e\n * Informe \"**Sem DBE**” no campo “**código de controle do DBE**”.\n  Após a entrega da DMED, a Receita Federal excluirá o CNAE incluído apenas para essa finalidade.\n\n Para identificar o subgrupo que descreve a atividade de prestação de serviço de saúde, consulte o [sistema do IBGE](https://concla.ibge.gov.br/busca-online-cnae.html?view=atividades) para pesquisar códigos ou atividades econômicas na CNAE.",
+  "flagPortalLogado": "N",
+  "contato": "[Perguntas frequentes](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/dmed)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/dmed",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123212
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102965,
+        "tipo": "São obrigadas à entrega da Dmed a pessoa jurídica, ou pessoa física equiparada a jurídica, nos termos da legislação do Imposto sobre a Renda, desde que seja:\n\n  * prestadora de serviços médicos e de saúde,\n * operadora de plano privado de assistência à saúde; ou\n * prestadora de serviços de saúde e operadora de plano privado de assistência à saúde.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172161
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172162
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Declarações e Comunicações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Declaração",
+        "id": 410035
+      },
+      {
+        "item": "Fiscalização",
+        "id": 410036
+      },
+      {
+        "item": "Plano de Saúde",
+        "id": 410037
+      },
+      {
+        "item": "Serviço de Saúde",
+        "id": 410038
+      },
+      {
+        "item": "Serviço Médico",
+        "id": 410039
+      },
+      {
+        "item": "",
+        "id": 410040
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.074/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=123367)",
+        "id": 148043
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 691,
+    "negativas": 819
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240180,
+      "titulo": "Preencher declaração",
+      "descricao": "Baixe o programa e preencha as informações que devem ser declaradas à Receita Federal.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310115,
+            "tipo": "web",
+            "descricao": "[Baixar o programa](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/dmed)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240181,
+      "titulo": "Enviar a declaração à Receita Federal",
+      "descricao": "Após o preenchimento, grave a declaração e envie à Receita Federal utilizando o programa ReceitaNet.\n\n O ReceitaNet valida e transmite, via Internet, as declarações de impostos e contribuições federais de pessoas físicas e jurídicas. Os arquivos podem ser transmitidos diariamente das 05 à 01 hora da manhã do dia seguinte (20 horas diárias).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310116,
+            "tipo": "web",
+            "descricao": "[ReceitaNet](https://www.gov.br/../../../../receitafederal/pt-br/centrais-de-conteudo/download/receitanet)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240182,
+      "titulo": "Acompanhar o processamento da declaração",
+      "descricao": "Acompanhe o processamento da declaração para verificar a situação da entrega.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310117,
+            "tipo": "web",
+            "descricao": "[Extrato do Processamento da DMED](https://dmed.receita.fazenda.gov.br/extrato-dmed/inicial)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310118,
+            "tipo": "web",
+            "descricao": "[Consultar DMED](https://cav.receita.fazenda.gov.br/autenticacao/login/index/54)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "46",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 2020,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 2021,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/declarar-servicos-medicos-e-da-saude",
+  "statusDestaque": false
+}

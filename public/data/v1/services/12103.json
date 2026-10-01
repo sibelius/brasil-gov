@@ -1,0 +1,243 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12103",
+  "nome": "Protocolar documentos junto ao Cefet/RJ",
+  "sigla": "",
+  "descricao": "Possibilita aos cidadãos (portador ou interessado), aos órgãos e às entidades públicas e privadas protocolar documentos e processos, que já estejam disponibilizados pelas Unidades Administrativas para serem abertos no Centro Federal de Educação Tecnológica Celso Suckow da Fonseca do Rio de Janeiro pela ferramenta Balcão Digital.\n\n Caso a demanda não se inclua no atendimento por este sistema, serão informados os meios de atendimento e formas de resolução.",
+  "flagPortalLogado": "N",
+  "contato": "[protocolocentral@cefet-rj.br](mailto:protocolocentral@cefet-rj.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/448/servico/12103/solicitar/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "protocolo",
+        "id": 67082
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 60106,
+        "tipo": "Pessoa física ou jurídica ou seu representante que seja responsável por realizar a entrega do(s) documento(s) junto ao Cefet/RJ, sendo participante ou tenha demanda na condição de interessado em processo administrativo (quando aplicável) e pessoa jurídica na mesma situação (representado pela pessoa física).",
+        "requisitos": "Qualquer cidadão que criar ou possuir conta de acesso único do Gov.br pode protocolar documento no Cefet/RJ, que será analisado através dos setores competentes."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Esse procedimento gera um número de protocolo, válido por toda o trâmite e vida do documento."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/448",
+    "dbId": 6193,
+    "nomeOrgao": "Centro Federal de Educação Tecnológica - Celso Suckow da Fonseca (CEFET-RJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 94137
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 94138
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 94139
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 94140
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicação Governamental"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Protocolo",
+        "id": 230492
+      },
+      {
+        "item": "Requerimento",
+        "id": 230493
+      },
+      {
+        "item": "Processo",
+        "id": 230494
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 76120
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 133591,
+      "titulo": "Protocolar documentos",
+      "descricao": "Ao clicar no botão Iniciar do serviço, o requisitante deverá:\n\n  * informar para qual unidade se destina sua solicitação, descrevendo de forma clara o objetivo da entrega desse(s) documento(s);\n * anexar até 5 arquivos, em formato PDF, informando a descrição e o tipo de cada documento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 172612,
+            "tipo": "web",
+            "descricao": "Clique no botão iniciar ao lado do título deste serviço.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 133592,
+      "titulo": "Análise dos documentos enviados",
+      "descricao": "O Protocolo Central e os agentes descentralizados de Protocolo das Uneds realizarão o recebimento, triagem e encaminhamento da solicitação para análise da área responsável pela demanda. Caso exista algum erro, o cidadão deverá providenciar as correções e submeter novamente o(s) documento(s) desejados para protocolo.\n\n Em casos em que forem abertos processos administrativos, a unidade encaminhará por e-mail a abertura do processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 172613,
+            "tipo": "e-mail",
+            "descricao": "A unidade administrativa enviará por e-mail o número do processo para acompanhamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 133593,
+      "titulo": "Acompanhar processo",
+      "descricao": "Em casos em que forem abertos processos administrativos, o usuário poderá acompanhar o andamento por meio do SUAP. A duração do trâmite dependerá do tipo de processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 172614,
+            "tipo": "web",
+            "descricao": "[Acompanhe o processo aberto através do sistema SUAP.](http://suap.cefet-rj.br/processo_eletronico/consulta_publica/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "60",
+  "url": "https://www.gov.br/pt-br/servicos/protocolar-documentos-no-cefet-rj",
+  "statusDestaque": false
+}

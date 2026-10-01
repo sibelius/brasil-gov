@@ -1,0 +1,218 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11459",
+  "nome": "Obter diploma ou 2ª via de diploma de pós-graduação - UFTM",
+  "sigla": "",
+  "descricao": "Serviço destinado à solicitação de diploma de pós-graduação ou de segunda via para alunos egressos da instituição.",
+  "flagPortalLogado": "N",
+  "contato": "Entrar em contato com a secretaria do programa de pós-graduação por meio dos canais eletrônicos divulgados no site institucional (www.uftm.edu.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 107155
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90294,
+        "tipo": "Alunos egressos de pós-graduação na instituição UFTM.",
+        "requisitos": "É necessário concluir o curso de pós-graduação na UFTM."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/459",
+    "dbId": 57791,
+    "nomeOrgao": "Universidade Federal do Triângulo Mineiro (UFTM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 149392
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Segunda via",
+        "id": 358018
+      },
+      {
+        "item": "diploma",
+        "id": 358019
+      },
+      {
+        "item": "pós-graduação stricto sensu",
+        "id": 358020
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "https://sei.uftm.edu.br/sei/publicacoes/controlador\\_publicacoes.php?acao=publicacao\\_visualizar&id\\_documento=477756&id\\_orgao\\_publicacao=0",
+        "id": 124704
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 209220,
+      "titulo": "Referente à 1ª via",
+      "descricao": "Os diplomas serão emitidos gratuitamente e apenas em formato impresso após a conclusão do curso e cumprimento dos requisitos para obtenção do título.\n\n  * **Stricto Sensu:**Solicitação pela Coordenação e entrega pela secretaria do Programa.\n * **Residência Médica:**Emissão e entrega pela COREME - Comissão de Residência Médica.\n * **Residências em Saúde:**Emissão e entrega pela COREMU - Comissão de Residência Multiprofissional.\n * **Especialização:**Emissão e entrega pela coordenação de curso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271850,
+            "tipo": "e-mail",
+            "descricao": "Para mais informações ou dúvidas: [posgraduacao.drca@uftm.edu.b](mailto:posgraduacao.drca@uftm.edu.br)r",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 209221,
+      "titulo": "Referente à 2ª via",
+      "descricao": "A segunda via de diplomas atualmente é expedida apenas em formato impresso, nos casos:\n\n a) Extravio do documento original, com apresentação de Boletim de Ocorrência;\n\n b) Sinistro, mediante justificativa formal acompanhada do documento danificado, quando houver;\n\n c) Deterioração que comprometa a legibilidade ou integridade das informações nele contidas; ou\n\n d) Necessidade de correção de erros de redação ou registro.\n\n Nos casos **c** e **d**, exige-se devolução do documento original.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282888,
+            "nome": "1- Documento justificando o ocorrido com o diploma, assinado via [Gov.br](http://gov.br/) ou com firma reconhecida. Se danificado, anexá-lo ao processo. \n\n 2- Documentos: *Certidão de Nascimento/ Casamento **RG; **CPF; **Título de Eleitor/e-título+comprovante de quitação eleitoral; **Documento Militar atualizado(homens até 45 anos);**Diploma e histórico da graduação; **Diploma e histórico d**e** mestrado (para 2a via de diplomas de doutorado).* \n\n 3- Pagamento da taxa de registro da 2ª via."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 36660,
+            "descricao": "Segunda via de diploma de pós-graduação",
+            "moeda": "R$",
+            "valor": " 120,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271851,
+            "tipo": "e-mail",
+            "descricao": "A solicitação da segunda via do diploma ou certificado deverá ser requerida ao Controle Acadêmico de Pós-Graduação do DRCA pelo e-mail [posgraduacao.drca@uftm.edu.br](mailto:posgraduacao.drca@uftm.edu.br)\n\n [](mailto:posgraduacao.drca@uftm.edu.br)É necessário enviar justificativa da necessidade da expedição da 2ª via (item 1), toda a documentação necessária em PDF ou PDF-A (item 2) e comprovante de pagamento da taxa referente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 271852,
+            "tipo": "presencial",
+            "descricao": "A solicitação também poderá ser feita pessoalmente no CAPG/DRCA. Nesta situação deverão ser apresentados justificativa, original e cópia de todos os documentos relacionados no item 2 e o comprovante do pagamento da taxa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-segunda-via-de-diploma-de-pos-graduacao-stricto-sensu",
+  "statusDestaque": false
+}

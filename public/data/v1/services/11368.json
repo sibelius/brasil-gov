@@ -1,0 +1,165 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11368",
+  "nome": "Solicitar acesso de trens ao Porto de itaguaí",
+  "sigla": "SISFER",
+  "descricao": "**Através deste serviço o usuário deverá programar as manobras ferroviárias de entrada ou saída do Porto de Itaguaí.**",
+  "flagPortalLogado": "N",
+  "contato": "O usuário deverá encaminhar a programação   via e-mail:[gerait@portosrio.gov.br](mailto:gerait@portosrio.gov.br)\n\n  ou telefone 22198600 ramal 8655",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.portosrio.gov.br/pt-br/sisfer",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Programação ferroviária",
+        "id": 118824
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 99377,
+        "tipo": "Terminais Arrendados e Operadora Ferroviária no Porto de Itaguaí.",
+        "requisitos": "Ser operador portuário qualificado pela PORTOSRIO e ser operadora ferroviária.\n\n Solicitar login e senha de acesso via e-mail: gerait@portosrio.gov.br"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "1",
+      "unidade": "horas"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Válido pelo período programado pela arredatária."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/180",
+    "dbId": 8275,
+    "nomeOrgao": "Companhia Docas do Rio de Janeiro (CDRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 165740
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Programação ",
+        "id": 396500
+      },
+      {
+        "item": "Ferroviária ",
+        "id": 396501
+      },
+      {
+        "item": "Porto de Itaguaí",
+        "id": 396502
+      },
+      {
+        "item": "",
+        "id": 396503
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei dos Portos nº 12.815/2013. \n\n (https://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2013/lei/l12815.htm#:~:text=1%C2%BA%20Esta%20Lei%20regula%20a,e%20arrendamento%20de%20bem%20p%C3%BAblico)",
+        "id": 140544
+      },
+      {
+        "item": "Regulamento de Exploração dos Portos – CDRJ – link: [http://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO\\_DE\\_EXPLORACAO\\_DOS\\_PORTOS\\_0.pdf](http://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO_DE_EXPLORACAO_DOS_PORTOS_0.pdf)",
+        "id": 140545
+      },
+      {
+        "item": "Instrumento Normativo de Acesso Ferroviário no Porto de Itaguaí n°13.009.\n\n (https://www.portosrio.gov.br/pt-br/institucional/instrumentos-normativos?field\\_setor\\_\\_responsavel\\_value=GERAIT&field\\_titulo\\_da\\_in\\_no\\_corpo\\_docu\\_value=&field\\_diretoria\\_value=&field\\_assunto\\_value=&field\\_doc\\_convert\\_texto\\_value=&field\\_\\_cdrj\\_sigla\\_value=All&sort\\_by=field\\_\\_id\\_value&sort\\_order=DESC&items\\_per\\_page=10)",
+        "id": 140546
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "Não há necessidade de atendimento presencial, porém, a Gerência de Acesso Terrestre permanece à disposição do usuário, no prédio administrativo do porto de Itaguaí.",
+  "tratamentoPrioritario": "Em caso de fila solicitações de manobras aguardando autorização, será considerada prioritária a  que está agendada para a data mais próxima, ou seja, a menor data.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 232070,
+      "titulo": "Programar manobra ferroviária",
+      "descricao": "**Programação de manobra:** Acessar ao endereço eletrônico e preencher os campos dos formulário, com horário previsto, origem e destino.\n\n **Solicitação de Manobra:**  Preencher o detalhamento da carga. O detalhamento também poderá ser enviado em arquivo xlsx.\n\n A autorização ficará disponível na página inicial do sistema.\n\n Para manobras negadas, autoridade portuária apresentará a justificativa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300174,
+            "tipo": "web",
+            "descricao": "<https://sisfer.portosrio.gov.br/>\n\n  ou\n\n  Acessar a  página da Portos Rio e  pesquisar “programação ferroviária” <https://www.portosrio.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-empresa-para-o-fornecimento-de-oleo-combustivel-lubrificante-por-bombeamento",
+  "statusDestaque": false
+}

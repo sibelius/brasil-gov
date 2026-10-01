@@ -1,0 +1,162 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22167",
+  "nome": "Consultar Escrituração Contábil Digital",
+  "sigla": "ECD",
+  "descricao": "Consulte as Escriturações Contábeis Digitais (ECDs) transmitidas ao Sistema Público de Escrituração Digital (SPED). Realize consultas com base nos seguintes critérios:\n\n  * **Hash do arquivo**: permite identificar a escrituração por meio do código hash gerado no momento da entrega;\n * **CNPJ e ano-calendário**: possibilita localizar as ECDs enviadas por uma determinada empresa em um ano específico;\n * **ECD de substituição**: consulta que permite verificar escrituração substituída e a nova escrituração entregue;\n * **Estatísticas por Unidade da Federação (UF) e Classificação Nacional de Atividades Econômicas (CNAE)**: fornece dados estatísticos agregados relacionados à entrega das ECDs por região geográfica e setor econômico.\n  Essa ferramenta ajuda a controlar, acompanhar e conferir as informações contábeis apresentadas pelas empresas à Receita Federal.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.sped.fazenda.gov.br/appConsultaSituacaoContabil/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123489
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103216,
+        "tipo": "Qualquer pessoa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172704
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172705
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172706
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 172707
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Declarações e Comunicações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ECD",
+        "id": 410981
+      },
+      {
+        "item": "Escrituração Contábil Digital",
+        "id": 410982
+      },
+      {
+        "item": "Sped",
+        "id": 410983
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB** **nº 2003/2021](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/114965)",
+        "id": 148503
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 26,
+    "negativas": 24
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240902,
+      "titulo": "Consultar as ECD entregues.",
+      "descricao": "Acesse o canal abaixo para consultar as ECD entregues.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311058,
+            "tipo": "web",
+            "descricao": "[Consultar Situação de ECD](https://www.sped.fazenda.gov.br/appConsultaSituacaoContabil/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "52",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-escrituracao-contabil-digital",
+  "statusDestaque": false
+}

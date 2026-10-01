@@ -1,0 +1,251 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1046",
+  "nome": "Solicitar Registro de Empresa de Trabalho Temporário",
+  "sigla": "SIRETT",
+  "descricao": "Empresa de trabalho temporário é a pessoa jurídica, devidamente registrada no Ministério do Trabalho e Emprego, responsável pela colocação de trabalhadores à disposição de outras empresas temporariamente, nos termos do art.4° da Lei n° 6.019/74.",
+  "flagPortalLogado": "S",
+  "contato": "sirett.cgrt@trabalho.gov.br  \nTelefone: 61 2031 6066",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Trabalho temporário",
+        "id": 125798
+      },
+      {
+        "item": "Sistema de registro de empresas de trabalho temporário",
+        "id": 125799
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105220,
+        "tipo": "Empresas que preencham os requisitos formais previstos na Lei n° 6.019/74, na Lei 13.429/17 e no Decreto nº 10.854, de 2021.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175870
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para o empregador"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "SIRETT",
+        "id": 418974
+      },
+      {
+        "item": "Trabalho temporário",
+        "id": 418975
+      },
+      {
+        "item": "Certificado",
+        "id": 418976
+      },
+      {
+        "item": "Empresa de trabalho temporário",
+        "id": 418977
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 6.019, 3 de janeiro de 1974](http://www.planalto.gov.br/ccivil_03/leis/l6019.htm)\n\n [Lei nº 13.429, de 31 de março de 2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13429.htm)\n\n [Decreto nº 10.854, de 10 de novembro de 2021](http://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2021/Decreto/D10854.htm)",
+        "id": 151018
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 206,
+    "negativas": 169
+  },
+  "condicoesAcessibilidade": "Não se aplica, pois o serviço é oferecido de forma digital.",
+  "tratamentoPrioritario": "Não se aplica, pois o serviço é oferecido de forma digital.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 245538,
+      "titulo": "Solicitar registro de empresa de trabalho temporário",
+      "descricao": "A empresa de trabalho temporário deve solicitar o registro por meio do Sistema de Registro de Empresa de Trabalho Temporário - SIRETT.\n\n Após o preenchimento dos dados obrigatórios, o sistema irá gerar o requerimento de solicitação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317589,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www3.mte.gov.br/sistemas/sirett/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245539,
+      "titulo": "Protocolar documentos",
+      "descricao": "A empresa deverá protocolar eletronicamente ao Ministério do Trabalho e Emprego o requerimento gerado pelo sistema SIRETT, devidamente assinado e acompanhado da documentação necessária para análise da solicitação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321423,
+            "nome": "Requerimento assinado pelo responsável da empresa\n\n Número da Inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ);\n\n Registro na Junta Comercial da localidade em que tenha sede;\n\n Possuir capital social de, no mínimo, R$ 100.000,00 (cem mil reais)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317590,
+            "tipo": "web",
+            "descricao": "Protocolo eletrônico no SEI: [clique aqui](https://processoeletronico.trabalho.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=3)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245540,
+      "titulo": "Disponibilizar certificado de registro",
+      "descricao": "O certificado de registro de empresa de trabalho temporário será disponibilizado ao solicitante por meio do Sistema Eletrônico de Informações - SEI.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317591,
+            "tipo": "web",
+            "descricao": "O usuário do serviço receberá o certificado de registro de empresa de trabalho temporário por meio do processo no Sistema Eletrônico de Informações - SEI anteriormente enviado ao Ministério do Trabalho e Emprego.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "55",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-registro-de-empresa-de-trabalho-temporario",
+  "statusDestaque": false
+}

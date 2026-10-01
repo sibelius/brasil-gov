@@ -1,0 +1,259 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12137",
+  "nome": "Registrar pedido de acesso à informação no Serviço de Informações ao Cidadão da Sudeco",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá solicitar acesso às informações disponíveis ou custodiadas pela Sudeco, de acordo com a Lei nº 12.527/2011.",
+  "flagPortalLogado": "N",
+  "contato": "Correio eletrônico: sic@sudeco.gov.br\n\n Telefones: 55 61 3251-8506 / 8511",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/sudeco/pt-br/acesso-a-informacao/servico-de-informacao-ao-cidacao-sic",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 26749
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 27156,
+        "tipo": "Pessoas físicas e jurídicas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100113",
+    "dbId": 55796,
+    "nomeOrgao": "Superintendência do Desenvolvimento do Centro-Oeste (SUDECO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 42990
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 42991
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 42992
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 42993
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Control Social"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Serviço de Informações ao Cidadão",
+        "id": 95971
+      },
+      {
+        "item": "SIC",
+        "id": 95972
+      },
+      {
+        "item": "Transparência",
+        "id": 95973
+      },
+      {
+        "item": "",
+        "id": 95974
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 26643
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 56541,
+      "titulo": "Cadastrar pedido de acesso à informação",
+      "descricao": "O requerente deverá utilizar um dos canais de atendimento para realizar o pedido de acesso à informação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 83598,
+            "nome": "O pedido de acesso à informação deverá conter:\n\n  * nome do requerente;\n * número de documento de identificação válido;\n * especificação, de forma clara e precisa, da informação requerida; e\n * endereço físico ou eletrônico do requerente, para recebimento de comunicações ou da informação requerida."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 72417,
+            "tipo": "web",
+            "descricao": "Sítio eletrônico da Sudeco: [Acesse o site](https://www.gov.br/../../../../../../../../../../../../../../../../../../../../../../sudeco/pt-br/acesso-a-informacao/servico-de-informacao-ao-cidacao-sic) ou pela Plataforma Integrada de Ouvidoria e Acesso à Informação: [https://falabr.cgu.gov.br](https://falabr.cgu.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx?ReturnUrl=%2f)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 72418,
+            "tipo": "e-mail",
+            "descricao": "sic@sudeco.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 72419,
+            "tipo": "postal",
+            "descricao": "Setor Bancário Norte – SBN, Quadra 1, Bloco F, Edifício Palácio da Agricultura, 20º andar. Brasília/DF – CEP: 70.040-908",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 72420,
+            "tipo": "presencial",
+            "descricao": "De segunda a sexta-feira, das 9h às 12h e das 14h às 17h, exceto feriados. Agendamentos pelos telefones: (61) 3251-8511 / 8506. O endereço é o mesmo do descrito no canal de atendimento \"Postal\".  \nObservação: durante o período de pandemia, o atendimento presencial está suspenso.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 56542,
+      "titulo": "Acessar a resposta",
+      "descricao": "O requerente poderá acessar a resposta disponibilizada pela Sudeco por meio dos canais de prestação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 72421,
+            "tipo": "web",
+            "descricao": "Plataforma Integrada de Ouvidoria e Acesso à Informação: [Acesse o site](https://falabr.cgu.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 72422,
+            "tipo": "e-mail",
+            "descricao": "[sic@sudeco.gov.b](mailto:sic@sudeco.gov.br)r",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 72423,
+            "tipo": "postal",
+            "descricao": "a resposta será encaminhada para o endereço de cadastro do requerente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "43",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-pedido-de-acesso-a-informacao-no-servico-de-informacoes-ao-cidadao-da-sudeco",
+  "statusDestaque": false
+}

@@ -1,0 +1,186 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8049",
+  "nome": "Solicitar reimpressão de Certificado ou Extrato de Frota no RNTRC",
+  "sigla": "",
+  "descricao": "Impressão do Certificado do Registro Nacional de Transportadores Rodoviários de Cargas (RNTRC).  \n  \nImpressão do Extrato do Transportador, documento que apresenta os dados cadastrais do transportador e os veículos vinculados à sua frota no RNTRC.",
+  "flagPortalLogado": "N",
+  "contato": "Ouvidoria\n\n Telefone: 166\n\n E-mail: [ouvidoria@antt.gov.br](mailto:ouvidoria@antt.gov.br)\n\n Whatsapp: <https://api.whatsapp.com/send?phone=5561996884306>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://rntrcdigital.antt.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 105919
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89176,
+        "tipo": "Transportador já cadastrado no Registro Nacional de Transportadores Rodoviários de Cargas (RNTRC) que queira receber nova via do seu Certificado ou do Extrato da sua frota cadastrada no RNTRC.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 147750
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 147751
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "RNTRC",
+        "id": 354223
+      },
+      {
+        "item": "RNTRC Digital",
+        "id": 354224
+      },
+      {
+        "item": "certificado",
+        "id": 354225
+      },
+      {
+        "item": "extrato",
+        "id": 354226
+      },
+      {
+        "item": "frota",
+        "id": 354227
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 123122
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 230,
+    "negativas": 354
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 207116,
+      "titulo": "Emitir documentos no RNTRC Digital",
+      "descricao": "Após realizar o login no RNTRC Digital, o menu lateral fornece todas as opções disponíveis ao transportador.\n\n Acesse a opção do menu Transportador > Emitir documentos.  Depois, coloque o número do CPF/CNPJ do Transportador ou do seu RNTRC e aperte em “Consultar”. Finalizada a consulta, escolha abaixo a opção “Emitir Certificado”ou “Emitir Extrato”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269242,
+            "tipo": "web",
+            "descricao": "RNTRC Digital ([https://rntrcdigital.antt.gov.br](https://rntrcdigital.antt.gov.br \"https://rntrcdigital.antt.gov.br\"))",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 269243,
+            "tipo": "presencial",
+            "descricao": "Lista de pontos de atendimento\n\n  [https://www.gov.br/antt/pt-br/assuntos/cargas/rntrc-1/pontos-de-atendimento](https://www.gov.br/antt/pt-br/assuntos/cargas/rntrc-1/pontos-de-atendimento \"https://www.gov.br/antt/pt-br/assuntos/cargas/rntrc-1/pontos-de-atendimento\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/8046",
+      "nome": "Solicitar cadastro de transportador no RNTRC"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/8047",
+      "nome": "Alterar dados de transportadores no RNTRC"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/8048",
+      "nome": "Gerenciar frota de transportadores no RNTRC"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "39",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-reimpressao-de-certificado-ou-extrato-de-frota-no-rntrc",
+  "statusDestaque": false
+}

@@ -1,0 +1,258 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3106",
+  "nome": "Revalidar ou emitir 2ª via de Certificado Modelo DPC-1034",
+  "sigla": "",
+  "descricao": "O Sistema Informatizado de Cadastro de Aquaviário (SISAQUA) foi concebido para cadastrar e controlar a Carreira de Pessoal Profissional Aquaviário, em nível nacional, fornecendo informações gerenciais, relatórios estatísticos, assim como a emissão de documentação como as Etiquetas de Dados Pessoais da Caderneta de Inscrição e Registro (CIR), Etiquetas de Curso, Licenças de Categoria Superior e Certificados de Cursos de Habilitação modelo 1034.\n\n Os certificados modelo DPC-1034 serão emitidos para comandantes, oficiais e pessoal subalterno, mediante aprovação em curso ou exame previsto na NORMAM-102 e/ou por substituição dos modelos antigos, mediante requerimento e apresentação da documentação e pré-requisitos necessários.  Ao final do processo o aquaviário receberá o certificado modelo DPC-1034 com validade atualizada segundo a legislação vigente.",
+  "flagPortalLogado": "N",
+  "contato": "Para qualquer dúvida entre em contato com a Capitania, Delegacia e Agência.",
+  "gratuito": "false",
+  "porcentagemDigital": 50,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://atendimento-dpc.marinha.mil.br/sisap/agendamento/#/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificação de Aquaviários",
+        "id": 108387
+      },
+      {
+        "item": "DPC-1034",
+        "id": 108388
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91184,
+        "tipo": "Pessoal Profissional Aquaviário",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "10",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 10,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/185",
+    "dbId": 7378,
+    "nomeOrgao": "Comando da Marinha (CMAR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 151290
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 151291
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "aquaviário",
+        "id": 361994
+      },
+      {
+        "item": "marinha",
+        "id": 361995
+      },
+      {
+        "item": "capitania dos portos",
+        "id": 361996
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 125963
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 258,
+    "negativas": 303
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 211739,
+      "titulo": "Requisitar o serviço",
+      "descricao": "Para realizar o serviço é necessário realizar o pagamento da Guia de Recolhimento da União (GRU). Após a compensação do pagamento da GRU, compareça ao atendimento na Capitania, Delegacia e Agência (CP/DL/AG). Para melhor conforto, algumas CP/DL/AG permitem o agendamento de atendimento de forma digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37366,
+            "descricao": "Taxa de serviço",
+            "moeda": "R$",
+            "valor": " 20,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 275088,
+            "tipo": "web",
+            "descricao": "[Clique aqui para emitir GRU ](https://dpc1.marinha.mil.br/scam/emitgruscam/seleciona_tipo_guia.asp)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 211740,
+      "titulo": "Entregar documentação",
+      "descricao": "Comparecer a Capitania, Delegacia ou Agência para entregar a documentação necessária.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 285380,
+            "nome": "* Carteira de identidade\n * Carteira de identidade de estrangeiro\n * Carteira de trabalho\n * Comprovante de endereço/residência\n * Comprovante de pagamento\n * CPF\n * Certificado modelo DPC-1034\n * Requerimento do interessado\n * Caderneta de Inscrição e Registro(CIR)\n * Atestado de Saúde Ocupacional(ASO)\n * Registro de Ocorrência(RO)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 275089,
+            "tipo": "presencial",
+            "descricao": "Nas Capitanias dos Portos, Delegacias e Agências Subordinadas, no **Centro de Instrução Almirante Graça Aranha(CIAGA)** - Av. Brasil, 9020 - Olaria - Rio de Janeiro/RJ - CEP: 21030-001 ou no **Centro de Instrução Almirante Braz de Aguiar (CIABA)**- Rodovia Arthur Bernardes nº 245, Pratinha - Belém -PA - Cep: 66816-900",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 211741,
+      "titulo": "Receber o Certificado",
+      "descricao": "Compareça ao local onde foi realizado a entrega de documentação para a retirada do documento.\n\n **Acompanhar o serviço **\n\n Para acompanhar o andamento do processo e saber se o serviço está finalizado, [clique aqui](https://atendimento-dpc.marinha.mil.br/sisap/agendamento/#/). Informe o CPF/CNPJ ou Nº de Protocolo para realizar a busca.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 285381,
+            "nome": "Carteira de identificação oficial com foto"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 275090,
+            "tipo": "presencial",
+            "descricao": "Na Capitania, Delegacia ou Agência.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "46",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/revalidar-ou-emitir-2a-via-de-certificado-modelo-dpc-1034",
+  "statusDestaque": false
+}

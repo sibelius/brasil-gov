@@ -1,0 +1,304 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22995",
+  "nome": "Comprovar regularidade fiscal para liberar emissão de certidão",
+  "sigla": "",
+  "descricao": "Consulte sua situação fiscal e verifique as pendências que impedem a emissão da certidão. Regularize as pendências identificadas e garanta a emissão da certidão de regularidade fiscal. A certidão será liberada automaticamente entre 2 e 5 dias após a regularização.\n\n Se a certidão não for liberada automaticamente ou depender de comprovação adicional (como medida judicial), solicite a liberação à Receita Federal por meio de processo digital.\n\n Pendências comuns que impedem a emissão da certidão:\n\n   + Falta de entrega de declarações ou escriturações;\n + Tributos não pagos ou pagos com valor inferior ao devido;\n + Multas em atraso;\n + Parcelamentos em atraso;\n + Inconsistências nas obrigações acessórias;\n + Informações cadastrais desatualizadas; dentre outros.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/navegacao)\n\n [Orientações sobre processos digitais](https://www.gov.br/receitafederal/pt-br/assuntos/processos-digitais \"e-Processo\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.receitafederal.gov.br/servico/pendencias",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122984
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102788,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "5",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171837
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171838
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171839
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171840
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CND",
+        "id": 409215
+      },
+      {
+        "item": "Divergência",
+        "id": 409216
+      },
+      {
+        "item": "Situação Fiscal",
+        "id": 409217
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.022/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116969)",
+        "id": 147761
+      },
+      {
+        "item": "[Portaria Conjunta RFB/PGFN nº 1.751/2014](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=56753)",
+        "id": 147762
+      },
+      {
+        "item": "[Portaria MF nº 358/2014](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=55975)",
+        "id": 147763
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 156,
+    "negativas": 710
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239769,
+      "titulo": "Consultar pendências",
+      "descricao": "Consulte sua situação fiscal para verificar as pendências que impedem a emissão da certidão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309563,
+            "tipo": "web",
+            "descricao": "[Minhas Dívidas e Pendências](https://servicos.receitafederal.gov.br/servico/pendencias)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239770,
+      "titulo": "Abrir processo digital",
+      "descricao": "Se a certidão não for liberada automaticamente ou exigir comprovação, solicite a liberação via processo digital.\n\n Acesse o canal abaixo, selecione a área \"CERTIDÕES E ATESTADOS\" e o serviço correspondente.\n\n Abra um processo para cada certidão, em nome da pessoa interessada.\n\n Anexe os documentos em arquivos separados, por tipo. Itens sem relação com o pedido serão rejeitados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 316152,
+            "nome": "Comprovação de regularização das pendências;"
+          },
+          {
+            "id": 316153,
+            "nome": "Demonstrativo do montante parcelado caso seja optante por parcelamento não consolidado."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48035,
+            "descricao": "Observação",
+            "documento": [
+              {
+                "id": 316151,
+                "codigo": null,
+                "descricao": "A assinatura com conta gov.br dispensa a juntada de documentos de identificação, assim como o uso de procuração digital dispensa a apresentação de outra forma de procuração.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309564,
+            "tipo": "web",
+            "descricao": "[Abrir Novo Processo (Requerimento)](https://www3.cav.receita.fazenda.gov.br/requer/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239771,
+      "titulo": "Acompanhar o andamento do processo e obter a certidão",
+      "descricao": "Consulte o andamento do processo e os documentos juntados pelos canais abaixo.\n\n O resultado será incluído no processo digital. Acesse \"Meus Processos\" para verificar se o pedido foi aprovado.\n\n Se o processo tiver sido arquivado, ele estará na aba \"Inativos\".\n\n Após a liberação, a certidão pode ser obtida pelo serviço \"Consultar certidões emitidas pela Receita Federal\" ou pelo próprio processo digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309565,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309566,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://apps.apple.com/br/app/eprocesso/id1358752141 \"e-Processo\") (App Store)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309567,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso \"e-Processo\")(Google Play)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10445",
+      "nome": "Emitir certidão de regularidade fiscal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10667",
+      "nome": "Consultar certidões de regularidade fiscal emitidas"
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "18",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/comprovar-regularidade-para-liberar-emissao-de-certidao",
+  "statusDestaque": false
+}

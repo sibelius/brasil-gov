@@ -1,0 +1,277 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12498",
+  "nome": "Comunicar crimes diversos nas rodovias federais.",
+  "sigla": "",
+  "descricao": "Por meio deste serviço o usuário poderá informar à PRF a ocorrência de situações criminosas nas rodovias federais.",
+  "flagPortalLogado": "N",
+  "contato": "191",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 101954
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 86187,
+        "tipo": "Qualquer pessoa ou condutor que se deparar com alguma situação criminosa nas rodovias federais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 142065
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Crimes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Crime",
+        "id": 342134
+      },
+      {
+        "item": "Rodovia",
+        "id": 342135
+      },
+      {
+        "item": "PRF",
+        "id": 342136
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118841
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 25,
+    "negativas": 69
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 198485,
+      "titulo": "Entrar em contato com a PRF.",
+      "descricao": "O usuário, ao ter conhecimento do fato criminoso nas rodovias federais, deverá entrar em contato através do telefone 191, do app PRF Brasil ou comparecendo a um dos postos policiais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258680,
+            "tipo": "telefone",
+            "descricao": "O usuário deverá entrar em contato pelo telefone 191.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258681,
+            "tipo": "presencial",
+            "descricao": "O usuário deverá procurar algum posto de atendimento da PRF ([Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258682,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo **PRF Brasil**\n\n Aplicativo para Android\n\n https://play.google.com/store/apps/details?id=br.gov.prf.prfbrasil\n\n Aplicativo para IOS\n\n https://apps.apple.com/br/app/prf-brasil/id1639544558",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 198486,
+      "titulo": "Comunicar o fato crimonoso e sua localidade.",
+      "descricao": "O usuário deverá informar sobre o fato criminoso, trazendo o máximo de informações e detalhes que possam auxiliar a atuação da PRF.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258683,
+            "tipo": "telefone",
+            "descricao": "O usuário deverá entrar em contato pelo telefone 191.>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258684,
+            "tipo": "presencial",
+            "descricao": "O usuário deverá procurar algum posto de atendimento da PRF ([Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258685,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo **PRF Brasil**\n\n Aplicativo para Android\n\n https://play.google.com/store/apps/details?id=br.gov.prf.prfbrasil\n\n Aplicativo para IOS\n\n https://apps.apple.com/br/app/prf-brasil/id1639544558",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 198487,
+      "titulo": "Tomar conhecimento das providências a serem tomadas pela PRF.",
+      "descricao": "Após informações dadas pelo usuário, a PRF, com o conhecimento do fato, planejará sua atuação e informará ao usuário comunicante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258686,
+            "tipo": "telefone",
+            "descricao": "O usuário deverá entrar em contato pelo telefone 191.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258687,
+            "tipo": "presencial",
+            "descricao": "O usuário deverá procurar algum posto de atendimento da PRF ([Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258688,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo **PRF Brasil**\n\n Aplicativo para Android\n\n https://play.google.com/store/apps/details?id=br.gov.prf.prfbrasil\n\n Aplicativo para IOS\n\n https://apps.apple.com/br/app/prf-brasil/id1639544558",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "27",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/comunicar-crimes-diversos-nas-rodovias-federais",
+  "statusDestaque": false
+}

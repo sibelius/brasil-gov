@@ -1,0 +1,207 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10966",
+  "nome": "Consultar restituição de imposto de renda",
+  "sigla": "DIRPF",
+  "descricao": "Consulte a sua restituição de imposto de renda, apurada pela Declaração de Imposto de Renda (DIRPF).\n\n Se você quer consultar a restituição solicitada através do Pedido de Restituição, Ressarcimento ou Reembolso e Declaração de Compensação (PER/DCOMP), utilize o serviço relacionado ao lado.\n\n A **Restituição Automática** (**Cashback**) é um serviço que devolve valores de imposto de renda retidos na fonte a contribuintes que não atingiram os critérios de obrigatoriedade de entrega da declaração, mas que têm direito à restituição.\n\n O lote especial de Restituição Automática (Cashback):  * é destinado a contribuintes que **não** apresentaram a Declaração do Imposto de Renda;\n * refere-se ao exercício de **2025 (ano-calendário de 2024)**;\n * é baseado em declaração elaborada pela **Receita Federal**;\n * utiliza informações já disponíveis nas bases de dados **oficiais;**\n *  contempla restituições de até **R$ 1.000**; \n *  segue** cronograma próprio** para pagamento.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre restituição](https://www.gov.br/../../receitafederal/pt-br/assuntos/meu-imposto-de-renda/restituicao)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.restituicao.receita.fazenda.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122062
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102102,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170333
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Devolver",
+        "id": 406214
+      },
+      {
+        "item": "Devolução",
+        "id": 406215
+      },
+      {
+        "item": "Restituir",
+        "id": 406216
+      },
+      {
+        "item": "Crédito",
+        "id": 406217
+      },
+      {
+        "item": "extrato DIRPF",
+        "id": 406218
+      },
+      {
+        "item": "extrato IRPF",
+        "id": 406219
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002#2311139)",
+        "id": 146159
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 51879,
+    "negativas": 91435
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237890,
+      "titulo": "Consultar a situação da restituição",
+      "descricao": "Utilize o sistema **Consultar restituição IRPF** para consultar a situação da sua restituição.\n\n Para ter informações mais detalhadas sobre o processamento da sua declaração, utilize o canal **Meu Imposto de Renda**, disponível no site da Receita ou pelos aplicativos para celulares e *tablets*.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307224,
+            "tipo": "web",
+            "descricao": "[Consultar restituição](https://www.restituicao.receita.fazenda.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 307225,
+            "tipo": "web",
+            "descricao": "[Consultar Cashback](https://restituicao-automatica.servicos.receitafederal.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 47654,
+            "descricao": "Para consultar informações mais detalhadas",
+            "canalDePrestacao": [
+              {
+                "id": 307222,
+                "tipo": "web",
+                "descricao": "[Meu Imposto de Renda](https://mir.receita.fazenda.gov.br/portalmir)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 307223,
+                "tipo": "aplicativo-movel",
+                "descricao": "[ App Receita Federal](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/app/rfb)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10870",
+      "nome": "Obter restituição de imposto de renda não resgatada no banco"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10965",
+      "nome": "Consultar pedido de restituição ou declaração de compensação de tributos federais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10942",
+      "nome": "Declarar meu imposto de renda"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-restituicao-de-imposto-de-renda",
+  "statusDestaque": true
+}

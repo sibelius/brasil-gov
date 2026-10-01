@@ -1,0 +1,171 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12750",
+  "nome": "Consultar Produtos Susep",
+  "sigla": "",
+  "descricao": "Consulta de produtos protocolados na Susep (Seguros, Previdência Aberta ou Capitalização), conferindo se o plano de seguro, o plano de previdência complementar aberta ou o título de capitalização contratado encontra-se devidamente registrado na Autarquia. \n\n A consulta retorna a tabela de versões protocoladas, onde consta todas as versões eletrônicas já comercializadas do plano, com as respectivas datas de início e de fim de comercialização.\n\n Produtos de seguros classificados como de grandes riscos, na forma da regulamentação vigente (Resolução CNSP No. 407/21), ficam dispensados de registro na Autarquia.\n\n Através do número de registro do produto na Susep, a partir da máscara numérica 15414.6XXXXX/AAAA-DV, como também máscaras legadas de processos mais antigos, é possível visualizar todas as versões eletrônicas do produto. Selecione a versão correspondente à data de contratação ou renovação do plano. No caso de planos coletivos, deverá ser selecionada a versão vigente na data de emissão ou renovação da apólice coletiva.",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o [link](https://www.gov.br/susep/pt-br/fale-conosco/fale-conosco) e selecione a opção aplicável, forneça as informações requeridas e aguarde retorno.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.susep.gov.br/safe/menumercado/REP2/Produto.aspx/Consultar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 41986
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 39474,
+        "tipo": "Pessoas físicas e jurídicas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235",
+    "dbId": 55943,
+    "nomeOrgao": "Superintendência de Seguros Privados (SUSEP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 63661
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 63662
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Processo SUSEP",
+        "id": 145716
+      },
+      {
+        "item": "Consulta processo SUSEP",
+        "id": 145717
+      },
+      {
+        "item": "Processo seguro",
+        "id": 145718
+      },
+      {
+        "item": "Processo previdência privada",
+        "id": 145719
+      },
+      {
+        "item": "Processo Capitalização",
+        "id": 145720
+      },
+      {
+        "item": "Produto",
+        "id": 145721
+      },
+      {
+        "item": "Registro",
+        "id": 145722
+      },
+      {
+        "item": "Susep",
+        "id": 145723
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 45538
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 134,
+    "negativas": 537
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 84235,
+      "titulo": "Realizar Pesquisa",
+      "descricao": "Informe o produto com a máscara numérica 15414.6XXXXX/AAAA-DV, digitando todos os caracteres. Também podem ser consultadas máscaras legadas de processos mais antigos:\n\n [XX.XXXXXX/XX-XX]  \n [XXX-XXXXX/XX]  \n [XXXXX.XXXXXX/XX-XX]\n\n Caso o ano de abertura do processo seja igual ou inferior a 2012, é possível que o produto possua versões que não existem em formato digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 107701,
+            "tipo": "web",
+            "descricao": "Acesse o [link](https://www2.susep.gov.br/safe/menumercado/REP2/Produto.aspx/Consultar), insira o nÃºmero do processo SUSEP relativo ao produto contratado e clique em pesquisar.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-produtos-susep",
+  "statusDestaque": false
+}

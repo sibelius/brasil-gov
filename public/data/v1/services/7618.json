@@ -1,0 +1,217 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7618",
+  "nome": "Indicar online o principal condutor de um veículo",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito - Senatran que consiste na indicação e consulta dos principais condutores de um veículo. A indicação só será efetivada após a autorização do condutor principal indicado. O condutor deve possuir categoria compatível com a do veículo selecionado.",
+  "flagPortalLogado": "N",
+  "contato": "+ [Central de serviços](https://form.omni.serpro.gov.br/upperScreenForm/2776)\n    \n\n   + Telefone: 08007282324\n    \n\n   + e-mail: [css.serpro@serpro.gov.br](mailto:css.serpro@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/usuario/veiculos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Principal Condutor",
+        "id": 106733
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89994,
+        "tipo": "Pessoa Jurídica que:",
+        "requisitos": "+ Possuir Certificado Digital cadastrado no Portal de Serviços do SENATRAN."
+      },
+      {
+        "id": 89995,
+        "tipo": "Pessoa física que:",
+        "requisitos": "+ Possuir CNH Digital ativa;\n     + Esteja autenticado no Portal de Serviços do SENATRAN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 148901
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 148902
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DENATRAN",
+        "id": 356904
+      },
+      {
+        "item": "principal condutor",
+        "id": 356905
+      },
+      {
+        "item": "veículo",
+        "id": 356906
+      },
+      {
+        "item": "indicar condutor",
+        "id": 356907
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124304
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 339,
+    "negativas": 355
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 208488,
+      "titulo": "Indicar o principal condutor pelo aplicativo da Carteira Digital de Trânsito (CDT) - (Opção 1)",
+      "descricao": "Se você ainda não possui a Carteira Digital no seu celular, [clique aqui](https://www.gov.br/obter-carteira-digital-de-transito)\n\n Faça login no app e vá em “Veículos”. Certifique-se de ter seu(s) veículo(s) cadastrado(s) e selecione o que deseja para indicar o principal condutor na lista “Meu(s) veículo(s)”.\n\n Depois, toque em “Principal condutor” e informe o CPF da pessoa indicada. O condutor deve ter CNH Digital (CNH-e) ativa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270939,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Android](https://play.google.com/store/apps/details?id=br.gov.serpro.cnhe) ou [iOS](https://itunes.apple.com/br/app/cnh-digital/id1275057217?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208489,
+      "titulo": "Indicar o principal condutor pelo Portal de Serviços - (Opção 2)",
+      "descricao": "Faça login no [Portal de Serviços](https://portalservicos.senatran.serpro.gov.br/#/usuario/painel) com Certificado Digital ou CPF e senha, clicando em “Entrar com [gov.br](http://gov.br/)”\n\n Após o acesso, vá em “Veículos” e selecione “Consultar Meus Veículos”. Escolha o veículo desejado e clique em “Principal Condutor”. Informe o CPF e o número da CNH da pessoa que será indicada.\n\n Após a confirmação, o sistema enviará um e-mail à pessoa indicada, que poderá autorizar ou recusar a indicação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282265,
+            "nome": "* CPF do condutor indicado; ou\n * CNH do condutor indicado."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270940,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/usuario/veiculos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7613",
+      "nome": "Consultar online dados de seus veículos"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/74",
+      "nome": "Apresentar Formulário de Identificação do Condutor Infrator (Transferência de Pontuação) - DNIT"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "49",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/indicar-online-o-principal-condutor-de-um-veiculo",
+  "statusDestaque": false
+}

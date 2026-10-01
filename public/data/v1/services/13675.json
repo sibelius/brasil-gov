@@ -1,0 +1,507 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13675",
+  "nome": "Solicitar Liberação condicionada de veículo recolhido pela PRF",
+  "sigla": "DLC",
+  "descricao": "Solicitação de liberação condicionada de veículo recolhido pela PRF, quando a irregularidade detectada não puder ser sanada no local de guarda, para fins de reparos ou execução de serviços.\n\n  Através deste serviço o condutor/proprietário pode solicitar a liberação condicionada de um veículo recolhido ao pátio pela PRF, desde que comprove a estrita necessidade de retirar o veículo do pátio para regularizar a situação que motivou o seu recolhimento. O solicitante deve estar ciente que a liberação, sempre na forma transportada, é condicionada apenas para regularizar a situação do veículo que ensejou seu recolhimento, devendo, imediatamente após a sua regularização, ser reapresentado à PRF para sua liberação definitiva.",
+  "flagPortalLogado": "N",
+  "contato": "Preencher depois.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Liberação condicionada",
+        "id": 126840
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106075,
+        "tipo": "**Condutor**",
+        "requisitos": "Indicado no momento da abordagem conforme Documento de Recolhimento do Veículo (DRV)."
+      },
+      {
+        "id": 106076,
+        "tipo": "**Proprietário**",
+        "requisitos": "Pessoa cadastrada nos sistemas dos Órgãos Executivos de Trânsito de registro do veículo."
+      },
+      {
+        "id": 106077,
+        "tipo": "**Adquirente/comprador do veículo**",
+        "requisitos": ""
+      },
+      {
+        "id": 106078,
+        "tipo": "**Representantes legais**",
+        "requisitos": "O arrendatário (e figuras equiparadas) são legalmente equiparados ao proprietário para fins de representação do veículo junto à PRF.\n\n As instituições financeiras somente detêm legitimidade para retirar veículos recolhidos quando munidas de mandado de busca e apreensão em seu favor."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "1",
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 1,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177292
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infrações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "liberação condicionada",
+        "id": 422601
+      },
+      {
+        "item": "veículo retido",
+        "id": 422602
+      },
+      {
+        "item": "pátio PRF",
+        "id": 422603
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152168
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 28,
+    "negativas": 256
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 247730,
+      "titulo": "Preencher requerimento",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323333,
+            "nome": "Requerimento comprovando a legitimidade e solicitando a retirada do veículo das dependências do pátio de custódia, juntamente com a apresentação dos fatos e fundamentos da impossibilidade de realização de reparos ou execução de serviços no local;"
+          },
+          {
+            "id": 323334,
+            "nome": "Termo de Responsabilidade para reapresentação do veículo com as irregularidades sanadas, conforme prazo estabelecido (documento fornecido no ato de solicitação);"
+          },
+          {
+            "id": 323335,
+            "nome": "Apresentação de comprovantes necessários no ato do requerimento da impossibilidade de realização de reparos ou execução de serviços no local;"
+          }
+        ],
+        "casos": [
+          {
+            "id": 49055,
+            "descricao": "Verificada as seguintes situações, não haverá a necessidade de comprovação:",
+            "documento": [
+              {
+                "id": 323312,
+                "codigo": null,
+                "descricao": "a apresentação dos fatos e fundamentos sejam suficientemente demonstrados e motivados no requerimento;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323313,
+                "codigo": null,
+                "descricao": "os documentos comprobatórios possam ser obtidos diretamente dos órgãos ou entidades responsáveis pela execução de reparos ou serviços;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323314,
+                "codigo": null,
+                "descricao": "a própria Administração reconhece a dificuldade de apresentação de tais documentos e/ou reconhece que o reparo ou a execução dos serviços deve ser realizado fora do pátio e/ou em outra localidade.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49056,
+            "descricao": "Proprietário - Pessoa Física",
+            "documento": [
+              {
+                "id": 323315,
+                "codigo": null,
+                "descricao": "Original e Cópia do CRLV atualizado, em meio físico ou digital;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323316,
+                "codigo": null,
+                "descricao": "Original e Cópia do documento oficial de identificação;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323317,
+                "codigo": null,
+                "descricao": "Original e Cópia do Nada Consta da PRF e dos comprovantes de pagamento das despesas de recolhimento e guarda do veículo e outros encargos previstos em legislação específica, quando houver.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49057,
+            "descricao": "Proprietário - Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 323318,
+                "codigo": null,
+                "descricao": "Original e Cópia do CRLV atualizado, em meio físico ou digital;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323319,
+                "codigo": null,
+                "descricao": "Original e Cópia do documento oficial de identificação do responsável pela liberação (sócio ou procurador)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323320,
+                "codigo": null,
+                "descricao": "Original e Cópia da certidão Simplificada da Junta Comercial, contendo a relação atualizada dos sócios da Pessoa Jurídica, emitida em data não superior a 30 (trinta) dias;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323321,
+                "codigo": null,
+                "descricao": "Original e Cópia do Nada Consta da PRF e dos comprovantes de pagamento das despesas de recolhimento e guarda do veículo e outros encargos previstos em legislação específica, quando houver.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49058,
+            "descricao": "Adquirente/ Comprador",
+            "documento": [
+              {
+                "id": 323322,
+                "codigo": null,
+                "descricao": "Original e Cópia do CRLV atualizado, em meio físico ou digital;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323323,
+                "codigo": null,
+                "descricao": "Original e Cópia do documento oficial de identificação;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323324,
+                "codigo": null,
+                "descricao": "Original e Cópia do CRV/DUT/ATPV, assinado com firma reconhecida, em nome do adquirente/comprador, pelo prazo de 30 (trinta) dias contados da data de preenchimento",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323325,
+                "codigo": null,
+                "descricao": "ou Original e Cópia do CRV/DUT/ATPV, assinado com firma reconhecida, em nome do adquirente/comprador e/ou o contrato particular de compra e venda, depois de decorrido o prazo de 30 (trinta) dias contados da data de preenchimento, se houver comunicação de venda registrada em seu favor no órgão executivo de trânsito de registro do veículo;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323326,
+                "codigo": null,
+                "descricao": "Original e Cópia do Nada Consta da PRF e dos comprovantes de pagamento das despesas de recolhimento e guarda do veículo e outros encargos previstos em legislação específica, quando houver.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49059,
+            "descricao": "Procurador Legal (advogado ou \"particular\")",
+            "documento": [
+              {
+                "id": 323327,
+                "codigo": null,
+                "descricao": "Original e Cópia do CRLV atualizado, em meio físico ou digital;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323328,
+                "codigo": null,
+                "descricao": "Original e Cópia do documento oficial de identificação do responsável pela liberação (procurador);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323329,
+                "codigo": null,
+                "descricao": "Original e Cópia da Procuração Pública ou Procuração Particular com firma reconhecida, contendo poderes para o desembaraço/liberação de veículos, perante órgãos públicos, ou algo semelhante, na forma do Art. 654, §1o, do Código Civil.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323330,
+                "codigo": null,
+                "descricao": "Original e Cópia do Nada Consta da PRF e dos comprovantes de pagamento das despesas de recolhimento e guarda do veículo e outros encargos previstos em legislação específica, quando houver.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323331,
+                "codigo": null,
+                "descricao": "OBS1: o reconhecimento de firma na procuração particular é dispensável, nos casos em que o procurador apresentar o documento de identidade do mandante, na forma do art. 3o, inciso I, da Lei no 13.726/2018. No entanto, se for identificado risco relevante de fraude, nos termos do art. 1o da Lei no 13.726/2018, será exigido o reconhecimento de firma.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323332,
+                "codigo": null,
+                "descricao": "OBS2: Procuração lavrada em Unidade da Federação diversa deverá conter abono do sinal público em cartório de notas da Unidade da Federação do local da liberação.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320257,
+            "tipo": "presencial",
+            "descricao": "[Unidades operacionais da PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247731,
+      "titulo": "Observações importantes",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323347,
+            "nome": "O veículo deverá ser retirado do depósito, na forma transportada conforme previsto no Art. 271 , § 3º da Lei  nº 9.503, de 23 de setembro de 1997, que institui o Código de Trânsito Brasileiro."
+          },
+          {
+            "id": 323348,
+            "nome": "Variação dos Valores de Cobrança: Os valores de cobrança para este serviço variam conforme o pátio de destino do veículo, que deve ser verificado no Documento de Notificação de Recolhimento de Veículo (DRV)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 49060,
+            "descricao": "Valor do Serviço",
+            "documento": [
+              {
+                "id": 323336,
+                "codigo": null,
+                "descricao": "Não há cobrança de valores específicos para o serviço de Liberação condicionada de veículo. No entanto, para que ocorra a Liberação do Veículo é necessário realizar o prévio pagamento de multas exigíveis e vencidas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação e o reparo de qualquer componente ou equipamento obrigatório que não esteja em perfeito estado de funcionamento. Diante disso, se o serviço de Recolhimento e Guarda for prestado:",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323337,
+                "codigo": null,
+                "descricao": "Diretamente pela PRF, aplica-se os valores das Taxas previstas na Portaria MJSP no 1.070/2015, sendo limitada a 6 (seis) meses de cobrança de diárias;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323338,
+                "codigo": null,
+                "descricao": "Por conveniado pela PRF, aplica-se os valores das Taxas previstas pelo órgão ou entidade do SNT conveniado, sendo limitada a 6 (seis) meses de cobrança de diárias;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323339,
+                "codigo": null,
+                "descricao": "Por contratado pela PRF, aplica-se os valores das Tarifas previstas no contrato, realizado por meio de licitação, sendo limitada a 6 (seis) meses de cobrança de diárias;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323340,
+                "codigo": null,
+                "descricao": "Variação dos Valores de Cobrança: Os valores de cobrança para este serviço variam conforme o pátio de destino do veículo, que deve ser verificado no Documento de Notificação de Recolhimento de Veículo (DRV).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49061,
+            "descricao": "Modalidades de Pátios e Forma de Pagamento",
+            "documento": [
+              {
+                "id": 323341,
+                "codigo": null,
+                "descricao": "Em razão da existência de diversas modalidades de prestação de serviços, é aconselhável contatar a unidade para qual o veículo foi recolhido, a fim de verificar qual é o tipo de modalidade e a forma de pagamento abaixo que se aplica ao caso:",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323342,
+                "codigo": null,
+                "descricao": "Pátios gerenciados diretamente pela PRF: Pagamento realizado por meio de Guia de Recolhimento da União - GRU;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323343,
+                "codigo": null,
+                "descricao": "Pátios conveniados pertencentes a órgãos e ou entidades públicos: Pagamento realizado diretamente ao órgão ou entidade público, na forma estabelecida pelo conveniado;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323344,
+                "codigo": null,
+                "descricao": "Pátios contratados pela PRF: Pagamento realizado diretamente a empresa contratada para a prestação dos serviços de recolhimento e/ou guarda, na forma estabelecida em contrato.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49062,
+            "descricao": "Horário de atendimento",
+            "documento": [
+              {
+                "id": 323345,
+                "codigo": null,
+                "descricao": "Em regra, diuturnamente (24 horas), para os veículos recolhidos aos pátios gerenciados diretamente pela PRF, desde que a unidade esteja em pleno funcionamento",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323346,
+                "codigo": null,
+                "descricao": "Em regra, no horário de expediente, para os veículos recolhidos aos pátios gerenciados pelos conveniados e contratados pela PRF, conforme estabelecido no instrumento que firma a prestação do serviço de Recolhimento e Guarda.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320258,
+            "tipo": "presencial",
+            "descricao": "[Unidades operacionais da PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "10",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-liberacao-condicionada",
+  "statusDestaque": false
+}

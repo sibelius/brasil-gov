@@ -1,0 +1,204 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13126",
+  "nome": "Solicitar Autorização Sanitária para Casos Excepcionais",
+  "sigla": "",
+  "descricao": "É uma solicitação à Anvisa de autorização para casos excepcionais.  Pode ser solicitada para situações pontuais não previstas em normas vigentes ou quando há uma justificativa que comprove que os benefícios superam os riscos no caso específico.\n\n O pedido pode ser feito por pessoas físicas, empresas ou órgãos de governo. Exemplo de atividades para as quais podem ser concedidas autorizações excepcionais são importação, aquisição ou uso de algum produto ainda não autorizado no país.\n\n Para importação de medicamentos controlados, para uso próprio e tratamento de saúde, devem ser seguidas as [orientações desta página](https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/controlados/importacao).",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anvisa.gov.br/sei/controlador_externo.php?acao=usuario_externo_avisar_cadastro&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 79226
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 68955,
+        "tipo": "Empresas e órgãos governamentais",
+        "requisitos": "Deve possuir cadastro de acesso para Usuários Externos (SEI) [SEI — Agência Nacional de Vigilância Sanitária - Anvisa (www.gov.br)](https://www.gov.br/anvisa/pt-br/sistemas/sei)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 109622
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 109623
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Empresas, ",
+        "id": 269517
+      },
+      {
+        "item": "Serviços de Saúde, ",
+        "id": 269518
+      },
+      {
+        "item": "Ministério da Saúde e entidades vinculadas",
+        "id": 269519
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RDC Nº 203, DE 26 DE DEZEMBRO DE 2017](http://antigo.anvisa.gov.br/documents/10181/2970929/RDC_203_2017_COMP.pdf/56d06cba-1725-4356-b6ba-03bab5e109db) – Dispõe sobre os critérios e procedimentos para importação, em caráter de excepcionalidade, de produtos sujeitos à vigilância sanitária sem registro na Anvisa.",
+        "id": 90163
+      },
+      {
+        "item": "[RDC Nº 488, DE 7 DE ABRIL DE 2021](http://antigo.anvisa.gov.br/documents/10181/6253408/RDC_488_2021_.pdf/cae3af8a-0673-45e1-b9e3-97370d576c29) - Dispõe sobre a importação de produtos sujeitos à vigilância sanitária por unidade de saúde, para seu uso exclusivo.",
+        "id": 90164
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 154904,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Acesse o portal da Anvisa <https://www.gov.br/anvisa/pt-br> > Sistemas > SEI > Acesso para Usuários Externos (SEI) e siga as orientações: [manual-do-usuario-externo-sei-anvisa (www.gov.br)](https://www.gov.br/anvisa/pt-br/sistemas/sei/arquivos/manual-do-usuario-externo-sei-anvisa)\n\n  2. Acessar SEI como “Usuário Externo”\n 4. Selecionar “PETICIONAMENTO” e “PROCESSO NOVO”\n 6. Selecionar o tipo “Demanda Externa: Pedido de Excepcionalidade”\n 8. Incluir os documentos necessários.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 216369,
+            "nome": "Cópia de Certificação de Boas Práticas de Fabricação, do país de origem ou de outros que a empresa fabricante dispuser; declaração de regularização do produto no país de origem; descrição dos países para os quais o produto é importado; informações acerca da qualificação de transporte, se houver.\n\n Para a importação de produtos sujeitos à vigilância sanitária por unidade de saúde, para seu uso exclusivo, regulamentada pela RDC nº 488/2021."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 202250,
+            "tipo": "web",
+            "descricao": "[SEI - Cadastro de Usuário Externo (anvisa.gov.br)](https://sei.anvisa.gov.br/sei/controlador_externo.php?acao=usuario_externo_avisar_cadastro&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 154905,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no SEI, pode-se acompanhar o andamento do processo pelo menu lateral esquerdo em “Recibos eletrônicos de Protocolo”. Caso haja voto favorável da Diretoria Colegiada, o requerente deverá iniciar o processo de importação no Sistema Solicita anexando a autorização.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 202251,
+            "tipo": "web",
+            "descricao": "[SEI - Cadastro de Usuário Externo (anvisa.gov.br)](https://sei.anvisa.gov.br/sei/controlador_externo.php?acao=usuario_externo_avisar_cadastro&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-autorizacao-sanitaria-para-casos-excepcionais",
+  "statusDestaque": false
+}

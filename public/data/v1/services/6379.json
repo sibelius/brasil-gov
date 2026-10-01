@@ -1,0 +1,393 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6379",
+  "nome": "Obter diploma ou 2ª via de diploma - IFC",
+  "sigla": "",
+  "descricao": "Se você concluiu  um curso no IFC, pode obter o seu diploma ou 2ª via de diploma. \n\n **1ª via  de  Diploma/Certificado:**\n\n Ao concluir o curso, as Secretarias de Campus do IFC procederão com a abertura do processo de diplomação, **sem a necessidade de fazer solicitação formal para emissão de diploma/certificado**.\n\n  **2ª via  de  Diploma/Certificado:**\n\n É necessário fazer o preenchimento do requerimento de solicitação de 2ª via de diploma/certificado e enviar para a Secretaria do Campus, com os comprovantes necessários.",
+  "flagPortalLogado": "N",
+  "contato": "Coordenação de Registro Acadêmico e Cadastro Institucional do IFC (RACI) - [Contato](https://registroacademico.ifc.edu.br/secretarias-academicas/ \"Secretarias Acadêmicas\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado",
+        "id": 116899
+      },
+      {
+        "item": "Diploma",
+        "id": 116900
+      },
+      {
+        "item": "2ª via de Diploma/Certificado",
+        "id": 116901
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98064,
+        "tipo": "Estudantes que concluíram o curso no IFC.",
+        "requisitos": "Ter concluído Curso no IFC e realizado a colação de grau quando se tratar de cursos de Graduação."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "0",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 0,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100919",
+    "dbId": 36730,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia Catarinense (IFC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 163094
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diplomas",
+        "id": 390656
+      },
+      {
+        "item": "Certificado",
+        "id": 390657
+      },
+      {
+        "item": "Conclusão de Curso",
+        "id": 390658
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 138004
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 55,
+    "negativas": 88
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n   + Urbanidade; \n     + Respeito; \n     + Acessibilidade; \n     + Cortesia; \n     + Presunção da boa-fé do usuário; \n     + Igualdade; \n     + Eficiência; \n     + Segurança; e \n     + Ética.",
+  "etapas": [
+    {
+      "id": 228324,
+      "titulo": "1ª via de Diploma/Certificado - Preparação do Processo",
+      "descricao": "Nesta etapa, as Secretarias de Campus farão a abertura do processo com a documentação necessária para a emissão do diploma após a conclusão do curso.\n\n **Não é necessário fazer nenhum tipo de solicitação formal para a secretaria do campus.**",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301773,
+            "nome": "A documentação necessária será organizada pela Secretaria do campus. Caso seja necessário algum documento, a RACI do campus entrará em contato com o estudante."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295674,
+            "tipo": "web",
+            "descricao": "Procedimentos a serem efetuados pelas Secretarias AcadÃªmicas.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228325,
+      "titulo": "1ª via de Diploma/Certificado - Registro e Emissão",
+      "descricao": "O registro e emissão do diploma/certificado será realizado Coordenação de Registros Acadêmicos - Reitoria.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301774,
+            "nome": "A documentação necessária será organizada pela Secretaria do Campus. Caso seja necessário algum documento, a Secretaria do campus entrará em contato com o estudante/requerente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295675,
+            "tipo": "web",
+            "descricao": "Procedimentos a serem efetuados pela Coordenação de Registros Acadêmicos - Reitoria.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "21",
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 21,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228326,
+      "titulo": "1ª via de Diploma/Certificado - Retirada do  Diploma/Certificado",
+      "descricao": "** Diplomas Digitais (Graduação)**\n\n Os Diplomas de Graduação serão emitidos de forma digital pelo IFC e o estudante será informado para retirar o seu diploma no  [Sistema Acadêmico](https://sig.ifc.edu.br/sigaa/verTelaLogin.do \"Sistema Acadêmico\").\n\n **Diplomas/Certificados Físicos (Todos os cursos, com exceção da Graduação)**\n\n O diploma/certificado físico deverá ser retirado na Secretaria do campus onde concluiu o curso.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301775,
+            "nome": "Para retirar o diploma/certificado físico no campus é necessário apresentar documento de identificação ou procuração em quando a retirada não pode ser efetuada pelo próprio estudante.\n\n Para diplomas digitais de graduação é necessário apenas acessar o [Sistema Acadêmico](https://sig.ifc.edu.br/sigaa/verTelaLogin.do \"Sistema Acadêmico\") em **Portal Discente > Ensino > Impressão de Diploma Digital**."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295676,
+            "tipo": "presencial",
+            "descricao": "Secretaria do Campus, no caso de diploma/certificado emitido fisicamente.\n\n Para diplomas digitais de graduação é necessário apenas acessar o [Sistema Acadêmico](https://sig.ifc.edu.br/sigaa/verTelaLogin.do \"Sistema Acadêmico\") em **Portal Discente > Ensino > Impressão de Diploma Digital**.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 228327,
+      "titulo": "2ª via de Diploma/Certificado - Solicitação",
+      "descricao": "Será necessário preencher o [formulário](https://registroacademico.ifc.edu.br/2021/09/14/formularios/ \"2ª via de diploma/certificado\") disponibilizado (2ª via de diploma/certificado) e encaminhar para a Secretaria do Campus de [forma online](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vS880iJd-3YeboGnUdg4mNBXjyknXgYZOfZ2Ce3IGWVGWNwR-0htPasgxhjeqkmi8mxl5s_bUiwKSxL/pubhtml \"Envio de Solicitações\").",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301776,
+            "nome": "Em caso de perda da via original: boletim de ocorrência.\n\n Erros de grafia ou outro dano: deve ser apresentada a via original na secretaria do campus"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295677,
+            "tipo": "web",
+            "descricao": "[Formulário de Solicitação](http://deve ser apresentada, retida e arquivada \"Formulário de Solicitação\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228328,
+      "titulo": "2ª via de Diploma/Certificado - Registro e Emissão",
+      "descricao": "Após a solicitação, a secretaria do campus fará a abertura do processo e o registro e emissão do diploma/certificado será realizado Coordenação de Registros Acadêmicos - Reitoria.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295678,
+            "tipo": "web",
+            "descricao": "Procedimentos a serem efetuados pela secretaria de campus e Coordenação de Registros Acadêmicos - Reitoria.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228329,
+      "titulo": "2ª via de Diploma/Certificado - Retirada do  Diploma/Certificado",
+      "descricao": "** Diplomas Digitais (Graduação)**\n\n Os Diplomas de Graduação serão emitidos de forma digital pelo IFC e o estudante será informado para retirar o seu diploma no  [Sistema Acadêmico](https://sig.ifc.edu.br/sigaa/verTelaLogin.do \"Sistema Acadêmico\").\n\n **Diplomas/Certificados Físicos (Todos os cursos, com exceção da Graduação)**\n\n O diploma/certificado físico deverá ser retirado na Secretaria do campus onde concluiu o curso.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301777,
+            "nome": "Para retirar o diploma/certificado físico no campus é necessário apresentar documento de identificação ou procuração em quando a retirada não pode ser efetuada pelo próprio estudante.\n\n Para diplomas digitais de graduação é necessário apenas acessar o [Sistema Acadêmico](https://sig.ifc.edu.br/sigaa/verTelaLogin.do \"Sistema Acadêmico\") em **Portal Discente > Ensino > Impressão de Diploma Digital**."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295679,
+            "tipo": "presencial",
+            "descricao": "Retirado na secretaria do campus, no caso de diploma/certificado emitido fisicamente.\n\n Para diplomas digitais de graduação é necessário apenas acessar o [Sistema Acadêmico](https://sig.ifc.edu.br/sigaa/verTelaLogin.do \"Sistema Acadêmico\") em **Portal Discente > Ensino > Impressão de Diploma Digital**.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "38",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-ifc",
+  "statusDestaque": false
+}

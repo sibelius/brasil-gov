@@ -1,0 +1,302 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11353",
+  "nome": "Solicitar licenciamento de importação de produto sujeito à vigilância sanitária por meio de LI/LPCO/DUIMP",
+  "sigla": "",
+  "descricao": "É um pedido eletrônico para que a Anvisa autorize a importação de bens e produtos sujeitos à vigilância sanitária. A solicitação é feita pelo sistema Siscomex e pelo sistema Solicita da Anvisa.\n\n [Saiba mais sobre a importação de produtos sujeitos à vigilância sanitária.](https://www.gov.br/../../anvisa/pt-br/assuntos/paf/importacao)",
+  "flagPortalLogado": "N",
+  "contato": "[**Central de Atendimento da Anvisa**](https://www.gov.br/../../anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www1.siscomex.receita.fazenda.gov.br/siscomexImpweb-7/login_cert.jsp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 92367
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 78802,
+        "tipo": "Empresas cadastradas na Anvisa e habilitadas no Siscomex.",
+        "requisitos": "Deve possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o Sistema Solicita e AFE válida para atividade de importar a classe de produto para a qual deseja solicitar a certificação (medicamentos e insumos farmacêuticos ou produtos para saúde). [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/../../anvisa/pt-br/sistemas/cadastros)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 127976
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Licenciamento de Importação; ",
+        "id": 311119
+      },
+      {
+        "item": "Produtos sujeitos à vigilância sanitária;",
+        "id": 311120
+      },
+      {
+        "item": "LPCO;",
+        "id": 311121
+      },
+      {
+        "item": "Importação.",
+        "id": 311122
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução da Diretoria Colegiada - RDC nº 81, de 05/11/2008](http://antigo.anvisa.gov.br/legislacao#/visualizar/28269) - Dispõe sobre o Regulamento Técnico de Bens e Produtos Importados para fins de Vigilância Sanitária.",
+        "id": 106399
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 17
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 178727,
+      "titulo": "Registrar Licenciamento de Importação no Siscomex",
+      "descricao": "2. Acesse o [sistema Siscomex Importação Web](https://www1.siscomex.receita.fazenda.gov.br/siscomexImpweb-7/login_cert.jsp) e faça o login no sistema por meio de Certificado Digital. [Selecione o menu “operações” > “Licenciamento de Importação” > “Nova Solicitação de LI”, preencha o formulário exibido e clique em registrar. ](https://www1.siscomex.receita.fazenda.gov.br/siscomexImpweb-7/login_cert.jsp)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244714,
+            "nome": "[Saiba mais na Cartilha LI WEB](https://www.gov.br/siscomex/pt-br/arquivos-e-imagens/2019/09/CARTILHALIWEB.pdf)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234805,
+            "tipo": "web",
+            "descricao": "**[Siscomex Importação Web](https://www1.siscomex.receita.fazenda.gov.br/siscomexImpweb-7/login_cert.jsp)**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 178728,
+      "titulo": "Incluir pedido de LPCO",
+      "descricao": "2. [Acesse o Portal Único](https://portalunico.siscomex.gov.br/portal/) \"Acesse com Certificado Digital, vá em “LPCO” > “Incluir pedido”, escolha o modelo e clique em “Prosseguir”. Preencha os dados e salve”.\n 4. [Manual de requerimento de LPCO importação](https://encurtador.com.br/MsXwb)\n 6.  [Peticionamento de Licença de Importação de LPCO](https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/portos-aeroportos-e-fronteiras/guias-e-manuais/manual_versao_final_27-10-23.pdf/view)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244715,
+            "nome": "A documentação depende do tipo de LPCO a ser solicitado. A lista dos documentos a serem anexados fica no campo “Informações ao importador” do formulário do LPCO."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234806,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](http://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 178729,
+      "titulo": "Fazer a solicitação na Anvisa",
+      "descricao": "2. Acesse o sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição Inicial”.\n 4. Localize o assunto cuja descrição seja compatível e preencha as informações solicitadas (Número da LPCO e Número da LI). Ao término das inserções, envie a petição. [Saiba mais no manual do Solicita](https://www.gov.br/../../anvisa/pt-br/sistemas/peticionamento).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 29462,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "variável de acordo com o porte da empresa e o tipo de solicitação",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234807,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 178730,
+      "titulo": "Acompanhar a solicitação no LPCO",
+      "descricao": "O importador poderá consultar seus pedidos, visualizar as exigências e a decisão do órgão anuente.\n\n [Acesse o Portal Único](https://portalunico.siscomex.gov.br/portal) acesse o login > Certificado Digital, (importador ou despachante). \n\n Acesse o módulo “IMP”, selecione a opção “LPCO” > “Consultar”.\n\n [Fila de Análise de Processos - LPCO IMPORTAÇÃO](https://www.gov.br/anvisa/pt-br/acessoainformacao/dadosabertos/informacoes-analiticas/importacao/fila-de-analise-de-processos-lcpo-importacao)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234808,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](http://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "32",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-licenciamento-de-importacao-de-produto-sujeito-a-vigilancia-sanitaria-por-meio-de-li-lpco-duimp",
+  "statusDestaque": false
+}

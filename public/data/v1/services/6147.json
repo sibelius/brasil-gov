@@ -1,0 +1,223 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6147",
+  "nome": "Obter diploma ou 2ª via de diploma de pós-graduação - UFAM",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito a pós-graduação na Universidade, pode obter o seu diploma (ou 2ª via) através deste serviço",
+  "flagPortalLogado": "N",
+  "contato": "Pró-Reitoria de Pesquisa e Pós-Graduação - 92 3305-1496 - propesp@ufam.edu.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127391
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106587,
+        "tipo": "Cidadãos, Estrangeiros",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/465",
+    "dbId": 34336,
+    "nomeOrgao": "Fundação Universidade do Amazonas (UFAM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178155
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 424734
+      },
+      {
+        "item": "Graduação",
+        "id": 424735
+      },
+      {
+        "item": "Digital",
+        "id": 424736
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152755
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 248922,
+      "titulo": "A primeira interação : solicitação (entrega de documentação) A segunda interação: recebimento do produto final",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324120,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 324121,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 324122,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 324123,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 324124,
+            "nome": "Comprovante de pagamento"
+          },
+          {
+            "id": 324125,
+            "nome": "CPF"
+          },
+          {
+            "id": 324126,
+            "nome": "Diploma"
+          },
+          {
+            "id": 324127,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41603,
+            "descricao": "Taxa de serviço referente a expedição do certificado de pós-graduação Lato Sensu.",
+            "moeda": "R$",
+            "valor": " 20,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321663,
+            "tipo": "presencial",
+            "descricao": "Na instituição",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 321664,
+            "tipo": "telefone",
+            "descricao": "9233051496",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49145,
+            "descricao": "Pós Graduação",
+            "canalDePrestacao": [
+              {
+                "id": 321662,
+                "tipo": "web",
+                "descricao": "O interessado deverá preencher oRequerimento de Certificado Lato Sensu e enviar a documentação exigida para o e-mail: [poslato\\_propesp@ufam.edu.br](mailto:poslato_propesp@ufam.edu.br \"mailto:poslato_propesp@ufam.edu.br\").Acompanhar [https://propesp.ufam.edu.br/](https://propesp.ufam.edu.br/ \"https://propesp.ufam.edu.br/\")",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "31",
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 31,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-pos-graduacao-ufam",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

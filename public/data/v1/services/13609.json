@@ -1,0 +1,382 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13609",
+  "nome": "Solicitação de status de preservação de filmes (Cinemateca Brasileira)",
+  "sigla": "",
+  "descricao": "Consiste em análise detalhada de informações sobre as obras solicitadas e de todos os materiais do acervo Cinemateca Brasileira, conforme as bases Filmografia Brasileira, TRF (base de materiais) e outras fontes de informação.\n\n Este serviço compara as informações sobre as características dos materiais e poderá provocar análise técnica primária ou detalhada de materiais e recomendações de processamento técnico.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: atendimento@cinemateca.org.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123886
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103694,
+        "tipo": "Depositante, Produtor ou Detentor de Direitos Patrimoniais dos filmes.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308821",
+    "dbId": 58143,
+    "nomeOrgao": "Ministério da Cultura (MinC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173289
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173290
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 173291
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Artes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cinemateca Brasileira",
+        "id": 412461
+      },
+      {
+        "item": "Secretaria do Audiovisual",
+        "id": 412462
+      },
+      {
+        "item": "Preservação Audiovisual",
+        "id": 412463
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148998
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241688,
+      "titulo": "Enviar solicitação",
+      "descricao": "Envio de e-mail com os dados dos filmes solicitados informando a finalidade do levantamento dessas informações, se está elaborando um projeto de digitalização ou restauração das obras.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312067,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241689,
+      "titulo": "Aguardar disponibilização da proposta comercial de Status de Preservação e assinar",
+      "descricao": "A Cinemateca elaborará uma proposta comercial de Status de Preservação e a disponibilizará na plataforma ClickSign para assinatura do solicitante, em caso de pessoa jurídica, a pessoa responsável pela empresa deverá assinar a proposta. A proposta tem validade de 10 dias, caso o documento não seja assinado no prazo, o processo deve ser reiniciado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318172,
+            "nome": "Ficha de cadastro de pessoa física ou jurídica, o solicitante deverá preencher a ficha enviada pelo setor de Atendimento para que seja elaborada a proposta comercial."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312068,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "17",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 17
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241690,
+      "titulo": "Aguardar elaboração de termo de Status de Preservação e assinar",
+      "descricao": "A proposta assinada será utilizada para elaboração de um termo de Status de Preservação dos materiais solicitados e disponibilizado em até 7 dias o termo para assinatura do solicitante e uma testemunha na plataforma ClickSign. Este documento ficará disponível por 7 dias, caso não seja assinado será necessário reiniciar o processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312069,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241691,
+      "titulo": "Realizar pagamento",
+      "descricao": "O solicitante deverá realizar o pagamento do serviço contratado, nos canais indicados no documento termo de Status de Preservação, os valores variam conforme a quantidade de materiais de cada obra solicitada. Para consultar os valores veja a [tabela de serviços](https://cinemateca.org.br/wp-content/uploads/2024/08/tabela_valores_servicos.pdf) da Cinemateca Brasileira.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318173,
+            "nome": "Envio do comprovante de pagamento para o e-mail do setor de Atendimento – [atendimento@cinemateca.org.br](mailto:atendimento@cinemateca.org.br). Após esse envio o solicitante receberá um recibo pelo pagamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41231,
+            "descricao": "Pagamento do serviço",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "A depender do volume solicitado",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312070,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241692,
+      "titulo": "Aguardar a pesquisa de materiais no acervo",
+      "descricao": "Pesquisa de dados sobre os materiais solicitados disponíveis no acervo da Cinemateca Brasileira.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312071,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241693,
+      "titulo": "Receber ofício com as informações",
+      "descricao": "A Cinemateca Brasileira elabora um ofício com as informações levantadas para o envio ao solicitante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312072,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "7",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 7
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitacao-de-status-de-preservacao-de-filmes-cinemateca-brasileira",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

@@ -1,0 +1,220 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10613",
+  "nome": "Cadastrar investidores não residentes",
+  "sigla": "CDNR",
+  "descricao": "O Cadastro Declaratório de Não Residente (CDNR) é exigido das pessoas físicas ou jurídicas não residentes no Brasil que necessitem ser relacionadas como contrapartes não residentes em operações de crédito externo, quando da prestação de informações sobre capitais estrangeiros no Sistema de Prestação de Informações de Capital Estrangeiro de Crédito Externo (SCE-Crédito).\n\n Além disso, o cadastramento no CDNR também é necessário para pessoas jurídicas não residentes que desejam solicitar inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ) visando, posteriormente, adquirir participação direta no capital de empresas residentes no País.\n\n Por fim, o CNPJ da contraparte não residente solicitado via CDNR será exigido quando da prestação de informação de operação de crédito externo, no sistema SCE-Crédito, nas modalidades Arrendamento mercantil financeiro e Financiamento de organismos, e mesmo em outras operações fora do escopo do sistema SCE que requeiram emissão de CNPJ de não residente via CDNR (ex: arrendamento operacional, aluguel e afretamento), segundo normas da Receita Federal do Brasil.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](http://www.bcb.gov.br/acessoinformacao/faleconosco). Para pedidos de informação, acesse com assinatura nível bronze da conta govbr.\n\n Pelo e-mail [cdnr@bcb.gov.br](mailto:cdnr@bcb.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.bcb.gov.br/cdnr/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94497
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80419,
+        "tipo": "Pessoas jurídicas ou físicas residentes no Brasil representantes de pessoas físicas ou jurídicas não residentes contrapartes em operações envolvendo capitais estrangeiros.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 131081
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 131082
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Cadastros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cadastro",
+        "id": 318551
+      },
+      {
+        "item": "Não Residentes",
+        "id": 318552
+      },
+      {
+        "item": "Investidor",
+        "id": 318553
+      },
+      {
+        "item": "",
+        "id": 318554
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 108915
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 23
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na Lei 13.460/2017.",
+  "etapas": [
+    {
+      "id": 182536,
+      "titulo": "Cadastrar conta no Sisbacen (somente pessoa jurídica) ou no govbr",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 249277,
+            "nome": "* Acesso para pessoas físicas: pela conta govbr nível prata ou ouro.\n * Acesso para empresas: certificado digital vinculado à conta govbr."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 239675,
+            "tipo": "web",
+            "descricao": "Siga as orientações para credenciamento no Sisbacen aqui: [acesso Sisbacen](https://www.bcb.gov.br/meubc/sisbacen)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 239676,
+            "tipo": "postal",
+            "descricao": "NA",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 239677,
+            "tipo": "presencial",
+            "descricao": "Atendimento presencial suspenso.\n\n Na Central de Atendimento ao Público, exclusivamente em Brasília, no Setor Bancário Sul (SBS), Quadra 3, Bloco B - Ed. Sede. CEP: 70074-900. De segunda a sexta, das 10h às 16h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 182537,
+      "titulo": "Acessar o sistema CDNR – Cadastro Declaratório de não Residente",
+      "descricao": "Cadastre a pessoa física ou jurídica não residente, preenchendo as informações solicitadas pelo sistema.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 239678,
+            "tipo": "web",
+            "descricao": "Acesse o [CDNR](https://www3.bcb.gov.br/cdnr).  \n  \nO acesso pode ser feito pela conta govbr nível prata ou ouro ou por login Sisbacen de pessoa jurídica.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "30",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-investidores-nao-residentes",
+  "statusDestaque": false
+}

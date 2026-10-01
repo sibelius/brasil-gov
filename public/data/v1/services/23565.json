@@ -1,0 +1,227 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23565",
+  "nome": "Contratar produtos ou serviços digitais para cidadão",
+  "sigla": "",
+  "descricao": "O cidadão pode adquirir diretamente do Serpro produtos e serviços digitais, entre eles certificado digital, assinador digital em nuvem, formação em privacidade e proteção de dados pessoais, ou outros, conforme a disponibilidade.\n\n Essas são soluções digitais que ampliam a atuação do Serpro no mercado com o objetivo de promover inclusão digital.",
+  "flagPortalLogado": "S",
+  "contato": "Para suporte, acione a Central de Serviços por meio dos canais:\n\n na [página de suporte](https://www.serpro.gov.br/menu/suporte/css \"Página de suporte\"), pesquise pelo nome do serviço, selecione e preencha o formulário de suporte\n\n e-mail: css.serpro@serpro.[gov.br](http://gov.br/)\n\n telefone: 0800 728 2323",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://loja.serpro.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado Digital",
+        "id": 108911
+      },
+      {
+        "item": "Assinador Digital",
+        "id": 108912
+      },
+      {
+        "item": "Formação em privacidade e proteção de dados pessoais",
+        "id": 108913
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91625,
+        "tipo": "Cidadão (pessoa física)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Conforme prazo contratual"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/90",
+    "dbId": 43381,
+    "nomeOrgao": "Serviço Federal de Processamento de Dados (SERPRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 151961
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Suporte Digital"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certificado digital",
+        "id": 363649
+      },
+      {
+        "item": "e-CPF",
+        "id": 363650
+      },
+      {
+        "item": "e-CNPJ",
+        "id": 363651
+      },
+      {
+        "item": "assinador digital",
+        "id": 363652
+      },
+      {
+        "item": "NeoSigner",
+        "id": 363653
+      },
+      {
+        "item": "LGPD Educacional",
+        "id": 363654
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 126524
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 212527,
+      "titulo": "Escolher o produto ou serviço desejado",
+      "descricao": "Na página inicial selecione a opção \"Cidadão\" para conhecer os produtos e serviços comercializados para o cidadão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276272,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://loja.serpro.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 212528,
+      "titulo": "Solicitar contratação",
+      "descricao": "Na página do serviço selecionado, se informe sobre as características do produto ou serviço.\n\n Acione a opção \"Contratar\". Acesse a área do cliente e preencha o formulário de solicitação de compra.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37393,
+            "descricao": "Custo da contratação:",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "valor contratado",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276273,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://loja.serpro.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 276274,
+            "tipo": "web",
+            "descricao": "Acesse a [área do cliente do Serpro](https://idm.serpro.gov.br/#/pav/oauth2/authorize?client_id=78b5dd39-aac6-48a7-bb58-5ab4f8f3448d&response_type=id_token&response_mode=form_post&scope=openid&nonce=pyOK6D59yxbr8VluYqNv5Ww0A2gWS0sF&redirect_uri=https:%2F%2Fcliente.serpro.gov.br:443%2Fvendas%2Fapi%2Flogin%2Ftoken%3Fnonce%3DpyOK6D59yxbr8VluYqNv5Ww0A2gWS0sF%26accesspav%3DLyMhL2UtY29tbWVyY2UvbmVvc2lnbmVyL2luaWNpbw%3D%3D \"Área do Cliente\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "17",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/contratar-produtos-ou-servicos-digitais-para-cidadao",
+  "statusDestaque": true
+}

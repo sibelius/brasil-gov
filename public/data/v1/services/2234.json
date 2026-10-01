@@ -1,0 +1,312 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2234",
+  "nome": "Obter vista e cópia de processos administrativos em posse da ANS",
+  "sigla": "",
+  "descricao": "Permite que interessados solicitem acesso para visualização (vista) e/ou obtenção de cópias digitais de processos administrativos que estão sob a responsabilidade da ANS.\n\n As cópias podem ser obtidas através de sistema eletrônico facultando ao usuário realizar o download do arquivo do processo para a sua máquina.",
+  "flagPortalLogado": "N",
+  "contato": "Disque ANS 0800 7019656",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "solicitar cópia de processo ANS",
+        "id": 121443
+      },
+      {
+        "item": "Pedir vista de processo ANS",
+        "id": 121444
+      },
+      {
+        "item": "Acessar processo na ANS",
+        "id": 121445
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101567,
+        "tipo": "**Pessoas físicas, fornecedores, prestadores de serviços** e outros interessados que sejam **parte ou procuradores em processos administrativos da ANS, **mediante cadastro prévio no Sistema Eletrônico de Informações (SEI da ANS).\n\n Operadoras de planos de saúde e seus representantes legais devem acessar \"[Portal Operadoras](https://www2.ans.gov.br/ans-idp/ \"Portal Operadoras\")\".\n\n ** **",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "1",
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 1,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Este serviço fornece acesso ou cópia de processos existentes, não gerando um novo documento com prazo de validade."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 169195
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 169196
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 169197
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 169198
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cópia",
+        "id": 403786
+      },
+      {
+        "item": "vista",
+        "id": 403787
+      },
+      {
+        "item": "processo",
+        "id": 403788
+      },
+      {
+        "item": "",
+        "id": 403789
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução Normativa ANS n° 534/2022](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDIyOA== \"Resolução Normativa ANS nº 534, de 2 de maio de 2022\").",
+        "id": 145113
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 29,
+    "negativas": 64
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460, de 26 de junho de 2017\"), que trata do direito ao atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n Clique [AQUI](https://www.gov.br/ans/pt-br/canais_atendimento/nossos-enderecos \"AQUI\") e localize o atendimento da ANS mais perto de você.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048/2000.](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 10.048, de 8 de novembro de 2000\")",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460/ 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460, de 26 de junho de 2017\"), um atendimento pautado nas seguintes diretrizes: \n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 236800,
+      "titulo": "Realizar cadastro no Sistema Eletrônico Informações (SEI)",
+      "descricao": "Acesse o [link do Acesso Externo do SEI](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) e depois \"Clique aqui para se cadastrar\". Siga as orientações Você receberá um e-mail confirmando a realização do seu cadastro e solicitando que responda uma pergunta de verificação Para confirmação do seu e-mail e liberação do cadastro, responda a mensagem acima e a pergunta de verificação O cadastro será liberado em até 1 dia útil.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 47455,
+            "descricao": "Divergência de dados",
+            "documento": [
+              {
+                "id": 313365,
+                "codigo": null,
+                "descricao": "Se, ao realizar a checagem dos dados informados, a ANS verificar algum tipo de inconsistência, será solicitado via e-mail o comprovante de residência do usuário.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305731,
+            "tipo": "web",
+            "descricao": "[link do Acesso Externo do SEI](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236801,
+      "titulo": "Solicitar vistas e cópias através do Protocolo Eletrônico SEI",
+      "descricao": "Acessar o sistema.\n\n Selecionar Peticionamento Intercorrente, informar o número do processo, clicar em Validar e em Adicionar.\n\n Preencher os campos e clicar em Peticionar.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 313366,
+            "nome": "Formulário para solicitação de vistas e cópias (disponível no Menu Formulários do sistema)."
+          },
+          {
+            "id": 313367,
+            "nome": "Documento legal de identificação."
+          },
+          {
+            "id": 313368,
+            "nome": "Procuração, se for o caso."
+          },
+          {
+            "id": 313369,
+            "nome": "Ato constitutivo, se for o caso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305732,
+            "tipo": "web",
+            "descricao": "[https://sei.ans.gov.br/controlador\\_externo.php?acao=usuario\\_externo\\_logar&id\\_orgao\\_acesso\\_externo=0](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236802,
+      "titulo": "Receber as cópias solicitadas através do Protocolo Eletrônico SEI",
+      "descricao": "Você receberá um link de acesso no e-mail informado. Ao clicar no link, faça login no Sistema Eletrônico de Informações (SEI) e acesse a tela **Controle de Acessos Externos**.\n\n Nessa tela, localize o número do processo para o qual você solicitou as cópias e clique sobre ele. Depois, escolha uma das opções:\n\n **Gerar PDF:** Baixe uma cópia do processo ou documento em formato PDF.\n\n **Gerar ZIP:** Baixe uma cópia compactada do processo ou documento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 313370,
+            "nome": "Formulário para solicitação de vistas e cópias (disponível no Menu Formulários do sistema)."
+          },
+          {
+            "id": 313371,
+            "nome": "Documento legal de identificação."
+          },
+          {
+            "id": 313372,
+            "nome": "Procuração, se for o caso."
+          },
+          {
+            "id": 313373,
+            "nome": "Ato constitutivo, se for o caso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305733,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-vistas-e-copias-de-processos-administrativos-em-posse-da-ans",
+  "statusDestaque": false
+}

@@ -1,0 +1,184 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23788",
+  "nome": "Obter Certidão de Embargo Ambiental",
+  "sigla": "",
+  "descricao": "Verificar se um CPF ou CNPJ tem um Formulário de Termo de Embargo emitido pelo Ibama e se ele ainda está válido.",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento do Ibama - 0800 061 8080",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://aie-consultapublica.ibama.gov.br/home",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 117751
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98711,
+        "tipo": "* Pessoas Físicas e Jurídicas que tenham interesse em obter a Certidão sobre a existência ou não de Formulário de Termo de Embargo, lavrado pelo Ibama, vigentes.",
+        "requisitos": ""
+      },
+      {
+        "id": 98712,
+        "tipo": "Ex: Cartórios de Registro de Imóveis; Bancos; outras Instituições Financeiras, Pessoas Físicas e Jurídicas que necessitem de tal documento para solicitação de financiamentos bancários; que prestem serviços de análise, de auditoria de dados, serviços financeiros e análises de solicitações de crédito; Integrantes da Área Acadêmica e de Comunicação, entre outros tipos de Pessoas.",
+        "requisitos": ""
+      },
+      {
+        "id": 98713,
+        "tipo": "* Órgãos de Controle e Instituições Externas: Ministério Público; Poder Judiciário; Polícia Federal e Polícias Estaduais, entre outras Pessoas que podem utilizar as consultas e certidões para fins legais ou de auditoria.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 164615
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 164616
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 164617
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 164618
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Embargo ambiental",
+        "id": 393396
+      },
+      {
+        "item": "Áreas embargadas",
+        "id": 393397
+      },
+      {
+        "item": "Ibama",
+        "id": 393398
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm) -  Art. 8º, § 2º",
+        "id": 138951
+      },
+      {
+        "item": "[Lei nº 10.650/2003](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.650.htm) - Art. 4º, incisos III e V",
+        "id": 138952
+      },
+      {
+        "item": "[Decreto nº 6.514/2008](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/D6514compilado.htm) - Art. 18, §1º, art. 149, incisos I e II, parágrafo único.",
+        "id": 138953
+      },
+      {
+        "item": "[Resolução CMN nº 5.193/2024](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5193)",
+        "id": 138954
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 230312,
+      "titulo": "Consultar Certidão de Embargo Ambiental",
+      "descricao": "[Acessar o Portal de Consulta de Informações sobre Infrações Ambientais](https://aie-consultapublica.ibama.gov.br/home)\n\n Na opção *Emitir Certidão de Embargo *informar:\n\n  * CPF/CNPJ\n  Clicar em *Emitir*",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298002,
+            "tipo": "web",
+            "descricao": "[Portal de Consulta de Informações sobre Infrações Ambientais](https://aie-consultapublica.ibama.gov.br/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-de-embargo-ambiental",
+  "statusDestaque": false
+}

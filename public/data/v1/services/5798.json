@@ -1,0 +1,273 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5798",
+  "nome": "Matricular-se em curso de graduação - UNIFAP",
+  "descricao": " Se você deseja fazer graduação na Universidade, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Divisão de Matrícula  - DIMATRI - (96) 3312.1757 - eunice@unifap.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 8493,
+        "tipo": "Cidadãos",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "1",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1710",
+    "dbId": 34328,
+    "nomeOrgao": "Fundação Universidade Federal do Amapá (UNIFAP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 13552
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 15507,
+      "titulo": "Inscrever-se no cadastro.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 27739,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 27740,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 27741,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 27742,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 27743,
+            "nome": "Diploma"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 16775,
+            "tipo": "presencial",
+            "descricao": "Departamento de Registro e Controle Acadêmico - Divisão de matrícula.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15506,
+      "titulo": "Fazer cadastro institucional ( primeira matrícula)",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 27732,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 27733,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 27734,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 27735,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 27736,
+            "nome": "CPF"
+          },
+          {
+            "id": 27737,
+            "nome": "Diploma"
+          },
+          {
+            "id": 27738,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 16774,
+            "tipo": "presencial",
+            "descricao": "Departamento de Registro e Controle Acadêmico - Divisão de matrícula.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15508,
+      "titulo": "Inscreve-se no cadastro Institucional  - primeira matrícula do aluno.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 27744,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 27745,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 27746,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 27747,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 27748,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 27749,
+            "nome": "CPF"
+          },
+          {
+            "id": 27750,
+            "nome": "Diploma"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 16776,
+            "tipo": "presencial",
+            "descricao": "Departamento de Registro e Controle Acadêmico - Divisão de matrícula.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "71",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-unifap",
+  "statusDestaque": false
+}

@@ -1,0 +1,188 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10692",
+  "nome": "Emitir DAE para pagamento do empregador doméstico",
+  "sigla": "eSocial",
+  "descricao": "Emita Documento de Arrecadação do eSocial (DAE) para pagar os tributos federais e encargos trabalhistas do empregador doméstico.\n\n Todos os tributos e encargos trabalhistas do empregador doméstico posteriores a outubro de 2015 devem ser pagos de forma unificada por meio do DAE.\n\n O DAE é emitido diretamente pelo eSocial, de acordo com as informações relativas ao emprego doméstico prestadas no sistema.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre o empregador doméstico](http://www.gov.br/esocial/pt-br/empregador-domestico/orientacoes)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)[  \n](https://www.gov.br/receitafederal/pt-br/canais_atendimento/fale-conosco/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123483
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103210,
+        "tipo": "Empregador doméstico ou seu representante legal.",
+        "requisitos": "O empregador e o empregado precisam estar previamente cadastrados no [eSocial](http://www.gov.br/esocial/)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172687
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Empregador doméstico",
+        "id": 410957
+      },
+      {
+        "item": "Empregado doméstico",
+        "id": 410958
+      },
+      {
+        "item": "eSocial",
+        "id": 410959
+      },
+      {
+        "item": "FGTS",
+        "id": 410960
+      },
+      {
+        "item": "Previdência",
+        "id": 410961
+      },
+      {
+        "item": "Encargos trabalhistas",
+        "id": 410962
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar nº 150/2015](https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2015-06-01;150)",
+        "id": 148492
+      },
+      {
+        "item": "[Decreto nº 8.373/2014](https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2014-12-11;8373)",
+        "id": 148493
+      },
+      {
+        "item": "[Ato Declaratório Executivo Codac nº 14/2014](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=51669)",
+        "id": 148494
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1426,
+    "negativas": 6636
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito ao atendimento prioritário as pessoas com deficiência, pessoas com transtorno de espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240890,
+      "titulo": "Emitir DAE",
+      "descricao": "O DAE deve ser emitido pelo empregador doméstico diretamente do sistema eSocial.\n\n O eSocial para o empregador doméstico é uma solução web para prestação de informação simplificada e online, por meio do endereço www.gov.br/esocial ou através do App para dispositivos móveis (celulares e tablets).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311036,
+            "tipo": "web",
+            "descricao": "[eSocial](https://login.esocial.gov.br/login.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311037,
+            "tipo": "aplicativo-movel",
+            "descricao": "[eSocial](https://apps.apple.com/app/id1523538849) (App Store)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311038,
+            "tipo": "aplicativo-movel",
+            "descricao": "[eSocial](https://play.google.com/store/apps/details?id=eSocial.Android) (Google Play)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "18",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-dae-para-pagamento-do-empregador-domestico",
+  "statusDestaque": false
+}

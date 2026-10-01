@@ -1,0 +1,192 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3152",
+  "nome": "Obter autorização para ampliação de instalações de transmissão no sistema isolado",
+  "sigla": "",
+  "descricao": "É o processo pelo qual se autoriza concessionária de transmissão de energia elétrica a ampliar instalações de transmissão no Sistema Isolado.",
+  "flagPortalLogado": "N",
+  "contato": "[https://www.gov.br/aneel/pt-br/canais\\_atendimento/fale-conosco1](https://www.gov.br/aneel/pt-br/canais_atendimento/fale-conosco1)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 103603
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 87395,
+        "tipo": "Concessionárias de Transmissão de energia elétrica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "30",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 30,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/21089",
+    "dbId": 909,
+    "nomeOrgao": "Agência Nacional de Energia Elétrica (ANEEL)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 144316
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "sistema isolado",
+        "id": 347130
+      },
+      {
+        "item": "energia elétrica",
+        "id": 347131
+      },
+      {
+        "item": "aneel",
+        "id": 347132
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 120544
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "As pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue terão atendimento prioritário, nos termos da Lei n.º14.626, de 2023.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n · Urbanidade;  \n · Respeito;  \n · Acessibilidade;  \n · Cortesia;  \n · Presunção da boa-fé do usuário;  \n · Igualdade;  \n · Eficiência;  \n · Segurança; e  \n · Ética",
+  "etapas": [
+    {
+      "id": 201588,
+      "titulo": "Consultar legislação aplicável",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 262683,
+            "tipo": "web",
+            "descricao": "<https://biblioteca.aneel.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201589,
+      "titulo": "Cadastrar pedido no Protocolo Digital da ANEEL",
+      "descricao": "Protocolar carta com informações sobre o pedido e documentação requerida/comprobatória (se for exigida), de acordo com as leis  normas setoriais aplicáveis.\n\n O [Protocolo Digital da ANEEL](https://www.gov.br/aneel/pt-br/canais_atendimento/processo-eletronico/protocolo-digital) possibilita aos cidadãos, empresas, órgãos e entidades públicas o envio de documentos  para a Agência sem a necessidade de se deslocar fisicamente. O serviço é rápido, eficaz e seguro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 262684,
+            "tipo": "web",
+            "descricao": "[https://www.gov.br/aneel/pt-br/canais\\_atendimento/processo-eletronico/protocolo-digital](https://www.gov.br/aneel/pt-br/canais_atendimento/processo-eletronico/protocolo-digital)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-ampliacao-de-instalacoes-de-transmissao-no-sistema-isolado",
+  "statusDestaque": false
+}

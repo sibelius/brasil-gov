@@ -1,0 +1,235 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23631",
+  "nome": "Agendar uma consulta no Hospital Universitário Dr. Miguel Riet Corrêa Jr. (HU-FURG/Ebserh)",
+  "sigla": "",
+  "descricao": "O agendamento de consultas no HU-FURG/EBSERH funciona através do encaminhamento via Sistema GERCON, por meio da unidade básica de saúde (UBS). Há 28 especialidades médicas e 09 especialidades multiprofissional.\n\n O HU-FURG/EBSERH é um espaço de aprendizado, com professores da Universidade FURG e outros médicos experientes, em conjunto com residentes e estudantes dos cursos de medicina e enfermagem, além dos que atuam na pós-graduação.\n\n O atendimento é realizado por uma equipe de diversas áreas que tem como objetivo prestar um atendimento qualificado e da melhor forma possível.\n\n [Lista de Especialidades fornecido pelo HU-FURG/EBSERH](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/hu-furg/saude/atendimento/especialidades).",
+  "flagPortalLogado": "N",
+  "contato": "Telefone da central de agendamento de consultas: (53) 3233-8870.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125178
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104761,
+        "tipo": "Usuários que estão inscritas no Sistema Único de Saúde (SUS), encaminhadas pela sua Unidade Básica de Saúde, via GERCON.",
+        "requisitos": "Paciente precisa, inicialmente, comparecer na sua Unidade Básica para realizar consulta em atenção básica para posterior encaminhamento para atendimento especializado no HU-FURG/EBSERH."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/206368",
+    "dbId": 32661,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Dr Miguel Riet Côrrea Júnior (EBSERH/FURG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175195
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "agendamento",
+        "id": 417003
+      },
+      {
+        "item": "consulta especializada",
+        "id": 417004
+      },
+      {
+        "item": "especialidades hu-furg",
+        "id": 417005
+      },
+      {
+        "item": "",
+        "id": 417006
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150414
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244479,
+      "titulo": "Agendar consultas primárias:",
+      "descricao": "** **O paciente será agendado pelo GERCON e comunicado pela Secretária Municipal de Saúde do seu município da data e horário da consulta. Comparecer o local de realização da consulta com o documento emitido pelo GERCON e apresentar ao recepcionista do local.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320675,
+            "nome": "Ficha emitida pelo GERCON com Documento de Identidade."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316032,
+            "tipo": "presencial",
+            "descricao": "Acesso 7: Prédio Anexo - Esquina das Ruas General Canabarro e General Osório",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 244480,
+      "titulo": "Agendar consultas secundárias/retorno:",
+      "descricao": "Serão agendadas pela central de agendamento de consultas e o paciente será comunicado, via WhatsApp, a respeito da data e horário da consulta.  Observação: necessário manter o contato telefônico atualizado na central de agendamento de consultas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316033,
+            "tipo": "presencial",
+            "descricao": "Acesso 7: Prédio Anexo - Esquina das Ruas General Canabarro e General Osório",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 244481,
+      "titulo": "Realizar pós consulta:",
+      "descricao": "o paciente deverá deixar a solicitação de retorno e exames com a recepcionista.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316034,
+            "tipo": "presencial",
+            "descricao": "Acesso 7: Prédio Anexo - Esquina das Ruas General Canabarro e General Osório",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-uma-consulta-no-hospital-universitario-dr-miguel-riet-correa-jr-hu-furg-ebserh",
+  "statusDestaque": false
+}

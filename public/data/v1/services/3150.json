@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3150",
+  "nome": "Obter homologação de contratos de compartilhamento de infraestrutura entre os setores de energia elétrica e telecomunicações",
+  "sigla": "",
+  "descricao": "Consiste em receber solicitação das empresas outorgadas de prestação de serviço de energia elétrica para homologar os contratos de compartilhamento de infraestrutura celebrados com empresas prestadores de serviços de telecomunicações.",
+  "flagPortalLogado": "N",
+  "contato": "[https://www.gov.br/aneel/pt-br/canais\\_atendimento/fale-conosco1](https://www.gov.br/aneel/pt-br/canais_atendimento/fale-conosco1)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Homologação de contratos de compartilhamento de infraestrutura",
+        "id": 103599
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 87391,
+        "tipo": "Empresas outorgadas de prestação de serviço de energia elétrica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/21089",
+    "dbId": 909,
+    "nomeOrgao": "Agência Nacional de Energia Elétrica (ANEEL)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 144312
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Aprovações e Homologações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Aneel",
+        "id": 347115
+      },
+      {
+        "item": "energia elétrica",
+        "id": 347116
+      },
+      {
+        "item": "telecomunicações",
+        "id": 347117
+      },
+      {
+        "item": "infraestrutura",
+        "id": 347118
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 120540
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 13
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "As pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue terão atendimento prioritário, nos termos da Lei n.º14.626, de 2023.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n · Urbanidade;  \n · Respeito;  \n · Acessibilidade;  \n · Cortesia;  \n · Presunção da boa-fé do usuário;  \n · Igualdade;  \n · Eficiência;  \n · Segurança; e  \n · Ética",
+  "etapas": [
+    {
+      "id": 201580,
+      "titulo": "Consultar legislação aplicável",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 262675,
+            "tipo": "web",
+            "descricao": "<https://biblioteca.aneel.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 201581,
+      "titulo": "Cadastrar pedido no Protocolo Digital da ANEEL",
+      "descricao": "Protocolar carta contendo informações sobre o pedido e documentação requerida/comprobatória (se for exigida), de acordo com as leis e normas setoriais aplicáveis.\n\n O [Protocolo Digital da ANEEL](https://www.gov.br/aneel/pt-br/canais_atendimento/processo-eletronico/protocolo-digital) possibilita aos cidadãos, empresas, órgãos e entidades públicas o envio de documentos  para a Agência sem a necessidade de se deslocar fisicamente. O serviço é rápido, eficaz e seguro.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 274988,
+            "nome": "Contrato de compartilhamento"
+          },
+          {
+            "id": 274989,
+            "nome": "Demais documentos pertinentes"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 262676,
+            "tipo": "web",
+            "descricao": "[https://www.gov.br/aneel/pt-br/canais\\_atendimento/processo-eletronico/protocolo-digital](https://www.gov.br/aneel/pt-br/canais_atendimento/processo-eletronico/protocolo-digital)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "24",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-homologacao-de-contratos-de-compartilhamento-de-infraestrutura-entre-os-setores-de-energia-eletrica-e-telecomunicacoes",
+  "statusDestaque": false
+}

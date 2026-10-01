@@ -1,0 +1,347 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3120",
+  "nome": "Obter Autorização para Utilização de Matéria-Prima Florestal",
+  "sigla": "AUMPF",
+  "descricao": "Autorizar a utilização de matéria-prima florestal (AUMPF) oriunda de supressão de vegetação nativa (ASV), no âmbito de processo de licenciamento ambiental conduzido pelo Ibama ou proveniente de uma autorização de exploração florestal (Autex), quando se tratar de um processo de autorização de Plano de Manejo Florestal Sustentável e Plano Operacional Anual (PMFS/POA).",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento do Ibama - 0800 061 8080",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125455
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104956,
+        "tipo": "Pessoa física e jurídica",
+        "requisitos": "Detentora da Autorização de Supressão Vegetal (ASV)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175483
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175484
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "madeira",
+        "id": 417929
+      },
+      {
+        "item": "extrativismo",
+        "id": 417930
+      },
+      {
+        "item": "floresta",
+        "id": 417931
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa Ibama nº 6/2009](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=114858)",
+        "id": 150643
+      },
+      {
+        "item": "[Portaria Interministerial nº 812/2015](https://www.gov.br/fazenda/pt-br/acesso-a-informacao/institucional/legislacao/portarias-interministeriais/2015/portaria-interministerial-no-812-de-29-de-setembro-de-2015)",
+        "id": 150644
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética.",
+  "etapas": [
+    {
+      "id": 244950,
+      "titulo": "Etapa 1 - Requerer autorização",
+      "descricao": "* Empreendedor detentor da ASV: solicitar em uma [Unidade do Ibama](https://www.gov.br/ibama/pt-br/canais_atendimento/fale-conosco#unidades-do-ibama)\n   * Engenheiro Florestal/Responsável Técnico: solicitar pelo [Sinaflor](https://servicos.ibama.gov.br/ctf/), devendo ter inscrição no [Cadastro Técnico Federal de Atividades e Instrumentos de Defesa Ambiental](http://https://servicos.ibama.gov.br/ctf/cadastroInicialPessoaFisica_aida.php) e certificado de regularidade válido",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321002,
+            "nome": "Autorização de Supressão Vegetal (ASV) dentro do prazo de vencimento"
+          },
+          {
+            "id": 321003,
+            "nome": "Requerimento conforme [Anexo I da IN Ibama nº 06/2009](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=114858)"
+          },
+          {
+            "id": 321004,
+            "nome": "Romaneio da referida matéria-prima, conforme [Anexo II da IN Ibama nº 06/2009](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=114858)"
+          },
+          {
+            "id": 321005,
+            "nome": "Anotação de Responsabilidade Técnica emitida pelo Crea do Engenheiro Responsável pelas informações"
+          },
+          {
+            "id": 321006,
+            "nome": "Informações sobre o local em que se encontra a matéria prima florestal: nome, endereço (se for o caso) e Coordenadas Geográficas da sua localização"
+          },
+          {
+            "id": 321007,
+            "nome": "Comprovante de pagamento da taxa de vistoria"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41379,
+            "descricao": "Taxa de Vistoria Técnica Florestal (até 250 ha/ano)",
+            "moeda": "R$",
+            "valor": " 784,18",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 41380,
+            "descricao": "Acréscimo por ha excedente aos 250 ha/ano",
+            "moeda": "R$",
+            "valor": " 1,49",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316789,
+            "tipo": "presencial",
+            "descricao": "[Unidades do Ibama](https://www.gov.br/ibama/pt-br/canais_atendimento/fale-conosco#unidades-do-ibama)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316790,
+            "tipo": "web",
+            "descricao": "[Sistema Nacional de Controle da Origem dos Produtos Florestais (Sinaflor)](https://servicos.ibama.gov.br/ctf/)\n\n Acessar a aba “Responsável Técnico”\n\n Clicar em “Atividades Vinculadas\"\n\n Na listagem de projetos selecionar a ASV de interesse, que deverá estar com o status \"Autorização Emitida\"\n\n Clicar em  \"Cadastrar AUMPF\" \n\n Clicar no botão \"Incluir\" e \n\n Inserir os dados para o cadastro\n\n OBS: O sistema habilita de forma automática a aba para cadastro da AUMPF, logo após a aprovação da ASV",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244951,
+      "titulo": "Etapa 2 - Aguardar análise da documentação",
+      "descricao": "Apresentar documentação conforme [Art. 8º da IN nº 6/2009](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=114858) para a análise da solicitação (ver dados e informações necessárias)\n\n A orientação para preenchimento dos dados no Sinaflor pelo RT, bem como o envio eletrônico do projeto pode ser encontrado no [Manual Sinaflor](https://www.ibama.gov.br/phocadownload/sinaflor/2018/ibama-manual-sinaflor-09-cad-autoriz-uso-materia-prima-florestal-aumpf.pdf)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316791,
+            "tipo": "telefone",
+            "descricao": "[Unidades do Ibama](https://www.gov.br/ibama/pt-br/canais_atendimento/fale-conosco#unidades-do-ibama)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316792,
+            "tipo": "web",
+            "descricao": "[Sistema Nacional de Controle da Origem dos Produtos Florestais (Sinaflor)](https://servicos.ibama.gov.br/ctf/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244952,
+      "titulo": "Etapa 3 - Receber a autorização",
+      "descricao": "Após análise, a AUMPF será emitida pela Superintendência do Ibama em nome do empreendedor, com validade de até 01(um) ano, que poderá repassar a responsabilidade do transporte da matéria-prima para terceiros no[ Sistema DOF](https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/flora-e-madeira/documento-de-origem-florestal-dof).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316793,
+            "tipo": "presencial",
+            "descricao": "[Unidades do Ibama](https://www.gov.br/ibama/pt-br/canais_atendimento/fale-conosco#unidades-do-ibama)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316794,
+            "tipo": "web",
+            "descricao": "[Sistema Documento de Origem Florestal (DOF)](http://https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/flora-e-madeira/documento-de-origem-florestal-dof#acesso-ao-dof)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244953,
+      "titulo": "Passar por vistoria",
+      "descricao": "O Ibama realizará, a qualquer tempo, vistoria por amostragem nos respectivos lotes ou propriedades para fins de averiguação sobre a veracidade das informações prestadas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316795,
+            "tipo": "presencial",
+            "descricao": "Lotes ou propriedades autorizados a utilizar matéria-prima florestal",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "meses",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-utilizacao-de-materia-prima-florestal",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

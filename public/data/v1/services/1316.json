@@ -1,0 +1,249 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1316",
+  "nome": "Emitir documento para pagamento de débitos inscritos em dívida ativa da União",
+  "sigla": "",
+  "descricao": "Para pagamento integral ou parcial de débitos inscritos em dívida ativa da União ou do FGTS, o contribuinte deve emitir o documento de arrecadação respectivo, conforme as opções:\n\n  *  **Emissão de Darf (Documento de Arrecadação de Receitas Federais) **para débitos tributários não previdenciários e débitos não tributários.\n * **Emissão de DAS (Documento de Arrecadação de Simples Nacional) **para débitos de Simples Nacional.\n * ****Emissão de GRDE (Guia de Recolhimento de Débitos do FGTS) **para débitos junto ao FGTS.**",
+  "flagPortalLogado": "N",
+  "contato": "Clique [aqui](http://www.gov.br/pgfn/pt-br/canais_atendimento/atendimento-ao-contribuinte/contribuinte) para acessar os contatos da Procuradoria-Geral da Fazenda Nacional.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Darf",
+        "id": 88960
+      },
+      {
+        "item": "Documento de arrecadação",
+        "id": 88961
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76169,
+        "tipo": "Pessoa física e pessoa jurídica.",
+        "requisitos": "Nos casos de Darf e DAS é possível emitir documento para pagamento de dívida própria ou de terceiros, basta ter o CPF/CNPJ do contribuinte devedor e o número da inscrição."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 123579
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123580
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 123581
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "boleto",
+        "id": 299733
+      },
+      {
+        "item": "GRDE",
+        "id": 299734
+      },
+      {
+        "item": "dívida ativa da União",
+        "id": 299735
+      },
+      {
+        "item": "gps",
+        "id": 299736
+      },
+      {
+        "item": "darf",
+        "id": 299737
+      },
+      {
+        "item": "pgfn",
+        "id": 299738
+      },
+      {
+        "item": "guia",
+        "id": 299739
+      },
+      {
+        "item": "pagar dívida",
+        "id": 299740
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 102166
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 422,
+    "negativas": 1980
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 172682,
+      "titulo": "Emitir Darf / DAS integral ou parcial",
+      "descricao": "* Acesse o portal REGULARIZE e clique na opção \"Emitir Guia de Pagamento\" > \"Emitir DARF/DAS parcial ou integral\".\n * Em seguida, informe o CPF ou CNPJ do contribuinte devedor e o número da inscrição.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226616,
+            "tipo": "web",
+            "descricao": "[Portal REGULARIZE](http://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172683,
+      "titulo": "Emitir GRDE",
+      "descricao": "Acesse o canal Conectividade Social ICP (CAIXA) e informe a senha do Certificado Digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226617,
+            "tipo": "web",
+            "descricao": "[Canal Conectividade Social ICP (CAIXA)](http://www.caixa.gov.br/empresa/conectividade-social/Paginas/default.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4101",
+      "nome": "Emitir Darf - dívida ativa da União"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4102",
+      "nome": "Emitir GPS - dívida ativa da União"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "18",
+  "totalSimplifique": "5",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "4",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 179,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 180,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/emitir-documento-para-pagamento-de-debitos-inscritos-em-divida-ativa-da-uniao",
+  "statusDestaque": false
+}

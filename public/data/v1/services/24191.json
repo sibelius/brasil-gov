@@ -1,0 +1,327 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24191",
+  "nome": "Renegociar dívida",
+  "sigla": "",
+  "descricao": "Este serviço é destinado exclusivamente aos comerciantes que necessitam efetuar o parcelamento de boletos em aberto, quando esses não tenham condições financeiras de efetuar o pagamento dos boletos na totalidade. Concede-se, portanto, um parcelamento que pode ser em 02 (duas) parcelas até 08 (oito) parcelas. Essa condição está em conformidade com o Normativo da CEAGESP NP-FN-006, item 4.3.",
+  "flagPortalLogado": "N",
+  "contato": "**Atendimento presencial** de segunda a sexta-feira, das 09:00h às 16:00h, na Seção de Contas a Receber e Cobrança (SECOB), localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo / SP ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba.\n\n **Atendimento online** através do endereço eletrônico secob@ceagesp.gov.br.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "parcelar boleto",
+        "id": 123091
+      },
+      {
+        "item": "renegociar dívida",
+        "id": 123092
+      },
+      {
+        "item": "pagar boleto em atraso",
+        "id": 123093
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102843,
+        "tipo": "Somente pessoas jurídicas cujos contratos com a CEAGESP sejam especificamente **Termos de Permissão Remunerada de Uso** ou **Contratos de Concessão Remunerada de Uso** estão aptas a essa modalidade de negociação. Tal negociação não se aplica aos demais tipos de contrato.",
+        "requisitos": "sócio-administrador ou procurador"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "3",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/29415",
+    "dbId": 8326,
+    "nomeOrgao": "Companhia de Entrepostos e Armazéns Gerais de São Paulo  (CEAGESP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171951
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Adicionais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "parcelamento",
+        "id": 409619
+      },
+      {
+        "item": "dívidas",
+        "id": 409620
+      },
+      {
+        "item": " acordo.",
+        "id": 409621
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 147874
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239945,
+      "titulo": "Solicitar Parcelamento",
+      "descricao": "O sócio-administrador ou procurador poderá comparecer à Seção de Contas a Receber e Cobrança, ou às unidades localizadas no interior do Estado, munido dos documentos para formalizar a solicitação. Alternativamente, a solicitação poderá ser realizada por correio eletrônico, desde que acompanhada de cópia da documentação exigida, ficando o procedimento online restrito apenas à fase de solicitação. A SECOB disponibilizará uma simulação de parcelamento de 2 a 8 parcelas.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 316223,
+            "nome": "* Documento com foto, dentro do prazo de validade.\n * Comprovante de residência atualizado.\n * Em caso de procurador, duas procurações serão exigidas, uma onde ele tenha autorização para assinar pela empresa, e outra onde possa assinar como devedor solidário.\n * Somente pode solicitar o serviço, quem assina pela empresa."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309830,
+            "tipo": "presencial",
+            "descricao": "**Atendimento presencial** de segunda a sexta-feira, das 09:00h às 16:00h, na SECOB, localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba.\n\n **Atendimento online** através do endereço eletrônico secob@ceagesp.gov.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239946,
+      "titulo": "Assinar Carta de Negociação",
+      "descricao": "A SECOB emite um formulário intitulado Carta de negociação que o permissionário/concessionário deverá preencher e assinar. Em sendo solicitação presencial, anotará no verso do formulário o telefone do assinante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309831,
+            "tipo": "presencial",
+            "descricao": "**Atendimento presencial** de segunda a sexta-feira, das 09:00h às 16:00h, na SECOB, localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba.\n\n **Atendimento online** através do endereço eletrônico secob@ceagesp.gov.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239947,
+      "titulo": "Enviar Carta para assinatura da Chefia/Gerência",
+      "descricao": "A Carta de negociação deverá ser enviada para a assinatura da Chefia da SECOB e após isso para aprovação ou reprovação e assinatura da gerência do Departamento Financeiro (DEFIN).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309832,
+            "tipo": "presencial",
+            "descricao": "**Atendimento presencial** de segunda a sexta-feira, das 09:00h às 16:00h, na SECOB, localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba.\n\n **Atendimento online** através do endereço eletrônico secob@ceagesp.gov.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239948,
+      "titulo": "Devolver Carta de Negociação",
+      "descricao": "Após a aprovação e assinatura da Carta de Negociação, ou sua reprovação, o documento retornará à SECOB, que entrará em contato com o permissionário para informar o resultado da solicitação e agendar a data de assinatura do acordo de parcelamento. A SECOB realizará o contato por meio do telefone informado e, no caso de solicitações feitas por via eletrônica, responderá ao e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309833,
+            "tipo": "telefone",
+            "descricao": "** **\n\n **Atendimento presencial** de segunda a sexta-feira, das 09:00h às 16:00h, na SECOB, localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba.\n\n **Atendimento online** através do endereço eletrônico secob@ceagesp.gov.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239949,
+      "titulo": "Assinar Instrumento de Confissão de Dívidas e Parcelamento de Boletos",
+      "descricao": "Quando a solicitação de parcelamento for aprovada, a SECOB emitirá o Instrumento Particular de Confissão de Dívida, cuja assinatura deverá ser realizada presencialmente na Seção, em três vias. O interessado receberá os boletos correspondentes, de acordo com a quantidade de parcelas selecionada na etapa 1.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309834,
+            "tipo": "presencial",
+            "descricao": "**Atendimento presencial** de segunda a sexta-feira, das 09:00h às 16:00h, na SECOB, localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba.\n\n **Atendimento online** através do endereço eletrônico secob@ceagesp.gov.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "55",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/Parcelar%20boleto",
+  "statusDestaque": false
+}

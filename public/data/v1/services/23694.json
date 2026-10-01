@@ -1,0 +1,255 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23694",
+  "nome": "Realizar Pré-Matricula em curso de Educação Superior de Graduação (Licenciatura, Tecnologia e Bacharelado) - IFBA",
+  "sigla": "",
+  "descricao": "Se você deseja fazer um curso de Educação Superior de Graduação neste Instituto, você precisa, após aprovado em processo seletivo, fazer a pré-matricula no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Pró-reitoria de Ensino - PROEN - (71) 3221-0446 - proen@ifba.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/444/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111672
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93865,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/444",
+    "dbId": 36736,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 155801
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "superior",
+        "id": 372912
+      },
+      {
+        "item": "graduação",
+        "id": 372913
+      },
+      {
+        "item": "ensino",
+        "id": 372914
+      },
+      {
+        "item": "educação",
+        "id": 372915
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 130029
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 217826,
+      "titulo": "Acessar o balcão de serviços",
+      "descricao": "Acessar o balcão de serviços e preencher os dados",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 291975,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 291976,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 291977,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282977,
+            "tipo": "web",
+            "descricao": "Acessar o linkÂ [Acesse o site](https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/444/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "10",
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 10,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 217827,
+      "titulo": "Aguardar processamento da pré-matrícula",
+      "descricao": "Nessa etapa a Secretaria Acadêmica do curso irá validar as informações e documentos fornecidos. Caso seja encontrado alguma problema, será enviado uma mensagem para o e-mail cadastrado contendo o link de acesso para correção. Observar que todas as informações prestadas são de responsabilidade do cidadão ao preencher o formulário de pré-matrícula. O cidadão deverá providenciar a correção dentro do prazo estabelecido no edital, sob pena de ter seu pedido de pré-matrícula indeferido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282978,
+            "tipo": "web",
+            "descricao": "Acessar o link do serviço",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 217828,
+      "titulo": "Receber Comprovante de Matrícula",
+      "descricao": "Nesse etapa, caso todos os dados tenha sido validados pela Secretaria Acadêmica, o cidadão receberá por e-mail a confirmação de pré-matrícula.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282979,
+            "tipo": "e-mail",
+            "descricao": "Será enviado e-mail. O cidadão poderá ainda avaliar o serviço através do Portal [GOV.BR](http://gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-pre-matricula-em-curso-de-educacao-superior-de-graduacao-licenciatura-tecnologia-e-bacharelado-ifba",
+  "statusDestaque": false
+}

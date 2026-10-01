@@ -1,0 +1,180 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2606",
+  "nome": "Registrar plano de saúde",
+  "sigla": "",
+  "descricao": "Para que a operadora de planos de saúde possa comercializar um produto, é obrigatório seu registro junto à ANS.",
+  "flagPortalLogado": "N",
+  "contato": "email: ggrep.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Registro de produtos",
+        "id": 72877
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64072,
+        "tipo": "Operadoras de plano de saúde",
+        "requisitos": "Possuir registro ativo de operadora de plano de saúde na ANS"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101158
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "registro",
+        "id": 248252
+      },
+      {
+        "item": "plano",
+        "id": 248253
+      },
+      {
+        "item": "saúde",
+        "id": 248254
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 543/2022 [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)\n\n IN 28/2022 [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)",
+        "id": 82531
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 18,
+    "negativas": 60
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança;  Ética",
+  "etapas": [
+    {
+      "id": 143687,
+      "titulo": "Pagamento de Taxa de Registro de Produtos (TRP)",
+      "descricao": "Gerar a Guia de Recolhimento da União (GRU) através do Portal Operadoras no site https://www2.ans.gov.br/ans-idp/ e efetuar o pagamento\n\n da TRP – Taxa de Registro de Produtos no valor correspondente ao porte de operadora e efetuar o pagamento na rede bancária.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203735,
+            "nome": "Emissão de GRU com pagamento de Taxa de Registro de Produtos correspondente"
+          },
+          {
+            "id": 203736,
+            "nome": "Solicitação de registro através de preenchimento e encaminhamento de arquivo através do sistema RPS, disponível no site da Agência https://www2.ans.gov.br/ans-idp/"
+          },
+          {
+            "id": 203737,
+            "nome": "Encaminhamento de solicitação de registro através da protocolização de correspondência assinada pelo representante legal junto à ANS, através do Peticionamento Eletrônico da Agência constante do link https://www2.ans.gov.br/ans-idp/"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 23839,
+            "descricao": "Taxa de Registro de Produtos",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Variável de acordo com o porte da operadora",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186622,
+            "tipo": "web",
+            "descricao": "peticionamento eletrônico através do portal operadora pelo link [Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 186623,
+            "tipo": "web",
+            "descricao": "ttp://[Acesse o site](https://www.gov.br/www.ans.gov.br/ans-digital/usuario-externo/protocolo-eletronico-usuario-externo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "23",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-plano-de-saude",
+  "statusDestaque": false
+}

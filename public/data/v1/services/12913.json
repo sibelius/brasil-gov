@@ -1,0 +1,216 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12913",
+  "nome": "Cancelar Autorização de Funcionamento (AFE) - Farmácias",
+  "sigla": "",
+  "descricao": "É uma solicitação à Anvisa para a empresa cancelar a autorização de atividades de farmácias.  \n\n [Clique aqui para saber mais](https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/administrativo/autorizacao-de-funcionamento-afe-ou-ae).",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 96004
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81564,
+        "tipo": "Empresas que desejam cancelar atividades relacionadas a drogarias e farmácias.",
+        "requisitos": "Deve possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o Sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastros)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 133119
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autorização de funcionamento",
+        "id": 323532
+      },
+      {
+        "item": "Autorização especial",
+        "id": 323533
+      },
+      {
+        "item": "Farmácias e Drogarias",
+        "id": 323534
+      },
+      {
+        "item": "Cancelamento",
+        "id": 323535
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RDC Nº 16, DE 1° DE ABRIL DE 2014](http://antigo.anvisa.gov.br/documents/10181/2718376/RDC_16_2014_COMP.pdf/542cc137-b331-4596-9c87-7426c0ae77b7) – Dispõe sobre os Critérios para Peticionamento de Autorização de Funcionamento (AFE) e Autorização Especial (AE) de Empresas.",
+        "id": 111099
+      },
+      {
+        "item": "[RDC nº 222 DE 28 DE DEZEMBRO DE 2006](http://antigo.anvisa.gov.br/documents/10181/2718376/%282%29RDC_222_2006_COMP.pdf/87ee071c-886e-47ac-94af-5590aaa2011e?version=1.0) - Dispõe sobre os procedimentos de peticionamento e arrecadação eletrônico na ANVISA",
+        "id": 111100
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 185214,
+      "titulo": "Fazer a solicitação",
+      "descricao": "2. Acesse o Sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo já existente”.\n 4. Localize o processo relacionado e o assunto relacionado ao pedido. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 252625,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao)). A Anvisa fornece um *checklist* (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 30205,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "de acordo com o porte da empresa e o tipo de solicitação",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 243121,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 185215,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no sistema Solicita, selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” no canto superior direito para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), utilizando os filtros na opção Situação de Documentos > Documentos Técnicos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 243122,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-autorizacao-de-funcionamento-afe-farmacias",
+  "statusDestaque": false
+}

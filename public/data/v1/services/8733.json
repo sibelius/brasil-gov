@@ -1,0 +1,328 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8733",
+  "nome": "Requerer audiência com Procurador da Fazenda Nacional",
+  "sigla": "",
+  "descricao": "É o serviço que possibilita ao advogado ou ao contador requerer audiência com Procurador da Fazenda Nacional para obter esclarecimentos sobre apenas um caso concreto, referente à inscrição em Dívida Ativa, negociações, requerimento administrativo ou processo judicial, no qual atua representando o contribuinte perante a Fazenda Nacional.\n\n A [Portaria PGFN nº 838, de 1 de agosto de 2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=132412) prevê que o agendamento da audiência com o Procurador seja disponibilizado no [REGULARIZE](http://regularize.pgfn.gov.br/), exclusivamente para advogados e contadores, acompanhado de [formulário específico](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/arquivos-avulsos/agendamento-de-audiencia-com-procurador-1-1-1.docx) e documentação que comprove os poderes de representação.\n\n **Atenção!** O agendamento do atendimento por procurador não afasta a necessidade da apresentação dos requerimentos de serviços da PGFN pelos canais próprios.\n\n **O requerimento deve ser protocolado no REGULARIZE do contribuinte por meio de senha ou certificado digital do titular, e não por meio da conta do advogado ou contador**. \n\n **Atenção!** Para o advogado ou contador acessar como representante de um contribuinte, será preciso providenciar a [procuração eletrônica no portal e-CAC da Receita Federal](https://www.gov.br/pt-br/servicos/cadastrar-ou-cancelar-procuracao-para-acesso-ao-e-cac). Após o cadastro da procuração, o representante deve acessar o [portal e-CAC ](https://cav.receita.fazenda.gov.br/autenticacao/login)e clicar em ***Alterar perfil de acesso ***e inserir o CPF ou o CNPJ do contribuinte representado; em seguida, clicar no menu ***Dívida Ativa da União** > *opção* **Débitos Inscritos em Dívida Ativa da União ***— o representante será direcionado automaticamente ao [REGULARIZE](https://www.regularize.pgfn.gov.br/) do contribuinte.",
+  "flagPortalLogado": "N",
+  "contato": "Portal REGULARIZE.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Agendamento de Audiência com o Procurador",
+        "id": 122369
+      },
+      {
+        "item": "Atendimento ao advogado",
+        "id": 122370
+      },
+      {
+        "item": "Atendimento ao contador",
+        "id": 122371
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102311,
+        "tipo": "* **Advogado**, devidamente regular perante a Ordem dos Advogados do Brasil (OAB).\n * **Contador**, devidamente regular perante o Conselho Regional de Contabilidade (CRC).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170818
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "audiência com procurador",
+        "id": 407176
+      },
+      {
+        "item": "atendimento ao advogado",
+        "id": 407177
+      },
+      {
+        "item": "pgfn",
+        "id": 407178
+      },
+      {
+        "item": "atendimento pgfn",
+        "id": 407179
+      },
+      {
+        "item": "Atendimento ao contador",
+        "id": 407180
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria PGFN nº 838, de 1 de agosto de 2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=132412) - Estabelece as regras do atendimento às pessoas usuárias dos serviços prestados pela Procuradoria-Geral da Fazenda Nacional (PGFN).",
+        "id": 146775
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 28,
+    "negativas": 55
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 238427,
+      "titulo": "Protocolar requerimento para solicitar audiência",
+      "descricao": "Acesse o REGULARIZE e clique em ***Outros Serviços*** > opção ***Agendamento de Audiência com o Procurador.***  \n**Atenção!** O requerimento deve ser protocolado no REGULARIZE do contribuinte representado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 314982,
+            "nome": "Preencher este [formulário com os dados sobre a audiência](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/arquivos-avulsos/agendamento-de-audiencia-com-procurador-1-1-1.docx).\n\n **Atenção!** As datas e os horários informados no formulário são sugestões. A unidade poderá remarcar a data/horário para se adequar à disponibilidade da agenda de atendimento."
+          },
+          {
+            "id": 314983,
+            "nome": "Procuração pública ou particular com poderes gerais ou específicos para representar o requerente junto à PGFN ou aos Órgãos da Administração Pública Direta ou equivalente.\n\n **Atenção!** A procuração apresentada poderá ser física ou digital, sendo dispensável o reconhecimento de firma, conforme o art. 3°, inc. I, da Lei n° 13.726/2018; ou [eletrônica, cadastrada no portal e-CAC da RFB pelo contribuinte](https://www.gov.br/pt-br/servicos/cadastrar-ou-cancelar-procuracao-para-acesso-ao-e-cac)."
+          },
+          {
+            "id": 314984,
+            "nome": "No caso de representado pessoa física: documento de identidade que comprove a autenticidade da assinatura da procuração."
+          },
+          {
+            "id": 314985,
+            "nome": "No caso de representado pessoa jurídica: o contrato social que comprove os poderes do outorgante."
+          },
+          {
+            "id": 314986,
+            "nome": "Documento de identificação profissional do advogado ou contador."
+          },
+          {
+            "id": 314987,
+            "nome": "Documentos relacionados ao assunto a ser tratado em audiência."
+          }
+        ],
+        "casos": [
+          {
+            "id": 47830,
+            "descricao": "Pedidos de urgência",
+            "documento": [
+              {
+                "id": 314981,
+                "codigo": null,
+                "descricao": "Os casos de urgência serão atendidos no prazo de 48 (quarenta e oito) horas, desde que devidamente comprovada por documentação a ocorrência de alguma das hipóteses previstas no artigo 22 da [Portaria PGFN nº 838/2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=132412). A PGFN poderá exigir informações complementares, que se não apresentadas, poderá ocasionar o indeferimento do pedido.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307893,
+            "tipo": "web",
+            "descricao": "[REGULARIZE](http://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238428,
+      "titulo": "Acompanhar o andamento do requerimento",
+      "descricao": "Acesse o REGULARIZE e clique em ***Consultar Requerimento***.  \n**Atenção!** O contribuinte poderá ser notificado, por meio da caixa de mensagens do REGULARIZE, para apresentar informações complementares ao requerimento. Por isso, fique atento à caixa de mensagens e aos prazos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307894,
+            "tipo": "web",
+            "descricao": "[REGULARIZE](http://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238429,
+      "titulo": "Comparecer à audiência, se o requerimento for deferido",
+      "descricao": "Feito o agendamento, comparecer na unidade ou no link da reunião, no dia e hora marcados.\n\n Se a unidade não disponibilizar reunião virtual, o advogado ou contador deverá comparecer à unidade da PGFN responsável pelo atendimento, no dia e hora agendado.\n\n **Atenção!** A audiência tem previsão de duração de até 30 (trinta) minutos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 314988,
+            "nome": "Documento de identidade oficial emitido pela OAB ou CRC."
+          },
+          {
+            "id": 314989,
+            "nome": "Apresentar a procuração com poderes para representar o contribuinte."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307896,
+            "tipo": "web",
+            "descricao": "Comparecer com o link de acesso enviado pela unidade, nos casos de reuniÃ£o virtual.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 47831,
+            "descricao": "Audiência presencial",
+            "canalDePrestacao": [
+              {
+                "id": 307895,
+                "tipo": "presencial",
+                "descricao": "Se a unidade não disponibilizar reunião virtual, o advogado ou contador deverá comparecer à unidade da PGFN responsável pelo atendimento, no dia e hora agendado.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "34",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 1932,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 1933,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/requerer-audiencia-com-procurador-da-fazenda-nacional",
+  "statusDestaque": false
+}

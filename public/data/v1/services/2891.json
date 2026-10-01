@@ -1,0 +1,196 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2891",
+  "nome": "Obter designação para país estrangeiro (empresas aéreas brasileiras)",
+  "sigla": "",
+  "descricao": "O objetivo do serviço é a designação de empresas aéreas brasileiras para a realização de serviços aéreos regulares para outros países.\n\n Para mais informações, consulte a seção \"[Designação](https://www.gov.br/anac/pt-br/assuntos/internacional/acordos-internacionais/7designacao/designacao)\" do site da ANAC e a legislação pertinente (listada abaixo).",
+  "flagPortalLogado": "N",
+  "contato": "Acesse a página [Fale com a ANAC](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou ligue para o Canal de Atendimento 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Obter designação para serviço de transporte aéreo regular internacional",
+        "id": 88663
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75935,
+        "tipo": "Empresas brasileiras de transporte aéreo.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123053
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "designação",
+        "id": 298794
+      },
+      {
+        "item": "espaço aéreo externo",
+        "id": 298795
+      },
+      {
+        "item": "país estrangeiro",
+        "id": 298796
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Código Brasileiro de Aeronáutica (Lei Nº 7.565, de 19 de dezembro de 1986).",
+        "id": 101805
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei Nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei Nº 13.460/17, atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança e;\n * Ética.",
+  "etapas": [
+    {
+      "id": 172026,
+      "titulo": "Requerer designação",
+      "descricao": "Acessar o sistema SEI! e gerar o processo do tipo \"Empresas, Oper. e Serv. Aéreos: Designação de Empresa Aérea Brasileira\", onde deve ser anexado o documento indicado abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 238354,
+            "nome": "Correspondência da empresa em que seja informado o país para o qual a designação é desejada."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225682,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172027,
+      "titulo": "Receber comunicação da ANAC",
+      "descricao": "O usuário deve aguardar a análise da ANAC e a comunicação com o resultado.  \nO andamento do processo pode ser consultado a qualquer tempo no sistema Protocolo Eletrônico SEI!.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225683,
+            "tipo": "web",
+            "descricao": "[Protocolo Eletrônico](http://O usuário deve aguardar a análise da ANAC e a comunicação com o resultado. O andamento do processo pode ser consultado a qualquer tempo no sistema Protocolo Eletrônico SEI!.)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "64",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-designacao-para-servico-de-transporte-aereo-regular-internacional",
+  "statusDestaque": false
+}

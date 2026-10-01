@@ -1,0 +1,253 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2599",
+  "nome": "Credenciar-se junto à ANAC como pessoa jurídica apta a emitir certificados e aprovações",
+  "sigla": "",
+  "descricao": "De acordo com o RBAC 183, pessoas de notória especialização podem ser credenciadas para a expedição de laudos, pareceres ou relatórios que demonstrem o cumprimento dos requisitos necessários à emissão de certificados ou atestados relativos às atividades de competência da ANAC.\n\n Este serviço consiste na análise do pedido de credenciamento de pessoa jurídica, tendo em vista os requisitos previstos na subparte D do RBAC 183, bem como a necessidade do credenciamento, de acordo com a ANAC.\n\n Para o credenciamento, a pessoa jurídica interessada deve possuir instalações, recursos, e pessoal suficientes para realizar as atividades relacionadas ao seu pedido de credenciamento, além de experiência suficiente para desempenhar as atividades para as quais o credenciamento é solicitado. O resultado é entregue com a emissão de um Ofício, contendo ou não a concessão do credenciamento da pessoa jurídica. O documento especificará os tipos de credenciamento que foram deferidos, possíveis limitações, bem como os respectivos prazos de validade.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88726
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75982,
+        "tipo": "Pessoas jurídicas com instalações, recursos, e pessoal suficientes para realizar as atividades relacionadas ao seu pedido de credenciamento, além de experiência suficiente para desempenhar as atividades para as quais o credenciamento é solicitado.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "360",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 360
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123158
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros e Credenciamentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 299011
+      },
+      {
+        "item": "DOA",
+        "id": 299012
+      },
+      {
+        "item": "Credenciamento",
+        "id": 299013
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 183](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-183)",
+        "id": 101878
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 24
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 172145,
+      "titulo": "Requerer o credenciamento como pessoa jurídica",
+      "descricao": "O interessado deve apresentar, preferencialmente, por peticionamento eletrônico, um requerimento solicitando o credenciamento como pessoa jurídica.  \nO pedido é encaminhado para análise da área técnica correspondente, que conforme previsto no item 183.45, do RBAC 183, verifica se o credenciamento é necessário.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 238519,
+            "nome": "Requerimento contendo:   \n Descrição das atividades para as quais se requer o credenciamento;   \n Descrição da qualificado para o credenciamento (instalações, recursos e pessoal suficientes; e experiência);   \n Descrição da estrutura organizacional do requerente, incluindo o detalhamento de como a unidade executiva se insere e se relaciona na estrutura organizacional."
+          },
+          {
+            "id": 238520,
+            "nome": "Proposta do manual de procedimentos, conforme descrito na seção 183.53 do RBAC 183."
+          },
+          {
+            "id": 238521,
+            "nome": "Documentação que comprove os aspectos descritos."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28598,
+            "descricao": "Caso o credenciamento seja de Fabricante/projetista de Produto com até 99 funcionários. TFAC Cód. 010801",
+            "moeda": "R$",
+            "valor": " 1.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 28599,
+            "descricao": "Caso o credenciamento seja de Fabricante/projetista de Produto com 100 até 499 funcionários. TFAC Cód. 010802",
+            "moeda": "R$",
+            "valor": " 3.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 28600,
+            "descricao": "Caso o credenciamento seja de Fabricante/projetista de Produto com 500 ou mais funcionários. TFAC Cód. 010803",
+            "moeda": "R$",
+            "valor": " 6.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 28601,
+            "descricao": "Caso seja renovação ou alteração de credenciamento de pessoa jurídica para emissão de laudo ou similares. TFAC Cód. 010901",
+            "moeda": "R$",
+            "valor": " 500,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225865,
+            "tipo": "web",
+            "descricao": "O interessado deve encaminhar a documentação exigida via [Peticionamento Eletrônico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0), escolhendo o tipo processual \"Pessoal da Aviação Civil: Credenciamento de Pessoa Jurídica\".",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 38039,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 225864,
+                "tipo": "web",
+                "descricao": "[Clique aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean)\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172146,
+      "titulo": "Aguardar aprovação do Manual de Procedimentos",
+      "descricao": "Nessa etapa a ANAC avalia o conteúdo enviado e pode entrar em contato com o requerente, a fim de sanar pendências do processo.\n\n Caso seja verificada a conformidade com o regulamento e o credenciamento seja considerado necessário, a ANAC notifica o requerente da aprovação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225866,
+            "tipo": "web-acompanhar",
+            "descricao": "O requerente deve acompanhar o andamento de seu pedido pelo mesmo endereÃ§o usado na etapa anterior.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "360",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 360
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "360",
+  "percentualAvaliacoesPositivas": "37",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/credenciar-se-junto-a-anac-como-pessoa-juridica-apta-a-emitir-certificados-e-aprovacoes",
+  "statusDestaque": false
+}

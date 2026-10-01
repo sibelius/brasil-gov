@@ -1,0 +1,226 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2264",
+  "nome": "Solicitar Regularização de Saneantes Isentos de Registro",
+  "sigla": "",
+  "descricao": "É uma solicitação junto a Anvisa para regularizar produtos saneantes de menor risco sanitário.\n\n Exemplos de saneantes isentos de registro: \n\n • detergentes e limpadores de uso geral;\n\n • alvejantes, lava roupas e amaciantes;\n\n • ceras e desengraxantes;\n\n • lava louças;\n\n • odorizantes, neutralizadores de odores\n\n • produtos para tratamento de piscinas",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: 0800-642 9782 (dias úteis, das 7h30 às 19h30); \n\n [Webchat](https://anvisa.chat.comunix.tech:8070/#/) \n\n [Formulário Eletrônico](http://portal.anvisa.gov.br/fale-conosco)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Notificação de Saneantes",
+        "id": 105879
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89145,
+        "tipo": "Empresas que desejam comercializar saneantes de risco 1.",
+        "requisitos": "Possuir autorização de Funcionamento para fabricação ou importação de saneantes. \n\n Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](http://portal.anvisa.gov.br/cadastramento)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "48",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 48
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 147691
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Produtos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "saneantes",
+        "id": 354106
+      },
+      {
+        "item": "isenção de registro",
+        "id": 354107
+      },
+      {
+        "item": "risco 1",
+        "id": 354108
+      },
+      {
+        "item": "",
+        "id": 354109
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Decreto nº 8.077/2013](http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2013/Decreto/D8077.htm)\n\n [RDC nº 59/2010](http://portal.anvisa.gov.br/legislacao#/visualizar/28612)\n\n [RDC nº 42/2009](http://portal.anvisa.gov.br/legislacao#/visualizar/28421)",
+        "id": 123071
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 21,
+    "negativas": 14
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n · Urbanidade;\n\n · Respeito;\n\n · Acessibilidade;\n\n . Cortesia;\n\n . Presunção da boa-fé do usuário;\n\n · Igualdade;\n\n · Eficiência;\n\n · Segurança; e\n\n · Ética",
+  "etapas": [
+    {
+      "id": 207043,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Acesse o sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição Inicial”.\n\n Clique na lupa e selecione a “Atividade/Tipo de produto”> “Saneante” e localize o assunto cuja descrição seja compatível com o produto que se deseja solicitar a isenção de registro (nacional ou importado). Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280519,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](http://portal.anvisa.gov.br/registros-e-autorizacoes/porte-de-empresa/definicoes)). A Anvisa fornece um *checklist* (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 36385,
+            "descricao": "Não há custo",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "- serviço gratutio",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269162,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 207044,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no sistema Solicita, selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” no canto superior direito para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), selecionando a opção “Saneantes” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280520,
+            "nome": "Login e senha no sistema Solicita."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 36386,
+            "descricao": "Não há custo",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "- serviço gratutio",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269163,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)\n\n **Tempo estimado para realizar o serviço: **Até 48 horas (sistema eletrônico)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "60",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-regularizacao-de-saneantes-isentos-de-registro",
+  "statusDestaque": false
+}

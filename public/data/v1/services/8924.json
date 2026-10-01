@@ -1,0 +1,246 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8924",
+  "nome": "Registrar na Antaq comunicação sobre alteração de frota",
+  "sigla": "",
+  "descricao": "Através deste serviço o usuário poderá comunicar a inclusão, alteração ou exclusão de embarcação na frota da Empresa Brasileira de Navegação. O registro de inclusão ou alteração da frota somente será efetivado se a comunicação vier acompanhada da documentação da(s) embarcação(ões) envolvidas.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Outorgas de Autorização - GOA\n\n goa@antaq.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://soe.antaq.gov.br/sso/requirement/login?service=https%3A%2F%2Fsoe.antaq.gov.br%2Frequirement%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 101304
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85797,
+        "tipo": "Empresa brasileira de navegação autorizada pela ANTAQ.",
+        "requisitos": "Peticionante deve estar devidamente habilitado para acessar os processos da EBN no Sistema de Outorga Eletrônica - SOE."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141352
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "EBN",
+        "id": 340532
+      },
+      {
+        "item": "Frota",
+        "id": 340533
+      },
+      {
+        "item": "Embarcação",
+        "id": 340534
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2001-06-05;10233",
+        "id": 118240
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 197472,
+      "titulo": "Acessar o SOE e formalizar a comunicação",
+      "descricao": "O representante da EBN deve esclarecer, no campo de comunicações do SOE, a alteração na frota pretendida (inclusão, exclusão, alteração cadastral da embarcação) e juntar a respectiva documentação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 269851,
+            "nome": "2. Registro da Embarcação (PRPM, TIE ou DPP)\n 4. Certificado de Segurança da Navegação ou Termo de Responsabilidade quanto a segurança\n 6. Seguro DPEM ou equivalente, se houver;\n 8. Contrato de Afretamento e Termo de Entrega de Embarcação (se for o caso)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 41704,
+            "descricao": "Embarcação afretada a casco nu",
+            "documento": [
+              {
+                "id": 269850,
+                "codigo": null,
+                "descricao": "Quando se tratar de inclusão na frota de embarcação afretada a casco nu, o respectivo contrato de afretamento deverá ser registrado em Cartório Marítimo ou Tabelionato de Notas (nesse caso, na forma de escritura pública) e a condição de afretamento deverá estar averbada no PRPM, TIE ou DPP pela Autoridade Marítima competente.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257566,
+            "tipo": "web",
+            "descricao": "Sistema de Outorga Eletrônica - SOE\n\n [Acesse o site](https://soe.antaq.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 257567,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI/Antaq\n\n [Acesse o site](https://www.gov.br/../../../../../../antaq/pt-br/servicos-1/sistema-eletronico-de-informacoes)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 257568,
+            "tipo": "postal",
+            "descricao": "[Para uma das Unidades Regionais da ANTAQ.](http://portal.antaq.gov.br/index.php/institucional/unidades-regionais/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197473,
+      "titulo": "Análise e processamento da alteração da frota solicitada",
+      "descricao": "O analista responsável da Gerência de Outorgas da Navegação confere se o requerimento e a documentação encaminhados estão completos, atualizados e suficientes para o processamento do pleito na base de dados da ANTAQ (sistema Corporativo), sendo que, no caso de frota vinculada ao serviço de transporte de travessias ou longitudinal de passageiros e misto, há necessidade de aditamento do Termo de Autorização.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 41705,
+            "descricao": "Transporte de travessias ou longitudinal de passageiros e misto na NAVEGAÇÃO INTERIOR,",
+            "documento": [
+              {
+                "id": 269852,
+                "codigo": null,
+                "descricao": "Nesses casos, deve ser encaminhado o formulário do novo ESQUEMA OPERACIONAL, constando a alteração da frota autorizada.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257569,
+            "tipo": "web",
+            "descricao": "Através do Sistema de Outorgas Eletrônico (SOE)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-na-antaq-alteracao-de-frota",
+  "statusDestaque": false
+}

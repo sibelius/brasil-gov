@@ -1,0 +1,206 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13345",
+  "nome": "Matricular-se em curso de Pós-Graduação - UFES",
+  "sigla": "PRPPG",
+  "descricao": "Matricular-se em curso de pós-graduação (mestrado e doutorado) an UFES.\n\n Acessar: https://prppg.ufes.br/mestrados-e-doutorados-da-ufes",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o link https://prppg.ufes.br/mestrados-e-doutorados-da-ufes",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://prppg.ufes.br/mestrados-e-doutorados-da-ufes",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "mestrado",
+        "id": 67864
+      },
+      {
+        "item": "doutorado",
+        "id": 67865
+      },
+      {
+        "item": "pós-graduação",
+        "id": 67866
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 60603,
+        "tipo": "Candidatos que concluíram curso de graduação.",
+        "requisitos": "Ter diploma de graduação em qualquer área."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425",
+    "dbId": 57779,
+    "nomeOrgao": "Universidade Federal do Espírito Santo (UFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 95254
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Mestrado",
+        "id": 232615
+      },
+      {
+        "item": "Doutorado ",
+        "id": 232616
+      },
+      {
+        "item": "Especialização ",
+        "id": 232617
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 76877
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 134771,
+      "titulo": "Acessar Edital de Inscrição e Seleção de candidatos para o Curso de Mestrado e Doutorado",
+      "descricao": "Mais informações: https://prppg.ufes.br/mestrados-e-doutorados-da-ufes\n\n Ler  Resolução nº 40/2014 – CEPE/UFES: https://daocs.ufes.br/sites/daocs.ufes.br/files/field/anexo/resolucao\\_no\\_40.2014\\_-\\_processo\\_seletivo\\_curso\\_stricto\\_sensu.pdf",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 191050,
+            "nome": "Cada PPG na UFES indica em seu edital de seleção os documentos a serem solicitados de cada candidato.\n\n Para consultar os editais de mestrado, acessar: https://prppg.ufes.br/mestrado \n\n Para consultar os editais de doutarado, acessar: https://prppg.ufes.br/doutorado"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 21531,
+            "descricao": "Taxa de inscrição no edital de seleção",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "cada programa especifica sua taxa",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174486,
+            "tipo": "web",
+            "descricao": "Acessar:Â [Acesse o site](https://prppg.ufes.br/mestrados-e-doutorados-da-ufes)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 134772,
+      "titulo": "Acompanhar o processo seletivo",
+      "descricao": "Acompanhar as estapas da seleção descritas no edital.\n\n Mestrados: https://prppg.ufes.br/mestrado\n\n Doutorados: https://prppg.ufes.br/doutorado",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174487,
+            "tipo": "web",
+            "descricao": "Acessar os editais de cada programa.\n\n Mestrado: [Acesse o site](https://prppg.ufes.br/mestrado)\n\n Doutorado: [Acesse o site](https://prppg.ufes.br/doutorado)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-pos-graduacao-ufes",
+  "statusDestaque": false
+}

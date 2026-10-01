@@ -1,0 +1,420 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5906",
+  "nome": "Matricular-se em curso de graduação - UNIVASF",
+  "descricao": " Se você deseja fazer graduação na Universidade, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Secretaria de Registro e Controle Acadêmico - (87) 2101-6762 - antonia.ivonete@univasf.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 50,
+  "servicoDigital": false,
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Matrícula presencial - corresponde à entrega de todos os documentos obrigatórios.",
+        "id": 5311
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 8601,
+        "tipo": "Cidadãos",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/69624",
+    "dbId": 34334,
+    "nomeOrgao": "Fundação Universidade Federal do Vale do São Francisco (UNIVASF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 13667
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 15708,
+      "titulo": "Obter informações",
+      "descricao": null,
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17032,
+            "tipo": "presencial",
+            "descricao": "Nos campi da UNIVASF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17033,
+            "tipo": "telefone",
+            "descricao": "21016764",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17034,
+            "tipo": "web",
+            "descricao": "http://ingressodiscente.univasf.edu.br/",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17035,
+            "tipo": "e-mail",
+            "descricao": "srca@univasf.edu.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15709,
+      "titulo": "ENTREGA DE DOCUMENTOS (MATRÍCULA PRESENCIAL)",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 28511,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 28512,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 28513,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 28514,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 28515,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 28516,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 28517,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 28518,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 28519,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 28520,
+            "nome": "CPF"
+          },
+          {
+            "id": 28521,
+            "nome": "Diploma"
+          },
+          {
+            "id": 28522,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 28523,
+            "nome": "Procuração do representante legal"
+          },
+          {
+            "id": 28524,
+            "nome": "Quitação militar; foto; documentos obrigatórios para as cotas."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17036,
+            "tipo": "presencial",
+            "descricao": "Nos campi da universidade.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15710,
+      "titulo": "AVALIAÇÃO SOCIOECONÔMICA - corresponde a um questionário online onde se presta informações e se posta documentos comprobatórios da matrícula e, especi",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 28525,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 28526,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 28527,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 28528,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 28529,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 28530,
+            "nome": "Certidões da Receita Federal"
+          },
+          {
+            "id": 28531,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 28532,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 28533,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 28534,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 28535,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 28536,
+            "nome": "CPF"
+          },
+          {
+            "id": 28537,
+            "nome": "Diploma"
+          },
+          {
+            "id": 28538,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 28539,
+            "nome": "Procuração do representante legal"
+          },
+          {
+            "id": 28540,
+            "nome": "Quitação militar; documentos de renda; documentos de outras cotas"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17037,
+            "tipo": "telefone",
+            "descricao": "21016764",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17038,
+            "tipo": "web",
+            "descricao": "https://sistemas.univasf.edu.br/sase/",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17039,
+            "tipo": "e-mail",
+            "descricao": "sase@univasf.edu.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15711,
+      "titulo": "PERÍCIA MULTIPROFISSIONAL - corresponde à entrega de laudos médicos e a realização da perícia médica.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 28541,
+            "nome": "Laudo médico; exames; relato de experiência"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17040,
+            "tipo": "presencial",
+            "descricao": "Local previamente agendado e informado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "62",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-univasf",
+  "statusDestaque": false
+}

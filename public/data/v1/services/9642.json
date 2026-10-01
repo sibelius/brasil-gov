@@ -1,0 +1,231 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9642",
+  "nome": "Registrar presença de forma digital em eventos (Check-in)",
+  "sigla": "",
+  "descricao": "O [Check-in](http://www.serpro.gov.br/menu/noticias/noticias-2020/assinar-listas-presenca-ficou-no-passado?utm_source=portal&utm_campaign=check-in-gov-br&utm_content=20200131) Serpro é um aplicativo gratuito que permite ao organizador do evento criar quantas reuniões e eventos desejar, de maneira que os participantes possam realizar o registro de presença através de um QR Code. \n\n Assim, elimina-se a necessidade do preenchimento manual de listas de presença, que é um incômodo para pessoas que estão sempre participando de reuniões.",
+  "flagPortalLogado": "N",
+  "contato": "[app-checkin@serpro.gov.br](mailto:app-checkin@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94755
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80610,
+        "tipo": "**Cidadão (pessoa física)**",
+        "requisitos": "Requisitos Necessários: Ter um iPhone ou smartphone Android"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/90",
+    "dbId": 43381,
+    "nomeOrgao": "Serviço Federal de Processamento de Dados (SERPRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 131367
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Suporte Digital"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "presença",
+        "id": 319308
+      },
+      {
+        "item": "evento",
+        "id": 319309
+      },
+      {
+        "item": "reunião",
+        "id": 319310
+      },
+      {
+        "item": "Serpro",
+        "id": 319311
+      },
+      {
+        "item": "",
+        "id": 319312
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109385
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 188,
+    "negativas": 132
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183122,
+      "titulo": "Instalar o aplicativo",
+      "descricao": "Tempo de duração da instalação vai depender do celular e da velocidade da internet.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240445,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Google Play](https://play.google.com/store/apps/details?id=br.gov.serpro.checkin&hl=pt_BR)\n\n [AppStore](https://apps.apple.com/br/app/checkin-serpro/id1479224977)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183123,
+      "titulo": "Criar um evento",
+      "descricao": "Após se cadastrar no aplicativo, o organizador pode criar um evento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240446,
+            "tipo": "aplicativo-movel",
+            "descricao": "No aplicativo Check-in.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183124,
+      "titulo": "Registrar a presença",
+      "descricao": "No momento do evento, os participantes registram a presença fazendo a leitura do QR Code disponibilizado pelo organizador, em seus celulares.\n\n A presença está confirmada, mesmo se o participante não possuir o app instalado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240447,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://checkin.serpro.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "59",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/check-in",
+  "statusDestaque": false
+}

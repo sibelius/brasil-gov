@@ -1,0 +1,187 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23970",
+  "nome": "Solicitar Comprovante de Rendimentos para aposentados, militares reformados e da reserva, pensionistas e anistiados políticos atendidos pela DECIPEX",
+  "sigla": "",
+  "descricao": "O comprovante de rendimentos é o documento fornecido pela fonte pagadora para que o contribuinte realize sua Declaração de Imposto de Renda da Pessoa Física (DIRPF) à Receita Federal",
+  "flagPortalLogado": "S",
+  "contato": "Central de Atendimento - Decipex  0800.978.9004",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao2.servicos.gov.br/person-service+solicitar-comprovante-de-rendimentos-para-fins-de-imposto-de-renda+67b5d1ba722b045f69351eee?forceAuth=true",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "comprovante de rendimentos",
+        "id": 117058
+      },
+      {
+        "item": "declaração de imposto de renda",
+        "id": 117059
+      },
+      {
+        "item": "IRPF",
+        "id": 117060
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98195,
+        "tipo": "*  Requisitos necessários para o solicitante: Ser aposentado, militar reformado ou da reserva, pensionista e anistiado político oriundos de órgão sob gestão da DECIPEX ou representante legal, inventariante e beneficiário de pensão alimentícia de pessoa vinculada à DECIPEX.\n\n Consulte os órgãos sob gestão da DECIPEX em <https://www.gov.br/servidor/pt-br/acesso-a-informacao/servidor/decipex/paginas-antigas/quem-atendemos>",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308803",
+    "dbId": 58136,
+    "nomeOrgao": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 163444
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Imposto de renda",
+        "id": 391316
+      },
+      {
+        "item": "receita federal",
+        "id": 391317
+      },
+      {
+        "item": "declaração de imposto de renda",
+        "id": 391318
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 138178
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 27,
+    "negativas": 221
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 228604,
+      "titulo": "Solicitar Comprovante de Rendimentos",
+      "descricao": "O requerente preenche as informações do requerimento digital e inclui os documentos exigidos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302001,
+            "nome": "**Solicitação própria**: documento de identificação do solicitante"
+          }
+        ],
+        "casos": [
+          {
+            "id": 45365,
+            "descricao": "Solicitação para terceiros",
+            "documento": [
+              {
+                "id": 301999,
+                "codigo": null,
+                "descricao": "**Solicitação para terceiros**\n\n **a) Curador**: documento de identificação do curador e termo de curatela  \n**b) Procurador**: documento de identificação do titular do comprovante, documento de identificação do procurador e procuração  \n**c) Tutor**: documento de identificação do tutor e termo de tutela  \n**d) Tutor nato (pais)**: documento de identificação do tutor e certidão de nascimento  \n**e) Responsável pela guarda**: documento de identificação do responsável e termo de guarda",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 302000,
+                "codigo": null,
+                "descricao": "****Outros****\n\n ****f) Inventariante:** **documento de identificação do inventariante, nomeação a inventariante e certidão de óbito\n\n **g) Espólio**: documento de identificação do solicitante e certidão de óbito. Se cônjuge ou companheiro, certidão de casamento ou escritura de união estável",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296074,
+            "tipo": "web",
+            "descricao": "[link](https://solicitacao2.servicos.gov.br/person-service+solicitar-comprovante-de-rendimentos-para-fins-de-imposto-de-renda+67b5d1ba722b045f69351eee?forceAuth=true)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "11",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-comprovante-de-rendimentos-para-fins-de-imposto-de-renda-para-aposentados-pensionistas-e-anistiados-politicos-vinculados-ao-decipex",
+  "statusDestaque": false
+}

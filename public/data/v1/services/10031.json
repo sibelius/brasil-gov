@@ -1,0 +1,271 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10031",
+  "nome": "Registrar adesão/exclusão do PNLD",
+  "sigla": "",
+  "descricao": "Registrar em sistema disponibilizado pelo FNDE o tipo de obra e para quais etapas de ensino as Secretarias de Educação e Entidades Federais desejam receber materiais. Caso a entidade não queira mais receber materiais, basta registrar no sistema.",
+  "flagPortalLogado": "N",
+  "contato": "[](http://mec.cube.callsp.inf.br/auto-atendimento/navegacao-informacoes/#/MS1zZQ==)E-mail: [livrodidatico@fnde.gov.br](mailto:livrodidatico@fnde.gov.br)\n\n Fale Conosco: 0800-616161 de segunda a sexta-feira, das 8h às 20h\n\n Plataforma Fala/Br: <https://falabr.cgu.gov.br/>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://pnlddigital.fnde.gov.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125415
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104922,
+        "tipo": "Todas as escolas e secretarias de educação interessadas em aderir/sair do PNLD.​",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/253",
+    "dbId": 34339,
+    "nomeOrgao": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175431
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação básica"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Programa Nacional do Livro e do Material Didá",
+        "id": 417793
+      },
+      {
+        "item": "Modelo de declaração",
+        "id": 417794
+      },
+      {
+        "item": "Inclusão",
+        "id": 417795
+      },
+      {
+        "item": "Exclusão",
+        "id": 417796
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150608
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 52,
+    "negativas": 89
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244892,
+      "titulo": "Indicar no sistema o tipo de obra e para quais etapas de ensino deseja receber livros;",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316677,
+            "tipo": "web",
+            "descricao": "<https://pnlddigital.fnde.gov.br/login>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244893,
+      "titulo": "Preencher os campos correspondentes à identificação da escola",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316678,
+            "tipo": "web",
+            "descricao": "<https://pnlddigital.fnde.gov.br/login>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244894,
+      "titulo": "Enviar declaração",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316679,
+            "tipo": "web",
+            "descricao": "<https://pnlddigital.fnde.gov.br/login>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244895,
+      "titulo": "Imprimir o comprovante de Pedido de Adesão/Exclusão do PNLD",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316680,
+            "tipo": "web",
+            "descricao": "<https://pnlddigital.fnde.gov.br/login>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "37",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-adesao-exclusao-do-pnld",
+  "statusDestaque": false
+}

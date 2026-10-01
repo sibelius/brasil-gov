@@ -1,0 +1,176 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13370",
+  "nome": "Acompanhar parcelamento pelo Programa de Regularização Tributária Rural junto à Receita Federal",
+  "sigla": "PRR",
+  "descricao": "Acompanhe o parcelamento de dívidas de Funrural (contribuições previdenciárias sobre a comercialização da produção rural) pelo Programa de Regularização Tributária Rural (PRR) e emita os Darf para o pagamento mensal das parcelas.\n\n O programa permitiu a liquidação das dívidas vencidas até agosto de 2017 por meio do pagamento de uma entrada, sem descontos, e o parcelamento do restante em até 176 vezes, com redução de até 100% das multas e juros.\n\n O prazo para adesão ao programa encerrou em **31 de dezembro de 2018.**",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10042",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121831
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101899,
+        "tipo": "Produtor rural e a empresa adquirente de produção de produtor rural de pessoa física, que tenham aderido ao parcelamento pelo PRR.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 169902
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 169903
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 169904
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Comercialização",
+        "id": 405264
+      },
+      {
+        "item": "Funrural",
+        "id": 405265
+      },
+      {
+        "item": "Pagamento",
+        "id": 405266
+      },
+      {
+        "item": "Parcelamento",
+        "id": 405267
+      },
+      {
+        "item": "Produção Rural",
+        "id": 405268
+      },
+      {
+        "item": "Produtor Rural",
+        "id": 405269
+      },
+      {
+        "item": "",
+        "id": 405270
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.784/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=89567)",
+        "id": 145633
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 18
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237467,
+      "titulo": "Acompanhar o parcelamento",
+      "descricao": "Consulte o andamento do parcelamento e emita a guia para pagamento mensal das parcelas.\n\n Você será excluído do programa se não pagar 3 parcelas consecutivas ou 6 alternadas; não pagar a última parcela; não pagar as contribuições correntes relativas ao Funrural, não cumprir regularmente as obrigações do FGTS.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306549,
+            "tipo": "web",
+            "descricao": "[Parcelamento pelo PRR](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10042)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acompanhar-parcelamento-pelo-programa-de-regularizacao-tributaria-rural-junto-a-receita-federal",
+  "statusDestaque": false
+}

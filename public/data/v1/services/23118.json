@@ -1,0 +1,213 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23118",
+  "nome": "Excluir cadastro de empresas de alimentos",
+  "sigla": "",
+  "descricao": "É uma solicitação junto à Anvisa para excluir o cadastro de empresa nacional na área de alimentos.",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cadastro de alimentos",
+        "id": 101058
+      },
+      {
+        "item": "Cadastro de empresas de alimentos",
+        "id": 101059
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85607,
+        "tipo": "Empresas da área de alimentos com produtos registrados na Anvisa.",
+        "requisitos": "Possuir CNPJ cadastrado na Anvisa e usuário com perfil ou vínculo apropriado para acesso ao sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastros) aqui. Mais informações sobre o acesso ao sistema Solicita podem ser obtidas no [Manual do Solicita](https://www.gov.br/anvisa/pt-br/sistemas/peticionamento)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141021
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Produtos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Alimentos",
+        "id": 339856
+      },
+      {
+        "item": "Cadastro",
+        "id": 339857
+      },
+      {
+        "item": "Excluir Cadastro",
+        "id": 339858
+      },
+      {
+        "item": "",
+        "id": 339859
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RESOLUÇÃO - [RDC Nº 843, DE 22 DE FEVEREIRO DE 2024](https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-843-de-22-de-fevereiro-de-2024-545334292)",
+        "id": 117867
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 196902,
+      "titulo": "Fazer a solicitação",
+      "descricao": "* Acesse o sistema Solicita com usuário cadastrado. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo já existente”. \n   * Localize o processo desejado \n   * Localize o assunto desejado.  \n   * Preencha o formulário e envie a solicitação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 269318,
+            "nome": "A documentação para cada tipo de pedido relacionado a esse serviço pode ser obtida por meio da [Consulta de Assuntos](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 33181,
+            "descricao": "O valor da taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Varia de acordo com o porte da empresa",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 256904,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 196903,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "O processo pode ser acompanhado pelo [Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F). Selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” para localizar o processo desejado.  \n\n A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), selecionando a opção “Situação de documentos > Técnico” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 256905,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F) \n\n   [Portal de Consultas](http://consultas.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/excluir-cadastro-de-empresas-de-alimentos",
+  "statusDestaque": false
+}

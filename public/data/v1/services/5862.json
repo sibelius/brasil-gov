@@ -1,0 +1,305 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5862",
+  "nome": "Emissão da primeira via do diploma de graduação - UFRPE",
+  "sigla": "",
+  "descricao": "Expedição da primeira via do diploma dos cursos de graduação da Universidade Federal Rural de Pernambuco.",
+  "flagPortalLogado": "N",
+  "contato": "Departamento de Registro e Controle Acadêmico \n\n E-mail ([cra.drca@ufrpe.br](mailto:cra.drca@ufrpe.br) / [sred.drca@ufrpe.br](mailto:sred.drca@ufrpe.br)) e telefone (33206086).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111609
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93823,
+        "tipo": "Egressos(as) dos cursos de graduação da UFRPE.",
+        "requisitos": "*  Ter colado grau;\n\n \n *  Apresentar o comprovante de assinatura da ata de colação de grau;\n\n \n *  Apresentar o nada consta da biblioteca e comprovante de depósito do Trabalho de Conclusão de Curso (TCC)/monografia; e\n\n \n *  Devolver a beca utilizada na cerimônia de colação de grau."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "120",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/433",
+    "dbId": 57757,
+    "nomeOrgao": "Universidade Federal Rural de Pernambuco (UFRPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 155725
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 372773
+      },
+      {
+        "item": "graduação",
+        "id": 372774
+      },
+      {
+        "item": "expedição",
+        "id": 372775
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 129979
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 217708,
+      "titulo": "Assinar a ata de colação de grau",
+      "descricao": "Assinar a ata de colação de grau, disponibilizada em formato digital pela Secretaria Geral, após a realização da cerimônia de colação de grau.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282826,
+            "tipo": "e-mail",
+            "descricao": "Secretaria Geral dos Conselhos Superiores: sec.geral.reitoria@ufrpe.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 217709,
+      "titulo": "Solicitar o nada consta da biblioteca",
+      "descricao": "*  Solicitar o nada consta da biblioteca da UFRPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282827,
+            "tipo": "e-mail",
+            "descricao": "O nada consta pode ser solicitado através do e-mail [atendimento.bc@ufrpe.br](mailto:atendimento.bc@ufrpe.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 217710,
+      "titulo": "Realizar o depósito do TCC/Monografia na biblioteca",
+      "descricao": "Realizar o depósito do TCC/Monografia junto à biblioteca da UFRPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282828,
+            "tipo": "e-mail",
+            "descricao": "O depósito é realizado junto à biblioteca da universidade por meio do e-mail [tccri.bc@ufrpe.br](mailto:tccri.bc@ufrpe.br);",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 217711,
+      "titulo": "Devolver a beca ao cerimonial após a colação de grau.",
+      "descricao": "Após a cerimônia, devolver a beca utilizada na colação de grau.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282829,
+            "tipo": "presencial",
+            "descricao": "*  Devolver a beca ao setor de Cerimonial, que fica localizado no prédio central da UFRPE.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 217712,
+      "titulo": "Enviar os comprovantes de assinatura da ata de colação de grau, nada consta da biblioteca e depósito do TCC/monografia para DRCA",
+      "descricao": "*  Enviar os comprovantes de assinatura da ata de colação de grau, nada consta da biblioteca e depósito do TCC/monografia",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282830,
+            "tipo": "e-mail",
+            "descricao": "Enviar os comprovantes através dos e-mails: cra.drca@ufrpe.br ou sred.drca@ufrpe.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "52",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufrpe",
+  "statusDestaque": false
+}

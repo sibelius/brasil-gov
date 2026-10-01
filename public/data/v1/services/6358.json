@@ -1,0 +1,281 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6358",
+  "nome": "Participar de Curso Aberto (MOOC) do Ifes",
+  "sigla": "MOOC",
+  "descricao": "Serviço para inscrever-se e realizar cursos 100% on-line (MOOCs) do Ifes: gratuitos, sem tutoria, abertos (não há processo seletivo), com carga horária de até 60h e certificação para quem alcançar ≥ 60% de aproveitamento. O estudante escolhe quando e onde estudar, acessando a Plataforma de Cursos Abertos do Ifes por celular, tablet ou computador.",
+  "flagPortalLogado": "N",
+  "contato": "https://mooc.cefor.ifes.edu.br/v/",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://mooc.cefor.ifes.edu.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "MOOC",
+        "id": 110019
+      },
+      {
+        "item": "Cursos a Distância",
+        "id": 110020
+      },
+      {
+        "item": "EaD",
+        "id": 110021
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92653,
+        "tipo": "A matrícula é aberta à comunidade, sendo os critérios de seleção definidos nos editais divulgados nas páginas dos campi.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100912",
+    "dbId": 36754,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo (IFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 153649
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Universidades e IFES"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "FIC",
+        "id": 367630
+      },
+      {
+        "item": "Processo Seletivo",
+        "id": 367631
+      },
+      {
+        "item": "Capacitação",
+        "id": 367632
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 127699
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 27,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "Este serviço é gratuito para o cidadão.\n\n O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n + Respeito; \n     + Acessibilidade; \n     + Cortesia; \n     + Presunção da boa-fé do usuário; \n     + Igualdade; \n     + Eficiência; \n     + Segurança; e \n     + Ética.",
+  "etapas": [
+    {
+      "id": 214710,
+      "titulo": "Criar conta na plataforma",
+      "descricao": "Cadastre-se na Plataforma de Cursos Abertos do Ifes, informando dados básicos e criando login/senha para acessar os cursos on-line.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288990,
+            "nome": "Dados pessoais básicos (nome, e-mail)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278962,
+            "tipo": "web",
+            "descricao": "Plataforma de Cursos Abertos do Ifes ([Acesse o site](https://mooc.cefor.ifes.edu.br)).\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214711,
+      "titulo": "Escolher o curso",
+      "descricao": "Navegue pela lista de MOOCs disponíveis, leia ementa/carga horária e clique em “Inscrever-se” no curso desejado para adicioná-lo ao seu painel.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278963,
+            "tipo": "web",
+            "descricao": "Catálogo de cursos na plataforma ([Acesse o site](https://mooc.cefor.ifes.edu.br)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214712,
+      "titulo": "Realizar o curso",
+      "descricao": "O Acesse os módulos, assista às aulas, leia os materiais e faça atividades/avaliações no prazo do curso. Estudo é autodirigido, sem tutoria.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278964,
+            "tipo": "web",
+            "descricao": "Ambiente virtual do curso ([Acesse o site](https://mooc.cefor.ifes.edu.br)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214713,
+      "titulo": "Concluir e verificar aproveitamento",
+      "descricao": "Ao finalizar conteúdos e avaliações, confirme seu aproveitamento. É preciso atingir ≥ 60% para ter direito ao certificado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278965,
+            "tipo": "web",
+            "descricao": "PÃ¡gina de progresso/notas do curso.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "75",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-formacao-inicial-e-continuada-if-es",
+  "statusDestaque": false
+}

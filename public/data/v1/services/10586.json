@@ -1,0 +1,152 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10586",
+  "nome": "Certidão de Processo Administrativo Sancionador",
+  "sigla": "",
+  "descricao": "Fornece certidão que informa se o CPF ou CNPJ consultado é parte envolvida em um Processo Administrativo Sancionador (PAS) instaurado pelo Banco Central, decidido ou em análise.\n\n O Processo Administrativo Sancionador (PAS) é o meio usado pelo Banco Central para identificar infrações e aplicar penalidades aos bancos, cooperativas de crédito, administradoras de consórcio e demais instituições autorizadas e integrantes do Sistema de Pagamentos Brasileiros (SPB).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](https://www.bcb.gov.br/acessoinformacao/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.bcb.gov.br/nadaconsta/emitirCertidaoSancionador",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 110835
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93204,
+        "tipo": "Qualquer pessoa física ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 154723
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 154724
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Regulação e Fiscalização"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Processo administrativo sancionador",
+        "id": 370254
+      },
+      {
+        "item": "Certidão negativa",
+        "id": 370255
+      },
+      {
+        "item": "PAS",
+        "id": 370256
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 128625
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 54,
+    "negativas": 55
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 216046,
+      "titulo": "Emitir a certidão",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280693,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/nadaconsta/emitirCertidaoSancionador).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/certidao-de-processo-administrativo-sancionador",
+  "statusDestaque": false
+}

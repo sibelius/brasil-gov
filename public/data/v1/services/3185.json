@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3185",
+  "nome": "Obter cancelamento de autorização de operadora de plano privados de assistência à saúde ou administradora de benefícios",
+  "sigla": "",
+  "descricao": "Este serviço permite que uma operadora de plano de saúde solicite à Agência Nacional de Saúde Suplementar (ANS) o cancelamento de seu registro e de sua autorização de funcionamento. \n\n Após o cancelamento, a operadora não poderá mais atuar no mercado regulado pela ANS: o setor de saúde suplementar. \n\n Para concluir o cancelamento, a operadora tem que cumprir todas as exigências legais. \n\n Importante: registros cancelados não podem ser reativados.\n\n  \n\n [Clique aqui para saber mais sobre esse tema.](http://www.gov.br/ans/pt-br/assuntos/operadoras/registro-e-manutencao-de-operadoras/cancelamento-de-registro-de-operadoras \"Clique aqui para saber mais sobre esse tema.\")",
+  "flagPortalLogado": "N",
+  "contato": "com o e-mail dioperesponde@ans.gov.br\n\n  \n\n Ou saiba mais em:\n\n <https://www.gov.br/ans/pt-br/assuntos/operadoras/registro-e-manutencao-de-operadoras/cancelamento-de-registro-de-operadoras>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cancelamento de registro de operadora",
+        "id": 116251
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 97540,
+        "tipo": "Representante legal da operadora de planos de saúde ou pessoa por ele delegada.",
+        "requisitos": "O representante legal precisa estar cadastrado na ANS. \n\n A pessoa delegada precisa apresentar procuração do representante legal cadastrado na ANS e um documento de identificação."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 162267
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cancelamento",
+        "id": 388499
+      },
+      {
+        "item": "Registro de operadora",
+        "id": 388500
+      },
+      {
+        "item": "Autorização de funcionamento",
+        "id": 388501
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução Normativa – RN nº 543, de 02 de setembro de 2022](http://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0543_09_09_2022.html \"Resolução Normativa - RN nº 543, de 2 de setembro de 2022\")\n\n  \n\n *Dispõe sobre a concessão de autorização de funcionamento das operadoras de planos de assistência à saúde e sobre o registro de Produtos.*\n\n * *",
+        "id": 137181
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 35
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n · Urbanidade;\n\n · Respeito;\n\n · Acessibilidade;\n\n · Cortesia;\n\n · Presunção da boa-fé do usuário;\n\n · Igualdade;\n\n · Eficiência;\n\n · Segurança; e\n\n · Ética",
+  "etapas": [
+    {
+      "id": 227112,
+      "titulo": "Solicitar cancelamento",
+      "descricao": "• Acesse o sistema Portal Operadoras ou o protocolo eletrônico do SEI;\n\n • No Portal Operadoras em assunto selecione “outras solicitações”;\n\n • No protocolo eletrônico do SEI em tipo de peticionamento selecione “processo novo”;\n\n • Protocole o pedido de cancelamento;\n\n • Anexe todos os documentos; e\n\n • Envie a solicitação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 300249,
+            "nome": "Documentação comum a todos os casos: requerimento assinado pelo representante legal cadastrado na ANS; cópia do ato societário que deliberou pelo encerramento das operações de planos de saúde, arquivado no órgão competente; declarações de inexistência de beneficiários (com data), de obrigações com a rede prestadora e de contratos de assistência à saúde.\n\n Se solicitado por terceiro, apresentar procuração e documento de identificação."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 294189,
+            "tipo": "web",
+            "descricao": "Â [Portal Operadoras](http://www2.ans.gov.br/ans-idp/ \"Portal Operadoras\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 294190,
+            "tipo": "web",
+            "descricao": "[SEI Externo - ANS](http://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0 \"SEI Externo - ANS\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227113,
+      "titulo": "Receber resposta da ANS",
+      "descricao": "A ANS analisará, em até 60 dias contados da solicitação, se a operadora cumpriu todas as exigências legais para ter seu registro e autorização de funcionamento cancelados, você será notificado sobre o resultado da análise pelo Portal Operadoras. Para vê-lo, acesse o Portal Operadoras. Se ANS entender que são necessários outros documentos para comprovar as declarações, a notificação será realizado por meio do Portal Operadoras sendo concedido um prazo para que o pedido seja complementado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 294191,
+            "tipo": "web",
+            "descricao": "[Portal Operadoras](http://www2.ans.gov.br/ans-idp/ \"Portal Operadoras\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-registro-de-operadora-de-planos-privados-de-saude",
+  "statusDestaque": false
+}

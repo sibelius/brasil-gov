@@ -1,0 +1,200 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13682",
+  "nome": "Cadastrar coletivo na plataforma Mapa da Cultura",
+  "sigla": "",
+  "descricao": "A plataforma Mapa da Cultura é o local que reúne as informações sobre editais e oportunidades na área da cultura. Sua base de dados conta, ainda, com um cadastro de agentes, espaços, eventos e projetos da área cultural em todo país. Para cadastrar um coletivo cultural siga os passos a seguir.",
+  "flagPortalLogado": "N",
+  "contato": "[suporte.mapa@cultura.gov.br](mailto:suporte.mapa@cultura.gov.br \"mailto:suporte.mapa@cultura.gov.br\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://mapa.cultura.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 100405
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85057,
+        "tipo": "Representante de coletivo cultural, com cadastro na plataforma.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308821",
+    "dbId": 58143,
+    "nomeOrgao": "Ministério da Cultura (MinC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 139952
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 139953
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Artes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Mapa ",
+        "id": 337286
+      },
+      {
+        "item": "Cultura ",
+        "id": 337287
+      },
+      {
+        "item": "Cadastro",
+        "id": 337288
+      },
+      {
+        "item": "",
+        "id": 337289
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 117011
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 195446,
+      "titulo": "Fazer o login no sistema",
+      "descricao": "* O usuário devera inserir seu e-mail ou CPF para verificar se já não tem o cadastro. Ao inserir o e-mail ou CPF, o usuário deverá marcar ainda a opção “Não sou um robô” antes de clicar em “Próximo”\n * Caso o usuário já tenha o cadastro, devido à recente atualização, será necessário gerar uma nova senha.\n * Caso não tenha o cadastro basta clicar em “[Fazer o cadastro](https://www.gov.br/pt-br/servicos/cadastrar-se-na-plataforma-mapa-da-cultura/view)”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 255260,
+            "tipo": "web",
+            "descricao": "[Mapa da Cultura](https://mapa.cultura.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 195447,
+      "titulo": "Cadastrar Agentes",
+      "descricao": "Você deve clicar em “Agentes”, logo em seguida clicar em \"Criar Agente\" e preencher os dados solicitados. Após realizar esse processo, clique em “Criar e Publicar”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 255261,
+            "tipo": "web",
+            "descricao": "[Mapa da Cultura](https://mapa.cultura.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "80",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-coletivo-na-plataforma-mapa-da-cultura",
+  "statusDestaque": false
+}

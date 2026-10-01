@@ -1,0 +1,585 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13311",
+  "nome": "Declarar exportação, retificar e consultar",
+  "sigla": "DU-E",
+  "descricao": "Preencha e registre uma Declaração Única de Exportação (DU-E) por meio de funcionalidade própria do Portal Único Siscomex.\n\n Você também pode:\n\n  * retificar DU-E\n * consultar DU-E\n * entregar os documentos relativos ao despacho de exportação.\n  É recomendada a utilização dos serviços de simulação do tratamento administrativo e/ou tributário na exportação antes de registrar a DU-E.\n\n Todas as orientações sobre a DU-E estão disponíveis no manual de exportação em:\n\n  * [Manual de Exportação via DU-E](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico)\n * [Orientações gerais sobre o Registro da DU-E](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/elaboracao-da-due)\n * [Orientações gerais sobre o Registro da DU-E (passo a passo)](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/elaboracao-da-due/elaborando-a-du-e)\n  Todas as orientações sobre a entrega de documentos da DU-E estão disponíveis no manual de exportação em:\n\n  * [Orientações gerais sobre Instrução da DU-E](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/elaboracao-da-due/instrucao-da-due)\n * [Orientações gerais sobre Anexação de Documentos](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/elaboracao-da-due/anexacao-de-documentos)\n * Realize download e instale o software “Assinador Serpro”: [Manual do Assinador Serpro](https://www.serpro.gov.br/links-fixos-superiores/assinador-digital/assinador-serpro/arquivos/manual_usuario_assinador_desktop.pdf)\n  Todas as orientações sobre a retificação da DU-E estão disponíveis no manual de exportação em:\n\n  * [Orientações gerais sobre Retificação da DU-E](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/retificacao/retificacao-da-du-e-passo-a-passo)\n * [Orientações gerais sobre Retificação da DU-E (passo a passo)](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/retificacao/retificacao-da-du-e)\n  As orientações para consultar a declaração de exportação registrada em sistemas antigos (DE/DE-Web/DSE) estão disponíveis no seguinte manual:\n\n  * [Manual de Exportação via DE/DE-Web](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-exportacao)",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalunico.siscomex.gov.br/portal/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123469
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103196,
+        "tipo": "Pessoa física ou jurídica exportadora ou declarante da operação de exportação, bem como seus representantes legais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172654
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172655
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172656
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 172657
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Tratamento Administrativo Exportação",
+        "id": 410884
+      },
+      {
+        "item": "LPCO",
+        "id": 410885
+      },
+      {
+        "item": "Tratamento Tributário Exportação",
+        "id": 410886
+      },
+      {
+        "item": "Classificação fiscal",
+        "id": 410887
+      },
+      {
+        "item": "Registrar DU-E",
+        "id": 410888
+      },
+      {
+        "item": "Elaborar DU-E",
+        "id": 410889
+      },
+      {
+        "item": "Consultar DU-E",
+        "id": 410890
+      },
+      {
+        "item": "Entregar documentos instrutivos DU-E",
+        "id": 410891
+      },
+      {
+        "item": "Anexar documentos DU-E",
+        "id": 410892
+      },
+      {
+        "item": "DU-E",
+        "id": 410893
+      },
+      {
+        "item": "Retificar DU-E",
+        "id": 410894
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.702/2017](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=81483)",
+        "id": 148466
+      },
+      {
+        "item": "[Instrução Normativa SRF Nº 611/2006](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=15544)",
+        "id": 148467
+      },
+      {
+        "item": "[Instrução Normativa SRF Nº 28/1994](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=13448)",
+        "id": 148468
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240850,
+      "titulo": "Consultar a Nomenclatura Comum do Mercosul (NCM) e/ou simular tratamento administrativo e/ou tributário na exportação.",
+      "descricao": "Consulte a Nomenclatura Comum do Mercosul (NCM) para classificar suas mercadorias e simule o tratamento administrativo e/ou tributário por meio de funcionalidade própria do Portal Único Siscomex.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310966,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/classif/#/sumario?perfil=publico) - **Classificar mercadorias na NCM**\n\n  **Orientação**: Consulte a Nomenclatura Comum do Mercosul (NCM) e classifique suas mercadorias, acessando o Portal Único Siscomex, perfil “Importador/Exportador/Despachante” ou “Público”, assunto exportação, e selecione a funcionalidade “Classif” >> “Consultar”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310967,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/talpco/x/#/simular-ta-exportacao?perfil=publico) - **Simular o Tratamento Administrativo**\n\n  **Orientação**: Simule o tratamento administrativo aplicado na exportação de mercadorias, acessando o Portal Único Siscomex, perfil “Importador/Exportador/Despachante” ou “Público”, assunto exportação, e selecione a funcionalidade “LPCO” >> “Simular Tratamento Administrativo”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240851,
+      "titulo": "Registrar a declaração única de exportação (DU-E)",
+      "descricao": "Preencha e registre a DU-E acessando o Portal Único Siscomex, perfil “Importador/Exportador/Despachante”, assunto exportação, e selecione a funcionalidade “Declaração Única de Exportação” >> “Elaborar DU-E” >> “Nova”.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317381,
+            "nome": "A DU-E é preenchida, em regra, com base em nota fiscal eletrônica (NF-E). Porém é possível preencher a DU-E com base em nota fiscal formulário ou sem nota, conforme casos específicos previstos na legislação."
+          },
+          {
+            "id": 317382,
+            "nome": "No momento do preenchimento da DU-E (ou posteriormente) é possível juntar os documentos exigidos pela legislação."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310968,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/) - Registrar DU-E via tela",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310969,
+            "tipo": "web",
+            "descricao": "[API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/) - Registrar DU-E via webservice",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240852,
+      "titulo": "Consultar a declaração única de exportação (DU-E)",
+      "descricao": "Consulte a DU-E para visualizar as informações nela prestadas ou para acompanhar as atuações dos intervenientes públicos e privados no processo de exportação. Você também pode acompanhar a situação dos controles aduaneiro, administrativo e da carga.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317384,
+            "nome": "Possuir o número da DU-E ou algum outro documento (RUC, NF-e ou LPCO)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48220,
+            "descricao": "Caso específico",
+            "documento": [
+              {
+                "id": 317383,
+                "codigo": null,
+                "descricao": "Possuir o número da DE/DE-Web/DSE.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310972,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/) - Consultar DU-E via tela\n\n  **Orientação**:\n\n 1) Perfil “Importador/Exportador/Despachante” ou “Acesso Público”, assunto exportação, selecione “Declaração Única de Exportação” >> “Consultar DU-E”.\n\n 2) O exportador possui acesso a consulta completa de suas DU-E.\n\n 3) Todo cidadão pode acessar a consulta simplificada da DU-E, via acesso público, desde que possua o número da DU-E ou o número do:  RUC, NF-e ou LPCO.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310973,
+            "tipo": "web",
+            "descricao": "[API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/) - Consultar DU-E via webservice",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48221,
+            "descricao": "Consultar DE/DSE",
+            "canalDePrestacao": [
+              {
+                "id": 310970,
+                "tipo": "web",
+                "descricao": "[Siscomex Exportação](https://hod.serpro.gov.br/a83016cv/)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          },
+          {
+            "id": 48222,
+            "descricao": "Consultar DE-Web",
+            "canalDePrestacao": [
+              {
+                "id": 310971,
+                "tipo": "web",
+                "descricao": "[Siscomex Exportação Web](https://www37.receita.fazenda.gov.br/exportacao/login.jsf)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240853,
+      "titulo": "Entregar os documentos instrutivos da declaração única de exportação (DU-E), nos casos de conferência aduaneira diferente de verde.",
+      "descricao": "Entregue todos os documentos que acompanharão a DU-E por meio de funcionalidade própria do Portal Único Siscomex que permite a anexação de documentos digitalizados.\n\n Os documentos devem ser apresentados à Receita Federal nos casos de seleção da DU-E para canal de conferência aduaneira **diferente de verde**. Também pode haver casos em que a fiscalização ou a legislação específica exigirão (por exemplo na exportação temporária).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317385,
+            "nome": "A nota fiscal formulário (nota fiscal emitida em papel/talão de notas);"
+          },
+          {
+            "id": 317386,
+            "nome": "Nas exportações por via terrestre, fluvial ou lacustre, a DU-E será acompanhada do conhecimento de carga e do manifesto internacional de carga;"
+          },
+          {
+            "id": 317387,
+            "nome": "Outros documentos, conforme legislação;"
+          },
+          {
+            "id": 317388,
+            "nome": "**Não é necessária **a apresentação da NF-E ou do Documento Auxiliar da Nota Fiscal Eletrônica (Danfe), já que a DU-E é gerada a partir da própria NF-E."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310974,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/)\n\n **Orientação**: Todos os documentos digitalizados anexados à DU-E devem ser assinados digitalmente utilizando o Assinador Serpro (Manual do Assinador Serpro).\n\n Realize download e instale o software “Assinador Serpro”.\n\n **Orientação**: Também é possível anexar documentos à DU-E durante as etapas de preenchimento/registro, retificação ou cancelamento, nos casos em que for necessário apresentá-los.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310975,
+            "tipo": "web",
+            "descricao": "[API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/) (Você também pode entregar os documentos que acompanham a DU-E via webservice)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240854,
+      "titulo": "Retificar a declaração única de exportação (DU-E)",
+      "descricao": "Retifique (altere) as informações prestadas em uma DU-E que já foi registrada.\n\n Antes da Apresentação da Carga para Despacho (ACD), não há necessidade da alteração ser autorizada pela Receita Federal. Nos demais casos pode haver análise fiscal.\n\n As alterações de declaração registrada em sistema antigo (DE, DE-Web ou DSE) deverão ser pedidas por meio de processo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317390,
+            "nome": "A retificação da DU-E é, em regra, registrada via funcionalidade própria no Portal Siscomex. Não é necessária a abertura de processo digital. Todos os documentos que justifiquem a retificação (alteração) devem ser juntados ao dossiê da DU-E."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48223,
+            "descricao": "Alterações de declaração registrada em sistema antigo (DE, DE-Web ou DSE)",
+            "documento": [
+              {
+                "id": 317389,
+                "codigo": null,
+                "descricao": "O processo deve conter o requerimento e os documentos que justifiquem a retificação.\n\n Consultar o manual: [Manual de Exportação via DE/DE-Web](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-exportacao)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310977,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/) - Retificar DU-E via tela\n\n **Orientação**: Formalize a solicitação de alteração da declaração de exportação acessando o Portal Único Siscomex, perfil “Importador/Exportador/Despachante”, assunto exportação, e selecione a funcionalidade “Declaração Única de Exportação” >> “Retificar DU-E”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310978,
+            "tipo": "web",
+            "descricao": "[API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/) - Retificar DU-E via webservice",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48224,
+            "descricao": "Retificar DE, DE-Web ou DSE",
+            "canalDePrestacao": [
+              {
+                "id": 310976,
+                "tipo": "presencial",
+                "descricao": "[Atendimento presencial](https://www.gov.br/receitafederal/pt-br/canais_atendimento/fale-conosco/presencial). Compareça presencialmente à unidade da Receita Federal de jurisdição do recinto aduaneiro onde foi processado o despacho de exportação. Verifique a necessidade de agendamento.[  \n](https://www.gov.br/receitafederal/pt-br/canais_atendimento/atendimento-presencial/unidades-no-brasil)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 15,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240855,
+      "titulo": "Acompanhar a retificação da declaração única de exportação (DU-E)",
+      "descricao": "O resultado da solicitação de retificação da DU-E estará disponível quando você consultar a declaração.\n\n O acompanhamento da solicitação de retificação de declaração registrada em sistema antigo (DE, DE-Web e DSE) deve ser realizado por meio de sua Caixa Postal do e-CAC e pelo e-Processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310981,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/) - Consultar DU-E via tela\n\n **Orientação**: Para consultar a DU-E, acesse o Portal Único Siscomex, perfil “Importador/Exportador/Despachante”, assunto exportação, e selecione a funcionalidade “Declaração Única de Exportação” >> “Consultar DU-E”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310982,
+            "tipo": "web",
+            "descricao": "[API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/) - Consultar DU-E via webservice",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48225,
+            "descricao": "Consulta de retificação em sistemas antigos (DE, DE-Web e DSE)",
+            "canalDePrestacao": [
+              {
+                "id": 310979,
+                "tipo": "web",
+                "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 310980,
+                "tipo": "aplicativo-movel",
+                "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/declarar-exportacao-retificar-e-consultar",
+  "statusDestaque": false
+}

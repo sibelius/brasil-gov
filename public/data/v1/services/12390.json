@@ -1,0 +1,175 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12390",
+  "nome": "Gerar boleto de pagamento de multas da PRF",
+  "sigla": "",
+  "descricao": "O serviço de consulta e pagamento de multas informa se o veículo possui multas por infringir o Código de Trânsito Brasileiro (CTB) extraídas pela Polícia Rodoviária Federal (PRF), além de permitir a geração de boleto para pagamento dos débitos.\n\n Para mais informações, [clique aqui](https://www.gov.br/../../prf/pt-br/servicos/multas/nada-consta)",
+  "flagPortalLogado": "N",
+  "contato": "<https://portal.prf.gov.br/canais-de-atendimento>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cpag.prf.gov.br/multas",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 117821
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98762,
+        "tipo": "Qualquer pessoa pode utilizar este serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 164738
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 164739
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 164740
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 164741
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infrações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "multa",
+        "id": 393723
+      },
+      {
+        "item": "boleto",
+        "id": 393724
+      },
+      {
+        "item": "GRU",
+        "id": 393725
+      },
+      {
+        "item": "nada consta",
+        "id": 393726
+      },
+      {
+        "item": "rodovias federais",
+        "id": 393727
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 139059
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 217,
+    "negativas": 703
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela[ Lei nº 13.460/17](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei 10.048](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm), de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460/17](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 230421,
+      "titulo": "Gerar boleto ou nada consta",
+      "descricao": "Fornecer dados do veículo para obtenção dos resultados do serviço.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 304152,
+            "nome": "Informar Placa e Renavam do Veículo"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298145,
+            "tipo": "web",
+            "descricao": "[Nada Consta PRF](https://cpag.prf.gov.br/multas)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "24",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/gerar-boleto-de-pagamento-de-multas-da-prf",
+  "statusDestaque": false
+}

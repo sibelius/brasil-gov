@@ -1,0 +1,194 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9601",
+  "nome": "Acesso a Processos CEBAS-Educação",
+  "sigla": "",
+  "descricao": "Este serviço permite **consultar processos** do Certificado de Entidades Beneficentes de Assistência Social na Área de Educação (CEBAS-Educação) protocolados no SEI do MEC. \n\n   **Características: **\n\n    *  Acesso integral ao processo \n\n \n     *  Prazo de consulta: **180 dias corridos** após liberação \n\n \n     *  Serviço **100%** **gratuito**** **",
+  "flagPortalLogado": "S",
+  "contato": "**Telefone:** 0800 616161",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126068
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105457,
+        "tipo": "*  **Cidadãos **\n\n \n     *  **Empresas **\n\n \n     *  **Entidades sem fins lucrativos **",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "180",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 180
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176271
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176272
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Ferramentas de apoio à gestão"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CEBAS-Educação",
+        "id": 419884
+      },
+      {
+        "item": "Cópia de Processo",
+        "id": 419885
+      },
+      {
+        "item": "Vista de Processo",
+        "id": 419886
+      },
+      {
+        "item": "",
+        "id": 419887
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "**Lei Complementar nº 187/2021 ** **Decreto nº 11.791/2023**",
+        "id": 151318
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 41,
+    "negativas": 32
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246102,
+      "titulo": "Requerimento inicial",
+      "descricao": "*  **Acesse:** Solicitação online *[Clique aqui](https://solicitacao.servicos.gov.br/processos/iniciar?codServico=9601) *\n\n \n     *  **Informe:**\n\n \n  + CNPJ da matriz \n + Número do processo no SEI/MEC \n + E-mail para recebimento",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321959,
+            "nome": "CNPJ da Matriz\n\n Número do Processo (SEI/MEC)\n\n E-mail Válido"
+          }
+        ],
+        "casos": [
+          {
+            "id": 48862,
+            "descricao": "Para Representante Legal:",
+            "documento": [
+              {
+                "id": 321957,
+                "codigo": null,
+                "descricao": "Ata de eleição com mandato vigente\n\n Firma reconhecida em cartório",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48863,
+            "descricao": "Para Procurador Institucional:",
+            "documento": [
+              {
+                "id": 321958,
+                "codigo": null,
+                "descricao": "Procuração assinada pelo Representante Legal\n\n Ata de eleição\n\n Firma reconhecida em cartório",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318299,
+            "tipo": "web",
+            "descricao": "[https://solicitacao.servicos.gov.br/processos/iniciar?CodServico=9601](https://solicitacao.servicos.gov.br/processos/iniciar?CodServico=9327)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "180",
+  "percentualAvaliacoesPositivas": "56",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-vistas-ou-copia-de-processos-de-interesse-de-entidades-beneficentes-de-assistencia-social",
+  "statusDestaque": false
+}

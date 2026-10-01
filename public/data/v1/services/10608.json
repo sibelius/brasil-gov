@@ -1,0 +1,305 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10608",
+  "nome": "Verificar autenticidade de documentos enviados pelo atendimento do BC",
+  "sigla": "",
+  "descricao": "Certidão que comprova que o documento enviado pela área de atendimento ao cidadão do Banco Central é verdadeiro. A verificação é feita incluindo o código que aparece no documento.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](http://www.bcb.gov.br/acessoinformacao/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.bcb.gov.br/rdr/consultaComunicacao.do?method=entrada",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88468
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75783,
+        "tipo": "Qualquer pessoa física ou jurídica",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122762
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 122763
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 122764
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 122765
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autenticidade",
+        "id": 298160
+      },
+      {
+        "item": "Certidão",
+        "id": 298161
+      },
+      {
+        "item": "Legítima",
+        "id": 298162
+      },
+      {
+        "item": "Atendimento do BC",
+        "id": 298163
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101534
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 26,
+    "negativas": 45
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 171658,
+      "titulo": "Escolher tipo de documento",
+      "descricao": "Informe o tipo de documento enviado pelo Banco Central que você quer autenticar (correspondência ou e-mail).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237943,
+            "nome": "Documento enviado pelo setor de atendimento do BC com o código de validação."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225219,
+            "tipo": "web",
+            "descricao": "Acesse[Â aqui](https://www3.bcb.gov.br/rdr/consultaComunicacao.do?method=entrada).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171659,
+      "titulo": "Validar documentos enviados por correspondência",
+      "descricao": "Informe o código e o CEP do destinatário.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237944,
+            "nome": "Para validar no sistema, você deve informar:\n\n  * Código de validação do documento enviado pelo setor de atendimento do BC; e\n * CEP do destinatário."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225220,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/rdr/consultaComunicacao.do?method=entrada).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171660,
+      "titulo": "Validar documentos enviados por e-mail",
+      "descricao": "Informe o código e o e-mail do destinatário.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237945,
+            "nome": "Para validar no sistema, você deve informar:\n\n  * Código de validação do documento enviado pelo setor de atendimento do BC com o código de validação; e\n * E-mail do destinatário."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225221,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/rdr/consultaComunicacao.do?method=entrada).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171661,
+      "titulo": "Receber resultado da verificação",
+      "descricao": "Caso o documento seja autêntico, será exibida uma mensagem informando que os dados inseridos correspondem a um documento enviado pelo setor de atendimento e o conteúdo do documento poderá ser conferido no link que será apresentado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225222,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/rdr/consultaComunicacao.do?method=entrada).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1699",
+      "nome": "Pedir informações ao BC"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9679",
+      "nome": "Reclamar contra bancos e outras instituições"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "37",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/verificar-autenticidade-de-documentos-enviados-pelo-atendimento-do-bc",
+  "statusDestaque": false
+}

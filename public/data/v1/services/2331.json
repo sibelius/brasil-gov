@@ -1,0 +1,359 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2331",
+  "nome": "Importar bens para pesquisa via CNPq",
+  "sigla": "",
+  "descricao": "Trata-se da prestação de serviço de importação, em que o CNPq atua como agente importador na operacionalização de importações destinadas à pesquisa científica, tecnológica e de inovação, com isenção de impostos. O serviço é ofertado a pesquisadores, instituições de pesquisa e entidades privadas sem fins lucrativos, credenciados junto ao CNPq, de acordo com a Lei 8.010/1990",
+  "flagPortalLogado": "S",
+  "contato": "Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPq\n\n  SHIS QI 01, Conj. B, Blocos A, B, C e D, Edifício Santos Dumont, Lago Sul\n\n  Brasília - DF CEP 71.605-001",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126813
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106053,
+        "tipo": "Pesquisadores, instituições de pesquisa e entidades privadas sem fins lucrativos, que estejam credenciados junto ao CNPq para importar com isenção fiscal, de acordo com a Lei 8.010/90.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/8",
+    "dbId": 8720,
+    "nomeOrgao": "Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177259
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 177260
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 177261
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Estudos e Capacitações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "importação",
+        "id": 422503
+      },
+      {
+        "item": "material científico",
+        "id": 422504
+      },
+      {
+        "item": "logística",
+        "id": 422505
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152145
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 58,
+    "negativas": 60
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética.",
+  "etapas": [
+    {
+      "id": 247669,
+      "titulo": "Solicitar a importação",
+      "descricao": "O interessado deverá preencher um formulário eletrônico e enviar a documentação necessária.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323261,
+            "nome": "**Proforma Invoice**\n\n É um documento fundamental para que o CNPq possa deferir o pedido ou fazer exigências para ajuste da documentação apresentada. Trata-se do orçamento oficial emitido pelo exportador ou por seu representante oficial no Brasil.** **\n\n A Proforma deverá ser emitida em nome do CNPq - End: SAUS Qd 01 Lt 06, Bl H, 13º andar Ed.Telemundi II Asa Sul Brasília DF CEP: 70.070-010  \n\n\n Consulte [aqui](http://www.cnpq.br/web/tip/obter-a-proforma) as orientações para emissão da Proforma."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320169,
+            "tipo": "web",
+            "descricao": "AcesseÂ [aqui.](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2331)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247670,
+      "titulo": "Escolher a forma de pagamento",
+      "descricao": "De acordo com orientação do CNPq, o solicitante poderá escolher a forma de pagamento: contrato de câmbio ou cartão pesquisador (ou cartão de crédito internacional).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320170,
+            "tipo": "web",
+            "descricao": "AcesseÂ [aqui.](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2331)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247671,
+      "titulo": "Enviar comprovante de pagamento do bem",
+      "descricao": "De acordo com a forma de pagamento definida, o solicitante deverá enviar comprovante de pagamento da Guia de Recolhimento da União (GRU) ou comprovante de pagamento via cartão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320171,
+            "tipo": "web",
+            "descricao": "AcesseÂ [aqui.](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2331)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247672,
+      "titulo": "Enviar comprovante de pagamento das despesas acessórias",
+      "descricao": "De acordo com a logística definida, o CNPq disponibilizará GRU para pagamento das despesas acessórias (frete internacional, armazenagem, seguro, DARF/SISCOMEX, frete doméstico).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320172,
+            "tipo": "web",
+            "descricao": "AcesseÂ [aqui.](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2331)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247673,
+      "titulo": "Confirmar o recebimento do bem",
+      "descricao": "O CNPq nacionaliza e retira a carga junto à Alfândega Brasileira e, em seguida, despacha o bem para o solicitante da importação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320173,
+            "tipo": "web",
+            "descricao": "AcesseÂ [aqui.](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2331)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247674,
+      "titulo": "Receber prestação de contas",
+      "descricao": "Após confirmação de recebimento do bem importado pelo solicitante, o CNPq emite e envia prestação de contas, com todos os comprovantes das despesas com a importação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320174,
+            "tipo": "web",
+            "descricao": "AcesseÂ [aqui.](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2331)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "49",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/importar-bens-cuja-finalidade-seja-pesquisa-cientifica",
+  "statusDestaque": false
+}

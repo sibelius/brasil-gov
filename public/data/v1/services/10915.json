@@ -1,0 +1,219 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10915",
+  "nome": "Obter entrevista ou informações para matéria jornalística",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário pode solicitar informações e/ou entrevistas com porta-vozes da ANS para fins de divulgação jornalística ou de comunicação.\n\n Este serviço não deve ser utilizado para registrar demandas relacionadas a operadoras de planos de saúde. Caso queira registrar uma reclamação sobre um plano de saúde, acesse o serviço [Reclamar sobre plano de saúde (NIP)](https://www.gov.br/pt-br/servicos/receber-reclamacoes-sobre-possiveis-praticas-irregulares-de-operadoras-de-planos-privados-de-assistencia-a-saude-inclusive-administradoras-de-beneficios \"Reclamar sobre plano de saúde\").",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de indisponibilidade de e-mail, o usuário pode ligar para os telefones (21) 99889-3701 / 96911-0792",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Assessoria de Imprensa",
+        "id": 90077
+      },
+      {
+        "item": "Relações com Imprensa",
+        "id": 90078
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 77069,
+        "tipo": "Profissionais ou estudantes de Comunicação.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 125117
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 125118
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 125119
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Imprensa",
+        "id": 303775
+      },
+      {
+        "item": "Jornalismo",
+        "id": 303776
+      },
+      {
+        "item": "Comunicação",
+        "id": 303777
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 103830
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Não há.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 174783,
+      "titulo": "Fazer a solicitação",
+      "descricao": "O usuário deve enviar um e-mail para imprensa@ans.gov.br, informando sua demanda de informações e/ou entrevista, o foco da matéria, os dados desejados da ANS e o prazo final para recebimento. Assim, o assessor de imprensa responsável poderá realizar o atendimento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 241091,
+            "nome": "Não há documentação necessária, mas é desejável que o usuário envie o máximo de informações sobre o tema da demanda. Por exemplo, se for sobre alguma pesquisa ou decisão judicial, enviar os documentos/materiais pertinentes agiliza o atendimento da demanda."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 229501,
+            "tipo": "e-mail",
+            "descricao": "imprensa@ans.gov.br - prioritário",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 229502,
+            "tipo": "telefone",
+            "descricao": "(21) 99889-3701 / (21) 96911-0792",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 174784,
+      "titulo": "Receber retorno da ANS",
+      "descricao": "A assessoria de imprensa envia por e-mail os dados e as informações necessárias para a matéria jornalística do demandante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 229503,
+            "tipo": "e-mail",
+            "descricao": "A resposta será enviada por escrito ao e-mail do solicitante, por meio do endereço imprensa@ans.gov.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "41",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-informacoes-a-assessoria-de-imprensa-da-ans",
+  "statusDestaque": false
+}

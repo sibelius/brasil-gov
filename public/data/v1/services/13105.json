@@ -1,0 +1,195 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13105",
+  "nome": "Enviar relatório de comercialização de medicamentos",
+  "sigla": "",
+  "descricao": "É o envio eletrônico para a SCMED das informações de comercialização de medicamentos. O envio deve ser feito pelas empresas detentoras do registro a cada seis meses.\n\n O envio do Relatório de Comercialização é obrigatório, mesmo que a empresa não pretenda ajustar os preços dos seus medicamentos.\n\n Para saber mais, acesse a [página da SCMED (Secretaria Executiva da CMED).](https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed)",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 96077
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81607,
+        "tipo": "Empresas com medicamentos registrados.",
+        "requisitos": "Login e senha no sistema Sammed."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 133200
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "SCMED ",
+        "id": 323741
+      },
+      {
+        "item": "regulação de preços de medicamentos",
+        "id": 323742
+      },
+      {
+        "item": "Sistema SAMMED",
+        "id": 323743
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 10.742, de 6 de outubro de 2003](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/fraWeb?OpenFrameSet&Frame=frmWeb2&Src=/legisla/legislacao.nsf/Viw_Identificacao/lei%2010.742-2003?OpenDocument&AutoFramed)",
+        "id": 111195
+      },
+      {
+        "item": "[Decreto nº 4.766, de 26 de junho de 2003](http://www2.camara.leg.br/legin/fed/decret/2003/decreto-4766-26-junho-2003-497170-norma-pe.html)",
+        "id": 111196
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 185306,
+      "titulo": "Enviar relatório",
+      "descricao": "Acesse o sistema Sammed com o login e senha do gestor de segurança. Selecione a opção “Relatório de comercialização”. Anexe o arquivo ou preencha os campos obrigatórios da tabela apresentada com as informações pertinentes e envie o relatório.\n\n Instruções detalhadas desse procedimento estão disponíveis no Manual do Sammed: \n\n <https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/informes/arquivos/manual-do-sistema-sammed-web-versao>",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 243227,
+            "tipo": "web",
+            "descricao": "[http://sammed-web.anvisa.gov.br](http://sammed-web.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 185307,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no Sammed, acesse “Relatório de comercialização” e clique em “Histórico de envio” para visualizar todas as informações referentes aos envios anteriores dos relatórios de comercialização da empresa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 243228,
+            "tipo": "web",
+            "descricao": "[http://sammed-web.anvisa.gov.br](http://sammed-web.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/enviar-relatorio-de-comercializacao-de-medicamentos",
+  "statusDestaque": false
+}

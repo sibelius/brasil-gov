@@ -1,0 +1,274 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10207",
+  "nome": "Solicitar Registro Sindical",
+  "sigla": "SC",
+  "descricao": "Procedimento por meio do qual uma entidade sindical requer seu registro junto ao Cadastro Nacional de Entidades Sindicais - CNES (Sindicatos, Federações e Confederações).",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: [atendimento.cgrs@trabalho.gov.br](mailto:atendimento.cgrs@mte.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cnes.trabalho.gov.br/app/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 97848
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 82870,
+        "tipo": "Entidades sindicais (Sindicatos, Federações e Confederações).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "horas"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 135682
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para outras entidades"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Solicitação de Registro Sindical",
+        "id": 328830
+      },
+      {
+        "item": "Solicitação de Registro",
+        "id": 328831
+      },
+      {
+        "item": "Pedido de Registro Sindical",
+        "id": 328832
+      },
+      {
+        "item": "Pedido de Registro",
+        "id": 328833
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Constituição Federal de 1988 ](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)\n\n [Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943](https://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm)\n\n [PORTARIA MTE Nº 3.472, DE 4 DE OUTUBRO DE 2023](http://www.gov.br/trabalho-e-emprego/pt-br/pdfs/2023-portaria-3472.pdf)",
+        "id": 114062
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 131,
+    "negativas": 280
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Serviço oferecido de forma não presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 189125,
+      "titulo": "Solicitar o Registro Sindical",
+      "descricao": "A entidade deve acessar o Sistema CNES - Cadastro Nacional de Entidades Sindicais e escolher a opção “Solicitar Registro Sindical (SC)”. Após, deve selecionar o grau da entidade a qual se deseja fazer a solicitação (Sindicato, Federação ou Confederação), informar o CNPJ, preencher todas as informações necessárias e finalizar o procedimento clicando no botão TRANSMITIR",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247871,
+            "tipo": "web",
+            "descricao": "Acesse oÂ [Cadastro Nacional de Entidades Sindicais - CNES](https://cnes.trabalho.gov.br/app/)[  \n](https://cnes.trabalho.gov.br/app/ \"Cadastro Nacional de Entidades Sindicais - CNES\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 189126,
+      "titulo": "Protocolar documentos",
+      "descricao": "A entidade sindical após a transmissão eletrônica da solicitação no CNES deverá encaminhar, no prazo de 30 (trinta) dias, à Coordenação-Geral de Registro Sindical, além do requerimento eletrônico gerado pelo CNES, os documentos listados na Portaria MTE nº 3.472, de 2023, por meio do sistema SEI/MTE, sob pena de invalidação.\n\n [ ](https://cnes.trabalho.gov.br/app/)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 259845,
+            "nome": "**a)      ****Entidade Sindical de Primeiro Grau (Sindicato)****: [Art. 3º da Portaria 3.472/2023.](http://www.gov.br/trabalho-e-emprego/pt-br/pdfs/2023-portaria-3472.pdf)**"
+          },
+          {
+            "id": 259846,
+            "nome": "I - edital de convocação dos membros da categoria para assembleia geral de fundação ou ratificação de fundação do sindicato, publicado no Diário Oficial da União - DOU e em jornal, impresso ou digital, de circulação na base territorial pretendida, do qual conste:\n\n a) nome completo do subscritor;\n\n b) descrição de toda a categoria e base territorial pretendida, com a indicação nominal de todos os municípios e estados pretendidos; e\n\n c) data, horário e local da realização da assembleia;"
+          },
+          {
+            "id": 259847,
+            "nome": "II - ata da assembleia geral de fundação ou de ratificação de fundação do sindicato, na qual deverá constar expressamente a aprovação da fundação ou da ratificação de fundação, a descrição da categoria profissional ou econômica e da base territorial aprovadas, acompanhada de lista de presença contendo a finalidade da assembleia, a data, o horário e o local da realização e, ainda, o nome completo, o número de inscrição no Cadastro de Pessoas Físicas - CPF, a razão social e o"
+          },
+          {
+            "id": 259848,
+            "nome": "número de inscrição no Cadastro Nacional da Pessoa Jurídica - CNPJ da empresa, se entidade patronal, e as assinaturas dos participantes; (Redação dada pela Portaria MTE nº 1.342, de 8 de agosto de 2024)\n\n III - ata de eleição e apuração de votos da diretoria, com a indicação da forma de eleição, número de sindicalizados, número de aptos a votar, número de votantes, chapas concorrentes com a respectiva votação, número de votos brancos e nulos,"
+          },
+          {
+            "id": 259849,
+            "nome": "e resultado do processo eleitoral; (Redação dada pela Portaria MTE nº 1.342, de 8 de agosto de 2024)\n\n IV - ata de posse da diretoria, com a indicação da data de início e de término do mandato, na qual contenha sobre os dirigentes eleitos:\n\n a) nome completo;\n\n b) número de inscrição no CPF; e\n\n c) função dos dirigentes do sindicato requerente;"
+          },
+          {
+            "id": 259850,
+            "nome": "V - estatuto social aprovado em assembleia geral, que contenha objetivamente a categoria e a base territorial aprovadas, não sendo aceitos termos genéricos, como “afins”, “conexos” e “similares”; e"
+          },
+          {
+            "id": 259851,
+            "nome": "VI - declaração de pertencimento à categoria, assinada pelo subscritor do edital e por cada um dos dirigentes eleitos do sindicato, na qual conste expressamente que integram a categoria e que contenha, sobre estes, o nome completo e o número de inscrição no CPF. (Redação dada pela Portaria MTE nº 1.342, de 8 de agosto de 2024)"
+          },
+          {
+            "id": 259852,
+            "nome": "**Atenção**: Necessário observar as disposições previstas nos parágrafos seguintes do citado artigo."
+          },
+          {
+            "id": 259853,
+            "nome": "b)  **Entidade Sindical de Grau Superior (Federação/Confederação)****: **[Art. 8º da Portaria 3.472/2023.](http://www.gov.br/trabalho-e-emprego/pt-br/pdfs/2023-portaria-3472.pdf)****"
+          },
+          {
+            "id": 259854,
+            "nome": "I - edital de convocação dos representantes legais das entidades fundadoras para assembleia geral de fundação ou de ratificação de fundação da entidade de grau superior, publicado no DOU com antecedência mínima de 30 (trinta) dias da data da assembleia, do qual conste: (Redação dada pela Portaria MTE nº 1.342, de 8 de agosto de 2024)\n\n a) nome completo do subscritor ou subscritores;\n\n b) número de inscrição no CNPJ das entidades fundadoras;\n\n ** **"
+          },
+          {
+            "id": 259855,
+            "nome": "c) denominação das entidades fundadoras; e\n\n d) data, horário e local da realização da assembleia;"
+          },
+          {
+            "id": 259856,
+            "nome": "II - ata da assembleia geral, na qual contenha expressamente a finalidade da assembleia, a aprovação ou ratificação da fundação, a descrição da categoria e a base territorial aprovadas, data, horário e local da realização, indicação das entidades fundadoras com os respectivos números de inscrição no CNPJ, o nome completo, o número de inscrição no CPF e as assinaturas dos participantes; (Redação dada pela Portaria MTE nº 1.342, de 8 de agosto de 2024)"
+          },
+          {
+            "id": 259857,
+            "nome": "III - ata de eleição e apuração de votos da diretoria, com a indicação da forma de eleição, número de aptos a votar, número de votantes, chapas concorrentes com a respectiva votação, número de votos brancos e nulos, e resultado do processo eleitoral; (Redação dada pela Portaria MTE nº 1.342, de 8 de agosto de 2024)"
+          },
+          {
+            "id": 259858,
+            "nome": "IV - ata de posse da diretoria, com a indicação da data de início e de término do mandato, na qual contenha sobre os dirigentes eleitos:\n\n a) nome completo;\n\n b) número de inscrição no CPF; e\n\n c) função dos dirigentes da entidade requerente;"
+          },
+          {
+            "id": 259859,
+            "nome": "V - estatuto social aprovado em assembleia geral, que contenha obrigatoriamente a categoria e a base territorial aprovadas, não sendo aceitos termos genéricos, como “afins”, “conexos” e “similares”; e"
+          },
+          {
+            "id": 259860,
+            "nome": "VI - declaração de pertencimento à categoria, assinada pelo subscritor do edital e por cada um dos dirigentes eleitos da entidade sindical, na qual conste expressamente que integram a categoria e que contenha, sobre estes, o nome completo e o número de inscrição no CPF. (Redação dada pela Portaria MTE nº 1.342, de 8 de agosto de 2024)"
+          },
+          {
+            "id": 259861,
+            "nome": "**Atenção**: Necessário observar as disposições previstas nos parágrafos seguintes do citado artigo."
+          },
+          {
+            "id": 259862,
+            "nome": "."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247872,
+            "tipo": "web",
+            "descricao": "[Protocolar no Sistema Eletrônico de Informações - SEI/MTE](http://processoeletronico.trabalho.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=3)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "32",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-registro-sindical",
+  "statusDestaque": false
+}

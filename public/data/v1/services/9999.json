@@ -1,0 +1,151 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9999",
+  "nome": "Consultar notificações à Organização Mundial do Comércio.",
+  "sigla": "",
+  "descricao": "Trata-se de serviço *online* que permite ao exportador consultar quaisquer regulamentos técnicos e procedimentos de avaliação da conformidade, publicados por países membros da Organização Mundial do Comércio (OMC), incluindo o Brasil.\n\n A busca é feita através do banco de dados do Sistema Alerta Exportador do Inmetro, com a utilização de filtros para países e produtos de interesse. O resultado obtido contempla tanto um resumo do conteúdo em língua portuguesa quanto um link para acesso ao documento original.",
+  "flagPortalLogado": "N",
+  "contato": "O canal utilizado para contato direto com a equipe responsável pelo serviço é o e-mail [barreirastecnicas@inmetro.gov.br](mailto:barreirastecnicas@inmetro.gov.br).",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://alertaexportador.inmetro.gov.br/notificacoes",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 32932
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32302,
+        "tipo": "Empresas e empreendedores, importadores e exportadores, órgãos delegados do Inmetro, instituições de pesquisa e pesquisadores, especialistas etc.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240",
+    "dbId": 36793,
+    "nomeOrgao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 51682
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Exportação",
+        "id": 116097
+      },
+      {
+        "item": "Regulamentos",
+        "id": 116098
+      },
+      {
+        "item": "Barreiras técnicas",
+        "id": 116099
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33525
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 67558,
+      "titulo": "Consultar regulamentos",
+      "descricao": "Acessar o banco de dados do Sistema Alerta Exportador do Inmetro;\n\n Selecionar os filtros de busca e\n\n Consultar os regulamentos apresentados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96340,
+            "nome": "É necessário que o usuário, no momento da consulta, informe o produto a ser exportado através do seu código harmonizado (Código HS ou NCM) e o país de interesse."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86857,
+            "tipo": "web",
+            "descricao": "<https://alertaexportador.inmetro.gov.br/notificacoes>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-notificacoes-a-organizacao-mundial-do-comercio",
+  "statusDestaque": false
+}

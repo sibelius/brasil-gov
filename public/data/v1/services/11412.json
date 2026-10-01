@@ -1,0 +1,177 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11412",
+  "nome": "Solicitar Programação de acesso ferroviário ao Porto do Rio de Janeiro.",
+  "sigla": "",
+  "descricao": "Através deste serviço o usuário (operadores portuários, arrendatários e operador ferroviário) deverá programar a manobra e solicitar o acesso das composições ferroviárias ao Porto do Rio de Janeiro e aos seus terminais.",
+  "flagPortalLogado": "N",
+  "contato": "Ligue para os números (21)  97237-0763  ou (21) 2233-1478 e envie suas solicitações, dúvidas ou reclamações para o e-mail [gerate@portosrio.gov.br ](mailto:gerate@portosrio.gov.br%20).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.portosrio.gov.br/pt-br/sisfer",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 116515
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 97757,
+        "tipo": "Operador portuário, terminais arrendados e concessionária da ferrovia (MRS).",
+        "requisitos": "Ser Operador Portuário qualificado pela CDRJ, Arrendatára ou Operadora Ferroviária no Porto do Rio de Janeiro."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/180",
+    "dbId": 8275,
+    "nomeOrgao": "Companhia Docas do Rio de Janeiro (CDRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 162544
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Programação ",
+        "id": 389345
+      },
+      {
+        "item": "Ferroviária",
+        "id": 389346
+      },
+      {
+        "item": "Porto do Rio de Janeiro",
+        "id": 389347
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei dos Portos nº 12.815/2013 – link - http://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2013/lei/l12815.htm;\n\n ** **",
+        "id": 137576
+      },
+      {
+        "item": "Regulamento de Exploração dos Portos. \n\n (https://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO\\_DE\\_EXPLORACAO\\_DOS\\_PORTOS\\_0.pdf)",
+        "id": 137577
+      },
+      {
+        "item": "[IN GERATE 13.001.06](https://www.portosrio.gov.br/pt-br/node/3677) - Acesso e Permanência das Composições Ferroviárias no Porto do Rio de Janeiro – link: [https://www.portosrio.gov.br/sites/default/files/2024-01/in-gerate-13.001.06\\_ocr.pdf](https://www.portosrio.gov.br/sites/default/files/2024-01/in-gerate-13.001.06_ocr.pdf)",
+        "id": 137578
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 227692,
+      "titulo": "Solicitar programação ferroviária",
+      "descricao": "O usuário deverá acessar o endereço eletrônico e preencher os campos dos formulários eletrônicos de “Programação de Manobra” ou “Solicitação de Manobra”, conforme o perfil de acesso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 294900,
+            "tipo": "web",
+            "descricao": "[SISFER - Sistema de Controle Ferroviário | PortosRio](https://www.portosrio.gov.br/pt-br/sisfer)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 45234,
+            "descricao": "Usuários que não falam português",
+            "canalDePrestacao": [
+              {
+                "id": 294899,
+                "tipo": "e-mail",
+                "descricao": "gerate@portosrio.gov.br",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/programar-o-acesso-ferroviario-ao-porto-do-rio-de-janeiro",
+  "statusDestaque": false
+}

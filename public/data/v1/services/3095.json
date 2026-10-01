@@ -1,0 +1,506 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3095",
+  "nome": "Realizar inscrição no concurso de admissão ao Colégio Militar de Recife",
+  "sigla": "CMR",
+  "descricao": "Realizar inscrição no Processo Seletivo ao Colégio Militar de Recife do 6º Ano do Ensino Fundamental e 1º Ano do Ensino Médio do CMR.",
+  "flagPortalLogado": "N",
+  "contato": "http://www.cmr.eb.mil.br/index.php",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cmr.eb.mil.br/index.php/home/processo-seletivo",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Concurso de Admissão ao Colégio Militar do Recife",
+        "id": 128034
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107206,
+        "tipo": "Estudantes do ensino fundamental e médio.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179093
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Ensino Fundamental e Médio"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "escola militar",
+        "id": 426851
+      },
+      {
+        "item": "educação militar",
+        "id": 426852
+      },
+      {
+        "item": "recife",
+        "id": 426853
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153585
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 34,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 250340,
+      "titulo": "Inscrição no Concurso de Admissão",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325507,
+            "nome": "Carteira de identidade, com foto recente e Comprovante de inscrição no Cadastro de Pessoas Físicas (CPF); e  \nConsultar o Manual do Candidato ao Processo Seletivo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41758,
+            "descricao": "Taxa de Inscrição",
+            "moeda": "R$",
+            "valor": " 95,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323569,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cmr.eb.mil.br/index.php/home/processo-seletivo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323570,
+            "tipo": "presencial",
+            "descricao": "Av. Visc. de São Leopoldo, 198 - Cidade Universitária, Recife - PE, 50730-120",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250341,
+      "titulo": "Entregar documentação",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323571,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar do Recife** - Av. Visconde de São Leopoldo, 198, Engenho do Meio | Recife - PE | CEP 50.730-120 - Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 250342,
+      "titulo": "Fazer prova",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325508,
+            "nome": "Carteira de identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323572,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar do Recife** - Av. Visconde de São Leopoldo, 198, Engenho do Meio | Recife - PE | CEP 50.730-120 - Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 250343,
+      "titulo": "Tomar conhecimento do gabarito da prova",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323573,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.cmr.eb.mil.br/index.php)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250344,
+      "titulo": "Pedir revisão de gabarito (se couber)",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325509,
+            "nome": "Requerimento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323574,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar do Recife** - Av. Visconde de São Leopoldo, 198, Engenho do Meio | Recife - PE | CEP 50.730-120 - Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 250345,
+      "titulo": "Tomar conhecimento dos resultados dos pedidos de revisão do gabarito",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323575,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar do Recife** - Av. Visconde de São Leopoldo, 198, Engenho do Meio | Recife - PE | CEP 50.730-120 - Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 250346,
+      "titulo": "Tomar conhecimento do resultado de correção da prova",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323576,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.cmr.eb.mil.br/index.php)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250347,
+      "titulo": "Pedir revisão da correção da prova (se couber)",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325510,
+            "nome": "Requerimento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323577,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar do Recife** - Av. Visconde de São Leopoldo, 198, Engenho do Meio | Recife - PE | CEP 50.730-120 - Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 250348,
+      "titulo": "Tomar conhecimento do resultado final",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323578,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar do Recife** - Av. Visconde de São Leopoldo, 198, Engenho do Meio | Recife - PE | CEP 50.730-120 - Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323579,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.cmr.eb.mil.br/index.php)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "76",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/ingressar-no-colegio-militar-de-recife",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

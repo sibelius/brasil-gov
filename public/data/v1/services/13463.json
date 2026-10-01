@@ -1,0 +1,180 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13463",
+  "nome": "Realizar consulta especializada no PAM - Unidade de AVC do Humap-UFMS",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, pacientes regulados via Sisreg, que tiveram Acidente Vascular Cerebral (AVC), recebem atendimento em Pronto Atendimento Médico (PAM) Adulto - Unidade  de AVC.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: uue.humap-ufms@ebserh.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125214
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104785,
+        "tipo": "Pacientes regulados via Sisreg, que necessitem de Pronto Atendimento Médico na Unidade de Acidente Cerebral (AVC).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175219
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "acidente vascular cerebral",
+        "id": 417100
+      },
+      {
+        "item": "pronto atendimento",
+        "id": 417101
+      },
+      {
+        "item": "saúde",
+        "id": 417102
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150443
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244588,
+      "titulo": "Dirigir-se ao PAM - Unidade de AVC",
+      "descricao": "Comparecer ao Pronto Atendimento Médico (PAM) - Unidade de Acidente Cerebral (AVC), com os seguintes documentos: Formulário de encaminhamento, com senha CORE (autorização do atendimento); Cartão do SUS; Documento de identificação com foto; Comprovante de residência. Assim que chegar, avisar imediatamente na recepção que veio para atendimento na Unidade de AVC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320700,
+            "nome": "Formulário de encaminhamento, com senha CORE (autorização do atendimento);"
+          },
+          {
+            "id": 320701,
+            "nome": "Cartão do SUS;"
+          },
+          {
+            "id": 320702,
+            "nome": "Documento de identificação com foto;"
+          },
+          {
+            "id": 320703,
+            "nome": "Comprovante de residência."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316156,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada de emergência - PAM Adulto\n\n Horário de atendimento da Unidade de AVC: 24 horas.\n\n E-mail: uue.humap-ufms@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48719,
+            "descricao": "Em caso de dúvidas ou para maiores informações, entre em contato pelo e-mail",
+            "canalDePrestacao": [
+              {
+                "id": 316155,
+                "tipo": "e-mail",
+                "descricao": "E-mail: uue.humap-ufms@ebserh.gov.br",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-especializada-em-pronto-atendimento-medico-adulto-pam-unidade-de-acidente-vascular-cerebral-avc-do-humap-ufms",
+  "statusDestaque": false
+}

@@ -1,0 +1,159 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10294",
+  "nome": "Obter Certidão Positiva e Negativa de Naturalização",
+  "sigla": "",
+  "descricao": "O serviço de emissão de Certidão de Naturalização (positiva ou negativa) é disponibilizado pelo Ministério da Justiça e Segurança Pública (MJSP) a qualquer pessoa que tenha interesse em verificar se consta registro de naturalização em seu nome ou de terceiro(s). \n\n Por meio de consulta aos bancos de dados do MJSP, é possível obter uma certidão positiva (que comprova que a pessoa pesquisada adquiriu a naturalização brasileira) ou uma certidão negativa (quando não há registro de naturalização em nome do indivíduo consultado).\n\n Quando o resultado da pesquisa for negativo, é possível solicitar análise complementar ao MJSP. \n\n  \n\n É possível inserir até **5 variações de nome** na solicitação de certidão de naturalização,caso haja coincidência de dados, será emitida **uma certidão positiva**.\n\n Se não houver coincidência, será emitida **uma certidão negativa para cada variação de nome informada**, exemplo: se informou 3 variações de nome, serão emitidas **3 certidões negativas**.\n\n   \n** Para garantir o acesso correto, pedimos que siga as orientações abaixo:\n\n 1️⃣ Atualize a página https://datanaturalizacao.mj.gov.br/ (pressione **F5**) ou realize o **logoff** do sistema;  \n2️⃣ Faça novamente o **login** com suas credenciais;  \n3️⃣ Durante o acesso, **é** **obrigatória a aceitação dos Termos de Uso e Política de Privacidade** para continuar utilizando o sistema.  Esses passos são necessários para garantir o funcionamento adequado e a segurança da sua conta.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvida(s), direcioná-la(s) ao e-mail da Divisão de Naturalização, Nacionalidade e Apatridia do MJSP: dinat@mj.gov.br .\n\n **Não** realizamos emissão de certidão por e-mail.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://datanaturalizacao.mj.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certidão de Naturalização Positiva, Certidão de Naturalização Negativa, e-Certidão",
+        "id": 118820
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 99373,
+        "tipo": "Qualquer pessoa que tenha interesse em solicitar uma certidão de naturalização (positiva ou negativa) em seu nome ou de terceiro(s).\n\n A Certidão de Naturalização é destinado a estrangeiros que adquiriram a nacionalidade brasileira.\n\n Assim, o Brasil foi excluído do campo “País de nascimento”.\n\n Brasileiros natos que readquiriram a nacionalidade brasileira, por meio de Reaquisição da nacionalidade brasileira ou Revogação da Perda da nacionalidade, **não** é emitida a Certidão de Naturalização.",
+        "requisitos": "Para acessar o sistema **Data Naturalização**, é obrigatório ter cadastro no portal **Gov.br **.\n\n Depois, é necessário acessar o *link*: https://datanaturalizacao.mj.gov.br/login ."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "7",
+      "max": "10",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 7,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A certidão é válida por 90 (noventa) dias e poderá ser utilizada como instrumento legal, para todos os fins de direito, nos termos do art. 17, da Portaria n.º 623, de 13 de novembro de 2020, do Ministério da Justiça e Segurança Pública (MJSP)."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 165736
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Nacionalidade"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "naturalização",
+        "id": 396485
+      },
+      {
+        "item": "cpn",
+        "id": 396486
+      },
+      {
+        "item": "e-certidão",
+        "id": 396487
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "2. Constituição Federal de 1988;\n 4. Lei nº 13.445, de 24 de maio de 2017 (Lei de Migração);\n 6. Lei nº 6.015, de 31 de dezembro de 1973 (Lei de Registros Públicos);\n 8. Decreto nº 9.199, de 20 de novembro de 2017 (regulamenta a Lei nº 13.445/2017); e\n 10. Portaria nº 623, de 13 de novembro de 2020 (procedimentos de naturalização, de igualdade de direitos, de perda da nacionalidade, de reaquisição da nacionalidade e de revogação da perda da nacionalidade brasileira).",
+        "id": 140534
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 541,
+    "negativas": 616
+  },
+  "condicoesAcessibilidade": "O serviço de emissão de certidões de naturalização (positiva e/ou negativa) é realizado de forma 100% (cem por cento) digital.",
+  "tratamentoPrioritario": "Para fins de atendimento prioritário, aplicam-se as disposições da Lei nº 10.048, de 08 de novembro de 2000; da Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa); da Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), e da Lei nº 14.626, de 19 de julho de 2023.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 232066,
+      "titulo": "Emitir Certidão de Naturalização (positiva e/ou negativa)",
+      "descricao": "Nessa etapa, o(a) requerente deverá informar todos os dados da pessoa pesquisada solicitados (nome completo; filiação/nome da mãe; naturalidade e data de nascimento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 307274,
+            "nome": "É obrigatório o(a) requerente estar cadastrado no portal **Gov.br**."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300170,
+            "tipo": "web",
+            "descricao": "Acesso ao sistema ***Data Naturalização*** por meio do *link*: [Acesse o site](https://datanaturalizacao.mj.gov.br/login) .",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "47",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-positiva-de-naturalizacao",
+  "statusDestaque": false
+}

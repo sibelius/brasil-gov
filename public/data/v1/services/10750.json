@@ -1,0 +1,201 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10750",
+  "nome": "Solicitar autorização para a oferta de cursos técnicos",
+  "sigla": "",
+  "descricao": "Solicitação de habilitação e autorização de oferta de cursos técnicos sem financiamento público. O MEC analisa as solicitações apresentadas pelas instituições e, atendidos os requisitos estabelecidos, habilita a instituição a ofertar curso técnico.",
+  "flagPortalLogado": "N",
+  "contato": "Fale conosco no portal do MEC",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sistec.mec.gov.br/login/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Oferta de cursos técnicos por IPES",
+        "id": 106112
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89340,
+        "tipo": "Instituições Privadas de Ensino Superior-IPES",
+        "requisitos": "I – Possuir Índice Geral de Cursos - IGC ou Conceito Institucional - CI, o que for mais recente, igual ou superior a 3 (três);\n\n  II – Atuar em curso de graduação em área de conhecimento correlata à do curso técnico a ser ofertado, conforme a Tabela de Mapeamento informada pela Setec/MEC;\n\n  III – Ter excelência na oferta educativa comprovada por:\n\n  a) Conceito Preliminar de Curso - CPC ou Conceito de Curso - CC, o que for mais recente, igual ou superior a 4 (quatro), no curso de graduação da área de conhecimento correlata ao curso técnico a ser ofertado;\n\n  b) inexistência de supervisão institucional; e\n\n c) inexistência de penalidade institucional, nos dois anos anteriores à oferta, nos cursos de graduação correlatos aos cursos técnicos a serem ofertados."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A autorização a ser concedida às Instituições tem a validade de 3 anos de acordo com a portaria MEC nº 1718/2019."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 148033
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 148034
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "IPES",
+        "id": 354886
+      },
+      {
+        "item": "Curso técnico",
+        "id": 354887
+      },
+      {
+        "item": "Autorização de oferta",
+        "id": 354888
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 123380
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 101,
+    "negativas": 99
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 207422,
+      "titulo": "Cadastrar o endereço de oferta e-MEC como unidade de ensino.",
+      "descricao": "A IPES deve cadastrar, no Sistec, o local de oferta ( endereço e-MEC) do curso superior correlato como unidade de ensino que ofertará curso técnico. Se a IPES deseja ofertar o curso técnico em mais de um endereço de oferta (campus ou polo), deve cadastrar cada um deles como unidade de ensino.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269572,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sistec.mec.gov.br/login/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 207423,
+      "titulo": "Solicitar habilitação e autorização de curso técnico via Sistema Nacional de Informações de Educação Profissional- Sistec",
+      "descricao": "A solicitação de habilitação e autorização é feita para cada curso técnico (individualmente) a ser ofertado e para cada unidade de ensino (que corresponde ao endereço e-MEC do curso superior correlato).\n\n Tempo de duração da etapa*: 1º de fevereiro a 1º de março e 1º a 31 de julho",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 281023,
+            "nome": "Plano de curso do curso a ser ofertado anexado em documento PDF."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269573,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sistec.mec.gov.br/login/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "51",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-autorizacao-para-a-oferta-de-cursos-tecnicos",
+  "statusDestaque": false
+}

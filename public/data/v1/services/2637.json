@@ -1,0 +1,253 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2637",
+  "nome": "Processo Seletivo de admissão ao Colégio Militar de Campo Grande",
+  "sigla": "CMCG",
+  "descricao": "Realizar inscrição no Processo Seletivo de admissão ao 6º ano do Ensino Fundamental do CMCG.",
+  "flagPortalLogado": "N",
+  "contato": "https://cmcg.eb.mil.br/",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cmcg.eb.mil.br/index.php/processo-seletivo-para-admissao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Colégio Militar",
+        "id": 127973
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107122,
+        "tipo": "**Estudantes do ensino fundamental que atendam aos requisitos previstos no edital lançado para o certame.**",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179005
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Ensino Fundamental e Médio"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Mato Grosso do Sul",
+        "id": 426631
+      },
+      {
+        "item": "escola militar",
+        "id": 426632
+      },
+      {
+        "item": "educação militar",
+        "id": 426633
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153524
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 131,
+    "negativas": 34
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 250191,
+      "titulo": "Inscrição",
+      "descricao": "A inscrição deverá ser realizada de forma online ou presencial, conforme estabelecido no Manual do Candidato ao Processo Seletivo do CMCG.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325396,
+            "nome": "Portar documento oficial de identificação com foto recente e com assinatura, dentro do prazo de validade do órgão emissor;\n\n Estar inscrito no Cadastro de Pessoa Física (CPF); e\n\n Deverá consultar o Manual do Candidato no site oficial do CMCG."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41726,
+            "descricao": "Taxa de inscrição",
+            "moeda": "R$",
+            "valor": " 95,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323360,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar de Campo Grande** - Avenida Presidente Vargas, 2800 - Santa Carmélia CEP 79115-810 - Campo Grande/MS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323361,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cmcg.eb.mil.br/index.php/processo-seletivo-para-admissao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250192,
+      "titulo": "Fazer prova escrita e, se aprovado, inspeção de saúde",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323362,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar de Campo Grande** - Avenida Presidente Vargas, 2800 - Santa Carmélia CEP 79115-810 - Campo Grande/MS",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 250193,
+      "titulo": "Agendar pré-matrícula",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323363,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.cmcg.eb.mil.br/cacmcg-2021-21)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "79",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/ingressar-no-colegio-militar-de-campo-grande",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

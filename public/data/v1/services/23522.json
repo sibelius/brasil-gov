@@ -1,0 +1,214 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23522",
+  "nome": "Acessar o Sistema de Compensação Previdenciária (Comprev)",
+  "sigla": "",
+  "descricao": "O Sistema de Compensação Previdenciária (Comprev) é a plataforma que oferece informações e serviços relacionados à compensação de benefícios entre os regimes de previdência no país.\n\n Os principais objetivos do Comprev é centralizar e padronizar os processos de compensação previdenciária, facilitar o acesso a informações detalhadas sobre contribuições e benefícios, além de promover maior transparência e segurança nas ações dos regimes de previdência. Por meio do sistema, é possível acompanhar de forma organizada o cálculo e a movimentação de valores relativos à compensação de benefícios entre diferentes RPPS.\n\n Neste serviço, o ente federativo indica o gestor de acesso que será o responsável por conceder os acessos ao sistema Comprev.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas contatar (61) 2021-5555 ou acesse os canais de prestação no Site dos [Regimes Próprios de Previdência Social](https://www.gov.br/previdencia/pt-br/assuntos/rpps).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://novogescon.previdencia.gov.br/gescon/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Sistema de Compensação Previdenciária (Comprev)",
+        "id": 107862
+      },
+      {
+        "item": "Comprev",
+        "id": 107863
+      },
+      {
+        "item": "Compensação Previdenciária",
+        "id": 107864
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90780,
+        "tipo": "Entes Federativos (RPPS/ex-RPPS/RGPS).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "3",
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 3,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Não há informações adicionais."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308819",
+    "dbId": 58140,
+    "nomeOrgao": "Ministério da Previdência Social (MPS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 150621
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 150622
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 150623
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Regimes Previdênciários"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Gescon",
+        "id": 360446
+      },
+      {
+        "item": "Compensação Previdenciária",
+        "id": 360447
+      },
+      {
+        "item": "Sistema de Compensação Previdenciária",
+        "id": 360448
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 125394
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Serviço oferecido de forma digital.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 210755,
+      "titulo": "Solicitar o acesso",
+      "descricao": "O gestor de acesso indicado pelo ente federativo deve solicitar a admissão ao Comprev enviando, pela consulta Gescon, o [Termo de Adesão](https://www.gov.br/previdencia/pt-br/assuntos/rpps/sistemas/comprev/sistema-comprev/ModelodeTermodeAdesoComprev.pdf) acompanhado dos Anexos I e II, devidamente preenchidos e assinados digitalmente.\n\n Caso o ente federativo já possua gestor de acesso e deseje incluir ou substituir gestores é necessário encaminhar um novo Anexo II atualizado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 273659,
+            "tipo": "web",
+            "descricao": "[Gescon](https://novogescon.previdencia.gov.br/gescon/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 210756,
+      "titulo": "Análise e concessão do acesso",
+      "descricao": "O analista do Ministério da Previdência Social (MPS) analisará a solicitação e verificará se a concessão da gestão é devida.\n\n Após análise, o solicitante será informado, na mesma consulta GESCON, se a solicitação foi deferida ou não. Caso aprovada, o novo gestor estará habilitado para realizar as concessões dos acessos aos usuários do ente federativo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 273660,
+            "tipo": "web",
+            "descricao": "[Gescon](https://novogescon.previdencia.gov.br/gescon/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "3",
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 3,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-o-sistema-de-compensacao-previdenciaria-comprev",
+  "statusDestaque": false
+}

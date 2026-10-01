@@ -1,0 +1,255 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23567",
+  "nome": "Cancelar o meu Cadastro Único",
+  "sigla": "",
+  "descricao": "O serviço permite que um cidadão (usuário), integrante de uma família unipessoal **(pessoa que mora sozinha)** solicite o cancelamento do seu cadastro no Cadastro Único via aplicativo.\n\n  Esse cancelamento pode ser realizado por quem:\n\n  * Se cadastrou sozinho, mas, na verdade, mora com outras pessoas da família; ou\n * Entende que não necessita mais do Cadastro Único; ou\n * Considera que foi cadastrado equivocadamente.\n   \n\n O resultado é a exclusão definitiva no Cadastro Único, sem custos para o usuário. O procedimento é simples, digital, e leva de 5 a 10 minutos.\n\n Atenção! Mesmo cadastradas sozinhas, pessoas em situação de rua, ou beneficiários do BPC, ou pessoas cadastradas por um Responsável Legal (RL) não poderão realizar seu cancelamento cadastral por meio do aplicativo ou site. Nesse caso, será preciso ir ao posto de atendimento do seu município.",
+  "flagPortalLogado": "N",
+  "contato": "Por meio da [Central de Atendimento do MDS](https://www.gov.br/mds/pt-br/canais_atendimento/disque-social-121)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cadunico.dataprev.gov.br/#/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cancelar cadastro",
+        "id": 108915
+      },
+      {
+        "item": "Excluir cadastro no Cadúnico",
+        "id": 108916
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91627,
+        "tipo": "Cidadão incluído no Cadastro Único que faça parte de família unipessoal (pessoa que mora sozinha).",
+        "requisitos": "Possuir conta ativa no Gov.br"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "minutos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308796",
+    "dbId": 58149,
+    "nomeOrgao": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome (MDS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 151963
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cancelar cadastro único;",
+        "id": 363658
+      },
+      {
+        "item": "cadúnico;",
+        "id": 363659
+      },
+      {
+        "item": "exclusão de cadastro;",
+        "id": 363660
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[**Decreto nº 11.016/2022**](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11016.htm)**;**\n\n [**Portaria nº 10/2012**](https://www.mds.gov.br/webarquivos/legislacao/bolsa_familia/portarias/2012/Portaria%20no%2010-%20de%2030%20de%20Janeiro%20de%202012.pdf).",
+        "id": 126526
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 22,
+    "negativas": 65
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 212539,
+      "titulo": "Criar ou possuir conta de acesso ao Gov.br",
+      "descricao": "Acesse o **[Guia de Dúvidas Frequentes](https://acesso.gov.br/faq/_perguntasdafaq/contaacesso.html)** da Conta Gov.br para orientações sobre a criação da conta.\n\n No **[Portal Gov.br](https://acesso.gov.br/)**, digite seu **CPF** e clique em **Continuar**.\n\n A **Conta Gov.br** é o meio de acesso único aos serviços públicos digitais, garantindo a **identificação e autenticação seguras** do cidadão com **usuário e senha únicos**.\n\n O serviço é **gratuito**.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276285,
+            "tipo": "web",
+            "descricao": "Digital [Portal Gov.br](https://acesso.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 212540,
+      "titulo": "Solicitar cancelamento do cadastro via aplicativo ou site",
+      "descricao": "Pessoas que moram sozinhas podem **cancelar o CadÚnico** pelo **[site](https://cadunico.dataprev.gov.br/) ou aplicativo do CadÚnico**, acessando com a **Conta Gov.br** e escolhendo **“Cancele o seu cadastro”**. O cancelamento é **imediato e irreversível**.\n\n Mais informações: **[Perguntas Frequentes do MDS](https://www.gov.br/mds/pt-br/acesso-a-informacao/perguntas_frequentes/exclusao-via-aplicativo-do-cadastro-unico)**.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 286280,
+            "nome": "Conta no [Portal Gov.br](https://acesso.gov.br/)\n\n Para **pessoas em situação de rua, beneficiários do BPC ou cadastrados por Responsável Legal**, o cancelamento deve ser feito **[presencialmente](https://cadunico.dataprev.gov.br/#/posto-atendimento)**. \n\n **Custos:** sem custos."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276286,
+            "tipo": "web",
+            "descricao": "[Cadastro Ãšnico](https://cadunico.dataprev.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "5",
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 5,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 212541,
+      "titulo": "Solicitar cancelamento presencialmente no posto de cadastramento, CRAS ou prefeitura",
+      "descricao": "Procure o **local do CadÚnico/ Bolsa Família** em sua cidade. No **aplicativo do CadÚnico**, acesse **“[Postos de atendimento](https://cadunico.dataprev.gov.br/#/posto-atendimento)”** e informe o estado e município.\n\n Também é possível ir ao **CRAS** mais próximo. Consulte o endereço pela **[ferramenta MOPS](https://mapa-social.mds.gov.br/)**. Em muitos casos, o próprio CRAS faz o **cadastro e cancelamento**.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 286281,
+            "nome": "Não há.\n\n **Custos:** sem custos.\n\n Mais informações no **[Perguntas Frequentes do MDS](https://www.gov.br/mds/pt-br/acesso-a-informacao/perguntas_frequentes/exclusao-via-aplicativo-do-cadastro-unico)**."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276287,
+            "tipo": "web",
+            "descricao": "Não há.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9523",
+      "nome": "Acessar o Centro de Referência da Assistência Social"
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-o-meu-cadastro-unico",
+  "statusDestaque": true
+}

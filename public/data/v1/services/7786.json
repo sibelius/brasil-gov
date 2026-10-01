@@ -1,0 +1,234 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7786",
+  "nome": "Emitir Relatório de Empréstimos e Financiamentos (SCR)",
+  "sigla": "",
+  "descricao": "O Relatório de Empréstimos e Financiamentos (SCR) mostra todas as suas dívidas com bancos e financeiras. Você pode verificar o saldo devedor e o tipo de operação de crédito, se a dívida está em dia ou em atraso, e outras informações.\n\n O relatório serve para você:\n\n  * avaliar se está muito endividado e se deve ou não contratar mais uma operação de crédito;\n * conferir se existe dívida que não contratou;\n * conhecer melhor suas dívidas, para tentar renegociar ou transferir para outro banco.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco.](http://www.bcb.gov.br/acessoinformacao/faleconosco)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meubc.bcb.gov.br/meubc/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Sistema de Informações de Crédito",
+        "id": 112751
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94675,
+        "tipo": "Qualquer pessoa física ou jurídica",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 157302
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 157303
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "SCR",
+        "id": 376452
+      },
+      {
+        "item": "Dívidas e empréstimos",
+        "id": 376453
+      },
+      {
+        "item": "Certidão",
+        "id": 376454
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Circular 3.728, de 2014](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Circular&numero=3728)\n\n [Carta-Circular 3.680, de 2014](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Carta%20Circular&numero=3680)",
+        "id": 132023
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1699,
+    "negativas": 1224
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 219852,
+      "titulo": "Acessar o Registrato ou solicitar o relatório por outros canais",
+      "descricao": "** **",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 293633,
+            "nome": "Acesso para pessoas físicas: nível prata ou ouro pela Conta govbr, com a verificação em duas etapas habilitada.\n\n Acesso para empresas: certificado digital vinculado à Conta govbr, nível prata ou ouro, com a verificação em duas etapas habilitada."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285339,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC](http://meubc.bcb.gov.br/meubc/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 285340,
+            "tipo": "web",
+            "descricao": "Acesso pelo [Pedido de Informação](https://www.bcb.gov.br/meubc/solicitar_informacao).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 285341,
+            "tipo": "postal",
+            "descricao": "Siga as orientações aqui: [documentação para pessoa física ou jurídica.](https://www.bcb.gov.br/meubc/docs)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 219853,
+      "titulo": "Receber o relatório",
+      "descricao": "Receba o relatório no próprio sistema após acesso com Conta govbr.\n\n Se a solicitação foi feita por correspondência ou pelo Pedido de Informação, o relatório será enviado no endereço ou no e-mail que você informou na solicitação. O relatório é sigiloso e só pode ser solicitado por você ou por alguém autorizado por você.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285342,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC](http://meubc.bcb.gov.br/meubc/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7791",
+      "nome": "Emitir Relatório de Câmbio e Transferências Internacionais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7777",
+      "nome": "Emitir certidão negativa de Contas e Relacionamentos"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7790",
+      "nome": "Emitir Relatório de Contas e Relacionamentos em Bancos"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10713",
+      "nome": "Emitir Relatórios de Chaves Pix"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "58",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "S",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-relatorio-do-sistema-de-informacoes-de-credito-scr",
+  "statusDestaque": true
+}

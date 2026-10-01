@@ -1,0 +1,218 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13183",
+  "nome": "Obter a restituição de pagamento indevido ou a maior do Adicional ao Frete para a Renovação da Marinha Mercante",
+  "sigla": "AFRMM",
+  "descricao": "Solicite a restituição de um pagamento indevido ou a maior relativo ao adicional ao frete para renovação da marinha mercante (AFRMM).\n\n Relate o que ocasionou o pagamento indevido ou a maior.\n\n O pedido de restituição deverá ser formalizado pelo estabelecimento matriz.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)\n\n [Manual do sistema mercante](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/mercante)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/51",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127326
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106533,
+        "tipo": "Consignatário da carga (importador) ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178064
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "AFRMM",
+        "id": 424509
+      },
+      {
+        "item": "Restituição",
+        "id": 424510
+      },
+      {
+        "item": "Mercante",
+        "id": 424511
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002)",
+        "id": 152687
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 34
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248781,
+      "titulo": "Solicitar restituição",
+      "descricao": "A solicitação deve ser feita via processo digital.\n\n Para abrir o processo, acesse o canal abaixo e clique em \"Solicitar serviço via processo digital\". Escolha a área \"AFRMM\" e, em seguida, o serviço Restituição de Pagamento Indevido ou a Maior ou Restituição de Pagamento - Navegação.\n\n A seguir, junte (inclua) os documentos necessários, em arquivos separados e classificados por tipo\n\n Abra apenas um processo para o pedido. Documentos sem relação com o serviço ou com requerentes serão rejeitados",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324006,
+            "nome": "[Formulário de Solicitação - AFRMM;](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/formularios/comercio-exterior/afrmm-adicional-ao-frete-para-a-renovacao-da-marinha-mercante/formulario-de-solicitacao-pdf/view)"
+          },
+          {
+            "id": 324007,
+            "nome": "Conhecimento de Embarque ou Conhecimento de Transporte Aquaviário de Cargas – CTAC;"
+          },
+          {
+            "id": 324008,
+            "nome": "Carta de Correção, se houver;"
+          },
+          {
+            "id": 324009,
+            "nome": "Extrato da Declaração de Importação;"
+          },
+          {
+            "id": 324010,
+            "nome": "Nota Fiscal da mercadoria, quando não se tratar de operação de comércio exterior."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321482,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 248782,
+      "titulo": "Acompanhar o resultado do processo",
+      "descricao": "O resultado da análise do requerimento será informado no processo por meio de despacho e você será avisado em [Minhas Mensagens (Caixa Postal)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/6).\n\n Para consultar o despacho, acesse o canal abaixo, clique na opção \"Processos em que sou o interessado principal\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321483,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 321484,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-a-restituicao-de-pagamento-indevido-ou-a-maior-do-adicional-ao-frete-para-a-renovacao-da-marinha-mercante",
+  "statusDestaque": false
+}

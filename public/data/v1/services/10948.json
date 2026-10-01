@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10948",
+  "nome": "Obter cópia do número do recibo de entrega da Declaração de Imposto de Renda",
+  "sigla": "DIRPF",
+  "descricao": "Consulte e tire uma cópia do número do recibo de entrega de Declaração de Imposto de Renda.\n\n **Declaração enviada pelo programa para computadores (PGD)**\n\n O número do recibo de entrega da declaração fica gravado após o envio à Receita Federal no computador usado para enviar a declaração. Você pode imprimir a qualquer momento a partir do mesmo dispositivo. Para isso, abra o programa e escolha a opção *Declaração* > *Imprimir > Recibo*.\n\n **Declaração enviada por qualquer plataforma**\n\n Você pode obter a cópia do número do recibo pelo **Meu Imposto de Renda**. Basta acessá-lo pelo Portal de Serviços ou pelo APP Receita Federal com a conta gov.br.",
+  "flagPortalLogado": "N",
+  "contato": "[ Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://mir.receita.fazenda.gov.br/portalmir",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124351
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104135,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 174064
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 174065
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 174066
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imposto de Renda e Malha Fiscal"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Declarações",
+        "id": 414316
+      },
+      {
+        "item": "Recibo",
+        "id": 414317
+      },
+      {
+        "item": "Imposto de Renda",
+        "id": 414318
+      },
+      {
+        "item": "",
+        "id": 414319
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria RFB nº 1.087/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=93479&visao=anotado)",
+        "id": 149632
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3479,
+    "negativas": 11859
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 242762,
+      "titulo": "Obter cópia do número de recibo",
+      "descricao": "1. Acesse o canal abaixo.\n\n 2. Vá em Serviços do IRPF -> Ver Todos.\n\n 3. Depois em **Documentos e Arquivos (Cópia da Declaração)**.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 319328,
+            "nome": "Documento de identificação oficial do contribuinte;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313452,
+            "tipo": "web",
+            "descricao": "[Meu Imposto de RendaÂ ](https://mir.receita.fazenda.gov.br/portalmir)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 313453,
+            "tipo": "aplicativo-movel",
+            "descricao": "[APP Receita Federal](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/app/rfb)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "23",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-copia-do-numero-do-recibo-de-entrega-da-declaracao-de-imposto-de-renda",
+  "statusDestaque": false
+}

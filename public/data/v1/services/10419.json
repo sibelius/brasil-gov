@@ -1,0 +1,312 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10419",
+  "nome": "Consultar processos na Receita Federal",
+  "sigla": "",
+  "descricao": "Consulte o andamento de processos digitais na Receita Federal do Brasil (RFB), no Conselho Administrativo de Recursos Fiscais (CARF) e na Procuradoria-Geral da Fazenda Nacional (PGFN).\n\n Você pode consultar os processos nos quais é parte interessada ou os processos das pessoas que você representa legalmente.\n\n Se o processo estiver ainda em papel, e não possuir versão digital, você pode obter uma cópia (2ª etapa), no local onde ele se encontra. Para pesquisar o local, utilize o sistema Comprot, disponível nos canais abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre processos digitais](https://www.gov.br/../../receitafederal/pt-br/assuntos/processos-digitais \"e-Processo\")\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 50,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/51",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "e-Processo",
+        "id": 126810
+      },
+      {
+        "item": "Vistas de processo",
+        "id": 126811
+      },
+      {
+        "item": "Obter cópia de processo",
+        "id": 126812
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106052,
+        "tipo": "Interessado no processo ou seu representante legal.",
+        "requisitos": "Para utilizar o aplicativo no celular ou tablet, você deve [habilitar o seu dispositivo.](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177255
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 177256
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 177257
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 177258
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Processos",
+        "id": 422500
+      },
+      {
+        "item": "Processos digitais",
+        "id": 422501
+      },
+      {
+        "item": "e-Processo",
+        "id": 422502
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Decreto nº 8.539/2015](https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2015-10-08;8539)",
+        "id": 152142
+      },
+      {
+        "item": "[Portaria RFB nº 1.087/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=93479)",
+        "id": 152143
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.022/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116969)",
+        "id": 152144
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1532,
+    "negativas": 5304
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 247667,
+      "titulo": "Consultar processos",
+      "descricao": "Consulte processos digitais e demais informações referentes a eles.\n\n Alguns processos são imediatamente arquivados após serem analisados. Para consultar **processos arquivados**, clique na aba** Inativos**, disponível na sua lista de processos.\n\n O sistema Comunicação e Protocolo (Comprot) informa somente a situação do processo, a localização física de processos, se for em papel, ou o setor responsável pelo processos, se for eletrônicos (que não possui documentos relacionados).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320164,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 320165,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://apps.apple.com/br/app/eprocesso/id1358752141 \"e-Processo\") (App Store)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 320166,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso \"e-Processo\") (Google Play)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 320167,
+            "tipo": "web-consultar",
+            "descricao": "[Comunicação e Protocolo ](https://comprot.fazenda.gov.br/comprotegov/site/index.html#ajax/processo-consulta.html)(COMPROT)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247668,
+      "titulo": "Obter cópia de processo",
+      "descricao": "**Caso o processo não esteja disponível em Serviços da Receita**, você pode solicitar uma cópia do processo em uma unidade de atendimento presencial. Se o processo estiver em papel, a cópia será fornecida somente na unidade de atendimento onde se encontra o processo.\n\n Não serão fornecidas cópias de processos digitais disponíveis em Serviços da Receita para as pessoas jurídicas tributadas com base no lucro real, presumido ou arbitrado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323257,
+            "nome": "[Formulário de solicitação de cópia de documentos](https://www.gov.br/../../receitafederal/pt-br/centrais-de-conteudo/formularios/declaracoes/pedido-de-copia);"
+          },
+          {
+            "id": 323258,
+            "nome": "Documento de identificação oficial do contribuinte;"
+          },
+          {
+            "id": 323259,
+            "nome": "Documento de identificação oficial do representante legal, se for o caso;"
+          },
+          {
+            "id": 323260,
+            "nome": "Documento que comprove a condição de representante legal: ato constitutivo; certidão de óbito e de documento que comprove a legitimidade do solicitante."
+          }
+        ],
+        "casos": [
+          {
+            "id": 49029,
+            "descricao": "Observações",
+            "documento": [
+              {
+                "id": 323254,
+                "codigo": null,
+                "descricao": "Para os demais, os documentos entregues em papel devem ser vias **originais** ou **cópias autenticadas**.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323255,
+                "codigo": null,
+                "descricao": "A assinatura com conta gov.br dispensa a juntada de documentos de identificação, assim como o uso de procuração digital dispensa a apresentação de outra forma de procuração.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 323256,
+                "codigo": null,
+                "descricao": "Para obter a cópia digital do processo, o interessado deve fornecer a mídia de gravação (pendrive).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320168,
+            "tipo": "presencial",
+            "descricao": "[Unidades de atendimento da Receita Federal](https://www.gov.br/../../receitafederal/pt-br/canais_atendimento/atendimento-presencial \"Atendimento Presencial\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "0",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 0,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10422",
+      "nome": "Juntar documentos a processo na Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10443",
+      "nome": "Validar e assinar documentos digitais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10425",
+      "nome": "Restringir acesso de pessoa autorizada (procurador) a processos digitais"
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-processo",
+  "statusDestaque": false
+}

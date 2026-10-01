@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2640",
+  "nome": "Realizar inscrição no concurso de admissão ao Colégio Militar do Rio de Janeiro",
+  "sigla": "CMRJ",
+  "descricao": "Realizar inscrição no Processo Seletivo ao Colégio Militar do 6º Ano do Ensino Fundamental e 1º Ano do Ensino Médio do CMRJ.",
+  "flagPortalLogado": "N",
+  "contato": "http://www.cmrj.eb.mil.br/index.php",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.cmrj.eb.mil.br/processo-seletivo/admissao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128014
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107178,
+        "tipo": "Estudantes do ensino fundamental e médio",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179065
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Ensino Fundamental e Médio"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Rio de Janeiro",
+        "id": 426769
+      },
+      {
+        "item": "escola militar",
+        "id": 426770
+      },
+      {
+        "item": "educação militar",
+        "id": 426771
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153565
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 205,
+    "negativas": 221
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 250278,
+      "titulo": "Inscrever-se",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325477,
+            "nome": "Carteira de identidade, com foto recente e Comprovante de inscrição no Cadastro de Pessoas Físicas (CPF); e  \nConsultar o Manual do Candidato ao Processo Seletivo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41746,
+            "descricao": "Taxa de inscrição",
+            "moeda": "R$",
+            "valor": " 95,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323495,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.cmrj.eb.mil.br/processo-seletivo/admissao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323496,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar do Rio de Janeiro** - R. São Francisco Xavier, 267 - Maracanã, Rio de Janeiro - RJ, 20550-010",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "48",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/ingressar-no-colegio-militar-do-rio-de-janeiro",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

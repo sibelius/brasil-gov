@@ -1,0 +1,545 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10363",
+  "nome": "Obter Aprovação de Aeronavegabilidade para Exportação de Produtos Aeronáuticos",
+  "sigla": "",
+  "descricao": "Para que determinado produto aeronáutico seja exportado do Brasil para outro país, faz-se necessária manifestação da ANAC, enquanto autoridade de Aviação Civil do Brasil, sobre a aeronavegabilidade do produto.\n\n Conforme estabelecido no RBAC No. 21.325(a), uma aprovação de aeronavegabilidade para exportação para aeronaves é emitida na forma de um Certificado de Aeronavegabilidade para Exportação. Tal certificado não autoriza a operação da aeronave.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88650
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75924,
+        "tipo": "Conforme estabelecido no RBAC No. 21.327, qualquer pessoa pode requerer uma aprovação de aeronavegabilidade para exportação.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "15",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 15,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 123026
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123027
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC, ",
+        "id": 298755
+      },
+      {
+        "item": "CAE, ",
+        "id": 298756
+      },
+      {
+        "item": "Exportação",
+        "id": 298757
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Suplementar (IS) nº 21-008](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-008)",
+        "id": 101784
+      },
+      {
+        "item": "[Regulamento Brasileiro de Aviação Civil (RBAC) nº 021](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 101785
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 171983,
+      "titulo": "Solicitar Emissão do Certificado de Aeronavegabilidade para Exportação",
+      "descricao": "O interessado deve submeter à ANAC o pedido, que se constitui dos documentos listados a seguir.\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 238303,
+            "nome": "[Formulário F-100-06](https://sistemas.anac.gov.br/certificacao/Form/Form.asp) devidamente preenchido, conforme determinam as instruções de preenchimento contidas no formulário. \n\n Um requerimento separado deve ser preenchido para cada aeronave;"
+          },
+          {
+            "id": 238304,
+            "nome": "Cópias digitalizadas da Taxa de Fiscalização da Aviação Civil (TFAC) pertinente à emissão de Certificado de Aeronavegabilidade para Exportação, e seu respectivo comprovante de pagamento;"
+          },
+          {
+            "id": 238305,
+            "nome": "Declaração por escrito do país com a informação de que aceitará a aprovação de aeronavegabilidade para exportação"
+          }
+        ],
+        "casos": [
+          {
+            "id": 37985,
+            "descricao": "Casos em que a declaração deve incluir também a aceitação ou não dos CST/STC instalados",
+            "documento": [
+              {
+                "id": 238301,
+                "codigo": null,
+                "descricao": "I - aeronave fabricada no Brasil;  \n II - aeronave não fabricada no Brasil a ser exportada para país sem acordo mútuo com o Brasil sobre validação de certificados de exportação;  \n III - aeronave desmontada que não tenha realizado ensaios em voo de produção;  \n IV - não satisfizer aos requisitos ou exigências especiais do país importador; ou   \n V - não atender aos requisitos especificados nas seções 21.329 e 21.331, como aplicável. A declaração deve conter a lista de requisitos não atendidos.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37986,
+            "descricao": "Caso seja uma aeronave nova e não tenha sido fabricada segundo um certificado de organização de produção",
+            "documento": [
+              {
+                "id": 238302,
+                "codigo": null,
+                "descricao": "Declaração de conformidade em formulário apropriado ([F-300-18](https://sistemas.anac.gov.br/certificacao/Form/Form.asp)).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28556,
+            "descricao": "Custo varia entre R$ 1500,00 e",
+            "moeda": "R$",
+            "valor": " 3.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 37987,
+            "descricao": "Hipóteses em que se deve pagar Taxa de Fiscalização de Aviação Civil (TFAC)",
+            "custo": [
+              {
+                "id": 28552,
+                "descricao": "Caso de Aeronaves de Asa Fixa Certificadas sob RBAC 23 (categoria normal) - TFAC Cód. 012203",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              },
+              {
+                "id": 28553,
+                "descricao": "Caso de Aeronaves de Asas Rotativas Certificadas sob RBAC 27 (asas rotativas categoria normal) - TFAC Cód. 012204",
+                "moeda": "R$",
+                "valor": " 1.500,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              },
+              {
+                "id": 28554,
+                "descricao": "Caso de Aeronaves de Asas Rotativas Certificadas sob RBAC 29 (aeronaves de asas rotativas categoria transporte) - TFAC Cód. 012205",
+                "moeda": "R$",
+                "valor": " 2.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              },
+              {
+                "id": 28555,
+                "descricao": "Caso de Aeronaves de Asa Fixa Certificadas sob RBAC 25 (aviões categoria transporte) - TFAC Cód. 012206",
+                "moeda": "R$",
+                "valor": " 3.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225629,
+            "tipo": "web",
+            "descricao": "No [protocolo eletrônico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) o solicitante deve escolher a opção: Certificação de Produto: Aprovação de Aeronavegabilidade para Exportação - CAE",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37988,
+            "descricao": "Para pagamento das Guias de Recolhimento da União (GRU), emití-las pelo Sistema GRU Internet da ANAC:",
+            "canalDePrestacao": [
+              {
+                "id": 225625,
+                "tipo": "web",
+                "descricao": "[TFAC 012203.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ApresentarDadosServico&idServico=2716&idServicoComplexidade=94)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 225626,
+                "tipo": "web",
+                "descricao": "[TFAC 012204](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ApresentarDadosServico&idServico=2716&idServicoComplexidade=95)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 225627,
+                "tipo": "web",
+                "descricao": "[TFAC 012205](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ApresentarDadosServico&idServico=2716&idServicoComplexidade=96)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 225628,
+                "tipo": "web",
+                "descricao": "[TFAC 012206](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ApresentarDadosServico&idServico=2716&idServicoComplexidade=97)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171984,
+      "titulo": "Solucionar eventuais pendências documentais",
+      "descricao": "A ANAC avalia a documentação enviada e poderá contatar o solicitante para solucionar pendências. Nesse momento também é verificada a existência de acordo bilateral com o país exportador, podendo ser necessário contato com a autoridade de aviação civil desse país.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225630,
+            "tipo": "web-acompanhar",
+            "descricao": "O solicitante pode acompanhar o andamento do pedido e a necessidade de eventuais correções no mesmo canal usado na etapa anterior.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171985,
+      "titulo": "Receber vistoria",
+      "descricao": "A ANAC avalia se há vistoria e a forma de realização.\n\n Se houver vistoria feita por PCA, o solicitante [contata o profissional ](http://www2.anac.gov.br/certificacao/ReprCredenc/ReprCredenc.asp), que entrará com pedido para a vistoria.\n\n Se feita pela ANAC, o solicitante envia formulário de pedido e aguarda confirmação da data.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 37989,
+            "descricao": "Caso a vistoria seja feita por PCA",
+            "documento": [
+              {
+                "id": 238306,
+                "codigo": null,
+                "descricao": "Havendo vistoria e ela sendo conduzida por PCA, ao final o PCA deve enviar à ANAC:",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238307,
+                "codigo": null,
+                "descricao": "a) lista de verificação (F-100-75);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238308,
+                "codigo": null,
+                "descricao": "b) Relatório de Inspeção (F-300-10);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238309,
+                "codigo": null,
+                "descricao": "c) carta de aceitação da autoridade do país importador, se aplicável;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238310,
+                "codigo": null,
+                "descricao": "d) Certificado de Aeronavegabilidade;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238311,
+                "codigo": null,
+                "descricao": "e) Certificado de Matrícula;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238312,
+                "codigo": null,
+                "descricao": "f) CAE do país exportador da aeronave para o Brasil, se aplicável;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238313,
+                "codigo": null,
+                "descricao": "g) Registro de Peso e Balanceamento;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238314,
+                "codigo": null,
+                "descricao": "h) registro da última inspeção realizada, se aplicável; e",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238315,
+                "codigo": null,
+                "descricao": "i) Relatório Final de Inspeção (somente para aeronaves novas), que deve conter:  \nI - certificados de conformidade emitidos pelo setor de qualidade do fabricante;  \nII - liberação para voo de produção;  \nIII - liberação para voo de produção;  \nIV - voo de produção / teste em voo;  \nV - certificados de exportação dos grandes componentes;  \nVI - listas das modificações incorporadas; e  \nVII - registros dos testes e medições realizadas durante o processo de produção.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37990,
+            "descricao": "Se a vistoria for necessária e for feita pela ANAC",
+            "documento": [
+              {
+                "id": 238316,
+                "codigo": null,
+                "descricao": "O solicitante deve preencher o formulário [F-145-29](http://www2.anac.gov.br/certificacao/Form/Form.asp), incluindo a data proposta, e aguardar confirmação da visita da ANAC.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225631,
+            "tipo": "presencial",
+            "descricao": "Se a realização de vistoria for necessária para a emissão do certificado, o solicitante deverá receber servidores da ANAC ou Profissional credenciado (PCA) com habilitação em Exportação de Aeronaves. A vistoria é presencial e o andamento do pedido, inclusive o aviso de necessidade de vistoria, pode ser verificado pelo mesmo canal da solicitação na etapa 1.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 171986,
+      "titulo": "Aguardar resultado da vistoria e de contato com autoridade do país importador",
+      "descricao": "Após a vistoria realizada pela ANAC o solicitante pode ser contatado a fim de sanar pendências para o fechamento do resultado.  Quando a vistoria é realizada por Profissionais Credenciados, o resultado é encaminhado  a ANAC que verifica o cumprimento de requisitos e procedimentos estabelecidos.\n\n Havendo desvios aos requisitos de importação, a ANAC consultará a Autoridade de Aviação Civil do País Importador a fim de se verificar se estes desvios serão aceitos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225632,
+            "tipo": "web-acompanhar",
+            "descricao": "O solicitante pode acompanhar o andamento do pedido e a necessidade de eventuais correções no mesmo canal usado na etapa 1.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171987,
+      "titulo": "Receber Aprovação de Aeronavegabilidade para Exportação",
+      "descricao": "A ANAC emite o Certificado de Aeronavegabilidade para Exportação (com ou sem desvios aceitos, conforme aplicável).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225633,
+            "tipo": "web-acompanhar",
+            "descricao": "O solicitante pode acompanhar o andamento do pedido e a necessidade de eventuais correções no mesmo canal usado na etapa anterior.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "80",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-aprovacao-de-aeronavegabilidade-para-exportacao-de-produtos-aeronauticos",
+  "statusDestaque": false
+}

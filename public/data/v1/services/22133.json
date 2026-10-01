@@ -1,0 +1,319 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22133",
+  "nome": "Obter Segunda Via de Documento - Certificado de Registro de Arma de Fogo ou Porte de Arma de Fogo",
+  "sigla": "",
+  "descricao": "É o procedimento para solicitar a segunda via do documento, seja Certificado de Registro de Arma de Fogo, seja Porte de Arma de Fogo.",
+  "flagPortalLogado": "N",
+  "contato": "Consulte uma [unidade da Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias) no caso de dúvidas relativas à particularidades locais de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras.\n\n Veja também a página de \"[dúvidas frequentes](https://www.gov.br/pf/pt-br/assuntos/armas/duvidas-frequentes \"Dúvidas frequentes\")\".\n\n Obtenha outras informações na página principal: [https://www.gov.br/pf/pt-br/assuntos/armas](https://www.gov.br/pf/pt-br/assuntos/armas \"Armas\")",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.dpf.gov.br/sinarm-internet/faces/publico/incluirReqSegundaVia/consultarRequerimentoSegundaVia.seam?cid=2433",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Segunda Via de Documento",
+        "id": 104703
+      },
+      {
+        "item": "Segunda Via de CRAF",
+        "id": 104704
+      },
+      {
+        "item": "Segunda Via de Porte",
+        "id": 104705
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 88075,
+        "tipo": "Cidadão ou empresa de segurança privada ou com serviço de segurança orgânica ou órgão público ou servidor público.",
+        "requisitos": "O requerente deve possuir um Certificado de Registro de Arma de Fogo ou um Porte de Arma de Fogo."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 145478
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 145479
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Armas de Fogo"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Segunda via de documento - CRAF e Porte de Ar",
+        "id": 349991
+      },
+      {
+        "item": "Segunda via de documento",
+        "id": 349992
+      },
+      {
+        "item": "Segunda via de CRAF ou Porte de Arma de Fogo",
+        "id": 349993
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 121531
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 15,
+    "negativas": 64
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 203435,
+      "titulo": "Solicitar segunda via de documento - Certificado de Registro de Arma de Fogo ou Porte de Arma de Fogo.",
+      "descricao": "Apresentar requerimento eletrônico para obter a segunda via de documento - Certificado de Registro de Arma de Fogo ou Porte de Arma de Fogo - e deve ser anexada a documentação no requerimento eletrônico ou na página de acompanhar requerimento, após a geração do pedido eletrônico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 277514,
+            "nome": "documento de identificação pessoal - registro geral (rg) e cadastro de pessoa física (cpf);"
+          },
+          {
+            "id": 277515,
+            "nome": "registro de ocorrência."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 35465,
+            "descricao": "Expedição de Segunda Via de Certificado de Registro de Arma de Fogo - código STN 140546",
+            "moeda": "R$",
+            "valor": " 88,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 35466,
+            "descricao": "Expedição de Segunda Via de Porte Federal de Arma de Fogo - código STN 140392",
+            "moeda": "R$",
+            "valor": " 88,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 264943,
+            "tipo": "web",
+            "descricao": "Para *upload* da documentação, [acesse o site](https://servicos.dpf.gov.br/sinarm-internet/faces/publico/controlarRequerimento/controlarRequerimento.seam).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 203436,
+      "titulo": "Incluir dados pessoais no formulário eletrônico",
+      "descricao": "[Segunda Via de Documento](https://servicos.dpf.gov.br/sinarm-internet/faces/publico/incluirReqSegundaVia/consultarRequerimentoSegundaVia.seam \"Segunda Via de Documento\")\n\n O requerente deve revisar os dados pessoais do formulário eletrônico, incluir a documentação - por exemplo, boletim de ocorrência - e selecionar o local de atendimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 264944,
+            "tipo": "web-preencher",
+            "descricao": "Preencher os dados pessoais - ou apenas conferir os dados. O sistema carrega os dados da base de dados. Verifique os dados profissionais e o CEP. O CEP precisa existir na base de dados dosÂ [Correios](https://buscacepinter.correios.com.br/app/endereco/index.php \"Correios\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 203437,
+      "titulo": "Acompanhar a prestação do serviço",
+      "descricao": "[Consultar Andamento de Processo](https://www.gov.br/pf/pt-br/assuntos/armas/consultar-andamento-de-processos/consultar-andamento-de-processo \"Consultar Andamento de Processo\")\n\n O requerente deverá acompanhar a prestação do serviço através da página de \"consultar andamento de processo\" de forma obrigatória - [selecione aqui](https://www.gov.br/pf/pt-br/assuntos/armas/consultar-andamento-de-processos/consultar-andamento-de-processo \"Consultar Andamento de Processo\").",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 264945,
+            "tipo": "web-acompanhar",
+            "descricao": "O requerimento possui acompanhamento através da página de \"consultar andamento de processo\" - [selecione aqui](https://www.gov.br/pf/pt-br/assuntos/armas/consultar-andamento-de-processos/consultar-andamento-de-processo \"Consultar Andamento de Processo\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 264946,
+            "tipo": "web",
+            "descricao": "Observa-se que o sistema fará comunicações via e-mail acerca de notificação de pendência e de emissão de decisão no processo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 203438,
+      "titulo": "Imprimir Certificado de Registro de Arma de Fogo ou Porte de Arma de Fogo",
+      "descricao": "Ao obter o deferimento do pedido, ocorrerá a comunicação via e-mail e o certificado estará disponível no \"consultar andamento de processo\" - [selecione aqui](https://www.gov.br/pf/pt-br/assuntos/armas/consultar-andamento-de-processos/consultar-andamento-de-processo \"Consultar Andamento de Processo\").",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 264947,
+            "tipo": "web",
+            "descricao": "[Consultar Andamento de Processo](https://www.gov.br/pf/pt-br/assuntos/armas/consultar-andamento-de-processos/consultar-andamento-de-processo \"Consultar Andamento de Processo\")\n\n Observa-se que o sistema fará comunicações via e-mail acerca de notificação de pendência e de emissão de decisão no processo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "19",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/segunda-via-de-documento",
+  "statusDestaque": false
+}

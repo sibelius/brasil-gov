@@ -1,0 +1,217 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9413",
+  "nome": "Cancelar Certificação de Boas Práticas de Fabricação (CBPF) de Medicamentos",
+  "sigla": "",
+  "descricao": "É um pedido para cancelar o Certificado de Boas Práticas de Fabricação (CBPF).  O CBPF é o documento emitido pela Anvisa atestando que determinado estabelecimento cumpre com as Boas Práticas de Fabricação.",
+  "flagPortalLogado": "N",
+  "contato": "[Central de Atendimento da Anvisa.](https://www.gov.br/../../anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificação de Boas Práticas de Fabricação",
+        "id": 95145
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80908,
+        "tipo": "Empresas com CBPF emitido pela Anvisa.",
+        "requisitos": "Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o sistema Solicita.\n\n [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/../../anvisa/pt-br/sistemas/cadastros)[ ](http://portal.anvisa.gov.br/cadastramento)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "438",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 438
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132007
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Medicamentos e Produtos para Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificação de boas práticas",
+        "id": 320919
+      },
+      {
+        "item": "boas práticas de fabricação",
+        "id": 320920
+      },
+      {
+        "item": "CBPF",
+        "id": 320921
+      },
+      {
+        "item": "ANVISA",
+        "id": 320922
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109908
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183878,
+      "titulo": "Solicitar o cancelamento",
+      "descricao": "Acesse o sistema Solicita com o login e senha do gestor de segurança. Selecione a opção Rascunho>Novo>Petição vinculada a processo existente. Localize o processo relacionado e o assunto cuja descrição seja compatível com o tipo de produto para o qual deseja cancelar a certificação. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 250925,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](https://www.gov.br/../../anvisa/pt-br/sistemas/assuntos-de-peticao)). A Anvisa fornece um checklist (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 29952,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "de acordo com o porte da empresa e o tipo de solicitação",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241431,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)[  \n](http://portal.anvisa.gov.br/cadastramento-de-empresa)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183879,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "O processo pode ser acompanhado pelo sistema Solicita. Selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), selecionando a opção “Situação de documentos>Técnico” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 250926,
+            "nome": "Login e senha no sistema Solicita."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241432,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "438",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-certificacao-de-boas-praticas-de-fabricacao-de-medicamentos",
+  "statusDestaque": false
+}

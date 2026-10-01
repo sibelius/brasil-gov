@@ -1,0 +1,345 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11472",
+  "nome": "Parcelar débito de Taxa de Saúde Suplementar",
+  "sigla": "",
+  "descricao": "Este serviço permite que as operadoras de planos privados de saúde parcelem um débito relativo a uma taxa de saúde suplementar ainda não enviado para cobrança como dívida ativa. \n\n Após o envio para cobrança como dívida ativa, o parcelamento deve ser solicitado à Procuradoria Federal junto à Agência Nacional de Saúde Suplementar (ANS).\n\n As Taxas de Saúde Suplementar (TSS) podem ser de dois tipos: 1) Taxa de Saúde Suplementar por Plano de Assistência à Saúde, a qual é devida trimestralmente pelas operadoras; e 2) Taxas de Saúde Suplementar por ato, as quais são devidas quando uma operadora deseja realizar alguma ação junto à ANS. \n\n O parcelamento pode ser feito em até 60 parcelas mensais, cada qual com valor mínimo de R$ 1.000,00.\n\n A aprovação do pedido de parcelamento depende do pagamento da primeira parcela e do envio da documentação exigida.\n\n Débitos já parceladas ou com parcelamentos cancelados poderão ser reparcelados. Nesse caso, a primeira parcela corresponderá à:\n\n  * 10% do valor total da dívida, ou\n * 20%, caso a dívida já tenha sido objeto de reparcelamento anterior.\n  *O pedido de parcelamento é confissão irretratável da dívida e confissão extrajudicial (Código de Processo Civil, artigos 389 e 395).*",
+  "flagPortalLogado": "N",
+  "contato": "*E-mail* para contato: [parcelamento@ans.gov.br](mailto:parcelamento@ans.gov.br \"parcelamento@ans.gov.br\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.ans.gov.br/externo/site/siar/pardal/default.asp?f=prd",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 102631
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 86685,
+        "tipo": "Operadoras de planos privados de assistência à saúde que possuam débitos de taxa de saúde suplementar ainda não enviados para inscrição em dívida ativa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "meses"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 143011
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "parcelamento",
+        "id": 344242
+      },
+      {
+        "item": "pagamento",
+        "id": 344243
+      },
+      {
+        "item": "taxa de saúde suplementar",
+        "id": 344244
+      },
+      {
+        "item": "ans",
+        "id": 344245
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução Normativa nº 494, de 29 de março de 2022](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDE1NA==): dispõe sobre o lançamento da Taxa de Saúde Suplementar, instituída pela Lei nº 9.961, de 28 de janeiro de 2000, regulamenta o processo administrativo fiscal no âmbito da Agência Nacional de Saúde Suplementar e dá outras providências.",
+        "id": 119584
+      },
+      {
+        "item": "[Resolução Normativa nº 492, de 29 de março de 2022](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDE1Mg==): dispõe sobre o parcelamento de débitos tributários e não tributários para com a Agência Nacional de Saúde Suplementar - ANS.",
+        "id": 119585
+      },
+      {
+        "item": "[Lei nº 14.063, de 23 de setembro de 2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm): Dispõe sobre o uso de assinaturas eletrônicas em interações com entes públicos, em atos de pessoas jurídicas e em questões de saúde e sobre as licenças de softwares desenvolvidos por entes públicos; e altera a Lei nº 9.096, de 19 de setembro de 1995, a Lei nº 5.991, de 17 de dezembro de 1973, e a Medida Provisória nº 2.200-2, de 24 de agosto de 2001.",
+        "id": 119586
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 199710,
+      "titulo": "Propor o parcelamento e gerar documentação",
+      "descricao": "O usuário deve acessar o sistema de parcelamento, selecionar a Guia de Recolhimento da União (GRU) correspondente, escolher o número de parcelas desejado, e gerar o parcelamento. Em seguida, emitir os seguintes documentos:\n\n  * GRU para pagamento da primeira parcela;\n * Requerimento de Parcelamento de Débito (Confissão da Dívida);\n * Declaração de inexistência de ação judicial, ou de renúncia a direito em ação judicial e de inexistência de outra ação judicial, conforme o caso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 260398,
+            "tipo": "web",
+            "descricao": "Gerar o parcelamento:Â [acesse aqui](http://www.ans.gov.br/externo/site/siar/pardal/default.asp?f=prd);",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 260399,
+            "tipo": "web",
+            "descricao": "Gerar GRU da 1ª parcela: [acesse aqui](http://www.ans.gov.br/externo/site/siar/pardal/default.asp?f=prdd);",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 260400,
+            "tipo": "web",
+            "descricao": "Gerar o Requerimento de Parcelamento de Débito (Confissão da Dívida) e a Declaração de inexistência de ação judicial, ou de renúncia a direito em ação judicial e de inexistência de outra ação judicial, conforme o caso: [acesse aqui](http://www.ans.gov.br/externo/site/siar/pardal/default.asp?f=prdc).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 199711,
+      "titulo": "Encaminhar documentação assinada à ANS",
+      "descricao": "O usuário deve:\n\n 1) pagar a primeira parcela até o último dia útil do mês em que o parcelamento foi emitido;\n\n 2) assinar digitalmente os documentos emitidos na primeira etapa, conforme os padrões descritos na Lei nº 14.063/2020;\n\n 3) encaminhar os documentos e o comprovante de pagamento da primeira parcela para ANS, por meio do protocolo eletrônico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 273284,
+            "nome": "Comprovante de pagamento da primeira parcela;"
+          },
+          {
+            "id": 273285,
+            "nome": "Requerimento de Parcelamento de Débito (Confissão da Dívida) assinada digitalmente pelo representante legal ou seu procurador;"
+          },
+          {
+            "id": 273286,
+            "nome": "Declaração de inexistência de ação judicial, ou de renúncia a direito em ação judicial e de inexistência de outra ação judicial, conforme o caso, assinada digitalmente pelo representante legal ou seu procurador;"
+          },
+          {
+            "id": 273287,
+            "nome": "Procuração, em caso de assinatura por procurador."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 260401,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico (somente operadoras)](https://www2.ans.gov.br/ans-idp/);",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 260402,
+            "tipo": "web",
+            "descricao": "[Protocolo Eletrônico (demais pessoas jurídicas)](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 199712,
+      "titulo": "Receber a resposta da ANS",
+      "descricao": "O usuário receberá a resposta da ANS em até 90 dias, contados a partir do envio da documentação.\n\n A resposta será enviada pelo protocolo eletrônico e informará se o pedido de parcelamento foi aceito (deferido) ou negado (indeferido).\n\n Enquanto a ANS não decidir, o usuário deve continuar pagando as parcelas todo mês.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 260403,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico (somente operadoras)](https://www2.ans.gov.br/ans-idp/);",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 260404,
+            "tipo": "web",
+            "descricao": "[Protocolo Eletrônico (demais pessoas jurídicas)](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 199713,
+      "titulo": "Emitir e pagar as demais parcelas",
+      "descricao": "Se o parcelamento for aceito (deferido), o usuário deve, mensalmente, até a quitação total, emitir a GRU das parcelas e efetuar o pagamento.\n\n O parcelamento será cancelado e o débito será encaminhado para inscrição em dívida ativa se houver falta de pagamento de:\n\n  * de 3 parcelas, seguidas ou não;\n * de 2 parcelas, se todas as demais estiverem pagas; ou\n * de 1 parcela, se esta for a última parcela vencida do parcelamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 260405,
+            "tipo": "web",
+            "descricao": "Gerar as GRUs das parcelas: [acesse aqui](https://www.ans.gov.br/externo/site/siar/pardal/default.asp?f=prdd \"acesse aqui\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "59",
+          "unidade": "meses"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 59
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11503",
+      "nome": "Pagar à vista Taxa de Saúde Suplementar"
+    }
+  ],
+  "tempoMediaEspera": "1800",
+  "percentualAvaliacoesPositivas": "75",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/parcelar-debitos-junto-a-ans-taxa-de-saude-suplementar",
+  "statusDestaque": false
+}

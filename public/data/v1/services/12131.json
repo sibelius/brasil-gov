@@ -1,0 +1,222 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12131",
+  "nome": "Solicitar cópia ou vista de processo/documento da Polícia Rodoviária Federal - PRF",
+  "sigla": "",
+  "descricao": "A solicitação de cópia ou vista de processos ou documentos produzidos pela Polícia Rodoviária Federal é um serviço em que os usuários podem solicitar cópia ou vista de processos ou documentos em que tenham interesse direto e legitimidade para ter acesso.",
+  "flagPortalLogado": "N",
+  "contato": "Para visualizar os endereços e telefones das unidades da PRF, clique [aqui](https://www.gov.br/../../prf/pt-br/canais-de-atendimento/unidades-prf \"aqui\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/prf/pt-br/servicos/outros-servicos/peticionamento-eletronico",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128304
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107431,
+        "tipo": "Pode ser solicitado por qualquer pessoa, física ou jurídica, desde que comprove que possui legitimidade para ter acesso ao(s) processo(s).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179480
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179481
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 179482
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 179483
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Capacitações e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cópia",
+        "id": 427630
+      },
+      {
+        "item": "Vistas",
+        "id": 427631
+      },
+      {
+        "item": "Processo administrativo",
+        "id": 427632
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153832
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 116
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250916,
+      "titulo": "Preencher formulário de solicitação de cópia ou vista de processos e anexar documentação de identificação",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325851,
+            "nome": "Preenchimento de formulário e inserção dos documentos necessários."
+          }
+        ],
+        "casos": [
+          {
+            "id": 49502,
+            "descricao": "Pessoa física",
+            "documento": [
+              {
+                "id": 325849,
+                "codigo": null,
+                "descricao": "Documento de identificação do usuário.  \nProcuração e documento de identificação do procurador, quando for o caso.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49503,
+            "descricao": "Pessoa jurídica",
+            "documento": [
+              {
+                "id": 325850,
+                "codigo": null,
+                "descricao": "Documento de identificação do usuário.  \nProcuração e documento de identificação do procurador, quando for o caso.  \nCópia do ato constitutivo da pessoa jurídica ou contrato social.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324297,
+            "tipo": "web",
+            "descricao": "[Peticionamento Eletrônico](https://www.gov.br/prf/pt-br/servicos/outros-servicos/peticionamento-eletronico \"Peticionamento Eletrônico\")  do Sistema Eletrônico de Informações - SEI da PRF.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 324298,
+            "tipo": "presencial",
+            "descricao": "Para visualizar os endereços das unidades da PRF, clique [aqui](https://www.gov.br/../../prf/pt-br/canais-de-atendimento/unidades-prf \"aqui\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "12",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 2130,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 2131,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-copia-ou-vista-de-processo-administrativo-da-policia-rodoviaria-federal-prf",
+  "statusDestaque": false
+}

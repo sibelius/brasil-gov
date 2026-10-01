@@ -1,0 +1,201 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12595",
+  "nome": "Transferir cadastro de drone",
+  "sigla": "",
+  "descricao": "A pessoa que desejar transferir a responsabilidade pelo cadastro de um drone, básico ou avançado, para uma outra pessoa deve registrar a transferência no Sistema de Aeronaves não Tripuladas (SISANT).\n\n O cadastro como operador de um drone na ANAC afere o responsável legal pela operação da drone, não constituindo qualquer prerrogativa de direito de propriedade do bem.\n\n Caso deseje atribuir a responsabilidade pela operação do drone à uma pessoa jurídica (organização, empresa ou instituição), o usuário deve preencher o campo “Drone cadastrado em nome de” na página de cadastro inicial ou na opção “Editar” na página “Meus Drones”.  No cadastro realizado, constará a pessoa jurídica selecionada como operador, mas o cadastro continuará associado à pessoa física que realizou a operação.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://santosdumont.anac.gov.br/menu/f?p=133",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SISANT",
+        "id": 88556
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75851,
+        "tipo": "Pessoa física maior de 18 anos portadora de CPF.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122884
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 122885
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros e Credenciamentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Anac",
+        "id": 298454
+      },
+      {
+        "item": "Drone",
+        "id": 298455
+      },
+      {
+        "item": "SISANT",
+        "id": 298456
+      },
+      {
+        "item": "VANT",
+        "id": 298457
+      },
+      {
+        "item": "A",
+        "id": 298458
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC-E nº 94](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94)",
+        "id": 101620
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 15
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 171801,
+      "titulo": "Transferir drone.",
+      "descricao": "O operador atual do drone deve, na aba \"Meus drones\", escolher a opção \"Transferir drone\" correspondente ao drone que deseja transferir.\n\n Deve também escolher o nome do recebedor (caso ele já possua perfil no sistema) ou inserir o CPF e o e-mail do recebedor.\n\n A transferência só é efetivada após a confirmação do recebedor.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225394,
+            "tipo": "web",
+            "descricao": "[SISANT](http://santosdumont.anac.gov.br/menu/f?p=133)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171802,
+      "titulo": "Receber transferência de drone",
+      "descricao": "O novo operador do drone deve acessar a aba \"Drones Transferidos Aguardando sua Confirmação\" do SISANT. A aba só é visível caso um outro usuário tenha iniciado a transferência de um drone para o operador.\n\n Para confirmar a transferência, basta apertar o respectivo botão \"Confirmar\" e finalizar o cadastro inserindo informações sobre o uso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225395,
+            "tipo": "web",
+            "descricao": "[SISANT](http://santosdumont.anac.gov.br/menu/f?p=133)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "48",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/transferir-cadastro-de-drone",
+  "statusDestaque": false
+}

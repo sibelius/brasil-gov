@@ -1,0 +1,183 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10673",
+  "nome": "Consultar inclusão no Cadin pela Receita Federal",
+  "sigla": "",
+  "descricao": "O Cadastro Informativo de Créditos não Quitados do Setor Público Federal (Cadin) é um banco de dados onde estão registrados os nomes de pessoas em débito para com órgãos e entidades federais.\n\n Consulte o relatório para saber se você ou sua empresa possui pendências no Cadin incluídas pela Receita Federal.\n\n **Atenção!** Este relatório não mostra pendências incluídas por outros órgãos e entidades.\n\n A Procuradoria-Geral da Fazenda Nacional é gestora do Cadin e responsável pelo [sistema Cadin](https://cadin.pgfn.gov.br/#/home).",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre o CADIN](http://www.gov.br/tesouronacional/pt-br/perguntas-frequentes/cadin)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10013",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122789
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102641,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171537
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171538
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171539
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171540
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CADIN",
+        "id": 408555
+      },
+      {
+        "item": "SISBACEN",
+        "id": 408556
+      },
+      {
+        "item": "Dívida Federal",
+        "id": 408557
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 10.522/2002 ](https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2002-07-19;10522)",
+        "id": 147502
+      },
+      {
+        "item": "[Portaria PGFN nº 819/2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=132390)",
+        "id": 147503
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1288,
+    "negativas": 2044
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes: \n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239428,
+      "titulo": "Consultar pendências no CADIN",
+      "descricao": "Acesse o sistema abaixo para consultar as pendências registradas no Cadin e gerar o relatório.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309077,
+            "tipo": "web",
+            "descricao": "[Consultar InclusÃ£o no Cadin](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10013)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10690",
+      "nome": "Consultar dívidas e pendências fiscais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10770",
+      "nome": "Consultar comunicações de cobrança da Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10669",
+      "nome": "Consultar Intimação para Pagamento e Débito Confessado em GFIP"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "39",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-inclusao-no-cadin-sisbacen-pela-receita-federal",
+  "statusDestaque": false
+}

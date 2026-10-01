@@ -1,0 +1,220 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10116",
+  "nome": "Solicitar Correção de Dados de Curso de Graduação Conforme Ato Publicado",
+  "sigla": "",
+  "descricao": "Serviço permite que uma instituição de educação superior – IES solicite ao MEC a correção no Cadastro e-MEC de dados de um de seus cursos de graduação que estejam divergentes do que consta no último ato regulatório vigente do curso. Ex: vagas, denominação, endereço.\n\n  A solicitação deve ser acompanhada do ato regulatório que respalda o pedido.",
+  "flagPortalLogado": "S",
+  "contato": "Com Núcleo de Apoio e Atendimento Integrado, canal institucional de comunicação da SERES, que possuí uma equipe especializada para atendimento aos Representantes das Instituições de Educação Superior (IES), o contato pode ser realizado no endereço https://mecsp.metasix.solutions/portal ou pelo telefone (61) 2022-8199.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Corrigir dados de curso no Cadastro e-MEC",
+        "id": 126113
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105494,
+        "tipo": "Instituições de Educação Superior - IES",
+        "requisitos": "Ser o Procurador Institucional – PI da IES ou ser o Auxiliar Institucional - AI da IES conforme cadastro no Sistema e-MEC"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176335
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 176336
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cursos de Graduação",
+        "id": 420048
+      },
+      {
+        "item": "Sistema Estadual (estadual???)",
+        "id": 420049
+      },
+      {
+        "item": "Alteração de Denominação de Curso",
+        "id": 420050
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 9.235/2020; Portaria Normativa nº 21/2017",
+        "id": 151370
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 15
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246191,
+      "titulo": "Preencher Formulário de Solicitação",
+      "descricao": "Etapa em que o Procurador Institucional da IES preenche as informações no Formulário de Solicitação conforme indicado abaixo:",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322064,
+            "nome": "Formulário contendo:\n\n  * Código e Nome da IES;\n * Código do curso no e-MEC;\n * Indicação do(s) campo(s) que está(ão) divergente(s);\n * Valor correto do campo."
+          },
+          {
+            "id": 322065,
+            "nome": "Ato regulatório que contém a informação correta (deve ser o ato vigente do curso)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318405,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=10116)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318406,
+            "tipo": "postal",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318407,
+            "tipo": "presencial",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246192,
+      "titulo": "Buscar Resultado no Sistema e-MEC",
+      "descricao": "Se a análise foi satisfatória, a alteração é realizada no Sistema e-MEC. Caso contrário, a IES é informada sobre a impossibilidade.\n\n Será enviado comunicado para a Instituição por meio do Sistema e-MEC.\n\n  \n\n .",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318408,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://emec.mec.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "21",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-correcao-de-dados-de-curso-de-graduacao-conforme-ato-publicado",
+  "statusDestaque": false
+}

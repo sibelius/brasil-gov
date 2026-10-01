@@ -1,0 +1,262 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6318",
+  "nome": "Matricular-se em curso de Educação Superior de Graduação (Licenciatura, Tecnologia e Bacharelado) - IFPA",
+  "sigla": "",
+  "descricao": "Se você deseja fazer um curso de Educação Superior de Graduação neste Instituto, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "DEPARTAMENTO DE REGISTRO E INDICADORES ACADÊMICOS DA PROEN/IFPA - (091)991113843 - registroacademico.proen@ifpa.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.acesso.gov.br/authorize?response_type=code&client_id=sigaa.ifpa.edu.br&scope=openid+profile+phone+email+govbr_empresa&state=6318&redirect_uri=https://sigaa.ifpa.edu.br/sigaa/govbr/obterToken.do",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 28881
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 28842,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100917",
+    "dbId": 36759,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Pará (IFPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 46015
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 102811
+      },
+      {
+        "item": "Graduação",
+        "id": 102812
+      },
+      {
+        "item": "IFPA",
+        "id": 102813
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 29000
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 60176,
+      "titulo": "Habilitar matrícula",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 87483,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 87484,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 87485,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 87486,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 87487,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 87488,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 87489,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 87490,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 87491,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 87492,
+            "nome": "CPF"
+          },
+          {
+            "id": 87493,
+            "nome": "Diploma"
+          },
+          {
+            "id": 87494,
+            "nome": "NIS"
+          },
+          {
+            "id": 87495,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 87496,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 77263,
+            "tipo": "presencial",
+            "descricao": "Secretaria Acadêmica ou setor equivalente no campus",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77265,
+            "tipo": "web",
+            "descricao": "Solicitação via Sistema Integrado de Gestão de Atividades Acadêmicas - [SIGAA](https://sigaa.ifpa.edu.br).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 60178,
+      "titulo": "Homologar inscrição",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 77266,
+            "tipo": "web",
+            "descricao": "Site oficial do IFPA [Acesse o site](www.ifpa.edu.br) aba Processo Seletivo",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "8",
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 8,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "54",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-educacao-superior-de-graduacao-licenciatura-tecnologia-e-bacharelado-ifpa",
+  "statusDestaque": false
+}

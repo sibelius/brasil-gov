@@ -1,0 +1,174 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2676",
+  "nome": "Obter anuência para importar radioisótopos ou equipamentos geradores de radiação ionizante",
+  "sigla": "",
+  "descricao": "Para importar radioisótopos ou equipamentos geradores de radiação ionizante é necessário submeter Solicitação para Licença de Importação para Material Radioativo e/ou Equipamento Gerador de Radiação Ionizante á CNEN. Este Ato deve ser requerido pelo titular da instalação radiativa.",
+  "flagPortalLogado": "N",
+  "contato": "cgmi@cnen.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SLI",
+        "id": 38808
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 36772,
+        "tipo": "Pessoas jurídicas",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 59096
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 59097
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 59098
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Materiais e Equipamentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "energia nuclear",
+        "id": 134461
+      },
+      {
+        "item": "radiação",
+        "id": 134462
+      },
+      {
+        "item": "importação",
+        "id": 134463
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 41393
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 78335,
+      "titulo": "Solicitar anuência",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 111166,
+            "nome": "Documentos específicos previstos nas normas da cnen"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 11435,
+            "descricao": "taxa de licenciamento e controle",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "1% do valor total declarado",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 99845,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://appasp2019.cnen.gov.br/seguranca/formularios/entrada-identificacao.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "38",
+  "url": "https://www.gov.br/pt-br/servicos/obter-anuencia-para-importar-radioisotopos-ou-equipamentos-geradores-de-radiacao-ionizante",
+  "statusDestaque": false
+}

@@ -1,0 +1,197 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/920",
+  "nome": "Obter certidão negativa correcional emitida pela Controladoria-Geral da União (CGU)",
+  "sigla": "",
+  "descricao": "A partir de solicitação do interessado, a Corregedoria-Geral da União informa os antecedentes em processos correcionais **instaurados pela própria CGU**, cadastrados nos Sistemas CGU-PAD e CGU-PJ; bem como as sanções aplicadas no contexto dos Sistemas ePAD e Banco de Sanções.",
+  "flagPortalLogado": "N",
+  "contato": "Gabinete da Secretaria Executiva da CGU\n\n Telefone: (61) 2020-7251 / (61) 2020-6747",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://certidoes.cgu.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certidão CEIS",
+        "id": 101402
+      },
+      {
+        "item": "Certidão CNEP",
+        "id": 101403
+      },
+      {
+        "item": "Certidão CEPIM",
+        "id": 101404
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85871,
+        "tipo": "Empresas privadas",
+        "requisitos": ""
+      },
+      {
+        "id": 85872,
+        "tipo": "Órgãos da administração direta",
+        "requisitos": ""
+      },
+      {
+        "id": 85873,
+        "tipo": "Agentes públicos federais",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/214460",
+    "dbId": 37535,
+    "nomeOrgao": "Controladoria-Geral da União (CGU)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 141513
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141514
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 141515
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 141516
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Controle Social"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CGU-PAD",
+        "id": 340794
+      },
+      {
+        "item": "Cadastro em órgãos federais",
+        "id": 340795
+      },
+      {
+        "item": "Certidão Negativa de empresas",
+        "id": 340796
+      },
+      {
+        "item": "Cadastro Negativo de empresas",
+        "id": 340797
+      },
+      {
+        "item": "Certidão de Antecedentes",
+        "id": 340798
+      },
+      {
+        "item": "Poder Executivo",
+        "id": 340799
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118410
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 141,
+    "negativas": 192
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 197745,
+      "titulo": "Emitir certidão de antecedentes em processo correcional instaurado pela Controladoria-Geral da União para pessoa física ou pessoa jurídica",
+      "descricao": "A certidão de antecedentes em processo correcional instaurado pela Controladoria-Geral da União para pessoa física tem como consulta o cadastro CGU-PAD. Já a certidão emitida para pessoa jurídica tem a consulta nos cadastros: CGU-PJ, CEIS, CNEP e CEPIM.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 270135,
+            "nome": "Estar de posse do número do CPF ou CNPJ, a depender do caso"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257853,
+            "tipo": "web-emitir",
+            "descricao": "* Acessar o endereço eletrônico **<https://certidoes.cgu.gov.br/>** ;\n * Clicar em Consulta à situação/Emissão de certidões;\n * Informar CPF ou CNPJ, a depender do caso;\n * Selecionar o tipo de certidão que deseja emitir\n * Clicar em Não sou um robô e em Consultar.\n * Para a Emissão da Certidão, clique no ícone Certidão.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "42",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-de-antecedentes-em-processo-correcional-instaurado-pela-controladoria-geral-da-uniao",
+  "statusDestaque": false
+}

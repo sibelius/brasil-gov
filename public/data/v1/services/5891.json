@@ -1,0 +1,219 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5891",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação e de pós-graduação - UFPA",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito graduação ou pós-graduação na Universidade, pode obter o seu diploma (ou ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "CENTRO DE REGISTRO INDICADORES ACADEMICOS - (91) 32017158 - ciac@ufpa.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Expedição de 2ª via de diploma",
+        "id": 124598
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104340,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/415",
+    "dbId": 57784,
+    "nomeOrgao": "Universidade Federal do Pará (UFPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174448
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 415289
+      },
+      {
+        "item": "Certificado",
+        "id": 415290
+      },
+      {
+        "item": "2ª Via",
+        "id": 415291
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149887
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 243347,
+      "titulo": "Entregar o pedido",
+      "descricao": "Centro de Registro Indicadores Acadêmicos",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 319858,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 319859,
+            "nome": "Comprovante de pagamento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41308,
+            "descricao": "Taxa de segunda via de diplomas",
+            "moeda": "R$",
+            "valor": " 173,87",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314398,
+            "tipo": "presencial",
+            "descricao": "Centro de Registro Indicadores Acadêmicos",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 243348,
+      "titulo": "Receber o diploma",
+      "descricao": "Centro de Registro Indicadores Acadêmicos",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 319860,
+            "nome": "Carteira de identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314399,
+            "tipo": "web",
+            "descricao": "[ ](<a href='https://www.gov.br/<a'>Acesse o site</a> href='<a href='https://www.gov.br/<a'>Acesse o site</a>'>Acesse o site</a> href='<a href='<a href='https://www.gov.br/<a'>Acesse o site</a>'>Acesse o site</a>'>Acesse o site</a> href='https://sigaa.uffs.edu.br/sigaa/public/diploma_digital/consulta_publica.jsf?aba=p-graduacao'>Acesse o site</a>)\n\n  \n\n  \n\n [Acesse o site](https://sigaa.uffs.edu.br/sigaa/public/diploma_digital/consulta_publica.jsf?aba=p-graduacao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-de-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufpa",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

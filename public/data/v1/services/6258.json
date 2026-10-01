@@ -1,0 +1,225 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6258",
+  "nome": "Obter diploma, certificado ou 2ª via - IFCE",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito um curso no Instituto, pode obter o seu diploma, certificado ou 2ª via seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Pró-Reitoria de Ensino: telefone: (85) 3401-2334.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 22363
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 23787,
+        "tipo": "Cidadãos e estrangeiros.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100911",
+    "dbId": 36753,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 37496
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "IFCE",
+        "id": 81629
+      },
+      {
+        "item": "DIPLOMA",
+        "id": 81630
+      },
+      {
+        "item": "CERTIFICADO",
+        "id": 81631
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 21246
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 48609,
+      "titulo": "Entrega de documentos",
+      "descricao": "A entrega dos documentos obedecerá ao estabelecido na Resolução N**º **62, de 28 de maio de 2018,que aprova alteração na redação que trata da emissão, registro e expedição de certificados e diplomas de ensino médio, técnicos, graduação e pós-graduação do IFCE.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 74418,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 74419,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 74420,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 74421,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 74422,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 74423,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 61797,
+            "tipo": "presencial",
+            "descricao": "Na instituição, Coordenação de Registros Acadêmicos.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 48610,
+      "titulo": "Recebimento do diploma.",
+      "descricao": "Diploma, certificado ou 2ª via serão entregues somente ao requerente ou ao procurador designado por ele, mediante apresentação de documento oficial com foto e assinatura do livro de registro.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 74424,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 74425,
+            "nome": "Carteira de identidade de estrangeiro"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 61798,
+            "tipo": "presencial",
+            "descricao": "Na instituição, Coordenação de Registros Acadêmicos.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "20",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-ifce",
+  "statusDestaque": false
+}

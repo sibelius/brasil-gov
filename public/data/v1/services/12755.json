@@ -1,0 +1,187 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12755",
+  "nome": "Simular o cálculo das rendas oferecidas em planos do tipo PGBL e VGBL",
+  "sigla": "",
+  "descricao": "O serviço permite, a partir de informações como o nº do processo SUSEP, nome da empresa e/ou informações técnicas do plano, como taxa de juros e tábua biométrica, a pesquisa dos planos da família PGBL e VGBL que tenham sido aprovados pela SUSEP e estejam aptos à comercialização ou já tenham sido comercializados, para que seja realizada uma simulação do cálculo das rendas oferecidas no plano selecionado, com base nos seus parâmetros técnicos cadastrados e nas demais informações solicitadas ao consulente em cada modalidade de renda simulada.",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o [link](https://www.gov.br/susep/pt-br/fale-conosco/fale-conosco) e selecione a opção aplicável, forneça as informações requeridas e aguarde retorno.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.susep.gov.br/safe/menumercado/PVGBL/Plano.aspx",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 42048
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 39521,
+        "tipo": "Pessoas físicas e jurídicas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235",
+    "dbId": 55943,
+    "nomeOrgao": "Superintendência de Seguros Privados (SUSEP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 63724
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 63725
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Adicionais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "SUSEP cálculo PGBL VGBL",
+        "id": 145943
+      },
+      {
+        "item": "SUSEP cálculo PVGBL",
+        "id": 145944
+      },
+      {
+        "item": "SUSEP cálculo PGBL",
+        "id": 145945
+      },
+      {
+        "item": "SUSEP cálculo VGBL ",
+        "id": 145946
+      },
+      {
+        "item": "SUSEP cálculo aposentadoria",
+        "id": 145947
+      },
+      {
+        "item": "SUSEP cálculo renda",
+        "id": 145948
+      },
+      {
+        "item": "SUSEP cálculo previdência",
+        "id": 145949
+      },
+      {
+        "item": "cálculo PGBL VGBL",
+        "id": 145950
+      },
+      {
+        "item": "cálculo PVGBL",
+        "id": 145951
+      },
+      {
+        "item": "cálculo PGBL",
+        "id": 145952
+      },
+      {
+        "item": "cálculo VGBL ",
+        "id": 145953
+      },
+      {
+        "item": "Susep",
+        "id": 145954
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 45614
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 31
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 84319,
+      "titulo": "Realizar Simulação",
+      "descricao": "No [link](https://www2.susep.gov.br/safe/menumercado/PVGBL/Plano.aspx ) , realize a pesquisa do plano a partir do preenchimento de um dos campos disponibilizados.\n\n Após a exibição da listagem de planos com os requisitos especificados, clicar no botão \"ver detalhes\" para o direcionamento à página com as informações técnicas específicas do plano selecionado.\n\n Na seção \"Modalidades de Renda\", clicar no botão calcular referente `a modalidade de renda desejada e fornecer as informações solicitadas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 107809,
+            "tipo": "web",
+            "descricao": "Acesse o [link](https://www2.susep.gov.br/safe/menumercado/PVGBL/Plano.aspx), realize a pesquisa do plano a partir do preenchimento de um dos campos disponibilizados, atenção para a opção \"ver opções de busca avançada\", que disponibiliza a exibição de mais campos para a pesquisa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "30",
+  "url": "https://www.gov.br/pt-br/servicos/simular-o-calculo-das-rendas-oferecidas-em-planos-do-tipo-pgbl-e-vgbl",
+  "statusDestaque": false
+}

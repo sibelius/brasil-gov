@@ -1,0 +1,283 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10713",
+  "nome": "Emitir Relatórios de Chaves Pix",
+  "sigla": "",
+  "descricao": "Os relatórios de chaves Pix mostram as chaves Pix que você cadastrou e a situação de cada uma delas.\n\n Os relatórios servem para você:\n\n  * consultar histórico e detalhes de suas chaves Pix cadastradas; e\n * conferir se existe alguma chave cadastrada em seu nome sem sua autorização.\n    \nVocê pode emitir dois tipos de relatório de chaves Pix: Relatório de chaves Pix atuais (com chaves ativas, bloqueadas judicialmente ou em reivindicação de posse ou em portabilidade) e Relatório de chaves Pix Completo (com as chaves atuais e o histórico das chaves excluídas).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](https://www.bcb.gov.br/meubc/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meubc.bcb.gov.br/meubc/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 99055
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84005,
+        "tipo": "Qualquer pessoa física ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 138094
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 138095
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Sistema Financeiro",
+        "id": 332974
+      },
+      {
+        "item": "Cadastro Clientes",
+        "id": 332975
+      },
+      {
+        "item": "Instituição Financeira",
+        "id": 332976
+      },
+      {
+        "item": "Chaves",
+        "id": 332977
+      },
+      {
+        "item": "Pix",
+        "id": 332978
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 115455
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 510,
+    "negativas": 373
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 192453,
+      "titulo": "Acessar o Registrato ou solicitar o relatório por outros canais",
+      "descricao": "**   **",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 263712,
+            "nome": "Acesso para pessoas físicas: nível prata ou ouro pela Conta gov.br, com a verificação em duas etapas habilitada.\n\n Acesso para empresas: certificado digital vinculado à Conta gov.br, nível prata ou ouro, com a verificação em duas etapas habilitada."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251592,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC.](http://meubc.bcb.gov.br/meubc/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 251593,
+            "tipo": "web",
+            "descricao": "Acesso pelo [Pedido de Informação](https://www.bcb.gov.br/meubc/solicitar_informacao).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 251594,
+            "tipo": "postal",
+            "descricao": "Siga as orientações aqui: [documentação para pessoa física ou jurídica.](https://www.bcb.gov.br/meubc/docs)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192454,
+      "titulo": "Receber o relatório de Chaves Pix Atuais",
+      "descricao": "Receba o relatório de Chaves Pix Atuais no próprio sistema após acesso com Conta govbr.\n\n Se a solicitação foi feita por correspondência ou pelo Pedido de Informação, o relatório será enviado no endereço ou no e-mail que você informou na solicitação. O relatório é sigiloso e só pode ser solicitado por você ou por alguém autorizado por você.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251595,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC.](http://meubc.bcb.gov.br/meubc/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192455,
+      "titulo": "Receber o Relatório de Chaves Pix Completo",
+      "descricao": "Receba o relatório de Chaves Pix Completo no próprio sistema em até dois dias úteis após a solicitação, utilizando Conta gov.br.\n\n Se a solicitação foi feita por correspondência ou pelo Pedido de Informação, o relatório será enviado no endereço ou no e-mail que você informou na solicitação. O relatório é sigiloso e só pode ser solicitado por você ou por alguém autorizado por você.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251596,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC.](http://meubc.bcb.gov.br/meubc/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7791",
+      "nome": "Emitir Relatório de Câmbio e Transferências Internacionais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7786",
+      "nome": "Emitir Relatório de Empréstimos e Financiamentos (SCR)"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7790",
+      "nome": "Emitir Relatório de Contas e Relacionamentos em Bancos"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7777",
+      "nome": "Emitir certidão negativa de Contas e Relacionamentos"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "58",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "S",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-relatorio-de-chaves-pix",
+  "statusDestaque": false
+}

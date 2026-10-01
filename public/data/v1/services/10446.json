@@ -1,0 +1,199 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10446",
+  "nome": "Solicitar outorga de autorização ou alteração de perfil de carga de Terminais Portuários Privados",
+  "sigla": "",
+  "descricao": "Esse ato refere-se à emissão da Declaração de Adequação do empreendimento às diretrizes do planejamento e das políticas do setor portuário e a expedição de autorização por meio de assinatura de contrato de adesão ou celebração de termo aditivo ao contrato da instalação portuária privada.",
+  "flagPortalLogado": "N",
+  "contato": "[leandro.oliveira@mpor.gov.br](mailto:leandro.oliveira@mpor.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/transportes/pt-br/servicos/protocolo-eletronico-super",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 55606
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 51200,
+        "tipo": "Empresa (Pessoa Jurídica)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308817",
+    "dbId": 58147,
+    "nomeOrgao": "Ministério de Portos e Aeroportos (MPOR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 80959
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Portos;",
+        "id": 192376
+      },
+      {
+        "item": "Outorga;",
+        "id": 192377
+      },
+      {
+        "item": "Aquaviário.",
+        "id": 192378
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 62891
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 111296,
+      "titulo": "Solicitar a emissão da declaração de adequação do empreendimento",
+      "descricao": "Emitir declaração de adequação do empreendimento após análise técnica quanto a solicitação em relação às diretrizes do planejamento e das políticas do setor portuário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 142849,
+            "tipo": "web",
+            "descricao": "Solicitar peticionamento eletrÃ´nico via SUPER. Acessar link abaixo:\n\n [Acesse o site](https://www.gov.br/transportes/pt-br/servicos/protocolo-eletronico-super)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 111297,
+      "titulo": "Solicitar a expedição de autorização para alteração do perfil de carga",
+      "descricao": "Expedir autorização por meio de assinatura de contrato de adesão ou celebração de termo aditivo ao contrato de instalação portuária privada.\n\n O pedido necessita de análise do processo realizado no âmbito da Antaq: verificação de documentos necessários, elaboração de minuta de documento e análise de viabilidade técnica e jurídica.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 142850,
+            "tipo": "web",
+            "descricao": "Protocolo digital.\n\n [Acesse aqui](https://www.gov.br/transportes/pt-br/servicos/protocolo-eletronico-super)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 142851,
+            "tipo": "presencial",
+            "descricao": "Protocolo do Ministério dos Transportes\n\n Esplanada dos Ministérios Bloco R\n\n Edifício Sede - Térreo\n\n CEP: 70044-902",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "37",
+  "url": "https://www.gov.br/pt-br/servicos/procedimento-para-outorga-de-autorizacao-ou-alteracao-de-perfil-de-carga-de-terminais-portuarios-privados-etapa-1",
+  "statusDestaque": false
+}

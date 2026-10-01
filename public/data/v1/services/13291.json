@@ -1,0 +1,159 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13291",
+  "nome": "Consultar Seguros",
+  "sigla": "",
+  "descricao": "Sistema para consulta dos registros dos seguros em que o(a) usuário (a) consta como segurado(a).\n\n Por ser um serviço disponibilizado via conta gov.br, o sistema é de acesso pessoal.\n\n Esta consulta inclui todos os seguros aceitos, tanto no Brasil quanto no exterior, por seguradoras brasileiras.\n\n Não estão disponíveis, neste momento, dados de seguros de pessoas com cobertura de risco estruturada no regime financeiro de repartição de capitais de cobertura (RCC) ou de capitalização, como VGBL, por exemplo.\n\n Há, também, a possibilidade de não retornarem dados de seguros contratados há menos de 7 dias úteis.\n\n  Além disso, o Sistema não disponibiliza os seguintes dados:\n\n  * planos de saúde e seguros saúde;\n * previdência privada aberta;\n * títulos de capitalização;\n * seguros fora do período de vigência; e\n * de empresas participantes do Sandbox regulatório (consulte a lista [na página do Sandbox Regulatório da Susep](https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/ \"na página do Sandbox Regulatório da Susep\")).\n   \n\n Ainda com dúvidas? Veja as respostas para as principais perguntas na página [Perguntas Frequentes](https://www.gov.br/susep/pt-br/servicos/cidadao/consultar-seguros/perguntas-e-respostas \"na página Perguntas Frequentes!\")!",
+  "flagPortalLogado": "N",
+  "contato": "Ao acessar o sistema, verifique primeiro se o tipo de seguro está entre os já disponíveis e se foi contratado com empresa autorizada pela Susep, cuja relação pode ser consultada na [página de Entidades Licenciadas](https://www.gov.br/pt-br/servicos/consultar-entidades-licenciadas-pela-susep).  \n O sistema apresenta apenas seguros em que o cidadão consta como segurado, não incluindo informações de beneficiários.\n\n Caso a apólice não seja localizada ou haja divergência de dados, contate inicialmente a seguradora, pelo atendimento ou ouvidoria, ou registre manifestação no Consumidor.gov.br, solicitando esclarecimentos ou regularização.\n\n Persistindo o problema, entre em contato com a Ouvidoria da Susep pelo Fala.BR, informando o número de protocolo e a resposta recebida.  \n Para mais detalhes, consulte a [página de Perguntas Frequentes](https://www.gov.br/susep/pt-br/servicos/cidadao/consultar-seguros/perguntas-e-respostas).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.susep.gov.br/safe/apolices/app/apolice/pesquisa-publica",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "consulta de seguros susep",
+        "id": 115136
+      },
+      {
+        "item": "consulta de seguros",
+        "id": 115137
+      },
+      {
+        "item": "consulta de apolices",
+        "id": 115138
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96856,
+        "tipo": "Cidadão que deseja consultar se há certificado/apólice de Seguro emitido por empresa autorizada pela Susep vinculado ao seu CPF.",
+        "requisitos": "* Estar inscrito no Cadastro de Pessoas Físicas (CPF).\n * Possuir conta [GOV.BR](https://www.gov.br/governodigital/pt-br/conta-gov-br) nível PRATA ou OURO."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235",
+    "dbId": 55943,
+    "nomeOrgao": "Superintendência de Seguros Privados (SUSEP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 160765
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Sistemas e Bases de Dados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Seguros",
+        "id": 384899
+      },
+      {
+        "item": "segurado",
+        "id": 384900
+      },
+      {
+        "item": "apólices",
+        "id": 384901
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Todas as informações vêm do Sistema de Registro de Operações (SRO), um projeto de modernização do envio de dados à Susep pelo mercado supervisionado. O sistema foi instituído pela Resolução CNSP nº 383/2020 e você encontra mais informações e toda a sua regulamentação clicando [na ](https://www.gov.br/susep/pt-br/assuntos/sistema-de-registro-de-operacoes)[página da Susep sobre o SRO](https://www.gov.br/susep/pt-br/assuntos/sistema-de-registro-de-operacoes).",
+        "id": 136071
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 290,
+    "negativas": 757
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 225068,
+      "titulo": "Consultar registros de Seguros",
+      "descricao": "Ao acessar o sistema você será automaticamente direcionado a lista contendo os dados básicos dos seguros em que você consta como segurado(a).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 291715,
+            "tipo": "web-consultar",
+            "descricao": "[Consultar Seguros](https://www2.susep.gov.br/safe/apolices/app/apolice/pesquisa-publica \"Consultar Seguros\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "28",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/sistema-de-consulta-de-seguros",
+  "statusDestaque": true
+}

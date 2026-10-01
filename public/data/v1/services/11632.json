@@ -1,0 +1,422 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11632",
+  "nome": "Solicitar avaliação de Dose por Dosimetria Citogenética",
+  "sigla": "",
+  "descricao": "A Dosimetria Citogenética é uma técnica para avaliação da dose após a superexposição acidental de um indivíduo à radiação ionizante. Esta técnica é baseada na análise das alterações cromossômicas através da busca da presença de anéis dicêntricos em células de linfócitos em metáfase, presentes no sangue. Esta anomalia é específica para danos causados pela radiação, o que faz com que esta técnica seja considerada padrão ouro para a biodosimetria.\n\n Esta técnica é aplicável apenas para doses absorvidas acima de 150 mGy e se realizada em um prazo máximo de 6 meses após o evento de superexposição.",
+  "flagPortalLogado": "S",
+  "contato": "Laboratório de Biodosimetria  Divisão de Dosimetria-DIDOS Instituto de Radioproteção e Dosimetria-IRD Comissão Nacional de Energia nuclear-CNEN Av. Salvador Allende, 3773 - Barra da Tijuca - Rio de Janeiro/RJ CEP: 22783-127 Telefone: (21) 2442-8383 E-mail: citogenetica@ird.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126271
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105618,
+        "tipo": "* Indivíduos ocupacionalmente expostos ou membros do público que sofreram acidentalmente superexposição à radiação ionizante;\n * Pessoas Físicas ou Jurídicas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "30",
+      "max": "40",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 30,
+    "max": 40
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176551
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176552
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176553
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Análises"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Dosimetria Citogenética",
+        "id": 420563
+      },
+      {
+        "item": "Avaliação de Dose Dosimetria Citogenética",
+        "id": 420564
+      },
+      {
+        "item": "IRD",
+        "id": 420565
+      },
+      {
+        "item": "CNEN",
+        "id": 420566
+      },
+      {
+        "item": "",
+        "id": 420567
+      },
+      {
+        "item": "",
+        "id": 420568
+      },
+      {
+        "item": "",
+        "id": 420569
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151554
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246531,
+      "titulo": "Preencher o questionário",
+      "descricao": "O solicitante deverá preencher o questionário online.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318808,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=11632)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246532,
+      "titulo": "Aguardar Análise da documentação referente à superexposição",
+      "descricao": "Nessa etapa serão avaliadas os dados informados no questionário, bem alguma documentação anexada, comprovando o evento de exposição para verificar a pertinência de realização do exame.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318809,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246533,
+      "titulo": "Tomar ciência da dispensabilidade ou pertinência do exame",
+      "descricao": "O solicitante toma ciência do resultado da análise da documentação anexada ao formulário inicial. Uma vez avaliada pertinência da superexposição e configurada a necessidade de realização do exame, será gerada uma Guia de Recolhimento da União (GRU) para download no Portal e pagamento da taxa referente ao serviço.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318810,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246534,
+      "titulo": "Realizar pagamento da GRU e enviar comprovante",
+      "descricao": "Realizado o pagamento da GRU, o solicitante deverá fazer um upload do comprovante de pagamento no Portal e aguardar a confirmação, pelo IRD, do pagamento efetuado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41469,
+            "descricao": "taxa referente ao serviço",
+            "moeda": "R$",
+            "valor": " 1.390,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318811,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246535,
+      "titulo": "Agendar entrega de amostra",
+      "descricao": "Depois de confirmado o pagamento, o solicitante deverá agendar com o Laboratório de Biodosimetria do IRD o envio da amostra de sangue para análise.\n\n **OBS: O Laboratório de Biodosimetria do IRD não realiza a coleta de sangue utilizada para essa análise e nem o transporte. **",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322369,
+            "nome": "Comprovante de pagamento da GRU."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318812,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246536,
+      "titulo": "Coletar e enviar amostra",
+      "descricao": "A amostra deverá ser coletada e encaminhada para o Laboratório de Biodosimetria do IRD, seguindo os protocolos de coleta de sangue para análise citogenética, sendo de responsabilidade do solicitante: a coleta de forma adequada e o transporte da amostra até o Laboratório de Biodosimetria do IRD.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318813,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246537,
+      "titulo": "Receber resultado",
+      "descricao": "Finalizada a análise, o solicitante receberá um Relatório com o resultado da análise para download no Portal.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318814,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "40",
+  "percentualAvaliacoesPositivas": "77",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-avaliacao-de-dose-por-dosimetria-citogenetica",
+  "statusDestaque": true
+}

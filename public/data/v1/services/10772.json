@@ -1,0 +1,155 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10772",
+  "nome": "Consultar sistema de controle de produção de cigarros",
+  "sigla": "Scorpios",
+  "descricao": "Consulte o Sistema de Controle e Rastreamento da Produção de Cigarros (Scorpios).\n\n O Scorpios é composto por equipamentos contadores de produção, para o controle, registro, gravação e transmissão dos quantitativos medidos pela Receita Federal.\n\n Os equipamentos possibilitam, ainda, o rastreamento dos produtos em todo o território nacional, para identificar a origem e reprimir a produção e importação ilegais, bem como, a comercialização de produtos falsificados.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre Registros Especiais](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/regimes-e-controles-especiais)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://scorpios.cmb.gov.br/home.seam",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123502
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103227,
+        "tipo": "* Empresa fabricante de cigarros\n * Empresa importadora de cigarros com finalidade comercial",
+        "requisitos": "A empresa deve ser previamente habilitada para acessar o sistema pela Receita Federal.\n\n A data da habilitação é informada em Ato Declaratório Executivo (ADE) que inscreve o estabelecimento no registro especial para produtores e importadores de cigarros. O ADE é emitido pela Coordenação-Geral de Fiscalização (Cofis) da Receita Federal e publicado no Diário Oficial da União (DOU)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172732
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Regimes Especiais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cigarro",
+        "id": 411016
+      },
+      {
+        "item": "Registro",
+        "id": 411017
+      },
+      {
+        "item": "Controle Fiscal",
+        "id": 411018
+      },
+      {
+        "item": "Cigarrilha",
+        "id": 411019
+      },
+      {
+        "item": "Charuto",
+        "id": 411020
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 769/2007](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15717&visao=original)",
+        "id": 148516
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240924,
+      "titulo": "Consultar o sistema",
+      "descricao": "Acesse o Scorpios utilizando certificado digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311080,
+            "tipo": "web-consultar",
+            "descricao": "[Scorpios](https://scorpios.cmb.gov.br/home.seam)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-sistema-de-controle-de-producao-de-cigarros",
+  "statusDestaque": false
+}

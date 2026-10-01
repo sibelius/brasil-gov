@@ -1,0 +1,255 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5231",
+  "nome": "Solicitar Desistência/Encerramento/Renúncia de Benefício",
+  "sigla": "",
+  "descricao": "Serviço para:\n\n  * informar a desistência e pedir cancelamento de um benefício, desde que a pessoa não tenha recebido o primeiro pagamento, nem feito o saque do PIS/PASEP/FGTS;\n * encerrar o benefício em virtude do falecimento do titular do benefício; e\n * cessar a cota/benefícios de pensão por morte ou auxílio-reclusão.\n    \nEste pedido é realizado totalmente pela internet, você não precisa ir ao INSS.",
+  "flagPortalLogado": "N",
+  "contato": "Ligue para a Central de Atendimento do INSS pelo telefone 135.\n\n  \n\n O serviço está disponível de segunda a sábado das 7h às 22h (horário de Brasília).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meu.inss.gov.br/central/#/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Desistir de: Aposentadoria, Cota de Pensão por Morte ou Auxílio-Reclusão",
+        "id": 125309
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104855,
+        "tipo": "Pessoa que deseja abrir mão do benefício concedido. Ou, pedir encerramento do benefício de pessoa falecida.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934",
+    "dbId": 36802,
+    "nomeOrgao": "Instituto Nacional do Seguro Social (INSS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175305
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Benefícios"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "RENUNCIAR",
+        "id": 417411
+      },
+      {
+        "item": "PENSÃO POR MORTE",
+        "id": 417412
+      },
+      {
+        "item": "AUXÍLIO RECLUSÃO",
+        "id": 417413
+      },
+      {
+        "item": "desistir",
+        "id": 417414
+      },
+      {
+        "item": "aposentadoria",
+        "id": 417415
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150513
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 246,
+    "negativas": 480
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 244757,
+      "titulo": "Pedir o serviço",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga para **Do que você precisa?**\n * Digite: *Solicitar desistência*\n * Escolha o serviço\n * Avance conforme as orientações",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320832,
+            "nome": "**Da pessoa titular:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)"
+          },
+          {
+            "id": 320833,
+            "nome": "**Para desistir de Aposentadoria:**\n\n  * Carta de concessão/memória de cálculo e certidão PIS/PASEP/FGTS (via recebida por meio dos Correios)\n * Declaração da Caixa Econômica Federal / Banco do Brasil, informando se houve o saque do FGTS ou PIS/PASEP em nome do segurado\n * Declaração de não recebimento de pagamentos do benefício\n * No caso de empresa com acordo de cooperação com o INSS, declaração informando o não recebimento do benefício"
+          },
+          {
+            "id": 320834,
+            "nome": "**Para desistir de cota de Pensão por Morte ou Auxílio-Reclusão:**\n\n  * Número do benefício"
+          },
+          {
+            "id": 320835,
+            "nome": "**Da pessoa com procuração ou representação legal, se houver:**\n\n  * Identificação - RG, CIN, CNH ou CTPS\n * Cadastro de Pessoa Física (CPF)\n * Procuração no modelo do INSS ou pública\n * Termo de representação legal - tutela, curatela ou termo de guarda"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316451,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316452,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316453,
+            "tipo": "telefone",
+            "descricao": "Ligue 135, caso o sistema esteja indisponível.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316454,
+            "tipo": "presencial",
+            "descricao": "Se necessário atendimento presencial:\n\n  * Agende pelo telefone 135, ou\n * Busque uma unidade que tenha [acordo](https://www.gov.br/inss/pt-br/canais_atendimento/acts) com o INSS na sua região",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244758,
+      "titulo": "Receber resposta",
+      "descricao": "* Entre no Meu INSS\n * Informe seu CPF e senha\n * Siga no botão **Consultar Pedidos**\n * Encontre o seu pedido na lista\n * Detalhe para mais dados",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316455,
+            "tipo": "aplicativo-movel",
+            "descricao": "Baixe o Meu INSS no [Google Play](https://play.google.com/store/apps/details?id=br.gov.dataprev.meuinss&hl=pt_BR) ou [App Store](https://itunes.apple.com/br/app/meu-inss/id1243048358?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 316456,
+            "tipo": "web-consultar",
+            "descricao": "[Site do Meu INSS](http://gov.br/meuinss)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "34",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-desistencia-encerramento-renuncia-de-beneficio",
+  "statusDestaque": false
+}

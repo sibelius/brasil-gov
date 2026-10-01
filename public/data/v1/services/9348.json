@@ -1,0 +1,229 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9348",
+  "nome": "Solicitar a substituição do administrador responsável pelo gerenciamento dos Tablets Educacionais",
+  "sigla": "",
+  "descricao": "​Alterar o responsável por gerenciar as indicações dos usuários dos Tablets Educacionais nos Estados, Municípios e no Distrito Federal.",
+  "flagPortalLogado": "S",
+  "contato": "Portal do Tablet Educacional: https://www.fnde.gov.br/tableteducacional/inicio\n\n Caso o solicitante tenha alguma dúvida, segue abaixo o link para download do manual do sistema de gestão administrativa do Tablet Educacional.\n\n http://www.fnde.gov.br/manuais/index.php?option=com\\_k2&view=item&layout=item&id=21&Itemid=164\n\n Fale Conosco: 0800-616161 de segunda a sexta-feira, das 8h às 20h\n\n Plataforma Fala/Br: <https://falabr.cgu.gov.br/>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126019
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105415,
+        "tipo": "Núcleos de Tecnologia Educacional e Secretarias de Educação Municipais, Estaduais e do Distrito Federal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/253",
+    "dbId": 34339,
+    "nomeOrgao": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176184
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação básica"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Tablets Educacionais",
+        "id": 419709
+      },
+      {
+        "item": "Equipamentos escolares",
+        "id": 419710
+      },
+      {
+        "item": "FNDE",
+        "id": 419711
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151254
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 18
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246010,
+      "titulo": "Solicitação",
+      "descricao": "O solicitante, por meio do e-mail proinfo@fnde.gov.br , informa o nome completo e o CPF do administrador que será incluído no sistema",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318172,
+            "tipo": "e-mail",
+            "descricao": "proinfo@fnde.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246011,
+      "titulo": "Verificação de usuário",
+      "descricao": "De posse dos dados, a equipe técnica verifica se o usuário integra o banco de dados de professores, técnicos ou multiplicadores elegíveis.\n\n Caso o usuário integre o banco de dados, a equipe técnica realizará a substituição do administrador;",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318173,
+            "tipo": "web",
+            "descricao": "<https://solicitacao.servicos.gov.br/processos/iniciar?CodServico=9348>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246012,
+      "titulo": "Execução da substituição",
+      "descricao": "A equipe técnica confirma a execução da substituição e formaliza a finalização do atendimento da demanda.​",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318174,
+            "tipo": "e-mail",
+            "descricao": "proinfo@fnde.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "28",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-a-substituicao-do-administrador-responsavel-pelo-gerenciamento-dos-tablets-educacionais",
+  "statusDestaque": false
+}

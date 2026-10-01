@@ -1,0 +1,376 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11277",
+  "nome": "Obter Certificado de Autorização de Voo Experimental para exibição, competição aérea, construção amadora, categoria primária e leve esportiva",
+  "sigla": "CAVE",
+  "descricao": "Verifica a adequação da aeronave ao requisito 21.191, culminando com a emissão do Certificado de Autorização de Voo Experimental (CAVE) para os propósitos de construção amadora, exibição, competição aérea, aeronave leve esportiva experimental e aeronave categoria primária montada a partir de kit,  documento que permite o voo da aeronave.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 87349
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74898,
+        "tipo": "Proprietário de aeronave e seus representantes legais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121311
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121312
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 121313
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 121314
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 294547
+      },
+      {
+        "item": "CAVE",
+        "id": 294548
+      },
+      {
+        "item": "Experimental",
+        "id": 294549
+      },
+      {
+        "item": "CA especial",
+        "id": 294550
+      },
+      {
+        "item": "aeronavegabilidade",
+        "id": 294551
+      },
+      {
+        "item": "construção amadora",
+        "id": 294552
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 100268
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460, de 2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 169372,
+      "titulo": "Solicitar CAVE",
+      "descricao": "O requerente deverá enviar os documentos listados abaixo diretamente pelo peticionamento eletrônico do SEI.\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235470,
+            "nome": "Todos documentos requeridos pelo formulário [F-100-50B](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=100-50&Rev=B)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28001,
+            "descricao": "TFAC Cód. 012202",
+            "moeda": "R$",
+            "valor": " 400,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222050,
+            "tipo": "web",
+            "descricao": "Enviar a documentação pelo [peticionamento eletrônico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) do SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37445,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 222049,
+                "tipo": "web",
+                "descricao": "[Clique aqui](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169373,
+      "titulo": "Solucionar pendências e/ou apresentar informações adicionais",
+      "descricao": "O requerente deverá providenciar a solução ou esclarecimentos para as pendências identificadas na etapa anterior.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222051,
+            "tipo": "web-acompanhar",
+            "descricao": "Acompanhar o andamento do processo pelo SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169374,
+      "titulo": "Receber Vistoria Técnica",
+      "descricao": "A aeronave e sua documentação serão inspecionadas por servidores da ANAC ou Profissionais Credenciados autorizados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235471,
+            "nome": "Todos documentos requeridos pelo formulário [F-100-85B](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=100-85&Rev=B)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222052,
+            "tipo": "presencial",
+            "descricao": "A vistoria deve ser realizada presencialmente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 169375,
+      "titulo": "Solucionar pendências de vistoria",
+      "descricao": "O requerente deverá providenciar a solução ou esclarecimentos para as pendências identificadas na etapa anterior.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222053,
+            "tipo": "web-acompanhar",
+            "descricao": "Acompanhar o andamento do processo pelo SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169376,
+      "titulo": "Aguardar emissão do CAVE",
+      "descricao": "A ANAC emite CAVE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222054,
+            "tipo": "web-acompanhar",
+            "descricao": "Acompanhar o andamento do processo pelo SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "55",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-de-autorizacao-de-voo-experimental-para-aerodesporto",
+  "statusDestaque": false
+}

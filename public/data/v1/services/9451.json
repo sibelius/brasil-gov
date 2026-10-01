@@ -1,0 +1,283 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9451",
+  "nome": "Obter autorização da Antaq para antecipação de receitas de autoridades portuárias.",
+  "sigla": "",
+  "descricao": "Permite que autoridades portuárias solicitem à Antaq a antecipação de receitas de tarifas junto aos usuários para fins de realização de investimentos imediatos na infraestrutura custeada pela tarifa, respeitado o equilíbrio das contas da administração portuária, conforme estabelecido no art. 42-B do Decreto nº 8.033, 27 de junho de 2013.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações ou dúvidas sobre este serviço, entre em contato pelo e-mail [GRP@antaq.gov.br](mailto:GRP@antaq.gov.br?subject=INFORMA%C3%87%C3%95ES%20E%20D%C3%9AVIDAS%20SOBRE%20SERVI%C3%87O%20DA%20ANTAQ)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Antecipação de receitas",
+        "id": 30869
+      },
+      {
+        "item": "Autoridades Portuárias",
+        "id": 30870
+      },
+      {
+        "item": "Tarifas",
+        "id": 30871
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 30522,
+        "tipo": "Autoridades Portuárias",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 48684
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 48685
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Antecipação de Receitas",
+        "id": 109513
+      },
+      {
+        "item": "Autoridades Portuárias",
+        "id": 109514
+      },
+      {
+        "item": "Tarifas",
+        "id": 109515
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "*  [Lei nº 9.784, de 29 de janeiro de 1999](http://www.planalto.gov.br/ccivil_03/leis/l9784.htm)",
+        "id": 31186
+      },
+      {
+        "item": "*  [Lei nº 10.233, de 5 de junho de 2001](http://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10233.htm)",
+        "id": 31187
+      },
+      {
+        "item": "*  [Lei n° 12.815, de 5 de junho de 2015](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12815.htm#:~:text=1%C2%BA%20Esta%20Lei%20regula%20a,e%20arrendamento%20de%20bem%20p%C3%BAblico.)",
+        "id": 31188
+      },
+      {
+        "item": "*  [Decreto nº 8.033, 27 de junho de 2013](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d8033.htm#:~:text=DECRETO%20N%C2%BA%208.033%2C%20DE%2027%20DE%20JUNHO%20DE%202013&text=Regulamenta%20o%20disposto%20na%20Lei,organizados%20e%20de%20instala%C3%A7%C3%B5es%20portu%C3%A1rias.)",
+        "id": 31189
+      },
+      {
+        "item": "* [Resolução ANTAQ nº 48, de 13 de julho de 2021](https://www.in.gov.br/web/dou/-/resolucao-antaq-n-48-de-13-de-julho-2021-332153959)",
+        "id": 31190
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460, de 2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460, de 2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 63746,
+      "titulo": "1ª Etapa: Solicitar a autorização da Antaq",
+      "descricao": "Encaminhar à Antaq, por um dos canais disponíveis, requerimento quanto à autorização para proceder com a antecipação de receitas de tarifas, acompanhado da documentação necessária prevista em normativo da Agência Reguladora.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 91837,
+            "nome": "Documentação prevista na Resolução ANTAQ nº 48, de 13 de julho de 2021."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81911,
+            "tipo": "presencial",
+            "descricao": "Na sede da Antaq, em Brasília/DF, ou em suas unidades regionais e postos avançados.\n\n Os endereços podem ser obtidos no endereço eletrônico [https://www.gov.br/antaq/pt-br/canais\\_atendimento/atendimento-presencial](https://www.gov.br/../../antaq/pt-br/canais_atendimento/atendimento-presencial)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 81912,
+            "tipo": "postal",
+            "descricao": "Enviar para a sede da Antaq, em Brasília/DF, ou para uma de suas unidades regionais ou postos avançados.\n\n Os endereços podem ser obtidos no endereço eletrônico [https://www.gov.br/antaq/pt-br/canais\\_atendimento/atendimento-presencial](https://www.gov.br/../../antaq/pt-br/canais_atendimento/atendimento-presencial)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 81913,
+            "tipo": "web",
+            "descricao": "Pelo Sistema Eletrônico de Informações (SEI) em [https://sei.antaq.gov.br/sei/controlador\\_externo.php?acao=usuario\\_externo\\_logar&id\\_orgao\\_acesso\\_externo=0](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63747,
+      "titulo": "2ª Etapa: Acompanhar - Apreciação e manifestação técnica - Gerência de Regulação Portuária (GRP).",
+      "descricao": "A GRP procede com a devida análise e manifestação técnica do pleito e encaminha os autos para apreciação e deliberação da Superintendência de Regulação (SRG).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81914,
+            "tipo": "web",
+            "descricao": "O acompanhamento pode ser feito por meio doÂ [SEI](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "25",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 25
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63748,
+      "titulo": "3ª Etapa: Acompanhar - Decisão quanto ao pleito - Superintendência de Regulação (SRG)",
+      "descricao": "Deliberação da SRG em relação ao pleito e comunicação ao requerente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81915,
+            "tipo": "web",
+            "descricao": "O acompanhamento pode ser feito por meio doÂ [SEI](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "11",
+  "url": "https://www.gov.br/pt-br/servicos/analise-de-antecipacao-de-receitas-de-autoridades-portuarias",
+  "statusDestaque": true
+}

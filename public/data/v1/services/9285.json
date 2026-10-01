@@ -1,0 +1,187 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9285",
+  "nome": "Registrar reclamação sobre problema não resolvido pela distribuidora",
+  "sigla": "",
+  "descricao": "Consiste em registrar reclamação sobre algum problema não resolvido pela distribuidora de energia elétrica, como falta de energia, não recebimento da fatura, e outros.\n\n Antes de efetuar a reclamação na ANEEL, o interessado deve buscar solucionar o seu problema diretamente com a distribuidora e, caso esse problema não seja solucionado, entrar em contato com o serviço de ouvidoria da empresa.",
+  "flagPortalLogado": "N",
+  "contato": "https://www.gov.br/aneel/pt-br/canais\\_atendimento/fale-conosco1",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/aneel/pt-br/canais_atendimento/reclame-da-distribuidora",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 103583
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 87377,
+        "tipo": "Consumidores de energia elétrica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/21089",
+    "dbId": 909,
+    "nomeOrgao": "Agência Nacional de Energia Elétrica (ANEEL)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 144269
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 144270
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 144271
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 144272
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Defesas e recursos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Aneel",
+        "id": 347058
+      },
+      {
+        "item": "Relacionamento com consumidor",
+        "id": 347059
+      },
+      {
+        "item": "Registro de reclamação",
+        "id": 347060
+      },
+      {
+        "item": "",
+        "id": 347061
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 120526
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 189,
+    "negativas": 726
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "As pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue terão atendimento prioritário, nos termos da Lei n.º14.626, de 2023.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n · Urbanidade;  \n · Respeito;  \n · Acessibilidade;  \n · Cortesia;  \n · Presunção da boa-fé do usuário;  \n · Igualdade;  \n · Eficiência;  \n · Segurança; e  \n · Ética",
+  "etapas": [
+    {
+      "id": 201559,
+      "titulo": "Registrar reclamação",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 262652,
+            "tipo": "web",
+            "descricao": "<https://www2.aneel.gov.br/faleconosco/login.asp?pFicar=1>\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 262653,
+            "tipo": "telefone",
+            "descricao": "* Telefone 167 (de segunda a sábado, das 8h às 20h)\n * Telefone 0800 7270167 (de segunda a sábado, das 8h às 20h)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 262654,
+            "tipo": "aplicativo-movel",
+            "descricao": "Assistente virtual: ChatBot Aplicativo para celular: ANEEL Consumidor (Android https://play.google.com/store/apps/details?id=br.gov.aneel.ouvidoria e IOS https://itunes.apple.com/br/app/aneel-consumidor/id1376789654?mt=8)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "21",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-reclamacao-sobre-demanda-junto-a-distribuidora-de-energia-eletrica-ANEEL",
+  "statusDestaque": false
+}

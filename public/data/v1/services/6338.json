@@ -1,0 +1,161 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6338",
+  "nome": "Acessar Serviço de Apoio Psicossocial - UNIR",
+  "sigla": "SAP",
+  "descricao": "Serviço destinado ao acolhimento e atendimento psicossocial em caráter preventivo, informativo e de orientação, promovendo o desenvolvimento e adaptação do discente ao contexto universitário.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: sap@unir.br e assistenciaestudantil@unir.br \n\n Telefone (69) 2182 2211",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.procea.unir.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Atendimento Psicológico",
+        "id": 70512
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 62524,
+        "tipo": "Alunos matriculados em cursos da UNIR",
+        "requisitos": "Requisitos necessários: Ser aluno regularmente matriculado na UNIR"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1209",
+    "dbId": 34320,
+    "nomeOrgao": "Fundação Universidade Federal de Rondônia (UNIR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 98437
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Discentes",
+        "id": 241069
+      },
+      {
+        "item": "Matriculados UNIR",
+        "id": 241070
+      },
+      {
+        "item": "Todos alunos",
+        "id": 241071
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 79672
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 139595,
+      "titulo": "Agendamento por meio eletrônico",
+      "descricao": "Encaminhar solicitação para agendamento via e-mail e wattsapp",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180898,
+            "tipo": "e-mail",
+            "descricao": "[s](https://www.gov.br/../../www.processoseletivo.unir.br)ap@unir.br  e acompanhamentoestudantil@unir.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 180899,
+            "tipo": "aplicativo-movel",
+            "descricao": "Wattsapp (69) 2182 2211",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/6072",
+      "nome": "Obter Assistência Estudantil - UNIR"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "52",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-servico-de-apoio-psicossocial-unir-sap",
+  "statusDestaque": false
+}

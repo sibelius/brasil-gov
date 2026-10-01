@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2277",
+  "nome": "Solicitar alocação de recursos computacionais do Centro de Tecnologia Estratégica do Nordeste",
+  "sigla": "",
+  "descricao": "O CETENE disponibiliza para grupos de pesquisas regionais acesso à plataforma de computação de alto desempenho, por meio do Cluster Neumann II. Os projetos aprovados podem executar remotamente simulações de sistemas complexos usando os recursos computacionais do cluster.\n\n",
+  "flagPortalLogado": "N",
+  "contato": "Para maiores informações, ligue para (81) 3334-7200, no horário de 08:00 - 17:00 ou mande a sua dúvida por meio do endereço prestacaodeservico@cetene.gov.\n\n",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 20230
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 22103,
+        "tipo": "Pesquisadores de empresas e instituições de pesquisa públicas e privadas.\n\n",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 34623
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Suporte Digital"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "computador",
+        "id": 74266
+      },
+      {
+        "item": "recursos",
+        "id": 74267
+      },
+      {
+        "item": "Cluster Neumann",
+        "id": 74268
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 18854
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n ",
+  "etapas": [
+    {
+      "id": 44769,
+      "titulo": "Enviar formulário",
+      "descricao": "Para solicitar o serviço, o pesquisador responsável pela solicitação deverá encaminhar o pedido de acesso ao cluster Neumann II para prestacaodeservico@cetene.gov.br, com uma descrição sucinta da necessidade de recursos computacionais. Em seguida, o CETENE enviará ao solicitante o formulário para preenchimento detalhado das informações.\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 69850,
+            "nome": "Formulário de solicitação\n\n"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 56514,
+            "tipo": "e-mail",
+            "descricao": "O solicitante deverá encaminhar email para prestacaodeservico@cetene.gov.br.\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 44770,
+      "titulo": "Utilizar recursos computacionais",
+      "descricao": "Após a análise do pedido de recursos computacionais, serão criadas as contas no cluster HPC Neumann II. O pesquisador deverá trocar a senha no primeiro acesso, conforme descrito no endereço http://antigo.cetene.gov.br/cluster/.\n\n",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 56515,
+            "tipo": "web",
+            "descricao": "Essa etapa ocorre de forma remota por meio do serviço SSH (*Secure Socket Shell*).\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-alocacao-de-recursos-computacionais-do-centro-de-tecnologia-estrategica-do-nordeste",
+  "statusDestaque": false
+}

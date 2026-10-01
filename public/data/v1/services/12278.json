@@ -1,0 +1,169 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12278",
+  "nome": "Obter dados da Rede SONDA",
+  "sigla": "SONDA INPE",
+  "descricao": "Este serviço permite acesso a base de dados solarimétricos e anemométricos da rede SONDA de dados ambientais. O usuário poderá obter arquivos CSV contendo dados de qualquer das estações de coleta em superfície da rede SONDA, operada desde 2004 pelo Instituto Nacional de Pesquisas Espaciais (INPE).",
+  "flagPortalLogado": "N",
+  "contato": "Contatar email [sonda@inpe.br](mailto:sonda@inpe.br) ou telefone (12) 3208-7908",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sonda.ccst.inpe.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Rede SONDA",
+        "id": 29793
+      },
+      {
+        "item": "Projeto SONDA",
+        "id": 29794
+      },
+      {
+        "item": "SONDA INPE",
+        "id": 29795
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 29649,
+        "tipo": "Cidadãos interessados em medições de potencial solar e eólico no Brasil e variáveis meteorológicas associadas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Indeterminada"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 47162
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 47163
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 47164
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 47165
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Dados ambientais ",
+        "id": 105792
+      },
+      {
+        "item": "Energia Solar ",
+        "id": 105793
+      },
+      {
+        "item": "Energia Eólica",
+        "id": 105794
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 29891
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [lei nº13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [lei 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança; e Ética.",
+  "etapas": [
+    {
+      "id": 61842,
+      "titulo": "Acessar website com repositório de dados da Rede SONDA (INPE)",
+      "descricao": "Acessar o website da Rede SONDA e selecionar a estação de superfície, o período e o tipo de dado de interesse e fazer o download instantâneo para a máquina local do usuário via FTP.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 79515,
+            "tipo": "web",
+            "descricao": "<http://sonda.ccst.inpe.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "url": "https://www.gov.br/pt-br/servicos/obter-dados-da-rede-sonda-sonda-inpe",
+  "statusDestaque": false
+}

@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10854",
+  "nome": "Acompanhar parcelamento excepcional de 2006",
+  "sigla": "PAEX",
+  "descricao": "O Parcelamento Excepcional de 2006 (PAEX) é um tipo de parcelamento de débitos fiscais para pessoas jurídicas com dívidas com a Receita Federal (RFB), Procuradoria Geral da Fazenda Nacional (PGFN) e o Instituto Nacional do Seguro Social (INSS).\n\n Através deste serviço você pode consultar o extrato do parcelamento e emitir parcelas.\n\n O prazo de adesão está encerrado.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre o PAEX](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/parcelamentos-especiais/parcelamento-excepcional-2013-paex-2013-mp-no-303-2006-1/orientacoes-gerais/orientacoes-gerais)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121821
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101889,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 169878
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Parcelamento",
+        "id": 405217
+      },
+      {
+        "item": "Parcelamento Especial",
+        "id": 405218
+      },
+      {
+        "item": "PAEX",
+        "id": 405219
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[MP nº 303/2006](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/mpv/303.htm)",
+        "id": 145619
+      },
+      {
+        "item": "[Instrução Normativa SRF nº 663/2006](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=15601) (Revogada pela Instrução Normativa RFB nº 1.949/2020)",
+        "id": 145620
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 25
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237457,
+      "titulo": "Acompanhar o parcelamento",
+      "descricao": "Acesse o sistema para consultar o extrato parcelamento especial.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306531,
+            "tipo": "web",
+            "descricao": "[Extrato do parcelamento](https://servicos.receita.fazenda.gov.br/Servicos/paex/PaexExtrato/PaexExtrato_P1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 306532,
+            "tipo": "web",
+            "descricao": "[Consulta situação do Paex de 120 meses](https://servicos.receita.fazenda.gov.br/Servicos/paex/PaexConsultaSituacao/PaexConsultaSituacao120Meses/PaexConsultaSituacao120_P1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 306533,
+            "tipo": "web",
+            "descricao": "[Consulta situação do Paex de 130 meses](https://servicos.receita.fazenda.gov.br/Servicos/paex/PaexConsultaSituacao/PaexConsultaSituacao130Meses/PaexConsultaSituacao130_P1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 306534,
+            "tipo": "web",
+            "descricao": "[Consulta Declaração do Paex](https://servicos.receita.fazenda.gov.br/Servicos/paex/PaexConsultaPGD/PaexConsultaPGD_P1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acompanhar-parcelamento-excepcional-de-2006",
+  "statusDestaque": false
+}

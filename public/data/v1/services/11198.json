@@ -1,0 +1,206 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11198",
+  "nome": "Obter instalação de ponto de água e/ou de esgoto",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, é possível solicitar a instalação de ponto(s) de água e/ou de esgoto (com parâmetros que o caracterizem como esgoto doméstico), conforme a necessidade do usuário (arrendatários, empresas terceirizadas, construtoras, entre outros).",
+  "flagPortalLogado": "N",
+  "contato": "Contato da área  Gerência de Saneamento Básico, Energia e Conservação Telefone: (13) 3202-6565 Ramal 2556 ou 2024  Gerência de Contratos de Arrendamento  Telefone: (13) 3202-6565 Ramal 2347",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128230
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107365,
+        "tipo": "Empresas (arrendatários, empresas terceirizadas, construtoras, entre outros) que necessitem do serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179366
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infraestrutura"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "infraestrutura ",
+        "id": 427388
+      },
+      {
+        "item": "saneamento ",
+        "id": 427389
+      },
+      {
+        "item": "instalação",
+        "id": 427390
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Tarifa Portuária do Porto de Santos](http://www.portodesantos.com.br/informacoes-operacionais/operacoes-portuarias/tarifas-portuarias/)",
+        "id": 153744
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 33
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250773,
+      "titulo": "Solicitar instalação",
+      "descricao": "O interessado deve realizar a solicitação, via Sistema de Protocolo Digital, à Diretoria de Infraestrutura. É necessário indicação de um contato e responsável pela solicitação para facilitar o contato pela APS.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325745,
+            "nome": "Local da instalação\n\n Previsão de consumo\n\n Dados para faturamento"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41887,
+            "descricao": "Custo Portuário, conforme item 4.4, da Tabela IX da Tarifa Portuária do Porto de Santos",
+            "moeda": "R$",
+            "valor": " 248,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324119,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](http://protocolo.portodesantos.com.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250774,
+      "titulo": "Obter parecer para execução do serviço",
+      "descricao": "Após análise, o solicitante será contatado e informado sobre os aspectos necessários para a realização do serviço (local, materiais, interferências, entre outros), sendo o solicitante responsável por toda infraestrutura necessária para a instalação hidráulica, ficando a cargo da Autoridade Portuária de Santos o fornecimento do hidrômetro e a interligação na rede existente.\n\n o tempo de duração desta etapa é de até 30 dias, se toda a documentação estiver em conformidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324120,
+            "tipo": "e-mail",
+            "descricao": "Será encaminhada resposta, por e-mail, ao interessado pela Gerência de Saneamento Básico, Energia e Conservação ou Gerência de Contratos de Arrendamento, conforme o caso. (comunicação aos arrendatários)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "30",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-instalacao-de-ponto-de-agua-e-ou-de-esgoto",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

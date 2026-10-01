@@ -1,0 +1,255 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23966",
+  "nome": "Realizar diagnóstico laboratorial de toxoplasmose e doença de Chagas (Toxoplasma gondii e Trypanosoma cruzi)",
+  "sigla": "",
+  "descricao": "No Instituto Evandro Chagas é realizado o diagnóstico laboratorial da toxoplasmose humana e da doença de Chagas por métodos sorológicos e parasitológicos. Para toxoplasmose, são realizadas pesquisas de anticorpos IgM e IgG contra *Toxoplasma gondii* em amostras de soro por ensaio imunoenzimático (ELISA). Para doença de Chagas, são realizados testes sorológicos, como hemaglutinação indireta (HAI) e imunofluorescência indireta (RIFI), para detecção de anticorpos contra *Trypanosoma cruzi*. Também são empregados métodos parasitológicos indiretos, como hemocultura e xenodiagnóstico artificial, que permitem detectar o parasito em amostras de sangue, especialmente em casos com baixa parasitemia.",
+  "flagPortalLogado": "N",
+  "contato": "protocolo@iec.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://gal.datasus.gov.br/GALL/index.php?area=01",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123597
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103431,
+        "tipo": "Pessoa usuária do SUS",
+        "requisitos": ""
+      },
+      {
+        "id": 103432,
+        "tipo": "Gestor",
+        "requisitos": ""
+      },
+      {
+        "id": 103433,
+        "tipo": "Profissional da saúde",
+        "requisitos": ""
+      },
+      {
+        "id": 103434,
+        "tipo": "Instituições",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172958
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172959
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172960
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Análises e Materiais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Toxoplasmose  ",
+        "id": 411431
+      },
+      {
+        "item": "doença de Chagas ",
+        "id": 411432
+      },
+      {
+        "item": "Toxoplasma gondii ",
+        "id": 411433
+      },
+      {
+        "item": "Trypanosoma cruzi",
+        "id": 411434
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148654
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O(a) usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n     \n\n   Urbanidade; \n\n   Respeito; \n\n   Acessibilidade; \n\n   Cortesia; \n\n   Presunção da boa-fé do usuário; \n\n   Igualdade; \n\n   Eficiência; \n\n   Segurança e \n\n   Ética.",
+  "etapas": [
+    {
+      "id": 241167,
+      "titulo": "Solicitar o exame diagnóstico no Sistema GAL",
+      "descricao": "Cadastrar a solicitação do exame no sistema GAL (Sistema Gerenciador de Ambiente Laboratorial).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311383,
+            "tipo": "web",
+            "descricao": "[GALL](http://gal.datasus.gov.br/GALL/index.php?area=01)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241168,
+      "titulo": "Enviar amostra",
+      "descricao": "A amostra deve ser encaminhada para a Seção de Gerenciamento de Amostras – SEGEA localizada no Campus Ananindeua-PA, no Instituto Evandro Chagas",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311384,
+            "tipo": "postal",
+            "descricao": "Rodovia BR-316 km 7 s/n - 67030-000, Levilândia, Ananindeua – PA.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 241169,
+      "titulo": "Receber Resultado de Exame",
+      "descricao": "O resultado dos exames será disponibilizado por e-mail ou no sistema informatizado de laboratório (GAL), no prazo estabelecido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311385,
+            "tipo": "web",
+            "descricao": "[GALL](http://gal.datasus.gov.br/GALL/index.php?area=01)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-diagnostico-laboratorial-de-toxoplasmose-e-doenca-de-chagas-toxoplasma-gondii-e-trypanosoma-cruzi",
+  "statusDestaque": false
+}

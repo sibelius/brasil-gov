@@ -1,0 +1,260 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10044",
+  "nome": "Solicitar Certidão ou Certificado de Autorização de Funcionamento (AFE) ou Autorização Especial (AE)",
+  "sigla": "",
+  "descricao": "Certificado de AFE/AE é um documento NÃO OBRIGATÓRIO emitido pela Anvisa que comprova que a empresa possui Autorização vigente, que pode ser solicitado após a concessão da Autorização de Funcionamento (AFE) ou Autorização Especial (AE).\n\n No Certificado constam o número da Autorização, as atividades, razão social e endereço.\n\n Se sua empresa ainda não possui AFE ou AE ativa, será necessário primeiro solicitar a concessão da autorização em: Rascunho > Novo > Petição Inicial.\n\n **Atenção**: **Concessão** e **certificado** são solicitações distintas. Somente após a publicação da concessão será possível solicitar o certificado.",
+  "flagPortalLogado": "N",
+  "contato": "[Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento).",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicita.anvisa.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 109896
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92568,
+        "tipo": "Empresas que possuem AFE ou AE ativas, sendo que o peticionamento deve ser solicitado somente depois que a Anvisa publicar a concessão da Autorização de Funcionamento (AFE) ou da Autorização Especial (AE).",
+        "requisitos": "Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastro)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O certificado é válido por tempo indeterminado, desde que os dados nele registrados não sofram alterações e a autorização permaneça ativa."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 153496
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autorização de funcionamento",
+        "id": 367302
+      },
+      {
+        "item": "Autorização especial",
+        "id": 367303
+      },
+      {
+        "item": "Certificado",
+        "id": 367304
+      },
+      {
+        "item": "",
+        "id": 367305
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RDC 857/2024](https://anvisalegis.datalegis.net/action/UrlPublicasAction.php?acao=abrirAtoPublico&num_ato=00000857&sgl_tipo=RDC&sgl_orgao=RDC/DC/ANVISA/MS&vlr_ano=2024&seq_ato=000&cod_modulo=134&cod_menu=1696) - Dispõe sobre os procedimentos de arrecadação da receita proveniente da Taxa de Fiscalização de Vigilância Sanitária (TFVS), realizada pela Agência Nacional de Vigilância Sanitária (Anvisa).",
+        "id": 127568
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 129,
+    "negativas": 707
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 214444,
+      "titulo": "Fazer a solicitação",
+      "descricao": "**(1.1)** Acesse o sistema Solicita com o login e senha. Selecione a opção > “Rascunho” > “Novo” > “Solicitar Certidão/Certificado”.  \n**(1.2)** Selecione o Tipo de Solicitação como “Autorização de Funcionamento (AFe ou AE)”, marcar os demais campos conforme solicitação a ser feita e enviar a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288766,
+            "nome": "Não é preciso anexar documentos. Todas as informações necessárias são preenchidas de forma eletrônica durante o peticionamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37803,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária variável",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "de acordo com o porte da empresa e o tipo de solicitação",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278637,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://solicita.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214445,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "O processo pode ser acompanhado pelo [Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F). Selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](https://consultas.anvisa.gov.br/#/), selecionando a opção “Situação de documentos” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288767,
+            "nome": "Login e senha no sistema Solicita"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278638,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://solicita.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214446,
+      "titulo": "Receber o Certificado",
+      "descricao": "O Certificado será enviado para a caixa postal da empresa no sistema Solicita.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288768,
+            "nome": "Login e senha no sistema Solicita"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278639,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://solicita.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "15",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-certificado-de-autorizacao-de-funcionamento-afe-ou-autorizacao-especial-ae",
+  "statusDestaque": false
+}

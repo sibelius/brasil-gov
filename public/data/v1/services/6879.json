@@ -1,0 +1,171 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6879",
+  "nome": "Solicitar acesso à biblioteca da ANP",
+  "sigla": "",
+  "descricao": "Nesse serviço o usuário solicita acesso à biblioteca da ANP para consultas ao acervo. A pesquisa pode ser feita de maneira individual ou em grupo, com possibilidade de acesso a computadores.\n\n A biblioteca funciona para o público externo **das 10h às 16h e **é permitido ao usuário permanecer nas dependências da biblioteca durante todo o horário de funcionamento.",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento nº 0800 970 0267.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 104905
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 88246,
+        "tipo": "Cidadãos\n\n *Servidores, terceirizados e estagiários da ANP não necessitam de agendamento prévio. O agendamento é feito somente para público externo.*",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 145778
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Biblioteca",
+        "id": 350555
+      },
+      {
+        "item": "ANP",
+        "id": 350556
+      },
+      {
+        "item": "Acesso",
+        "id": 350557
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 121903
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 38,
+    "negativas": 76
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 203887,
+      "titulo": "Agendar visita às instalações da ANP ou solicitar/envio de material bibliográfico desejado por e-mail.",
+      "descricao": "Nessa etapa o usuário deve entrar em contato para solicitar o acesso à biblioteca da ANP. \n\n O usuário pode, após descrever o tema da sua pesquisa, escolher entre o atendimento presencial ou o atendimento remoto para ter sua demanda atendida*. \n\n  **É permitido o envio de partes de publicações por e-mail, respeitada a lei de direitos autorais (LEI Nº 9.610/1998).*",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 277729,
+            "nome": "O usuário deve apresentar o documento de identificação e a descrição detalhada do tema da consulta no momento do agendamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 265452,
+            "tipo": "e-mail",
+            "descricao": "Atendimento remoto – a resposta da demanda será enviada por e-mail, que deverá ser informado na solicitação. Prazo do atendimento: até 5 dias úteis.\n\n E-mail: [biblioteca@anp.gov.br](mailto:biblioteca@anp.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 265450,
+            "tipo": "telefone",
+            "descricao": "Fale Conosco - 0800 970 0267",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 265451,
+            "tipo": "presencial",
+            "descricao": "Atendimento presencial na biblioteca da ANP, mediante agendamento por telefone: (21) 2112-8973 / 8974 – Rua Rio Branco, 65/13º andar – Centro – Rio de Janeiro. Prazo do agendamento: até 3 dias úteis.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-acesso-a-biblioteca-da-anp",
+  "statusDestaque": false
+}

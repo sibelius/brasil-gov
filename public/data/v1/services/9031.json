@@ -1,0 +1,275 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9031",
+  "nome": "Solicitar diagnóstico de referência em chikungunya - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O Laboratório de Flavivírus (LABFLA) atua como Laboratório de Referência Regional para chikungunya, realizando diversas análises sorológicas e moleculares para identificação de amostras de chikungunya. As informações geradas no LABFLA auxiliam os órgãos de vigilância nacionais no monitoramento de epidemias, introdução de vírus exóticos e esclarecimento em diagnósticos imprecisos. O LABFLA ainda desenvolve projetos de pesquisa e formação de recursos humanos em diferentes temas relacionados a epidemiologia e diagnóstico de chikungunya.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (21) 2562-1779\n\n  \n\n **E-mail:** [labfla@ioc.fiocruz.br](mailto:labfla@ioc.fiocruz.br)\n\n  \n\n **Site:**<http://www.fiocruz.br/ioclabs/cgi/cgilua.exe/sys/start.htm?sid=58>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://gal.fiocruz.sus.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 75885
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 66478,
+        "tipo": "* **Órgãos e entidades públicas**",
+        "requisitos": "As amostras podem ser encaminhadas por integrantes da Rede de Laboratórios Central de Saúde Pública (LACEN) de cada estado da federação, por instituições de saúde públicas e por secretarias de saúde tanto estaduais quanto municipais. Instituições Privadas entrar em contatos por e-mail para verificar como enviar amostras."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 104951
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diagnóstico",
+        "id": 258073
+      },
+      {
+        "item": "Vigilância virológica",
+        "id": 258074
+      },
+      {
+        "item": "PCR",
+        "id": 258075
+      },
+      {
+        "item": "Sorologia",
+        "id": 258076
+      },
+      {
+        "item": "IGM",
+        "id": 258077
+      },
+      {
+        "item": "IgG",
+        "id": 258078
+      },
+      {
+        "item": "Isolamento viral.",
+        "id": 258079
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Guia de Vigilância em Saúde (quarta edição / 2019) - link para a legislação: [https://bvsms.saude.gov.br/bvs/publicacoes/guia\\_vigilancia\\_saude\\_4ed.pdf](https://bvsms.saude.gov.br/bvs/publicacoes/guia_vigilancia_saude_4ed.pdf)",
+        "id": 86187
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "Rampa",
+  "tratamentoPrioritario": "Terão prioridade os casos graves para esclarecimento diagnóstico e conduta clínica e o esclarecimento diagnóstico de surtos.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 148543,
+      "titulo": "Solicitar exames",
+      "descricao": "A solicitação do exame deve ser registrada no sistema Gerenciador de Ambiente Laboratorial (GAL)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 210416,
+            "nome": "Ficha de Notificação SINAN"
+          },
+          {
+            "id": 210417,
+            "nome": "Ofício da instituição solicitante contendo a descrição do exame solicitado"
+          },
+          {
+            "id": 210418,
+            "nome": "Relatório clínico do paciente (quando aplicável)"
+          },
+          {
+            "id": 210419,
+            "nome": "Ficha do GAL"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193408,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://gal.fiocruz.sus.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 148544,
+      "titulo": "Enviar amostra",
+      "descricao": "A amostra deve ser enviada para Central de Recebimento de Amostra (CRA) do INCQS (Instituto Nacional de Controle de Qualidade em Saúde).\n\n As amostras serão recebidas pelo CRA quando estiverem em condições próprias de acondicionamento e transporte e acompanhadas de documentação pertinente. Para mais informações sobre a entrega do material, entrar em contato com o CRA pelo telefone (21)3865-5138 ou pelo e-mail: central.amostras@incqs.fiocruz.br",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 210420,
+            "nome": "Formulário do SINAN"
+          },
+          {
+            "id": 210421,
+            "nome": "Ficha epidemiológica"
+          },
+          {
+            "id": 210422,
+            "nome": "Receituário medico"
+          },
+          {
+            "id": 210423,
+            "nome": "Relatório de encaminhamento do GAL"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193409,
+            "tipo": "presencial",
+            "descricao": "Fiocruz / Central de Recebimento de Amostra (CRA) - Pavilhão do INCQS\n\n Avenida Brasil,4365 - Manguinhos - CEP: 21040-900 - Rio de Janeiro, RJ\n\n A CRA funciona 24h para o recebimento de amostras, em esquema de plantão.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 148545,
+      "titulo": "Receber o resultado do exame",
+      "descricao": "Todos os resultados serão disponibilizados através do GAL.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193410,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://gal.fiocruz.sus.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "43",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-diagnostico-de-referencia-em-chikungunya",
+  "statusDestaque": false
+}

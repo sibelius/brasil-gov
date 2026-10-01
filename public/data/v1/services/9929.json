@@ -1,0 +1,195 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9929",
+  "nome": "Solicitar resgate de CFT-E",
+  "sigla": "",
+  "descricao": "Refere-se à solicitação de resgate antecipado de títulos CFT-E, para pagamento de tributos fisco-previdenciários das mantenedoras.",
+  "flagPortalLogado": "N",
+  "contato": "Fale Conosco: 0800-616161 de segunda a sexta-feira, das 8h às 20h\n\n Plataforma Fala/Br: [https://falabr.cgu.gov.br/](https://falabr.cgu.gov.br/ \"https://falabr.cgu.gov.br/\")\n\n  \n\n Atendimento Institucional (presencial)\n\n Setor Bancário Sul, Quadra 2, Bloco F, Edifício FNDE – Térreo, Sala 1, Brasília/DF, de segunda a sexta-feira, das 8h às 12h e das 14h às 18h.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sisfies.mec.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94941
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80769,
+        "tipo": "Entidades mantenedoras com adesão ao Fundo de Financiamento Estudantil (FIES) e que tenham contratos iniciados até o segundo semestre de 2017.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/253",
+    "dbId": 34339,
+    "nomeOrgao": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 131713
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Apoio Financeiro"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Instituição mantenedora",
+        "id": 320123
+      },
+      {
+        "item": "Fundo de Financiamento Estudantil",
+        "id": 320124
+      },
+      {
+        "item": "Resgate de tributos",
+        "id": 320125
+      },
+      {
+        "item": "",
+        "id": 320126
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109746
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 541,
+    "negativas": 758
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183524,
+      "titulo": "Solicitar resgate",
+      "descricao": "As instituições mantenedoras, via sistema SisFIES, realizam o preenchimento das guias de tributos que deseja pagar.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241060,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sisfies.mec.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183525,
+      "titulo": "Encaminhar solicitação à STN",
+      "descricao": "FNDE solicita, via ofício, o resgate antecipado dos títulos à Secretaria do Tesouro Nacional (STN). A STN disponibiliza o recurso ao FNDE, que efetiva o pagamento das guias preenchidas pelas mantenedoras.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241061,
+            "tipo": "e-mail",
+            "descricao": "Secretaria do Tesouro Nacional - STN",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "meses"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "42",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-resgate-de-cft-e",
+  "statusDestaque": false
+}

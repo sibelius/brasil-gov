@@ -1,0 +1,212 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10604",
+  "nome": "Pagar taxas  pelo Sistema de GRU",
+  "sigla": "",
+  "descricao": "O **Guia de Recolhimento da União (****GRU) do Cade** é um tipo de boleto usado para pagar taxas cobradas pelo órgão. Ele permite que pessoas ou empresas façam pagamentos relacionados a processos, como a análise de fusões e aquisições ou outros serviços administrativos. É a forma oficial de pagar ao Cade e garantir que o processo continue normalmente. O pagamento pode ser feito em qualquer banco, pelo **internet banking** ou aplicativo, e a compensação ocorre rapidamente. Todos os valores pagos são recolhidos ao Tesouro Nacional, conforme as regras do governo.",
+  "flagPortalLogado": "N",
+  "contato": "SEPN 515 Conjunto D, Lote 4 Edifício Carlos Taurisano CEP: 70770-504 - Brasília/DF\n\n E-mail: cade@cade.gov.br\n\n Fone: (61) 3221-8500",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://gru.cade.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111987
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94069,
+        "tipo": "Cidadãos, empresas, órgãos, entidades públicas e demais segmentos (ONG, organizações sociais, etc) que pede algo ao Cade, como autorização para fusões de empresas ou envio de documentos, precisa pagar uma taxa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "5",
+      "max": "15",
+      "unidade": "minutos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 5,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/322",
+    "dbId": 8382,
+    "nomeOrgao": "Conselho Administrativo de Defesa Econômica (CADE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 156166
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 156167
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 156168
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 156169
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Regulação e Fiscalização"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Pagamento de Taxas",
+        "id": 373890
+      },
+      {
+        "item": "Taxas Processuais",
+        "id": 373891
+      },
+      {
+        "item": "Taxas Administrativas",
+        "id": 373892
+      },
+      {
+        "item": "GRU",
+        "id": 373893
+      },
+      {
+        "item": "Emissão de GRU",
+        "id": 373894
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 12.529/2011  \nRegimento Interno do Cade",
+        "id": 130412
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 269,
+    "negativas": 1514
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 218383,
+      "titulo": "Acessar o Sistema de Emissão de Guias de Recolhimento da União do Cade",
+      "descricao": "Acesse o sistema de emissão de Guia de Recolhimento da União (GRU)**[ clicando aqui.](https://sinc.cade.gov.br/gru/home)**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283649,
+            "tipo": "web",
+            "descricao": "[Sistema de Emissão de Guias de Recolhimento da União do Cade](https://sinc.cade.gov.br/gru/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 218384,
+      "titulo": "Preencher formulário",
+      "descricao": "Na página do sistema de emissão de GRU, você deve preencher o formulário. Todos os campos obrigatórios devem ser preenchidos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283650,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://gru.cade.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "15",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/pagar-taxas-pelo-sistema-de-gru",
+  "statusDestaque": true
+}

@@ -1,0 +1,375 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13327",
+  "nome": "Tratar Carga de Exportação",
+  "sigla": "CCT",
+  "descricao": "Registre a custódia e a movimentação, inclusive em trânsito aduaneiro, de cargas para exportação despachadas por Declaração Única de Exportação (DU-E) através de funcionalidade própria do Portal Único Siscomex, via tela ou webservice.\n\n  As orientações atualizadas sobre o controle de cargas na exportação estão disponíveis no manual de exportação:\n\n  * [Manual de Exportação via DU-E](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico)\n * [Orientações gerais sobre a Recepção da Carga](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/recepcao-de-carga-por-nfe)\n * [Orientações gerais sobre Unitização e Desunitização de Carga](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/unitizacao%20e%20consolidacao%20da%20carga)\n * [Orientações gerais sobre Consolidação ou Desconsolidação de Carga](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/copy_of_outras-funcionalidades-do-modulo-cct/consolidacao-da-carga)\n * [Orientações gerais sobre Entrega da Carga](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/entrega-da-carga-por-due/entrega-de-carga-para-retorno-ao-mercado-interno)",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://www.gov.br/receitafederal/pt-br/canais_atendimento/fale-conosco/cidadao/comercio-exterior/despacho-aduaneiro)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalunico.siscomex.gov.br/portal/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94853
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80693,
+        "tipo": "Pessoa física ou jurídica interveniente da operação de exportação bem como seus representantes legais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 131522
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 131523
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 131524
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 131525
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Recepcionar Carga Exportação",
+        "id": 319714
+      },
+      {
+        "item": "Entregar Carga Exportação",
+        "id": 319715
+      },
+      {
+        "item": "Unitizar Desunitizar Carga Exportação",
+        "id": 319716
+      },
+      {
+        "item": "Consolidar Desconsolidar Carga Exportação",
+        "id": 319717
+      },
+      {
+        "item": "Controle Carga Trânsito",
+        "id": 319718
+      },
+      {
+        "item": "CCT",
+        "id": 319719
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.702/2017](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=81483)",
+        "id": 109545
+      },
+      {
+        "item": "[Ato Declaratório Executivo Coana nº 12/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=96327)",
+        "id": 109546
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183296,
+      "titulo": "Recepcionar carga de exportação",
+      "descricao": "Recepcione cargas de exportação recebidas para despacho aduaneiro ou trânsito aduaneiro na exportação, por meio de funcionalidade própria do Portal Único Siscomex, via tela ou webservice.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240740,
+            "tipo": "web",
+            "descricao": "Em tela: [Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/)\n\n **Orientação**: Registre a recepção de carga de exportação acessando o Portal Único Siscomex, perfil de interveniente adequado (exportador, despachante, depositário, operador portuário, transportador ou agente de carga), assunto exportação, e selecione a funcionalidade “Carga e Trânsito” >> “Recepção de Carga” >> “Recepcionar”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240741,
+            "tipo": "web",
+            "descricao": "Via webservice: [API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183297,
+      "titulo": "Unitizar ou desunitizar carga de exportação",
+      "descricao": "Unitize ou desunitize cargas de exportação por meio de funcionalidade própria do Portal Único Siscomex, via tela ou webservice.\n\n  A unitização de carga significa agrupar produtos para facilitar o seu transporte. A informação é prestada pelo interveniente, referente ao acondicionamento, por ele realizado, dos volumes soltos de uma carga a exportar em um ou mais contêineres.\n\n A desunitização é a separação das cargas dos contêineres.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240742,
+            "tipo": "web",
+            "descricao": "Em tela: [Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/)\n\n Perfil de interveniente adequado (exportador, despachante, depositário, operador portuário, transportador ou agente de carga), assunto exportação: \n\n  * Para unitizar carga, selecione a funcionalidade “Carga e Trânsito” >> “Unitização e Desunitização de Carga” >> “Unitizar”\n * Para desunitizar carga, selecione a funcionalidade “Carga e Trânsito” >> “Unitização e Desunitização de Carga” >> “Desunitizar”",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240743,
+            "tipo": "web",
+            "descricao": "Via webservice: [API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183298,
+      "titulo": "Consolidar ou desconsolidar carga de exportação",
+      "descricao": "Consolide ou desconsolide cargas de exportação por meio de funcionalidade própria do Portal Único Siscomex, via tela ou webservice.\n\n A consolidação de carga de exportação é a informação prestada pelo interveniente acerca do acobertamento de um ou mais conhecimentos de carga, relativos a uma ou mais operações de exportação que tenham um mesmo destino, final ou para redistribuição, no exterior, para transporte sob um único conhecimento genérico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240744,
+            "tipo": "web",
+            "descricao": "Em tela: [Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/)\n\n **Orientação**: Perfil de interveniente adequado (exportador, despachante, depositário, operador portuário, transportador ou agente de carga), assunto exportação, e:\n\n  * Para consolidar carga, selecione a funcionalidade “Carga e Trânsito” >> “Consolidação de Carga” >> “Consolidar”;\n * Para desconsolidar carga, selecione a funcionalidade “Carga e Trânsito” >> “Consolidação de Carga” >> “Desconsolidar”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240745,
+            "tipo": "web",
+            "descricao": "Via webservice: [API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183299,
+      "titulo": "Entregar carga de exportação",
+      "descricao": "Entregue cargas de exportação a outro interveniente para trânsito aduaneiro, embarque ao exterior ou transposição de fronteira, por meio de funcionalidade própria do Portal Único Siscomex, via tela ou webservice.\n\n  **Caso específico**\n\n As orientações sobre a entrega de cargas de exportação nas hipóteses de retorno, devolução ou venda para o mercado nacional estão disponíveis no manual de exportação: Orientações gerais sobre Entrega de Carga para Retorno ao Mercado Interno",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240746,
+            "tipo": "web",
+            "descricao": "Em tela: [Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/)\n\n **Orientação**: Registre a entrega da carga de exportação acessando o Portal Único Siscomex, perfil de interveniente adequado (exportador, despachante, depositário, operador portuário, transportador ou agente de carga), assunto exportação, e selecione a funcionalidade “Carga e Trânsito” >> “Entrega de Carga” >> “Entregar”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240747,
+            "tipo": "web",
+            "descricao": "No caso de erros ou inconsistências nas funcionalidades do Portal Único Siscomex o usuário deve abrir acionamentos/relatos ao Serpro.\n\n **Web: **[Acionamento/Relato Serpro](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2176)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183300,
+      "titulo": "Acompanhar a recepção, unitização, desunitização, consolidação, desconsolidação e/ou entrega de cargas de exportação",
+      "descricao": "Consulte a DU-E para visualizar as informações prestadas nesta declaração ou para acompanhar as atuações dos intervenientes públicos e privados no processo de exportação assim como acompanhar a situação dos controles aduaneiro, administrativo e da carga.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240748,
+            "tipo": "web",
+            "descricao": "Em tela: [Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/)\n\n **Orientação**: Para consultar a DU-E, acesse o Portal Único Siscomex, perfil “Importador/Exportador/Despachante” ou “Acesso Público”, assunto exportação, e selecione a funcionalidade “Declaração Única de Exportação” >> “Consultar DU-E”.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 240749,
+            "tipo": "web",
+            "descricao": "Via webservice: [API do Portal Único de Comércio Exterior](https://docs.portalunico.siscomex.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/tratar-carga-de-exportacao",
+  "statusDestaque": false
+}

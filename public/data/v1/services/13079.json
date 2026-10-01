@@ -1,0 +1,222 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13079",
+  "nome": "Solicitar acesso a dados georreferenciados",
+  "sigla": "",
+  "descricao": "A ANP disponibiliza em seu site, gratuitamente, os dados georreferenciados mais requisitados pela sociedade com o objetivo de dar transparência e entregar de forma simples os dados custodiados pela ANP. A relação desses dados podem ser encontrados em [Dados Georreferenciados das Bacias Sedimentares Brasileiras - Agência Nacional de Petróleo e Biocombustíveis ](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-georreferenciados-das-bacias-sedimentares-brasileiras)\n\n Por meio desse serviço o usuário pode solicitar acesso a informações e dados georreferenciados (geoespaciais) específicos, seja por meio de feições (*shapefiles*) ou da representação em mapas digitais (em formato PDF).\n\n A consulta e visualização de dados georreferenciados é feita, de modo interativo, por meio do serviço GeoANP (ou seu substituto), incluindo o acesso aos shapefiles:  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/geoanp\n\n Caso o serviço GeoANP esteja indisponível, os principais shapefiles estão disponíveis para acesso no site da ANP. Outras informações georreferenciadas podem ser requisitadas via e-mail: geoprocessamento@anp.gov.br",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: geoprocessamento@anp.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/geoanp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 66830
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 59933,
+        "tipo": "Quaisquer interessados.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "20",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 20
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 93879
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 93880
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 93881
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 93882
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exploração e Produção"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Geoprocessamento",
+        "id": 229493
+      },
+      {
+        "item": "Dados georreferenciados",
+        "id": 229494
+      },
+      {
+        "item": "Shapefiles",
+        "id": 229495
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Regimento Interno da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis/ANP: [Regimento Interno ANP (atosoficiais.com.br) ](https://atosoficiais.com.br/lei/regimento-interno-anp-anp?origin=instituicao) - Art. 107, VI",
+        "id": 75407
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 133039,
+      "titulo": "Solicitar acesso a dados georreferenciados",
+      "descricao": "O acesso aos dados georreferenciados não disponíveis no GeoANP ou em shapefiles pode ser solicitado por meio do e-mail geoprocessamento@anp.gov.br.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 171881,
+            "tipo": "e-mail",
+            "descricao": "E-mail: geoprocessamento@anp.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 25804,
+            "descricao": "Indisponibilidade do e-mail",
+            "canalDePrestacao": [
+              {
+                "id": 171880,
+                "tipo": "postal",
+                "descricao": "Em caso de impossibilidade de envio por e-mail, a solicitação deve ser efetuada por meio de carta impressa e assinada, entregue ao Protocolo da ANP, por meio postal ou presencial. O endereço é Av. Rio Branco, 65 - Térreo, Centro/Rio de Janeiro, RJ - CEP 22.050-012.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "15",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 15,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 133040,
+      "titulo": "Acompanhar solicitação e receber informações georreferenciadas",
+      "descricao": "Após a solicitação ter sido aprovada, o usuário terá acesso à informação pretendida por e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 171882,
+            "tipo": "e-mail",
+            "descricao": "E-mail: geoprocessamento@anp.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "20",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-acesso-a-dados-georreferenciados",
+  "statusDestaque": false
+}

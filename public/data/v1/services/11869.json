@@ -1,0 +1,259 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11869",
+  "nome": "Obter Atestado de Residência Fiscal no Brasil",
+  "sigla": "",
+  "descricao": "Solicite o Atestado de Residência Fiscal no Brasil. O Atestado de Residência Fiscal no Brasil é solicitado por residente no Brasil (Pessoa Física ou Pessoa Jurídica) que prestou serviços e recebeu rendimentos no exterior e pretende ser tributado no Brasil.\n\n O formulário, depois de emitido pela Receita Federal, deverá ser encaminhado pela pessoa interessada, à fonte pagadora dos serviços no exterior.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10032",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124288
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104064,
+        "tipo": "Cidadão, empresa ou seus representantes legais, que tenham CPF ou CNPJ, conforme o caso, e que tenham Domicílio Tributário Eletrônico (DTE).",
+        "requisitos": "O atestado **não** será emitido nas seguintes situações:\n\n  * O requerente, pessoa física ou jurídica, **não** aderiu ao Domicílio Tributário Eletrônico (DTE).\n   * Para pessoa física:\n  + CPF na situação Pendente de Regularização, Suspensa, Cancelada ou Nula.\n + ter deixado de ser residente fiscal no Brasil durante o período informado no requerimento.\n    * Para pessoa jurídica:\n  + CNPJ em situação cadastral diferente de Ativa.\n + CNPJ constituído após o início do período informado no pedido."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173953
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173954
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Atestado",
+        "id": 414115
+      },
+      {
+        "item": "Dupla Tributação",
+        "id": 414116
+      },
+      {
+        "item": "Residência Fiscal",
+        "id": 414117
+      },
+      {
+        "item": "Situação Fiscal",
+        "id": 414118
+      },
+      {
+        "item": "Tratado Internacional",
+        "id": 414119
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.287/2025](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/147443#2651101)",
+        "id": 149521
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 1.846/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?naoPublicado=&idAto=96895)",
+        "id": 149522
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 212,
+    "negativas": 419
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 242662,
+      "titulo": "Solicitar Atestado",
+      "descricao": "Acesse o canal abaixo para solicitar o Atestado e selecione \"Novo Requerimento\".\n\n É necessário informar:\n\n  * A data de início e término do período a ser comprovado; e\n * O número de inscrição no CPF (pessoa física) ou no CNPJ (pessoa jurídica).\n  A data final do período informado não pode ser posterior à data de emissão do atestado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313311,
+            "tipo": "web",
+            "descricao": "[Minhas Isenções e Regimes Especiais](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10032)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 242663,
+      "titulo": "Acompanhar o resultado do pedido",
+      "descricao": "Acesse o canal abaixo para consultar o resultado do pedido de atestado de residência fiscal no Brasil.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313313,
+            "tipo": "web",
+            "descricao": "[Minhas Isenções e Regimes Especiais](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10032)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 48456,
+            "descricao": "Consultar a autenticidade do atestado",
+            "canalDePrestacao": [
+              {
+                "id": 313312,
+                "tipo": "web",
+                "descricao": "[Validar atestado](https://www.sisen.receita.fazenda.gov.br/sisen/consultaCodigoAutorizacao.jsf)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 242664,
+      "titulo": "Apresentar recurso em caso de indeferimento",
+      "descricao": "Caso seu pedido seja indeferido:\n\n  * Apresente novo requerimento.\n * Inclua as justificativas.\n * Anexe os documentos comprobatórios da residência fiscal.\n  Nessa situação, a autoridade tributária realizará nova análise e poderá reconsiderar o impedimento, quando cabível.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313314,
+            "tipo": "web",
+            "descricao": "[Minhas Isenções e Regimes Especiais](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10032)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "34",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-atestado-de-residencia-fiscal",
+  "statusDestaque": false
+}

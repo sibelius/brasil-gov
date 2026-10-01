@@ -1,0 +1,340 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24322",
+  "nome": "Acessar informações sobre o cuidado da criança por meio do Meu SUS Digital",
+  "sigla": "",
+  "descricao": "O Miniapp da Caderneta Digital da Criança, disponível no Meu SUS Digital, permite aos responsáveis acessar informações de saúde da criança em ambiente digital, reunindo dados sobre vacinação, crescimento, desenvolvimento infantil, saúde bucal e histórico clínico, além de conteúdos e orientações relacionados ao cuidado da criança.",
+  "flagPortalLogado": "N",
+  "contato": "Meu SUS Digital - CGIIS <meususdigital.cgiis@saude.gov.br>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://meususdigital.saude.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125248
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104806,
+        "tipo": "Responsáveis por crianças de até 12 anos de incompletos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175251
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "caderneta da criança",
+        "id": 417199
+      },
+      {
+        "item": "informações",
+        "id": 417200
+      },
+      {
+        "item": "meu sus digital",
+        "id": 417201
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150468
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244650,
+      "titulo": "Baixar o APP Meu SUS Digital",
+      "descricao": "Baixe o aplicativo Meu SUS Digital no celular, disponível para dispositivos Android e iPhone, ou acesse a versão web pelo Portal Meu SUS Digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316225,
+            "tipo": "aplicativo-movel",
+            "descricao": "https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt\\_BR",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244651,
+      "titulo": "Autenticar-se com a conta Gov.br",
+      "descricao": "Acesse o aplicativo ou o portal Meu SUS Digital e autentique-se utilizando sua conta Gov.br.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316226,
+            "tipo": "aplicativo-movel",
+            "descricao": "https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt\\_BR",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244652,
+      "titulo": "Consultar a Caderneta Digital da Criança",
+      "descricao": "Na tela “Início”, acesse a área “Aplicações” e selecione “MiniApp Caderneta da Criança”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316227,
+            "tipo": "aplicativo-movel",
+            "descricao": "https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt\\_BR",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244653,
+      "titulo": "Selecionar a criança vinculada ao perfil",
+      "descricao": "Selecione a criança vinculada ao seu perfil para acessar a Caderneta Digital da Criança. O Meu SUS Digital identifica as crianças vinculadas ao responsável legal por meio das bases governamentais integradas",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316228,
+            "tipo": "aplicativo-movel",
+            "descricao": "https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt\\_BR",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244654,
+      "titulo": "Acessar a área “Saúde da criança”",
+      "descricao": "Após selecionar a criança, acesse a área “Saúde da criança”, onde estarão disponíveis as informações de saúde e as funcionalidades da Caderneta.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316229,
+            "tipo": "aplicativo-movel",
+            "descricao": "https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt\\_BR",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 244655,
+      "titulo": "Consultar as informações de saúde da criança",
+      "descricao": "Selecione a opção que deseja consultar, como vacinação, crescimento, desenvolvimento infantil, saúde bucal ou histórico clínico, além dos conteúdos e orientações disponíveis para o cuidado da crianç",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316230,
+            "tipo": "aplicativo-movel",
+            "descricao": "https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt\\_BR",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "S",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-informacoes-sobre-o-cuidado-da-crianca-por-meio-do-meu-sus-digital",
+  "statusDestaque": false
+}

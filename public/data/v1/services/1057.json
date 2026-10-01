@@ -1,0 +1,167 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1057",
+  "nome": "Obter empréstimo de livros e publicações impressas da Biblioteca Graciliano Ramos",
+  "sigla": "",
+  "descricao": "Empréstimo domiciliar, renovação e reserva de publicações aos usuários cadastrados na Biblioteca da Enap. \n\n O usuário pode retirar, por empréstimo, até 5 publicações simultaneamente, pelo prazo de 10 dias úteis.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: [biblioteca@enap.gov.br](mailto:biblioteca@enap.gov.br)\n\n Telefone: (61) 2020-3139 Campus Asa Sul ou (61) 2020-3768 Campus Jardim",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Livros e publicações",
+        "id": 26416
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 26888,
+        "tipo": "Servidores públicos ativos e inativos.\n\n Professores e pesquisadores universitários.\n\n Bibliotecas de órgãos públicos do Distrito Federal.",
+        "requisitos": "Residir no Distrito Federal ou entorno."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "1",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/956",
+    "dbId": 34303,
+    "nomeOrgao": "Fundação Escola Nacional de Administração Pública (Enap)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 42509
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 42510
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Material de Pesquisa"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Biblioteca",
+        "id": 94958
+      },
+      {
+        "item": "Empréstimo",
+        "id": 94959
+      },
+      {
+        "item": "livros",
+        "id": 94960
+      },
+      {
+        "item": "publicações",
+        "id": 94961
+      },
+      {
+        "item": "Enap",
+        "id": 94962
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Regulamento](https://sei.enap.gov.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=258348&id_orgao_publicacao=0)",
+        "id": 26263
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 45,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n  \n\n **Quanto à Localização:** Facilidade de acesso; Identificação do nome do estabelecimento em local visível.\n\n  \n\n **Quanto à Instalação:** Estacionamento externo, interno e para deficientes;Portão de acesso; Acessibilidade para deficientes; Salas de reunião para deficientes; sala com computadores para deficientes; Iluminação em todas as salas; Ventiladores ou ar condicionado em funcionamento; Banheiros na quantidade e localização ideal; Banheiros adaptados para deficientes; Bebedouros em funcionamento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 55952,
+      "titulo": "Solicitar publicações",
+      "descricao": "O usuário verifica as publicações disponíveis e solicita o empréstimo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 83155,
+            "nome": "Documento de identificação com foto;\n\n  CPF;\n\n  Comprovante de Residência; e\n\n  Comprovante de vínculo institucional."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 71615,
+            "tipo": "presencial",
+            "descricao": "**Biblioteca Enap - Campus Asa Sul**\n\n SPO Área Especial 2-A, CEP 70610-900\n\n Brasília-DF\n\n Horário de atendimento: de segunda a sexta-feira, das 9h às 19h.\n\n  \n\n **Biblioteca Enap - Campus Jardim**\n\n Rodovia DF 001, Km 27,4 - SHIS - Lago Sul, CEP 71686-900 - Brasília/DF\n\n Horário de atendimento: de segunda a sexta-feira, das 8h às 17h45.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "83",
+  "url": "https://www.gov.br/pt-br/servicos/obter-emprestimo-de-livros-das-bibliotecas-da-enap",
+  "statusDestaque": false
+}

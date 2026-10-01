@@ -1,0 +1,287 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23662",
+  "nome": "Consultar Acidentalidade por CNPJ",
+  "sigla": "",
+  "descricao": "Este serviço permite que empresas e cidadãos consultem os quantitativos de acidentes relacionados ao trabalho vinculados a um CNPJ específico. A consulta apresenta informações sobre: quantidade de acidentes de trabalho registrados, quantidade de Comunicações de Acidente de Trabalho (CAT) por óbito e o valor do Fator Acidentário de Prevenção (FAP) individualizado por CNPJ. Essas informações auxiliam no acompanhamento da sinistralidade ocupacional das empresas e na transparência dos dados de segurança do trabalho.",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o Portal da Previdência Social (gov.br/previdencia) ou consulte o [manual do FAP disponível no portal](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/fap/legislacao-e-atos-normativos-sobre-o-fap).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://fap.dataprev.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111112
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93438,
+        "tipo": "* Empresas que desejam consultar seus próprios indicadores de acidentalidade.\n * Cidadãos interessados em conhecer os dados de acidentalidade de empresas específicas.\n * Órgãos de fiscalização e controle.\n * Pesquisadores e estudiosos da área de saúde e segurança do trabalho.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308819",
+    "dbId": 58140,
+    "nomeOrgao": "Ministério da Previdência Social (MPS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 155023
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 155024
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 155025
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 155026
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Consultar Adidentalidade",
+        "id": 371190
+      },
+      {
+        "item": "Acidentalidade",
+        "id": 371191
+      },
+      {
+        "item": "CAT",
+        "id": 371192
+      },
+      {
+        "item": "FAP",
+        "id": 371193
+      },
+      {
+        "item": "CNPJ",
+        "id": 371194
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 129057
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Serviço oferecido de forma digital.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 216606,
+      "titulo": "Acessar o sistema FAP",
+      "descricao": "Acesse o portal da Previdência Social ([gov.br/previdencia](http://gov.br/previdencia)) e clique em \"FAP - Fator Acidentário de Prevenção\" ou acesse diretamente o sistema em [fap.dataprev.gov.br](http://fap.dataprev.gov.br), realizando o login pelo **Gov.br** com CPF e senha ou certificado digital (e-CPF ou e-CNPJ).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281372,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216607,
+      "titulo": "Selecionar a opção de consulta",
+      "descricao": "No menu principal do sistema, selecione a opção \"Acidentalidade por CNPJ\" ou funcionalidade equivalente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281373,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216608,
+      "titulo": "Informar o CNPJ",
+      "descricao": "Digite o número do CNPJ que deseja consultar e clique em pesquisar.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281374,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216609,
+      "titulo": "Visualizar os resultados",
+      "descricao": "O sistema apresentará os quantitativos de acidentes de trabalho, CATs de óbito e o valor do FAP individualizado do CNPJ consultado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281375,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "73",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-acidentalidade-por-cnpj",
+  "statusDestaque": false
+}

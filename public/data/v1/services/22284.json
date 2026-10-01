@@ -1,0 +1,351 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22284",
+  "nome": "Agendar Cirurgia no Hospital Universitário de Santa Maria (HUSM)",
+  "sigla": "",
+  "descricao": "O Serviço de Gestão da Lista de Espera Cirúrgica do hospital será responsável pelo gerenciamento e orientação os profissionais a cumprir as normas referentes ao encaminhamento de pacientes para a LEC. Será a referência dos pacientes para todos os aspectos administrativos relacionados com a sua situação na LEC e responsável pelo adequado acompanhamento dos pacientes incluídos na LEC, e da manutenção atualizada da informação clínica fornecida pelos médicos especialistas e dos dados administrativos do registro.",
+  "flagPortalLogado": "N",
+  "contato": "Telefones: (055) 3213 1538/1517",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/governanca/superintendencia/setor-de-contratualizacao-e-regulacao/diretrizes-de-regulacao-assistencial/gestao-de-lista-de-espera-cirurgica/view",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 100025
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84697,
+        "tipo": "Usuários do SUS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201459",
+    "dbId": 32675,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário de Santa Maria (EBSERH-UFSM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 139346
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Saúde, ",
+        "id": 335917
+      },
+      {
+        "item": "Atendimento;",
+        "id": 335918
+      },
+      {
+        "item": "Cirurgia.",
+        "id": 335919
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 116578
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 194518,
+      "titulo": "Solicitar cirurgia eletiva",
+      "descricao": "Durante a consulta ambulatorial, o médico verifica a necessidade de realização de procedimento cirúrgico. Quando o médico inclui um procedimento cirúrgico, gera uma solicitação de entrada na Lista de Espera Cirúrgica - LEC. A solicitação é feita através do sistema AGHU – AGINFO (sistema de gerenciamento da LEC). Ao término da consulta, o paciente é orientado a dirigir-se à Central de Marcação de consultas para receber um ticket como comprovante da sua entrada em lista de espera.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 266388,
+            "nome": "Carteira de Identidade (RG);\n\n No caso de criança que não tenha RG: Certidão de Nascimento ou Carteira de Vacinação;\n\n CPF;\n\n Cartão Nacional do SUS (CNS)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 32739,
+            "descricao": "Os atendimentos realizados no Husm-UFSM são 100% pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254180,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900, Santa Maria - RS\n\n Telefones: (055) 3213 1538/1517",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194519,
+      "titulo": "Agendar avaliação pré-operatória",
+      "descricao": "Serviço de Gestão da Lista de Espera Cirúrgica programará, junto aos Serviços Cirúrgicos, irá agendar uma consulta pré-operatória para o paciente, e o informará do dia e hora do agendamento por meio de contato telefônico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254181,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900, Santa Maria - RS\n\n Telefones: (055) 3213 1538/1517",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194520,
+      "titulo": "Realizar consulta pré-operatória",
+      "descricao": "Paciente chega ao hospital, retira senha para a Marcação de Consultas, aguarda ser chamado no Painel Eletrônico. Ao ser chamado, paciente confirma seus dados junto ao atendente, que irá realizar o cadastro do paciente no sistema interno do HUSM, se dirige ao ambulatório para a consulta pré-anestésica.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254182,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900, Santa Maria - RS\n\n Telefones: (055) 3213 1538/1517",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194521,
+      "titulo": "Verificar validade dos exames médicos",
+      "descricao": "Durante a consulta pré-operatória, o médico verifica a validade dos exames pré-operatórios do paciente. Caso algum exame esteja vencido, o médico solicita a realização de novos dos exames. Paciente sai da consulta pré-anestésica e se dirige ao local para marcação dos exames, caso necessário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254183,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900, Santa Maria - RS\n\n Telefones: (055) 3213 1538/1517",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194522,
+      "titulo": "Agendar cirurgia",
+      "descricao": "Serviço de Gestão da Lista de Espera Cirúrgica avisa o paciente sobre a data da cirurgia e preparos para cirurgia.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254184,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900, Santa Maria - RS\n\n Telefones: (055) 3213 1538/1517",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194523,
+      "titulo": "Realizar cirurgia",
+      "descricao": "Paciente chega ao hospital, retira senha para Portaria Central, aguarda ser chamado no Painel Eletrônico. Ao ser chamado, paciente confirma seus dados junto ao atendente, que irá realizar o cadastro do paciente no sistema interno do HUSM, se dirige ao Bloco Cirúrgico. Paciente realiza a cirurgia na data e hora marcada. Paciente interna no leito já reservado ou após recuperação o médico da alta médica.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254185,
+            "tipo": "presencial",
+            "descricao": "Hospital Universitário de Santa Maria, Avenida Roraima nº 1000, prédio 22, Bairro Camobi, CEP: 97105-900, Santa Maria\n\n Telefones: (055) 3213 1538/1517",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 3,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-cirurgia-no-hospital-universitario-de-santa-maria-husm",
+  "statusDestaque": false
+}

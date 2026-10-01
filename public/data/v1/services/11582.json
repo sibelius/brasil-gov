@@ -1,0 +1,247 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11582",
+  "nome": "Parcelar Dívidas na Receita Federal",
+  "sigla": "",
+  "descricao": "Solicite e acompanhe o parcelamento das suas dívidas administradas pela Receita Federal.\n\n O parcelamento pode ser feito em até 60 (sessenta) vezes, mas a parcela mínima para pessoas físicas é de R$ 200,00 (duzentos reais) e para pessoas jurídicas, ou pessoas físicas equiparadas a jurídicas, R$ 500,00 (quinhentos reais).\n\n Dívidas que já foram parceladas podem ser reparceladas, podendo incluir novas dívidas. Neste caso, a primeira parcela será de 10% (dez por cento) do total da dívida, ou 20% (vinte por cento), se algum débito já tiver sido reparcelado antes.\n\n **Atenção!** O parcelamento de dívidas declaradas em GFIP, débitos não declarados, débitos do Simples Nacional e MEI, e o parcelamento para empresas em recuperação judicial possuem procedimentos diferentes. Consulte o serviço específico para saber mais.\n\n Você pode parcelar as dívidas junto a Receita Federal enquanto os débitos não forem enviados para inscrição em Dívida Ativa da União. Após o envio, o parcelamento deve ser solicitado junto a [Procuradoria-Geral da Fazenda Nacional](https://www.gov.br/pgfn/pt-br).\n\n *O pedido de parcelamento é confissão irretratável da dívida e confissão extrajudicial, nos termos do Código de Processo Civil (artigos 348, 353 e 354).*",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10014",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126836
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106068,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177282
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Débito",
+        "id": 422577
+      },
+      {
+        "item": "Dívida",
+        "id": 422578
+      },
+      {
+        "item": "Imposto",
+        "id": 422579
+      },
+      {
+        "item": "Parcelar",
+        "id": 422580
+      },
+      {
+        "item": "Parcelamento",
+        "id": 422581
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.063/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122718)",
+        "id": 152164
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1596,
+    "negativas": 3597
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 247720,
+      "titulo": "Solicitar o parcelamento",
+      "descricao": "Acesse o sistema, escolha a modalidade desejada e selecione as dívidas que deseja parcelar.\n\n Em seguida, preencha as informações solicitas, escolha o número de parcelas e emita o DARF para pagar a primeira parcela.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320243,
+            "tipo": "web",
+            "descricao": "[Minhas Negociações de Dívidas](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10014)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49043,
+            "descricao": "Faça a solicitação via processo digital quando não for possível o cadastramento pelos sistemas de parcelamento disponíveis.",
+            "canalDePrestacao": [
+              {
+                "id": 320242,
+                "tipo": "web",
+                "descricao": "[Abrir Novo Processo (Requerimento) ](https://www3.cav.receita.fazenda.gov.br/requer/) clique em \"Solicitar serviço\". Escolha a área \"Parcelamento\" e o serviço \"Parcelamento - Simplificado/Ordinário\".\n\n Em seguida, junte (inclua) os documentos necessários. Documentos sem relação com o serviço ou com o contribuinte serão rejeitados.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247721,
+      "titulo": "Acompanhar o parcelamento",
+      "descricao": "Consulte o andamento do parcelamento e emita o DARF de parcelas que não tenham sido debitadas em conta corrente.\n\n O parcelamento será rescindido (cancelado), e os débitos serão enviados para inscrição em Dívida Ativa da União, quando faltar pagamento:\n\n  * de 3 (três) parcelas, seguidas ou não;\n * de 2 (duas) parcelas, se todas as demais estiverem pagas; ou\n * de 2 (duas) parcelas, se a última estiver vencida.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320246,
+            "tipo": "web",
+            "descricao": "[Minhas Negociações de Dívidas](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10014)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49044,
+            "descricao": "Parcelamentos negociados em sistemas anteriores",
+            "canalDePrestacao": [
+              {
+                "id": 320244,
+                "tipo": "web",
+                "descricao": "[Parcelamento Simplificado (Antigo)](https://servicos.receita.fazenda.gov.br/Servicos/snparcweb/SN_TelaEntrada.asp)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 320245,
+                "tipo": "web",
+                "descricao": "[Parcelamento Ordinário (Antigo)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/7)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10800",
+      "nome": "Parcelar dívidas declaradas em GFIP"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13412",
+      "nome": "Cadastrar e parcelar débitos fazendários não declarados junto à Receita Federal"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/parcelar-imposto",
+  "statusDestaque": true
+}

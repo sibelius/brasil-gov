@@ -1,0 +1,315 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8962",
+  "nome": "Realizar consulta de pneumologia em crianças - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O serviço realiza avaliação diagnóstica e tratamento em crianças e adolescentes portadores de doenças e/ou condições clínicas de maior complexidade que acometem o sistema respiratório, estando relacionadas ao perfil de atendimento da especialidade. Após a confirmação do diagnóstico, a equipe elabora o plano terapêutico mais adequado às necessidades de cada usuário. Ao término do tratamento é realizada a transferência de cuidado para a Unidade Básica de referência.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (21) 2554-1700\n\n  **Site: **<http://www.iff.fiocruz.br>",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 32786
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32205,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "Para acessar este serviço o usuário deverá ser encaminhado por uma Unidade de saúde do SUS através do Sistema de Regulação em Saúde (Sisreg) e portar umas das doenças ou condições clínicas relacionadas:\n\n - Asma grave (idade mínima 06 anos); ou,\n\n - Bronquiectasias documentadas em exames de imagem."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "4",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 4
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 51469
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Asma grave",
+        "id": 115684
+      },
+      {
+        "item": "Fibrose cística",
+        "id": 115685
+      },
+      {
+        "item": "Bronquiectasias",
+        "id": 115686
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33423
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "Rampa, Elevador",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 67349,
+      "titulo": "Identicar-se na recepção",
+      "descricao": "Apresentar documento de identidade e a guia de encaminhamento do Sistema de Regulação em Saúde com o nome e data da consulta na recepção e receber orientação para abertura de cadastro no arquivo médico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96003,
+            "nome": "Guia de encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 96004,
+            "nome": "Documento de identidade do responsável"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86596,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção de entrada do IFF.  \n  \n**Endereço:** Av. Rui Barbosa, 716 - Flamengo\n\n Rio de Janeiro - RJ, 20021-140",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 67350,
+      "titulo": "Realizar cadastro no Arquivo Médico do Instituto",
+      "descricao": "Consiste na realização de cadastro pelo Arquivo Médico do Instituto Nacional Fernandes Figueira (IFF) com objetivo de identificação e geração do cartão de agendamento institucional e abertura de prontuário. Após a liberação do seu cartão de agendamento Institucional o usuário será orientado a comparecer ao Ambulatório de Pediatria Especializada.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96005,
+            "nome": "Guia de encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 96006,
+            "nome": "Carteira de Identidade do responsável"
+          },
+          {
+            "id": 96007,
+            "nome": "Documento de identificação da criança (certidão de nascimento ou carteira de identidade)"
+          },
+          {
+            "id": 96008,
+            "nome": "Comprovante de residência"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86597,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada no Arquivo Médico do Instituto.  \n  \n**Endereço:** Av. Rui Barbosa, 716 - Flamengo\n\n Rio de Janeiro - RJ, 20021-140",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 67351,
+      "titulo": "Identificar-se na recepção do Serviço de Pneumologia",
+      "descricao": "Apresentar-se na recepção do Ambulatório Pediatria Especializada no 2ºandar no setor de Pneumologia e entregar para a atendente a Guia de Encaminhamento do Sistema de Regulação em Saúde e o cartão de agendamento Institucional recebido no arquivo médico. Aguardar a chamada para a realização da consulta médica.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96009,
+            "nome": "Guia de Encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 96010,
+            "nome": "Cartão de Agendamento Institucional"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86598,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção do setor de Pneumologia.  \n  \n**Endereço:** Av. Rui Barbosa, 716 - Flamengo\n\n Rio de Janeiro - RJ, 20021-140",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 67352,
+      "titulo": "Realizar consulta médica",
+      "descricao": "É realizada a avaliação da condição clínica do usuário e a adequação aos critérios clínicos definidos para admissão na especialidade. Quando necessário, novos exames poderão ser olicitados. O plano terapêutico é individual e inicia na confirmação do diagnóstico. Ao término do tratamento será feita transferência de cuidado para a unidade de origem. Durante a consulta, caso o usuário não apresente as condições clínicas alinhadas à especialidade, será contra-referenciado para a unidade solicitante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96011,
+            "nome": "Guia de encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 96012,
+            "nome": "Cartão de Agendamento do Institucional"
+          },
+          {
+            "id": 96013,
+            "nome": "Carteira de Vacinação da Criança"
+          },
+          {
+            "id": 96014,
+            "nome": "Exames anteriores"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86599,
+            "tipo": "presencial",
+            "descricao": "Esta etapa se realiza no consultório do Setor de Pneumologia no Ambulatório de Pediatria Especializada.  \n  \n**Endereço:** Av. Rui Barbosa, 716 - Flamengo\n\n Rio de Janeiro - RJ, 20021-140",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "67",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-de-pneumologia-em-criancas",
+  "statusDestaque": false
+}

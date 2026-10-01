@@ -1,0 +1,222 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10045",
+  "nome": "Alterar autorização de investigação clínica de dispositivos médicos",
+  "sigla": "",
+  "descricao": "É uma solicitação para alterar informações sobre autorização de investigação clínica em dispositivos médicos de alto risco.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: 0800-642 9782 (dias úteis, das 7h30 às 19h30); \n\n [Webchat](https://www.gov.br/anvisa/pt-br/canais_atendimento/webchat) \n\n [Formulário Eletrônico ](https://www.gov.br/anvisa/pt-br/canais_atendimento/formulario-eletronico)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www9.anvisa.gov.br/peticionamento/sat/global/acesso.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 99741
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84514,
+        "tipo": "Patrocinadores de ensaios clínicos, pesquisadores de universidades, organizações representativas de ensaios clínicos",
+        "requisitos": "Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o peticionamento eletrônico.\n\n  [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastro)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Válido até a conclusão do ensaio clínico"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 139043
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 139044
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Ensaios clínicos",
+        "id": 334945
+      },
+      {
+        "item": "dispositivos médicos",
+        "id": 334946
+      },
+      {
+        "item": "pesquisa clínica",
+        "id": 334947
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução da Diretoria Colegiada - RDC nº 837, de 13/12/2023](https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=RDC&numeroAto=00000837&seqAto=000&valorAno=2023&orgao=RDC/DC/ANVISA/MS&codTipo=&desItem=&desItemFim=&cod_menu=1696&cod_modulo=134&pesquisa=true \"https://encurtador.com.br/6S6PP\") - Dispõe sobre a realização de investigações clínicas com dispositivos médicos no Brasil.",
+        "id": 116267
+      },
+      {
+        "item": "[RESOLUÇÃO - RDC Nº 743, DE 10 DE AGOSTO DE 2022](https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-743-de-10-de-agosto-de-2022-422880104) - Estabelece a classificação de riscos e os prazos para resposta aos requerimentos de atos públicos de liberação de responsabilidade da Anvisa, conforme o disposto no caput do art. 3° e art. 10 do Decreto nº 10.178, de 18 de dezembro de 2019",
+        "id": 116268
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 193980,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Após login e senha no sistema de peticionamento da Anvisa, selecione o CNPJ da Empresa para a qual fará o peticionamento. Selecionar a área de assunto de Petição e clicar em “Pesquisar Assunto” >“Produtos para Saúde (Correlatos)”.\n\n Localize o assunto cuja descrição seja compatível com a solicitação. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 265406,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao)). A Anvisa fornece um *checklist* (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 32683,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "variável de acordo com o porte da empresa e o tipo de solicitação",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 253605,
+            "tipo": "web",
+            "descricao": "[Sistema de peticionamento eletrÃ´nico](https://www9.anvisa.gov.br/peticionamento/sat/global/acesso.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 193981,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "O processo pode ser acompanhado pelo Peticionamento eletrônico. Selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/) , na opção “Situação de documentos>Técnico” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 265407,
+            "nome": "Login e senha no Peticionamento eletrônico"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 253606,
+            "tipo": "web",
+            "descricao": "[Sistema de peticionamento eletrÃ´nico](https://www9.anvisa.gov.br/peticionamento/sat/global/acesso.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/alterar-autorizacao-de-investigacao-clinica-de-dispositivos-medicos",
+  "statusDestaque": false
+}

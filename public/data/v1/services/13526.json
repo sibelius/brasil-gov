@@ -1,0 +1,233 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13526",
+  "nome": "Obter Aprovação de Dado Técnico para Grande Reparo",
+  "sigla": "",
+  "descricao": "Todos os grandes reparos em aeronaves requerem que os dados técnicos que os suportam sejam aprovados diretamente pela ANAC, ou por um Profissional Credenciado de Projeto (PCP) com autorização da ANAC para tal. A lista de Profissionais Credenciados de Projeto que podem emitir parecer de reparos é encontrada clicando [aqui](https://sistemas.anac.gov.br/certificacao/ReprCredenc/ReprCredenc.asp).\n\n Para saber se o PCP tem autorização da ANAC para emitir parecer para um determinado dado técnico de grande reparo, o profissional encontrado na lista deve ser diretamente consultado. Há tipos de dados técnicos de grandes reparos que não têm PCP autorizado para emitir sua aprovação. Nesse caso, os dados técnicos precisam ser enviados diretamente para ANAC para obter sua aprovação, conforme aqui descrito.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 86661
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74443,
+        "tipo": "Solicitante de aprovação de dado técnico de grandes reparos, proprietário de aeronave, mecânico de manutenção aeronáutica, piloto, operador aéreo, organização de manutenção, fabricante de aeronave.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "meses"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 120341
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 120342
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 292646
+      },
+      {
+        "item": "Grandes reparos",
+        "id": 292647
+      },
+      {
+        "item": "Manutenção",
+        "id": 292648
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 21](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 99253
+      },
+      {
+        "item": "[RBAC 43](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43/@@display-file/arquivo_norma/RBAC43EMD05.pdf)",
+        "id": 99254
+      },
+      {
+        "item": "[  RBAC 23](http://  https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-23/@@display-file/arquivo_norma/RBAC23EMD64.pdf)",
+        "id": 99255
+      },
+      {
+        "item": "[RBAC 25](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2022/bps-v-17-no-17-25-a-29-04-2022/rbac-25-emd-146)",
+        "id": 99256
+      },
+      {
+        "item": "[RBAC 26](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-26/@@display-file/arquivo_norma/RBAC26EMD03.pdf)",
+        "id": 99257
+      },
+      {
+        "item": "[RBAC 27](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-27)",
+        "id": 99258
+      },
+      {
+        "item": "[RBAC 29](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-29)",
+        "id": 99259
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 168238,
+      "titulo": "Solicitar Aprovação",
+      "descricao": "2. Criar um processo SEI \"Certificação de Produto: Aprovação de Dado Técnico de Reparo\";\n 4. Criar no processo e preencher os Formulários F-101-31 e F-101-32;\n 6. Anexar a documentação aplicável prevista nos formulários F-101-31 e F-101-32;\n 8. Assinar os formulários e submeter o processo para apreciação da SAR/GCPP/GTEN.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 233686,
+            "nome": "Formulário de solicitação de aprovação de dados técnicos de grande reparo (documento SEI);"
+          },
+          {
+            "id": 233687,
+            "nome": "Lista de Verificação de Cumprimento (documento SEI);"
+          },
+          {
+            "id": 233688,
+            "nome": "Relatórios de demonstração de cumprimento descritos na Lista de Verificação de Cumprimento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 220475,
+            "tipo": "web",
+            "descricao": "[Peticionamento Eletrônico SEI!](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei), escolhendo o tipo de processo Certificação de Produto: Aprovação de Dado Técnico de Reparo",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 168239,
+      "titulo": "Aguardar Ofício de Aprovação",
+      "descricao": "Aguardar Ofício de Aprovação emitido via SEI ou comunicação da ANAC por e-mail informando sobre eventuais pendências.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 220476,
+            "tipo": "web",
+            "descricao": "[Peticionamento Eletrônico SEI!](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "meses"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-aprovacao-de-dado-tecnico-para-grande-reparo",
+  "statusDestaque": false
+}

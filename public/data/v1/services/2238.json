@@ -1,0 +1,166 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2238",
+  "nome": "Suspender ou reativar comercialização de registro de  plano de saúde",
+  "sigla": "",
+  "descricao": "A operadora de planos de saúde pode solicitar a suspensão de produtos que não deseja comercializar por um período e/ou a reativação de produtos que estejam com a comercialização suspensa por sua solicitação.",
+  "flagPortalLogado": "N",
+  "contato": "ggrep.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "suspensão ou reativação de produtos",
+        "id": 72857
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64057,
+        "tipo": "Operadoras de plano de saúde",
+        "requisitos": "Possuir registro ativo de operadora de plano de saúde junto à ANS e o produto apresentar status ativo ou ativo com comercialização suspensa por solicitação da operadora"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101137
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "suspensão",
+        "id": 248200
+      },
+      {
+        "item": "reativação",
+        "id": 248201
+      },
+      {
+        "item": "produtos",
+        "id": 248202
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 543/2004 \n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)\n\n e IN 28/2022\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)",
+        "id": 82506
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 143656,
+      "titulo": "Solicitar a reativação e/ou suspensão do produto",
+      "descricao": "A operadora deve protocolizar junto à ANS, através do protocolo eletrônico, disposto no link https://www2.ans.gov.br/ans-idp/, a suspensão ou reativação de produto, através de correspondência assinada pelo representante legal, com observância ao prazo estabelecido no Art. 19, inciso I, da IN ANS nº 28/2022",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203587,
+            "nome": "Correspondência assinada pelo representante legal da operadora junto à ANS."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 23837,
+            "descricao": "gratuito",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186567,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "38",
+  "url": "https://www.gov.br/pt-br/servicos/suspender-ou-reativar-comercializacao-de-plano-de-saude",
+  "statusDestaque": false
+}

@@ -1,0 +1,659 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10188",
+  "nome": "Obter Certificado Operacional de operador aeroportuário",
+  "sigla": "",
+  "descricao": "A certificação operacional de aeroportos é o instrumento regulatório pelo qual se demonstra que (1) as operações no aeródromo ocorrem de acordo com os regulamentos da Agência e que (2), para aqueles requisitos cuja adequação não é possível, foram feitas análises de risco (às vezes chamadas de estudos aeronáuticos) que demonstram um nível aceitável de segurança operacional.\n\n De acordo com a seção 139.1 do [RBAC 139](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139), a certificação é exigida para operadores de aeródromo civil que seja destinado às aeronaves nacionais ou estrangeiras na realização de serviços internacionais, regulares ou não regulares.\n\n A Anac também pode exigir a obtenção da Certificação quando identificado risco à segurança das operações que justifique, de acordo com os critérios e rito estabelecidos pela [PORTARIA Nº 9.248/SIA, DE 22 DE SETEMBRO DE 2022](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-9248).\n\n Mais informações sobre a aplicabilidade da Certificação, podem ser obtidas na seção 139.1 do [RBAC 139](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139).",
+  "flagPortalLogado": "N",
+  "contato": "Quaisquer dúvidas, entre em contato pelo telefone 163 ou pelo[ Sistema de Atendimento da ANAC](https://www.gov.br/../../anac/pt-br/canais_atendimento/fale-com-a-anac).",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 119352
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 100016,
+        "tipo": "O operador do aeródromo de uso público, por meio de seu representante legal ou outro representante com poderes para tanto.",
+        "requisitos": "É fundamental que o operador do aeródromo e seus representantes estejam devidamente cadastrados no [Protocolo Eletrônico SEI](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei) e vinculados ao CNPJ do operador para que a comunicação com a Anac ocorra de maneira eficiente. Saiba mais em “[Operador de aeródromo, representantes e responsáveis operacionais](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/operador-aerodromo)”."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "240",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 240
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 166628
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 166629
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 398685
+      },
+      {
+        "item": "certificado",
+        "id": 398686
+      },
+      {
+        "item": "operacional",
+        "id": 398687
+      },
+      {
+        "item": "aeroportuário",
+        "id": 398688
+      },
+      {
+        "item": "RBAC 139",
+        "id": 398689
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 7.565/1986](http://www.planalto.gov.br/ccivil_03/leis/L7565.htm)",
+        "id": 141334
+      },
+      {
+        "item": "[RBAC nº 139](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-139)",
+        "id": 141335
+      },
+      {
+        "item": "[Portaria SIA nº 3352/2018](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2018/portaria-no-3352-sia-30-10-2018/@@display-file/arquivo_norma/PA2018-3352%20-%20Compilado%20at%C3%A9%20PA2020-0653.pdf)",
+        "id": 141336
+      },
+      {
+        "item": "[RBAC nº 153](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-153)",
+        "id": 141337
+      },
+      {
+        "item": "[RBAC nº 154](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-154)",
+        "id": 141338
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 233248,
+      "titulo": "Solicitar certificação operacional",
+      "descricao": "O solicitante deve enviar os documentos abaixo listados à Anac e pode solicitar reunião prévia com a área técnica da Anac, recomendada para operadores de aeródromo que não conhecem a certificação operacional. O objetivo da reunião é apresentar o processo, a documentação necessária para o Requerimento Formal, eventualmente discutir as principais deficiências do aeroporto e esclarecer dúvidas do regulado, antes do pedido formal. Não há ônus para o regulado realizar reunião prévia com a Anac.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 308270,
+            "nome": "**Requisitos prévios:**"
+          },
+          {
+            "id": 308271,
+            "nome": "Possuir a outorga para a exploração aeroportuária. A atualização da outorga deve ser feita no processo SEI! “Aeródromos: Instrumento de Delegação de Operador de Aeródromo de Uso Público” referente ao Aeródromo em questão. Caso seja aeródromo novo, encaminhe, via Peticionamento Eletrônico (SEI!), os documentos que comprovam a delegação da exploração aeroportuária para o operador do aeródromo;"
+          },
+          {
+            "id": 308272,
+            "nome": "Estar com os poderes de representação devidamente atualizados no SEI! e no Sistema de Designação de Responsáveis Operacionais (DRO). Saiba mais em “[Operador de aeródromo, representantes e responsáveis operacionais](https://encurtador.com.br/DXLp)”. Observar ainda que os formulários do tipo Excel (extensão \"xlsm\") devem ser abertos com a habilitação de macro antes de serem preenchidos. Ao salvá-los para envio, deve ser mantida a opção \"pasta de trabalho habilitada para macro\"."
+          }
+        ],
+        "casos": [
+          {
+            "id": 46872,
+            "descricao": "Caso se trate de Certificação Definitiva",
+            "documento": [
+              {
+                "id": 308245,
+                "codigo": null,
+                "descricao": "[Requerimento de Certificação Operacional](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/downloads/requerimento-de-certificacao-operacional)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308246,
+                "codigo": null,
+                "descricao": "[Declaração de Conformidade do MOPS](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/arquivos/declaracaoconfMOPS.xlsx)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308247,
+                "codigo": null,
+                "descricao": "Manual de Operações do Aeródromo (MOPS) em formato pdf., conforme orientações disponíveis aqui;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308248,
+                "codigo": null,
+                "descricao": "Compromisso de Ações Corretivas – CAC;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308249,
+                "codigo": null,
+                "descricao": "Programa de Prevenção do Risco Associado ao Uso Indevido de Substâncias Psicoativas na Aviação Civil - PPSP (Aplicável a operadores classe III e IV);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308250,
+                "codigo": null,
+                "descricao": "Documentos que evidenciem que os profissionais designados na DRO atendem aos critérios de qualificação dos responsáveis pelas atividades operacionais, conforme definição do operador",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308251,
+                "codigo": null,
+                "descricao": "Cópia do comprovante de pagamento da TFAC.\n\n Os valores de TFAC são correspondentes à complexidade dos processos de emissão de certificado do operador aeroportuário (item “p” (COD 16) do Anexo à Resolução n° 653, de 20/12/2021).  \nA TFAC deve ser recolhida após conclusão da fase de \"Avaliação do Requerimento\" e sua notificação acerca da ausência de pendências, ou seja, deve ser recolhida antes da realização da inspeção in loco (Portaria nº 8676/SPI/SPO/SIA/SAR/SPL, de 25 de julho de 2022).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 46873,
+            "descricao": "Caso se trate de Certificação Provisória",
+            "documento": [
+              {
+                "id": 308252,
+                "codigo": null,
+                "descricao": "[Requerimento de Certificação Operacional](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/downloads/requerimento-de-certificacao-operacional)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308253,
+                "codigo": null,
+                "descricao": "Declaração de ratificação e cumprimento integral do MOPS do antigo operador de aeródromo;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308254,
+                "codigo": null,
+                "descricao": "Declaração de compromisso de correção das não conformidades inconclusas por parte do antigo operador de aeródromo junto à Anac (se aplicável);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308255,
+                "codigo": null,
+                "descricao": "Plano para o treinamento dos novos profissionais contratados para trabalharem na área operacional do aeródromo ou em atividades relacionadas com a segurança operacional;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308256,
+                "codigo": null,
+                "descricao": "Programa de Prevenção do Risco Associado ao Uso Indevido de Substâncias Psicoativas na Aviação Civil (PPSP) (aplicável para operadores Classe III e IV)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 46874,
+            "descricao": "Caso se trate de alteração do MOPS para modificação de Especificação Operativa",
+            "documento": [
+              {
+                "id": 308257,
+                "codigo": null,
+                "descricao": "[Requerimento de Aprovação do MOPS por Alteração de Especificações Operativas- EO](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/downloads/requerimento-de-aprovacao-do-mops-por-alteracao-de-caracteristicas-operacionais/view);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308258,
+                "codigo": null,
+                "descricao": "[Declaração de Conformidade do MOPS](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/downloads/requerimento-de-aprovacao-do-mops-por-alteracao-de-caracteristicas-operacionais/view)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308259,
+                "codigo": null,
+                "descricao": "Manual de Operações do Aeródromo (MOPS) em formato pdf., que permita a busca de texto, conforme orientações disponíveis [aqui](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/manual-de-operacoes-do-aerodromo-mops).",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308260,
+                "codigo": null,
+                "descricao": "Cópia do comprovante de pagamento da TFAC\n\n Os valores de TFAC estão dispostos no campo CUSTOS, abaixo. As alterações de especificações operativas dos tipos previstos na tabela “p” do Anexo à RESOLUÇÃO Nº 653, DE 20 DE DEZEMBRO DE 2021, ensejam a cobrança de TFAC..",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 46875,
+            "descricao": "Caso se trate de alteração do MOPS para modificação de características Físicas",
+            "documento": [
+              {
+                "id": 308261,
+                "codigo": null,
+                "descricao": "[Requerimento de Aprovação do MOPS para Alteração de Características Físicas e anexos](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/downloads/requerimento-de-aprovacao-do-mops-para-alteracao-de-caracteristicas-fisicas/view)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308262,
+                "codigo": null,
+                "descricao": "[Declaração de Conformidade do MOPS](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/arquivos/declaracaoconfMOPS.xlsx);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308263,
+                "codigo": null,
+                "descricao": "[ Manual de Operações do Aeródromo (MOPS) em formato pdf., conforme orientações disponíveis aqui.](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/manual-de-operacoes-do-aerodromo-mops)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 46876,
+            "descricao": "Caso se trate de alteração do MOPS por atualização de regulamento técnico",
+            "documento": [
+              {
+                "id": 308264,
+                "codigo": null,
+                "descricao": "[Requerimento de Aprovação do MOPS por Atualização de Regulamento e anexos](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/downloads/requerimento-de-aprovacao-de-mops-por-atualizacao-de-regulamento/@@download/file/requerimento-de-aprovacao-de-mops-por-atualizacao.xlsm)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308265,
+                "codigo": null,
+                "descricao": "[Declaração de Conformidade do MOPS](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/arquivos/declaracaoconfMOPS.xlsx);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308266,
+                "codigo": null,
+                "descricao": "Manual de Operações do Aeródromo (MOPS) em formato pdf, conforme orientações disponíveis [aqui](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/manual-de-operacoes-do-aerodromo-mops).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 46877,
+            "descricao": "Caso se trate de apresentação de versão atualizada do MOPS (casos não enquadrados em hipóteses anteriores)",
+            "documento": [
+              {
+                "id": 308267,
+                "codigo": null,
+                "descricao": "[Requerimento Apresentação de Versão Atualizada do MOPS](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/downloads/requerimento-apresentacao-de-versao-atualizada-do-mops/view)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308268,
+                "codigo": null,
+                "descricao": "[Declaração de Conformidade do MOPS](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/arquivos/declaracaoconfMOPS.xlsx.);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 308269,
+                "codigo": null,
+                "descricao": "Manual de Operações do Aeródromo (MOPS) em formato pdf., conforme orientações disponíveis [aqui](https://www.gov.br/anac/pt-br/assuntos/regulados/aerodromos/certificacao/manual-de-operacoes-do-aerodromo-mops).\n\n É importante observar o [guia](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei/01-guia-protocolo-eletronico) elaborado pela Anac para auxiliar na utilização do protocolo eletrônico.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 301634,
+            "tipo": "web",
+            "descricao": "Solicitar via [Peticionamento Eletrônico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) (SEI!) a certificação, utilizando o tipo de processo adequado ao caso:\n\n •    Aeródromos: Apresentação de Versão Atualizada do Manual de Operações de Aeródromo – MOPS;\n\n •    Aeródromos: Aprovação de Manual de Operações de Aeródromo – MOPS;\n\n •    Aeródromos: Certificação Operacional Provisória;\n\n •    Aeródromos: Certificação Operacional Definitiva.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 46878,
+            "descricao": "Para solicitar reunião prévia com a ANAC",
+            "canalDePrestacao": [
+              {
+                "id": 301633,
+                "tipo": "e-mail",
+                "descricao": "A reunião prévia deve ser agendada através do envio do  para o e-mail [gtop@anac.gov.br](mailto:gtop@anac.gov.br)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 233249,
+      "titulo": "Aguardar análise e solucionar pendências documentais",
+      "descricao": "A Anac analisará os documentos enviados, podendo solicitar ao regulado que sane eventuais pendências documentais. Nos casos em que a análise concluir pela continuidade da avaliação do pedido, é iniciada a etapa de inspeção. Nos casos em que sejam identificadas pendências técnicas, é realizada análise do Manual de Operações do Aeródromo (MOPS).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 301635,
+            "tipo": "web-acompanhar",
+            "descricao": "O interessado pode acompanhar as pendências no mesmo sistema ([SEI!](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0))  usado para o peticionamento original",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 233250,
+      "titulo": "Receber a Anac para inspeção in loco",
+      "descricao": "O operador de aeródromo recebe a Anac para inspeção de certificação, de acordo com as normas vigentes.\n\n A Anac elabora, então relatório técnico com o resultado da visita e o encaminha ao operador do aeródromo.\n\n Importante: O pagamento da TFAC aplicável conforme quadro abaixo deve ser efetivado antes da inspeção.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 40698,
+            "descricao": "Conforme casos destacados abaixo, o custo é variável de",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "R$ 1.000,00 a R$ 25.000,00",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": [
+          {
+            "id": 46879,
+            "descricao": "Caso seja alteração de especificações operativas em CO para: Autorizações de Op. Especiais de aeronaves mais exigentes; ou para Categoria Contraincênd",
+            "custo": [
+              {
+                "id": 40692,
+                "descricao": "TFAC 011601",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 46880,
+            "descricao": "Caso seja alteração de especificações operativas em Certificado Operacional para Tipo de operação por pista/cabeceira mais exigentes",
+            "custo": [
+              {
+                "id": 40693,
+                "descricao": "TFAC 011602",
+                "moeda": "R$",
+                "valor": " 3.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 46881,
+            "descricao": "Caso se trate da emissão de Certificado Operacional de Aeródromo para operadores Classe I, conforme RBAC 153",
+            "custo": [
+              {
+                "id": 40694,
+                "descricao": "TFAC 011603",
+                "moeda": "R$",
+                "valor": " 10.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 46882,
+            "descricao": "Caso se trate da emissão de Certificado Operacional de Aeródromo para operadores Classe II, conforme RBAC 153",
+            "custo": [
+              {
+                "id": 40695,
+                "descricao": "TFAC 011604",
+                "moeda": "R$",
+                "valor": " 13.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 46883,
+            "descricao": "Caso se trate da emissão de Certificado Operacional de Aeródromo para operadores Classe III, conforme RBAC 153",
+            "custo": [
+              {
+                "id": 40696,
+                "descricao": "TFAC 011605",
+                "moeda": "R$",
+                "valor": " 17.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 46884,
+            "descricao": "Caso se trate da emissão de Certificado Operacional de Aeródromo para operadores Classe IV, conforme RBAC 153",
+            "custo": [
+              {
+                "id": 40697,
+                "descricao": "TFAC 011606",
+                "moeda": "R$",
+                "valor": " 25.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 301637,
+            "tipo": "presencial",
+            "descricao": "O interessado pode acompanhar as datas agendadas no mesmo [sistema ](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)usado para o peticionamento original.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 46885,
+            "descricao": "Para emitir a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 301636,
+                "tipo": "web",
+                "descricao": "[Clique aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean)\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 233251,
+      "titulo": "Solucionar pendências e receber o Certificado",
+      "descricao": "O interessando deve responder o relatório técnico com comprovação de correção de não conformidades e propor Compromisso de Ações Corretivas (CAC) para aquelas que demandem muito investimento ou tempo elevado para adequação.\n\n A Anac avalia a resposta encaminhada pelo interessado. Somente quando todas as não conformidades forem atendidas ou constarem em CAC previamente validado pela área técnica o certificado é emitido e disponibilizado no processo SEI onde ocorreu seu trâmite.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 308273,
+            "nome": "Compromisso de Ações Corretivas – CAC"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 301638,
+            "tipo": "web-acompanhar",
+            "descricao": "O interessado pode acompanhar as pendências e enviar respostas que visem saná-las no mesmo [sistema (SEI!) ](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)usado no peticionamento original.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "240",
+  "percentualAvaliacoesPositivas": "76",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-operacional-de-operador-aeroportuario",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

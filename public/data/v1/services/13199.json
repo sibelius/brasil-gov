@@ -1,0 +1,299 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13199",
+  "nome": "Matricular-se em Curso de Pós-graduação - UNIFEI",
+  "sigla": "",
+  "descricao": "Através deste serviço, após a aprovação em processo seletivo no curso escolhido, o usuário poderá se matricular em um curso de pós-graduação stricto sensu da UNIFEI e tornar-se um aluno regular da instituição.",
+  "flagPortalLogado": "N",
+  "contato": "Campus Itajubá  \nPRÓ-REITORIA DE PESQUISA E PÓS-GRADUAÇÃO – PRPPG  \nAv. BPS, 1303, Caixa Postal 50, Pinheirinho, CEP: 37500-903,  \nItajubá/MG\n\n  \n\n Site: https://unifei.edu.br/prppg/contato/",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://unifei.edu.br/prppg/matriculas/matriculas-iniciais-mestrado-doutorado/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 59638
+      },
+      {
+        "item": "Ingresso na pós-graduação",
+        "id": 59639
+      },
+      {
+        "item": "Ingressante",
+        "id": 59640
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 54507,
+        "tipo": "Candidatos aprovados no processo seletivo dos cursos de pós-graduação (stricto sensu - Mestrado/Doutorado)",
+        "requisitos": "* Ter concluído o curso de graduação;\n * Ter sido aprovado no processo seletivo do programa de pós-graduação escolhido."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "7",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/462",
+    "dbId": 57768,
+    "nomeOrgao": "Universidade Federal de Itajubá (UNIFEI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 85171
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 205864
+      },
+      {
+        "item": "Ingressantes",
+        "id": 205865
+      },
+      {
+        "item": "Matrícula Inicial",
+        "id": 205866
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 67331
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 118549,
+      "titulo": "Preencher o Formulário de Confirmação de Matrícula",
+      "descricao": "Preencher o Formulário de Confirmação de Matrícula",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 166061,
+            "nome": "RG ( Não utilize carteira de motorista, funcional ou outros documentos de identificação )"
+          },
+          {
+            "id": 166062,
+            "nome": "CPF"
+          },
+          {
+            "id": 166063,
+            "nome": "Certidão de Quitação Eleitoral"
+          },
+          {
+            "id": 166064,
+            "nome": "Documento Militar"
+          }
+        ],
+        "casos": [
+          {
+            "id": 21789,
+            "descricao": "Para Todos os Ingressantes no Nível Mestrado",
+            "documento": [
+              {
+                "id": 166058,
+                "codigo": null,
+                "descricao": "Diploma ou declaração da instituição de conclusão da graduação contendo data da conclusão e da colação de grau.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 21790,
+            "descricao": "Para Todos os Ingressantes no Nível Doutorado",
+            "documento": [
+              {
+                "id": 166059,
+                "codigo": null,
+                "descricao": "Diploma ou declaração da instituição de conclusão do mestrado contendo data da conclusão.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 21791,
+            "descricao": "Somente para Candidatos Estrangeiros",
+            "documento": [
+              {
+                "id": 166060,
+                "codigo": null,
+                "descricao": "Passaporte",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 151956,
+            "tipo": "web",
+            "descricao": "[Matrículas Iniciais](https://unifei.edu.br/prppg/matriculas/matriculas-iniciais- mestrado-doutorado/)\n\n [Programas de Pós-graduação](https://unifei.edu.br/prppg/contato/programas-de-pos-graduacao/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "7",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 118550,
+      "titulo": "Aguardar seu Cadastro no Sistema Acadêmico",
+      "descricao": "A secretaria do curso de pós-graduação realizará o cadastro do candidato aprovado no sistema acadêmico (SIGAA) como aluno regular no programa de pós-graduação  e encaminhará um e-mail com a confirmação da matrícula e orientações para a próxima etapa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 151957,
+            "tipo": "e-mail",
+            "descricao": "[Contato das coordenações e secretarias administrativas dos Programas de Pós-Graduação da Unifei](https://unifei.edu.br/prppg/contato/programas-de-pos-graduacao/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 118551,
+      "titulo": "Realizar Primeiro Acesso ao Sistema Acadêmico e Matrícular-se em Disciplinas",
+      "descricao": "O discente ingressante deverá acessar o sistema acadêmico da instituição - SIGAA e criar a nova senha. . Após entrar no sistema o discente deverá matricular-se nas disciplinas a serem cursadas no semestre.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 151958,
+            "tipo": "web",
+            "descricao": "[Sistema AcadÃªmico - SIGAA](https://sigaa.unifei.edu.br/sigaa/verTelaLogin.do)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "3",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-pos-graduacao-unifei",
+  "statusDestaque": false
+}

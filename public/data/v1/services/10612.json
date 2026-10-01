@@ -1,0 +1,232 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10612",
+  "nome": "Emitir boleto de multa de processo administrativo",
+  "sigla": "",
+  "descricao": "O Sistema de Gerenciamento de Multas (SGM) é um aplicativo que controla as irregularidades e as penalidades de advertência e multa aplicadas pelo descumprimento de normas do Sistema Financeiro Nacional e multas administrativas.\n\n Se você ou sua empresa não possui Conta de Liquidação, Conta Reservas Bancárias ou convênio para utilização de Conta Reservas Bancárias, é possível emitir o boleto bancário para pagamento da multa de acordo com os três módulos abaixo:\n\n  * Boleto ainda não vencido;\n * Boleto para pagamento parcelado; e\n * Boleto para pagamento de dívida já vencida e inscrita em dívida ativa.\n    \nA emissão de boletos para pagamento parcelado é válida para multas cujo acordo de parcelamento foi firmado após 23/07/2020. No caso de acordos firmados antes daquela data, o pagamento deve ser feito conforme indicado no acordo de parcelamento.\n\n Caso o processo esteja vencido, a dívida é encaminhada para a Dívida Ativa e o boleto deve ser atualizado.",
+  "flagPortalLogado": "N",
+  "contato": "Com o Banco Central, em uma de suas representações listadas [aqui](http://www.bcb.gov.br/estabilidadefinanceira/atendepad).\n\n Pelo [Fale Conosco](http://www.bcb.gov.br/acessoinformacao/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.bcb.gov.br/estabilidadefinanceira/sgm",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88528
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75822,
+        "tipo": "Pessoa física e jurídica penalizada com multa pelo BC",
+        "requisitos": "Para a emissão do boleto, são necessários:\n\n  * número do CPF ou CNPJ da pessoa física ou jurídica responsável pela penalidade;\n * número da penalidade, informado pelo Banco Central no ofício de notificação, composto por 11 algarismos."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O boleto deve ser pago até a data de vencimento. Em caso de atraso no pagamento, o responsável pela penalidade deve gerar novo boleto com o valor atualizado."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122841
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 122842
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Adicionais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Boleto",
+        "id": 298344
+      },
+      {
+        "item": "Multa",
+        "id": 298345
+      },
+      {
+        "item": "Penalidade",
+        "id": 298346
+      },
+      {
+        "item": "",
+        "id": 298347
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101588
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 45,
+    "negativas": 264
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 171750,
+      "titulo": "Emitir boleto de multa ainda não vencido",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225336,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/sgminternet/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171751,
+      "titulo": "Emitir boleto para pagamento parcelado",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225337,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/sgm2-internet/gerar)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171752,
+      "titulo": "Emitir boleto para pagamento de dívida já vencida e inscrita em dívida ativa",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225338,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/bcjur2-internet/gerar)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "15",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-boleto-de-multa",
+  "statusDestaque": false
+}

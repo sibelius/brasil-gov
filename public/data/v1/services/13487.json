@@ -1,0 +1,459 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13487",
+  "nome": "Solicitar cópia de prontuário/resultado de exames de pacientes do Humap-UFMS",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, pacientes do Humap-UFMS, podem ter acesso à cópia de seu prontuário médico. No prontuário é possível obter as informações relacionadas aos atendimentos ambulatoriais, internações e resultados de exames.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (67) 33345-3024 / 3345-3025\n\n E-mail: arquivo.humap@ebserh.gov.br / ugpia.humap-ufms@ebserh.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74482
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65458,
+        "tipo": "Paciente do Humap-UFMS (titular do prontuário);",
+        "requisitos": ""
+      },
+      {
+        "id": 65459,
+        "tipo": "Pais de paciente (titular do prontuário) menor de idade;",
+        "requisitos": ""
+      },
+      {
+        "id": 65460,
+        "tipo": "Representante legal ou familiar do paciente (titular do prontuário).",
+        "requisitos": ""
+      },
+      {
+        "id": 65461,
+        "tipo": "Solicitante indireto, em caso de óbito: cônjuge e sucessivamente, os legítimos sucessores do falecido, em linha reta ou com grau de parentesco colateral até quarto grau com o titular do prontuário;",
+        "requisitos": ""
+      },
+      {
+        "id": 65462,
+        "tipo": "Solicitante indireto, em caso de óbito: terceiros (sem grau de parentesco) com o titular do prontuário.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 103083
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "prontuário",
+        "id": 253152
+      },
+      {
+        "item": "saúde",
+        "id": 253153
+      },
+      {
+        "item": "cópia",
+        "id": 253154
+      },
+      {
+        "item": "",
+        "id": 253155
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 84436
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 50,
+    "negativas": 181
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145939,
+      "titulo": "Solicitar cópia direta: o próprio paciente (titular do prontuário), faz a solicitação",
+      "descricao": "A cópia do prontuário pode ser solicitada via presencial, no Guichê (Recepção) do Ambulatório Geral ou por via eletrônica para o endereço de e-mail: arquivo.humap@ebserh.gov.br\n\n Deverá ser preenchido o Formulário de Solicitação de Cópia, que será disponibilizado ao solicitante.\n\n Ao pedir a cópia do prontuário, o solicitante também deve trazer cópia de um documento seu de identificação com foto, que pode ser Carteira de Trabalho ou CNH ou passaporte; .",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207484,
+            "nome": "Formulário de solicitação preenchido;"
+          },
+          {
+            "id": 207485,
+            "nome": "Cópia do documento de identificação com foto (do titular) ou da Carteira de Trabalho e Previdência Social (CTPS) ou da Carteira Nacional de Habilitação (CNH) ou passaporte;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24288,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS; não têm custo para o cidadão.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189800,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - portão 01 - Guichê (Recepção) do Ambulatório Geral. As cópias dos documentos serão entregues em até 30 dias úteis a partir do pedido, no mesmo local da solicitação.\n\n Horário de entrega das cópias dos documentos solicitados:\n\n De segunda a quinta-feira: 09h às 10h45 - 13h30 às 15h50\n\n Sextas-feira: 09h às 10h45 - 13h30 às 14h50\n\n Telefone: (67) 33345-3024 / 3345-3025",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32083,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189799,
+                "tipo": "telefone",
+                "descricao": "(67) 33345-3024 / 3345-3025",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 145940,
+      "titulo": "Solicitar cópia indireta: pacientes menores de idade",
+      "descricao": "A cópia do prontuário pode ser solicitada via presencial, no Guichê (Recepção) do Ambulatório Geral ou por via eletrônica para o endereço de e-mail: arquivo.humap@ebserh.gov.br - por qualquer um dos pais do paciente.\n\n Deverá ser preenchido o Formulário de Solicitação de Cópia, que será disponibilizado ao solicitante.\n\n O solicitante deve trazer cópia da certidão de nascimento do paciente e de um documento seu de identificação com foto, que pode ser RG; CTPS; CNH ou passaporte.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207486,
+            "nome": "Cópia da certidão de nascimento do paciente;"
+          },
+          {
+            "id": 207487,
+            "nome": "Cópia de documento de identificação com foto do solicitante;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24289,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS; não têm custo para o cidadão.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189802,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - portão 01 - Guichê (Recepção) do Ambulatório Geral. As cópias dos documentos serão entregues em até 30 dias úteis a partir do pedido, no mesmo local da solicitação.\n\n Horário de entrega das cópias solicitadas:\n\n De segunda a quinta-feira: 09h às 10h45 - 13h30 às 15h50\n\n Sextas-feira: 09h às 10h45 - 13h30 às 14h50\n\n Telefone: (67) 33345-3024 / 3345-3025",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32084,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189801,
+                "tipo": "telefone",
+                "descricao": "(67) 33345-3024 / 3345-3025",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 145941,
+      "titulo": "Solicitar cópia indireta: representante legal ou familiar do paciente (titular do prontuário)",
+      "descricao": "A cópia do prontuário pode ser solicitada via presencial, no Guichê (Recepção) do Ambulatório Geral ou por via eletrônica para o endereço de e-mail: arquivo.humap@ebserh.gov.br\n\n Deverá ser preenchido o Formulário de Solicitação de Cópia, que será disponibilizado ao solicitante.\n\n Ao pedir cópia do prontuário, o solicitante deve trazer cópia do documento de identificação com foto (solicitante/paciente) \n\n Caso solicitante tenha parentesco com paciente, trazer documento que comprove.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207489,
+            "nome": "Formulário de solicitação preenchido;"
+          },
+          {
+            "id": 207490,
+            "nome": "Cópia do documento de identificação com foto (do solicitante);"
+          },
+          {
+            "id": 207491,
+            "nome": "Cópia do documento de identificação com foto (do paciente);"
+          },
+          {
+            "id": 207492,
+            "nome": "Cópia da decisão judicial, caso tenha;"
+          },
+          {
+            "id": 207493,
+            "nome": "Documentação que comprove a relação de parentesco (certidão de casamento, nascimento e outros), entre solicitante e paciente (caso exista o parentesco)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 32085,
+            "descricao": "Quando o requerente atuar como representante legal do paciente",
+            "documento": [
+              {
+                "id": 207488,
+                "codigo": null,
+                "descricao": "Para as situações em que o requerente atuar como representante legal do paciente, deverá apresentar procuração outorgada por instrumento público ou particular, com poderes específicos para requerimento de cópia de prontuário médico.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24290,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS; não têm custo para o cidadão.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189804,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - portão 01 - Guichê (Recepção) do Ambulatório Geral. As cópias dos documentos serão entregues em até 30 dias úteis a partir do pedido, no mesmo local da solicitação.\n\n Horário de entrega das cópias solicitadas:\n\n De segunda a quinta-feira: 09h às 10h45 - 13h30 às 15h50\n\n Sextas-feira: 09h às 10h45 - 13h30 às 14h50\n\n Telefone: (67) 33345-3024 / 3345-3025",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32086,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189803,
+                "tipo": "telefone",
+                "descricao": "(67) 33345-3024 / 3345-3025",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 145942,
+      "titulo": "Solicitar cópia indireta: óbitos",
+      "descricao": "Apenas o cônjuge e sucessivamente, os legítimos sucessores do falecido em linha reta ou com grau de parentesco colateral até quarto grau poderão solicitar cópia do prontuário, mediante a apresentação da seguinte documentação: cópia da documentação que comprova a relação de parentesco (certidão de casamento, nascimento e outros); atestado de óbito do paciente falecido; documento de identificação com foto do solicitante, pode ser RG ou CNH; cópia do comprovante de residência do solicitante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207495,
+            "nome": "Cópia da documentação que comprova a relação de parentesco (certidão de casamento, nascimento e outros);"
+          },
+          {
+            "id": 207496,
+            "nome": "Atestado de óbito do paciente falecido;"
+          },
+          {
+            "id": 207497,
+            "nome": "Documento de identificação com foto do solicitante, pode ser RG ou CNH;"
+          },
+          {
+            "id": 207498,
+            "nome": "Cópia do comprovante de residência do solicitante."
+          }
+        ],
+        "casos": [
+          {
+            "id": 32087,
+            "descricao": "Para terceiros (sem grau de parentesco)",
+            "documento": [
+              {
+                "id": 207494,
+                "codigo": null,
+                "descricao": "Para terceiros (sem grau de parentesco) a cópia somente será disponibilizada mediante apresentação de ordem judicial ou com procuração do cônjuge do falecido e entes familiares que sejam seus sucessores legítimos em linha reta de primeiro grau.\n\n O terceiro (solicitante) deverá preencher o formulário de solicitação, apresentar o atestado de óbito do paciente falecido, documento de identificação com foto; comprovante de residência e assinar o termo de confidencialidade e sigilo.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189806,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - portão 01 - Guichê (Recepção) do Ambulatório Geral. As cópias dos documentos serão entregues em até 30 dias úteis a partir do pedido, no mesmo local da solicitação.\n\n Horário de entrega das cópias dos documentos solicitados:\n\n De segunda a quinta-feira: 09h às 10h45 - 13h30 às 15h50\n\n Sextas-feira: 09h às 10h45 - 13h30 às 14h50\n\n Telefone: (67) 33345-3024 / 3345-3025",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32088,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189805,
+                "tipo": "telefone",
+                "descricao": "(67) 33345-3024 / 3345-3025",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 60,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-copia-de-prontuario-ou-resultado-de-exames-de-pacientes-do-humap-ufms",
+  "statusDestaque": false
+}

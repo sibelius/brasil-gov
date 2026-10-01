@@ -1,0 +1,277 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11668",
+  "nome": "Participar de Processo Seletivo para curso de graduação como portador de diploma ou refugiado ou por transferência - UFMS",
+  "sigla": "",
+  "descricao": "Ser aprovado em processo seletivo específico para esses perfis para entrada nos cursos de graduação.",
+  "flagPortalLogado": "N",
+  "contato": "Pró-reitoria de Graduação\n\n Secretaria de Processos Seletivos\n\n sepros.prograd@ufms.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "ingresso como portador de diploma",
+        "id": 72517
+      },
+      {
+        "item": "ingresso como refugiado",
+        "id": 72518
+      },
+      {
+        "item": "ingresso por transferência",
+        "id": 72519
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 63840,
+        "tipo": "Cidadãos.",
+        "requisitos": "O preenchimento das vagas acontece respeitando a ordem de preferência abaixo:\n\n 1º – Transferência Externa – Classe I:Transferência para curso homônimo ao de origem\n\n 2º – Transferência Externa – Classe II: Transferência para curso homônimo ao de origem, porém, de modalidades diferentes (bacharelado ou licenciatura)\n\n 3º – Transferência Externa – Classe III: Transferência para curso de nome distinto ao de origem, porém da mesma área de conhecimento\n\n 4º – Estrangeiros Portadores de Visto de Refugiado, Humanitário ou Reunião Familiar\n\n 5º – Portador de diploma"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/827",
+    "dbId": 34317,
+    "nomeOrgao": "Fundação Universidade Federal de Mato Grosso do Sul (UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 100754
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "refugiados",
+        "id": 247257
+      },
+      {
+        "item": "transferência ",
+        "id": 247258
+      },
+      {
+        "item": "portador de diploma",
+        "id": 247259
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 82075
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança; e Ética.",
+  "etapas": [
+    {
+      "id": 143125,
+      "titulo": "Verificação de Requisitos e Inscrição",
+      "descricao": "Os candidatos devem verificar os requisitos estabelecidos no Edital de Inscrição para cada tipo de ingresso, incluindo a modalidade de transferência, cursos/vagas e além de critérios acadêmicos estabelecidos pela UFMS.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 185793,
+            "tipo": "web",
+            "descricao": "[Ingresso UFMS](http://ingresso.ufms.br)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143126,
+      "titulo": "Preenchimento do Formulário de Inscrição",
+      "descricao": "Os candidatos devem preencher o formulário de inscrição on-line e enviar os documentos comprobatórios exigidos, conforme especificado no Edital de Inscrição.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 185794,
+            "tipo": "web-inscrever-se",
+            "descricao": "[Inscrição UFMS ](http://inscricao.ufms.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143127,
+      "titulo": "Análise e Resultado",
+      "descricao": "A UFMS realizará a análise da inscrição, documentação e a seleção dos candidatos conforme critérios estabelecidos no Edital. Os resultados serão divulgados por meio de Edital na data especificada no cronograma do Edital de Inscrição.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 185795,
+            "tipo": "web",
+            "descricao": "[Ingresso UFMSÂ ](http://ingresso.ufms.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143128,
+      "titulo": "Convocação para Matrícula",
+      "descricao": "Os candidatos aprovados dentro do número de vagas serão convocados para matrícula **on-line **e apresentar documentação de acordo com  Edital de Convocação a ser disponibilizado no Portal de Ingresso (ingresso.ufms.br).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 185796,
+            "tipo": "web",
+            "descricao": "[Matrículas UFMS ](https://prograd.ufms.br/matricula/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "80",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-graduacao-como-portador-de-diploma-ou-refugiado-ou-por-transferencia-ufms",
+  "statusDestaque": true
+}

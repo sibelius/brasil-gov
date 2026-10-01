@@ -1,0 +1,364 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11006",
+  "nome": "Requerer cisão de entidade fechada de previdência complementar.",
+  "sigla": "",
+  "descricao": "**Obter autorização para a cisão de uma entidade fechada de previdência complementar (EFPC) em duas ou mais EFPC.**",
+  "flagPortalLogado": "N",
+  "contato": "Coordenação-Geral de Autorização para Transferência, Fusão, Cisão, Incorporação e Retirada - CGTR  \n  Tel.: (61) 2021-2000\n\n E-mail: previc.cgtr@previc.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://bit.ly/34xLW96",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cisão de EFPC",
+        "id": 61583
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 55903,
+        "tipo": "Entidade Fechada de Previdência Complementar",
+        "requisitos": "Entidade autorizada e em funcionamento."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "110",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 110
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/105915",
+    "dbId": 55521,
+    "nomeOrgao": "Superintendência Nacional de Previdência Complementar (PREVIC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 87811
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicações e Requerimentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "previdência complementar",
+        "id": 212228
+      },
+      {
+        "item": "cisão",
+        "id": 212229
+      },
+      {
+        "item": "EFPC",
+        "id": 212230
+      },
+      {
+        "item": "",
+        "id": 212231
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar nº 109, de 29 de maio de 2001](https://www.planalto.gov.br/ccivil_03/Leis/LCP/Lcp109.htm)",
+        "id": 69585
+      },
+      {
+        "item": "Resolução Previc nº 23, de 14 de agosto de 2023",
+        "id": 69586
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 122526,
+      "titulo": "Protocolar requerimento",
+      "descricao": "**Enviar a documentação para análise da Previc.**\n\n Você deverá enviar todos os documentos listados abaixo pelo sistema.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 172124,
+            "nome": "Expediente Explicativo"
+          },
+          {
+            "id": 172125,
+            "nome": "Termo de Responsabilidade para Requerimento de Cisão de EFPC, conforme modelo disponibilizado no [sítio eletrônico da Previc](https://www.gov.br/previc/pt-br/licenciamento-e-habilitacao/entidades-planos-e-patrocinadores/termos-de-responsabilidade)"
+          },
+          {
+            "id": 172126,
+            "nome": "Texto da(s) proposta(s) de estatuto(s) da(s) EFPC resultantes da cisão"
+          },
+          {
+            "id": 172127,
+            "nome": "Texto consolidado do estatuto da EFPC cindida, considerando a proposta de alteração, quando for o caso, e as alterações propostas destacadas em negrito"
+          },
+          {
+            "id": 172128,
+            "nome": "Quadro comparativo entre o texto vigente e o proposto para o estatuto da EFPC cindida, somente com as disposições alteradas, a respectiva justificativa, o fundamento legal, se for o caso, e as alterações propostas destacadas em negrito"
+          },
+          {
+            "id": 172129,
+            "nome": "Texto consolidado do(s) regulamento(s) do(s) plano(s) de benefícios a ser(em) administrados pela(s) EFPC resultante(s) da operação e pela EFPC cindida, considerando a proposta de alteração, quando for o caso, e as alterações propostas destacadas em negrito"
+          },
+          {
+            "id": 172130,
+            "nome": "Quadro comparativo entre o texto vigente e o proposto para o(s) regulamento(s) do(s) plano(s) de benefícios a ser(em) administrado(s) pela(s) EFPC resultante(s) da operação e pela EFPC cindida, somente com as disposições alteradas, a respectiva justificativa, o fundamento legal, se for o caso, e as alterações propostas destacadas em negrito"
+          },
+          {
+            "id": 172131,
+            "nome": "Texto das propostas de convênio(s) de adesão dos planos de benefícios da EFPC cindida envolvidos na operação, firmados com as EFPC resultante(s) da operação"
+          },
+          {
+            "id": 172132,
+            "nome": "Relatório sobre demandas judiciais e extrajudiciais em que a EFPC cindida figure como parte, posicionado na data-base"
+          },
+          {
+            "id": 172133,
+            "nome": "Relatório da operação, versando sobre a situação patrimonial das EFPC envolvidas, considerando os cenários antes e depois da operação, posicionado na data-base"
+          },
+          {
+            "id": 172134,
+            "nome": "Termo de Cisão de EFPC"
+          }
+        ],
+        "casos": [
+          {
+            "id": 23256,
+            "descricao": "No caso de EFPC com patrocinador público",
+            "documento": [
+              {
+                "id": 172123,
+                "codigo": null,
+                "descricao": "Manifestação favorável do órgão responsável pela supervisão, pela coordenação e pelo controle do patrocinador, no caso de EFPC constituída por patrocinadores sujeitos ao disposto na alínea “f” do inciso VI do art. 98 do Decreto nº 9.745, de 8 de abril de 2019",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157216,
+            "tipo": "web",
+            "descricao": "[Sistema Eletrônico de Informações - SEi!](http://bit.ly/34xLW96 \"Sistema Eletrônico de Informações - SEi!\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 122527,
+      "titulo": "Receber análise",
+      "descricao": "Receber resultado da análise do requerimento de cisão de entidade fechada de previdência complementar.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157217,
+            "tipo": "e-mail",
+            "descricao": "A EFPC será notificada com o resultado da análise por meio do e-mail institucional cadastrado no sistema de cadastro de entidades e planos - CadPrevic.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "80",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 80
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 122528,
+      "titulo": "Receber decisão",
+      "descricao": "**Receber decisão final da Previc relativa ao requerimento de cisão de EFPC.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157219,
+            "tipo": "web",
+            "descricao": "A decisão final da Previc será publicada no Diário Oficial da União, no caso de autorização do requerimento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 23257,
+            "descricao": "Requerimento não autorizado",
+            "canalDePrestacao": [
+              {
+                "id": 157218,
+                "tipo": "e-mail",
+                "descricao": "No caso de cancelamento, arquivamento ou indeferimento do requerimento a EFPC será notificada da decisão da Previc por meio do e-mail cadastrado no sistema de cadastro de entidades e planos - CadPrevic.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 122529,
+      "titulo": "Comprovar Finalização da Operação",
+      "descricao": "**Encaminhar documentação para comprovação da finalização da cisão da EFPC, conforme definido no Termo de Cisão.**  \n  \nA comprovação da finalização da operação é necessária para que a Previc faça os devidos registros cadastrais das entidades.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 172135,
+            "nome": "Expediente Explicativo"
+          },
+          {
+            "id": 172136,
+            "nome": "Termo de Responsabilidade para Finalização de Cisão de EFPC, conforme modelo disponibilizado em <https://www.gov.br/previc/pt-br/licenciamento-e-habilitacao/entidades-planos-e-patrocinadores/termos-de-responsabilidade>"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157220,
+            "tipo": "web",
+            "descricao": "[Sistema Eletrônico de Informações - SEi!](http://bit.ly/34xLW96 \"Sistema Eletrônico de Informações - SEi!\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "110",
+  "percentualAvaliacoesPositivas": "40",
+  "url": "https://www.gov.br/pt-br/servicos/requerer-cisao-de-entidade-de-previdencia-complementar",
+  "statusDestaque": false
+}

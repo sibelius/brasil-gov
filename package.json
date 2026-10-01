@@ -5,13 +5,26 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "pnpm data:build && tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "lint:fix": "oxlint --fix",
+    "typecheck": "tsc -b",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "format": "prettier --write src scripts tests README.md package.json .oxlintrc.json .prettierrc.json",
+    "format:check": "prettier --check src scripts tests README.md package.json .oxlintrc.json .prettierrc.json",
+    "data:build": "node --experimental-strip-types scripts/build-retrieval.ts",
+    "data:benchmark": "node --experimental-strip-types scripts/benchmark-retrieval.ts",
+    "data:check": "node --experimental-strip-types scripts/build-retrieval.ts --check"
   },
   "dependencies": {
+    "@mlc-ai/web-llm": "0.2.85",
+    "lucide-react": "^1.49.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-markdown": "^10.1.0",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
@@ -19,6 +32,7 @@
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
+    "prettier": "^3.9.9",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
   }

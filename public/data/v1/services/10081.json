@@ -1,0 +1,267 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10081",
+  "nome": "Acessar o Sistema de Informações dos Regimes Próprios de Previdência Social",
+  "sigla": "Cadprev",
+  "descricao": "É o principal sistema utilizado pelos estados e municípios que possuem regimes próprios de previdência social.\n\n Por este sistema são enviadas as informações relativas aos regimes previdenciários necessárias para a emissão do Certificado de Regularidade Previdenciária – CRP\n\n O sistema possui módulos de Histórico dos Regimes, Prova de Vida, Dívida Previdenciária, referente aos Repasses/Parcelamentos requeridos pelo Ente Federativo.\n\n Para a emissão do CRP é obrigatório o envio dos seguintes demonstrativos:\n\n  * Demonstrativo de Resultados de Avaliação Atuarial – DRAA\n * Demonstrativo das Aplicações e Investimentos dos Recursos – DAIR\n * Demonstrativo da Política de Investimentos – DPIN\n * Demonstrativo de Informações Previdenciárias e Repasses – DIPR",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas, contatar (61) 2021-5555.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cadprev.previdencia.gov.br/Cadprev/pages/index.xhtml",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Demonstrativo das Aplicações e Investimentos dos Recursos – DAIR",
+        "id": 100757
+      },
+      {
+        "item": "Certificado de Regularidade Previdenciária – CRP",
+        "id": 100758
+      },
+      {
+        "item": "Cadprev",
+        "id": 100759
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85309,
+        "tipo": "Entes Federativos (RPPS/ex-RPPS/RGPS).\n\n Agente público ou agente político do respectivo Ente Federativo.\n\n Órgãos de Controle Externo (Federal/Estadual/Distrital/Municipal)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308819",
+    "dbId": 58140,
+    "nomeOrgao": "Ministério da Previdência Social (MPS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 140571
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Demonstrativo das Aplicações e Investimentos ",
+        "id": 338473
+      },
+      {
+        "item": "Demonstrativo de Informações Previdenciárias ",
+        "id": 338474
+      },
+      {
+        "item": "Demonstrativo da Política de Investimentos – ",
+        "id": 338475
+      },
+      {
+        "item": "Demonstrativo de Resultados de Avaliação Atua",
+        "id": 338476
+      },
+      {
+        "item": "Cadastramento de Regime de previdência e de E",
+        "id": 338477
+      },
+      {
+        "item": "Certificado de Regularidade Previdenciária – ",
+        "id": 338478
+      },
+      {
+        "item": "Nota Técnica Atuarial – NTA",
+        "id": 338479
+      },
+      {
+        "item": "Repasse",
+        "id": 338480
+      },
+      {
+        "item": "Parcelamento",
+        "id": 338481
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 117413
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 41,
+    "negativas": 87
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Serviço oferecido de forma digital.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 196139,
+      "titulo": "Realizar pré-cadastro",
+      "descricao": "Para acessar o sistema Cadprev é necessário realizar a [inscrição on-line](https://cadprev.previdencia.gov.br/Cadprev/pages/index.xhtml), preencher todos os campos e definir uma senha. Ao final, deve-se sinalizar ciência no Termo de Responsabilidade acerca das informações disponibilizadas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 256059,
+            "tipo": "web",
+            "descricao": "[PrÃ©-cadastro](https://cadprev.previdencia.gov.br/Cadprev/pages/index.xhtml)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 196140,
+      "titulo": "Realizar cadastro definitivo",
+      "descricao": "O representante legal do ente ou da unidade gestora, deverá encaminhar Ofício (conforme [modelo](https://www.gov.br/previdencia/pt-br/assuntos/rpps/sistemas/cadprev/modelodeoficioparaautorizacaodeacessoaocadprev20241.docx/view)), solicitando a liberação de acesso ao Departamento dos Regimes Próprios de Previdência Social por meio de Sistema Gescon, para análise efetivação do cadastro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 256060,
+            "tipo": "web",
+            "descricao": "[Sistema Gescon](https://novogescon.previdencia.gov.br/gescon/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 196141,
+      "titulo": "Acessar o sistema Cadprev",
+      "descricao": "Após o cadastro definitivo, o usuário poderá acessar o Sistema Cadprev utilizando seu CPF e senha.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 256061,
+            "tipo": "web",
+            "descricao": "[Cadprev](https://cadprev.previdencia.gov.br/Cadprev/pages/index.xhtml)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10082",
+      "nome": "Acessar o Sistema de Gestão de Consultas e Normas do RPPS"
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "32",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/informar-sobre-os-regimes-proprios-de-previdencia-social",
+  "statusDestaque": false
+}

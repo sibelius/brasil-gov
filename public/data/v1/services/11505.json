@@ -1,0 +1,279 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11505",
+  "nome": "Obter atualização dos dados cadastrais dos dados da operadora de planos de saúde ou da administradora de Benefícios",
+  "sigla": "AC",
+  "descricao": "Este serviço permite que a operadora de plano de saúde atualize seus dados cadastrais na Agência Nacional de Saúde Suplementar (ANS).\n\n Manter os dados sempre atualizados, como: representante, razão social, endereço, é essencial para que a operadora permaneça regular junto à ANS pelo sistema CADOP Operadoras.\n\n A ANS é a entidade que regula o setor de saúde suplementar (planos de saúde).",
+  "flagPortalLogado": "N",
+  "contato": "O canal de comunicação é o endereço eletrônico: dioperesponde@ans.gov.br.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Atualização cadastral",
+        "id": 122235
+      },
+      {
+        "item": "Atualização de dados cadastrais",
+        "id": 122236
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102232,
+        "tipo": "Operadoras de plano de saúde, por meio de seu representante legal ou pessoa por ele delegada.",
+        "requisitos": "É preciso que a operadora tenha e-CNPJ e que o representante legal da operadora esteja registrado no Cadastro de Operadoras da ANS (CADOP) e já tenha realizado o primeiro acesso no Portal Operadoras. \n\n Veja orientações no link: [Acesso e Gestão de Usuários no Portal Operadoras — Agência Nacional de Saúde Suplementar](http://www.gov.br/ans/pt-br/centrais-de-conteudo/manuais-do-portal-operadoras/acesso-e-gestao-de-usuarios-no-portal-operadoras \"Acesso e Gestão de Usuários no Portal Operadoras - Agência Nacional de Saúde Suplementar\")"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 170602
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 170603
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Atualização cadastral",
+        "id": 406780
+      },
+      {
+        "item": "Alteração de dados cadastrais",
+        "id": 406781
+      },
+      {
+        "item": "AC",
+        "id": 406782
+      },
+      {
+        "item": "",
+        "id": 406783
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução Normativa - RN n° 543, de 02 de setembro de 2022](http://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0543_09_09_2022.html \"Resolução Normativa - RN nº 543, 02 de setembro de 2022\")\n\n Dispõe sobre a concessão de Autorização de Funcionamento das Operadoras de Planos de Assistência à Saúde e sobre o Registro de Produtos.",
+        "id": 146507
+      },
+      {
+        "item": "[Resolução Normativa - RN nº 520, de 29 de abril de 2022](http://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0520_04_05_2022.html \"Resolução Normativa - RN nº 520, de 29 de abril de 2022\")\n\n Estabelece critérios mínimos para o exercício de cargo de administrador de operadora de planos privados de assistência à saúde, disciplina o procedimento para o seu cadastramento junto à Agência Nacional de Saúde Suplementar - ANS e dá outras providências.",
+        "id": 146508
+      },
+      {
+        "item": "[Resolução Normativa - RN nº 529, de 2 de maio de 2022](http://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0529_04_05_2022.html \"Resolução Normativa - RN nº 529, de 2 de maio de 2022\")\n\n Dispõe sobre a identificação de clientes, manutenção de registros e prevê relação de operações e situações que podem configurar indícios de ocorrência dos crimes previstos na Lei nº 9.613, de 3 de março de 1998, e dá outras providências.",
+        "id": 146509
+      },
+      {
+        "item": "[Resolução Normativa - RN nº 137, de 14 de novembro de 2006](http://bvsms.saude.gov.br/bvs/saudelegis/ans/2006/res0137_14_11_2006.html \"Resolução Normativa - RN nº 137, de 14 de novembro de 2006\")\n\n Dispõe sobre as entidades de autogestão no âmbito do sistema de saúde suplementar.",
+        "id": 146510
+      },
+      {
+        "item": "[Resolução Normativa - RN nº 515, de 29 de abril de 2022](http://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0515_04_05_2022.html \"Resolução Normativa - RN nº 515, de 29 de abril de 2022\")\n\n Dispõe sobre a Administradora de Benefícios.",
+        "id": 146511
+      },
+      {
+        "item": "[Resolução Normativa – RN nº 531, de 2 de maio de 2022](http://bvs.saude.gov.br/bvs/saudelegis/ans/2022/res0531_04_05_2022.html \"Resolução Normativa - RN nº 531, de 02 de maio de 2022\")\n\n Dispõe sobre a definição, a segmentação e a classificação das Operadoras de Planos de Assistência à Saúde e revoga a Resolução de Diretoria Colegiada nº 39, de 27 de outubro de 2000, e a Resolução Normativa nº 315, de 28 de novembro de 2012.",
+        "id": 146512
+      },
+      {
+        "item": "[Resolução Normativa – RN nº 569, de 19 de dezembro de 2022](http://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0569_16_12_2022.html \"Resolução Normativa - RN nº 569, de 19 de dezembro de 2022\")\n\n Dispõe sobre os critérios para definição do capital regulatório das operadoras de planos de assistência à saúde, altera a Resolução Normativa ANS nº 515, de 29 de abril de 2022 e revoga a Resolução Normativa ANS nº 526 de 29 de abril de 2022, e a Resolução Normativa ANS nº 514 de 29 de abril de 2022.",
+        "id": 146513
+      },
+      {
+        "item": "[Veja aqui toda a relação de normativos relacionados à Autorização de Funcionamento e à Atualização Cadastral](http://www.gov.br/ans/pt-br/assuntos/operadoras/registro-e-manutencao-de-operadoras/registro-de-operadora-1/principais-normativos-relacionados-a-autorizacao-de-funcionamento \"Veja aqui toda a relação de normativos relacionados à Autorização de Funcionamento e à Atualização Cadastral\")\n\n  \n\n ![]()",
+        "id": 146514
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 20,
+    "negativas": 73
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460, de 26 de junho de 2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13460, de 26 de junho de 2017\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/LEIS/L10048.htm \"Lei nº 10048, de 8 de novembro de 2000\").",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460, de 26 de junho de 2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13460 de 26 de junho 2017\"), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança;\n * Ética.",
+  "etapas": [
+    {
+      "id": 238209,
+      "titulo": "Pagar a Taxa de Alteração de Dados da Operadora (TAO)",
+      "descricao": "Para atualizar seu cadastro, emita e pague a GRU (guia de pagamento) da alteração desejada. Depois, envie o comprovante e os demais documentos pelo sistema CADOP Operadoras.\n\n Atenção: algumas mudanças exigem o pagamento da Taxa de Alteração Cadastral (TAO).\n\n Isso vale para alteração de: contrato social/estatuto, administradores, nome fantasia, endereço da sede, representante junto à ANS e representante técnico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 40996,
+            "descricao": "Taxa de Alteração de Dados de Operadora (TAO) - Valor tabelado conforme Lei nº 9.961/2000 e Portaria Interministerial MF/MS nº 19 de 11/09/2023.",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "R$ 2810,69",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307663,
+            "tipo": "web",
+            "descricao": "A comunicação é feita pelo Portal Operadoras: [https://www2.ans.gov.br/ans-idp/](https://www2.ans.gov.br/ans-idp/ \"CADOP Operadoras, acessado pelo Portal Operadoras\")[  \n](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238210,
+      "titulo": "Alterar os dados cadastrais com o envio da documentação comprobatória.",
+      "descricao": "Acesse o sistema CADOP Operadoras e faça as alterações necessárias em seus respectivos campos.\n\n É preciso enviar os documentos que comprovem a mudança. Se a alteração exigir o pagamento da Taxa de Alteração (TAO), envie também o comprovante.\n\n Lembre-se: documentos como estatutos, contratos sociais, atas de assembleia e termos de posse/renúncia só são válidos após o registro em órgãos competentes (Juntas Comerciais, Cartórios).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 314611,
+            "nome": "É preciso enviar os documentos que comprovam cada alteração. Por exemplo, ao mudar a administração, envie o documento de nomeação registrado no órgão competente.\n\n Lembre-se: documentos societários devem ser enviados após registro oficial em Juntas Comerciais ou Cartórios.\n\n Isso inclui:\n\n • Estatutos/Contratos Sociais e respectivas alterações;\n\n • Atas de Assembleias."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307664,
+            "tipo": "web",
+            "descricao": "CADOP Operadoras, acessado pelo Portal Operadoras no link: [https://www2.ans.gov.br/ans-idp/](https://www2.ans.gov.br/ans-idp/ \"Portal Operadoras\")[  \n](https://www.gov.br/../../../../ans/pt-br/acesso-a-informacao/institucional/ans-digital-1/usuarios-externos-1/protocolo-eletronico \"Acesse a página do e-Protocolo\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238211,
+      "titulo": "Receber o retorno sobre a alteração dos dados cadastrais – via e-mail ou via ofício",
+      "descricao": "Após o envio, a ANS analisa os documentos para validar a alteração.\n\n Se forem encontradas pendências, a empresa recebe um ofício (aviso oficial) pelo Portal Operadoras, solicitando os documentos que faltam.\n\n Se estiver tudo correto, a empresa recebe um e-mail de confirmação no endereço eletrônico cadastrado no CADOP, informando que a atualização foi validada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307665,
+            "tipo": "web",
+            "descricao": "E-protocolo, Portal Operadoras, [Acesse o site](https://www2.ans.gov.br/ans-idp/ \"https://www2.ans.gov.br/ans-idp/\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-atualizacao-cadastral-dos-dados-da-operadora-de-planos-de-saude-e-da-administradora-de-beneficios",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

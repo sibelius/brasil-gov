@@ -1,0 +1,201 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11037",
+  "nome": "Declarar atividades imobiliárias",
+  "sigla": "DIMOB",
+  "descricao": "Preencha e envie a Declaração de Informações sobre Atividades Imobiliárias (DIMOB) à Receita Federal.\n\n Na DIMOB devem ser informadas as operações de construção, incorporação, loteamento e intermediação de aquisições/alienações, no ano em que foram contratadas; e os pagamentos efetuados no ano, discriminados mensalmente, decorrentes de locação, sublocação e intermediação de locação, independentemente do ano em que essa operação foi contratada.\n\n **Prazo de entrega:**\n\n A DIMOB deveria ser enviada anualmente à Receita Federal até o último dia útil de fevereiro, em relação ao ano-calendário imediatamente anterior.\n\n Se você é obrigado por lei a entregar a declaração, mas enviar após o prazo, será cobrada Multa por Atraso na Entrega de Declaração (MAED).",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre a DIMOB](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/dimob",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 115169
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96876,
+        "tipo": "São obrigadas à entrega da DIMOB as pessoas jurídicas e equiparadas que comercializarem imóveis que houverem construído, loteado ou incorporado para esse fim; intermediarem aquisição, alienação ou aluguel de imóveis; realizarem sublocação de imóveis; ou se constituírem para construção, administração, locação ou alienação de patrimônio próprio, de seus condôminos ou de seus sócios.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 160820
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Declarações e Comunicações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Construção",
+        "id": 384977
+      },
+      {
+        "item": "Construtora",
+        "id": 384978
+      },
+      {
+        "item": "Declaração",
+        "id": 384979
+      },
+      {
+        "item": "Fiscalização",
+        "id": 384980
+      },
+      {
+        "item": "Imobiliária",
+        "id": 384981
+      },
+      {
+        "item": "Imóveis",
+        "id": 384982
+      },
+      {
+        "item": "Imóvel",
+        "id": 384983
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.115/2010](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=16087&visao=anotado)",
+        "id": 136110
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 151,
+    "negativas": 331
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 225138,
+      "titulo": "Preencher declaração",
+      "descricao": "Baixe o programa e preencha as informações.\n\n Para transmissão da Dimob,use a versão[ Java 8u471](https://www.oracle.com/br/java/technologies/javase/javase8u211-later-archive-downloads.html) (desmarque a opção de \"atualização automática\" e desinstale antes outras versões).\n\n Caso ainda apresente erros, salve a Dimob a ser entregue (não use caracteres especiais no preenchimento) na pasta c:\\Arquivos de Programas RFB\\DIMOB\\gravadas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 291799,
+            "tipo": "web",
+            "descricao": "[Baixar o programa](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/dimob)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 225139,
+      "titulo": "Enviar declaração à Receita Federal",
+      "descricao": "Após o preenchimento, abra o Receitanet, selecione a declaração a ser entregue e envie à Receita Federal.\n\n O ReceitaNet valida e transmite, via Internet, as declarações de impostos e contribuições federais de pessoas físicas e jurídicas. Os arquivos podem ser transmitidos diariamente das 05 à 01 hora da manhã do dia seguinte (20 horas diárias).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 291800,
+            "tipo": "web",
+            "descricao": "[Receitanet](https://www.gov.br/../../../../../../receitafederal/pt-br/centrais-de-conteudo/download/receitanet)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/declarar-atividades-imobiliarias",
+  "statusDestaque": false
+}

@@ -1,0 +1,278 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12510",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UFMS",
+  "sigla": "",
+  "descricao": "Obter o diploma de conclusão de curso de graduação emitido na Universidade Federal de Mato Grosso do Sul.",
+  "flagPortalLogado": "N",
+  "contato": "Secretaria de Certificação Acadêmica E-mail: secea.rtr@ufms.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "diploma de graduação",
+        "id": 110341
+      },
+      {
+        "item": "solicitar diploma",
+        "id": 110342
+      },
+      {
+        "item": "emissão de diploma",
+        "id": 110343
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92874,
+        "tipo": "Cidadãos que concluíram curso de graduação na UFMS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/827",
+    "dbId": 34317,
+    "nomeOrgao": "Fundação Universidade Federal de Mato Grosso do Sul (UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 154051
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 368535
+      },
+      {
+        "item": "graduação",
+        "id": 368536
+      },
+      {
+        "item": "emissão",
+        "id": 368537
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "http://portal.mec.gov.br/docman/outubro-2018-pdf-1/100081-portaria-diplomas/file",
+        "id": 127996
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 215256,
+      "titulo": "OBTER 1ª VIA DO DIPLOMA",
+      "descricao": "Após verificar que todas as exigências foram cumpridas pelo estudante, a Secretaria Acadêmica do curso realiza a instrução do processo para registro do diploma.\n\n - A primeira via do diploma é gratuita.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289572,
+            "nome": "Documentação específica de acordo com orientação da Secretaria Acadêmica.\n\n   \nCaso seja constatada a ausência de documentos a Secretaria Acadêmica do seu curso entrará em contato."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279729,
+            "tipo": "web",
+            "descricao": "Para obter o diploma acesse o [SISCAD - Sistema Acadêmico](https://siscad.ufms.br/ \"Siscad - Sistema Acadêmico\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215257,
+      "titulo": "OBTER 2ª VIA DO DIPLOMA",
+      "descricao": "Para obter a 2ª via do Diploma acesse: [prograd.ufms.br/aluno-egresso](https://prograd.ufms.br/aluno-egresso)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289573,
+            "nome": "Requerimento Acadêmico (solicitando a 2ª via do diploma);\n\n Cópia da Certidão de Nascimento/Casamento;\n\n Cópia da Carteira de Identidade (Lei nº 7.088/1983);\n\n Cópia do CPF;\n\n Cópia do Boletim de Ocorrência Policial, declarando o extravio do documento (para os casos de extravio do diploma); **OU**\n\n Diploma original – danificado, rasurado ou alteração de nome;\n\n Cópia da Guia de Recolhimento da União - GRU, (referente ao registro da 2ª via do diploma/certificado) devidamente paga."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37888,
+            "descricao": "Taxa de expedição e registro da 2ª via do diploma",
+            "moeda": "R$",
+            "valor": " 150,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279730,
+            "tipo": "web",
+            "descricao": "Para obter a 2ª via do Diploma acesse: [prograd.ufms.br/aluno-egresso](https://prograd.ufms.br/aluno-egresso)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 279731,
+            "tipo": "web",
+            "descricao": "Taxa de expedição e registro da 2ª via do diploma é de R$ 150,00 (cento e trinta reais) [Acesse o site](https://recolhimento.ufms.br/publico/guia/182)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 279732,
+            "tipo": "presencial",
+            "descricao": "Secretaria Acadêmica do seu curso. Consulte os endereços e telefones constantes na [Lista Telefônica da UFMS](https://sistemas.ufms.br/index.php?page=telefones \"Lista Telefônica da UFMS\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215258,
+      "titulo": "Retirar Diploma",
+      "descricao": "Para retirar seu diploma acompanhe o portal eletrônico [siscad.ufms.br](https://siscad.ufms.br/).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279733,
+            "tipo": "web",
+            "descricao": "Acompanhe o site [siscad.ufms.br](https://siscad.ufms.br/) para obter seu diploma.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-ufms",
+  "statusDestaque": true
+}

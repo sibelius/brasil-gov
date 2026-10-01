@@ -1,0 +1,166 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12443",
+  "nome": "Acompanhar parcelamento de dívidas do MEI pela LC nº 193/2022",
+  "sigla": "Relp",
+  "descricao": "Acompanhe o parcelamento das suas dívidas apuradas pelo MEI pelo **Programa de Reescalonamento do Pagamento de Débitos no Âmbito do Simples Nacional (Relp).**\n\n O programa permitiu o pagamento de uma entrada, sem descontos, e o parcelamento do restante em até 180 vezes, com redução de até 90% (noventa por cento) das multas e juros, dependendo do volume da perda de receita da empresa durante os meses de março a dezembro de 2020 (calculado em relação a 2019).\n\n O prazo para adesão ao programa encerou em **3 de junho de 2022**.",
+  "flagPortalLogado": "N",
+  "contato": "[Manual do Relp](http://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Manual_Relp.pdf)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10035",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121813
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101881,
+        "tipo": "Microempreendedor Individual (MEI)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "1",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 169864
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Pagamento",
+        "id": 405191
+      },
+      {
+        "item": "Parcelamento",
+        "id": 405192
+      },
+      {
+        "item": "Programa de Reescalonamento",
+        "id": 405193
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar nº 193 de 17/03/2022](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp193.htm)",
+        "id": 145603
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.078/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=123785)",
+        "id": 145604
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 339,
+    "negativas": 615
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito ao atendimento prioritário as pessoas com deficiência, pessoas com transtorno de espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237449,
+      "titulo": "Acompanhar o parcelamento",
+      "descricao": "Consulte o extrato do parcelamento e emita parcelas que não tenham sido debitadas em conta corrente, pelo próprio sistema.\n\n A empresa será excluída do programa se não pagar 3 parcelas consecutivas ou 6 alternadas; não pagar a última parcela; fraudar o parcelamento, esvaziando seu patrimônio; falir; sofrer medida cautelar fiscal em seu desfavor; sofrer inaptidão do CNPJ; não pagar os débitos que venham a vencer a partir da adesão; ou não cumprir regularmente as obrigações do FGTS.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306509,
+            "tipo": "web",
+            "descricao": "[Parcelamento do RELP para o MEI  \n](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10035)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 306510,
+            "tipo": "web",
+            "descricao": "[Parcelar dívidas do MEI pela LC 193/2022 - Relp](https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=t&area=2) (Portal do Simples Nacional)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/parcelar-relp-mei",
+  "statusDestaque": false
+}

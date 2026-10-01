@@ -1,0 +1,255 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10107",
+  "nome": "Solicitar Certidão Negativa de Débitos - CVM (CND)",
+  "sigla": "",
+  "descricao": "O serviço se destina à solicitação de certidão de débitos junto à Comissão de Valores Mobiliários (CVM), em cumprimento ao disposto nos artigos 205 a 208 da Lei n.º 5.172, de 25 de outubro de 1966 (Código Tributário Nacional).\n\n A Certidão Negativa (CND) e a Certidão Positiva com Efeitos de Negativa (CPDEN) terão por objeto débitos inscritos ou não em Dívida Ativa da CVM relacionados à Taxa de Fiscalização do Mercado de Valores Mobiliários, instituída pela Lei n.º 7.940, de 20 de dezembro de 1989, e a multas aplicadas em razão da atuação da Autarquia nos termos da Lei n.º 6.385, de 7 de dezembro de 1976 e do Decreto-Lei n.º 2.298, de 21 de novembro de 1986.\n\n A [Resolução CVM 57](http://conteudo.cvm.gov.br/legislacao/resolucoes/resol057.html) dispõe sobre a prova de quitação de débitos perante a Comissão de Valores Mobiliários (CVM).",
+  "flagPortalLogado": "S",
+  "contato": "Gerência de Arrecadação e Cobrança (GEARC) - gearc@cvm.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126108
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105491,
+        "tipo": "O direito de obter certidão de débitos é assegurado ao requerente inscrito no Cadastro Nacional da Pessoa Jurídica (CNPJ) ou no Cadastro de Pessoas Física (CPF), bem como ao investidor não residente regulamentado pela [Resolução CVM 13](http://conteudo.cvm.gov.br/legislacao/resolucoes/resol013.html).",
+        "requisitos": "O Requerimento de pessoa jurídica, quando do acesso sem certificado digital, deverá ser assinado pelos representantes legais com **assinatura eletrônica avançada ou qualificada**, conforme regulamentado pelo Decreto n.º 10.543, de 13 de novembro de 2020.\n\n Caso os signatários não possuam certificado digital, a assinatura eletrônica avançada poderá ser realizada conforme detalhado no link: [https://www.gov.br/governodigital/pt-br/assinatura-eletronica](https://www.gov.br/../../governodigital/pt-br/assinatura-eletronica)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "10",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A Certidão será válida por 180 (cento e oitenta) dias corridos contados da data de sua emissão (a data-limite de validade constará impressa na certidão)."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478",
+    "dbId": 7907,
+    "nomeOrgao": "Comissão de Valores Mobiliários (CVM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176329
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176330
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Adicionais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CVM",
+        "id": 420037
+      },
+      {
+        "item": "Valores Mobiliários",
+        "id": 420038
+      },
+      {
+        "item": "débito de valores mobiliários ",
+        "id": 420039
+      },
+      {
+        "item": "taxa",
+        "id": 420040
+      },
+      {
+        "item": "MULTA",
+        "id": 420041
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Código Tributário Nacional](http://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm)\n\n [Resolução CVM 57](http://conteudo.cvm.gov.br/legislacao/resolucoes/resol057.html)",
+        "id": 151367
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 127,
+    "negativas": 513
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246185,
+      "titulo": "Solicitar certidão",
+      "descricao": "- Clique em \"Iniciar\";\n\n - Tente obter a Certidão Negativa de Débitos via acesso ao Sistema de Certidões da CVM;\n\n - Caso a certidão não seja disponibilizada pelo Sistema, retorne para este serviço e preencha e envie o formulário eletrônico para a CVM, conforme orientações constantes de cada campo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322058,
+            "nome": "(PJ) cópia do ato constitutivo/ documento de constituição do Administrador do Fundo;"
+          },
+          {
+            "id": 322059,
+            "nome": "(PF ou PJ) cópia de procuração, quando for o caso;"
+          },
+          {
+            "id": 322060,
+            "nome": "(PF ou PJ) cópia de documento de identificação oficial, com assinatura do requerente/ signatários do requerimento; e"
+          },
+          {
+            "id": 322061,
+            "nome": "(PJ) cópia de documento de identificação oficial, com assinatura dos representantes legais signatários da procuração, quando for o caso."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48867,
+            "descricao": "Requerimento para Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 322055,
+                "codigo": null,
+                "descricao": "(PJ) Em caso de acesso ao serviço com Certificado Digital Pessoa Jurídica válido, não será necessária a apresentação dos documentos listados para a PJ.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322056,
+                "codigo": null,
+                "descricao": "(PJ) Em caso de acesso sem Certificado Digital, será então necessária a apresentação (upload) dos documentos listados acima, bem como do Requerimento gerado pelo sistema, devidamente assinado pelos representantes legais da PJ.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322057,
+                "codigo": null,
+                "descricao": "(PJ) O Requerimento, quando do acesso sem certificado digital, poderá ser assinado pelos representantes legais com assinatura digital avançada, conforme regulamentado pelo Decreto n.º 10.543, de 13 de novembro de 2020.\n\n Caso os signatários não possuam certificado digital, a assinatura eletrônica poderá ser realizada conforme detalhado no link: [https://www.gov.br/governodigital/pt-br/assinatura-eletronica](https://www.gov.br/../../governodigital/pt-br/assinatura-eletronica).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318394,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=10107)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246186,
+      "titulo": "Receber certidão",
+      "descricao": "O pedido será avaliado pela CVM e o requerente informado acerca da abertura de processo administrativo específico.\n\n Em não havendo débitos exigíveis, a certidão será enviada ao e-mail indicado no formulário\n\n Em havendo débitos exigíveis, o pedido de certidão será indeferido e o requerente comunicado via e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318395,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=10107)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-certidao-negativa-de-debitos-cvm-cnd",
+  "statusDestaque": false
+}

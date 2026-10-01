@@ -1,0 +1,212 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11781",
+  "nome": "Solicitar Obras e Serviços",
+  "sigla": "",
+  "descricao": "Solicitação feita por concessionários/permissionários para execução de construções, adaptações, reformas e manutenções no âmbito dos espaços outorgados pela CEAGESP.",
+  "flagPortalLogado": "N",
+  "contato": "### Para mais informações ou dúvidas sobre este serviço, entre em contato\n\n ### No Departamento de Entreposto da Capital (DEPEC): Telefone (11) 3643-3888 ou através do e-mail: [saexe@ceagesp.gov.br](mailto:saexe@ceagesp.gov.br); no Departamento de Entrepostos do Interior (DEINT), através do telefone (11) 3643-3747, e-mail [deint@ceagesp.gov.br](mailto:deint@ceagesp.gov.br) ou através do e-mail da unidade.",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111104
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93430,
+        "tipo": "Todos os concessionários/permissionários da CEAGESP.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/29415",
+    "dbId": 8326,
+    "nomeOrgao": "Companhia de Entrepostos e Armazéns Gerais de São Paulo  (CEAGESP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 154999
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Habitação Popular"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Obras",
+        "id": 371161
+      },
+      {
+        "item": "Engenharia",
+        "id": 371162
+      },
+      {
+        "item": "Manutenção",
+        "id": 371163
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 129040
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 20
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 216579,
+      "titulo": "Solicitar serviços de engenharia e manutenção",
+      "descricao": "O concessionário/permissionário deve protocolar o pedido junto ao DEPEC ou na administração das unidades localizadas no interior, solicitando autorização para obra ou reforma na área desejada, anexando o projeto básico, **Memorial Descritivo** e a ART - Anotação de Responsabilidade Técnica ou RRT - Registro de Responsabilidade Técnica da execução da obra e elaboração do projeto.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 38060,
+            "descricao": "Valores podem ser obtidos em cada uma de nossas unidades",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Variável",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281335,
+            "tipo": "presencial",
+            "descricao": "Presencial\n\n Atendimento de segunda a sexta-feira, das 08:00h às 17:00h, no Departamento de Entreposto da Capital (DEPEC), localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo / SP ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 216580,
+      "titulo": "Executar o serviço de obra ou reforma",
+      "descricao": "Após aprovação da área técnica, o concessionário/ permissionário será comunicado pelo gestor do DEPEC, ou das Unidades do interior, para realização da obra ou reforma. Quando se tratar de obra de alto grau de complexidade será emitida “Autorização de Débito” para cobrança de taxa, a qual será incluída no boleto do faturamento mensal do concessionário/ permissionário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 38061,
+            "descricao": "Para análise do projeto básico, o permissionário/concessionário pagará à CEAGESP 01 (uma) Taxa equivalente a 04 (quatro) UFESPs.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281336,
+            "tipo": "presencial",
+            "descricao": "Presencial\n\n Atendimento de segunda a sexta-feira, das 08:00h às 17:00h, no Departamento de Entreposto da Capital (DEPEC), localizado na Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo / SP ou na administração das unidades localizadas nas cidades do interior do estado: Araçatuba, Araraquara, Bauru, Franca, Guaratinguetá, Marília, Piracicaba, Presidente Prudente, Ribeirão Preto, São José do Rio Preto, São José dos Campos e Sorocaba",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "49",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-obras-e-servicos",
+  "statusDestaque": false
+}

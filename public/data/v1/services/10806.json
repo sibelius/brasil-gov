@@ -1,0 +1,186 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10806",
+  "nome": "Responder notificação de auditoria sobre compensação em GFIP",
+  "sigla": "",
+  "descricao": "Responda a notificação de auditoria, informando a origem dos créditos compensados diretamente em GFIP (Guia de Recolhimentos do Fundo de Garantia do Tempo de Serviço e Informações à Previdência Social).\n\n A Receita Federal emite notificações eletrônicas para que os contribuintes prestem informações acerca dos créditos que possibilitaram a compensação efetuada diretamente na declaração.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/77",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127320
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106527,
+        "tipo": "Pessoas jurídicas e equiparadas que entreguem GFIP (Guia de Recolhimentos do Fundo de Garantia do Tempo de Serviço e Informações à Previdência Social).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178045
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178046
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 178047
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 178048
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Regulação e Fiscalização"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Previdência",
+        "id": 424455
+      },
+      {
+        "item": "Procedimento Fiscal",
+        "id": 424456
+      },
+      {
+        "item": "Fiscalização",
+        "id": 424457
+      },
+      {
+        "item": "Auditoria",
+        "id": 424458
+      },
+      {
+        "item": "Compensação",
+        "id": 424459
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.110/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=126687)",
+        "id": 152680
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002)",
+        "id": 152681
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 29
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248768,
+      "titulo": "Responder notificação",
+      "descricao": "Responda a notificação informando, através do sistema, a origem dos créditos compensados em GFIP.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323997,
+            "nome": "Notas fiscais;"
+          },
+          {
+            "id": 323998,
+            "nome": "Folha de pagamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321464,
+            "tipo": "web",
+            "descricao": "[Consultar Notificações de GFIP](https://cav.receita.fazenda.gov.br/autenticacao/login/index/77)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/responder-notificacao-de-auditoria-sobre-compensacao-em-gfip",
+  "statusDestaque": false
+}

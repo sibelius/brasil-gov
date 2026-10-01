@@ -1,0 +1,180 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12309",
+  "nome": "Obter Dados Observados por Estações Meteorológicas Diversas - INPE",
+  "sigla": "",
+  "descricao": "O Instituto Nacional de Pesquisas Espaciais (INPE) disponibiliza serviço que oferece dados provenientes de diferentes fontes e parceiros, obtidos através de estações meteorológicas diversas por ponto de estação/medição.",
+  "flagPortalLogado": "N",
+  "contato": "cienciasdaterra@inpe.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://bancodedados.cptec.inpe.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Dados Observacionais",
+        "id": 30022
+      },
+      {
+        "item": "Dados Estações Meteorológicas",
+        "id": 30023
+      },
+      {
+        "item": "Dados Observacionais/INPE",
+        "id": 30024
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 29830,
+        "tipo": "Setores governamentais, setor privado, instituições de pesquisa, sociedade, entre outros.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 47464
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 47465
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 47466
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 47467
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Dados Observacionais",
+        "id": 106537
+      },
+      {
+        "item": "Dados Observados",
+        "id": 106538
+      },
+      {
+        "item": "Dados Meteorológicos",
+        "id": 106539
+      },
+      {
+        "item": "Instituto Nacional de Pesquisas Espaciais",
+        "id": 106540
+      },
+      {
+        "item": "INPE",
+        "id": 106541
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 30090
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [lei nº 13.460/17](http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [lei nº 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [lei nº 13.460/17](http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança; e Ética.",
+  "etapas": [
+    {
+      "id": 62146,
+      "titulo": "Adquirir dados meteorológicos observados",
+      "descricao": "Os dados estão disponíveis no site, após acessá-lo o usuário pode selecionar entre as opções oferecidas aquela que melhor atende suas necessidades.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 79905,
+            "tipo": "web",
+            "descricao": "<http://bancodedados.cptec.inpe.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "55",
+  "url": "https://www.gov.br/pt-br/servicos/obter-dados-observados-por-estacoes-meteorologicas-diversas-inpe",
+  "statusDestaque": false
+}

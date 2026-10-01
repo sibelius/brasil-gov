@@ -1,0 +1,262 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/43",
+  "nome": "Consultar posição em lista de espera - Transplante de órgãos e córneas.",
+  "sigla": "",
+  "descricao": "Por meio desse serviço, as pessoas que estão aguardando a realização de transplante de órgãos ou córnea podem consultar o prontuário médico e acompanhar a posição delas na lista de espera de transplantes.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefones:** (61) 3315-8953 ou (61) 3315-9212\n\n **Email:** snt@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://snt.saude.gov.br/Links.aspx",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 114700
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96531,
+        "tipo": "Pacientes diagnosticados com problemas de saúde que requeiram transplante de órgãos ou de córnea.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 160023
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Urgências e Emergências"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cirurgia",
+        "id": 383635
+      },
+      {
+        "item": "risco de morte",
+        "id": 383636
+      },
+      {
+        "item": "doador de órgãos",
+        "id": 383637
+      },
+      {
+        "item": "transplante",
+        "id": 383638
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Portaria de Consolidação nº 4, de 28 de setembro de 2017\n\n [https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004\\_03\\_10\\_2017.html ](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html \"https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017.html\")",
+        "id": 135497
+      },
+      {
+        "item": "Regulamenta a Lei nº 9.434, de 4 de fevereiro de 1997, para tratar da disposição de órgãos, tecidos, células e partes do corpo humano.\n\n [https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9175-18-outubro-2017-785591-publicacaooriginal-153999-pe.html ](https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9175-18-outubro-2017-785591-publicacaooriginal-153999-pe.html \"https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9175-18-outubro-2017-785591-publicacaooriginal-153999-pe.html\")",
+        "id": 135498
+      },
+      {
+        "item": "Dispõe sobre a remoção de órgãos, tecidos e partes do corpo humano para fins de transplante e tratamento e dá outras providências.\n\n [Lei nº 9434 de 04 de fevereiro de 1997](http://www.planalto.gov.br/ccivil_03/leis/L9434compilado.htm \"http://www.planalto.gov.br/ccivil_03/leis/L9434compilado.htm\")",
+        "id": 135499
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 302,
+    "negativas": 291
+  },
+  "condicoesAcessibilidade": "O(a) usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "Urbanidade; \n\n   Respeito; \n\n   Acessibilidade; \n\n   Cortesia; \n\n   Presunção da boa-fé do usuário; \n\n   Igualdade; \n\n   Eficiência; \n\n   Segurança e \n\n   Ética.",
+  "etapas": [
+    {
+      "id": 224037,
+      "titulo": "Ser incluído na lista nacional de transplantes",
+      "descricao": "Caso o paciente concorde com a realização do transplante, o médico autorizado irá providenciar a inscrição do mesmo no sistema informatizado, incluindo dados do paciente e do diagnóstico da doença.\n\n O paciente será posicionado na lista de espera, de acordo com a ordem de inscrição, gravidade e urgência da situação e compatibilidade com doador existente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 296883,
+            "nome": "Diagnóstico, exames realizados e demais documentos providenciados pelo médico que comprovem a necessidade de transplante."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 290253,
+            "tipo": "web-acompanhar",
+            "descricao": "[https://snt.saude.gov.br/Links.aspx](https://snt.saude.gov.br/Links.aspx \"https://snt.saude.gov.br/Links.aspx\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 224038,
+      "titulo": "Acompanhar posição e evolução na lista para transplante",
+      "descricao": "É possível acompanhar, durante a espera pelo órgão, a posição relativa do paciente na lista de espera.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 296884,
+            "nome": "**Documentação em comum para todos os casos**\n\n Possuir em mãos o número do Registro Geral da Central de Transplantes – RGCT, ano de nascimento e CPF."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 290254,
+            "tipo": "web-acompanhar",
+            "descricao": "[ Acompanhar](https://snt.saude.gov.br/consulta/consultareceptorCO.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 290255,
+            "tipo": "web-acompanhar",
+            "descricao": "Para o **Estado de São Paulo**, acessar o link [Lista de Espera para Transplantes - Secretaria da Saúde - Governo do Estado de São Paulo (saude.sp.gov.br) ](https://saude.sp.gov.br/ses/perfil/cidadao/homepage/acesso-rapido/lista-de-espera-para-transplantes \"https://saude.sp.gov.br/ses/perfil/cidadao/homepage/acesso-rapido/lista-de-espera-para-transplantes\")clicar no cadastro técnico referente ao transplante que está inscrito (órgãos ou córnea), preencher os dados solicitados",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 224039,
+      "titulo": "Passar por procedimento de transplante de órgão",
+      "descricao": "Quando surgir um órgão compatível, considerando o tempo em lista e a gravidade de cada caso entre os inscritos na lista de espera, o paciente será encaminhado ao hospital onde realizará o procedimento de transplante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 296885,
+            "nome": "**Documentação em comum para todos os casos**\n\n Possuir em mãos o número do Registro Geral da Central de Transplantes – RGCT e CPF."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 290256,
+            "tipo": "presencial",
+            "descricao": "Não é possível estimar um tempo, pois o prazo depende do número de pacientes esperando o transplante, a gravidade da situação do paciente e a disponibilidade de doadores compatíveis.\n\n Este serviço é gratuito para o cidadão.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "meses",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "51",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-posicao-em-lista-de-espera-transplante-de-orgaos-e-corneas",
+  "statusDestaque": false
+}

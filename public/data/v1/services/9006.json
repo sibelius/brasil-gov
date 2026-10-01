@@ -1,0 +1,244 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9006",
+  "nome": "Realizar tomografia computadorizada - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O exame de tomografia computadorizada é um exame de imagem complementar ao diagnóstico de múltiplas condições de saúde, onde as imagens adquiridas são analisadas pelo médico radiologista, resultando num laudo destes achados.\n\n  Dentre os exames de tomografia ofertados pelo IFF, destacam-se: Tórax, Coluna Cervical, Crânio e Face, Crânio e Face em 3D. \n\n  Este resultado é devidamente anexado ao prontuário e entregue uma cópia do resultado ao paciente.",
+  "flagPortalLogado": "N",
+  "contato": "**Endereço: **Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF \n\n Avenida Rui Barbosa, 716 - Flamengo - CEP: 22250-020 - Rio de Janeiro, RJ\n\n **Telefone:** (21) 2554-1787\n\n **Site: **<http://www.iff.fiocruz.br>\n\n **Horário de atendimento:** de segunda à sexta-feira de 8 às 17h (o atendimento será realizado no horário agendado pelo SISREG)",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 70328
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 62392,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "Ter sido encaminhado pela Unidade Básica de Saúde através do Sistema de Regulação em Saúde.\n\n O usuário deve estar em jejum de, no mínimo, 4 horas e deve trazer exames anteriores, caso os tenha."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 98161
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Exame de imagem",
+        "id": 240320
+      },
+      {
+        "item": "Exame pediátrico",
+        "id": 240321
+      },
+      {
+        "item": "Tomografia pediátrica",
+        "id": 240322
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 79461
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "Rampa, Elevador",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 139251,
+      "titulo": "Realizar procedimentos de identificação",
+      "descricao": "Na recepção do IFF apresentar o documento de identificação pessoal. No Arquivo Médico identificar-se  para abertura do prontuário e geração do Cartão de Identificação do IFF. Na recepção do Serviço de Radiologia entregar o Cartão de Identificação do IFF e a Guia de Encaminhamento do SISREG para registro na Agenda Eletrônica e efetivação no Sistema de Regulação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196615,
+            "nome": "Carteira de Identidade"
+          },
+          {
+            "id": 196616,
+            "nome": "Guia de encaminhamento do Sistema de Regulação em Saúde"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180377,
+            "tipo": "presencial",
+            "descricao": "Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nEndereço: Avenida Rui Barbosa, 716 - Flamengo - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 139252,
+      "titulo": "Realizar exame",
+      "descricao": "Esta etapa consiste na aquisição das imagens do Tórax, Coluna Cervical, Crânio e Face em 3D, Crânio e Face pelo exame de Tomografia, que serão posteriormente avaliadas pelo médico radiologista que emitirá um laudo. Também é informado ao usuário o prazo para entrega do exame.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196617,
+            "nome": "Exames anteriores (se tiver)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180378,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na sala de Tomografia.\n\n Endereço: Avenida Rui Barbosa, 716 - Flamengo - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 139253,
+      "titulo": "Receber resultado do exame",
+      "descricao": "Nesta etapa o usuário apresenta-se na recepção do Serviço de radiologia, com um documento de identificação, e recebe o resultado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196618,
+            "nome": "Cartão de Identificação IFF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180379,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção do Serviço de Radiologia.\n\n Endereço: Avenida Rui Barbosa, 716 - Flamengo - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "59",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-tomografia-computadorizada-fiocruz-rj",
+  "statusDestaque": false
+}

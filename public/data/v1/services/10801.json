@@ -1,0 +1,220 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10801",
+  "nome": "Parcelar dívidas do MEI",
+  "sigla": "",
+  "descricao": "Solicite ou acompanhe o parcelamento das suas dívidas declaradas pelo MEI através da declaração anual (DASN).\n\n Você pode parcelar as dívidas junto a Receita Federal enquanto os débitos não forem enviados para inscrição em Dívida Ativa da União.\n\n Após o envio, o parcelamento deve ser solicitado junto a [Procuradoria-Geral da Fazenda Nacional](resolveuid/0d13dc3e46ca4f8d9e1c52fc85d10526).\n\n A negociação envolve todas as dívidas, atualizadas com os devidos acréscimos legais até a data do pagamento da entrada. \n\n O parcelamento pode ser feito em até 60 (sessenta) vezes, mas a parcela mínima é de R$ 50,00 (cinquenta reais).\n\n Você poderá escolher o número de parcelas, desde que respeite o valor mínimo da parcela e o limite máximo de 60 (sessenta) parcelas.\n\n A aprovação do pedido de parcelamento depende do pagamento da primeira parcela.\n\n Se a primeira parcela não for paga até a data de vencimento, o pedido de parcelamento não terá efeito e o sistema permitirá nova solicitação.\n\n O pedido de parcelamento é confissão irretratável da dívida e confissão extrajudicial, nos termos do Código de Processo Civil.\n\n Só é possível 1 (uma) negociação de parcelamento por ano calendário.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127288
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106495,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 177977
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Imposto",
+        "id": 424287
+      },
+      {
+        "item": "Parcelamento",
+        "id": 424288
+      },
+      {
+        "item": "MEI",
+        "id": 424289
+      },
+      {
+        "item": "DASN",
+        "id": 424290
+      },
+      {
+        "item": "Débitos",
+        "id": 424291
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.508/2014](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=57825)",
+        "id": 152621
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4691,
+    "negativas": 13223
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248689,
+      "titulo": "Solicitar parcelamento",
+      "descricao": "Acesse o sistema e selecione os débitos para parcelar.\n\n Em seguida, preencha as informações solicitadas e emita o DAS para pagar a primeira parcela.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321347,
+            "tipo": "web",
+            "descricao": "[Meus Parcelamentos do MEI](https://cav.receita.fazenda.gov.br/autenticacao/login/index/134)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 321348,
+            "tipo": "web",
+            "descricao": "[Parcelamento - Microempreendedor Individual](https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=t&area=2)Â (Portal do Simples Nacional)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 248690,
+      "titulo": "Acompanhar o parcelamento",
+      "descricao": "Consulte o extrato do parcelamento e emita parcelas que não tenham sido debitadas em conta corrente, pelo próprio sistema.\n\n O parcelamento será rescindido (cancelado), e os débitos serão enviados para inscrição em Dívida Ativa da União, quando faltar pagamento:\n\n  * de 3 (três) parcelas, seguidas ou não; ou\n * última parcela, se todas as demais estiverem pagas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321349,
+            "tipo": "web",
+            "descricao": "[Meus Parcelamentos do MEI](https://cav.receita.fazenda.gov.br/autenticacao/login/index/134)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 321350,
+            "tipo": "web",
+            "descricao": "[Parcelamento - Microempreendedor Individual](https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=t&area=2)Â (Portal do Simples Nacional)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10802",
+      "nome": "Parcelar dívidas do Simples Nacional"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "26",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/parcelar-imposto-mei",
+  "statusDestaque": false
+}

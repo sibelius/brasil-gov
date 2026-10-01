@@ -1,0 +1,188 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6009",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UnB",
+  "sigla": "",
+  "descricao": "Consiste na emissão de diploma de graduação para estudantes formados pela Universidade de Brasília (UnB).",
+  "flagPortalLogado": "N",
+  "contato": "Secretaria de Administração Acadêmica (SAA)\n\n Telefone: (61) 3107 - 0225, ou pelo e-mail: rdgsaa@unb.br -  portal do aluno: [https://aluno.unb.br/ ](https://aluno.unb.br/ \"https://aluno.unb.br/\").",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.unb.br/publico/#/validardiploma",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado",
+        "id": 46179
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 42853,
+        "tipo": "* Estudantes de Graduação da UnB.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/470",
+    "dbId": 34335,
+    "nomeOrgao": "Fundação Universidade de Brasília (UNB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 69280
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Emissão de diploma",
+        "id": 159308
+      },
+      {
+        "item": "Certificado",
+        "id": 159309
+      },
+      {
+        "item": "Diploma digital",
+        "id": 159310
+      },
+      {
+        "item": "Universidade de Brasília",
+        "id": 159311
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 51004
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade; \n     + Respeito; \n     + Acessibilidade; \n     + Cortesia; \n     + Presunção da boa-fé do usuário;\n     + Igualdade; \n     + Eficiência; \n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 92352,
+      "titulo": "Notificação de Emissão",
+      "descricao": "O estudante concluinte receberá um e-mail quando seu diploma digital estiver disponível.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 117733,
+            "tipo": "e-mail",
+            "descricao": "A UnB realizará a notificação para o e-mail cadastrado e atualizado pelo estudante no sistema SIGAA.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 92353,
+      "titulo": "Acesso ao Sistema",
+      "descricao": "O acesso ao sistema permitirá a geração do diploma digital ou da 2ª via do diploma do estudante. Além disso, neste canal o estudante ou interessado poderá validar o diploma nas bases de dados e registros da UnB.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 117734,
+            "tipo": "web",
+            "descricao": "O acesso ao sistema de geração do Diploma pode ser realizado pelo site [https://servicos.unb.br/publico/#/validardiploma](https://servicos.unb.br/publico/#/validardiploma \"https://servicos.unb.br/publico/#/validardiploma\"). \n\n Conheça um [passo a passo para gerar o diploma digital](https://www.noticias.unb.br/images/Noticias/2019/01-Jan/14012018_diplomapos_GIF__IgorOuteiral.gif \"passo a passo\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-unb",
+  "statusDestaque": false
+}

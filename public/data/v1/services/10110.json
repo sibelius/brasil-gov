@@ -1,0 +1,229 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10110",
+  "nome": "Solicitar Vinculação de Cursos de Graduação à Respectiva Área Básica de Ingresso (ABI) no Sistema e-MEC",
+  "sigla": "",
+  "descricao": "Esse serviço deve ser utilizado para os casos em que uma IES, em geral, Universidade Pública Federal, possui cursos cujo ingresso é único. Nestes casos, se faz necessária a criação de estrutura agrupadora, chamada ABI a qual são associados os cursos de único ingresso. Essa estrutura ABI é utilizada, por exemplo, para associar alunos ingressantes Censo da Educação Superior ou indicar oferta no SISU.",
+  "flagPortalLogado": "S",
+  "contato": "Com Núcleo de Apoio e Atendimento Integrado, canal institucional de comunicação da SERES, que possuí uma equipe especializada para atendimento aos Representantes das Instituições de Educação Superior (IES), o contato pode ser realizado no endereço https://mecsp.metasix.solutions/portal ou pelo telefone (61) 2022-8199.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Vincular cursos a ABI",
+        "id": 126111
+      },
+      {
+        "item": "Vinculação de Curso a ABI",
+        "id": 126112
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105493,
+        "tipo": "Instituições de Educação Superior - IES",
+        "requisitos": "Ser o Procurador Institucional – PI da IES"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176333
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 176334
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Vinculação de ABI",
+        "id": 420045
+      },
+      {
+        "item": "Área Básica de Ingresso",
+        "id": 420046
+      },
+      {
+        "item": "ABI",
+        "id": 420047
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 9.235/2020; Portaria Normativa nº 21/2017",
+        "id": 151369
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246189,
+      "titulo": "Preencher Formulário de Solicitação",
+      "descricao": "Etapa em que o Procurador Institucional da IES preenche as informações no Formulário de Solicitação conforme indicado abaixo:",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322063,
+            "nome": "Formulário de Solicitação:\n\n  * Código e Nome da IES;\n * Nome da ABI; Código da ABI (se já existente); e\n * relação dos códigos e denominações dos cursos que devem ser vinculados a cada ABI."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318400,
+            "tipo": "web",
+            "descricao": "[Acesse o site ](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=10110)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318401,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/../../../../protocolar-documento-junto-ao-ministerio-da-educacao-mec)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318402,
+            "tipo": "postal",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318403,
+            "tipo": "presencial",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246190,
+      "titulo": "Buscar Resultado no Sistema e-MEC",
+      "descricao": "Se a análise documental for satisfatória, o(s) curso(s) informado(s) são vinculados à ABI desejada, a qual será criada, caso ainda não exista. A IES é informada sobre o resultado do atendimento.  \nSerá enviado comunicado para a Instituição por meio do Sistema e-MEC.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318404,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://emec.mec.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "52",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-vinculacao-de-cursos-de-graduacao-a-respectiva-area-basica-de-ingresso-abi-no-e-mec",
+  "statusDestaque": false
+}

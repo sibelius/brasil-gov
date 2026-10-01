@@ -1,0 +1,365 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11124",
+  "nome": "Inscrever, atualizar, cancelar ou reativar CIB no Cadastro de Imóveis Rurais",
+  "sigla": "CAFIR",
+  "descricao": "Inscreva, atualize, cancele ou reative o CIB do seu imóvel rural no Cadastro de Imóveis Rurais (CAFIR)\n\n O **Cadastro Nacional de Imóveis Rurais (CNIR)** compreende dados integrados do SNCR do Incra e o CAFIR da Receita Federal.\n\n O **Cadastro de Imóveis Rurais (CAFIR)** é o cadastro administrado pela Receita Federal, com informações de imóveis rurais do país, seus titulares e, se for o caso, os condôminos e compossuidores.\n\n O **Cadastro Imobiliário Brasileiro (CIB)** é o código identificador do imóvel rural no CAFIR. Cada imóvel rural deve possuir um CIB.\n\n O **Sistema Nacional de Cadastro Rural (SNCR)** é o sistema utilizado pelo Instituto Nacional de Colonização e Reforma Agrária (Incra) para cadastrar os imóveis rurais.\n\n Com o cadastramento do imóvel rural no SNCR, o titular obtém o **Certificado de Cadastro de Imóvel Rural (CCIR)**. Cada imóvel rural possui um CCIR.\n\n A inscrição, alteração de dados estruturais, cancelamento ou reativação do imóvel rural no CAFIR serão processados de maneira automática após a vinculação do CIB com o Código do Imóvel do SNCR/Incra.\n\n **Atenção:**\n\n  * Se seu imóvel rural não possui CIB, ele será criado no momento da vinculação. A vinculação é realizada no sistema CNIR.\n * Se o CIB já foi criado e está vinculado ao Código do Imóvel no SNCR/Incra, ele será alterado, cancelado ou reativado de maneira automática quando ocorrer a respectiva operação cadastral no SNCR/Incra.\n * Se seu imóvel não está cadastrado no SNCR/Incra, acesse o serviço relacionado e veja como proceder na página do [SNCR/Incra](https://sncr.serpro.gov.br/dcr/public/pages/index.jsf?windowId=348). Em seguida, acesse o sistema CNIR para realizar a vinculação. \n  A alteração de dados tributários do imóvel rural será processada após o acionamento do serviço Atualizar Dados Tributários no sistema CNIR.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre cadastro rural](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/portal-cnir \"e-Processo\")\n\n [Orientações sobre processos digitais](https://www.gov.br/../../receitafederal/pt-br/assuntos/processos-digitais \"e-Processo\")\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127504
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106674,
+        "tipo": "O responsável pelo imóvel rural, ou seja, a pessoa física ou jurídica que seja proprietária, titular do domínio útil ou possuidora a qualquer título das parcelas que compõem o imóvel rural.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178363
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178364
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 178365
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 178366
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imóvel Rural"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Imóvel Rural",
+        "id": 425152
+      },
+      {
+        "item": "Imposto",
+        "id": 425153
+      },
+      {
+        "item": "Cadastro",
+        "id": 425154
+      },
+      {
+        "item": "Atendimento",
+        "id": 425155
+      },
+      {
+        "item": "Processo Digital",
+        "id": 425156
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.203/2024](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?naoPublicado=&idAto=139345&visao=compilado)",
+        "id": 152911
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.022/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116969)",
+        "id": 152912
+      },
+      {
+        "item": "[Ato Declaratório Executivo Cocad nº 2/2024](http://normas.receita.fazenda.gov.br/sijut2consulta/consulta/link.action?idAto=139645)",
+        "id": 152913
+      },
+      {
+        "item": "[Ato Declaratório Executivo Cocad nº 68/2026](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/153350)",
+        "id": 152914
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 485,
+    "negativas": 1471
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249167,
+      "titulo": "Realizar vinculação do imóvel rural",
+      "descricao": "Acesse o CNIR, clique em Menu, seguido de Meu Imóveis.\n\n Localize o imóvel rural e clique em Gerenciar Vinculação, na coluna \"Ações\", ao lado do imóvel que deseja vincular.\n\n Faça uma consulta ao Cafir para verificar se já existe CIB emitido para o imóvel rural.\n\n  * Se encontrar o CIB do imóvel rural, selecione o CIB para vinculação. \n * Se não encontrar o CIB, clique em Criar CIB para Vinculação, preencha as informações sobre os dados tributários do imóvel rural e clique em enviar solicitação",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321997,
+            "tipo": "web",
+            "descricao": "[Meus Imóveis Rurais (CNIR)](https://cnir.serpro.gov.br/)\n\n Verifique a situação da vinculação:\n\n  * se ela tiver sido processada automaticamente, o serviço estará concluído.\n * se a solicitação ficar na situação “AGUARDANDO DOCUMENTAÇÃO”, proceda conforme informado logo abaixo na etapa 3.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249168,
+      "titulo": "Atualizar dados tributários do imóvel rural",
+      "descricao": "Para atualizar dados, acesse o CNIR, clique em Menu, seguido de Meu Imóveis.\n\n Localize o imóvel e clique no botão Atualizar Dados Tributários, na coluna “Ações”.\n\n Preencha as informações a serem atualizadas sobre os dados tributários do imóvel rural e clique em enviar a solicitação.\n\n Verifique a situação da solicitação:\n\n  * se ela tiver sido processada, o serviço estará concluído.\n * se a solicitação ficar na situação “AGUARDANDO DOCUMENTAÇÃO”, proceda conforme informado na próxima etapa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321998,
+            "tipo": "web",
+            "descricao": "[Meus ImÃ³veis Rurais (CNIR)](https://cnir.serpro.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249169,
+      "titulo": "Abrir processo e apresentar documentação",
+      "descricao": "**Atenção!** Siga esta etapa somente se as solicitações das etapas anteriores não foram concluídas automaticamente.\n\n Para abrir o processo, acesse o canal abaixo. Em seguida, selecione a área de concentração “Cadastros” e o serviço \"Imóvel Rural - Inscrever, Cancelar ou Alterar Cadastro.\n\n Siga as instruções do requerimento. Junte os documentos necessários. Eles devem estar em arquivos separados e classificados por tipo de documento.\n\n Abra um processo para cada pedido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321999,
+            "tipo": "web",
+            "descricao": "[Abrir Novo Processo (Requerimento)](https://www3.cav.receita.fazenda.gov.br/requer/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249170,
+      "titulo": "Acompanhar o andamento do processo",
+      "descricao": "Consulte o andamento do processo, inclusive os documentos juntados, pelos canais abaixo.\n\n Para utilizar o aplicativo para celular ou tablet, você deve [habilitar o seu dispositivo.](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322000,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322001,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple | ](https://apps.apple.com/br/app/eprocesso/id1358752141)[Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso)[ (e-Processo)](https://apps.apple.com/br/app/eprocesso/id1358752141)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249171,
+      "titulo": "Obter a inscrição ou atualização do cadastro",
+      "descricao": "A informação do resultado será juntada ao seu processo digital. Clique na opção **Meus Processos** e consulte os documentos do processo para saber se o seu pedido foi aprovado.\n\n Em algumas situações o processo é arquivado após a decisão. Neste caso, você encontrará o processo na aba **Inativos**.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322002,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322003,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/5097",
+      "nome": "Cadastrar imóvel rural"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11123",
+      "nome": "Cancelar ou transferir CIB não vinculado no Cadastro de Imóveis Rurais"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/inscrever-ou-atualizar-cadastro-nacional-de-imovel-rural",
+  "statusDestaque": false
+}

@@ -1,0 +1,260 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10823",
+  "nome": "Obter Documento Provisório de Registro Nacional Migratório",
+  "sigla": "DPRNM",
+  "descricao": "Este serviço é para **imigrantes que solicitam reconhecimento como refugiados no Brasil**. Ele oferece um Documento Provisório de Registro Nacional Migratório (DPRNM) enquanto o pedido está em análise pelo Comitê Nacional para Refugiados (CONARE).",
+  "flagPortalLogado": "N",
+  "contato": "* **Horários e peculiaridades de atendimento nas unidades PF:**\n  No caso de dúvidas relativas à particularidades locais das unidades de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras, consulte uma [unidade da Polícia Federal](https://www.gov.br/../../pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias).\n\n  * Para mais informações [clique aqui](https://www.gov.br/pf/pt-br/assuntos/imigracao/duvidas-frequentes/servicos-disponiveis-e-atendimento/como-saber-qual-o-endereco)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/pt-br/temas/refugio",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Solicitar DPRNM",
+        "id": 122904
+      },
+      {
+        "item": "Carteira de solicitante de refúgio",
+        "id": 122905
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102726,
+        "tipo": "Imigrantes que estão pedindo refúgio ou renovando o refúgio no Brasil.\n\n Para solicitar ou renovar refúgio [clique aqui.](https://www.gov.br/pt-br/temas/refugio)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171720
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços para Estrangeiros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Solicitante",
+        "id": 408915
+      },
+      {
+        "item": "Refúgio",
+        "id": 408916
+      },
+      {
+        "item": "DPRNM",
+        "id": 408917
+      },
+      {
+        "item": "Protocolo",
+        "id": 408918
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 147630
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 252,
+    "negativas": 317
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239616,
+      "titulo": "Comparecer na unidade da Polícia Federal",
+      "descricao": "* Compareça na unidade da Polícia Federal para atendimento no horário agendado, conforme orientação disponível em \"[Solicitar Refúgio](https://www.gov.br/pt-br/servicos/solicitar-refugio)\" ou \"[Renovar Protocolo de Refúgio](https://www.gov.br/pt-br/servicos/renovar-protocolo-de-refugio-para-solicitante-que-esta-no-sisconare)\".   \n \n\t + O processo para confecção do DPRNM decorre da emissão do protocolo ao solicitante de refúgio.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 315804,
+            "nome": "Requerimento próprio, por meio de formulário eletrônico devidamente preenchido no site da PF;"
+          },
+          {
+            "id": 315805,
+            "nome": "Protocolo da solicitação de reconhecimento da condição de refugiado válido."
+          },
+          {
+            "id": 315806,
+            "nome": "Passaporte ou outro documento de identidade válido admitido pelas Partes em outros acordos vigentes, se dispuser;"
+          },
+          {
+            "id": 315807,
+            "nome": "Em caso de indisponibilidade do sistema de coleta de dados biométricos da Polícia Federal, poderá ser solicitada 1(uma) foto 3x4 recente, colorida, fundo branco, papel liso, de frente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41058,
+            "descricao": "Sem custo.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309307,
+            "tipo": "presencial",
+            "descricao": "* Unidade de atendimento da Polícia Federal.\n * Para mais informações, verifique [Dúvidas Frequentes](https://www.gov.br/../../pf/pt-br/assuntos/imigracao/duvidas-frequentes).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 239617,
+      "titulo": "Receber o Documento Provisório de Registro Nacional Migra´tório - DPRNM",
+      "descricao": "O documento provisório de registro nacional migratório - DPRNM será entregue na unidade de atendimento da Polícia Federal.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41059,
+            "descricao": "Sem custo.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309308,
+            "tipo": "presencial",
+            "descricao": "* É necessário verificar se o documento está pronto para ser retirado. Quando isso ocorrer o sistema irá informar “Seu documento foi confeccionado e está pronto para ser retirado” e disponibilizará um formulário específico para entrega de documento.\n * Preencha o formulário disponibilizado e faça o agendamento para a retirada do documento na unidade de atendimento correta. Algumas unidades dispensam o agendamento (nestes casos o sistema irá informar que \"não há agenda para o serviço escolhido\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 309309,
+            "tipo": "web",
+            "descricao": "[Consultar status do documento](https://servicos.dpf.gov.br/sismigra-internet/faces/restrito/atendimento/pesquisarRequerimento.seam) (**Atenção! **Caso esteja utilizando **tradução automática**, é necessário retornar ao site original (URL original), conforme [imagem](https://www.gov.br/pf/pt-br/assuntos/imigracao/imagem/imagem2.jpg/view)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3704",
+      "nome": "Solicitar Refúgio pela primeira vez no Brasil"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10716",
+      "nome": "Renovar Protocolo de Refúgio para solicitante que está no Sisconare"
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "44",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-documento-provisorio-de-registro-nacional-migratorio",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

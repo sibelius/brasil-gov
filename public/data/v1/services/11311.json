@@ -1,0 +1,268 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11311",
+  "nome": "Solicitar credenciamento de campus fora de sede",
+  "sigla": "",
+  "descricao": "O serviço permite que uma Instituição de Educação Superior – IES solicite ao MEC o credenciamento de campus fora da sede da Universidade ou do Centro Universitário.\n\n Para solicitar o serviço, deve ser utilizado o fluxo processual de “Autorização Vinculada Credenciamento de Campus Fora de Sede” do Sistema e-MEC, disponibilizado de acordo com o Calendário Regulatório do ano corrente.",
+  "flagPortalLogado": "N",
+  "contato": "O Núcleo de Apoio e Atendimento Integrado (NAAI) é o canal institucional de comunicação da SERES, que possui uma equipe especializada para atendimento aos representantes das IES. O contato pode ser realizado pelo endereço <https://mecsp.metasix.solutions/portal>, ou pelo telefone (61) 2022-8199",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://emec.mec.gov.br/ies",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "credenciar campus fora de sede",
+        "id": 95621
+      },
+      {
+        "item": "credenciar campus fora da sede da universidade",
+        "id": 95622
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81277,
+        "tipo": "Instituição mantenedora (pessoa jurídica) já atuante no Sistema Federal de Ensino.",
+        "requisitos": "O Procurador Institucional – PI da instituição pleiteante a Recredenciamento, com perfil ativo no Sistema e-MEC. Esse Procurador Institucional é cadastrado pelo Representante Legal da instituição mantenedora."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132628
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 132629
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 132630
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Credenciamento de campus fora da universidade",
+        "id": 322424
+      },
+      {
+        "item": " Credenciamento de campus fora do centro univ",
+        "id": 322425
+      },
+      {
+        "item": "Credencias campos fora da sede",
+        "id": 322426
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 9.235/2017\n\n Portaria Normativa nº 23/2017; Portaria Normativa nº 21/2017\n\n Portaria Normativa nº 20/2017; Portaria Normativa nº 840/2018\n\n Resoluções do CNE sobre Diretrizes Curriculares Nacionais de cursos de Graduação\n\n Catálogo Nacional dos Cursos Superiores de Tecnologia – CNCST",
+        "id": 110555
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 184601,
+      "titulo": "Preencher solicitação Sistema e-MEC.",
+      "descricao": "Etapa em que o Procurador Institucional da instituição candidata preenche no sistema e-MEC as informações necessárias.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 251943,
+            "nome": "Conforme Art. 20 do Decreto 9.235/2017:"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242360,
+            "tipo": "web",
+            "descricao": "[emec.mec.gov.br/ies](https://emec.mec.gov.br/ies)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 184602,
+      "titulo": "Preencher solicitação avaliação in loco.",
+      "descricao": "Nesta etapa a IES preenche o formulário de avaliação, e a Diretoria de Avaliação da Educação Superior – DAES/INEP encaminha comissão de avaliação para verificação* in loco* das condições da instituição para a oferta de cursos de graduação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242361,
+            "tipo": "web",
+            "descricao": "[emec.mec.gov.br/mec](http://emec.mec.gov.br/mec)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 242362,
+            "tipo": "web",
+            "descricao": "[emec.mec.gov.br/ies  ](http://emec.mec.gov.br/ies)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 242363,
+            "tipo": "web",
+            "descricao": "[emec.mec.gov.br/avaliador](http://emec.mec.gov.br/avaliador)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 184603,
+      "titulo": "Verificar resultado no sistema e-MEC",
+      "descricao": "Nesta etapa a IES verifica se a solicitação foi deferida pela SERES, que publica a portaria correspondente e realiza o reflexo cadastral. No caso de indeferimento, é possível apresentar recurso no próprio sistema e-MEC",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 251944,
+            "nome": "Documentação prevista na etapa 1 e Relatório de Avaliação do INEP."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242364,
+            "tipo": "web",
+            "descricao": "[emec.mec.gov.br/mec](http://emec.mec.gov.br/mec)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "80",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-credenciamento-de-campus-fora-de-sede",
+  "statusDestaque": false
+}

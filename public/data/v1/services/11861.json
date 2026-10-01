@@ -1,0 +1,169 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11861",
+  "nome": "Solicitar diagnóstico molecular, microbiológico e parasitológico na área de Medicina Veterinária",
+  "sigla": "",
+  "descricao": "Realização de exames de diagnóstico de doenças virais, bacterianas, fúngicas e parasitárias em aves, suínos, cães, gatos, ruminantes e equinos.",
+  "flagPortalLogado": "N",
+  "contato": "Clínica e Cirurgia de Cães e Gatos – (31) 3612-5608  \nClínica e Cirurgia de Ruminantes e Equídeos – (31) 98974-6835; (31) 97183-1601  \nE-mail: dvt@ufv.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 41539
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 39111,
+        "tipo": "Serviços estendidos a empresas particulares e público geral.",
+        "requisitos": "Os exames serão disponibilizados desde que encaminhados por médicos veterinários."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/474",
+    "dbId": 34325,
+    "nomeOrgao": "Fundação Universidade Federal de Viçosa (UFV)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 63048
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para Todos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Veterinária",
+        "id": 144293
+      },
+      {
+        "item": "Diagnóstico",
+        "id": 144294
+      },
+      {
+        "item": "Exames",
+        "id": 144295
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 44946
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 83391,
+      "titulo": "Encaminhar solicitação e amostra",
+      "descricao": "O solicitante deve encaminhar a solicitação de exames juntamente com a amostra a ser analisada, devidamente identificada.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 119347,
+            "nome": "Encaminhamento e solicitação por médicos veterinários."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 12180,
+            "descricao": "Variável conforme o número de amostras e serviço prestado",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "0,00",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 106648,
+            "tipo": "presencial",
+            "descricao": "A solicitação pode ocorrer presencialmente, no Departamento de Medicina Veterinária, localizado na Avenida PH Rolfs, s/nº, Campus Universitário, CEP 36571-000 – Viçosa/MG.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 106649,
+            "tipo": "e-mail",
+            "descricao": "A solicitação pode, também, ocorrer através do e-mail: dvt@ufv.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "93",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-diagnostico-molecular-microbiologico-e-parasitologico-na-area-de-medicina-veterinaria",
+  "statusDestaque": false
+}

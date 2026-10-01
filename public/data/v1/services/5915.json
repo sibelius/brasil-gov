@@ -1,0 +1,322 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5915",
+  "nome": "Registrar diplomas de faculdades, centros universitários e universidades privadas - UFMG",
+  "descricao": " Instituições privadas de Educação Superior precisam registrar seus diplomas de graduação e pós-graduação junto a Instituições Federais de Ensino Superior para que estes tenham validade. Para registrar diplomas nesta instituição, siga as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Departamento de Registro e Controle Acadêmico - 31 3409-4195 - dir@drca.ufmg.br",
+  "gratuito": "false",
+  "porcentagemDigital": 50,
+  "servicoDigital": false,
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Registro de Diplomas",
+        "id": 5315
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 8610,
+        "tipo": "Empresas Privadas",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/423",
+    "dbId": 57771,
+    "nomeOrgao": "Universidade Federal de Minas Gerais (UFMG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 13676
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 15740,
+      "titulo": "Enviar diplomas para registro.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 28630,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 28631,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 28632,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 28633,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 28634,
+            "nome": "Comprovante de pagamento"
+          },
+          {
+            "id": 28635,
+            "nome": "CPF"
+          },
+          {
+            "id": 28636,
+            "nome": "Diploma"
+          },
+          {
+            "id": 28637,
+            "nome": "Histórico Escolar"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17085,
+            "tipo": "presencial",
+            "descricao": "Departamento de Registro e Controle Acadêmico",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17086,
+            "tipo": "postal",
+            "descricao": "Universidade Federal de Minas Gerais\nDepartamento de Registro e Controle Acadêmico\nUnidade Administrativa III\nAv. Pres. Antônio Carlos, 6627 - Pampulha\n31270-901 Belo Horizonte - MG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "8",
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 8,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15739,
+      "titulo": "Solicitar registro de diplomas.",
+      "descricao": null,
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 1534,
+            "descricao": "Taxa de registro de diploma.",
+            "moeda": "R$",
+            "valor": " 30,00",
+            "valorVariavel": null,
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17084,
+            "tipo": "web",
+            "descricao": "www.ufmg.br/drca",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15741,
+      "titulo": "Verificar andamento do processo de registro de diploma.",
+      "descricao": null,
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17087,
+            "tipo": "telefone",
+            "descricao": "3134094158",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17088,
+            "tipo": "web",
+            "descricao": "www.ufmg.br/drca",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17089,
+            "tipo": "e-mail",
+            "descricao": "drd@drca.ufmg.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 15742,
+      "titulo": "Receber diploma registrado.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 28638,
+            "nome": "Carteira de identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17090,
+            "tipo": "presencial",
+            "descricao": "Departamento de Registro e Controle Acadêmico",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17091,
+            "tipo": "postal",
+            "descricao": "Universidade Federal de Minas Gerais\nDepartamento de Registro e Controle Acadêmico\nUnidade Administrativa III\nAv. Pres. Antônio Carlos, 6627 - Pampulha\n31270-901 Belo Horizonte - MG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufmg",
+  "statusDestaque": false
+}

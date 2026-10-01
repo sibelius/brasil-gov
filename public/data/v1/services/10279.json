@@ -1,0 +1,206 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10279",
+  "nome": "Consultar Restrição de Roubo/Furto de Veículo",
+  "sigla": "Sinesp",
+  "descricao": "É uma ferramenta de consulta de restrições de roubo/furto de veículos a partir da inserção dos caracteres da placa do veículo, tendo como retorno as seguintes informações: \n\n Marca/modelo;  \nAno;  \nCor;  \nFinal do Chassi; e  \nStatus de Restrição de Roubo e Furto.",
+  "flagPortalLogado": "N",
+  "contato": "suportesinesp@mj.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.justica.gov.br/sua-seguranca/seguranca-publica/sinesp-1/sinesp-Cidadao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Aplicativo Sinesp Cidadão",
+        "id": 117123
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98242,
+        "tipo": "Cidadãos brasileiros e estrangeiros",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 163571
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Crimes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "segurança pública",
+        "id": 391478
+      },
+      {
+        "item": "cidadania",
+        "id": 391479
+      },
+      {
+        "item": "veículos",
+        "id": 391480
+      },
+      {
+        "item": "mandados de prisão",
+        "id": 391481
+      },
+      {
+        "item": "desaparecidos",
+        "id": 391482
+      },
+      {
+        "item": "procurados",
+        "id": 391483
+      },
+      {
+        "item": "participação cidadã",
+        "id": 391484
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 138225
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 386,
+    "negativas": 1621
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 228822,
+      "titulo": "Realizar download do Aplicativo",
+      "descricao": "**Acesse:**\n\n Google Play: <https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android>\n\n  Apple Store: [apps.apple.com/br/app/sinesp-cidadão/id768157962](https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302185,
+            "nome": "Para logar no aplicativo é necessário ter uma conta \"[gov.br](https://sso.acesso.gov.br/login)\". Contudo, para a realização de consultas de veículos não é obrigatório estar logado."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296292,
+            "tipo": "aplicativo-movel",
+            "descricao": "O aplicativo está disponível para download na [Play Store](https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android) e na [Apple Store](http://apps.apple.com/br/app/sinesp-cidadão/id768157962).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228823,
+      "titulo": "Realizar Consulta",
+      "descricao": "Nessa etapa o usuário deve selecionar o ícone \"veículos\" do aplicativo, inserir a placa a ser consulta e clicar em \"buscar veículos\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296293,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo Sinesp Cidadão.\n\n O aplicativo está disponível para download na [Play Store](https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android) e na [Apple Store](http://apps.apple.com/br/app/sinesp-cidadão/id768157962).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "19",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-veiculo",
+  "statusDestaque": true
+}

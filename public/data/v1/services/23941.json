@@ -1,0 +1,253 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23941",
+  "nome": "Designar Responsáveis Operacionais",
+  "sigla": "DRO",
+  "descricao": "Esse serviço deve ser utilizado pelos operadores aeroportuários (representado pelo Representante Legal ou Procuradores Especiais cadastrados no SEI) para:\n\n  * Designar/alterar pessoas físicas responsáveis por exercer funções operacionais regulamentadas pela Anac nos aeródromos;\n * Verificar os atuais designados pelo operador.\n  obs.: este é um autosserviço, finalizado na primeira etapa quando o DRO conclui as alterações realizadas.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://santosdumont.anac.gov.br/menu/r/api/dro",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 116994
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98146,
+        "tipo": "Operador de Aeródromo Público por meio de seu representante legal - devidamente vinculado no SEI, ou por meio de representante com \"Procuração Especial\" concedida no SEI.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 163329
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 163330
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros e Credenciamentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Responsáveis",
+        "id": 391132
+      },
+      {
+        "item": "Funções",
+        "id": 391133
+      },
+      {
+        "item": "Qualificações",
+        "id": 391134
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 107](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-107?visao=tabela)",
+        "id": 138108
+      },
+      {
+        "item": "[RBAC 153](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-153?visao=tabela)",
+        "id": 138109
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 228474,
+      "titulo": "Selecionar o aeródromo de interesse",
+      "descricao": "O operador do aeródromo, por meio de seu Responsável Legal ou do procurador especial devidamente designado no SEI, deverá acessar o Sistema DRO para realizar a designação dos responsáveis operacionais.\n\n Inicialmente, o interessado deve selecionar o aeródromo de interesse, conforme a figura abaixo: \n\n ![imagem1.png](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/operador-aerodromo/arquivos/imagem1.png/@@images/5ddc4f16-349b-460b-951d-2088ab193dea.png)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295923,
+            "tipo": "web",
+            "descricao": "Acessar o Sistema Santos Dumont, aplicação \"[Designação de Responsáveis Operacionais - DRO](https://santosdumont.anac.gov.br/menu/r/api/dro/ficha-dados-do-aerodromo?session=101466494654225)[\"](https://santosdumont.anac.gov.br/menu/r/api/dro/ficha-dados-do-aerodromo?session=101466494654225)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 295924,
+            "tipo": "web",
+            "descricao": "Se dúvida sobre o cadastro de responsável legal no sei, consulte [aqui](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/operador-aerodromo/cadastro-do-responsavel-legal-como-usuario-externo-no-sei).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228475,
+      "titulo": "Editar os responsáveis operacionais para o aeródromo",
+      "descricao": "O interessado poderá editar os responsáveis conforme figura. \n\n Será verificado o cumprimento dos requisitos aplicáveis, como validade da certificação AVSEC, a acumulação de funções, conforme regulamentos específicos.\n\n Só é possível designar pessoas cadastradas no SEI e com procuração (Simples ou Especial).\n\n   \n![imagem2.jpg](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/operador-aerodromo/arquivos/imagem2.jpg/@@images/08d1e0be-3aa5-45fa-9494-322019ae6f49.jpeg)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295925,
+            "tipo": "web",
+            "descricao": "Acessar o Sistema Santos Dumont, aplicação \"[Designação de Responsáveis Operacionais - DRO](https://santosdumont.anac.gov.br/menu/r/api/dro/ficha-dados-do-aerodromo?session=101466494654225)[\"](https://santosdumont.anac.gov.br/menu/r/api/dro/ficha-dados-do-aerodromo?session=101466494654225)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 295926,
+            "tipo": "web",
+            "descricao": "Cadastre responsável legal de pessoa jurídica [aqui](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/operador-aerodromo/etapa-2).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228476,
+      "titulo": "Salvar alterações",
+      "descricao": "Finalizada a edição e a validação dos dados, clique em “ENVIAR”. O usuário e todos os responsáveis operacionais designados receberão um e-mail contendo a lista atualizada de responsáveis operacionais.\n\n Em caso de dúvidas relacionadas às etapas de regularização do operador de aeródromo no SEI e no DRO, entre em contato pelo e-mail gtas.sia@anac.gov.br .",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295927,
+            "tipo": "web",
+            "descricao": "Acessar o Sistema Santos Dumont, aplicação \"[Designação de Responsáveis Operacionais - DRO](https://santosdumont.anac.gov.br/menu/r/api/dro/ficha-dados-do-aerodromo?session=101466494654225)[\"](https://santosdumont.anac.gov.br/menu/r/api/dro/ficha-dados-do-aerodromo?session=101466494654225)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/designar-responsaveis-operacionais",
+  "statusDestaque": false
+}

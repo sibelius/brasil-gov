@@ -1,0 +1,222 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11606",
+  "nome": "Vincular-se à pessoa desaparecida no Sinesp Cidadão",
+  "sigla": "VINDSinesp",
+  "descricao": "Trata-se da vinculação à pessoa desaparecida junto à base do Sinesp Cidadão, para posterior atualização de informações sobre o desaparecido.",
+  "flagPortalLogado": "N",
+  "contato": "Encaminhar e-mail para: [suportesinesp@mj.gov.br](mailto:suportesinesp@mj.gov.br \"mailto:suportesinesp@mj.gov.br\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 43155
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 40378,
+        "tipo": "Cidadão autenticado no Sinesp Cidadão através do Gov.Br e em posse de informações do Boletim de Ocorrência de desaparecimento.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 65216
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Capacitações e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Desaparecimento",
+        "id": 149655
+      },
+      {
+        "item": "Desaparecido",
+        "id": 149656
+      },
+      {
+        "item": "Vincular",
+        "id": 149657
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 46991
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 33
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 86715,
+      "titulo": "Realizar o download do aplicativo Sinesp Cidadão",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 110826,
+            "tipo": "aplicativo-movel",
+            "descricao": "Acesse:\n\n Google Play: [https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android](https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android \"https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android\")\n\n  Apple Store: [apps.apple.com/br/app/sinesp-cidadão/id768157962](https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android \"https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 86716,
+      "titulo": "Localizar Registro de Desaparecimento",
+      "descricao": "No aplicativo Sinesp Cidadão, selecionar o ícone de menu \"DESAPARECIDOS\", e faça a busca do desaparecido que deseja vincular-se. Para refinar a busca utilize a opção \"Filtrar\" localizada no canto superior direito da tela.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 110827,
+            "tipo": "aplicativo-movel",
+            "descricao": "O aplicativo está disponível para download na Play Store e na Apple Store.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 86717,
+      "titulo": "Vincular-se ao desaparecido",
+      "descricao": "Na tela de informações do desaparecido, acesse o botão \"Vincular\", no canto superior direito da tela. Na tela de vinculação informe o estado do desaparecimento e o número do Boletim de Ocorrência. O usuário deve concordar com os Termos de Responsabilidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 110828,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo Sinesp Cidadão está disponível para download na Play Store e na Apple Store.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "30",
+  "url": "https://www.gov.br/pt-br/servicos/vincular-se-a-pessoa-desaparecida-no-sinesp-cidadao",
+  "statusDestaque": false
+}

@@ -1,0 +1,250 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6180",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UFOP",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito graduação na Universidade, pode obter o seu diploma (ou 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Pró-reitoria de Graduação - 31 - 35591331 - diploma.prograd@ufop.edu.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.minha.ufop.br/minhaufop/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 50859
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 47343,
+        "tipo": "Cidadãos egressos de cursos de graduação da UFOP",
+        "requisitos": "Requisitos: Ter concluído curso de graduação na UFOP"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "30",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 30,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/473",
+    "dbId": 34318,
+    "nomeOrgao": "Fundação Universidade Federal de Ouro Preto (FUFOP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 75178
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 176951
+      },
+      {
+        "item": "2ª via",
+        "id": 176952
+      },
+      {
+        "item": "graduação",
+        "id": 176953
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 56302
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 101736,
+      "titulo": "Realizar solicitação no Portal Minha Ufop",
+      "descricao": "Realizar solicitação no Portal [MinhaUfop](http://www.minha.ufop.br)\n\n   * Instruções: [Resolução CEPE nº 7.845, de 27 de setembro de 2019](http://www.soc.ufop.br/public/files/RESOLUCAO_CEPE_7845.pdf).\n * [Portaria PROGRAD nº 73/2019, referente às cobranças e prazos dos serviços realizados na PROGRAD](https://www.prograd.ufop.br/sites/default/files/portaria_prograd_73.2019_taxas_e_prazos_0.pdf \"Portaria PROGRAD nº 12/2017, referente às cobranças pelos serviços reaizados na PROGRAD.\")",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 144126,
+            "nome": "Documento de identificação com foto"
+          },
+          {
+            "id": 144127,
+            "nome": "Certidão de casamento ou averbação de divórcio em caso de solicitação de 2ª via de diploma"
+          },
+          {
+            "id": 144128,
+            "nome": "Comprovante de pagamento em caso de solicitação de 2ª via de diploma"
+          },
+          {
+            "id": 144129,
+            "nome": "Comprovante de conclusão do Ensino Médio"
+          },
+          {
+            "id": 144130,
+            "nome": "Boletim de ocorrência em caso de extravio de diploma"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 15755,
+            "descricao": "Taxa para emissão da 2ª via do diploma.",
+            "moeda": "R$",
+            "valor": " 80,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 129983,
+            "tipo": "web",
+            "descricao": "O concluinte do curso de graduação deverá requerer a emissão do diploma de graduação no portal Minha Ufop, seguindo os seguintes procedimentos:\n\n I - O requerimento para emissão do diploma de graduação deverá ser instruído pelo solicitante com documento de identidade civil e prova de conclusão do ensino médio.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 129984,
+            "tipo": "web",
+            "descricao": "II - O discente deverá verificar os dados pessoais constantes no requerimento e confirmá-los. Quaisquer alterações nos dados cadastrais devem ser solicitadas à Seção de Ensino, pessoalmente ou por correio eletrônico, antes do protocolo do requerimento para emissão do diploma.\n\n III - O diploma somente poderá ser requerido pelo discente apto a colar grau ou após o ato de colação de grau no respectivo curso.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 101737,
+      "titulo": "Retirar/receber o documento.",
+      "descricao": "O diploma de graduação estará disponível na Pró-reitoria de Graduação (PROGRAD) em até 120 (cento e vinte) dias contados a partir da expedição do diploma de graduação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 144131,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 144132,
+            "nome": "Procuração, caso necessário. O documento original deve ser entregue na PROGRAD e é necessário anexar à procuração cópia do documento de identificação do titular do diploma (Decreto 13.726, de 08 de outubro de 2018). Não é necessário o reconhecimento de firma (Decreto 9.904/2017, de 17 de julho de 2017). Servidor público federal regido pela Lei 8.112/1990 (Art. 117, XI) não pode atuar como procurador junto à UFOP."
+          },
+          {
+            "id": 144133,
+            "nome": "Certificado de dispensa de incorporação ou de reservista (para formandos do sexo masculino)"
+          },
+          {
+            "id": 144134,
+            "nome": "Comprovante de quitação eleitoral"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 129985,
+            "tipo": "presencial",
+            "descricao": "Pró-reitoria de Graduação no Centro de Convergência, Campus Morro do Cruzeiro, Ouro Preto - MG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 120,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "29",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufop",
+  "statusDestaque": false
+}

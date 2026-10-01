@@ -1,0 +1,165 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9871",
+  "nome": "Solicitar permissão para preencher Mapa de Bordo da Tainha",
+  "sigla": "SisTainha",
+  "descricao": "Este serviço tem por finalidade disponibilizar o formulário do Mapa de Bordo para preenchimento com as informações da pesca da Tainha, como quantidade, localização, quantidade de lances, etc.",
+  "flagPortalLogado": "N",
+  "contato": "Para dúvidas ligar na SAP, 61-3276-4438.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sistemasweb.agricultura.gov.br/sap-sistainha/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94927
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80755,
+        "tipo": "Empresas",
+        "requisitos": "**Requisitos necessários para o solicitante:**\n\n Ter cadastro ativo no SisTainha."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308795",
+    "dbId": 58139,
+    "nomeOrgao": "Ministério da Pesca e Aquicultura (MPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 131699
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Monitoramento"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Sistainha",
+        "id": 320061
+      },
+      {
+        "item": "Mapa de Bordo ",
+        "id": 320062
+      },
+      {
+        "item": "pesca da Tainha",
+        "id": 320063
+      },
+      {
+        "item": "quantidade de lances",
+        "id": 320064
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Instrução Normativa MAPA nº 8, de 08 maio de 2019\n\n Portaria Interministerial SG-PR/MMA nº 24/2018",
+        "id": 109732
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183487,
+      "titulo": "Permissão para a preencher Mapa de Bordo da Tainha",
+      "descricao": "Realizar o preenchimento com as informações da pesca da Tainha, como quantidade, localização, quantidade de lances, etc.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 250589,
+            "nome": "2. Não é necessário documentação"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241021,
+            "tipo": "web",
+            "descricao": "<https://sistemasweb.agricultura.gov.br/sap-sistainha/>[  \n](http://antigo.agricultura.gov.br/sap-sisrgp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "60",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-permissao-para-preencher-mapa-de-bordo-da-tainha",
+  "statusDestaque": false
+}

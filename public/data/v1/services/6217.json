@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6217",
+  "nome": "Registrar diplomas de faculdades, centros universitários e universidades privadas - UFBA",
+  "descricao": " Instituições privadas de Educação Superior precisam registrar seus diplomas de graduação e pós-graduação junto a Instituições Federais de Ensino Superior para que estes tenham validade. Para registrar diplomas nesta instituição, siga as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Núcleo de expedição de Diplomas e Certificados - 71 3283-7146 - nedic@ufba.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 8912,
+        "tipo": "Empresas Privadas",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "90",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 90,
+    "max": 120
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/421",
+    "dbId": 57760,
+    "nomeOrgao": "Universidade Federal da Bahia (UFBA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 14012
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 15,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 16320,
+      "titulo": "Entrega de documentação.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 31005,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 31006,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 31007,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 31008,
+            "nome": "Comprovante de pagamento"
+          },
+          {
+            "id": 31009,
+            "nome": "CPF"
+          },
+          {
+            "id": 31010,
+            "nome": "Diploma"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 1587,
+            "descricao": "Registro de Diploma de Outra Instituição de Ensino Superior.",
+            "moeda": "R$",
+            "valor": " 125,82",
+            "valorVariavel": null,
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17936,
+            "tipo": "presencial",
+            "descricao": "Núcleo de Expedição de Diplomas e Certificados",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 16321,
+      "titulo": "Devolução do Material.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 31011,
+            "nome": "Carteira de identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17937,
+            "tipo": "presencial",
+            "descricao": "Núcleo de Expedição de Diplomas e Certificados",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "79",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufba",
+  "statusDestaque": false
+}

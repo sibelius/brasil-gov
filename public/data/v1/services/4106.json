@@ -1,0 +1,221 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/4106",
+  "nome": "Consultar requerimentos protocolados na PGFN",
+  "sigla": "",
+  "descricao": "É o serviço que possibilita ao contribuinte acompanhar o andamento e consultar as decisões da PGFN em relação aos requerimentos protocolizados seja no atendimento presencial — unidades de atendimento ao contribuinte da Receita Federal e atendimento da PGFN — ou no [REGULARIZE](https://www.regularize.pgfn.gov.br/), o portal digital de serviços da PGFN.",
+  "flagPortalLogado": "N",
+  "contato": "Clique [aqui ](https://www.gov.br/pgfn/pt-br/canais_atendimento/atendimento-ao-contribuinte/contribuinte)para acessar os contatos da Procuradoria-Geral da Fazenda Nacional.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.regularize.pgfn.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Consulta a Requerimentos",
+        "id": 88964
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76171,
+        "tipo": "O contribuinte pessoa física ou jurídica que protocolou o requerimento, bem como o seu representante legal ou técnico, este devidamente habilitado na [procuração digital do e-CAC da RFB](https://www.gov.br/pt-br/servicos/cadastrar-ou-cancelar-procuracao-para-acesso-ao-e-cac).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 123585
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123586
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 123587
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 123588
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Consultar",
+        "id": 299746
+      },
+      {
+        "item": "Andamento de Requerimentos",
+        "id": 299747
+      },
+      {
+        "item": "PGFN",
+        "id": 299748
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria PGFN nº 838, de 01 de agosto de 2023](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=132412#:~:text=PGFN%20n%C2%BA%20838%2F2023&text=Estabelece%20as%20regras%20do%20atendimento,da%20Fazenda%20Nacional%20(PGFN).) - Estabelece as regras do atendimento às pessoas usuárias dos serviços prestados pela Procuradoria-Geral da Fazenda Nacional (PGFN).",
+        "id": 102168
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 119,
+    "negativas": 358
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "A Lei 10.048, de 08/11/2000, criou a obrigatoriedade de atendimento prioritário a pessoas:  \n- Pessoas com Deficiência;   \n- Idosos com idade superior a 60 anos;  \n- Gestantes;   \n- Lactantes;   \n- Pessoas com crianças de colo; e  \n- Obesos.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 172686,
+      "titulo": "Acompanhar o andamento de requerimentos perante a PGFN",
+      "descricao": "* Acesse o REGULARIZE e clique em ***Consultar Requerimento***.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226620,
+            "tipo": "web-acompanhar",
+            "descricao": "[REGULARIZE.Â ](https://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172687,
+      "titulo": "Apresentar informações complementares",
+      "descricao": "O contribuinte poderá ser intimado, por meio da Caixa de Mensagens do REGULARIZE, para apresentar informações complementares ao requerimento. Nesse caso:\n\n  * acesse o REGULARIZE e clique em ***Consultar Requerimento;***\n * no campo ***Situação Atual*** aplique o filtro ***Pendente informação requerente***. \n * clique no **ícone de exclamação (!)** para acessar a** **tela para complementação. \n  **Atenção!** O requerimento será indeferido se a complementação não for apresentada no prazo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 239153,
+            "nome": "Dependerá do serviço solicitado, pois o Procurador da Fazenda Nacional solicitará no despacho as informações e os documentos pendentes."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226621,
+            "tipo": "web-preencher",
+            "descricao": "[REGULARIZE.Â ](https://www.regularize.pgfn.gov.br/)[  \n](https://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 181,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 182,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/consultar-o-andamento-de-requerimentos-a-pgfn",
+  "statusDestaque": true
+}

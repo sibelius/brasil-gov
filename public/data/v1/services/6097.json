@@ -1,0 +1,315 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6097",
+  "nome": "Obter diploma ou 2ª via de diploma - IFPA",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito um curso no Instituto, pode obter o seu diploma (ou 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "DEPARTAMENTO DE REGISTRO E INDICADORES ACADÊMICOS - (091)991113843 - registroacademico.proen@ifpa.edu.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/100917/servico/6097/solicitar/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 110073
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92687,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "8",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 8,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100917",
+    "dbId": 36759,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Pará (IFPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 153688
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 367733
+      },
+      {
+        "item": "segundavia",
+        "id": 367734
+      },
+      {
+        "item": "ifpa",
+        "id": 367735
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 127728
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 214810,
+      "titulo": "Solicitar diploma",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289074,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 289075,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 289076,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 289077,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 289078,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 289079,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 289080,
+            "nome": "CPF"
+          },
+          {
+            "id": 289081,
+            "nome": "Diploma"
+          },
+          {
+            "id": 289082,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 289083,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37825,
+            "descricao": "A emissão de segunda via do Diploma não é cobrada.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279107,
+            "tipo": "presencial",
+            "descricao": "Protocolo dos campi do IFPA",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 279108,
+            "tipo": "web",
+            "descricao": "AtravÃ©s deste [link](https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/100917/servico/6097/solicitar/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214811,
+      "titulo": "Análise de documento, registro e expedição do diploma",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279109,
+            "tipo": "web",
+            "descricao": "Acompanhamento do andamento/movimentação do processo pelo site [sipac.ifpa.edu.br](https://sipac.ifpa.edu.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "90",
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 90,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214812,
+      "titulo": "Receber diploma",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 289084,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 289085,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 289086,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 289087,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 279110,
+            "tipo": "presencial",
+            "descricao": "Secretaria Acadêmica ou setor equivalente no campus do IFPA",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-ifpa",
+  "statusDestaque": false
+}

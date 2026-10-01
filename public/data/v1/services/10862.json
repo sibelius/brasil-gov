@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10862",
+  "nome": "Autorizar débito automático para pagar impostos federais",
+  "sigla": "",
+  "descricao": "Autorize, altere ou desative o débito automático para o pagamento e parcelamento de impostos federais.\n\n Você também pode alterar a conta bancária usada para o débito automático. Escolha uma conta bancária já informada (em uma declaração, por exemplo) ou informe uma nova conta no momento da autorização.\n\n O débito automático esta disponível apenas nos bancos que fazem parte da [Rede Arrecadadora de Receitas Federais](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/rede-arrecadadora-de-receitas-federais-bancos).",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/122",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121971
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102034,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": "O contribuinte precisa ser o titular da conta bancária."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170196
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 170197
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 170198
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 170199
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DAS",
+        "id": 405871
+      },
+      {
+        "item": "Débito",
+        "id": 405872
+      },
+      {
+        "item": "MEI",
+        "id": 405873
+      },
+      {
+        "item": "Pagamento",
+        "id": 405874
+      },
+      {
+        "item": "Imposto",
+        "id": 405875
+      },
+      {
+        "item": "Tributo",
+        "id": 405876
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 146046
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 151,
+    "negativas": 408
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237740,
+      "titulo": "Acessar o sistema de débito automático",
+      "descricao": "Acesse o sistema desejado e informe a conta bancária para autorizar o débito automático. Se você já possui uma conta bancária cadastrada, você terá as opções de alterar ou desativar o débito automático.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 313958,
+            "nome": "Informações da conta bancária: banco, agência e número da conta."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307002,
+            "tipo": "web",
+            "descricao": "[Meus Débitos Automáticos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/122)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 307003,
+            "tipo": "web",
+            "descricao": "[Autorizar ou desativar débito automático](https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=t&area=2) (Portal do Simples Nacional)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10694",
+      "nome": "Emitir DAS para pagamento de tributos do MEI"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10813",
+      "nome": "Emitir DARF para pagamento de tributos federais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10692",
+      "nome": "Emitir DAE para pagamento do empregador doméstico"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "27",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/autorizar-debito-automatico-de-impostos-federais",
+  "statusDestaque": false
+}

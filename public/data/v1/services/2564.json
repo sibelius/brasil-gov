@@ -1,0 +1,198 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2564",
+  "nome": "Cadastrar representante de organização da sociedade civil",
+  "sigla": "",
+  "descricao": "Cadastramento de representante de organização da sociedade civil no Mapa das Organizações da Sociedade Civil (OSC), portal de dados instituído pelo Ipea com os objetivos de: (i) dar transparência à atuação das OSC, principalmente ações executadas em parceria com a administração pública; (ii) informar mais e melhor sobre a importância e diversidade de projetos e atividades conduzidas por essas organizações; (iii) disponibilizar dados e fomentar pesquisas sobre OSC; (iv) apoiar os gestores públicos a tomarem decisões sobre políticas públicas que já têm ou possam ter interface com OSC.",
+  "flagPortalLogado": "N",
+  "contato": "mapaosc@ipea.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://mapaosc.ipea.gov.br/register",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 117769
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98723,
+        "tipo": "Pessoas jurídicas de direito privado sem fins lucrativos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/7",
+    "dbId": 34306,
+    "nomeOrgao": "Instituto de Pesquisa Econômica Aplicada (IPEA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 164634
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ong",
+        "id": 393450
+      },
+      {
+        "item": "oscip",
+        "id": 393451
+      },
+      {
+        "item": "ipea",
+        "id": 393452
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 138976
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 38,
+    "negativas": 14
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 230333,
+      "titulo": "Cadastrar informações",
+      "descricao": "Cadastrar informações de representante de organização da sociedade civil",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 303997,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 303998,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298029,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://mapaosc.ipea.gov.br/cadastro-representante.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 230334,
+      "titulo": "Obter confirmação do cadastramento",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298030,
+            "tipo": "e-mail",
+            "descricao": "E-mail informado no cadastro.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "73",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-representante-de-organizacao-da-sociedade-civil",
+  "statusDestaque": false
+}

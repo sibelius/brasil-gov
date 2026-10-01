@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23102",
+  "nome": "Revisão de Operações em Conta de Captação (Estorno)",
+  "sigla": "",
+  "descricao": "Operação financeira de devolução de recursos depositados indevidamente em contas administradas pela Ancine.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: atendimento.cpg@ancine.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://apps.ancine.gov.br/ords/r/ancine/painelapp/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 120287
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 100819,
+        "tipo": "Empresas proponentes dos projetos, em conjunto com a parte interessada que efetuou o depósito indevido.",
+        "requisitos": "Requisito: ser a empresa produtora responsável pelo projeto."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/57682",
+    "dbId": 916,
+    "nomeOrgao": "Agência Nacional do Cinema (ANCINE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 167969
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cultura e artes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Estorno",
+        "id": 401420
+      },
+      {
+        "item": "captação",
+        "id": 401421
+      },
+      {
+        "item": "depósito indevido",
+        "id": 401422
+      },
+      {
+        "item": "incentivo fiscal",
+        "id": 401423
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 143282
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 17
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança; e Ética.",
+  "etapas": [
+    {
+      "id": 235108,
+      "titulo": "Solicitar revisão de operações em conta de captação",
+      "descricao": "As solicitações deverão ser iniciadas exclusivamente pelo Cadastro Único de Projetos (CUP), e o redirecionamento para o Portal de Serviços (da ANCINE) no Gov.br será feito de forma automática.\n\n A Ancine analisará a conformidade da documentação enviada para comprovação dos depósitos indevidos e efetuará diligências para complementação em caso de necessidade. Após verificação da conformidade da solicitação e da documentação, a empresa solicitante será comunicada sobre o resultado da solicitação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 311008,
+            "nome": "a) Documento digitalizado, em papel timbrado, e assinado pelo responsável da proponente, mencionando:\n\n  * nome do projeto, SALIC\n * dados da(s) conta(s) em questão: banco, agência, conta corrente;\n * tipo de conta;\n * mecanismo;\n * data em que ocorreu o problema;\n * valor."
+          },
+          {
+            "id": 311009,
+            "nome": "b) Documento digitalizado, em papel timbrado, e assinado pelo representante legal da empresa que realizou o depósito indevido, como as mesmas informações do item \"a\"."
+          },
+          {
+            "id": 311010,
+            "nome": "c) Comprovante bancário (extrato bancário, comprovante de TED, PIX, depósito, etc)."
+          },
+          {
+            "id": 311011,
+            "nome": "d) Demais documentos comprobatórios que sejam relevantes para a resolução do problema (nota fiscal, contrato de patrocínio, boletim de subscrição, recibo de captação etc)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 303943,
+            "tipo": "web",
+            "descricao": "O serviço deve ser solicitado por meio do Cadastro Único de Projetos - CUP, acessível por meio do botão iniciar no topo desta página.\n\n Recomenda-se que os proponentes leiam o [Manual do Usuário CUP - Cadastro Único de Projetos](https://www.gov.br/ancine/pt-br/centrais-de-conteudo/publicacoes/manuais/ManualdousurioCUPV.1.pdf).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9506",
+      "nome": "Solicitar Liberação de Recursos após a primeira liberação"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11975",
+      "nome": "Solicitar a Aprovação para Execução – Projeto de Produção"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-estorno-de-depositos-indevidos",
+  "statusDestaque": false
+}

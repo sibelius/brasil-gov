@@ -1,0 +1,229 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13341",
+  "nome": "Solicitar cópia de prontuário na Unidade de Gestão e Processamento da Informação Assistencial",
+  "sigla": "",
+  "descricao": "O prontuário do paciente é o conjunto de todas as informações assistenciais necessária para a continuidade do atendimento do paciente na instituição. Neste documento o paciente encontra todo o histórico de atendimento, inclusive informações dasconsultas, exames e cirurgias. A cópia dessa documentação pode ser requerida a qualquer tempo pelo paciente.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas o paciente poderá contatar o Hupes através do telefone (71) 3646-3853 para obter maiores esclarecimentos sobre a retirada da cópia do prontuário.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Solicitação de cópia de prontuário",
+        "id": 90434
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 77297,
+        "tipo": "A cópia do prontuário pode ser solicitada pelo próprio paciente, portando documentos de identificação com foto, ou por terceiro que apresente documento de identificação com foto,  procuração do paciente com autorização específica para a entrega de documentos de seu prontuário, além de cópia de um documento de identificação do paciente.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201442",
+    "dbId": 32662,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Edgard Santos (EBSERH - UFBA/Salvad)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 125527
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Certificações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Prontuário",
+        "id": 304810
+      },
+      {
+        "item": "Cópia de exames",
+        "id": 304811
+      },
+      {
+        "item": "Cópia de relatórios",
+        "id": 304812
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 104212
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 126,
+    "negativas": 269
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 175345,
+      "titulo": "Solicitar senha para atendimento",
+      "descricao": "Senha para atendimento na Unidade de Gestão e Processamento da Informação Assistencial , no prédio do Ambulatório Magalhães Neto, localizado na Rua Padre Feijó, 240 - Canela, Salvador - BA.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 230265,
+            "tipo": "presencial",
+            "descricao": "Senha para atendimento na Unidade de Gestão e Processamento da Informação Assistencial , no prédio do Ambulatório Magalhães Neto, localizado na Rua Padre Feijó, 240 - Canela, Salvador - BA.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 175346,
+      "titulo": "Realizar solicitação de cópia de prontuário",
+      "descricao": "Ao ter a sua senha chamada no painel eletrônico, o paciente ou seu procurador legal deverá formalizar o pedido da cópia do prontuário preenchendo formulário de solicitação, momento no qual será orientado sobre o prazo de recebimento da documentação solicitada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 230266,
+            "tipo": "presencial",
+            "descricao": "Ao ter a sua senha chamada no painel eletrônico, o paciente ou seu procurador legal deverá formalizar o pedido da cópia do prontuário preenchendo formulário de solicitação, momento no qual será orientado sobre o prazo de recebimento da documentação solicitada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 175347,
+      "titulo": "Receber cópia do prontuário",
+      "descricao": "Após o prazo de 15 dias, o paciente ou o seu procurador legal deverá retornar na instituição para retirar o documento solicitado. É facultativo contatar o hospital através do telefone (71) 3646-3853 para confirmar a disponibilidade da cópia do prontuário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 230267,
+            "tipo": "presencial",
+            "descricao": "Após o prazo de 15 dias, o paciente ou o seu procurador legal deverá retornar na instituição para retirar o documento solicitado. É facultativo contatar o hospital através do telefone (71) 3646-3853 para confirmar a disponibilidade da cópia do prontuário.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "32",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-copia-de-prontuario-na-unidade-de-gestao-e-processamento-da-informacao-assistencia",
+  "statusDestaque": false
+}

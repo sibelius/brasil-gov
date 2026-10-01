@@ -1,0 +1,226 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23380",
+  "nome": "Visualizar vacinas aplicadas registradas no SUS",
+  "sigla": "",
+  "descricao": "Permite visualizar os registros das doses de vacinas aplicadas no SUS, a identificação do vacinador, as datas, os locais e as informações do lote utilizado.",
+  "flagPortalLogado": "N",
+  "contato": "Web Atendimento (canal oficial de suporte) \"\n\n https://webatendimento.saude.gov.br/faq/meususdigital",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meususdigital.saude.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122764
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102624,
+        "tipo": "Pessoa usuária do SUS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171507
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Vacina",
+        "id": 408492
+      },
+      {
+        "item": "Meu SUS digital",
+        "id": 408493
+      },
+      {
+        "item": "Visualisar Vacinas",
+        "id": 408494
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 147481
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 104,
+    "negativas": 187
+  },
+  "condicoesAcessibilidade": "O(a) usuário(a) do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança e\n * Ética.",
+  "etapas": [
+    {
+      "id": 239375,
+      "titulo": "Baixar o App Meu Sus Digital",
+      "descricao": "1. Baixe o App Meu SUS Digital no seu celular: https://play.google.com/store/apps/details?id=br.gov.datasus.cnsdigital&hl=pt\\_BR ou https://apps.apple.com/br/app/meu-sus-digital/id1045754608) ou acesse através do portal Meu SUS Digital: https://meususdigital.saude.gov.br/",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309018,
+            "tipo": "aplicativo-movel",
+            "descricao": "Meu SUS Digital.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239376,
+      "titulo": "Autenticar",
+      "descricao": "2. Autentique-se no App ou no portal Meu SUS Digital, utilizando o login único da plataforma \"gov.br\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309019,
+            "tipo": "aplicativo-movel",
+            "descricao": "Meu SUS Digital.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239377,
+      "titulo": "Consultar vacinas",
+      "descricao": "3. Identifique na tela \"Início\" a aba \"Minha Saúde\" e clique no botão \"Vacinas\" e acesse a aba \"Histórico de vacinas\" para visualizar as vacinas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309020,
+            "tipo": "aplicativo-movel",
+            "descricao": "Meu SUS Digital.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/visualizar-vacinas-aplicadas-registradas-no-sus",
+  "statusDestaque": false
+}
