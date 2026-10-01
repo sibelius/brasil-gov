@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { CACHE_TTL, createJsonLoader } from '../src/lib/services/repository.ts'
+import { CACHE_TTL, createJsonLoader } from '../src/lib/json-cache.ts'
 
 function validate(value: unknown) {
   if (typeof value !== 'number') throw new Error('invalid')

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useReducer, useRef } from 'react'
+import { analyzeQuestion } from '../lib/retrieval/query.ts'
 import { createCatalogClient } from '../lib/services/catalog-client.ts'
 import { loadService } from '../lib/services/repository.ts'
 import type { ServiceSummary } from '../lib/services/model.ts'
@@ -10,46 +11,69 @@ export function useChat(initialQuery: string) {
   const serial = useRef(0)
   const generation = useRef(0)
 
-  const search = useCallback(async (query: string, id?: number, offset = 0) => {
-    const text = query.trim().slice(0, 300)
+  const search = useCallback(
+    async (query: string, id?: number, offset = 0, selectedServiceId?: string) => {
+      const text = query.trim().slice(0, 300)
 
-    if (!text) {
-      return
-    }
-
-    const request = ++serial.current
-    const turnId = id ?? request
-    const currentGeneration = generation.current
-
-    dispatch({ type: 'search', id: turnId, request, query: text, offset })
-
-    try {
-      if (!client.current?.available) {
-        client.current = createCatalogClient()
+      if (!text) {
+        return
       }
 
-      const result = await client.current.search(text, offset)
+      const scopeId = analyzeQuestion(text).topics.length ? undefined : selectedServiceId
+      const request = ++serial.current
+      const turnId = id ?? request
+      const currentGeneration = generation.current
 
-      if (currentGeneration === generation.current) {
-        dispatch({ type: 'results', id: turnId, request, result })
-      }
-    } catch (error) {
-      if (currentGeneration === generation.current) {
-        dispatch({
-          type: 'search-error',
-          id: turnId,
-          request,
-          error: error instanceof Error ? error.message : 'Não foi possível pesquisar.',
-        })
-      }
-    }
-  }, [])
+      dispatch({ type: 'search', id: turnId, request, query: text, offset, scopeId })
 
-  const open = useCallback(async (id: number, summary: ServiceSummary) => {
+      try {
+        if (!client.current?.available) {
+          client.current = createCatalogClient()
+        }
+
+        const result = await client.current.search(text, offset, scopeId)
+
+        if (currentGeneration === generation.current) {
+          dispatch({ type: 'results', id: turnId, request, result })
+        }
+      } catch (error) {
+        if (currentGeneration === generation.current) {
+          dispatch({
+            type: 'search-error',
+            id: turnId,
+            request,
+            error: error instanceof Error ? error.message : 'Não foi possível pesquisar.',
+          })
+        }
+      }
+    },
+    [],
+  )
+
+  const open = useCallback(async (id: number, summary: ServiceSummary, question: string) => {
     const request = ++serial.current
     const currentGeneration = generation.current
 
     dispatch({ type: 'open', id, summary, request })
+
+    void Promise.resolve()
+      .then(() => {
+        if (!client.current?.available) {
+          client.current = createCatalogClient()
+        }
+
+        return client.current.retrieveContext({ question, selectedServiceId: summary.id })
+      })
+      .then((context) => {
+        if (currentGeneration === generation.current) {
+          dispatch({ type: 'context', id, request, context })
+        }
+      })
+      .catch(() => {
+        if (currentGeneration === generation.current) {
+          dispatch({ type: 'context-error', id, request })
+        }
+      })
 
     try {
       const service = await loadService(summary.id)

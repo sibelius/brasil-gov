@@ -13,6 +13,7 @@ export default function ChatPage() {
   const { state, dispatch, search, open, close, reset } = useChat(initialQuery)
   const latestTurn = useRef<HTMLDivElement>(null)
   const lastId = state.turns.at(-1)?.id
+  const selectedServiceId = state.turns.findLast((turn) => turn.detail)?.detail?.summary.id
 
   useEffect(() => {
     latestTurn.current?.scrollIntoView({ block: 'start', behavior: 'instant' })
@@ -20,7 +21,7 @@ export default function ChatPage() {
 
   function submit(event: FormEvent) {
     event.preventDefault()
-    void search(state.draft)
+    void search(state.draft, undefined, 0, selectedServiceId)
   }
 
   return (
@@ -70,7 +71,7 @@ export default function ChatPage() {
           onKeyDown={(event) => {
             if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) {
               event.preventDefault()
-              void search(state.draft)
+              void search(state.draft, undefined, 0, selectedServiceId)
             }
           }}
         />

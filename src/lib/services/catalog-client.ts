@@ -1,20 +1,21 @@
-import type { SearchResult } from './catalog-search.ts'
+import type { RetrievedContext, RetrievalRequest } from '../retrieval/types.ts'
+import type { CatalogCommand, SearchResult } from './catalog-types.ts'
 
-type PendingSearch = {
-  resolve: (result: SearchResult) => void
+type PendingRequest = {
+  resolve: (result: unknown) => void
   reject: (error: Error) => void
   timer: ReturnType<typeof setTimeout>
 }
 
 type WorkerResponse = {
   id: number
-  result: SearchResult
+  result: unknown
   error?: string
 }
 
 export function createCatalogClient() {
   const worker = new Worker(new URL('./catalog-worker.ts', import.meta.url), { type: 'module' })
-  const pending = new Map<number, PendingSearch>()
+  const pending = new Map<number, PendingRequest>()
   let nextId = 0
   let failed = false
 
@@ -30,22 +31,20 @@ export function createCatalogClient() {
     pending.clear()
   }
 
-  function search(query: string, offset = 0): Promise<SearchResult> {
+  function send<T>(command: CatalogCommand): Promise<T> {
     if (failed) {
-      return Promise.reject(
-        new Error('A busca foi interrompida. Recarregue a página para tentar novamente.'),
-      )
+      return Promise.reject(new Error('A busca foi interrompida. Tente novamente.'))
     }
 
     return new Promise((resolve, reject) => {
       const id = ++nextId
       const timer = setTimeout(() => {
         pending.delete(id)
-        reject(new Error('O catálogo demorou para responder. Tente novamente.'))
-      }, 30_000)
+        reject(new Error('A consulta demorou para responder. Tente novamente.'))
+      }, 60_000)
 
-      pending.set(id, { resolve, reject, timer })
-      worker.postMessage({ id, query, offset })
+      pending.set(id, { resolve: (result) => resolve(result as T), reject, timer })
+      worker.postMessage({ ...command, id })
     })
   }
 
@@ -69,7 +68,12 @@ export function createCatalogClient() {
   }
 
   return {
-    search,
+    search(query: string, offset = 0, selectedServiceId?: string) {
+      return send<SearchResult>({ type: 'search', query, offset, selectedServiceId })
+    },
+    retrieveContext(request: RetrievalRequest) {
+      return send<RetrievedContext>({ type: 'retrieve', request })
+    },
     dispose: stop,
     get available() {
       return !failed

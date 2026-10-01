@@ -1,5 +1,5 @@
 import { lazy, memo, Suspense } from 'react'
-import { PAGE_SIZE } from '../../lib/services/catalog-search'
+import { PAGE_SIZE } from '../../lib/services/catalog-types'
 import type { ServiceSummary } from '../../lib/services/model'
 import type { Turn } from '../../reducers/chat-reducer'
 import { ArrowRight } from 'lucide-react'
@@ -13,8 +13,8 @@ export const SearchTurn = memo(function SearchTurn({
   close,
 }: {
   turn: Turn
-  search: (query: string, id?: number, offset?: number) => void
-  open: (id: number, summary: ServiceSummary) => void
+  search: (query: string, id?: number, offset?: number, scopeId?: string) => void
+  open: (id: number, summary: ServiceSummary, question: string) => void
   close: (id: number) => void
 }) {
   const detail = turn.detail
@@ -30,7 +30,10 @@ export const SearchTurn = memo(function SearchTurn({
       {turn.status === 'error' && (
         <div className="search-status" role="alert">
           <p>{turn.error}</p>
-          <button className="retry-button" onClick={() => search(turn.query, turn.id, turn.offset)}>
+          <button
+            className="retry-button"
+            onClick={() => search(turn.query, turn.id, turn.offset, turn.scopeId)}
+          >
             Tentar novamente
           </button>
         </div>
@@ -38,9 +41,13 @@ export const SearchTurn = memo(function SearchTurn({
       {turn.status === 'ready' && (
         <>
           <p className="search-status" role="status">
-            {turn.total
-              ? `${turn.total.toLocaleString('pt-BR')} serviço(s) encontrado(s). Escolha um para consultar as etapas.`
-              : 'Nenhum serviço encontrado. Tente o nome do serviço ou do órgão, como “passaporte” ou “INSS”.'}
+            {turn.context?.status === 'needs_clarification'
+              ? turn.context.reason === 'missing_service'
+                ? 'Sobre qual serviço você quer saber? Informe o nome do serviço ou escolha um resultado anterior.'
+                : 'Há mais de um serviço possível. Escolha abaixo qual você quer consultar.'
+              : turn.total
+                ? `${turn.total.toLocaleString('pt-BR')} serviço(s) encontrado(s). Escolha um para consultar as etapas.`
+                : 'Nenhum serviço encontrado. Tente o nome do serviço ou do órgão, como “passaporte” ou “INSS”.'}
           </p>
           <ul className="service-results">
             {turn.items.map((service) => (
@@ -48,7 +55,9 @@ export const SearchTurn = memo(function SearchTurn({
                 <button
                   className={`service-result ${detail?.summary.id === service.id ? 'selected' : ''}`}
                   onClick={() =>
-                    detail?.summary.id === service.id ? close(turn.id) : open(turn.id, service)
+                    detail?.summary.id === service.id
+                      ? close(turn.id)
+                      : open(turn.id, service, turn.query)
                   }
                   aria-expanded={detail?.summary.id === service.id}
                   aria-controls={`detail-${turn.id}`}
@@ -66,7 +75,7 @@ export const SearchTurn = memo(function SearchTurn({
             <nav className="result-pages" aria-label={`Páginas de resultados para ${turn.query}`}>
               <button
                 disabled={turn.offset === 0}
-                onClick={() => search(turn.query, turn.id, turn.offset - PAGE_SIZE)}
+                onClick={() => search(turn.query, turn.id, turn.offset - PAGE_SIZE, turn.scopeId)}
               >
                 Anterior
               </button>
@@ -75,13 +84,24 @@ export const SearchTurn = memo(function SearchTurn({
               </span>
               <button
                 disabled={turn.offset + PAGE_SIZE >= turn.total}
-                onClick={() => search(turn.query, turn.id, turn.offset + PAGE_SIZE)}
+                onClick={() => search(turn.query, turn.id, turn.offset + PAGE_SIZE, turn.scopeId)}
               >
                 Próxima
               </button>
             </nav>
           )}
         </>
+      )}
+      {turn.contextError && detail && (
+        <div className="search-status" role="alert">
+          <p>Não foi possível consultar os trechos relacionados à pergunta.</p>
+          <button
+            className="retry-button"
+            onClick={() => open(turn.id, detail.summary, turn.query)}
+          >
+            Tentar novamente
+          </button>
+        </div>
       )}
       <div id={`detail-${turn.id}`}>
         {detail?.status === 'loading' && (
@@ -92,7 +112,10 @@ export const SearchTurn = memo(function SearchTurn({
         {detail?.status === 'error' && (
           <div className="search-status" role="alert">
             <p>{detail.error}</p>
-            <button className="retry-button" onClick={() => open(turn.id, detail.summary)}>
+            <button
+              className="retry-button"
+              onClick={() => open(turn.id, detail.summary, turn.query)}
+            >
               Tentar novamente
             </button>
             <a href={detail.summary.url} target="_blank" rel="noopener noreferrer">

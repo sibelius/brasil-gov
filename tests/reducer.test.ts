@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import { chatReducer, HISTORY_LIMIT, INITIAL_STATE } from '../src/reducers/chat-reducer.ts'
 import type { Service } from '../src/lib/services/model.ts'
+import type { RetrievedContext } from '../src/lib/retrieval/types.ts'
 
 const summary = {
   id: '62',
@@ -10,6 +11,47 @@ const summary = {
   url: 'https://www.gov.br/passaporte',
 }
 const result = { items: [summary], total: 1, catalogSize: 5729 }
+
+test('context follows the current selection and ignores late responses after close or reset', () => {
+  const context: RetrievedContext = {
+    status: 'needs_clarification',
+    reason: 'ambiguous',
+    question: 'passaporte',
+    revision: 'test',
+    services: [summary],
+    passages: [],
+    context: '',
+    characters: 0,
+    omittedPassages: 0,
+    missingSections: [],
+  }
+  let state = chatReducer(INITIAL_STATE, {
+    type: 'search',
+    id: 1,
+    request: 1,
+    query: 'passaporte',
+    offset: 0,
+  })
+
+  state = chatReducer(state, { type: 'results', id: 1, request: 1, result: { ...result, context } })
+  assert.equal(state.turns[0].context, context)
+  state = chatReducer(state, { type: 'open', id: 1, request: 2, summary })
+  assert.equal(state.turns[0].context, undefined)
+  state = chatReducer(state, { type: 'open', id: 1, request: 3, summary })
+  state = chatReducer(state, { type: 'context', id: 1, request: 2, context })
+  assert.equal(state.turns[0].context, undefined)
+  state = chatReducer(state, { type: 'context-error', id: 1, request: 3 })
+  assert.equal(state.turns[0].contextError, true)
+  state = chatReducer(state, { type: 'context', id: 1, request: 3, context })
+  assert.equal(state.turns[0].context, context)
+  assert.equal(state.turns[0].contextError, false)
+  state = chatReducer(state, { type: 'close', id: 1 })
+  state = chatReducer(state, { type: 'context-error', id: 1, request: 3 })
+  assert.equal(state.turns[0].contextError, false)
+  state = chatReducer(state, { type: 'reset' })
+  state = chatReducer(state, { type: 'context', id: 1, request: 3, context })
+  assert.deepEqual(state, INITIAL_STATE)
+})
 
 test('ignores late search results after retry and reset', () => {
   let state = chatReducer(INITIAL_STATE, {

@@ -1,4 +1,5 @@
-import type { SearchResult } from '../lib/services/catalog-search.ts'
+import type { RetrievedContext } from '../lib/retrieval/types.ts'
+import type { SearchResult } from '../lib/services/catalog-types.ts'
 import type { Service, ServiceSummary } from '../lib/services/model.ts'
 
 export type Detail =
@@ -16,6 +17,9 @@ export type Turn = {
   offset: number
   error?: string
   detail?: Detail
+  scopeId?: string
+  context?: RetrievedContext
+  contextError?: boolean
 }
 
 export type ChatState = { draft: string; turns: Turn[] }
@@ -23,12 +27,14 @@ export type ChatState = { draft: string; turns: Turn[] }
 export type ChatAction =
   | { type: 'draft'; value: string }
   | { type: 'reset' }
-  | { type: 'search'; id: number; request: number; query: string; offset: number }
+  | { type: 'search'; id: number; request: number; query: string; offset: number; scopeId?: string }
   | { type: 'results'; id: number; request: number; result: SearchResult }
   | { type: 'search-error'; id: number; request: number; error: string }
   | { type: 'open'; id: number; request: number; summary: ServiceSummary }
   | { type: 'service'; id: number; request: number; service: Service }
   | { type: 'service-error'; id: number; request: number; error: string }
+  | { type: 'context'; id: number; request: number; context: RetrievedContext }
+  | { type: 'context-error'; id: number; request: number }
   | { type: 'close'; id: number }
 
 export const INITIAL_STATE: ChatState = { draft: '', turns: [] }
@@ -48,6 +54,7 @@ export function chatReducer(state: ChatState, action: ChatAction): ChatState {
       id: action.id,
       request: action.request,
       query: action.query,
+      scopeId: action.scopeId,
       offset: action.offset,
       status: 'loading',
       items: [],
@@ -73,7 +80,13 @@ export function chatReducer(state: ChatState, action: ChatAction): ChatState {
       switch (action.type) {
         case 'results':
           return turn.request === action.request
-            ? { ...turn, status: 'ready', items: action.result.items, total: action.result.total }
+            ? {
+                ...turn,
+                status: 'ready',
+                items: action.result.items,
+                total: action.result.total,
+                context: action.result.context,
+              }
             : turn
         case 'search-error':
           return turn.request === action.request
@@ -83,7 +96,15 @@ export function chatReducer(state: ChatState, action: ChatAction): ChatState {
           return {
             ...turn,
             detail: { status: 'loading', summary: action.summary, request: action.request },
+            context: undefined,
+            contextError: false,
           }
+        case 'context':
+          return turn.detail?.request === action.request
+            ? { ...turn, context: action.context, contextError: false }
+            : turn
+        case 'context-error':
+          return turn.detail?.request === action.request ? { ...turn, contextError: true } : turn
         case 'close':
           return { ...turn, detail: undefined }
         case 'service':

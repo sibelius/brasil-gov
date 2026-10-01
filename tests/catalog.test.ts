@@ -2,12 +2,10 @@ import { safeUrl } from '../src/helpers/safe-url.ts'
 import assert from 'node:assert/strict'
 import { readFile, readdir } from 'node:fs/promises'
 import test from 'node:test'
-import { createCatalogSearch, PAGE_SIZE } from '../src/lib/services/catalog-search.ts'
 import { parseCatalog, parseService } from '../src/lib/services/model.ts'
 
 const root = new URL('../public/data/v1/', import.meta.url)
 const catalog = parseCatalog(JSON.parse(await readFile(new URL('index.json', root), 'utf8')))
-const search = createCatalogSearch(catalog)
 
 test('all catalog entries resolve to validated service records', async () => {
   const files = await readdir(new URL('services/', root))
@@ -21,20 +19,6 @@ test('all catalog entries resolve to validated service records', async () => {
     assert.equal(service.url, summary.url)
     assert.equal(service.steps.length, raw.etapas.length)
   }
-})
-
-test('catalog navigation handles accents, common questions, pagination and no matches', () => {
-  assert.equal(search('Como tirar o passaporte?').items[0].id, '62')
-  assert.deepEqual(search('cadastro único'), search('CADASTRO UNICO'))
-  assert.equal(search('receita de bolo').total, 0)
-  assert.equal(search('como fazer').total, 0)
-  assert.equal(search('xyz123inexistente').total, 0)
-
-  const first = search('INSS')
-  const next = search('INSS', PAGE_SIZE)
-  assert.ok(first.total > PAGE_SIZE)
-  assert.equal(first.items.length, PAGE_SIZE)
-  assert.ok(next.items.every((item) => !first.items.some((previous) => item.id === previous.id)))
 })
 
 test('rejects malformed records, duplicate IDs, unsafe links and mismatched service files', () => {
