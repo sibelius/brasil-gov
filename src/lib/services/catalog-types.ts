@@ -3,6 +3,11 @@ import type { ServiceSummary } from './model.ts'
 
 export const PAGE_SIZE = 8
 
+export type SuggestionPage = {
+  items: ServiceSummary[]
+  total: number
+}
+
 export type SearchResult = {
   items: ServiceSummary[]
   total: number
@@ -11,6 +16,8 @@ export type SearchResult = {
 }
 
 export type CatalogCommand =
+  | { type: 'suggest'; query: string; offset: number }
+  | { type: 'related'; query: string; serviceId: string }
   | { type: 'search'; query: string; offset: number; selectedServiceId?: string }
   | { type: 'retrieve'; request: RetrievalRequest }
 

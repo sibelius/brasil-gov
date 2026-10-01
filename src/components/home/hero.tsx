@@ -3,6 +3,9 @@ import { Header } from '../layout/site-header'
 import { InputAccessories } from '../input-accessories'
 import { ArrowRight, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react'
 import { navigate } from '../../routes/navigation'
+import { useServiceSuggestions } from '../../hooks/use-service-suggestions'
+import { ServiceSuggestions } from '../services/service-suggestions'
+import type { ServiceSummary } from '../../lib/services/model'
 
 const SLIDES = [
   { key: 'lencois', caption: 'Lençóis Maranhenses, MA', q: 'Como tirar o passaporte?' },
@@ -20,6 +23,8 @@ export function Hero() {
   const [i, setI] = useState(0)
   const [playing, setPlaying] = useState(true)
   const [value, setValue] = useState('')
+  const suggestions = useServiceSuggestions()
+
   useEffect(() => {
     if (!playing) return
     const t = setInterval(() => setI((x) => (x + 1) % SLIDES.length), 5000)
@@ -28,7 +33,16 @@ export function Hero() {
 
   const submit = (e: FormEvent) => {
     e.preventDefault()
+    suggestions.dismiss()
     ask(value.trim() || SLIDES[i].q)
+  }
+
+  function selectSuggestion(service: ServiceSummary) {
+    suggestions.dismiss()
+    setValue(service.name)
+    navigate(
+      `/chat?service=${encodeURIComponent(service.id)}&q=${encodeURIComponent(service.name)}`,
+    )
   }
 
   const tries = SLIDES.map((s) => `Experimente “${s.q}”`)
@@ -54,10 +68,16 @@ export function Hero() {
           <form className="hero-search" onSubmit={submit}>
             <div className="hero-input">
               <input
+                {...suggestions.inputProps}
                 value={value}
-                onChange={(e) => setValue(e.target.value)}
+                onChange={(event) => {
+                  setValue(event.target.value)
+                  suggestions.update(event.target.value)
+                }}
+                onFocus={() => suggestions.update(value)}
+                onKeyDown={(event) => suggestions.keyDown(event, selectSuggestion)}
                 aria-label="Faça uma pergunta"
-                autoComplete="off"
+                maxLength={300}
               />
               {!value && (
                 <div className="marquee" aria-hidden>
@@ -69,6 +89,15 @@ export function Hero() {
                 </div>
               )}
             </div>
+            <ServiceSuggestions
+              state={suggestions.state}
+              id={suggestions.listId}
+              placement="home"
+              select={selectSuggestion}
+              activate={suggestions.activate}
+              input={suggestions.input}
+              loadMore={suggestions.loadMore}
+            />
             <div className="hero-actions">
               <InputAccessories />
               <button type="submit" className={`send ${value ? 'ready' : ''}`} aria-label="Enviar">

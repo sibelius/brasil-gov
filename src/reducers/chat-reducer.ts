@@ -18,6 +18,8 @@ export type Turn = {
   error?: string
   detail?: Detail
   scopeId?: string
+  serviceId?: string
+  related?: ServiceSummary[]
   context?: RetrievedContext
   contextError?: boolean
 }
@@ -28,6 +30,8 @@ export type ChatAction =
   | { type: 'draft'; value: string }
   | { type: 'reset' }
   | { type: 'search'; id: number; request: number; query: string; offset: number; scopeId?: string }
+  | { type: 'select'; id: number; request: number; query: string; serviceId: string }
+  | { type: 'related'; id: number; request: number; items: ServiceSummary[] }
   | { type: 'results'; id: number; request: number; result: SearchResult }
   | { type: 'search-error'; id: number; request: number; error: string }
   | { type: 'open'; id: number; request: number; summary: ServiceSummary }
@@ -49,13 +53,14 @@ export function chatReducer(state: ChatState, action: ChatAction): ChatState {
     return INITIAL_STATE
   }
 
-  if (action.type === 'search') {
+  if (action.type === 'search' || action.type === 'select') {
     const turn: Turn = {
       id: action.id,
       request: action.request,
       query: action.query,
-      scopeId: action.scopeId,
-      offset: action.offset,
+      scopeId: action.type === 'search' ? action.scopeId : undefined,
+      serviceId: action.type === 'select' ? action.serviceId : undefined,
+      offset: action.type === 'search' ? action.offset : 0,
       status: 'loading',
       items: [],
       total: 0,
@@ -95,10 +100,14 @@ export function chatReducer(state: ChatState, action: ChatAction): ChatState {
         case 'open':
           return {
             ...turn,
+            status: 'ready',
             detail: { status: 'loading', summary: action.summary, request: action.request },
+            related: undefined,
             context: undefined,
             contextError: false,
           }
+        case 'related':
+          return turn.detail?.request === action.request ? { ...turn, related: action.items } : turn
         case 'context':
           return turn.detail?.request === action.request
             ? { ...turn, context: action.context, contextError: false }

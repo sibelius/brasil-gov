@@ -27,9 +27,9 @@ Deploy with `vercel deploy --prod`.
 
 ## How the chat works
 
-1. Enter a service or agency name, or choose an example. The home page forwards the query to the chat.
+1. Enter a service or agency name, or choose an example. Both the home page and chat show floating suggestions after two characters, with a 180 ms debounce. The list loads ten services at a time as you scroll, without moving the input. Suggestions match word prefixes, accents, and catalog aliases. Use the arrow keys and Enter to select, or Escape to dismiss. Selecting a suggestion opens that exact service by ID; submitting without selecting searches your original query.
 2. A Web Worker loads the generated search index on the first search. It ranks service names, aliases, keywords, agencies, and passage text, ignoring accents and common question words. Results are paginated in groups of eight.
-3. The worker retrieves relevant passages for the question. Ambiguous searches ask the user to choose a service; selecting a result updates the context and loads the full service details.
+3. The worker retrieves relevant passages for the question. Ambiguous searches ask the user to choose a service; selecting a result updates the context and shows its full details. Up to three related services appear below the details when matches are available.
 4. Follow-up questions such as “E quanto custa?” use the most recent expanded service. A question naming another service starts a new search.
 
 The chat presents source records and prepares context for a future model. It does not generate AI answers yet. Consult the official page for current requirements, fees, and deadlines.
@@ -64,6 +64,7 @@ Question fixtures in `tests/fixtures/retrieval-questions.json` check service sel
 
 - One chat reducer handles input, searches, pagination, selected services, loading, errors, and reset. Request IDs prevent late responses from replacing newer results. Async work starts in event handlers; effects handle session lifecycle and scrolling.
 - The search index stays in a worker, outside the React render path. The worker sends the current result page and bounded context to the reducer. Service details and the Markdown renderer load on demand; the full dataset is never bundled or downloaded at once.
+- Autocomplete uses the same catalog worker as chat searches and caches its latest 40 queries. It reads only the index and does not fetch service records or passages while typing. New input, dismissal, and navigation invalidate pending suggestions; the home page creates its worker only when a query is eligible.
 - Concurrent requests share a promise. Service records use a 32-entry memory LRU and up to 81 Cache Storage entries. Retrieval uses a separate revision namespace, eight memory entries, and up to 49 persistent entries, including the index. Both loaders use a 24-hour TTL and a 20-second network timeout. Cache failures fall back to network and memory; failed or invalid responses are not stored.
 - The worker caches 24 context results by question, selected service, and budget. Passage downloads run in batches of at most three per retrieval. The generated content revision prevents mixing artifacts from different dataset exports; mismatched files are rejected.
 - The conversation keeps the latest 12 searches in memory, with eight results and at most one expanded service per search. It is not persisted. Reset and navigation dispose the worker; already fetched public data can remain cached.

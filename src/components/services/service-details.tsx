@@ -1,115 +1,121 @@
-import rehypeRaw from 'rehype-raw'
-import rehypeSanitize from 'rehype-sanitize'
-import { safeUrl } from '../../helpers/safe-url'
-import Markdown from 'react-markdown'
-import type { Components } from 'react-markdown'
+import { useEffect, useRef, type ReactNode } from 'react'
+import { ArrowUpRight, Clock3, Wallet } from 'lucide-react'
 import { DATASET, type Service } from '../../lib/services/model.ts'
+import { scrollToChatContent } from '../../helpers/scroll-to-chat-content'
+import { ServiceContent as Content } from './service-content'
 
-const MARKDOWN_COMPONENTS: Components = {
-  a: ({ href, children }) =>
-    safeUrl(href) ? (
-      <a href={safeUrl(href)} target="_blank" rel="noopener noreferrer">
-        {children}
-      </a>
-    ) : (
-      <span>{children}</span>
-    ),
-  img: ({ alt }) => <span>{alt}</span>,
-  h1: ({ children }) => <h4>{children}</h4>,
-  h2: ({ children }) => <h4>{children}</h4>,
-  h3: ({ children }) => <h4>{children}</h4>,
-}
+export default function ServiceDetails({
+  service,
+  children,
+}: {
+  service: Service
+  children?: ReactNode
+}) {
+  const headingRef = useRef<HTMLHeadingElement>(null)
 
-function Content({ text }: { text: string }) {
-  if (!text) return null
+  useEffect(() => {
+    scrollToChatContent(headingRef.current?.closest('article') ?? null)
+  }, [service.id])
 
-  return (
-    <Markdown
-      rehypePlugins={[rehypeRaw, rehypeSanitize]}
-      components={MARKDOWN_COMPONENTS}
-      urlTransform={safeUrl}
-    >
-      {text}
-    </Markdown>
-  )
-}
-
-function focusHeading(node: HTMLHeadingElement | null) {
-  node?.focus({ preventScroll: true })
-}
-
-export default function ServiceDetails({ service }: { service: Service }) {
   return (
     <article className="service-detail" aria-label={service.name}>
-      <p className="service-agency">{service.agency}</p>
-      <h2 tabIndex={-1} ref={focusHeading}>
-        {service.name}
-      </h2>
+      <header className="service-detail-header">
+        <p className="service-eyebrow">Serviço selecionado</p>
+        <h2 ref={headingRef}>{service.name}</h2>
+        <p className="service-agency">{service.agency}</p>
+      </header>
       <div className="service-links">
-        <a href={service.url} target="_blank" rel="noopener noreferrer">
-          Ver serviço no gov.br ↗
-        </a>
         {service.digitalUrl && (
           <a href={service.digitalUrl} target="_blank" rel="noopener noreferrer">
-            Acessar serviço ↗
+            Acessar serviço <ArrowUpRight size={13} aria-hidden="true" />
           </a>
         )}
+        <a href={service.url} target="_blank" rel="noopener noreferrer">
+          Ver no gov.br <ArrowUpRight size={13} aria-hidden="true" />
+        </a>
       </div>
-      <p className="dataset-note">
-        Catálogo coletado em {DATASET.collected}. Confirme requisitos, valores e prazos na página
-        oficial.
-      </p>
-      <Content text={service.description || 'Descrição não informada no catálogo.'} />
       <dl className="service-facts">
         <div>
-          <dt>Custo</dt>
+          <dt>
+            <Wallet size={16} aria-hidden="true" /> Custo
+          </dt>
           <dd>{service.cost}</dd>
         </div>
         <div>
-          <dt>Prazo estimado</dt>
+          <dt>
+            <Clock3 size={16} aria-hidden="true" /> Prazo estimado
+          </dt>
           <dd>
             <Content text={service.duration || 'Não informado no catálogo.'} />
           </dd>
         </div>
       </dl>
+      <section className="service-block">
+        <h3>Sobre este serviço</h3>
+        <div className="service-block-body">
+          <Content text={service.description || 'Descrição não informada no catálogo.'} />
+        </div>
+      </section>
       {service.applicants.length > 0 && (
-        <details className="service-section">
-          <summary>Quem pode utilizar e requisitos</summary>
-          {service.applicants.map((applicant, index) => (
-            <div key={index}>
-              <Content text={applicant.title} />
-              {applicant.entries.map((entry, i) => (
-                <Content key={i} text={entry} />
-              ))}
-            </div>
-          ))}
-        </details>
+        <section className="service-block">
+          <h3>Quem pode utilizar e requisitos</h3>
+          <div className="service-block-body">
+            {service.applicants.map((applicant, index) => (
+              <div className="service-content-group" key={index}>
+                <div className="service-topic">
+                  <Content text={applicant.title} />
+                </div>
+                {applicant.entries.map((entry, i) => (
+                  <Content key={i} text={entry} />
+                ))}
+              </div>
+            ))}
+          </div>
+        </section>
       )}
-      <h3>Etapas para realizar o serviço</h3>
+      <div className="service-steps-heading">
+        <h3>Como realizar</h3>
+        {service.steps.length > 0 && (
+          <span>
+            {service.steps.length} {service.steps.length === 1 ? 'etapa' : 'etapas'}
+          </span>
+        )}
+      </div>
       {service.steps.length ? (
         <ol className="service-steps">
           {service.steps.map((step, index) => (
             <li key={index}>
-              <details className="service-section" open={index === 0}>
-                <summary>
-                  {index + 1}. {step.title}
-                </summary>
-                <Content text={step.description || 'Descrição da etapa não informada.'} />
-                {step.duration && (
-                  <div>
-                    <h4>Tempo estimado</h4>
-                    <Content text={step.duration} />
-                  </div>
-                )}
-                {step.groups.map((group, i) => (
-                  <section key={i}>
-                    <h4>{group.title}</h4>
-                    {group.entries.map((entry, n) => (
-                      <Content key={n} text={entry} />
-                    ))}
-                  </section>
-                ))}
-              </details>
+              <section className="service-step">
+                <h4 className="step-title">
+                  <span className="step-number" aria-hidden="true">
+                    {index + 1}
+                  </span>
+                  <span>
+                    <span className="sr-only">Etapa {index + 1}: </span>
+                    {step.title}
+                  </span>
+                </h4>
+                <div className="service-block-body">
+                  <Content text={step.description || 'Descrição da etapa não informada.'} />
+                  {step.duration && (
+                    <div className="service-step-duration">
+                      <Clock3 size={13} aria-hidden="true" />
+                      <span>Prazo da etapa:</span>
+                      <Content text={step.duration} />
+                    </div>
+                  )}
+                  {step.groups.map((group, i) => (
+                    <section className="service-content-group" key={i}>
+                      <h4>{group.title}</h4>
+                      {group.entries.map((entry, n) => (
+                        <div className="service-entry" key={n}>
+                          <Content text={entry} />
+                        </div>
+                      ))}
+                    </section>
+                  ))}
+                </div>
+              </section>
             </li>
           ))}
         </ol>
@@ -117,11 +123,17 @@ export default function ServiceDetails({ service }: { service: Service }) {
         <p>Etapas não informadas no catálogo. Consulte a página oficial.</p>
       )}
       {service.contact && (
-        <details className="service-section">
-          <summary>Contato</summary>
-          <Content text={service.contact} />
-        </details>
+        <section className="service-contact">
+          <h3>Atendimento</h3>
+          <div className="service-block-body">
+            <Content text={service.contact} linkLabel="Consultar canais de atendimento" />
+          </div>
+        </section>
       )}
+      {children}
+      <p className="dataset-note">
+        Catálogo de {DATASET.collected}. Confirme requisitos, valores e prazos na página oficial.
+      </p>
     </article>
   )
 }

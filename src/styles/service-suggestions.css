@@ -1,0 +1,48 @@
+.service-suggestions {
+  list-style: none;
+  position: fixed;
+  z-index: 100;
+  margin: 0;
+  background: #fff;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  scrollbar-gutter: stable;
+}
+
+.suggestions-status {
+  padding: 10px 12px;
+  color: var(--ink-2);
+  font-size: 12px;
+}
+
+.service-suggestions button {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.service-suggestions button[aria-selected='true'],
+.service-suggestions button:hover {
+  background: #f1f3f6;
+}
+
+.service-suggestions strong {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.service-suggestions small {
+  font-size: 12px;
+  color: var(--ink-2);
+  line-height: 1.4;
+}

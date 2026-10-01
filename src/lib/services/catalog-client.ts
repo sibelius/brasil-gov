@@ -1,5 +1,6 @@
 import type { RetrievedContext, RetrievalRequest } from '../retrieval/types.ts'
-import type { CatalogCommand, SearchResult } from './catalog-types.ts'
+import type { CatalogCommand, SearchResult, SuggestionPage } from './catalog-types.ts'
+import type { ServiceSummary } from './model.ts'
 
 type PendingRequest = {
   resolve: (result: unknown) => void
@@ -68,6 +69,12 @@ export function createCatalogClient() {
   }
 
   return {
+    related(query: string, serviceId: string) {
+      return send<ServiceSummary[]>({ type: 'related', query, serviceId })
+    },
+    suggest(query: string, offset = 0) {
+      return send<SuggestionPage>({ type: 'suggest', query, offset })
+    },
     search(query: string, offset = 0, selectedServiceId?: string) {
       return send<SearchResult>({ type: 'search', query, offset, selectedServiceId })
     },

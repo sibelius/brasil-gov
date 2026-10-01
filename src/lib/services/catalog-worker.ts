@@ -1,8 +1,13 @@
 import { createRetriever } from '../retrieval/engine.ts'
 import { loadPassages, loadRetrievalIndex } from '../retrieval/repository.ts'
 import { PAGE_SIZE, type CatalogRequest, type SearchResult } from './catalog-types.ts'
+import { createCatalogSuggester } from './catalog-suggestions.ts'
 
-let retriever: Promise<ReturnType<typeof createRetriever>> | undefined
+let retriever:
+  | Promise<
+      ReturnType<typeof createRetriever> & { suggest: ReturnType<typeof createCatalogSuggester> }
+    >
+  | undefined
 let catalogSize = 0
 
 function prepareRetriever() {
@@ -10,7 +15,7 @@ function prepareRetriever() {
     .then((index) => {
       catalogSize = index.documents.length
 
-      return createRetriever({ index, loadPassages })
+      return { ...createRetriever({ index, loadPassages }), suggest: createCatalogSuggester(index) }
     })
     .catch((error: unknown) => {
       retriever = undefined
@@ -26,6 +31,24 @@ self.onmessage = async (event: MessageEvent<CatalogRequest>) => {
 
   try {
     const engine = await prepareRetriever()
+
+    if (command.type === 'related') {
+      const result = engine
+        .rankServices(command.query)
+        .filter((candidate) => candidate.service.id !== command.serviceId)
+        .slice(0, 3)
+        .map((candidate) => candidate.service)
+
+      self.postMessage({ id: command.id, result })
+
+      return
+    }
+
+    if (command.type === 'suggest') {
+      self.postMessage({ id: command.id, result: engine.suggest(command.query, command.offset) })
+
+      return
+    }
 
     if (command.type === 'retrieve') {
       const result = await engine.retrieveContext(command.request)
