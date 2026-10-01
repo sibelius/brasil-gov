@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { navigate } from '../../routes/navigation'
 import { loadPhotoCredits, type PhotoCredit } from '../../lib/photo-credits'
+import { REPOSITORY_URL } from '../../lib/project'
 
 type CreditsState =
   { status: 'idle' | 'loading' | 'error' } | { status: 'ready'; items: PhotoCredit[] }
@@ -26,6 +27,7 @@ export function Footer() {
     ['Fontes', '#fontes'],
     ['Em breve', '#em-breve'],
     ['Fazer uma pergunta', '/chat'],
+    ['Conserte o Brasil', REPOSITORY_URL],
   ]
 
   return (
@@ -35,6 +37,8 @@ export function Footer() {
           <a
             key={l}
             href={h}
+            target={h.startsWith('https://') ? '_blank' : undefined}
+            rel={h.startsWith('https://') ? 'noopener noreferrer' : undefined}
             onClick={(e) => {
               if (h.startsWith('/')) {
                 e.preventDefault()

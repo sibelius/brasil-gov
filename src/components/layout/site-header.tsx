@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { navigate } from '../../routes/navigation'
+import { REPOSITORY_URL } from '../../lib/project'
+import { ContributeLink } from './contribute-link'
 import { Logo } from './site-logo'
 
 const MENU = [
@@ -27,12 +29,44 @@ export function Header({ light = false }: { light?: boolean }) {
     <>
       <header className={`header ${light ? 'header-light' : ''}`}>
         <Logo />
-        <button className="menu-btn" onClick={() => setOpen(true)}>
-          Menu
-        </button>
+        <nav className="header-nav" aria-label="Navegação principal">
+          {MENU.slice(1).map((item) => (
+            <a
+              key={item.to}
+              href={item.to}
+              onClick={(event) => {
+                if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+                  return
+                }
+
+                event.preventDefault()
+                navigate(item.to)
+              }}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+        <div className="header-actions">
+          <ContributeLink />
+          <button
+            className="menu-btn"
+            onClick={() => setOpen(true)}
+            aria-expanded={open}
+            aria-controls="site-menu"
+          >
+            Menu
+          </button>
+        </div>
       </header>
       {open && (
-        <div className="menu-overlay" role="dialog" aria-modal>
+        <div
+          className="menu-overlay"
+          id="site-menu"
+          role="dialog"
+          aria-modal
+          aria-label="Menu principal"
+        >
           <div className="menu-top">
             <Logo onClick={() => setOpen(false)} />
             <button className="menu-btn" onClick={() => setOpen(false)}>
@@ -48,18 +82,21 @@ export function Header({ light = false }: { light?: boolean }) {
                 onClick={(e) => {
                   e.preventDefault()
                   setOpen(false)
-                  const [path, hash] = m.to.split('#')
-                  navigate(path || '/')
-                  if (hash)
-                    setTimeout(
-                      () => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }),
-                      60,
-                    )
+                  navigate(m.to)
                 }}
               >
                 {m.label}
               </a>
             ))}
+            <a
+              href={REPOSITORY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="menu-contribute"
+              style={{ animationDelay: `${MENU.length * 50}ms` }}
+            >
+              Conserte o Brasil ↗
+            </a>
           </nav>
         </div>
       )}

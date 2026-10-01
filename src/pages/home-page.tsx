@@ -3,6 +3,7 @@ import { OfficialBanner } from '../components/layout/official-banner'
 import { Footer } from '../components/layout/site-footer'
 import { Hero } from '../components/home/hero'
 import { Feature } from '../components/home/feature'
+import { Contribute } from '../components/home/contribute'
 import { AgencySeals, Collage, Devices, UpcomingCards } from '../components/home/visuals'
 import { Reveal } from '../components/reveal'
 import { LockKeyhole } from 'lucide-react'
@@ -90,6 +91,7 @@ export default function HomePage() {
           </Reveal>
           <UpcomingCards />
         </section>
+        <Contribute />
       </main>
       <Footer />
     </>
