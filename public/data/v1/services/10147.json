@@ -1,0 +1,315 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10147",
+  "nome": "Solicitar o Selo Turismo Responsável",
+  "sigla": "",
+  "descricao": "O Selo Turismo Responsável é um programa do Ministério do Turismo que estabelece boas práticas de higienização para cada segmento do setor. O selo é um incentivo para que os consumidores se sintam seguros ao viajar e frequentar locais que cumpram protocolos específicos para a prevenção da Covid-19, posicionando o Brasil como um destino protegido e responsável. Para ter acesso ao selo, as empresas e guias de turismo precisam estar devidamente inscritos no Cadastur (Cadastro de Prestadores de Serviços Turísticos). O objetivo é diminuir os impactos da pandemia e preparar o setor para um retorno gradual às atividades.",
+  "flagPortalLogado": "N",
+  "contato": "http://www.turismo.gov.br/seloresponsavel/contato.php",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.turismo.gov.br/seloresponsavel/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "selo; turismo responsável",
+        "id": 30621
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 30323,
+        "tipo": "Prestadores de Serviços Turísticos com situação regular no sistema Cadastur.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084",
+    "dbId": 37547,
+    "nomeOrgao": "Ministério do Turismo (MTur)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 48365
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Turísticos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Biossegurança",
+        "id": 108698
+      },
+      {
+        "item": "Selo",
+        "id": 108699
+      },
+      {
+        "item": "Seguro",
+        "id": 108700
+      },
+      {
+        "item": "Turismo",
+        "id": 108701
+      },
+      {
+        "item": "Higiene",
+        "id": 108702
+      },
+      {
+        "item": "",
+        "id": 108703
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 30910
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 49,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 63273,
+      "titulo": "Acessar o site",
+      "descricao": "Acesse <http://www.turismo.gov.br/seloresponsavel>  \n\n\n No menu lateral direito, acesse a opção “Faça sua Adesão”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81360,
+            "tipo": "web",
+            "descricao": "<http://www.turismo.gov.br/seloresponsavel/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63274,
+      "titulo": "Realizar o acesso ao sistema",
+      "descricao": "Faça seu login com as credenciais do sistema Cadastur. Caso não seja um prestador de serviço turístico cadastrado no Cadastur, acesse <https://cadastur.turismo.gov.br/> e faça seu cadastro. É simples e gratuito!",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 91511,
+            "nome": "[https://www.gov.br/pt-br/servicos/cadastrar-prestadora-de-servico-turistico](https://www.gov.br/cadastrar-prestadora-de-servico-turistico)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81361,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://seloresponsavel.turismo.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63275,
+      "titulo": "Realizar adesão",
+      "descricao": "Após acessar o sistema com sucesso, será mostrada a lista de prestadores de serviços turísticos com situação regular no Cadastur e vinculadas às credenciais de acesso ao sistema.\n\n Clique no ícone “Aderir ao Selo” em uma das linhas correspondentes ao prestador escolhido.\n\n Leia o Termo de Compromisso e, caso concorde, marque a opção “DECLARO que efetuei a leitura do presente Termo de Responsabilidade, certificando-me de haver entendido e aceitado as disposições descritas” e clique em “Aderir”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81362,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://seloresponsavel.turismo.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63276,
+      "titulo": "Emitir Selo",
+      "descricao": "Após adesão ao selo, a tabela ativará a opção de emissão do Selo.\n\n Na tabela de prestadores, clique no ícone “Aderir ao Selo” na linha correspondente ao prestador escolhido.\n\n Na tela de pop-up que se abrirá, clique em “Emitir”.\n\n Após a emissão, o sistema emitirá um arquivo PDF com a imagem do selo e um QR Code correspondente ao prestador específico.\n\n Pronto! O Selo foi emitido e está pronto para uso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81363,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://seloresponsavel.turismo.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63277,
+      "titulo": "Baixar Peças",
+      "descricao": "Para baixar as peças publicitárias do Selo, clique no ícone “Baixar Peças” na linha correspondente ao prestador escolhido.\n\n O sistema ativará o download de um arquivo compactado contendo diversas imagens para fins publicitários.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81364,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://seloresponsavel.turismo.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "84",
+  "url": "https://www.gov.br/pt-br/servicos/aderir-ao-selo-turismo-responsavel",
+  "statusDestaque": true
+}

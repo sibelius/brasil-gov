@@ -1,0 +1,240 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23808",
+  "nome": "Autorizar estabelecimentos e equipes de transplante.",
+  "sigla": "",
+  "descricao": "Este serviço permite ao gestor do SUS ou da saúde suplementar solicitar ao Ministério da Saúde a autorização de estabelecimentos de saúde e equipes especializadas para a realização de transplantes de órgãos sólidos, tecidos e medula óssea, no âmbito do Sistema Nacional de Transplantes (SNT).\n\n A autorização observa os critérios técnicos e normativos previstos no Regulamento Técnico do Sistema Nacional de Transplantes, constante da Portaria de Consolidação GM/MS nº 4/2017, e no Decreto nº 9.175/2018.",
+  "flagPortalLogado": "N",
+  "contato": "snt@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://saips.saude.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 114112
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96051,
+        "tipo": "*  Gestores do SUS (municipais ou estaduais).\n\n \n *  Gestores da saúde suplementar.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 159133
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 159134
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autorização de equipe de transplante",
+        "id": 381676
+      },
+      {
+        "item": "equipe de transplante",
+        "id": 381677
+      },
+      {
+        "item": "transplante",
+        "id": 381678
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 134819
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O(a) usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n     \n\n   Urbanidade; \n\n   Respeito; \n\n   Acessibilidade; \n\n   Cortesia; \n\n   Presunção da boa-fé do usuário; \n\n   Igualdade; \n\n   Eficiência; \n\n   Segurança e \n\n   Ética.",
+  "etapas": [
+    {
+      "id": 222632,
+      "titulo": "Registrar proposta de autorização",
+      "descricao": "Registrar a proposta de autorização do estabelecimento e das equipes especializadas no **Sistema de Apoio à Implementação de Políticas em Saúde (SAIPS)**, pelo gestor do SUS municipal ou estadual ao qual o estabelecimento está vinculado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 296069,
+            "nome": "Preenchimento e envio da proposta via SAIPS.  \nResolução da Comissão Intergestores Bipartite (CIB) aprovando a habilitação.  \nOfício do gestor estadual solicitando a habilitação com Cadastro Nacional de Estabelecimentos de Saúde (CNES).  \nAlvará de funcionamento e alvará da Vigilância Sanitária;  \nDeclaração assinada pelo gestor municipal ou estadual, dando ciência da habilitação."
+          },
+          {
+            "id": 296070,
+            "nome": "Relação contendo o nome de todos profissionais da equipe, especialidade, nº de registro no respectivo Conselho Profissional. \n\n Conforme a Portaria de Consolidação GM/MS nº 4/2017, Capítulo IV – Da autorização de equipes especializadas e de estabelecimentos de saúde, normas gerais para autorização e funcionamento de bancos de tecidos humanos."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 288634,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://saips.saude.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 222633,
+      "titulo": "Analisar proposta e documentação",
+      "descricao": "Analisar a proposta e a documentação apresentada conforme os critérios técnicos e normativos do Sistema Nacional de Transplantes.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 288635,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://saips.saude.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 222634,
+      "titulo": "Informar resultado",
+      "descricao": "Informar ao solicitante o deferimento da autorização ou a necessidade de ajustes na proposta apresentada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 288636,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://saips.saude.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/autorizar-estabelecimentos-e-equipes-de-transplante",
+  "statusDestaque": false
+}

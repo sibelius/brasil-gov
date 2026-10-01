@@ -1,0 +1,319 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12796",
+  "nome": "Cancelar Matrícula de Aeronaves Brasileiras por IDERA",
+  "sigla": "",
+  "descricao": "Tem como finalidade cancelar a matrícula da aeronave no Registro Aeronáutico Brasileiro para que a aeronave possa ser retirada do país o mais rápido possível em cumprimento à Convenção da Cidade do Cabo - convenção esta que o país é um dos signatários.\n\n O IDERA trata-se de um direito irrevogável inscrito na aeronave de se demandar o cancelamento de matrícula em favor do Credor internacional.\n\n Para mais informações, consulte a página do [Rab Digital](https://www.gov.br/anac/pt-br/sistemas/rab/rab-digital).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://santosdumont.anac.gov.br/menu/f?p=200104:3000:105381778753722:::::",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cancelamento de Matrícula por IDERA",
+        "id": 87355
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74904,
+        "tipo": "Credor internacional, ou representante legal destes, mediante procuração e em caso de gravame de IDERA - quando solicitando a Exportação fundamentada na Convenção da Cidade do Cabo.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121329
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121330
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 121331
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 121332
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 294571
+      },
+      {
+        "item": "Aeronave",
+        "id": 294572
+      },
+      {
+        "item": "Matrícula",
+        "id": 294573
+      },
+      {
+        "item": "Cancelamento",
+        "id": 294574
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução 293 da Anac](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013)",
+        "id": 100276
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 169387,
+      "titulo": "Solicitar o cancelamento da matrícula por IDERA",
+      "descricao": "O Solicitante, ao acessar o RAB Digital, será instruído a preencher os campos necessários e a anexar os documentos em cada \"slot\" recomendado.  \nAo acessar o serviço de Cancelamento de Matrícula, serão apresentadas 4 opções de motivos de Cancelamento e, entre elas, o Cancelamento por IDERA.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235517,
+            "nome": "Apresentação do IDERA já registrado para a aeronave"
+          }
+        ],
+        "casos": [
+          {
+            "id": 37461,
+            "descricao": "Se Solicitante for Representante Legal (procurador)",
+            "documento": [
+              {
+                "id": 235507,
+                "codigo": null,
+                "descricao": "Documento outorgando poderes específicos para a prática do ato objeto de registro",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235508,
+                "codigo": null,
+                "descricao": "No caso de procuração pública, deve-se apresentar o respectivo traslado. (Cópia simples)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235509,
+                "codigo": null,
+                "descricao": "Se a procuração for outorgada por empresa estrangeira, no Exterior, ela deverá conter visto consular ou apostilamento, além de ser traduzida por tradutor público juramentado. (Original ou Cópia autenticada)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37462,
+            "descricao": "Se propriedade ou operação de Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 235510,
+                "codigo": null,
+                "descricao": "Cópia simples do CNPJ",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235511,
+                "codigo": null,
+                "descricao": "Cópia simples dos Documentos constitutivos da sociedade",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235512,
+                "codigo": null,
+                "descricao": "Cópia simples do Instrumento de Nomeação dos Administradores devidamente registrado",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37463,
+            "descricao": "Se firma individual",
+            "documento": [
+              {
+                "id": 235513,
+                "codigo": null,
+                "descricao": "Registro de firma  no órgão competente",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37464,
+            "descricao": "Se empresa estrangeira",
+            "documento": [
+              {
+                "id": 235514,
+                "codigo": null,
+                "descricao": "Decreto de autorização de funcionamento. Os contratos celebrados no exterior devem ter firmas reconhecidas pela autoridade competente, com visto consular ou apostilamento",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37465,
+            "descricao": "Se cancelamento para Exportação",
+            "documento": [
+              {
+                "id": 235515,
+                "codigo": null,
+                "descricao": "Autorização da Receita Federal por se tratar de credor solicitando a exportação com fundamento na Convenção da Cidade do Cabo",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235516,
+                "codigo": null,
+                "descricao": "Cópia do Export Certificate of Airworthiness (EC of A) emitido pela ANAC para exportação",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222075,
+            "tipo": "web",
+            "descricao": "[Rab digital](https://santosdumont.anac.gov.br/menu/f?p=200104:3000:105381778753722:::::)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169388,
+      "titulo": "Receber comunicação do Cancelamento da Matrícula por IDERA",
+      "descricao": "A ANAC analisa a documentação e, julgando-a conforme, procede ao Cancelamento da Matrícula.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222076,
+            "tipo": "web",
+            "descricao": "O pedido poderá ser acompanhado pelo [sistema SEI](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0). Ao cadastrar a solicitação, o sistema Rab digital cria automaticamente um processo sei.\n\n A qualquer instante o usuário poderá, também, consultar no [Rab online](https://sistemas.anac.gov.br/aeronaves/cons_rab.asp) se a matrícula já está ou não cancelada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-matricula-de-aeronave-brasileira-por-idera",
+  "statusDestaque": false
+}

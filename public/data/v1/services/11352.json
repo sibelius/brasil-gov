@@ -1,0 +1,346 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11352",
+  "nome": "Solicitar agendamento de visita técnica de aposentados, pensionistas ou anistiados políticos civis para fins de comprovação de vida",
+  "sigla": "",
+  "descricao": "A visita técnica é uma modalidade de comprovação de vida exclusiva aos aposentados, pensionistas ou anistiados políticos civis enquadrados nos requisitos necessários.",
+  "flagPortalLogado": "S",
+  "contato": "0800-978-9004",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126257
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105608,
+        "tipo": "Aposentados, pensionistas ou anistiados políticos civis, na hipótese de moléstia grave ou de impossibilidade de locomoção que exija permanência domiciliar.",
+        "requisitos": "Ser portador de moléstia grave ou ter impossibilidade de locomoção que exija permanência domiciliar."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308803",
+    "dbId": 58136,
+    "nomeOrgao": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176531
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "VISITA TÉCNICA PARA PROVA DE VIDA",
+        "id": 420495
+      },
+      {
+        "item": "PROVA DE VIDA",
+        "id": 420496
+      },
+      {
+        "item": "PROVA DE VIDA APOSENTADOS PENSIONISTAS ",
+        "id": 420497
+      },
+      {
+        "item": "PROVA DE VIDA APOSENTADOS ANISTIADOS",
+        "id": 420498
+      },
+      {
+        "item": "DECIPEX",
+        "id": 420499
+      },
+      {
+        "item": "",
+        "id": 420500
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151533
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 435,
+    "negativas": 1377
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246500,
+      "titulo": "Solicitar agendamento de visita técnica de aposentados, pensionistas ou anistiados políticos civis para fins de comprovação de vida",
+      "descricao": "Agendamento de Visita Técnica para fins de prova de vida.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322355,
+            "nome": "Cópia do Documento de Identificação oficial com foto e CPF do solicitante"
+          },
+          {
+            "id": 322356,
+            "nome": "Atestado ou laudo médico em nome do beneficiário que comprove a impossibilidade do comparecimento para fins de comprovação de vida"
+          },
+          {
+            "id": 322357,
+            "nome": "Comprovante do endereço a ser realizada a visita, que pode ser em nome do próprio beneficiário ou de terceiro"
+          }
+        ],
+        "casos": [
+          {
+            "id": 48888,
+            "descricao": "Se tutor/curador",
+            "documento": [
+              {
+                "id": 322345,
+                "codigo": null,
+                "descricao": "Cópia do Documento de Identificação oficial com foto e CPF do requerente",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322346,
+                "codigo": null,
+                "descricao": "Atestado ou laudo médico em nome do beneficiário que comprove a impossibilidade do comparecimento para fins de comprovação de vida do requerente",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322347,
+                "codigo": null,
+                "descricao": "Comprovante do endereço a ser realizada a visita, que pode ser em nome do próprio beneficiário ou de terceiro",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322348,
+                "codigo": null,
+                "descricao": "Cópia do Documento de Identificação oficial com foto e CPF do tutor ou curador",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322349,
+                "codigo": null,
+                "descricao": "Termo de Tutela ou Curatela atualizado",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48889,
+            "descricao": "Se procurador",
+            "documento": [
+              {
+                "id": 322350,
+                "codigo": null,
+                "descricao": "Cópia do Documento de Identificação oficial com foto e CPF do requerente",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322351,
+                "codigo": null,
+                "descricao": "Atestado ou laudo médico em nome do beneficiário que comprove a impossibilidade do comparecimento para fins de comprovação de vida do requerente",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322352,
+                "codigo": null,
+                "descricao": "Comprovante do endereço a ser realizada a visita, que pode ser em nome do próprio beneficiário ou de terceiro",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322353,
+                "codigo": null,
+                "descricao": "Cópia do Documento de Identificação oficial com foto e CPF do procurador",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 322354,
+                "codigo": null,
+                "descricao": "Procuração atualizada",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318765,
+            "tipo": "web",
+            "descricao": "[Solicite aqui](https://solicitacao.servicos.gov.br/processos/iniciar?codServico=11352)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246501,
+      "titulo": "Acompanhar solicitação",
+      "descricao": "O declarante acompanha evolução do tratamento da solicitação pelo DECIPEX, pelo portal Gov.bre, será notificado por email, em caso de pendência.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318766,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246502,
+      "titulo": "Receber aviso de agendamento de visita técnica",
+      "descricao": "O solicitante recebe informação sobre o agendamento por e-mail ou pelo portal.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318767,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318768,
+            "tipo": "e-mail",
+            "descricao": "E-mail cadastrado pelo requerente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "24",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-agendamento-de-visita-tecnica-de-aposentados-pensionistas-ou-anistiados-politicos-civis-para-fins-de-comprovacao-de-vida",
+  "statusDestaque": false
+}

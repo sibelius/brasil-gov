@@ -1,0 +1,164 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10214",
+  "nome": "Cadastrar empresa ou entidade interessada em serviços de consignação em folha de pagamento",
+  "sigla": "",
+  "descricao": "Procedimento necessário para empresas/entidades operarem com descontos em folha de pagamentos dos servidores do executivo federal que recebem pagamento pelo SIAPE. \n\n Mensalidades de: empréstimo, plano de saúde, sindicatos, associações, seguros, previdência complementar.",
+  "flagPortalLogado": "N",
+  "contato": "Escritório de Consignações do Serpro",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 63581
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 57466,
+        "tipo": "Pessoa Jurídica",
+        "requisitos": "Estar formalmente constituída e regular para operação"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308803",
+    "dbId": 58136,
+    "nomeOrgao": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 90341
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 90342
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros e Programas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Consignação em folha; ",
+        "id": 218998
+      },
+      {
+        "item": "Consignado; ",
+        "id": 218999
+      },
+      {
+        "item": "Consignatária",
+        "id": 219000
+      },
+      {
+        "item": "",
+        "id": 219001
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Portaria ME nº 209, de 13 de maio de 2020, estabelece as condições e os procedimentos para o cadastramento de consignatários e a habilitação para o processamento de consignações, o controle da margem consignável, a recepção e o processamento das operações de consignação, o cancelamento de consignação e de desconto, a desativação temporária, o descadastramento e a suspensão por inadimplência de consignatários e o registro e o processamento de reclamações de consignados.",
+        "id": 71884
+      },
+      {
+        "item": "[https://legis.sigepe.gov.br/legis/detalhar/21408 ](https://legis.sigepe.gov.br/legis/detalhar/21408)",
+        "id": 71885
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 278,
+    "negativas": 764
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 126792,
+      "titulo": "Preenchimento da ficha eletrônica",
+      "descricao": "https://consignacoes.sigepe.planejamento.gov.br/SIGEPE-Consignatarias/login/login.jsf",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 178132,
+            "nome": "Documento de identificação com foto (RG, CNH, Carteira de Trabalho, Carteira de Identidade de Estrangeiro etc.)\n\n Instrumento particular de cessão de direito.\n\n Manifestação de Interesse na Aquisição de Imóvel por Venda Direta, conforme modelo disponível na seção 'Arquivo de Ajuda'."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 164297,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://consignacoes.sigepe.planejamento.gov.br/SIGEPE-Consignatarias/login/login.jsf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "27",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-empresa-ou-entidade-interessada-em-servicos-de-consignacao-em-folha-de-pagamento",
+  "statusDestaque": false
+}

@@ -1,0 +1,256 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9069",
+  "nome": "Solicitar diagnóstico de referência para esquistossomose em humanos - Fiocruz/MG",
+  "sigla": "",
+  "descricao": "O serviço realiza diagnóstico de esquistossomose em áreas endêmicas e sob risco de infecção por *Schistosoma mansoni*, podendo ser solicitado pelos Laboratórios Centrais de Saúde Pública (Lacen). O Lacen deve fazer a requisição pelo sistema Gerenciador de Ambiente Laboratorial (GAL) para que esta seja aceita pelo Laboratório de Esquistossomose (LESQ).\n\n Com a amostra em mãos, junto com o histórico do paciente, é realizado um ensaio que busca por anticorpos ativados contra *Shistosoma mansoni* no soro do paciente, através da sensibilização da placa por antígenos de verme adulto. São realizados cálculos de absobância e densidade ótica para definição de reagente e não reagente. Os resultados e o laudo são entregues ao Lacen via GAL.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (31) 3349 7759\n\n **E-mail:** rafaella.queiroz@fiocruz.br\n\n **Site: **<http://www.cpqrr.fiocruz.br/pg/servicos-de-referencia/>\n\n **Horário de atendimento:** de segunda a sexta, de 8h às 17h. O serviço não funciona aos sábados, domingos e feriados.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://gal.saude.sc.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 75876
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 66469,
+        "tipo": "* Órgãos e entidades públicas",
+        "requisitos": "O serviço é oferecido á população por meio dos Lacen, que devem encaminhar as solicitações para diagnóstico de referência."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "48",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 48
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 104942
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Esquistossome",
+        "id": 258033
+      },
+      {
+        "item": "Diagnóstico",
+        "id": 258034
+      },
+      {
+        "item": "área endêmica",
+        "id": 258035
+      },
+      {
+        "item": "Xistose",
+        "id": 258036
+      },
+      {
+        "item": "Lagoa da coceira",
+        "id": 258037
+      },
+      {
+        "item": "Barriga d’água",
+        "id": 258038
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 86178
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "Rampa, Elevador e Intérprete de Libras",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 148516,
+      "titulo": "Solicitar diagnóstico de referência",
+      "descricao": "O Lacen deve fazer a requisição pelo sistema Gerenciador de Ambiente Laboratorial (GAL) para que esta seja aceita pelo Laboratório de Esquistossomose (LESQ).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 210382,
+            "nome": "Solicitação do teste (disponível no GAL)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193376,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://gal.saude.sc.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 148517,
+      "titulo": "Enviar as amostras",
+      "descricao": "As amostras são enviadas ao IRR (Instituto René Rachou/Fiocruz MG) pelos Laboratórios Centrais (LACENs), contendo o soro do(s) paciente(s), coletado(s) nos postos de saúde. Todo processo ocorre entre o LACEN e o IRR.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 210383,
+            "nome": "Histórico do paciente"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193377,
+            "tipo": "presencial",
+            "descricao": "Os Lacens ou Centros de Saúde podem encaminhar as amostras, por meio de um colaborador dos Lacens ou Centros e entregar diretamente ao Laboratório de Esquistossomose:  \nAvenida Augusto de Lima, 1715 - 2° andar - Sala 203  \nCEP: 30190-002 - Bairro: Barro Preto - Belo Horizonte/MG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 193378,
+            "tipo": "postal",
+            "descricao": "Os Lacens ou Centros de Saúde podem encaminhar as amostras devidamente armazenadas em gelo seco ou outro meio de conservação, por meio de uma transportadora para Laboratório de Esquistossomose:  \nAvenida Augusto de Lima, 1715 - 2° andar - Sala 203  \nCEP: 30190-002 - Bairro: Barro Preto - Belo Horizonte/MG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 148518,
+      "titulo": "Receber laudo",
+      "descricao": "Os resultados são lançados no sistema GAL, que gera o laudo automaticamente. O laudo então é enviado diretamente ao médico do LACEN que solicitou o exame. Este é que entra em contato com o paciente. Após o atendimento, o solicitante será convidado a responder a uma pesquisa de satisfação, com formulário enviado por e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193379,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://gal.saude.sc.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-diagnostico-de-referencia-para-esquistossomose-em-humanos",
+  "statusDestaque": false
+}

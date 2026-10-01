@@ -1,0 +1,210 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9934",
+  "nome": "Cadastrar usuário externo no Sistema Eletrônico de Informações (SEI) do Ministério do Turismo",
+  "sigla": "",
+  "descricao": "Recurso do Sistema Eletrônico de Informações (SEI) que possibilita o cadastro de usuários externos, destinado a pessoas físicas que participem ou tenham demanda na condição de interessados em processo administrativo e pessoas jurídicas na mesma situação (representado por pessoa física), para peticionar documentos e processos pela internet, de forma eletrônica, ao Ministério do Turismo, sem a necessidade de se deslocarem fisicamente até o Protocolo Central evitando, assim, gastos com o envio de postagens pelos Correios.",
+  "flagPortalLogado": "N",
+  "contato": "[sei@turismo.gov.br](mailto:sei@turismo.gov.br).",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sei.turismo.gov.br/acessoexterno",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Usuário externo",
+        "id": 28650
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 28641,
+        "tipo": "* Pessoa física que participe ou tenha demanda na condição de interessado em processo administrativo e pessoa jurídica na mesma situação (representado por pessoa física); e\n * Órgãos e entidades da administração pública.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "3",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084",
+    "dbId": 37547,
+    "nomeOrgao": "Ministério do Turismo (MTur)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 45686
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 45687
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 45688
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 45689
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Turísticos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cadastrar",
+        "id": 102077
+      },
+      {
+        "item": "Usuário externo",
+        "id": 102078
+      },
+      {
+        "item": "SEI",
+        "id": 102079
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "* Decretos nºs 8.539, de 08/10/2015 e 9.094, de 17/07/2017.",
+        "id": 28785
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 104,
+    "negativas": 293
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 59781,
+      "titulo": "Realizar pré-cadastro",
+      "descricao": "Para realizar o cadastro inicial, o solicitante deverá acessar o[ site](https://sei.turismo.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) e clicar em “ainda não sou cadastrado”, preencher formulário com os dados pessoais e criar uma senha. O sistema enviará para o e-mail cadastrado uma mensagem solicitando a confirmação do cadastro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 76733,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sei.turismo.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 59782,
+      "titulo": "Apresentar documentos",
+      "descricao": "Para aprovação do seu cadastro, é necessário o envio de cópia colorida dos documentos solicitados para o endereço eletrônico [sei@turismo.gov.br](mailto:sei@turismo.gov.br).\n\n Somente após validação e conferência o cadastro será confirmado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 86992,
+            "nome": "* RG ou CNH.\n * CPF ou CNH.\n * Comprovante de endereço informado no cadastro."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 76734,
+            "tipo": "e-mail",
+            "descricao": "[sei@turismo.gov.br](mailto:sei@turismo.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "26",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-usuario-externo-no-sistema-eletronico-de-informacoes-sei",
+  "statusDestaque": false
+}

@@ -1,0 +1,250 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9792",
+  "nome": "Comprovar Porte Econômico de Empresa",
+  "sigla": "",
+  "descricao": "É a comprovação da capacidade econômica da empresa, de acordo com seu faturamento bruto anual.\n\n  A comprovação é necessária para obter descontos nas Taxas de Fiscalização e Vigilância Sanitária (TFVS) previstos na legislação. [Saiba mais sobre o porte de empresas](https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/administrativo/porte-de-empresa).",
+  "flagPortalLogado": "N",
+  "contato": "pela [Central de Atendimento da Anvisa](https://www.gov.br/../../anvisa/pt-br/canais_atendimento).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Comprovação de Porte - Sistema Solicita",
+        "id": 95152
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80915,
+        "tipo": "Empresas, órgãos e entidades que desejem comprovar o porte econômico para usufruir dos descontos na taxa.",
+        "requisitos": "Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o sistema Solicita.\n\n [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/../../anvisa/pt-br/sistemas/cadastros)[ ](http://portal.anvisa.gov.br/cadastramento)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Para Microempresas e Empresas de Pequeno Porte: exercício corrente até 30 de abril do exercício subsequente\n\n Para demais empresas: exercício corrente até último dia útil de julho do exercício subsequente"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132017
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "porte econômico",
+        "id": 320959
+      },
+      {
+        "item": "empresa",
+        "id": 320960
+      },
+      {
+        "item": "anvisa",
+        "id": 320961
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109925
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 228,
+    "negativas": 374
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183892,
+      "titulo": "Fazer a solicitação de alteração de porte",
+      "descricao": "2. Acesse o sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição Inicial” >. \n 4. Clique na lupa que permite a busca pelos assuntos de petição e selecione a “Atividade/Tipo de produto”> “Empresas” e digitar no campo “Código” o número 70571.\n 6. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 250946,
+            "nome": "Documento que comprove a condição econômica da empresa"
+          }
+        ],
+        "casos": [
+          {
+            "id": 39605,
+            "descricao": "Microempresa (ME) ou Empresa de Pequeno Porte (EPP)",
+            "documento": [
+              {
+                "id": 250943,
+                "codigo": null,
+                "descricao": "Certidão da Junta Comercial, ou do Cartório do Registro Civil de Pessoa Jurídica, atualizadas, em que conste expressamente a condição que será comprovada.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 39606,
+            "descricao": "Empresas classificadas como Médias dos grupos III e IV e Grande do grupo II",
+            "documento": [
+              {
+                "id": 250944,
+                "codigo": null,
+                "descricao": "Escrituração Contábil Fiscal (ECF) completa referente ao ano-calendário imediatamente anterior. O relatório deve ser enviado com a impressão de todas as pasta e fichas, em formato PDF (que permita a realização de busca textual e cópia).",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 250945,
+                "codigo": null,
+                "descricao": "Recibo de entrega da ECF.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241446,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183893,
+      "titulo": "Acompanhar a alteração de porte",
+      "descricao": "Acompanhe pelo Sistema de Cadastramento da Anvisa para saber se o porte foi atualizado.\n\n Na tela inicial do sistema, é preciso verificar o campo “1.5 – Porte”",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 250947,
+            "nome": "Usuário e senha do Sistema de Cadastramento da Anvisa."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241447,
+            "tipo": "web",
+            "descricao": "[Sistema de Cadastramento da Anvisa.](https://www.gov.br/anvisa/pt-br/sistemas/cadastros/cadastro-de-empresas)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 241448,
+            "tipo": "telefone",
+            "descricao": "0800-642-9782",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "38",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/comprovar-porte-economico-de-empresa",
+  "statusDestaque": true
+}

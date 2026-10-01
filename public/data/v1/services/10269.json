@@ -1,0 +1,199 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10269",
+  "nome": "Solicitar crédito presumido - Preço de medicamentos",
+  "sigla": "",
+  "descricao": "É uma solicitação para que fabricantes de medicamentos possam utilizar o crédito presumido, desconto de encargos do PIS e Cofins concedido a algumas categorias de medicamentos.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: 0800-642 9782 (dias úteis, das 7h30 às 19h30); \n\n [Webchat](https://anvisa.chat.comunix.tech:8070/#/) \n\n [Formulário Eletrônico](http://portal.anvisa.gov.br/fale-conosco)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 95246
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81009,
+        "tipo": "Empresas com medicamentos registrados na Anvisa.",
+        "requisitos": "Requisitos: Login e senha no sistema SAMMED."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132126
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Medicamentos e Produtos para Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "crédito presumido",
+        "id": 321373
+      },
+      {
+        "item": "preços de medicamentos",
+        "id": 321374
+      },
+      {
+        "item": "SCMED",
+        "id": 321375
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 110130
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 184083,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Acesse o SAMMED com o login e senha do gestor de segurança. Selecione a opção “Solicitar alteração de empresa”. Preencha os campos obrigatórios, anexe os documentos que justifiquem a solicitação e envie a petição. \n\n [Acesse o Manual do Sammed.](https://www.gov.br/../../anvisa/pt-br/assuntos/medicamentos/cmed/informes/manual-do-sistema-sammed-web-versao-1-1.pdf)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 251125,
+            "nome": "Documentos que justifiquem a alteração solicitada."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241638,
+            "tipo": "web",
+            "descricao": "[Acesse o Sammed](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F&_ga=2.10140343.349194144.1610838662-1496467019.1604401991).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 184084,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no SAMMED, acesse “Consultar petição” e utilize os filtros disponíveis para localizar a petição desejada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241639,
+            "tipo": "web",
+            "descricao": "[Acesse o Sammed](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F&_ga=2.10140343.349194144.1610838662-1496467019.1604401991).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-credito-presumido-preco-de-medicamentos",
+  "statusDestaque": false
+}

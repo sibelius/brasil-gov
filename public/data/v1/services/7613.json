@@ -1,0 +1,229 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7613",
+  "nome": "Consultar online dados de seus veículos",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito (Senatran) que permite consultar online os dados dos veículos registrados em nome do cidadão.\n\n Após acessar o serviço, é possível:\n\n  * Consultar a lista de veículos registrados em nome do usuário que realizou login no Portal;\n * Acessar os dados detalhados de identificação do veículo selecionado;\n * Consultar os indicadores da situação do veículo, como restrições, roubo ou furto, recall, multa RENAINF e comunicação de venda;\n * Consultar as infrações de trânsito do veículo e seus respectivos detalhes; e\n * Indicar o principal condutor de um veículo. Para isso, o condutor indicado deve possuir categoria de habilitação compatível com o veículo.",
+  "flagPortalLogado": "N",
+  "contato": "- [Central de serviços](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2776)\n - Telefone: 08007282324\n - e-mail: [css.serpro@serpro.gov.br](mailto:css.serpro@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/usuario/veiculos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Meus Veículos",
+        "id": 126865
+      },
+      {
+        "item": "consultar",
+        "id": 126866
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106105,
+        "tipo": "**Pessoa física** que:",
+        "requisitos": "* Possuir CNH Digital ativa;\n * Esteja autenticado no Portal de Serviços SENATRAN."
+      },
+      {
+        "id": 106106,
+        "tipo": "**Pessoa Jurídica** que:",
+        "requisitos": "* Possuir Certificado Digital cadastrado no Portal de Serviços SENATRAN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177340
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 177341
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DENATRAN",
+        "id": 422720
+      },
+      {
+        "item": "Consulta de veículo",
+        "id": 422721
+      },
+      {
+        "item": "CRLV",
+        "id": 422722
+      },
+      {
+        "item": "placa",
+        "id": 422723
+      },
+      {
+        "item": "recall",
+        "id": 422724
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152194
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1836,
+    "negativas": 3790
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 247777,
+      "titulo": "Realizar login",
+      "descricao": "Você deve realizar o login no Portal de Serviços SENATRAN com o Certificado Digital ou Login com CPF/SENHA e possuir CNH Digital ativa. Clique em “Entrar com [gov.br](http://gov.br/)” no canto superior direito da sua tela e insira seus dados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323397,
+            "nome": "**Documentação em comum para todos os casos**\n\n   + CPF\n   **Para pessoa jurídica ou alternativamente para pessoa física:**\n\n   + Certificado Digital"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320306,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247778,
+      "titulo": "Realizar Consulta",
+      "descricao": "Após fazer o login no [Portal de Serviços](https://portalservicos.senatran.serpro.gov.br/#/usuario/painel), você deverá localizar no canto superior esquerdo da página o bloco “Veículos”, ali clicar em “Consultar Meus Veículos” e então deverá selecionar um veículo para consultar suas informações.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320307,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/usuario/veiculos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4767",
+      "nome": "Consultar dados de veículo na base RENAVAM"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7632",
+      "nome": "Consultar online os dados de placa veicular"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7636",
+      "nome": "Consultar informações do CRV atual do veículo"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-online-dados-de-seus-veiculos",
+  "statusDestaque": false
+}

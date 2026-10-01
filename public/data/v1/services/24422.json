@@ -1,0 +1,237 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24422",
+  "nome": "Obter cópia de prontuário médico no Huol",
+  "sigla": "",
+  "descricao": "Este serviço permite solicitar a cópia (integral ou parcial) dos registros clínicos e do histórico de atendimento de pacientes atendidos no Hospital Universitário Onofre Lopes (Huol). O prontuário reúne exames, laudos, consultas, relatórios e pareceres médicos. O acesso é restrito ao titular ou a pessoas legalmente autorizadas, em conformidade com à Lei Geral de Proteção de Dados Pessoais (LGPD), às normas do Conselho Federal de Medicina e às demais disposições legais aplicáveis.",
+  "flagPortalLogado": "N",
+  "contato": "**Centro de Documentação Clínica (CDC) - Huol**\n\n Endereço: Avenida Nilo Peçanha, nº 620, Petrópolis, Natal/RN, andar térreo do Prédio Ambulatorial\n\n Telefone: (84) 3342-5227\n\n Funcionamento**:** Segunda a sexta-feira, das 7h às 17h.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Prontuário",
+        "id": 127555
+      },
+      {
+        "item": "Prontuários",
+        "id": 127556
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106733,
+        "tipo": "Podem solicitar cópia do prontuário:\n\n 1. Próprio Paciente (Titular do Prontuário)\n\n 2. Representante Legal ou Procurador, mediante comprovação da representação;\n\n 3. Familiar ou Sucessor de Paciente Falecido, mediante comprovação do vínculo e da legitimidade para acesso às informações.",
+        "requisitos": "Para obter cópia de prontuário, é necessário:\n\n  * ser maior de idade ou emancipado e ter realizado atendimento, consulta, exame ou internação no Huol, ou possuir legitimidade para solicitar a documentação;\n * documento oficial de identificação com foto (RG, CNH, Passaporte ou Carteira Profissional);\n * preencher o formulário de solicitação disponibilizado pelo Centro de Documentação Clínica (CDC);\n * apresentar procuração com poderes específicos ou documento legal que comprove a representação (ex: certidão de nascimento de menor, termo de curatela/tutela);\n * para pacientes falecidos, comprovar o vínculo familiar e apresentar a certidão de óbito do paciente."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/200696",
+    "dbId": 32667,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Onofre Lopes (EBSERH-HUOL-UFRN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178468
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cópia de prontuário",
+        "id": 425308
+      },
+      {
+        "item": "Prontuário",
+        "id": 425309
+      },
+      {
+        "item": "Cópia",
+        "id": 425310
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152979
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário nas filas e recepções: pessoas com deficiência, pessoas com transtorno do espectro autista (TEA), pessoas idosas com idade igual ou superior a 60 anos, sendo assegurada prioridade especial às pessoas com mais de 80 anos, gestantes, lactantes, pessoas com criança de colo, pessoas com mobilidade reduzida, pessoas com obesidade, pessoas transplantadas e doadores de sangue, conforme a legislação vigente.\n\n  Os doadores de sangue terão atendimento prioritário após os demais beneficiários do atendimento prioritário, mediante apresentação de comprovante de doação válido, observada a legislação vigente.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249294,
+      "titulo": "Solicitar a cópia do prontuário",
+      "descricao": "O solicitante apresenta a documentação necessária e preenche o formulário de solicitação, informando, sempre que possível, o período do atendimento ou os documentos específicos que deseja obter.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324508,
+            "nome": "* Documento oficial de identificação com foto (RG, CNH ou Carteira de Trabalho);\n * Formulário de solicitação de cópia do prontuário;\n * Documentação que comprove a representação legal, procuração ou legitimidade para acesso, quando aplicável."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322126,
+            "tipo": "presencial",
+            "descricao": "Centro de Documentação Clínica (CDC) – Huol\n\n  * Endereço: Av. Nilo Peçanha, nº 620 – Petrópolis, Natal/RN, andar térreo do Prédio Ambulatorial\n   * Horário de funcionamento: Segunda a sexta-feira, das 7h às 17h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249295,
+      "titulo": "Aguardar a análise e o processamento da solicitação",
+      "descricao": "O Centro de Documentação Clínica (CDC) confere a documentação apresentada, verifica a legitimidade do solicitante e o direito de acesso às informações, observando as normas de sigilo e proteção de dados pessoais.\n\n Após a análise, o CDC providencia a localização e a cópia dos documentos solicitados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322127,
+            "tipo": "presencial",
+            "descricao": "Processamento interno pelo Centro de Documentação Clínica (CDC)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249296,
+      "titulo": "Retirar a cópia do prontuário",
+      "descricao": "O solicitante comparece ao local de atendimento para assinar o termo de recebimento e retirar a documentação física impressa ou instrução de envio/disponibilização.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324509,
+            "nome": "* Documento oficial de identificação com foto (RG, CNH ou Carteira de Trabalho)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322128,
+            "tipo": "presencial",
+            "descricao": "Centro de Documentação Clínica (CDC) – Huol\n\n  * Endereço: Av. Nilo Peçanha, nº 620 – Petrópolis, Natal/RN, andar térreo do Prédio Ambulatorial\n   * Horário de funcionamento: Segunda a sexta-feira, das 7h às 17h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-copia-de-prontuario-medico",
+  "statusDestaque": false
+}

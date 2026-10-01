@@ -1,0 +1,486 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3069",
+  "nome": "Realizar Emenda a Certificado de Organização de Manutenção de Produto Aeronáutico ou às suas Especificações Operativas",
+  "sigla": "",
+  "descricao": "Uma emenda ao certificado é necessária se o detentor do certificado:   \n(1) mudar a localização da organização de manutenção;   \n(2) requerer adição ou alteração de sua capacidade ou categoria/classe; ou   \n(3) mudar de razão social ou denominação social da organização.  \nSe o detentor do certificado vender ou transferir seus ativos, o novo proprietário deve requerer uma emenda ao certificado.\n\n [Clique aqui para Orientações referentes ao Protocolo Eletrônico](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei).\n\n [Clique aqui para acessar os modelos dos documentos exigidos](https://www.gov.br/anac/pt-br/assuntos/regulados/organizacoes-de-manutencao/formularios-padronizados).\n\n [Clique aqui para orientações referentes ao uso de sistema eletrônico para registros digitais](https://www.gov.br/anac/pt-br/assuntos/regulados/programa-de-transformacao-digital/solicitacao-de-uso-de-sistema).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Alteração do COM/EO",
+        "id": 87198
+      },
+      {
+        "item": "Emenda ao COM/EO",
+        "id": 87199
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74782,
+        "tipo": "Organizações de Manutenção de Produto Aeronáutico",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121089
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "aviação",
+        "id": 294053
+      },
+      {
+        "item": "oficina",
+        "id": 294054
+      },
+      {
+        "item": "manutenção",
+        "id": 294055
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 145](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac) – Organizações de Manutenção de Produto Aeronáutico",
+        "id": 100015
+      },
+      {
+        "item": "[IS 145-001](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is) – Certificação de organizações de manutenção domésticas",
+        "id": 100016
+      },
+      {
+        "item": "[IS 145-009](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-009) – Manual da Organização de Manutenção, Manual de Controle da Qualidade e Declaração de Conformidade",
+        "id": 100017
+      },
+      {
+        "item": "[IS 145-010](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-010) – Programa de Treinamento em Organizações de Manutenção",
+        "id": 100018
+      },
+      {
+        "item": "[IS 145.151-001](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-145-151-001) – Cadastramento de Responsável Técnico de Organização de Manutenção de Produto Aeronáutico",
+        "id": 100019
+      },
+      {
+        "item": "[Resolução nº 457, de 20 de dezembro de 2017](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2017/resolucao-no-457-20-12-2017)",
+        "id": 100020
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 169049,
+      "titulo": "Requerer alteração",
+      "descricao": "O interessado deve ajuntar os documentos descritos abaixo e encaminhar à ANAC, por peticionamento eletrônico utilizando o tipo de processo relacionado à emenda requerida.\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 234672,
+            "nome": "N° do CNPJ"
+          },
+          {
+            "id": 234673,
+            "nome": "Contrato Social"
+          },
+          {
+            "id": 234674,
+            "nome": "Documentos previstos na IS 145-001. \n\n As OMs devem apresentar apenas as informações necessárias ao processo de inclusão, como por exemplo: alterações nas instalações (se necessárias), da organização, lista de ferramentas especiais, qualificação de pessoal requerido, e revisão nos Manuais da OM, conforme aplicável."
+          }
+        ],
+        "casos": [
+          {
+            "id": 37152,
+            "descricao": "Para Inclusão de Categoria ou Classe",
+            "documento": [
+              {
+                "id": 234662,
+                "codigo": null,
+                "descricao": "Formulário F-143-05",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37153,
+            "descricao": "Para Alteração da EO",
+            "documento": [
+              {
+                "id": 234663,
+                "codigo": null,
+                "descricao": "Formulários F-143-05 ou F-143-09, conforme aplicável",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37154,
+            "descricao": "Para Alteração da LC",
+            "documento": [
+              {
+                "id": 234664,
+                "codigo": null,
+                "descricao": "Formulário F-143-05, a menos que haja um procedimento de autoinclusão aceito pela agência e presente nos manuais da OM.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37155,
+            "descricao": "Para Certificação inicial da base secundária",
+            "documento": [
+              {
+                "id": 234665,
+                "codigo": null,
+                "descricao": "Formulário F-143-07",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37156,
+            "descricao": "Para uso de sistema eletrônico para registros digitais, caso o software não tenha sido verificado/atestado pela ANAC",
+            "documento": [
+              {
+                "id": 234666,
+                "codigo": null,
+                "descricao": "Check-list de Conformidade de Software – Resolução 458;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234667,
+                "codigo": null,
+                "descricao": "Relatório de conformidade do sistema (Art. 3º, Res. 458) – emitido por entidade competente",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234668,
+                "codigo": null,
+                "descricao": "Atenção: a documentação listada no campo \"Documentação comum para todos os casos\" não é exigida para o uso de sistema eletrônico para registros digitais",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37157,
+            "descricao": "Para uso de sistema eletrônico para registros digitais, caso o software tenha sido verificado/atestado pela ANAC",
+            "documento": [
+              {
+                "id": 234669,
+                "codigo": null,
+                "descricao": "Formulário F-143-05;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234670,
+                "codigo": null,
+                "descricao": "Manuais revisados da organização de manutenção, contendo procedimentos para uso de registros digitais",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234671,
+                "codigo": null,
+                "descricao": "Atenção: a documentação listada no campo \"Documentação comum para todos os casos\" não é exigida para o uso de sistema eletrônico para registros digitais",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 27917,
+            "descricao": "Para  todos os casos de alteração de especificações de organização de manutenção que exigem a anuência prévia da ANAC: TFAC Cód. 012401",
+            "moeda": "R$",
+            "valor": " 1.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 37158,
+            "descricao": "Para Aceitação de Suplemento; Reedição de MGSO; ou Reedição de Programa de Treinamento de Manutenção.",
+            "custo": [
+              {
+                "id": 27914,
+                "descricao": "TFAC Cód. 011403",
+                "moeda": "R$",
+                "valor": " 800,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37159,
+            "descricao": "Para reedição de MOM/MCQ.",
+            "custo": [
+              {
+                "id": 27915,
+                "descricao": "TFAC Cód. 011405",
+                "moeda": "R$",
+                "valor": " 2.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37160,
+            "descricao": "Para autorização para mudança de instalações de base principal",
+            "custo": [
+              {
+                "id": 27916,
+                "descricao": "TFAC Cód. 012301",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221577,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.anac.gov.br/acesso-a-informacao/protocolo-eletronico/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37161,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 221576,
+                "tipo": "web",
+                "descricao": "[Clique aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=RedirecionarPaginaServicoBean)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169050,
+      "titulo": "Aguardar análise da documentação",
+      "descricao": "Nessa etapa, a ANAC analisa os documentos enviados, podendo interagir com o regulado para saneamento das pendências documentais. Nos casos em que sejam identificadas pendências, a ANAC encaminha um Ofício ao interessado com prazo de 30 dias para atendimento às providências requeridas. Após a conclusão da análise e a correção de todas as pendências, um ofício será enviado pela ANAC comunicando a conclusão desta etapa e solicitando o agendamento de uma auditoria técnica nas instalações da empresa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221578,
+            "tipo": "web",
+            "descricao": "A correção das pendências documentais deverá ser enviada via sistema de [protocolo eletrônico (SEI)](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) como documento intercorrente.\n\n O requerente poderá acompanhar o andamento do processo através do sistema SEI",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169051,
+      "titulo": "Receber auditoria da ANAC",
+      "descricao": "A ANAC agendará uma auditoria nas instalações da empresa para verificação dos requisitos regulamentares para a certificação de OM. Se houver não conformidades, a ANAC notificará o requerente, definindo prazos para a correção. A análise das correções pode requerer diversas iterações e, se for o caso, uma nova auditoria técnica. Esta etapa somente será encerrada após sanadas todas as não conformidades da auditoria.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221579,
+            "tipo": "web",
+            "descricao": "O agendamento pode ser acompanhado no mesmo canal em que a solicitação foi protocolada.\n\n A correção das pendências observadas em auditoria deverá ser enviada via Sistema de[ Protocolo Eletrônico (SEI)](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).\n\n A auditoria, se aplicável, a critério da ANAC, poderá ser realizada remotamente por vídeo conferência.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "45",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 45
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169052,
+      "titulo": "Receber as novas Específicações Operativas- EO",
+      "descricao": "Uma vez realizada a auditoria e demonstrado o cumprimento de todos os requisitos associados (incluindo as correções decorrentes das não conformidades identificadas), a ANAC encaminhará por meio de Ofício as novas Especificações Operativas - EO.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221580,
+            "tipo": "web",
+            "descricao": "As novas Especificações Operativas - EO são encaminhadas, por ofício, para o e-mail do requerente cadastrado na ANAC, através do Sistema de Protocolo Eletrônico SEI da ANAC.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-emenda-a-certificado-de-organizacao-de-manutencao-de-produto-aeronautico-ou-as-suas-especificacoes-operativas",
+  "statusDestaque": false
+}

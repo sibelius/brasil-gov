@@ -1,0 +1,208 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3345",
+  "nome": "Autorizar Aquisição de Armas ou Munições - Militares EB, MB e FAB",
+  "sigla": "",
+  "descricao": "Autorizar Aquisição de Armas ou Munições para Militares integrantes do Exército, da Marinha ou da Força Aérea.",
+  "flagPortalLogado": "N",
+  "contato": "Para informações e entrega de documentos:\n\n Portaria Norte - Sala de Recepção da DFPC\n\n **Horário de atendimento presencial:**  \n**Segunda a quinta-feira:**  \n**8h às 11h30h**  \n**14h às 17h30h**\n\n **Sexta-feira:**  \n**8h às 11h30h**\n\n Para correspondências:\n\n Quartel General do Exército, Bloco H, 4º andar  \nBrasília - DF | CEP 70630-901| Brasil.  \n  \nTelefone: (61) 3415-6230 / (61) 3415-4393 / (61) 3415-6013  \n  \n**Horário de atendimento telefônico** **Segunda-feira a Quinta-feira: de 8h10 às 11h50 e de 14h10 às 17h50 **  \n**Sexta-feira: das 08h10 às 11h50**",
+  "gratuito": "false",
+  "porcentagemDigital": 50,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Aquisição de Armas ou Munições - Militares EB, MB e FAB",
+        "id": 43232
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 40439,
+        "tipo": "Militares integrantes do Exército, da Marinha ou da Força Aérea.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 65340
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Armamentos e Explosivos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "exército",
+        "id": 149960
+      },
+      {
+        "item": "produto controlado",
+        "id": 149961
+      },
+      {
+        "item": "armazenamento",
+        "id": 149962
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 47117
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 67,
+    "negativas": 74
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 86859,
+      "titulo": "Solicitar Autorização para Aquisição de Armas ou Munições para Militares integrantes EB, MB ou FAB.",
+      "descricao": "Requerer à Administração Militar de vinculação do solicitante a Autorização de Aquisição de Armas ou Munições.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 123097,
+            "nome": "Requerimento instruído com as informações da aquisição."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111007,
+            "tipo": "presencial",
+            "descricao": "Na Organização Militar de vinculação do solicitante.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 86860,
+      "titulo": "Realizar o pagamento",
+      "descricao": "O pagamento poderá ser realizado via Pix, cartão de crédito ou boleto bancário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 12890,
+            "descricao": "Taxa de autorização para aquisição de Produtos Controlados",
+            "moeda": "R$",
+            "valor": " 25,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111008,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.dfpc.eb.mil.br/index.php/gru-instrucoes)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "48",
+  "url": "https://www.gov.br/pt-br/servicos/armazenar-produtos-controlados-pelo-exercito",
+  "statusDestaque": false
+}

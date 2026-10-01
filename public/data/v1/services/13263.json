@@ -1,0 +1,344 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13263",
+  "nome": "Declarar Trânsito Aduaneiro",
+  "sigla": "DTA",
+  "descricao": "Preencha e envie a Declaração de Trânsito Aduaneiro (DTA) à Receita Federal e informe as mercadorias em trânsito.\n\n Você também pode retificar sua DTA.\n\n A DTA é um documento de autorização alfandegária que permite o transporte de mercadoria importada dentro do território nacional, ainda sob a jurisdição da Receita Federal.\n\n A mercadoria é transportada de um recinto alfandegado a outro, com a suspensão de tributos.\n\n O recolhimento é feito após a chegada da mercadoria ao seu destino final.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)\n\n [Manual Siscomex-Trânsito](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/transito-aduaneiro)",
+  "gratuito": "true",
+  "porcentagemDigital": 66,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www4.receita.fazenda.gov.br/g33159/jsp/logon.jsp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123473
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103200,
+        "tipo": "Transportador e seus representantes.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172664
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Siscomex-Trânsito",
+        "id": 410914
+      },
+      {
+        "item": "Registro",
+        "id": 410915
+      },
+      {
+        "item": "Trânsito",
+        "id": 410916
+      },
+      {
+        "item": "Retificação",
+        "id": 410917
+      },
+      {
+        "item": "Anexação",
+        "id": 410918
+      },
+      {
+        "item": "DTA",
+        "id": 410919
+      },
+      {
+        "item": "",
+        "id": 410920
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa SRF nº 248/2002 ](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15125&visao=anotado)",
+        "id": 148473
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240864,
+      "titulo": "Preencher e enviar a declaração",
+      "descricao": "Preencha a declaração de trânsito aduaneiro no Siscomex-Trânsito.\n\n  Após a geração do número da Declaração de Trânsito Aduaneiro (DTA), junte (inclua) os documentos no sistema Anexação do Portal Único de Comércio Exterior.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317433,
+            "nome": "Conhecimento de transporte internacional;"
+          },
+          {
+            "id": 317434,
+            "nome": "Fatura comercial ou fatura pró-forma."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48237,
+            "descricao": "Para as DT do tipo MIC/DTA de Passagem, quando o transportador for estrangeiro e o tipo de transporte for \"Próprio\" ou \"Ocasional\"",
+            "documento": [
+              {
+                "id": 317426,
+                "codigo": null,
+                "descricao": "Extrato da declaração.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48238,
+            "descricao": "Mercadoria sujeita a autorização de outros órgãos",
+            "documento": [
+              {
+                "id": 317427,
+                "codigo": null,
+                "descricao": "Termo de liberação.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48239,
+            "descricao": "Declaração de Trânsito de Transferência (DTT) não acobertadas por conhecimento de transporte internacional. NF de venda ou Danfe de:",
+            "documento": [
+              {
+                "id": 317428,
+                "codigo": null,
+                "descricao": "Materiais de companhia aérea, ou de consumo de bordo, entre Depósitos Afiançados (DAF) da mesma companhia;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 317429,
+                "codigo": null,
+                "descricao": "mercadorias entre lojas francas ou seus depósitos;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 317430,
+                "codigo": null,
+                "descricao": "mercadorias vendidas pelas lojas francas a empresas de navegação aérea ou marítima e destinadas a consumo de bordo ou a venda a passageiros, desde que procedentes diretamente da loja franca para o veículo em viagem internacional ou para DAF.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 48240,
+            "descricao": "No caso de DTT de transferência de mercadorias entre depósitos afiançados:",
+            "documento": [
+              {
+                "id": 317431,
+                "codigo": null,
+                "descricao": "Nota fiscal de transferência ou Danfe e",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 317432,
+                "codigo": null,
+                "descricao": "Manifesto Internacional de Carga – Declaração de Trânsito Aduaneiro (MIC-DTA) ou TIF-DTA, se for o caso.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311003,
+            "tipo": "web",
+            "descricao": "[Siscomex-TrÃ¢nsito](https://www4.receita.fazenda.gov.br/g33159/jsp/logon.jsp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311004,
+            "tipo": "web",
+            "descricao": "[Anexação](https://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240865,
+      "titulo": "Retificar a declaração de Trânsito",
+      "descricao": "Se for necessário retificar (alterar) alguma informação em uma declaração já registrada, junte (inclua) os documentos necessários e compareça a unidade de origem/destino do trânsito para solicitar a alteração.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317435,
+            "nome": "Requerimento;"
+          },
+          {
+            "id": 317436,
+            "nome": "Extrato da declaração;"
+          },
+          {
+            "id": 317437,
+            "nome": "Cópia da fatura, romaneio (packing list - documento que lista as mercadorias transportadas) e do conhecimento de transporte (BL, AWB ou CRT)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311005,
+            "tipo": "presencial",
+            "descricao": "Verifique a necessidade de agendamento prévio na[ página da unidade](https://www.gov.br/receitafederal/pt-br/canais_atendimento/fale-conosco/presencial).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240866,
+      "titulo": "Confirmar a alteração",
+      "descricao": "O resultado da alteração pode ser verificado na Consulta da Declaração de Trânsito Aduaneiro (DTA) no sistema Siscomex-Trânsito, conforme orientações constantes no [manual do sistema](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/transito-aduaneiro).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311006,
+            "tipo": "web",
+            "descricao": "[Siscomex-TrÃ¢nsito](https://www4.receita.fazenda.gov.br/g33159/jsp/logon.jsp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/declarar-transito-aduaneiro",
+  "statusDestaque": false
+}

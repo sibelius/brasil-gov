@@ -1,0 +1,194 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11361",
+  "nome": "Protocolar documento junto à instituição - IFAP",
+  "sigla": "",
+  "descricao": "Possibilita aos cidadãos (portador ou interessado), aos órgãos e às entidades públicas e privadas protocolar/enviar documentos e processos pela Internet, de forma eletrônica, ao Instituto Federal de Educação, Ciência e Tecnologia do Amapá, sem a necessidade de se deslocarem fisicamente até os Campi ou Reitoria do IFAP e, ainda, evitar gastos com o envio de correspondência postal",
+  "flagPortalLogado": "N",
+  "contato": "prot.reitoria@ifap.edu.br \n\n reitoria@ifap.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/94428/servico/11361/solicitar/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Protocolo IFAP",
+        "id": 88477
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75789,
+        "tipo": "*  Pessoa física que esteja portando documento de outra pessoa física ou jurídica e seja responsável por realizar a entrega. \n\n \n *  Pessoa física que participe ou tenha demanda na condição de interessado em processo administrativo e pessoa jurídica na mesma situação (representado por pessoa física).",
+        "requisitos": "* Deve criar ou possuir conta de acesso única do Governo no portal < [acesso.gov.br](http://acesso.gov.br) >."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "3",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94428",
+    "dbId": 36751,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Amapá (IFAP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122772
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Protocolo",
+        "id": 298185
+      },
+      {
+        "item": "Documentos",
+        "id": 298186
+      },
+      {
+        "item": "Processo",
+        "id": 298187
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101548
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 171671,
+      "titulo": "Protocolar documentos",
+      "descricao": "Ao acessar o botão Solicitar do serviço, o requisitante deverá informa as seguintes informações:\n\n  * Informar para qual unidade se destina a presente solicitação;\n * Descrever de forma sucinta do que se trata a requisição;\n * Anexar documentos em PDF (limite de 05), informando a descrição.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225234,
+            "tipo": "web",
+            "descricao": "[Acesse aqui.](https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/94428/servico/11361/solicitar/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171672,
+      "titulo": "Receber resposta",
+      "descricao": "Os documentos protocolados passam por uma conferência e só então poderão ser tramitados para a área destino. O IFAP retornará ao requisitante informando-o sobre a situação com o Número Único de Protocolo, nos casos em que este for gerado, para acompanhamento do trâmite. Caso exista algum erro na solicitação, o cidadão deverá providenciar as correções que lhe foram solicitados neste mesmo canal de atendimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225235,
+            "tipo": "web",
+            "descricao": "As notificações de movimentação do processo serão enviados por e-mail e podem ser consultadas através do [link](https://suap.ifap.edu.br/processo_eletronico/consulta_publica/), informando o numero do processo ou CPF/CNPJ do interessado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "60",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/protocolar-documento-junto-a-instituicao-ifap",
+  "statusDestaque": false
+}

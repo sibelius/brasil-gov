@@ -1,0 +1,192 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3386",
+  "nome": "Obter identificação de plantas no Herbário do Jardim Botânico do Rio de Janeiro",
+  "sigla": "",
+  "descricao": "O Herbário RB pode oferecer apoio ao serviço de identificação de plantas tanto para pessoas físicas como para pessoas jurídicas, onde realiza-se o serviço de identificação e incorporação de amostras de licenciamento ambiental no RB, seguindo a normatização da Portaria JBRJ nº 089/2010, de 9 de junho de 2010, no endereço eletrônico <https://cloud.jbrj.gov.br/s/janfBk5qSoqqazW>",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: rb@jbrj.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 92899
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 79244,
+        "tipo": "Qualquer pessoa pode utilizar este serviço:  \na) pessoa física;   \nb) pessoa jurídica: serviço de identificação e incorporação de amostras de licenciamento ambiental no RB.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1913",
+    "dbId": 37021,
+    "nomeOrgao": "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 128831
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 128832
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 128833
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 128834
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Análises"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "planta",
+        "id": 312951
+      },
+      {
+        "item": "identificação",
+        "id": 312952
+      },
+      {
+        "item": "jardim botânico",
+        "id": 312953
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 107004
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 18,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 179788,
+      "titulo": "Requerer identificação",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 246108,
+            "nome": "Amostra desidratada e prensada da planta  \n  \nIdentificação, como aluno, professor, particular ou empresa"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 236193,
+            "tipo": "presencial",
+            "descricao": "Para pessoa física e jurídica: na Rua Pacheco Leão, 915, de segunda a sexta-feira, das 8h às 17h - a recepcionista da Diretoria de Pesquisa Científica encaminhará o usuário ao prédio do Herbário para atendimento pela secretária;  \n  \nSugestões e reclamações pelo Fala-BR: https://falabr.cgu.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 0,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 236194,
+            "tipo": "e-mail",
+            "descricao": "Para pessoa física e jurídica: rb@jbrj.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 236195,
+            "tipo": "postal",
+            "descricao": "Para pessoa física: para o endereço Curadoria do Herbário – Jardim Botânico do Rio de Janeiro – Rua Pacheco Leão, 915 – Jardim Botânico, CEP: 22460-030 – Rio de Janeiro, RJ  \n  \nAs amostras recebidas por carta levam até 15 dias para identificação, dependendo também do número de amostras enviadas.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "86",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-identificacao-de-plantas",
+  "statusDestaque": false
+}

@@ -1,0 +1,215 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13593",
+  "nome": "Emitir Certidão ou Certificado de Registro de Medicamentos, Produtos Biológicos e Radiofármacos",
+  "sigla": "",
+  "descricao": "É uma solicitação para obter Certidão ou Certificado de Registro de medicamentos, produtos biológicos e radiofármacos com registro sanitário válido e autorizado para uso e comercialização no país. Podem ser emitidos os seguintes documentos:\n\n  * Certificado de Registro;\n * Certidão de exportação – modelo Anvisa;\n * Certidão de exportação – modelo OMS.\n  A lista de assuntos de petição relacionados a esse serviço está disponível [neste link](https://consultas.anvisa.gov.br/#/consultadeassuntos/c/?servicos=10038).",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www9.anvisa.gov.br/peticionamento/sat/global/acesso.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124537
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104288,
+        "tipo": "Empresas devidamente regularizadas junto à Anvisa e que sejam detentoras de registro de medicamentos, produtos biológicos ou radiofármacos.",
+        "requisitos": "Deve possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o Sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastros).."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O Certificado de Registro de Produtos Biológicos e Radiofármacos emitido é válido até a data de vencimento do registro do produto, exceto quando, por outro motivo, houver a cassação do registro sanitário, hipótese em que o Certificado será invalidado.\n\n Havendo protocolo do pedido de revalidação do registro no prazo previsto pelo § 6º do Art. 12 da Lei nº 6.360, de 23 de setembro de 1976, o Certificado será válido durante o novo período de vigência do registro revalidado automaticamente."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 174328
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificado",
+        "id": 415103
+      },
+      {
+        "item": "Registro",
+        "id": 415104
+      },
+      {
+        "item": "produto biológico ou radiofármaco ",
+        "id": 415105
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "A legislação aplicável a cada código de assunto pode ser obtida por meio da [Consulta de Assuntos](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao).",
+        "id": 149826
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 243211,
+      "titulo": "Fazer a solicitação",
+      "descricao": "* \n\t 2. Acesse o Sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo já existente”.\n\t 4. Localize o processo relacionado e o assunto relacionado ao pedido. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 319736,
+            "nome": "A documentação para cada tipo de pedido relacionado a esse serviço pode ser obtida por meio da [Consulta de Assuntos](https://www.gov.br/anvisa/pt-br/sistemas/assuntos-de-peticao)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41298,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "varia de acordo com o porte da empresa e tipo de solicitação e pode ser obtido por meio da Consulta de Assuntos.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314149,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243212,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Pode ser acompanhado pelo [Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F). Selecione o CNPJ, acesse a aba “Processos” e em “Filtro rápido” localize o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/) > “Situação de documentos > Técnico” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 314150,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)\n\n [Portal de Consultas](http://consultas.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13583",
+      "nome": "Solicitar Registro de Produtos Biológicos e Radiofármacos"
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-ou-certificado-de-registro-de-medicamentos-produtos-biologicos-e-radiofarmacos",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

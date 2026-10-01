@@ -1,0 +1,258 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11061",
+  "nome": "Solicitar Inserção/Correção de Ato Regulatório no e-MEC",
+  "sigla": "",
+  "descricao": "Serviço oficial do MEC para corrigir ou incluir informações de faculdades e cursos no sistema e-MEC. \n\n **Use quando: **\n\n  * Faltar ato regulatório no cadastro da sua instituição;\n * Houver erro no vínculo de documentos oficiais;\n * Informações do ato regulatório do curso ou da instituição que não aparecerem corretamente no cadastro e-MEC.",
+  "flagPortalLogado": "S",
+  "contato": "Telefone: (61) 2022-8199 Atendimento online: [Fale com o MEC](https://fale-conosco.mec.gov.br/portal \"Fale com o MEC\") (selecione \"SERES\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126209
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105581,
+        "tipo": "Instituições de Educação Superior - IES.",
+        "requisitos": "**Perfis que podem solicitar:**\n\n  * **Diretor/Reitor da instituição **(Representante Legal - RL);\n * **Responsável cadastrado** (Procurador Institucional - PI);\n * **Assistente autorizado** (Auxiliar Institucional - AI).\n  **Observação:** Para instituições estaduais, o próprio PI pode fazer a correção direto no sistema."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176472
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176473
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Atualizar Atos; ",
+        "id": 420332
+      },
+      {
+        "item": "Ato Regulatórios de IES;",
+        "id": 420333
+      },
+      {
+        "item": "Atos Regulatórios de Curso.",
+        "id": 420334
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 9.394/1996 (LDB)\n\n Decreto nº 9.235/2020\n\n Novo: Decreto nº 12.456/2025\n\n  \n\n Este é um serviço do Ministério da Educação (MEC). Para dúvidas, utilize os canais oficiais.",
+        "id": 151452
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 38,
+    "negativas": 68
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 246419,
+      "titulo": "Preencha o Formulário de Solicitação",
+      "descricao": "Acesse o link: [emec.mec.gov.br/](https://emec.mec.gov.br/emec/nova \"emec.mec.gov.br/\")[  \n](https://emec.mec.gov.br \"Sistema E-MEC\")",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322268,
+            "nome": "Formulário de Solicitação:\n\n Se Ato de IES Código e Nome da IES; Indicação do tipo de ação: Inserir Ato faltante, Excluir Ato errado, Corrigir informação de ato já inserido; Dados do Ato; Informações complementares.\n\n Se Ato de CURSO Código e Nome da IES; Código e Nome do Curso; Indicação do tipo de ação: Inserir Ato faltante, Excluir Ato errado, Corrigir informação de ato já inserido; Dados do Ato; Informações complementares."
+          },
+          {
+            "id": 322269,
+            "nome": "Ato a ser inserido ou corrigido (não precisa encaminhar documentação quando a ação for de exclusão)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318677,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=11061)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318678,
+            "tipo": "postal",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318679,
+            "tipo": "presencial",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246420,
+      "titulo": "Identifique o tipo de alteração e o que é necessário informar conforme tabela abaixo:",
+      "descricao": "**Tipo de Alteração** **O que enviar**   Dados da Faculdade Nome completo e código da instituição no e-MEC   Dados do curso Nome do curso e código no sistema   Mudança por prefeitura Formulário III + comprovantes da alteração municipal   Tipo de Problema   * Ato faltante\n * Ato errado\n * Informação incorreta",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318680,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://emec.mec.gov.br \"Sistema E-MEC\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246421,
+      "titulo": "Acompanhe seu pedido",
+      "descricao": "* Receba confirmação por e-mail;\n * Consulte atualizações direto no [e-MEC](https://emec.mec.gov.br/emec/nova \"e-MEC\")\n   \n\n **Tempo de resposta:** Geralmente em até 15 dias úteis.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318681,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://emec.mec.gov.br \"Sistema E-MEC\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-a-insercao-ou-a-correcao-de-dados-de-ato-regulatorio-de-ies-ou-curso",
+  "statusDestaque": false
+}

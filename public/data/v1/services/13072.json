@@ -1,0 +1,219 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13072",
+  "nome": "Solicitar autorização para análise de amostras de rochas e fluidos",
+  "sigla": "SAD, SAFP, EAPE",
+  "descricao": "Certas atividades envolvendo amostras de rochas e fluidos do acervo da União requerem autorização prévia da ANP: envio de amostras obtidas em território nacional ao exterior (EAPE – Envio de Amostras para o Exterior), aplicável a amostras de testemunhos, de calhas, laterais e de fluidos, bem como a lâminas e seções polidas; análise destrutiva (SAD – Solicitação de Análise Destrutiva), aplicável a quaisquer amostras; e amostragem fora do padrão estabelecido (SAFP – Solicitação de Análise Fora do Padrão).\n\n Caso a solicitação seja aprovada, o usuário receberá ofício com a autorização correspondente. \n\n **Para utilizar esse serviço você deve ter um cadastro como usuário externo do SEI-ANP. Para mais informações acesse o serviço \"[Solicitar cadastro como usuário externo no SEI-ANP](http://www.gov.br/pt-br/servicos/cadastrar-usuario-externo-no-sei-anp)\".**",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: sdt\\_crf@anp.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Análise destrutiva, amostragem fora do padrão, envio de amostras ao exterior",
+        "id": 67807
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 60562,
+        "tipo": "Usuários que detêm a posse de amostras de rochas e fluidos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 95160
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 95161
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 95162
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 95163
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exploração e Produção"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Análise de amostras de rochas",
+        "id": 232424
+      },
+      {
+        "item": "Análise de amostras de fluidos",
+        "id": 232425
+      },
+      {
+        "item": "Exploração e Produção de Petróleo e Gás",
+        "id": 232426
+      },
+      {
+        "item": "",
+        "id": 232427
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução ANP nº 71/2014: https://atosoficiais.com.br/anp/resolucao-n-71-2014?origin=instituicao&q=71/2014",
+        "id": 76796
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 134660,
+      "titulo": "Solicitar autorização para análise de amostras",
+      "descricao": "Há formulários distintos para solicitação de envio de amostras ao exterior (EAPE) e para amostragem fora do padrão (SAFP) ou análise destrutiva (SAD)   **Formulários EAPE, SAFP e SAD**: ver seção \"Formulários de amostras de rochas e fluidos\". https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/amostras-de-rochas-e-fluidos",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174217,
+            "tipo": "web",
+            "descricao": "Usuário Externo Sistema Eletrônico de Informação/SEI: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 134661,
+      "titulo": "Acompanhar o processo",
+      "descricao": "Após obter o login, senha e número do processo aberto anteriormente, será possível acessar o Sistema Eletrônico de Informação e acompanhar o atendimento da demanda realizada. Ao entrar no sistema, localize a opção 'processo intermitente' e forneça o número do processo para prosseguir.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174218,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13073",
+      "nome": "Solicitar acesso a amostras de rochas e fluidos da União"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13054",
+      "nome": "Solicitar cadastro de usuário externo no SEI-ANP"
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/autorizar-analise-de-amostras-de-rochas-e-fluidos",
+  "statusDestaque": false
+}

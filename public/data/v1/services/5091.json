@@ -1,0 +1,198 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5091",
+  "nome": "Certificar imóvel rural",
+  "sigla": "",
+  "descricao": "Validar o georreferenciamento (levantamento topográfico) de um imóvel rural. Com isso, é possível certificar a área, garantindo que seus limites não estão sobrepostos aos de outro imóvel existente na base de dados do Sistema de Gestão Fundiária (Sigef).\n\n O proprietário do imóvel rural deve contratar um profissional credenciado para realizar o georreferenciamento de sua propriedade. [Consulte a relação de credenciados.](https://sigef.incra.gov.br/consultar/credenciados/)",
+  "flagPortalLogado": "N",
+  "contato": "[Serviço de Cartografia das Superintendências Regionais do Incra.](http://www.gov.br/incra/pt-br/composicao/superintendencias-regionais) Os contatos da Coordenação-Geral de Cartografia do Incra são coordenacao.cartografia@incra.gov.br e (61) 3411-7374.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sigef.incra.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 93016
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 79338,
+        "tipo": "Os profissionais credenciados pelo Incra para realizar o georreferenciamento das propriedades rurais. [Consulte a relação de credenciados.](https://sigef.incra.gov.br/consultar/credenciados/)",
+        "requisitos": "O imóvel rural deve estar inscrito e ter matrícula aberta no Cartório de Registro de Imóveis."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1799",
+    "dbId": 36785,
+    "nomeOrgao": "Instituto Nacional de Colonização e Reforma Agrária (INCRA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 128988
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 128989
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 128990
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imóveis"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificação de imóvel rural",
+        "id": 313426
+      },
+      {
+        "item": "Georreferenciamento de imóvel rural",
+        "id": 313427
+      },
+      {
+        "item": "SIGEF",
+        "id": 313428
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei 10.267/2001  \nLei 6.015/1973  \nDecreto 4.449/2002",
+        "id": 107204
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 227,
+    "negativas": 181
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público tem direito ao atendimento presencial, quando necessário, em instalações higiênicas, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Com base na [Lei nº 10.048/2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm), serão atendidos primeiro:\n\n Pessoas com deficiência;\n\n Idosos (idade igual ou maior que 60 anos);\n\n Grávidas;\n\n Mulheres que ainda estão amamentando;\n\n Pessoas com crianças de colo;\n\n Obesos.",
+  "tratamentoDispensadoAtendimento": "Conforme a [Lei nº 13.460/2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), o usuário deverá receber um atendimento com:\n\n Urbanidade;\n\n Respeito;\n\n Acessibilidade;\n\n Cortesia;\n\n Presunção da boa-fé do usuário;\n\n Igualdade;\n\n Eficiência;\n\n Segurança;\n\n Ética.",
+  "etapas": [
+    {
+      "id": 180034,
+      "titulo": "Certificar o imóvel rural",
+      "descricao": "O profissional credenciado deve enviar a planilha com as informações do proprietário e do imóvel rural e com as coordenadas de todos os pontos que definem os limites da área para o [Sistema de Gestão Fundiária (Sigef)](http://sigef.incra.gov.br/).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 236485,
+            "tipo": "web",
+            "descricao": "[Acessar o Sistema de Gestão Fundiária (SIGEF).](http://sigef.incra.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 180035,
+      "titulo": "Gerar a planta e o memorial descritivo do imóvel certificado",
+      "descricao": "Após o sistema certificar o imóvel rural, o profissional credenciado ou o proprietário podem gerar, a qualquer momento, a planta e o memorial descritivo. O interessado deve acessar <https://sigef.incra.gov.br/consultar/parcelas/> e informar os dados solicitados no formulário de consulta.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 236486,
+            "tipo": "web",
+            "descricao": "AcessarÂ <https://sigef.incra.gov.br/consultar/parcelas/>.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "56",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/validar-levantamento-topografico-de-imovel-rural",
+  "statusDestaque": false
+}

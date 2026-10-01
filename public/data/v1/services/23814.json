@@ -1,0 +1,302 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23814",
+  "nome": "Habilitar-se como estabelecimentos e/ou equipes de transplante",
+  "sigla": "",
+  "descricao": "Este serviço permite que estabelecimentos de saúde, equipes especializadas, bancos de tecidos humanos e laboratórios de histocompatibilidade e imunogenética solicitem ao Ministério da Saúde a habilitação para atuar no Sistema Nacional de Transplantes (SNT).\n\n A solicitação é iniciada junto à Central Estadual de Transplantes (CET), que encaminha a proposta por meio do Sistema de Apoio à Implementação de Políticas em Saúde (SAIPS) à Coordenação-Geral do Sistema Nacional de Transplantes (CGSNT/DAET/SAES).  \n Após a análise, é realizada vistoria técnica no local e, quando aprovada, é publicada Portaria de habilitação no Diário Oficial da União.",
+  "flagPortalLogado": "N",
+  "contato": "snt@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://saips.saude.gov.br/autenticacao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123503
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103228,
+        "tipo": "*  Estabelecimentos de saúde\n\n \n *  Equipes especializadas\n\n \n *  Bancos de tecidos humanos\n\n \n *  Laboratórios de Histocompatibilidade e Imunogenética\n\n \n *  Gestores municipais e estaduais de saúde",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "90 dias após o recebimento da proposta e a realização da vistoria técnica, caso não haja diligência"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172733
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Credenciamentos e Habilitações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Equipes de transplantes",
+        "id": 411021
+      },
+      {
+        "item": "Credenciamento",
+        "id": 411022
+      },
+      {
+        "item": "Habilitar equipes de transplantes",
+        "id": 411023
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Legislação: Regulamento Técnico do Sistema Nacional de Transplantes - Anexo I da Portaria de Consolidação GM/MS nº 4, de 28/9/2017; Decreto 9.175, de 18/10/2018",
+        "id": 148517
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240925,
+      "titulo": "Solicitar orientação à Central Estadual de Transplantes (CET)",
+      "descricao": "Solicitar à CET do respectivo estado orientações sobre a documentação exigida para a habilitação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311081,
+            "tipo": "presencial",
+            "descricao": "Central Estadual de Transplantes (CET), conforme orientação do gestor local",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240926,
+      "titulo": "Protocolar documentação junto à CET",
+      "descricao": "Protocolar a documentação exigida junto à Central Estadual de Transplantes.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311082,
+            "tipo": "presencial",
+            "descricao": "Central Estadual de Transplantes (CET), conforme orientação do gestor local",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240927,
+      "titulo": "Registrar proposta no SAIPS",
+      "descricao": "Registrar a proposta de habilitação no Sistema de Apoio à Implementação de Políticas em Saúde (SAIPS), pela CET.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311083,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://saips.saude.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240928,
+      "titulo": "Realizar vistoria técnica",
+      "descricao": "Realizar vistoria técnica no local a ser habilitado, após análise da proposta pela CGSNT.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311084,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://saips.saude.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240929,
+      "titulo": "Publicar portaria de habilitação",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311085,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/imprensanacional/pt-br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/habilitar-estabelecimentos-e-equipes-de-transplante",
+  "statusDestaque": false
+}

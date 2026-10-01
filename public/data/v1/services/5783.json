@@ -1,0 +1,221 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5783",
+  "nome": "Obter 2ª via de diploma de graduação - UFJF",
+  "sigla": "",
+  "descricao": "É a segunda via do diploma de graduação, documento que atesta a conclusão do curso de graduação realizado pela pessoa citada no mesmo, confirmando-se que preencheu todos os requisitos necessários e faz jus à denominação contida no documento recebido.",
+  "flagPortalLogado": "N",
+  "contato": "Coordenadoria de Assuntos e Registros Acadêmicos - 32 21023911 - cdara@ufjf.edu.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ufjf.br/cat/formularios",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 31848
+      },
+      {
+        "item": "Certificado",
+        "id": 31849
+      },
+      {
+        "item": "Declaração",
+        "id": 31850
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31374,
+        "tipo": "Todos aqueles que necessitem da segunda via do documento previamente emitido.",
+        "requisitos": "Ter concluído curso de graduação na UFJF."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O documento tem validade indeterminada, contudo, o mesmo poderá ser cassado se houver a verificação de alguma ilegalidade ou irregularidade na concessão do mesmo."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/424",
+    "dbId": 57769,
+    "nomeOrgao": "Universidade Federal de Juiz de Fora (UFJF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50176
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 112695
+      },
+      {
+        "item": "Segunda via",
+        "id": 112696
+      },
+      {
+        "item": "Graduação",
+        "id": 112697
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "https://www2.ufjf.br/consu/wp-content/uploads/sites/33/2022/02/Resolu%C3%A7%C3%A3o-01.2022\\_SEI\\_Assinada.pdf\n\n https://www2.ufjf.br/planejamento//files/2018/05/Portaria-14.pdf",
+        "id": 32489
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 65566,
+      "titulo": "Emitir e Pagar GRU",
+      "descricao": "Emissão de GRU conforme https://www2.ufjf.br/cdara/graduacao/servicos/orientacoes-sobre-pagamento-de-taxas/ e pagamento da taxa.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 93899,
+            "nome": "Pagamento da taxa."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 9844,
+            "descricao": "Taxa definida pelo CDARA",
+            "moeda": "R$",
+            "valor": " 115,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84290,
+            "tipo": "web-emitir",
+            "descricao": "Emitir GRU e pagar a taxa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 65567,
+      "titulo": "Solicitar 2ª via do diploma",
+      "descricao": "Preencher formulário em https://www2.ufjf.br/cat/formularios/segunda-via-de-diploma-de-graduacao/ para solicitar 2ª via do diploma.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 93900,
+            "nome": "Comprovante de pagamento da taxa."
+          },
+          {
+            "id": 93901,
+            "nome": "Documento de identidade."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 84291,
+            "tipo": "web-preencher",
+            "descricao": "Preencher formulário de solicitação de 2ª via de diploma.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufjf",
+  "statusDestaque": false
+}

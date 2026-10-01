@@ -1,0 +1,220 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13245",
+  "nome": "Retirar mercadoria importada de forma fracionada",
+  "sigla": "",
+  "descricao": "Solicite autorização para entrega da mercadoria importada em partes, de forma fracionada. \n\n A entrega fracionada é possível quando a mercadoria, importada por via terrestre, por seu tamanho ou peso, não possa ser transportada em um só veículo ou viagem e quando for efetuado o registro de uma única declaração de importação (DI), correspondente a uma só importação e a um único conhecimento de carga.\n\n [Manual do sistema Siscomex](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-importacao/topicos-1/despacho-de-importacao/etapas-do-despacho-aduaneiro-de-importacao/entrega-da-mercadoria/entrega-fracionada)\n\n [Manual Anexação](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-importacao/topicos-1/despacho-de-importacao/etapas-do-despacho-aduaneiro-de-importacao/entrega-de-documentos)",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalunico.siscomex.gov.br/portal/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127411
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106607,
+        "tipo": "O importador da mercadoria ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178217
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178218
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 178219
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 178220
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Importação",
+        "id": 424809
+      },
+      {
+        "item": "Siscomex",
+        "id": 424810
+      },
+      {
+        "item": "Entrega Fracionada",
+        "id": 424811
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa SRF nº 680/2006](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15618)",
+        "id": 152803
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248961,
+      "titulo": "Solicitar entrega fracionada",
+      "descricao": "O pedido de entrega fracionada deve ser anexado ao dossiê vinculado da respectiva declaração de importação (DI), no Sistema Anexação de Documentos no Portal Único de Comércio Exterior.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324210,
+            "nome": "Documento de identificação do responsável pela retirada das mercadorias;"
+          },
+          {
+            "id": 324211,
+            "nome": "Nota Fiscal de entrada, ou equivalente, ressalvados os casos de dispensa;"
+          },
+          {
+            "id": 324212,
+            "nome": "Conhecimento de carga, ou equivalente, conforme previsto no art. 754 do Código Civil; e"
+          },
+          {
+            "id": 324213,
+            "nome": "Comprovante de recolhimento ou exoneração de ICMS (dispensado se feito pelo “Pagamento Centralizado” do Portal Único do Comércio Exterior)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321747,
+            "tipo": "web",
+            "descricao": "[Portal Único de Comércio Exterior](https://portalunico.siscomex.gov.br/portal/) (Módulo Anexação)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 248962,
+      "titulo": "Obter o resultado",
+      "descricao": "O resultado do pedido de autorização para entrega fracionada será informado no Siscomex -DI.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321748,
+            "tipo": "web",
+            "descricao": "[Siscomex-DI](http://www1.siscomex.receita.fazenda.gov.br/siscomexImpweb-7/login_cert.jsp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/retirar-mercadoria-importada-de-forma-fracionada",
+  "statusDestaque": false
+}

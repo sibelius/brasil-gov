@@ -1,0 +1,264 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9344",
+  "nome": "Solicitar o reparo do serviço de conexão à internet do PBLE ou Conectividade Rural",
+  "sigla": "",
+  "descricao": "Solicitar reparo no serviço de conexão (falta de sinal, configuração de modem, intermitência no sinal, etc.) à internet do Programa Banda Larga na Escola ou Conectividade Rural nas instituições de ensino.",
+  "flagPortalLogado": "S",
+  "contato": "Fale Conosco: 0800-616161 de segunda a sexta-feira, das 8h às 20h\n\n Plataforma Fala/Br: [https://falabr.cgu.gov.br/](https://falabr.cgu.gov.br/ \"https://falabr.cgu.gov.br/\")\n\n E-mail: bandalarga@fnde.gov.br.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "PBLE",
+        "id": 126013
+      },
+      {
+        "item": "Internet na escola",
+        "id": 126014
+      },
+      {
+        "item": "Internet Rural",
+        "id": 126015
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105411,
+        "tipo": "Escolas, Núcleos de Tecnologia Educacional e Secretarias de Educação Municipais, Estaduais e do Distrito Federal",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "35",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 35
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/253",
+    "dbId": 34339,
+    "nomeOrgao": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176180
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação básica"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Banda Larga na Escola",
+        "id": 419691
+      },
+      {
+        "item": "PBLE",
+        "id": 419692
+      },
+      {
+        "item": "Internet na escola",
+        "id": 419693
+      },
+      {
+        "item": "Conectividade Rural",
+        "id": 419694
+      },
+      {
+        "item": "4G Anatel",
+        "id": 419695
+      },
+      {
+        "item": "Internet Rural",
+        "id": 419696
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 2.592 (Aprova o Plano Geral de Metas para a Universalização do Serviço Telefônico Fixo Comutado Prestado no Regime Publico - PGMU)\n\n Decreto nº 4.769 (Revoga alínea “b” do inciso II do art. 7º do Plano Geral de Metas para a Universalização do Serviço Telefônico Fixo Comutado Prestado no Regime Público – PGMU)\n\n Decreto nº 6.424 (Altera e acresce dispositivos ao Anexo do Decreto nº 4.769)",
+        "id": 151250
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 15,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246002,
+      "titulo": "Solicitação",
+      "descricao": "O solicitante deve informar o problema enfrentado, o número do protocolo do chamado técnico aberto junto à operadora responsável e comunicar o código INEP, nome da escola, telefone de contato, UF e município.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318158,
+            "tipo": "web",
+            "descricao": "<https://solicitacao.servicos.gov.br/processos/iniciar?CodServico=9344>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246003,
+      "titulo": "Encaminhamento e execução",
+      "descricao": "De posse dos dados, a equipe do FNDE verifica qual é a operadora responsável pelo atendimento da unidade, encaminha a solicitação à equipe responsável pela solução e monitora o atendimento da demanda.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318159,
+            "tipo": "e-mail",
+            "descricao": "A equipe do FNDE encaminha e-mail com as informações da escola e o relato do problema para a operadora de telefonia responsável.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246004,
+      "titulo": "Realização do reparo",
+      "descricao": "A operadora de serviço de dados investiga a origem do problema e realiza o reparo da conexão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318160,
+            "tipo": "telefone",
+            "descricao": "Nos casos onde o reparo pode ser realizado através de informação de procedimentos a serem realizados pelo usuário",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318161,
+            "tipo": "presencial",
+            "descricao": "Nos casos em que é necessária a troca de equipamentos.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "35",
+  "percentualAvaliacoesPositivas": "68",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-o-reparo-do-servico-de-conexao-a-internet-do-pble",
+  "statusDestaque": false
+}

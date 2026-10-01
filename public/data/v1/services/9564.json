@@ -1,0 +1,194 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9564",
+  "nome": "Obter dados da Rede Gravimétrica Fundamental Brasileira",
+  "sigla": "RGFB",
+  "descricao": "Prover as coordenadas, fotos, croquis e descrições, valores da aceleração da gravidade local e de suas incertezas, as anomalias da gravidade de Ar-Livre e de Bouguer Simples de centenas de estações altas precisão e exatidão em todo o Brasil.",
+  "flagPortalLogado": "N",
+  "contato": "Dr. Mauro Andrade de Sousa\n\n Telefones: (21) 2580-7081 e (21) 3504-9129",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://extranet.on.br/bdgon/gravimetria/index.php",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 31710
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31281,
+        "tipo": "Cidadãos, empresas e instituições públicas, estatais e privadas, departamentos universitários de geociências, física e metrologia, agências de regulação e Sistema SENAI.",
+        "requisitos": "Apenas conexão com internet."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 49975
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 49976
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 49977
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Calibração, processos e experimentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Rede Gravimétrica",
+        "id": 112313
+      },
+      {
+        "item": "Observatório Nacional",
+        "id": 112314
+      },
+      {
+        "item": "Aceleração da gravidade",
+        "id": 112315
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Portaria ON/DIR nº 23, junho de 2017",
+        "id": 32372
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 19
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 65335,
+      "titulo": "Cadastrar o solicitante no portal",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 83996,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://extranet.on.br/bdgon/gravimetria/index.php)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 65336,
+      "titulo": "Obter dados da RGFB",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 83997,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://extranet.on.br/bdgon/gravimetria/index.php)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "24",
+  "url": "https://www.gov.br/pt-br/servicos/obter-dados-da-rede-gravimetrica-fundamental-brasileira-rgfb",
+  "statusDestaque": false
+}

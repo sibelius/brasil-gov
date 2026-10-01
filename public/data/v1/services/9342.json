@@ -1,0 +1,192 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9342",
+  "nome": "Solicitar uso de faixa de domínio adjacentes às rodovias federais - DNIT",
+  "sigla": "",
+  "descricao": "É a autorização dada a pessoa física ou jurídica para ocupar as faixas adjacentes às rodovias federais sob administração do DNIT. A faixa de domínio é a base física sobre a qual se assenta uma rodovia, sendo que nas áreas laterais é possível o uso, o qual obedecerá às condições de segurança do trânsito estabelecidas pelo DNIT.",
+  "flagPortalLogado": "N",
+  "contato": "[faixadedominio@dnit.gov.br](mailto:faixadedominio@dnit.gov.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.dnit.gov.br//controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 67592
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 60431,
+        "tipo": "Pessoa física ou jurídica",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844",
+    "dbId": 23732,
+    "nomeOrgao": "Departamento Nacional de Infraestrutura de Transportes (DNIT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 94854
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 94855
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infraestrutura"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DNIT",
+        "id": 231818
+      },
+      {
+        "item": "DENIT",
+        "id": 231819
+      },
+      {
+        "item": "Multas de Trânsito",
+        "id": 231820
+      },
+      {
+        "item": "Faixa de Domínio",
+        "id": 231821
+      },
+      {
+        "item": "Rodovia",
+        "id": 231822
+      },
+      {
+        "item": "",
+        "id": 231823
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "<http://www.dnit.gov.br/rodovias/operacoes-rodoviarias/faixa-de-dominio>",
+        "id": 76591
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 146,
+    "negativas": 72
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 134330,
+      "titulo": "Solicitação de uso e verificação de viabilidade",
+      "descricao": "O interessado deverá informar, em formulário próprio, a área de interesse, fornecendo informações necessárias para o DNIT avaliar o pedido. São feitas duas avaliações: uma para   \nviabilidade do tipo de ocupação pretendido no ponto indicado, para a qual deve ser paga uma tarifa de avaliação de viabilidade. Confirmada a viabilidade inicia-se a parte de entrega de projetos, para os quais deve ser paga nova tarifa acerca do exame dos projetos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 21461,
+            "descricao": "Preço de Análise de  Viabilidade (PAV)",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "De R$ 50,00 a R$2.465,28",
+            "statusCustoVariavel": 1
+          },
+          {
+            "id": 21462,
+            "descricao": "Preço de Exame de Projeto (PEP)",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "De R$324,72 a R$13.297,88",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 173747,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sei.dnit.gov.br//controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)\n\n O usuário estando logado, clica no item do menu-> Peticionamento -> Processo Novo.  \nEm seguida o usuário deve selecionar o tipo de processo: Operações de Infraestrutura Rodoviária -> Faixa de Domínio, Em seguida o usuário deve preencher os dados -> clicar no botão peticionar -> seleciona o cargo - > insere senha para concluir o peticionamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 173748,
+            "tipo": "presencial",
+            "descricao": "Nas superintendências regionais, cujo endereço está disponível em:\n\n <https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "67",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-uso-de-faixa-de-dominio-adjacentes-as-rodovias-federais-dnit",
+  "statusDestaque": false
+}

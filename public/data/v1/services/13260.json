@@ -1,0 +1,160 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13260",
+  "nome": "Agendar uma consulta no Complexo Hospitalar Universitário Professor Edgard Santos",
+  "sigla": "",
+  "descricao": "Os serviços prestados de saúde são de média e alta complexidade, abrangem as unidades Clinicas, cirúrgica, pediátrica, psicologia, nutrição e unidade de terapia intensiva. O Complexo HUPES atende a pacientes com patologias que demandam atenção especializada de forma diferenciada da atenção básica preventiva de outros centros para atendimento aos pacientes do SUS.\n\n As especlialidades oferecidas no HUPES, assim como maiores informações, estão disponíveis em nossa Carta de Serviços [clicando aqui](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-nordeste/hupes-ufba/acesso-a-informacao/acoes-e-programas/copy2_of_CartadeServiosdoHupes2023.pdf).",
+  "flagPortalLogado": "N",
+  "contato": "Maiores informações sobre agendamentos via Central de Regulação podem ser obtidos através do telefone 156.\n\n Caso tenha dúvidas quantos aos serviços do HUPES, podem nos contatar através do telefone (71) 3646-3400.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "atendimento especializado",
+        "id": 90431
+      },
+      {
+        "item": "atendimento ambulatorial",
+        "id": 90432
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 77295,
+        "tipo": "Pessoas que estão inscritas no Sistema Único de Saúde (SUS), encaminhadas pela sua Unidade Básica de Saúde ou Secretaria Municipal de Saúde (no caso de usuários residentes fora do Município de Salvador).\n\n Paciente precisa, inicialmente, comparecer na sua Unidade Básica para realizar consulta em atenção básica para posterior encaminhamento.",
+        "requisitos": "Documentação solicitada pela Central de Regulação. Maiores informações podem ser obtidas através do telefone 156."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201442",
+    "dbId": 32662,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Edgard Santos (EBSERH - UFBA/Salvad)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 125525
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Atendimento especializado",
+        "id": 304803
+      },
+      {
+        "item": "Atendimento ambulatorial",
+        "id": 304804
+      },
+      {
+        "item": "Consultas médicas",
+        "id": 304805
+      },
+      {
+        "item": "Consultas multiprofissionais",
+        "id": 304806
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 104210
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 35,
+    "negativas": 25
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 175341,
+      "titulo": "Agendamento do serviço",
+      "descricao": "O cidadão deverá comparecer na Central de Regulação com a requisição para atendimento especializado. Havendo disponibilidade de vagas, o atendimento inicial será agendado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 241700,
+            "nome": "Documentos de identificação\n\n Cartão do SUS\n\n Comprovante de residência"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 230261,
+            "tipo": "presencial",
+            "descricao": "O atendimento é realizado nas Unidades Básicas de Saúde ou na sede da Prefeitura-Bairro.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "58",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-uma-consulta-no-complexo-hospitalar-universitario-professor-edgard-santos",
+  "statusDestaque": false
+}

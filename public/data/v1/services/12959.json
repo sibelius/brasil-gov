@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12959",
+  "nome": "Responder requisição sobre bens e direitos enviada pela Receita Federal",
+  "sigla": "",
+  "descricao": "Responda à requisição enviada pela Receita Federal sobre circularização (pedido de informações) ou arrolamento de bens e direitos. Este serviço é exclusivo para órgãos que tenham recebido ofício ou requerimento da Receita Federal.\n\n [Consulte o manual do sistema](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/manuais/manual-arrolamento.pdf).\n\n Por meio deste serviço o órgão de registro informa à Receita Federal:\n\n  * se existe ou não algum bem ou direito em nome do contribuinte, além de outras informações relativas a ele;\n * sobre a averbação ou registro de arrolamento, com anotação no registro do bem de que está arrolado como garantia de dívida tributária; e\n * sobre o cancelamento da averbação ou registro de arrolamento.",
+  "flagPortalLogado": "N",
+  "contato": "Envie um e-mail para [conprovi@rfb.gov.br](mailto:conprovi@rfb.gov.br?subject=Circularização ou arrolamento de bens e direitos \"Entre em contato\").\n\n Leia o [manual do sistema](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/manuais/manual-arrolamento.pdf \"Manual de atendimento a ofícios para órgãos de registro.\").",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.receitafederal.gov.br/servico/arrolamento",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127373
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106573,
+        "tipo": "Órgãos responsáveis pelo registro de bens e direitos que tenham recebido ofício ou requisição da Receita Federal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 178126
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços Adicionais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Arrolamento",
+        "id": 424680
+      },
+      {
+        "item": "Bens",
+        "id": 424681
+      },
+      {
+        "item": "Cartório",
+        "id": 424682
+      },
+      {
+        "item": "Circularização",
+        "id": 424683
+      },
+      {
+        "item": "Direitos",
+        "id": 424684
+      },
+      {
+        "item": "Garantia",
+        "id": 424685
+      },
+      {
+        "item": "Ofício",
+        "id": 424686
+      },
+      {
+        "item": "Registro",
+        "id": 424687
+      },
+      {
+        "item": "Requisição",
+        "id": 424688
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.091/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=124573)",
+        "id": 152736
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 30,
+    "negativas": 71
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248896,
+      "titulo": "Responder à requisição",
+      "descricao": "Acesse o sistema abaixo, informe o CNPJ do órgão de registro e o número da requisição que consta no ofício recebido. Em seguida responda cada requisição conforme orientações disponíveis no [manual do sistema](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/manuais/manual-arrolamento.pdf \"Manual de atendimento a ofícios para órgãos de registro.\").",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324079,
+            "nome": "Correspondência recebida com o código da requisição."
+          }
+        ],
+        "casos": [
+          {
+            "id": 49143,
+            "descricao": "Se a requisição tratar de bens imóveis",
+            "documento": [
+              {
+                "id": 324078,
+                "codigo": null,
+                "descricao": "A matrícula do imóvel em formato PDF.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321619,
+            "tipo": "web",
+            "descricao": "[Responder OfÃ­cio sobre Bens e Direitos](https://servicos.receitafederal.gov.br/servico/arrolamento)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "30",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/responder-requisicao-sobre-bens-e-direitos-enviada-pela-receita-federal",
+  "statusDestaque": false
+}

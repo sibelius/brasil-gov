@@ -1,0 +1,302 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23689",
+  "nome": "Solicitar  moradia institucional ou pagamento de auxílio-moradia para médicos-residentes",
+  "sigla": "",
+  "descricao": "Serviço destinado aos médicos-residentes vinculados a programas de residência médica reconhecidos pela CNRM, que garante o acesso à moradia durante o período de formação. Quando a instituição não dispõe de estrutura habitacional, o residente pode solicitar o pagamento de auxílio-moradia, equivalente a 10% do valor da bolsa. O benefício visa assegurar condições adequadas de permanência e formação, contribuindo para a qualidade da experiência formativa e assistencial.",
+  "flagPortalLogado": "N",
+  "contato": "residencias@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123297
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103051,
+        "tipo": "Médicos-residentes com matrícula ativa em Programas de Residência Médica autorizados pela CNRM",
+        "requisitos": "**Requisitos necessários:**\n\n Requerimento de solicitação do benefício;  \nComprovante de matrícula ativa;  \nDocumento de identificação com foto;  \nComprovante de inscrição no CadÚnico (quando aplicável);  \nDeclaração da instituição sobre inexistência de moradia institucional (para fins de concessão de auxílio)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172339
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Apoio técnico e financeiro"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Moradia Institucional",
+        "id": 410333
+      },
+      {
+        "item": "Auxilio moradia para médico-residentes",
+        "id": 410334
+      },
+      {
+        "item": "Moradia para médico-residente",
+        "id": 410335
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148195
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 24,
+    "negativas": 54
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240417,
+      "titulo": "Verificar se sua instituição oferece o benefício",
+      "descricao": "Confirme junto à instituição ofertante do programa de residência médica se há moradia institucional disponível.  \nCaso não exista, será possível solicitar o auxílio-moradia.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310402,
+            "tipo": "presencial",
+            "descricao": "Consulta na Instituição",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240418,
+      "titulo": "Reunir a documentação necessária",
+      "descricao": "Prepare os documentos solicitados pela instituição, que podem incluir:\n\n Requerimento de solicitação do benefício;\n\n Comprovante de matrícula ativa no programa;\n\n Documento de identificação com foto;\n\n Comprovante de inscrição no CadÚnico (se aplicável);\n\n Declaração da COREME ou da instituição sobre inexistência de moradia institucional.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310403,
+            "tipo": "presencial",
+            "descricao": "juntar documentação",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240419,
+      "titulo": "Solicitar Benefício",
+      "descricao": "Comprovante de inscrição no CadÚnico (se aplicável);\n\n Declaração da COREME ou da instituição sobre inexistência de moradia institucional.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310404,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-norte/hu-unifap/ensino-e-pesquisa/programas-de-residencia/coreme-comissao-de-residencia-medica)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240420,
+      "titulo": "Aguardar Análise",
+      "descricao": "A instituição verificará a disponibilidade de moradia e a elegibilidade para o auxílio.  \nO pagamento, quando autorizado, tem início no mês seguinte ao deferimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310405,
+            "tipo": "presencial",
+            "descricao": "aguardar",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 240421,
+      "titulo": "Acompanhar o uso e manutenção do benefício",
+      "descricao": "Se estiver em moradia institucional, mantenha o espaço conforme as normas internas.\n\n Se receber o auxílio, comunique imediatamente qualquer mudança de vínculo ou desligamento do programa, para evitar pagamentos indevidos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310406,
+            "tipo": "e-mail",
+            "descricao": "residencias@saude.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-moradia-institucional-ou-pagamento-de-auxilio-moradia-para-medicos-residentes",
+  "statusDestaque": false
+}

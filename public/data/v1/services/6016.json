@@ -1,0 +1,179 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6016",
+  "nome": "Registrar diplomas de faculdades, centros universitários e universidades privadas para graduação",
+  "sigla": "",
+  "descricao": "O registro de diploma é o ato que dá validade nacional ao diploma expedido por uma faculdade, como prova da formação recebida por seu titular.",
+  "flagPortalLogado": "N",
+  "contato": "PROGRAD – 27 4009 7830/ 4009 7883.\n\n E-mail: ies.cerd.prograd@ufes.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://prograd.ufes.br/ies-brasileira",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 43510
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 40686,
+        "tipo": "Instituições de Ensino Superior, que não possuem prerrogativa para registro dos diplomas por elas expedidos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425",
+    "dbId": 57779,
+    "nomeOrgao": "Universidade Federal do Espírito Santo (UFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 65757
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 150874
+      },
+      {
+        "item": "registro",
+        "id": 150875
+      },
+      {
+        "item": "faculdade",
+        "id": 150876
+      },
+      {
+        "item": "universidade",
+        "id": 150877
+      },
+      {
+        "item": "ensino",
+        "id": 150878
+      },
+      {
+        "item": "superior",
+        "id": 150879
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 47485
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 15
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 87480,
+      "titulo": "Solicitação de registros de diplomas",
+      "descricao": "A Instituição de ensino interessada em registrar seus diplomas com a UFES deverá acessar o Portal de Registro de Diplomas (PRD) disponível em [https://registro.diplomas.ufes.br](https://registro.diplomas.ufes.br/) e realizar seu cadastro que será submetido à análise. Uma vez aprovado, a Instituição estará habilitada para prosseguir com as solicitações de registro.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 124212,
+            "nome": "Terá como condição para aprovação do cadastro da IES, para fins de instrução de processo de registro de diploma, os dados informados no Portal de Registro de Diploma estar em conformidade com os dados informados sobre a IES no sistema eMEC ou na Plataforma Sucupira/CAPES, quando for o caso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111811,
+            "tipo": "web",
+            "descricao": "Portal de registro de diploma: [https://registro.diplomas.ufes.br](https://registro.diplomas.ufes.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 111812,
+            "tipo": "e-mail",
+            "descricao": "[ies.cerd.prograd@ufes.br](mailto:ies.cerd.prograd@ufes.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "7",
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 7,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "32",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufes",
+  "statusDestaque": false
+}

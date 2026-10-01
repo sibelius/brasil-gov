@@ -1,0 +1,165 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12355",
+  "nome": "Conferir autenticidade de documento emitido via SEI da PRF",
+  "sigla": "",
+  "descricao": "Por meio desde serviço o usuário poderá verificar a autenticidade de documentos emitidos via SEI da PRF.",
+  "flagPortalLogado": "N",
+  "contato": "Este é um serviço do(a) [Polícia Rodoviária Federal](https://www.gov.br/../orgaos/policia-rodoviaria-federal) . Em caso de dúvidas, reclamações ou sugestões favor contactá-lo.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.prf.gov.br/sei/controlador_externo.php?acao=documento_conferir&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 32487
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31815,
+        "tipo": "Qualquer pessoa pode utilizar este serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50913
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 50914
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 50915
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 50916
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "conferência",
+        "id": 114442
+      },
+      {
+        "item": "autenticidade",
+        "id": 114443
+      },
+      {
+        "item": "documento",
+        "id": 114444
+      },
+      {
+        "item": "verificação",
+        "id": 114445
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33143
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 39
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [lei 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 66606,
+      "titulo": "Acessar o link de Conferência de Autenticidade de Documentos",
+      "descricao": "Preecher os códigos referentes ao documento que se deseja confeir. Pesquisar e obter o resultado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85652,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sei.prf.gov.br/sei/controlador_externo.php?acao=documento_conferir&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "url": "https://www.gov.br/pt-br/servicos/conferir-autenticidade-de-documento-emitido-via-sei-da-prf",
+  "statusDestaque": false
+}

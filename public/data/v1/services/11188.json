@@ -1,0 +1,216 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11188",
+  "nome": "Obter autorização para retirada de resíduos de embarcação (APS S.A.)",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá solicitar cadastramento e autorização para fazer a retirada de resíduos sólidos ou oleosos de embarcações no Porto de Santos",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Meio Ambiente\n\n Telefone (13) 3202-6565 - Ramal 2755",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128198
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107339,
+        "tipo": "Empresas interessadas em fazer a retirada de resíduos sólidos ou oleosos de embarcações",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179310
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "resíduos ",
+        "id": 427300
+      },
+      {
+        "item": "meio ambiente ",
+        "id": 427301
+      },
+      {
+        "item": "cadastramento",
+        "id": 427302
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[NAP.GEMAM.OPR.002/2021](http://www.portodesantos.com.br/informacoes-operacionais/normas-e-regulamentos/)\n\n [Tarifa Portuária do Porto de Santos](http://www.portodesantos.com.br/informacoes-operacionais/operacoes-portuarias/tarifas-portuarias/)",
+        "id": 153712
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250709,
+      "titulo": "Efetuar cadastro",
+      "descricao": "O interessado deverá acessar [o site do Porto de Santos](https://www.portodesantos.com.br/central-de-servicos/cadastramento-de-empresas-para-retirada-de-residuos-de-embarcacao/ \"site do Porto de Santos\") no qual constam os normativos específicos. Protocolar a solicitação de credenciamento no Sistema de Protocolo Digital, efetuar o pagamento da Tarifa Portuária de Credenciamento e submeter a documentação obrigatória no Sistema de Credenciamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41872,
+            "descricao": "Custo Portuário, conforme item 12.2.7, da Tabela VII da Tarifa Portuária do Porto de Santos",
+            "moeda": "R$",
+            "valor": " 595,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324046,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital (Protocolo da solicitação)\n\n [Acesse o site](https://portaldocliente.portodesantos.com.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 324047,
+            "tipo": "e-mail",
+            "descricao": "Pagamento da Tarifa Portuária (Solicitação da guia de pagamento)\n\n rsm@portodesantos.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 324048,
+            "tipo": "web",
+            "descricao": "Sistema de Credenciamento (envio da documentação obrigatória)\n\n [Acesse o site](http://residuos.portodesantos.com.br/credenciamentoui/pages/login.html#/login )",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250710,
+      "titulo": "Obter credenciamento/autorização",
+      "descricao": "Após a solicitação, a documentação será analisada pela equipe técnica e o interessado será comunicado do resultado, podendo ser solicitada a complementação de documentos, se o caso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324049,
+            "tipo": "web",
+            "descricao": "A comunicação a respeito da análise quanto à solicitação é feita através do próprio sistema de credenciamento, emitindo um certificado digital e, também, através de e-mails cadastrados pelas próprias empresas por meio do e-mail: sga.credenciamento@portodesantos.[Acesse o site](gov.br).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-retirada-de-residuos-de-embarcacao-aps-sa",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

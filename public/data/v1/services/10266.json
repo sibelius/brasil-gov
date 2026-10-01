@@ -1,0 +1,203 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10266",
+  "nome": "Apresentar Recurso Administrativo - 1ª Instância – Registro de Preço de Medicamentos",
+  "sigla": "",
+  "descricao": "É um pedido para revisar o preço aprovado para um medicamento , após primeira analise da CMED (Câmara de Regulação do Mercado de Medicamentos).",
+  "flagPortalLogado": "N",
+  "contato": "Atendimento Telefônico: 0800-642 9782 (dias úteis, das 7h30 às 19h30); \n\n [Webchat ](http://anvisa.chat.comunix.tech:8090/)\n\n [Formulário eletrônico](http://portal.anvisa.gov.br/fale-conosco)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 95251
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81014,
+        "tipo": "Empresas com medicamentos registrados na Anvisa.",
+        "requisitos": "Requisitos: Login e senha no sistema SAMMED."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132131
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Medicamentos e Produtos para Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Preços de medicamentos",
+        "id": 321388
+      },
+      {
+        "item": "SCMED",
+        "id": 321389
+      },
+      {
+        "item": "recurso",
+        "id": 321390
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 10.742, de 6 de outubro de 2003](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/fraWeb?OpenFrameSet&Frame=frmWeb2&Src=/legisla/legislacao.nsf/Viw_Identificacao/lei%2010.742-2003?OpenDocument&AutoFramed)",
+        "id": 110138
+      },
+      {
+        "item": "[Decreto nº 4.766, de 26 de junho de 2003](http://www2.camara.leg.br/legin/fed/decret/2003/decreto-4766-26-junho-2003-497170-norma-pe.html)",
+        "id": 110139
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 184093,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Acesse o SAMMED com o login e senha do gestor de segurança. Selecione a opção “Consultar Petição” e utilize um ou mais filtros disponíveis para acessar a petição de DIP. Clique no link “reconsideração ou recurso” e preencha os campos obrigatórios. Anexe os documentos que justifiquem a solicitação e envie a petição.\n\n [Acesse o manual do SAMMED](http://portal.anvisa.gov.br/documents/374947/3413536/Manual+do+Novo+Sammed+2019/d973a319-6c9b-49f1-9e31-b8867cd580d1).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 251129,
+            "nome": "Documentos que justifiquem a reconsideração e/ou recurso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241648,
+            "tipo": "web",
+            "descricao": "[Acesse o SAMMED.](http://sammed-web.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 184094,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no SAMMED, acesse “Consultar petição” e utilize os filtros disponíveis para localizar a petição desejada. O parecer técnico contendo resultado da análise de reconsideração ou recurso pode ser acessado pela empresa na opção “Caixa Postal”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241649,
+            "tipo": "web",
+            "descricao": "[Acesse o SAMMED.](http://sammed-web.anvisa.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "38",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/apresentar-recurso-administrativo-2013-registro-de-preco-de-medicamentos",
+  "statusDestaque": false
+}

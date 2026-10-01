@@ -1,0 +1,292 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3138",
+  "nome": "Obter validação de modificação estrangeira em aeronave, motor ou hélice requerido pelo detentor do certificado de tipo",
+  "sigla": "Mod ao CT",
+  "descricao": "É o processo pelo qual a ANAC aprova um projeto estrangeiro de modificação em aeronave, motor ou hélice, via solicitação do detentor do Certificado de Tipo (CT) estrangeiro, com o objetivo de avaliar o cumprimento com os requisitos brasileiros de aeronavegabilidade e de proteção ambiental.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Validação de Modificação ao Projeto de Tipo",
+        "id": 87472
+      },
+      {
+        "item": "Emenda ao Certificado de Tipo",
+        "id": 87473
+      },
+      {
+        "item": "Design Change Validation",
+        "id": 87474
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74994,
+        "tipo": "Detentor de Certificado de Tipo estrangeiro.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "4",
+      "unidade": "meses"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 4
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121467
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 294927
+      },
+      {
+        "item": "aviação",
+        "id": 294928
+      },
+      {
+        "item": "certificado suplementar de tipo",
+        "id": 294929
+      },
+      {
+        "item": "aeronavegabilidade",
+        "id": 294930
+      },
+      {
+        "item": "certificado de tipo",
+        "id": 294931
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 21 - Certificação de Produto](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 100481
+      },
+      {
+        "item": "[Acordos Bilaterais](https://sistemas.anac.gov.br/certificacao/Acordos/Acordos.asp)",
+        "id": 100482
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n + Respeito;\n + Acessibilidade;\n + Cortesia;\n + Presunção da boa-fé do usuário;\n + Igualdade;\n + Eficiência;\n + Segurança; e\n + Ética.",
+  "etapas": [
+    {
+      "id": 169626,
+      "titulo": "Requerer validação da modificação",
+      "descricao": "Submeter requerimento de validação da modificação (Formulário 101-11 ou carta com informações) e encaminhar à ANAC por intermédio da autoridade do Estado de Projeto. Apresentar documentação técnica que permita o conhecimento das características do projeto a ser validado e indicar formas de contato.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236033,
+            "nome": "[Formulário de Requerimento F101-11](https://sistemas.anac.gov.br/certificacao/Form/FormE.asp) - Application for Certification Works disponível (ou carta com as informações)."
+          },
+          {
+            "id": 236034,
+            "nome": "Dados e descrição de projeto em aderência com o bilateral aplicável, tais como \"Compliance Check Lists\", manuais aprovados, especificações de tipo, listas mestras de desenhos, base de certificação da autoridade estrangeira com texto de condições especiais, níveis equivalentes de segurança e isenções de requisitos de aeronavegabilidade, ruído e emissões."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222523,
+            "tipo": "web",
+            "descricao": "O pedido pode ser encaminhado via Peticionamento Eletrônico.  \nNo protocolo eletrônico o solicitante deverá escolher a opção: Certificação de Produto: Validação de Modificação Estrang. ao Certificado de Tipo pelo detentor do CT.  \nVeja vídeo explicativo [aqui](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 222524,
+            "tipo": "e-mail",
+            "descricao": "Em caso de problemas com o protocolo SEI!, alternativamente o contato poderá ser feito pelo email: [progcert@anac.gov.br](mailto:progcert@anac.gov.br) com cópia para o GPC da ANAC designado (se conhecer de antemão).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169627,
+      "titulo": "Apresentar as informações e documentos requeridos e viabilizar familiarização técnica.",
+      "descricao": "Apresentar informações em reuniões ou comunicações com a ANAC. Por exemplo: relatórios de descrição dos sistemas, de análises, de propostas de ensaios, de resultados dos ensaios ou inspeções, declarações, manuais, posições técnicas, etc. Essa etapa é interativa com a ANAC e a autoridade estrangeira, até que tenham sido apresentadas todas as informações de forma satisfatória. Quando for aplicável, pode ser requerida familiarização, visita técnica ou ensaios in loco, a ser coordenado com a ANAC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236035,
+            "nome": "Relatórios de descrição dos sistemas, de análises, de propostas de ensaios, de resultados dos ensaios ou inspeções ou auditorias, desenhos, declarações, manuais, \"issue papers\", etc."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222525,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 222526,
+            "tipo": "e-mail",
+            "descricao": "Na forma eletrônica combinada com a ANAC discutida no planejamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "meses"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169628,
+      "titulo": "Submeter declaração de cumprimento com requisitos e receber a aprovação da modificação.",
+      "descricao": "O requerente e a autoridade estrangeira atestam o cumprimento com requisitos aplicáveis e, após conclusão da avaliação da ANAC, o requerente fará jus à aprovação da modificação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236036,
+            "nome": "Declaração de Cumprimento de Requisitos emitido pela autoridade do estado de projeto (Statement of Compliance)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222527,
+            "tipo": "e-mail",
+            "descricao": "Na forma eletrônica combinada com a ANAC discutida no planejamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "75",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-validacao-de-grande-modificacao-ao-projeto-de-tipo-estrangeiro",
+  "statusDestaque": false
+}

@@ -1,0 +1,249 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9368",
+  "nome": "Obter Vinculação de Usuário Administrador no Sistema de Registro de Serviços Aéreos",
+  "sigla": "SIROS",
+  "descricao": "O objetivo do serviço é cadastrar usuário com **perfil de administrador** para utilização do [Sistema de Registro de Serviços Aéreos (SIROS)](https://siros.anac.gov.br/siros), com poderes para gerenciar (vincular, excluir etc.) usuários de **perfil de registro** e **perfil de leitura**, além de visualizar, incluir e alterar registros de voos.\n\n A realização do Registro de Serviços Aéreos permite às empresas aéreas proceder com a comercialização dos voos, sabendo que esses registros precisam ter correspondência direta com a infraestrutura aeroportuária e aeronáutica alocada para essas operações aéreas.\n\n [Clique aqui para conhecer o processo de Registro de Serviços Aéreos de acordo com a Resolução nº 440/2017](https://www.gov.br/anac/pt-br/assuntos/regulados/empresas-aereas/registro-de-servicos-aereos)",
+  "flagPortalLogado": "N",
+  "contato": "Acesse a página [Fale com a ANAC](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou ligue para o Canal de Atendimento 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://siros.anac.gov.br/siros",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SIROS",
+        "id": 62578
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 56663,
+        "tipo": "Empresas brasileiras de transporte aéreo público.\n\n Empresas estrangeiras que operam no brasil transporte aéreo público.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 88910
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros e Credenciamentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 215659
+      },
+      {
+        "item": "SIROS",
+        "id": 215660
+      },
+      {
+        "item": "Registro de Serviços Aéreos",
+        "id": 215661
+      },
+      {
+        "item": "Administrador",
+        "id": 215662
+      },
+      {
+        "item": "Usuário",
+        "id": 215663
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 11.182, de 27 de setembro de 2005.](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/leis/lei-no-11-182-de-27-09-2005)",
+        "id": 70503
+      },
+      {
+        "item": "[Resolução n° 440, de 09 de agosto de 2017.](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2017/resolucao-no-440-09-08-2017)",
+        "id": 70504
+      },
+      {
+        "item": "[Portaria nº 2.177, de 26 de agosto de 2020.](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2020/portaria-no-2177-sas-26-08-2020)",
+        "id": 70505
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei Nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * urbanidade,\n * respeito,\n * acessibilidade,\n * cortesia,\n * presunção da boa-fé do usuário,\n * igualdade,\n * eficiência,\n * segurança e\n * ética.",
+  "etapas": [
+    {
+      "id": 124673,
+      "titulo": "Cadastrar-se como usuário do Sistema Siros",
+      "descricao": "Acessar o [Sistema de Registro de Serviços Aéreos (SIROS)](https://siros.anac.gov.br/siros), no menu escolher \"Usuário\" e então \"novo\". Preencher as informações e salvar.\n\n [Manual do Sistema de Registro de Serviços Aéreos (SIROS)](https://siros.anac.gov.br/SIROS/Conta/lib/manual.pdf)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 161359,
+            "tipo": "web",
+            "descricao": "[Sistema de Registro de Serviços Aéreos (SIROS)](https://siros.anac.gov.br/siros)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 124674,
+      "titulo": "Solicitar vinculação do usuário administrador",
+      "descricao": "Gerar um processo no [Protocolo Eletrônico da ANAC](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0), do tipo \"Empresas,Empresas, Oper. e Serv. Aéreos: Cadastro de Usuário no Sistema de Registro de Operações (SIROS)\", onde deve ser anexado o documento indicado abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 174369,
+            "nome": "Solicitação formal assinada pelo representante legal da empresa, com a indicação do nome completo do usuário, documento (CPF ou passaporte para estrangeiros) e o e-mail de contato para esse perfil."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 161360,
+            "tipo": "web",
+            "descricao": "[Protocolo Eletrônico da ANAC](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 124675,
+      "titulo": "Receber comunicação da ANAC",
+      "descricao": "O usuário deve aguardar a análise da ANAC e a comunicação com o resultado.  \nO andamento do processo pode ser consultado a qualquer tempo no sistema [Protocolo Eletrônico da ANAC](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 161361,
+            "tipo": "web",
+            "descricao": "[Protocolo Eletrônico da ANAC](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "33",
+  "url": "https://www.gov.br/pt-br/servicos/obter-cadastro-de-usuario-no-sistema-de-registro-de-operacoes-siros",
+  "statusDestaque": false
+}

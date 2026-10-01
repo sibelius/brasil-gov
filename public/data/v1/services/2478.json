@@ -1,0 +1,194 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2478",
+  "nome": "Obter autorização para pesquisa em Unidades de Conservação Federais",
+  "sigla": "SISBIO",
+  "descricao": "O Sisbio é um sistema de atendimento à distância que permite aos pesquisadores solicitarem autorizações para a realização de pesquisas e atividades didáticas do ensino superior, em unidades de conservação federais ou cavernas, ou quando essas atividades envolvem o manuseio da fauna silvestre mesmo fora de áreas federais protegidas.\n \nOs tipos de solicitações disponibilizadas no Sisbio são:\n\n• Autorizações para atividades com finalidade científica;\n• Autorizações para atividades com finalidade didática (no âmbito do ensino superior);\n• Licença Permanente;\n• Registro Voluntário para coleta e transporte de material botânico, fúngico e microbiológico\n\nSaiba mais também acessando o Portal em: http://www.icmbio.gov.br/sisbio/",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "porcentagemManual": false,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Licença permanente para pesquisa",
+        "id": 5852
+      },
+      {
+        "item": "Autorização para pesquisa",
+        "id": 5853
+      },
+      {
+        "item": "Autorização para atividades didáticas",
+        "id": 5854
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 9491,
+        "tipo": "Pesquisadores vinculados a instituições de pesquisa e professores de nível superior.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": "",
+    "min": 31,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/91842",
+    "dbId": 36726,
+    "nomeOrgao": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 14668
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Meio Ambiente e Clima"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "licença",
+        "id": 25198
+      },
+      {
+        "item": "pesquisa",
+        "id": 25199
+      },
+      {
+        "item": "Unidade de Conservação",
+        "id": 25200
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 30,
+    "negativas": 31
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n· Urbanidade;\n· Respeito;\n· Acessibilidade;\n· Cortesia;\n· Presunção da boa-fé do usuário;\n· Igualdade;\n· Eficiência;\n· Segurança; e\n· Ética",
+  "etapas": [
+    {
+      "id": 17430,
+      "titulo": "Requerer autorização",
+      "descricao": "Caso você ainda não tenha cadastro no SISBIO, clique na aba \"novo cadastro\" no link abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 35064,
+            "nome": "Login e Senha no SISBIO"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 19541,
+            "tipo": "web",
+            "descricao": "https://sicae.sisicmbio.icmbio.gov.br/usuario-externo/login",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 17431,
+      "titulo": "Receber licença",
+      "descricao": "Estes documento deve permancer na posse do pesquisador durante toda a atividade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 19542,
+            "tipo": "web",
+            "descricao": "https://ibamanet.ibama.gov.br/sisbio/sistema/",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "49",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-pesquisa-em-unidades-de-conservacao-federais",
+  "statusDestaque": false
+}

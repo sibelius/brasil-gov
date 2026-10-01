@@ -1,0 +1,315 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8052",
+  "nome": "Solicitar modificação de frota de empresa estrangeira para transporte rodoviário internacional de cargas",
+  "sigla": "",
+  "descricao": "Compreende a solicitação de inclusão, exclusão ou alteração de dados de veículos da frota de transportador estrangeiro que detenha Licença Complementar, concedida pela Agência Nacional de Transportes Terrestres – ANTT, para realização de transporte rodoviário internacional de cargas.",
+  "flagPortalLogado": "N",
+  "contato": "**CTRIC - ctric@antt.gov.br  \nOuvidoria - ouvidoria@antt.gov.br ou telefone 166  \nDúvidas relacionadas às solicitações: (61) 3410-1233**",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0#",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Modificação de frota de empresa estrangeira no TRIC",
+        "id": 106503
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89678,
+        "tipo": "Transportador estrangeiro habilitado para a prestação de serviço regular de transporte rodoviário internacional de cargas",
+        "requisitos": "Licença Complementar outorgada pela ANTT para prestação de serviço de transporte rodoviário internacional de cargas entre o país de origem do transportador e o Brasil e vice-versa."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "3",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 148554
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "frota",
+        "id": 356145
+      },
+      {
+        "item": "estrangeira",
+        "id": 356146
+      },
+      {
+        "item": "TRIC",
+        "id": 356147
+      },
+      {
+        "item": "transporte internacional",
+        "id": 356148
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução nº 6.038, de 8 de fevereiro de 2024](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&sgl_tipo=RES&num_ato=00006038&seq_ato=000&vlr_ano=2024&sgl_orgao=DG/ANTT/MT&cod_modulo=421&cod_menu=8720)",
+        "id": 124046
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 208031,
+      "titulo": "Cadastrar solicitação",
+      "descricao": "Etapa destinada ao cadastro de solicitação de modificação da frota de transportador rodoviário internacional de cargas. Nessa etapa deve ser encaminhado o documento de modificação de frota emitido pelo organismo competente estrangeiro e o requerimento padrão (disponível no site da ANTT) assinado pelo representante legal da empresa.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 281740,
+            "nome": "Documento de modificação de frota emitido pelo organismo competente estrangeiro e o requerimento padrão (disponível no site da ANTT) assinado pelo representante legal da empresa."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270308,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270309,
+            "tipo": "e-mail",
+            "descricao": "ctric@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208032,
+      "titulo": "Análise e alteração  no Sistema de Controle de Frotas - SCF;",
+      "descricao": "Inclusão, Exclusão, alteração de frota no Sistema de Controle de Frotas - SCF,  emissão de comprovante de alteração de frota (fax) e envio para o requerente por meio de e-mail pelo SEI. Caso seja verificado alguma inconsistência, parecer de indeferimento ou pendência será enviado ao requerente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270310,
+            "tipo": "e-mail",
+            "descricao": "ctric@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208033,
+      "titulo": "Recursos, quando for o caso.",
+      "descricao": "Recursos podem ser feitos a qualquer tempo pelos meios de peticionamento disponíveis.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270311,
+            "tipo": "e-mail",
+            "descricao": "ctric@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270312,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI: [Acesse o site](https://portal.antt.gov.br/web/guest/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208034,
+      "titulo": "Aprovação tácita, quando for o caso.",
+      "descricao": "Aprovação tácita em até 3 (dois) dias úteis desde que atendidos os requisitos previstos nos Acordos Internacionais e traduzidos na Resolução ANTT 6.038/2024",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270313,
+            "tipo": "e-mail",
+            "descricao": "ctric@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270314,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI: [Acesse o site](https://portal.antt.gov.br/web/guest/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-modificacao-de-frota-de-empresa-estrangeira-para-transporte-rodoviario-internacional-de-cargas",
+  "statusDestaque": false
+}

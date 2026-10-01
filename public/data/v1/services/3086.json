@@ -1,0 +1,223 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3086",
+  "nome": "Alterar nome de produto (plano de saúde)",
+  "sigla": "",
+  "descricao": "A alteração do nome do produto poderá ser requerida pela operadora de acordo com a forma e os procedimentos definidos na Instrução Normativa nº28/2022.",
+  "flagPortalLogado": "N",
+  "contato": "ggrep.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Alteração de  produto",
+        "id": 72848
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64045,
+        "tipo": "Operadoras de plano de saúde",
+        "requisitos": "Possuir registro de operadora junto à ANS e possuir produto registrado no sistema RPS"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101127
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "plano de saúde",
+        "id": 248173
+      },
+      {
+        "item": "alterar nome",
+        "id": 248174
+      },
+      {
+        "item": "produto",
+        "id": 248175
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 543/2022\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)\n\n  IN 28/2022\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)",
+        "id": 82497
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 52,
+    "negativas": 57
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 143641,
+      "titulo": "Solicitar alteração",
+      "descricao": "A operadora deverá solicitar a alteração de nome comercial do produto através do envio pelo protocolo eletrônico constante no link https://www2.ans.gov.br/ans-idp/",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203568,
+            "nome": "Comprovante de pagamento da Taxa de Alteração de Produtos (TAP)\n\n  Procuração do representante legal \n\n Solicitação formal, assinada e com identificação do representante da operadora junto à ANS"
+          },
+          {
+            "id": 203569,
+            "nome": "Procuração do representante legal"
+          },
+          {
+            "id": 203570,
+            "nome": "Solicitação formal, assinada e com identificação do representante da operadora junto à ANS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 23829,
+            "descricao": "Taxa de Alteração de Produtos (TAP): R$ 1.405,35",
+            "moeda": "R$",
+            "valor": " 1.405,35",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186550,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143642,
+      "titulo": "Receber resposta",
+      "descricao": "WEB\n\n https://www2.ans.gov.br/ans-idp/",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186551,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 186552,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "48",
+  "totalSimplifique": "1",
+  "simplifiqueSolicitacoes": "0",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "1",
+  "url": "https://www.gov.br/pt-br/servicos/alterar-nome-do-produto-em-registro-de-plano-de-saude",
+  "statusDestaque": false
+}

@@ -1,0 +1,202 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10449",
+  "nome": "Solicitar Diploma de Mestrado",
+  "sigla": "PPG",
+  "descricao": "Solicitação de emissão de diploma de pós-graduação. Retirada deverá ser feita presencialmente.",
+  "flagPortalLogado": "N",
+  "contato": "Endereço: R. Capote Valente, 710 - Jardim Paulista, São Paulo - SP, 05409-002\n\n Atendimento on-line: fundacentroescuta@fundacentro.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Emissão de diploma de mestrado na Fundacentro",
+        "id": 29610
+      },
+      {
+        "item": "Requerimento de diploma de mestrado na Fundacentro",
+        "id": 29611
+      },
+      {
+        "item": "Obtenção de diploma de mestrado na Fundacentro",
+        "id": 29612
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 29491,
+        "tipo": "Cidadão que concluiu o programa de mestrado da Fundacentro.",
+        "requisitos": "Ter concluído curso de mestrado da Fundacentro"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/221",
+    "dbId": 34308,
+    "nomeOrgao": "Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho (FUNDACENTRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 46912
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicações e Requerimentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DIPLOMA",
+        "id": 105243
+      },
+      {
+        "item": "PÓS-GRADUAÇÃO",
+        "id": 105244
+      },
+      {
+        "item": "MESTRADO",
+        "id": 105245
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 29706
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 61515,
+      "titulo": "Preencher requerimento de diploma",
+      "descricao": "Preencher requerimento de diploma",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 89534,
+            "nome": "CPF e RG"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 79011,
+            "tipo": "presencial",
+            "descricao": "Endereço: R. Capote Valente, 710 - Jardim Paulista, São Paulo - SP, 05409-002\n\n Atendimento on-line: fundacentroescuta@fundacentro.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 61516,
+      "titulo": "Preencher autorização para divulgação de obra",
+      "descricao": "Preencher autorização para divulgação de obra no Portal da Fundacentro",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 89535,
+            "nome": "CPF e RG"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 79012,
+            "tipo": "presencial",
+            "descricao": "Endereço: R. Capote Valente, 710 - Jardim Paulista, São Paulo - SP, 05409-002\n\n Atendimento on-line: fundacentroescuta@fundacentro.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-diploma-de-mestrado",
+  "statusDestaque": false
+}

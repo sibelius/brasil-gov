@@ -1,0 +1,198 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6027",
+  "nome": "Obter diploma ou 2ª via de diploma",
+  "sigla": "",
+  "descricao": "Se você já emitiu o seu diploma no Instituto Federal de Educação, Ciência e Tecnologia de Roraima, pode obter a 2º via do diploma através deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Fone: (95) 3624-1224  \n E-mail: [gabinete.reitoria@ifrr.edu.br](mailto:gabinete.reitoria@ifrr.edu.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/3561/servico/6027/solicitar/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "obter",
+        "id": 45275
+      },
+      {
+        "item": "diploma",
+        "id": 45276
+      },
+      {
+        "item": "ifrr",
+        "id": 45277
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 42066,
+        "tipo": "Cidadãos",
+        "requisitos": "Ter emitido ao menos 1º via do diploma no âmbito do Instituto Federal de Educação, Ciência e Tecnologia de Roraima"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "14",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 14
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3561",
+    "dbId": 36745,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia de Roraima (IFRR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 68084
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 156164
+      },
+      {
+        "item": "2ª via",
+        "id": 156165
+      },
+      {
+        "item": "ifrr",
+        "id": 156166
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 49703
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 90733,
+      "titulo": "Solicitar diploma",
+      "descricao": "Nesta etapa você deverá confirmar a solicitação. A opção de selecionar a emissão da 2º via só será exibida para os egressos que emitiram ao menos uma única vez o diploma no IFRR. Ao finalizar a solicitação será aberto um processo interno no IFRR e a solicitação encaminhada ao setor de emissão de diploma do Campus de Conclusão do Curso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 115763,
+            "tipo": "web",
+            "descricao": "[Acesse aqui.](https://balcaodigital.ifrn.edu.br/proxy/servicos/instituicao/3561/servico/6027/solicitar/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 90734,
+      "titulo": "Receber diploma",
+      "descricao": "Ao concluir o processamento do diploma, o egresso será notificado, por e-mail, que o diploma está pronto para retirada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 115764,
+            "tipo": "presencial",
+            "descricao": "Campus do IFRR em que o egresso concluiu o curso.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "14",
+  "percentualAvaliacoesPositivas": "44",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-ifrr",
+  "statusDestaque": false
+}

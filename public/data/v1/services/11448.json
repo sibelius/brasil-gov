@@ -1,0 +1,187 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11448",
+  "nome": "Solicitar publicações técnico-cientificas do INPE",
+  "sigla": "",
+  "descricao": "Trata-se da solicitação de cópias digitais das publicações técnico-científicas produzidas por autores do Instituto Nacional de Pesquisas Espaciais (INPE) unidade de pesquisa vinculada ao Ministério da Ciência, Tecnologia e Inovações (MCTI).",
+  "flagPortalLogado": "N",
+  "contato": "O usuário poderá entrar em contato com o setor de atendimento por meio do e-mail biblioteca@inpe.br ou pelo telefone (12)3208-6910.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Solicitação de teses e dissertações",
+        "id": 70345
+      },
+      {
+        "item": "Solicitação de publicações didáticas",
+        "id": 70346
+      },
+      {
+        "item": "Solicitação de relatórios e boletins",
+        "id": 70347
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 62409,
+        "tipo": "Sociedade em geral, instituições nacionais e internacionais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "3",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 98186
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 98187
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 98188
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 98189
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Publicações técnico-científicas",
+        "id": 240432
+      },
+      {
+        "item": "Teses e dissertações",
+        "id": 240433
+      },
+      {
+        "item": "Manuais e Relatórios",
+        "id": 240434
+      },
+      {
+        "item": "Biblioteca INPE",
+        "id": 240435
+      },
+      {
+        "item": "Instituto Nacional de Pesquisas Espaciais",
+        "id": 240436
+      },
+      {
+        "item": "INPE",
+        "id": 240437
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 79483
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [lei nº13.460/17](http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [lei nº 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [lei nº 13.460/17](http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 139308,
+      "titulo": "Solicitar a publicação desejada.",
+      "descricao": "Enviar e-mail para biblioteca@inpe.br contendo dados da publicação desejada.  \nA Biblioteca verificará se possui a publicação em formato digital para envio de cópia. Caso a publicação esteja em formato impresso, será realizada a digitalização e envio para o interessado.  \nCaso haja alguma restrição de acesso ou de uso da publicação, o solicitante será informado sobre tal restrição e, se há alguma forma alternativa para obtenção da publicação desejada (contato direto com a editora ou autor).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 180446,
+            "tipo": "e-mail",
+            "descricao": "biblioteca@inpe.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "81",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-publicacoes-tecnico-cientificas-do-inpe",
+  "statusDestaque": false
+}

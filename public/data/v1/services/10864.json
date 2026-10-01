@@ -1,0 +1,163 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10864",
+  "nome": "Compensar tributos apurados pelo Simples Nacional",
+  "sigla": "",
+  "descricao": "Compense débitos apurados pelo Simples Nacional com saldo de pagamentos realizados indevidamente ou a maior por meio de Documento de Arrecadação do Simples Nacional (DAS).\n\n **Atenção!** A compensação só pode ser feita entre débitos e créditos relativos ao mesmo ente federado (união, estados, DF e municípios) e mesmo tributo.\n\n Este serviço trata apenas de débitos e créditos apurados pelo Simples Nacional. Para compensar tributos apurados de outras formas, [clique aqui](http://www.gov.br/receitafederal/pt-br/servicos/restituicoes-e-compensacoes/compensar).",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre restituição, ressarcimento e reembolso](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/restituicao-ressarcimento-reembolso-e-compensacao) \n\n [Manual da compensação do Simples Nacional](https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/MANUAL_COMPENSA%C3%87%C3%83O.pdf) \n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122574
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102480,
+        "tipo": "Microempresa (ME) ou Empresa de Pequeno Porte (EPP) optante pelo Simples Nacional.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171157
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Compensação",
+        "id": 407887
+      },
+      {
+        "item": "Débito",
+        "id": 407888
+      },
+      {
+        "item": "Crédito",
+        "id": 407889
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002#2311139)",
+        "id": 147214
+      },
+      {
+        "item": "[Lei Complementar nº 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm)",
+        "id": 147215
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 20,
+    "negativas": 70
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239016,
+      "titulo": "Compensar tributos do Simples Nacional",
+      "descricao": "Acesse o sistema para realizar a compensação. O sistema retorna apenas os pagamentos de Simples Nacional, com valores disponíveis, que tenham sido pagos em um período menor que 5 anos.\n\n Selecione o pagamento e o débito com que deseja compensar. A compensação é automática.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308536,
+            "tipo": "web",
+            "descricao": "[Minhas Compensações do Simples](https://cav.receita.fazenda.gov.br/autenticacao/login/index/95)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 308537,
+            "tipo": "web",
+            "descricao": "[Compensação a pedido](https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=t&area=1) (Portal do Simples Nacional)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/compensar-tributos-do-simples-nacional",
+  "statusDestaque": false
+}

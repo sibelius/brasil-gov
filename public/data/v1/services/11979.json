@@ -1,0 +1,287 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11979",
+  "nome": "Obter a 2ª via de diploma de graduação ou pós-graduação - UFAL",
+  "sigla": "",
+  "descricao": "Possibilidade do egresso requerer emissão de 2ª via de diploma ou certificado (graduação, especialização, mestrado e doutorado).",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (82) 3214-1086  \nE-mail: [registro@drca.ufal.br](mailto:registro@drca.ufal.br)  \nWebsite: <http://www.ufal.edu.br/>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://ufal.br/estudante/documentos/manuais/manual-para-a-emissao-de-gru/view",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 105559
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 88928,
+        "tipo": "Cidadão.",
+        "requisitos": "Egresso da Instituição."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/420",
+    "dbId": 57764,
+    "nomeOrgao": "Universidade Federal de Alagoas (UFAL)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 147291
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "2ª Via de Diploma",
+        "id": 353178
+      },
+      {
+        "item": "2ª Via de Certificado",
+        "id": 353179
+      },
+      {
+        "item": "Egresso",
+        "id": 353180
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução nº 32/2005 – CONSUNI/UFAL, de 05 de dezembro de 2005](http://ufal.br/resolucoes/2005?b_start:int=30)\n\n [Portaria MEC No 1.095, de 25 de outubro de 2018](http://portal.mec.gov.br/index.php?option=com_docman&view=download&alias=100081-portaria-diplomas&category_slug=outubro-2018-pdf-1&Itemid=30192)\n\n [LEI Nº 12.605, DE 3 DE ABRIL DE 2012.](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12605.htm)",
+        "id": 122689
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [lei nº13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela[ lei 10.048](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm), de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 206357,
+      "titulo": "Realizar o pagamento da taxa",
+      "descricao": "Pagar a taxa no valor de R$ 10,00 (dez reais).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [],
+        "casos": [
+          {
+            "id": 42996,
+            "descricao": "Pagamento",
+            "custo": [
+              {
+                "id": 36340,
+                "descricao": "Pagar taxa",
+                "moeda": "R$",
+                "valor": " 10,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268277,
+            "tipo": "web-emitir",
+            "descricao": "Emitir a GRU no link:Â [ Emitir](https://ufal.br/estudante/documentos/manuais/manual-para-a-emissao-de-gru/view)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 206358,
+      "titulo": "Preencher o formulário específico",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268278,
+            "tipo": "web-preencher",
+            "descricao": "Para acesso: [ Preencher](https://ufal.br/estudante/documentos/formularios/expedicao-de-diplomas-e-certificados)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 206359,
+      "titulo": "Protocolar processo administrativo",
+      "descricao": "Para abertura de processo administrativo o interessado deve enviar a documentação digitalizada para o seguinte endereço: protocolo.geral@reitoria.ufal.br\n\n Anexar ao e-mail todos os documentos necessários.\n\n Caso haja pendências na documentação encaminhada a equipe da Divisão de Registro Acadêmico entrará em contato.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280003,
+            "nome": "• Requerimento específico;  \n• Cópia da Carteira de Identidade;  \n• Comprovante do pagamento da taxa. \n\n **Atenção:** Anexar ao processo todos os documentos necessários. Caso haja pendências na documentação encaminhada a equipe da Divisão de Registro Acadêmico entrará em contato."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268279,
+            "tipo": "e-mail",
+            "descricao": "Enviar e-mail para *protocolo.geral@reitoria.ufal.br*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 206360,
+      "titulo": "Aguardar a produção do diploma",
+      "descricao": "O diploma será entregue no prazo de até 120 dias contados a partir da data da abertura do processo.\n\n O DRCA informa por e-mail a disponibilidade do diploma para retirada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 268280,
+            "tipo": "e-mail",
+            "descricao": "O DRCA informa por e-mail a disponibilidade do diploma para retirada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/requerer-2a-via-de-diploma-ou-certificado-ufal",
+  "statusDestaque": false
+}

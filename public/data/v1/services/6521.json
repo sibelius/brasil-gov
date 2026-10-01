@@ -1,0 +1,336 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6521",
+  "nome": "Matricular-se em curso de graduação da UFRRJ",
+  "sigla": "",
+  "descricao": "Se você deseja fazer graduação na Universidade, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Divisão de Registros Acadêmicos - 2681-4904 - mlopes@ufrrj.br",
+  "gratuito": "true",
+  "porcentagemDigital": 33,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "matrícula",
+        "id": 40634
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 38323,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/432",
+    "dbId": 57758,
+    "nomeOrgao": "Universidade Federal Rural do Rio de Janeiro (UFRRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 61738
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Inscrição",
+        "id": 141093
+      },
+      {
+        "item": "Processo Seletivo",
+        "id": 141094
+      },
+      {
+        "item": "Graduação",
+        "id": 141095
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 44038
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 81587,
+      "titulo": "apresentação de documentação para a matrícula.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 117216,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 117217,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 117218,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 117219,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 117220,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 117221,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 117222,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 117223,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 117224,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 117225,
+            "nome": "CPF"
+          },
+          {
+            "id": 117226,
+            "nome": "NIS"
+          },
+          {
+            "id": 117227,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 103913,
+            "tipo": "web",
+            "descricao": "Acesso ao site [Acesse o site](http://r1.ufrrj.br/sisu)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "60",
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 60,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 81588,
+      "titulo": "cadastro no sistema acadêmico",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 117228,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 117229,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 117230,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 117231,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 117232,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 117233,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 117234,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 117235,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 117236,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 117237,
+            "nome": "CPF"
+          },
+          {
+            "id": 117238,
+            "nome": "NIS"
+          },
+          {
+            "id": 117239,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 103914,
+            "tipo": "presencial",
+            "descricao": "UFRRJ/ Divisão de Registros Acadêmicos",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "16",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 16,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 81589,
+      "titulo": "ASSINATURA DA LISTA DE PRESENÇA",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 103915,
+            "tipo": "presencial",
+            "descricao": "UFRRJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "33",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufrrj",
+  "statusDestaque": false
+}

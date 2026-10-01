@@ -1,0 +1,235 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9912",
+  "nome": "Obter cota de importação inicial",
+  "sigla": "",
+  "descricao": "É a definição da quantidade de substâncias controladas que uma empresa pode importar para fins comerciais. Vale para as substâncias das listas A1, A2, A3, B1, B2, C3, D1 e de plantas sujeitas a controle especial.",
+  "flagPortalLogado": "N",
+  "contato": "pela [Central de Atendimento da Anvisa](https://www.gov.br/../../anvisa/pt-br/canais_atendimento).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cota inicial",
+        "id": 89127
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76303,
+        "tipo": "Empresas importadoras de substâncias controladas",
+        "requisitos": "Requisitos: Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o sistema Solicita. \n\n [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/../../anvisa/pt-br/sistemas/cadastros)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O documento é válido durante todo o período de utilização da substância."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123835
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Medicamentos e Produtos para Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "controlados",
+        "id": 300307
+      },
+      {
+        "item": "cota de importação inicial",
+        "id": 300308
+      },
+      {
+        "item": "importação",
+        "id": 300309
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "* [Lei nº 6.360/1976](http://www.planalto.gov.br/ccivil_03/leis/l6360.htm)",
+        "id": 102456
+      },
+      {
+        "item": "* [Lei nº 9.782/1999](http://www.planalto.gov.br/ccivil_03/leis/l9782.htm)",
+        "id": 102457
+      },
+      {
+        "item": "* [Lei nº 11.343, de 23 de agosto de 2006 ](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm)",
+        "id": 102458
+      },
+      {
+        "item": "* [Decreto-Lei nº 5.912/2006](http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Decreto/D5912.htm)",
+        "id": 102459
+      },
+      {
+        "item": "*  [RDC nº 659 de 30 de março de 2022](https://anvisabr.sharepoint.com/sites/cartadeservicos/Documentos%20Compartilhados/Aplicativos/Microsoft%20Forms/Atualiza%C3%A7%C3%A3o%20da%20Carta%20de%20Servi%C3%A7os%20Anvisa/Referente%20%C3%A0%20atualiza%C3%A7%C3%A3o%20deste(s)%20servi%C3%A7o(s)%20Anexe/uj274pbir14er5g0ccjkbsn5ki_1740575141_Elmo%20Santana.pdf) -  Dispõe sobre o controle de importação e exportação de substâncias, plantas e medicamentos sujeitos a controle especial.",
+        "id": 102460
+      },
+      {
+        "item": "* [Portaria SVS/MS nº 344/1998](https://bvsms.saude.gov.br/bvs/saudelegis/svs/1998/prt0344_12_05_1998_rep.html)",
+        "id": 102461
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 172996,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Acesse o sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo existente”.  Clique na lupa e procure o processo que deseja solicitar autorização. Selecione a “Atividade/Tipo de produto”> “Empresas” e localize o assunto cuja descrição seja compatível com a autorização desejada e o tipo de produto sujeito a controle especial. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 239400,
+            "nome": "A documentação depende do tipo de autorização a ser solicitada ([também conhecido como Assunto de Petição](https://www.gov.br/../../anvisa/pt-br/sistemas/assuntos-de-peticao)). A Anvisa fornece um *checklist* (lista de verificação) com todos os formulários e documentos que precisam ser entregues junto ao pedido."
+          }
+        ],
+        "casos": [
+          {
+            "id": 38164,
+            "descricao": "Códigos de assuntos",
+            "documento": [
+              {
+                "id": 239399,
+                "codigo": null,
+                "descricao": "Utilize o assunto 70694 – Produtos Controlados – Cota de Importação Inicial.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226999,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172997,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após *login* no sistema Solicita, selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” no canto superior direito para localizar o processo desejado. A solicitação também poderá ser consultada no Portal de Consultas ([http://consultas.anvisa.gov.br](http://consultas.anvisa.gov.br/)), selecionando a opção “Situação de Documentos” >“Técnico” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 239401,
+            "nome": "Login e senha no sistema Solicita."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 227000,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-cota-de-importacao-inicial",
+  "statusDestaque": false
+}

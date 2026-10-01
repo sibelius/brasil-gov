@@ -1,0 +1,204 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5821",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação e de pós-graduação - FURG",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito graduação ou pós-graduação na Universidade Federal do Rio Grande - FURG, pode obter o seu diploma (ou 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Serviço de Expedição de Diplomas - 53- 3233 6646 \n\n [diplomas@furg.br](about:blank) [prograd@furg.br](about:blank) [digea@furg.br](about:blank) [digea.cra@furg.br](mailto:digea.cra@furg.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 50,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Diploma emitido pela Universidade Federal do Rio Grande - FURG",
+        "id": 39771
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 37623,
+        "tipo": "Cidadão brasileiro ou estrangeiro que concluiu com êxito um curso na FURG e colou grau.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/476",
+    "dbId": 34332,
+    "nomeOrgao": "Fundação Universidade Federal do Rio Grande (FURG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 60652
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 138024
+      },
+      {
+        "item": "Segunda via",
+        "id": 138025
+      },
+      {
+        "item": "Ensino Superior",
+        "id": 138026
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 43037
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 80414,
+      "titulo": "Solicitar e agendar atendimento para retirada do documento",
+      "descricao": "Solicitação do diploma ou da 2ª e de agendamento da retirada via solicitações no sistemas da FURG (<https://sistemas.furg.br>), após concluir o curso e colar grau.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 114707,
+            "nome": "Para solicitação da 2ª via do diploma, anexar, cópia digitalizada de:\n\n - documento de Identidade, certidão de nascimento ou casamento;\n\n - Boletim de Ocorrência (B.O.) comunicando do extravio ou furto/roubo do diploma (em caso de extravio ou furto/roubo do diploma);\n\n - diploma danificado ao pedido (em caso de danificação do diploma, levar o diploma danificado na retirada); \n\n - comprovante do pagamento da GRU relativo ao pagamento da taxa de R$5,00 para emissão de 2ª via de diploma."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 11799,
+            "descricao": "taxa",
+            "moeda": "R$",
+            "valor": " 5,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 102482,
+            "tipo": "web",
+            "descricao": "<https://sistemas.furg.br>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 80415,
+      "titulo": "Retirada do Diploma",
+      "descricao": "Será realizada na Coordenação de Registro Acadêmico ou na secretaria do campus onde ocorreu o curso, ao titular portando documento de identificação com foto ou outra pessoa por procuração com firma reconhecida em cartório e portando documento de identificação com foto. Se o motivo da solicitação for danificação do diploma, este deve ser entregue na retirada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 102483,
+            "tipo": "presencial",
+            "descricao": "Coordenação de Registro Acadêmico ou na secretaria do campus onde ocorreu o curso",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "67",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-furg",
+  "statusDestaque": false
+}

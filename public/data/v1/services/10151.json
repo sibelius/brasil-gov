@@ -1,0 +1,207 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10151",
+  "nome": "Buscar Orientação Trabalhista",
+  "sigla": "",
+  "descricao": "Serviço que possibilita a trabalhadores, empregadores e quaisquer interessados tirar dúvidas sobre a legislação trabalhista, sem a necessidade de comparecer presencialmente a uma unidade das Superintendências Regionais do Trabalho do Ministério do Trabalho e Emprego.",
+  "flagPortalLogado": "N",
+  "contato": "Alô Trabalho: disque 158",
+  "gratuito": "true",
+  "porcentagemDigital": 50,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Orientação Trabalhista",
+        "id": 97643
+      },
+      {
+        "item": "Dúvidas trabalhistas",
+        "id": 97644
+      },
+      {
+        "item": "Informações trabalhistas",
+        "id": 97645
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 82759,
+        "tipo": "Trabalhadores, empregadores e cidadãos em geral.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 135455
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 135456
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 135457
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para Todos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Orientação Trabalhista",
+        "id": 328399
+      },
+      {
+        "item": "Dúvidas trabalhistas",
+        "id": 328400
+      },
+      {
+        "item": "Informações trabalhistas",
+        "id": 328401
+      },
+      {
+        "item": "Legislação trabalhista",
+        "id": 328402
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 113949
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 670,
+    "negativas": 915
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Serviço não presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 188619,
+      "titulo": "Buscar orientação trabalhista por telefone",
+      "descricao": "Para tirar dúvidas ou **buscar** **orientação** sobre a legislação **trabalhista**, **você pode ligar para a central telefônica 158. Você terá que ligar para o número 158 e escolher o tipo de assunto que deseja receber a ****orientação**** ****trabalhista****.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247332,
+            "tipo": "telefone",
+            "descricao": "Telefone : **Central telefônica 158 – Alô Trabalho.**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 188620,
+      "titulo": "Buscar orientação trabalhista e agendar serviços",
+      "descricao": "Os canais de atendimento informados aqui, não se restringe apenas a Orientação Trabalhista, mas também são canais de agendamento para os serviços de Seguro-Desemprego, Abono Salarial, RAIS e CAGED, Multas e Recursos e Empregador Web.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 247333,
+            "tipo": "web",
+            "descricao": "<https://atendimento.trabalho.gov.br/> e <https://saaweb.mte.gov.br/inter/saa/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "42",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/buscar-orientacao-trabalhista",
+  "statusDestaque": false
+}

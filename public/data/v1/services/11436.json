@@ -1,0 +1,198 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11436",
+  "nome": "Obter autorização para realização de reparos em embarcações nos portos do Estado do Rio de Janeiro",
+  "sigla": "",
+  "descricao": "Serviço destinado à solicitação de autorização para execução de reparos em embarcações nos portos organizados do Estado do Rio de Janeiro sob administração da Companhia Docas do Rio de Janeiro. A solicitação deve ser realizada por meio de formulário específico, acompanhado da documentação exigida, incluindo descrição detalhada dos serviços, informações sobre resíduos gerados, responsáveis técnicos e demais requisitos aplicáveis. O pedido é analisado pela SUPSUN / GERSAM / GERIQS, e, quando aprovado, autoriza a execução dos reparos conforme normas de segurança, ambientais e operacionais vigentes.",
+  "flagPortalLogado": "N",
+  "contato": "Atendimento via sistema SEI Externo",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.transportes.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Autorização de reparo",
+        "id": 117308
+      },
+      {
+        "item": "Permissão para manutenção de embarcação",
+        "id": 117309
+      },
+      {
+        "item": "Liberação de reparo em navio",
+        "id": 117310
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98405,
+        "tipo": "Agência marítima responsável pela embarcação.",
+        "requisitos": "Apresentar formulário de solicitação preenchido e documentação obrigatória, incluindo descrição dos serviços, identificação dos responsáveis, informações sobre resíduos, ART quando aplicável e demais exigências normativas."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A autorização poderá ser prorrogada por iguais períodos, mediante solicitação."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/180",
+    "dbId": 8275,
+    "nomeOrgao": "Companhia Docas do Rio de Janeiro (CDRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 164055
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Reparo",
+        "id": 392101
+      },
+      {
+        "item": "Manutenção de embarcação",
+        "id": 392102
+      },
+      {
+        "item": "Autorização portuária",
+        "id": 392103
+      },
+      {
+        "item": "Navio reparo",
+        "id": 392104
+      },
+      {
+        "item": "Porto do Rio de Janeiro",
+        "id": 392105
+      },
+      {
+        "item": "",
+        "id": 392106
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Norma Regulamentadora nº 35 do Ministério do Trabalho e Emprego – Trabalho em Altura.\n\n (https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-35-nr-35)",
+        "id": 138478
+      },
+      {
+        "item": "Normas da Autoridade Marítima Tráfego e Permanência de Embarcações em Águas Jurisdicionais Brasileiras – NORMAM 08/DPC.\n\n (https://www.marinha.mil.br/dpc/sites/www.marinha.mil.br.dpc/files/normas/normam08\\_0.pdf?msclkid=f24d268faa9611ec865a8dbcd6a829f7)",
+        "id": 138479
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "Atendimento realizado de forma digital.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 229534,
+      "titulo": "Preencher formulário de solicitação",
+      "descricao": "Preencher o formulário específico de solicitação de autorização para reparos em embarcações.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302992,
+            "nome": "Formulário de solicitação de reparo"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 297051,
+            "tipo": "e-mail",
+            "descricao": "[**https://sei.transportes.gov.br/sei/controlador\\_externo.php?acao=usuario\\_externo\\_logar&id\\_orgao\\_acesso\\_externo=0**](file:///C:/Users/licia.nascimento/Downloads/Formulario_padrao_carta_de_servico_2026___Procedimentos_para_Solicitacao_de_Autorizacao_para_Reparos_em_Embarcacoes.docx#_top)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 45438,
+            "descricao": "Sistema Indisponível",
+            "canalDePrestacao": [
+              {
+                "id": 297050,
+                "tipo": "telefone",
+                "descricao": "Para mais informações ou dúvidas sobre este serviço, entrar em contato pelos telefones:\n\n  (21) 2219-8597 / (21) 2219-8570\n\n Enviar para o e-mail: [frederico.gerlach@portosrio.gov.br](mailto:frederico.gerlach@portosrio.gov.br)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "dias úteis",
+                "tempoEstimadoEspera": 5,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-autorizacao-para-reparos-em-embarcacoes",
+  "statusDestaque": false
+}

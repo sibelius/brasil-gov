@@ -1,0 +1,267 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/22132",
+  "nome": "Enviar dados previstos no contrato de concessão aeroportuária",
+  "sigla": "",
+  "descricao": "A aferição dos parâmetros dos contratos de concessão de aeroportos é feita com os dados enviados pela própria concessionária. De posse dos projetos de infraestrutura dos terminais de passageiros dos aeroportos concedidos, a ANAC recebe os dados de movimentação, tarifas, equipamentos (entre outros) em frequência previamente definida, seja no próprio contrato ou em resolução específica, a fim de calcular os parâmetros indicados no contrato e verificar sua adimplência.\n\n Este serviço recebe, registra, valida e armazena os dados aeroportuários que fazem parte das obrigações contratuais constantes dos contratos de concessão de aeroportos. Para tanto, o ente regulado designa as pessoas competentes para enviar essas informações através do sistema Portal de Arquivos.",
+  "flagPortalLogado": "N",
+  "contato": "Quaisquer dúvidas adicionais podem ser apresentadas diretamente pelo[ sistema de manifestações da ANAC](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sistemas.anac.gov.br/portalarquivos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 98091
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 83095,
+        "tipo": "Pessoas físicas vinculadas às pessoas jurídicas das concessionárias de aeroportos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 136184
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 329491
+      },
+      {
+        "item": "Concessionária",
+        "id": 329492
+      },
+      {
+        "item": "Aeroporto concedido",
+        "id": 329493
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 114243
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 189736,
+      "titulo": "Acessar o sistema Portal de Arquivos",
+      "descricao": "Apenas uma vez, acesse o sistema Portal de Arquivos (https://sistemas.anac.gov.br/portalarquivos ) com o login gov.br, a fim de garantir que seu usuário já esteja criado na plataforma.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 248551,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sistemas.anac.gov.br/portalarquivos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 189737,
+      "titulo": "Solicitar vinculação para envio de dados",
+      "descricao": "Apenas uma vez, envie e-mail à área responsável solicitando sua vinculação e informando o CPF, o ente regulado (nome ou ICAO do aeroporto), bem como o tipo de dado que estará apto a enviar.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 248552,
+            "tipo": "e-mail",
+            "descricao": "A solicitação deve ser feita pelo email coorporativo do solicitante ou pelo email do departamento regulatório da concessionária.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 189738,
+      "titulo": "Aguardar confirmação da criação do vínculo",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 248553,
+            "tipo": "e-mail",
+            "descricao": "A confirmação é feita, apenas uma vez, via e-mail.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 189739,
+      "titulo": "Enviar os arquivos na frequência designada",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 248554,
+            "tipo": "web",
+            "descricao": "Envie os arquivos pelo sistemaÂ [Acesse o site](https://sistemas.anac.gov.br/portalarquivos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/enviar-dados-previstos-no-contrato-de-concessao-aeroportuaria",
+  "statusDestaque": false
+}

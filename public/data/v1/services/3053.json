@@ -1,0 +1,509 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3053",
+  "nome": "Obter Certificado de Organização da Produção (COP) com Registro de Limitação da Produção (RLP)",
+  "sigla": "COP e RLP",
+  "descricao": "Conforme estabelece o RBAC 21.132, o requerente de um Certificado de Organização de Produção (COP), ou de uma emenda a esse certificado, segundo a subparte G, deve ser detentor ou licenciado de um Certificado de Tipo ou de um Certificado Suplementar de Tipo.\n\n Qualquer pessoa que pretenda obter um Certificado de Produto Aeronáutico Aprovado - CPAA para um artigo de reposição ou modificação pode requerer um COP segundo as Subpartes K ou O do RBAC 21.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 87359
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74908,
+        "tipo": "Fabricantes de produtos aeronáuticos",
+        "requisitos": "Qualquer pessoa pode obter um certificado de organização de produção, desde que possua ao menos um dos certificados abaixo para o serviço considerado:  \na)    um Certificado de Tipo (próprio ou direito de uso sob licença), ou  \nb)    um Certificado Suplementar de Tipo (próprio ou direito de uso sob licença)  \nc)    um Certificado de Produto Aeronáutico Aprovado segundo a subparte K ou a subparte O do RBAC 21.  \n  \nObservação: Os processos de certificação de produção e de projeto podem ser peticionados paralelamente."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "1825",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1825
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Um certificado de organização de produção é válido até que seja devolvido, suspenso, revogado, cassado ou que tenha uma data de validade estabelecida pela ANAC.\n\n O documento pode ter validade de 1 a 3 anos,dependendo do resultado de uma avaliação de risco realizada após a auditoria de avaliação inicial."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121336
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "fabricação",
+        "id": 294591
+      },
+      {
+        "item": "aeronave",
+        "id": 294592
+      },
+      {
+        "item": "certidão",
+        "id": 294593
+      },
+      {
+        "item": "ANAC",
+        "id": 294594
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei 7.565/1986 - Código Brasileiro de Aeronáutica;](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/leis)",
+        "id": 100284
+      },
+      {
+        "item": "[RBAC 21 - Certificação de produto e artigo aeronáuticos](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 100285
+      },
+      {
+        "item": "[IS 21-006](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is)",
+        "id": 100286
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança e Ética",
+  "etapas": [
+    {
+      "id": 169398,
+      "titulo": "Solicitar certificação ou emenda ao certificado",
+      "descricao": "Protocolar documentos solicitados, via protocolo eletrônico, utilizando o tipo de processo **\"Certificação de Produto: Organizações de Produção - Certificação\"**, a ser encaminhado para ANAC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235535,
+            "nome": "Preencher os seguintes Formulários: [Formulário F-300-03J](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=300-03&Rev=J) e [Formulário F 300-28](http://sistemas.anac.gov.br/certificacao/Form/Form.asp)."
+          },
+          {
+            "id": 235536,
+            "nome": "Comprovante de pagamento da TFAC correspondente ao tipo e tamanho da organização (confira a seção \"Custos\" abaixo)."
+          },
+          {
+            "id": 235537,
+            "nome": "Cópia do contrato social e alterações;"
+          },
+          {
+            "id": 235538,
+            "nome": "Manual requerido pela seção 21.135 e 21.138 do RBAC 21;"
+          },
+          {
+            "id": 235539,
+            "nome": "Dados do projeto aprovado (desenhos, especificações técnicas etc.);"
+          },
+          {
+            "id": 235540,
+            "nome": "Lista de Peças Categorizadas (LPC) e seus respectivos fornecedores, conforme Apêndice I da IS 21-006;"
+          },
+          {
+            "id": 235541,
+            "nome": "Lista de processos especiais e de processos críticos;"
+          },
+          {
+            "id": 235542,
+            "nome": "Lista de itens OTP (TSO) instalados;"
+          },
+          {
+            "id": 235543,
+            "nome": "Lista de ferramentais e gabaritos;"
+          },
+          {
+            "id": 235544,
+            "nome": "Fluxograma ou layout das instalações de produção; e"
+          },
+          {
+            "id": 235545,
+            "nome": "Procedimento de voo de produção."
+          }
+        ],
+        "casos": [
+          {
+            "id": 37474,
+            "descricao": "Nos casos de projeto sob licença",
+            "documento": [
+              {
+                "id": 235534,
+                "codigo": null,
+                "descricao": "Adicionar o documento de concessão do detentor do projeto (contrato de licenciamento).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28015,
+            "descricao": "Custo varia entre R$ 3000,00 e",
+            "moeda": "R$",
+            "valor": " 30.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 37475,
+            "descricao": "Caso seja Fabricante/projetista de Artigo com até 99 funcionários",
+            "custo": [
+              {
+                "id": 28009,
+                "descricao": "TFAC 012101",
+                "moeda": "R$",
+                "valor": " 3.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37476,
+            "descricao": "Caso seja Fabricante/projetista de Produto com até 99 funcionários",
+            "custo": [
+              {
+                "id": 28010,
+                "descricao": "TFAC 012102",
+                "moeda": "R$",
+                "valor": " 6.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37477,
+            "descricao": "Caso seja Fabricante/projetista de Artigo com 100 até 499 funcionários",
+            "custo": [
+              {
+                "id": 28011,
+                "descricao": "TFAC 012103",
+                "moeda": "R$",
+                "valor": " 9.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37478,
+            "descricao": "Caso seja Fabricante/projetista de Produto com 100 até 499 funcionários",
+            "custo": [
+              {
+                "id": 28012,
+                "descricao": "TFAC 012104",
+                "moeda": "R$",
+                "valor": " 15.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37479,
+            "descricao": "Caso seja Fabricante/projetista de Artigo com 500 ou mais funcionários",
+            "custo": [
+              {
+                "id": 28013,
+                "descricao": "TFAC 012105",
+                "moeda": "R$",
+                "valor": " 21.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37480,
+            "descricao": "Caso seja Fabricante/projetista de Produto com 500 ou mais funcionários",
+            "custo": [
+              {
+                "id": 28014,
+                "descricao": "TFAC 012106",
+                "moeda": "R$",
+                "valor": " 30.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222098,
+            "tipo": "web",
+            "descricao": "Acesse o [Protocolo EletrÃ´nico](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37481,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 222097,
+                "tipo": "web",
+                "descricao": "[Clique aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean)\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169399,
+      "titulo": "Solucionar eventuais pendências documentais",
+      "descricao": "Os documentos enviados pelo requerente são analisados para verificar o atendimento aos requisitos da subparte aplicável. A ANAC utiliza o formulário F-300-28 preenchido pelo requerente para realizar essa análise. O requerente deve corrigir eventual falha na documentação e fornecer informações adicionais solicitadas pela ANAC nesta etapa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222099,
+            "tipo": "web",
+            "descricao": "Acesse o [Protocolo Eletrônico.](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "210",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 210
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169400,
+      "titulo": "Receber a ANAC em suas instalações para auditoria ou acompanhamento de ensaios",
+      "descricao": "Após o envio e análise de todos os documentos necessários, a ANAC realiza uma auditoria de avaliação inicial nas instalações do requerente, para verificar a implementação do sistema da qualidade apresentado e para se assegurar de que o requerente é capaz de produzir produtos ou artigos em conformidade com os dados de projeto aprovados.\n\n O requerente deve tomar as ações corretivas apropriadas para eventuais não conformidades identificadas pela ANAC nesta etapa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222100,
+            "tipo": "presencial",
+            "descricao": "O solicitante deve receber a ANAC, em sua unidade fabril, para realização de auditoria.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "180",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 180
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 169401,
+      "titulo": "Receber inspeção de 1º artigo",
+      "descricao": "A ANAC inspeciona o primeiro produto ou artigo fabricado em relação ao projeto aprovado para se assegurar de que o requerente é capaz de produzir produtos ou artigos em conformidade com os dados de projeto aprovados. As aeronaves, motores ou hélices são fabricadas segundo a subparte F do RBAC 21 até que o requerente demonstre à ANAC ser capaz de produzir produtos em conformidade com os dados de projeto aprovados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222101,
+            "tipo": "presencial",
+            "descricao": "Acesse o[ Protocolo Eletrônico](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 169402,
+      "titulo": "Receber COP e respectivo RLP",
+      "descricao": "O requerente receberá o COP e seu respectivo RLP em virtude da conformidade do Sistema da Qualidade com o RBAC 21 e da conformidade do primeiro produto ou artigo com os dados de projeto aprovados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222102,
+            "tipo": "web",
+            "descricao": "O solicitante pode acompanhar o andamento de sua solicitação pelo [Protocolo Eletrônico](http://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3244",
+      "nome": "Obter Certificado de Produto Aeronáutico Aprovado (CPAA ou CPAA-OTP)"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3307",
+      "nome": "Obter validação de Certificado Suplementar de Tipo  estrangeiro (STC - Supplementary Type Certificate) ou equivalente"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3280",
+      "nome": "Certificar Projeto de Tipo de Aeronave"
+    }
+  ],
+  "tempoMediaEspera": "1825",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-de-organizacao-de-producao-e-registro-de-limitacao-de-producao",
+  "statusDestaque": false
+}

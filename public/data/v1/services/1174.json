@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1174",
+  "nome": "Assistir a filmes nas salas da Cinemateca Brasileira",
+  "sigla": "",
+  "descricao": "O setor de Difusão organiza e produz mostras de filmes nacionais e estrangeiros com títulos do acervo da própria instituição ou de distribuidoras e arquivos parceiros. Esses programas são exibidos nas duas salas de projeção da Cinemateca Brasileira: Sala Grande Otelo (212 lugares) e Sala Oscarito (107 lugares), ambas contando com acessibilidade para pessoas com mobilidade reduzida e assentos extragrandes. Há ainda uma área externa com tela de projeção com capacidade para cerca de 810 pessoas e dez aparelhos individuais de acessibilidade para pessoas com deficiência auditiva e visual.",
+  "flagPortalLogado": "N",
+  "contato": "Para meios de contato, visite a página do [Fale Conosco](https://cinemateca.org.br/fale-conosco/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cinemateca.org.br/programacao/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Programação",
+        "id": 123841
+      },
+      {
+        "item": "Cinemateca",
+        "id": 123842
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103643,
+        "tipo": "Qualquer cidadão, brasileiro ou estrangeiro, pode utilizar o serviço",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "1",
+      "max": "365",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 1,
+    "max": 365
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308821",
+    "dbId": 58143,
+    "nomeOrgao": "Ministério da Cultura (MinC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173228
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cinema",
+        "id": 412330
+      },
+      {
+        "item": "filme",
+        "id": 412331
+      },
+      {
+        "item": "cinemateca",
+        "id": 412332
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148963
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 636,
+    "negativas": 140
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 241570,
+      "titulo": "Verificar programação",
+      "descricao": "Consulta ao site da Cinemateca Brasileira para verificar a programação do mês e seus respectivos horários.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311907,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.cinemateca.org.br/programacao/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241571,
+      "titulo": "Retirar ingresso e assistir ao filme",
+      "descricao": "A retirada de ingresso é feita gratuitamente na bilheteria, sempre uma hora antes da sessão.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318119,
+            "nome": "Poderá ser necessário documento de identificação para confirmação de idade a depender da classificação etária das sessões."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311908,
+            "tipo": "presencial",
+            "descricao": "**Cinemateca Brasileira** -   \nLargo Senador Raul Cardoso, 207  \n04021-070 - Vila Clementino  \nSão Paulo - SP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "365",
+  "percentualAvaliacoesPositivas": "82",
+  "totalSimplifique": "1",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/assistir-filmes-nas-salas-da-cinemateca-brasileira",
+  "statusDestaque": false
+}

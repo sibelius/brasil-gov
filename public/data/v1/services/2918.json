@@ -1,0 +1,209 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2918",
+  "nome": "Cancelar registro de plano de saúde",
+  "sigla": "",
+  "descricao": "As operadoras de planos de saúde podem solicitar o cancelamento do registros de produtos caso não desejem mais comercializá-los e desde que não existam mais beneficiários vinculados aos referidos planos",
+  "flagPortalLogado": "N",
+  "contato": "ggrep.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "cancelamento de produto",
+        "id": 72851
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64048,
+        "tipo": "Operadoras de plano de saúde",
+        "requisitos": "Apresentar junto à ANS, produtos com situação ativo e/ou com comercialização suspensa, sem beneficiários vinculados"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101130
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "plano de saúde",
+        "id": 248182
+      },
+      {
+        "item": "cancelamento",
+        "id": 248183
+      },
+      {
+        "item": "ans",
+        "id": 248184
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 543/2022\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)\n\n IN 28/2022.\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_legislacao&view=legislacao)",
+        "id": 82500
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 36
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito Acessibilidade;· Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança;  Ética",
+  "etapas": [
+    {
+      "id": 143648,
+      "titulo": "Solicitação de cancelamento de produto",
+      "descricao": "A operadora deve encaminhar, via peticionamento eletrônico, correspondência solicitando o cancelamento do produto.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203573,
+            "nome": "Correspondência assinada pelo representante legal junto à ANS."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 23833,
+            "descricao": "gratuito",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186558,
+            "tipo": "web",
+            "descricao": "Â [Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 143649,
+      "titulo": "Receber resposta",
+      "descricao": "Ofício encaminhado pela Agência através do Peticionamento Eletrônico, constante no portal operadoras no link https://www2.ans.gov.br/ans-idp/",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186559,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "31",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-registro-de-plano-de-saude",
+  "statusDestaque": false
+}

@@ -1,0 +1,232 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3277",
+  "nome": "Solicitar Acreditação de Organismo de Inspeção",
+  "sigla": "",
+  "descricao": "Processo de reconhecimento da competência técnica de organismos de inspeção segundo os requisitos estabelecidos na norma ABNT NBR ISO/ IEC 17020:2012 e aplicável a organismos públicos e privados, sendo voltado para os seguintes tipos de inspeções: segurança veicular, inspeção de equipamentos e veículos para o transporte de produtos perigosos; ensaios não destrutivos, instalações de gás residenciais e comerciais, e Eficiência Energética em Edificações.",
+  "flagPortalLogado": "N",
+  "contato": "https://faleconosco.inmetro.gov.br/\n\n oi@inmetro.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://orquestra.inmetro.gov.br/workflow/wfportalInmetro.aspx",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Credenciamento",
+        "id": 92525
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 78935,
+        "tipo": "Organismos de inspeção",
+        "requisitos": "Os organismos devem estar **cadastrados no sistema Orquestra**, utilizado pelo Inmetro para automatizar alguns de seus processos de negócio.\n\n  * [Fazer cadastro no Orquestra com gov.br](https://orquestra.inmetro.gov.br/workbase/wusersigninBC.aspx?g=mWB6bazaCE0=)\n * [Como se cadastrar no Orquestra com gov.br](http://www4.inmetro.gov.br/sistemas/orquestra)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240",
+    "dbId": 36793,
+    "nomeOrgao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 128274
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acreditações e Registros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Acreditação",
+        "id": 311701
+      },
+      {
+        "item": "Avaliação da conformidade",
+        "id": 311702
+      },
+      {
+        "item": "Laboratório",
+        "id": 311703
+      },
+      {
+        "item": "Certificação",
+        "id": 311704
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 106562
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 31,
+    "negativas": 120
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 179007,
+      "titulo": "Solicitar acreditação",
+      "descricao": "O organismo solicitante deve anexar ao sistema Orquestra toda documentação pertinente ao tipo de acreditação solicitado. É realizada uma análise crítica para assegurar que a Cgcre dispõe dos recursos necessários para o início imediato do processo de avaliação. É definida equipe de avaliação em função do escopo solicitado e da disponibilidade do avaliador/especialista para realizar o trabalho.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 245068,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 245069,
+            "nome": "Contrato Social"
+          },
+          {
+            "id": 245070,
+            "nome": "Registro da Junta Comercial"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 29488,
+            "descricao": "Taxa de acreditação",
+            "moeda": "R$",
+            "valor": " 9.672,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 235197,
+            "tipo": "e-mail",
+            "descricao": "oi@inmetro.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 235198,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://orquestra.inmetro.gov.br/workflow/wfportalInmetro.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 179008,
+      "titulo": "Receber inspeção",
+      "descricao": "Avaliação no local. A avaliação inicial consiste de uma visita da equipe de avaliação às instalações objeto da solicitação da acreditação e às instalações associadas, a qual o organismo pertence, com o objetivo de verificar o cumprimento de todos os requisitos. A decisão sobre a concessão da acreditação é tomada pelo Coordenador da Cgcre, com base nas recomendações da equipe de avaliação, do GA, do Chefe de Núcleo e da Comissão da Acreditação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 245071,
+            "nome": "Procedimentos de trabalho"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 235199,
+            "tipo": "presencial",
+            "descricao": "No endereço do organismo a ser acreditado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "21",
+  "totalSimplifique": "1",
+  "simplifiqueSolicitacoes": "0",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acreditar-organismos-de-inspecao",
+  "statusDestaque": false
+}

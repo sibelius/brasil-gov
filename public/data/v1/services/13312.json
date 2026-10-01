@@ -1,0 +1,196 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13312",
+  "nome": "Solicitar emissão de certificado de participação em curso ou evento de extensão.",
+  "sigla": "",
+  "descricao": "Possibilita ao participante de curso ou evento de extensão que solicite a emissão de seu certificado de participação junto ao Instituto Federal do Piauí.",
+  "flagPortalLogado": "N",
+  "contato": "[proex@ifpi.edu.br](mailto:proex@ifpi.edu.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 68005
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 60711,
+        "tipo": "* Pessoa física que esteja portando documentação de outra pessoa física ou jurídica e seja responsável por realizar a entrega.\n * Pessoa física que participe ou tenha demanda na condição de interessado em processo administrativo e pessoa jurídica na mesma situação (representado por pessoa física).",
+        "requisitos": "Ter participado e concluído curso de curta duração ou evento de extensão."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Documento de validade permanente."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/434",
+    "dbId": 36760,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 95412
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para Todos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certificado",
+        "id": 233036
+      },
+      {
+        "item": "evento",
+        "id": 233037
+      },
+      {
+        "item": "cursos",
+        "id": 233038
+      },
+      {
+        "item": "ifpi",
+        "id": 233039
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 76998
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 134991,
+      "titulo": "Solicitar emissão de certificado de participação",
+      "descricao": "Solicitar via atendimento presencial no campus onde ocorreu o evento ou curso de curta duração.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 191224,
+            "nome": "Documento de identificação com foto."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174807,
+            "tipo": "presencial",
+            "descricao": "Atendimento presencial no campus onde ocorreu o evento ou curso de curta duração.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 134992,
+      "titulo": "Receber Resposta",
+      "descricao": "O certificado de participação será enviado via e-mail informado na inscrição do evento ou curso de extensão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174808,
+            "tipo": "e-mail",
+            "descricao": "As notificações de movimentação do processo serão enviados por e-mail e podem ser consultadas através do [link](https://suap.ifpi.edu.br/processo_eletronico/consulta_publica/), informando o número do processo ou CPF/CNPJ do interessado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "14",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-emissao-de-certificado-de-participacao-em-curso-ou-evento-de-extensao",
+  "statusDestaque": false
+}

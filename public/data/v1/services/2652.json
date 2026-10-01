@@ -1,0 +1,315 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2652",
+  "nome": "Obter estimativa de dose absorvida em indivíduos expostos à radiação ionizante",
+  "sigla": "",
+  "descricao": "Estimar a dose absorvida devido à radiação ionizante em indivíduos expostos ou supostamente expostos, por meioda técnica de dosimetria citogenética em células sanguíneas (linfócitos). Este método é aplicado para doses absorvidas acima de 150mGy. As solicitações de análise podem ser encaminhadas por empresas públicas ouprivadas, para as quais serão enviados relatórios nos quais constarão o valor estimado da dose absorvida nos indivíduos analisados.",
+  "flagPortalLogado": "N",
+  "contato": "Serviço de Dosimetria, Centro Regional de Ciências Nucleares do Nordeste (CRCN-NE) / CNEN\n\n e-mail titular Fabiana Farias de Lima Guimarães - fflima@cnen.gov.br / e-mail suplente: SuyFerreira Hwang - shwang@cnen.gov.br\n\n telefone titular Fabiana Farias de Lima Guimarães - +55 (81) 37978024 / telefone suplente: SuyFerreira Hwang - +55 (81) 37978050",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 33295
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32614,
+        "tipo": "Instituições públicas e privadas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223",
+    "dbId": 7581,
+    "nomeOrgao": "Comissão Nacional de Energia Nuclear (CNEN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 52230
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "radioatividade",
+        "id": 117297
+      },
+      {
+        "item": "radiatividade",
+        "id": 117298
+      },
+      {
+        "item": "nuclear",
+        "id": 117299
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33996
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança;\n * Ética",
+  "etapas": [
+    {
+      "id": 68405,
+      "titulo": "Requisitar serviço",
+      "descricao": "Encaminhar solicitação por escrito, especificando o caso a ser analisado; Receber a orientação para a coleta e transporte do material (sangue), além de formulário específico a ser preenchido; Realizar pagamento de GRU e encaminhar comprovante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 96886,
+            "nome": "Solicitação por escrito em papel timbrado do solicitante com CNPJ e endereço.\n\n Formulário preenchido e assinado.\n\n Comprovante de pagamento da GRU"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 10335,
+            "descricao": "Taxa de Dosimetria Citogenética",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Varia de acordo com as características do serviço.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 87992,
+            "tipo": "telefone",
+            "descricao": "(81) 3797-8000",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 87993,
+            "tipo": "e-mail",
+            "descricao": "fflima@cnen.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 87994,
+            "tipo": "postal",
+            "descricao": "Rua Professor Luiz freire, 200, Cidade Universitária  \nRecife-PE  \nCEP: 50.740-545",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 68406,
+      "titulo": "Coleta e envio da(s) amostra(s) pelo solicitante",
+      "descricao": "Providenciar a coleta de sangue periférico do(s) indivíduo(s) exposto ou supostamente exposto conforme orientação encaminhada pelo LDB/CRCN-NE ao solicitante; Providenciar o transporte da(s) amostras em empresas especializadas em transporte biológico de forma a chegar ao LDB/CRCN-NE, no máximo, 24h após a coleta. Solicitante deve informar o momento do envio da(s) amostras e o LDB/CRCN-NE informará o momento do recebimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 87995,
+            "tipo": "e-mail",
+            "descricao": "fflima@cnen.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 68407,
+      "titulo": "Realização das análises",
+      "descricao": "Processar a(s) amostras sanguíneas (cultura de linfócitos); confecção de lâminas; análise das lâminas com contabilização das alterações cromossômicas; estimativa de dose absorvida. A análise por individuo leva de 10 a 15 dias.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 87996,
+            "tipo": "e-mail",
+            "descricao": "fflima@cnen.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "10",
+          "max": "15",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 10,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 68408,
+      "titulo": "Elaboração e emissão do relatório",
+      "descricao": "Elaborar um relatório para cada indivíduo/amostra analisada e encaminhar ao solicitante. A elaboração para cada indivíduo leva 2 dias após finalizar a etapa de análise",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 87997,
+            "tipo": "e-mail",
+            "descricao": "Endereço de e-mail informado na requisição",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 87998,
+            "tipo": "postal",
+            "descricao": "Endereço informado na requisição",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "88",
+  "url": "https://www.gov.br/pt-br/servicos/obter-estimativa-de-dose-absorvida-em-individuos-expostos-a-radiacao-ionizante",
+  "statusDestaque": false
+}

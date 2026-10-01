@@ -1,0 +1,271 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2638",
+  "nome": "Realizar inscrição no concurso de admissão ao Colégio Militar de Fortaleza",
+  "sigla": "CMF",
+  "descricao": "Uma das formas de ingresso no Colégio Militar de Fortaleza é por meio de concurso público para o 6º Ano do Ensino Fundamental e/ou 1º Ano do Ensino Médio realizado anualmente obedecendo às determinações de Edital e Manual do Candidato, disponibilizados na página eletrônica do Colégio.  \nO Concurso pode ser realizado por meninos e meninas e é composto de três etapas: exame intelectual, avaliação física e comprovação dos requisitos biográficos dos candidatos.   \nO exame intelectual é realizado no 2º semestre do ano considerado para matrícula no ano posterior.",
+  "flagPortalLogado": "N",
+  "contato": "http://www.cmf.eb.mil.br/index.php/concurso",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cmf.eb.mil.br/index.php/proc-seletivo/processo-seletivo-cmf",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Concurso de Admissão",
+        "id": 128049
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107221,
+        "tipo": "Estudantes do ensino fundamental e médio.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179108
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Ensino Fundamental e Médio"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Ceará",
+        "id": 426896
+      },
+      {
+        "item": "escola militar",
+        "id": 426897
+      },
+      {
+        "item": "educação militar",
+        "id": 426898
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153600
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 160,
+    "negativas": 88
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 250379,
+      "titulo": "Inscrever-se",
+      "descricao": "Apresentação de documento de identidade para a realização do exame intelectual",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325593,
+            "nome": "Carteira de identidade, com foto recente e Comprovante de inscrição no Cadastro de Pessoas Físicas (CPF); e  \nConsultar o Manual do Candidato ao Processo Seletivo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41771,
+            "descricao": "Taxa de inscrição",
+            "moeda": "R$",
+            "valor": " 95,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323624,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar de Fortaleza** - Av Santos Dumont, 485 - Aldeota, CEP: 60150-160, Fortaleza-CE",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323625,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cmf.eb.mil.br/index.php/proc-seletivo/processo-seletivo-cmf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250380,
+      "titulo": "Passar por avaliação médica",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325594,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 325595,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 325596,
+            "nome": "Informação biométrica"
+          },
+          {
+            "id": 325597,
+            "nome": "Resultado de exames de laboratório"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323626,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar de Fortaleza** - Av Santos Dumont, 485 - Aldeota, CEP: 60150-160, Fortaleza-CE",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 250381,
+      "titulo": "Comprovar requisitos biográficos do candidato",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323627,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar de Fortaleza** - Av Santos Dumont, 485 - Aldeota, CEP: 60150-160, Fortaleza-CE",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "65",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/ingressar-no-colegio-militar-de-fortaleza",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

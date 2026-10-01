@@ -1,0 +1,263 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9146",
+  "nome": "Realizar consulta especializada em doenças infecciosas - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "Consultas especializadas podem ser solicitadas por médicos de outras unidades públicas de saúde, nos casos em que o responsável pelo atendimento precise da opinião de um infectologista para realizar um diagnóstico ou para indicar o tratamento mais adequado de pessoas com suspeita ou diagnóstico já confirmado de alguma doença infecciosa. Ao final do serviço o cidadão será orientado sobre a continuidade do cuidado à sua saúde, que pode ser realizado no próprio Instituto Nacional de Infectologia, dependendo da enfermidade em questão.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (21) 3865-9595 \n\n **Endereço: **Instituto Nacional de Infectologia Evandro Chagas - INI\n\n Avenida Brasil, 4365 Manguinhos  \nRio de Janeiro , RJ - CEP: 21040-360\n\n **Site: **<http://www.ini.fiocruz.br>\n\n **Horário de atendimento:** de segunda-feira a sexta-feira, das 08:00 às 11:00 (exceto feriados)",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 29316
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 29210,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "O cidadão deve ser encaminhado por outro serviço de saúde."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "3",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 46572
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Infectologia",
+        "id": 104252
+      },
+      {
+        "item": "Doenças infecciosas",
+        "id": 104253
+      },
+      {
+        "item": "Infecção",
+        "id": 104254
+      },
+      {
+        "item": "Diagóstico especializado",
+        "id": 104255
+      },
+      {
+        "item": "Diagnóstico doenças",
+        "id": 104256
+      },
+      {
+        "item": "Consulta ambulatorial",
+        "id": 104257
+      },
+      {
+        "item": "Consulta doença infecciosa",
+        "id": 104258
+      },
+      {
+        "item": "Micobacterioses",
+        "id": 104259
+      },
+      {
+        "item": "Micoses",
+        "id": 104260
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 29446
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "Rampa",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 60924,
+      "titulo": "Realizar cadastro na recepção do ambulatório",
+      "descricao": "O cidadão apresenta na recepção o documento de identidade com foto, o encaminhamento médico e qualquer outro documento sobre sua saúde que tenha em mãos, para que seja realizado cadastro em sistema eletrônico da instituição. O atendimento é feito por ordem de chegada.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 88799,
+            "nome": "Documento de identidade com foto"
+          },
+          {
+            "id": 88800,
+            "nome": "Encaminhamento médico de outras unidades públicas de saúde"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 78188,
+            "tipo": "presencial",
+            "descricao": "O atendimento é feito por ordem de chegada, na recepção do próprio ambulatório.  \nEndereço: Av. Brasil, 4365 - Manguinhos, Rio de Janeiro - RJ, CEP: 21040-360",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 60925,
+      "titulo": "Realizar consulta",
+      "descricao": "O cidadão é avaliado por um profissional de saúde, que fará perguntas sobre a história médica e queixas atuais, avaliará o documento de encaminhamento de serviço público de saúde e os resultados de exames realizados anteriormente. Se necessário, será realizado exame físico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 88801,
+            "nome": "Encaminhamento médico de outro serviço público de saúde"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 78189,
+            "tipo": "presencial",
+            "descricao": "O atendimento é feito por ordem de chegada.  \nEndereço: Av. Brasil, 4365 - Manguinhos, Rio de Janeiro - RJ, 21040-360",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 60926,
+      "titulo": "Receber parecer sobre continuidade do tratamento",
+      "descricao": "Após avaliação por profissional de saúde, o cidadão será orientado sobre a continuidade do serviço solicitado pelas outras unidades de saúde. As orientações poderão ser: retorno à unidade de origem (para casos em que o INI não oferece atendimento), consulta marcada no INI para continuidade do acompanhamento ou alta (para casos em que não há necessidade de cuidados adicionais).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 78190,
+            "tipo": "presencial",
+            "descricao": "O encaminhamento será realizado no próprio ambulatório, após consulta.  \nEndereço: Av. Brasil, 4365 - Manguinhos, Rio de Janeiro - RJ, 21040-360",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "36",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-especializada-em-doencas-infecciosas",
+  "statusDestaque": false
+}

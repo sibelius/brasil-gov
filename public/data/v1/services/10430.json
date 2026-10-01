@@ -1,0 +1,176 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10430",
+  "nome": "Autenticar cópias no exterior",
+  "sigla": "",
+  "descricao": "Cópias de documentos brasileiros originais podem receber selo de autenticação nos Postos Consulares brasileiros no exterior.\n\n Os Postos Consulares somente autenticam cópias de documentos brasileiros. É obrigatória a apresentação do original. Não são autenticadas cópias de documentos estrangeiros.\n\n",
+  "flagPortalLogado": "N",
+  "contato": " Em caso de dúvidas, [contate o Posto Consular](https://econsular@itamaraty.gov.br) de sua jurisdição.\n\n ",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://econsular.itamaraty.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Autenticação de cópias",
+        "id": 15280
+      },
+      {
+        "item": "Cópia autenticada",
+        "id": 15281
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 17825,
+        "tipo": " Tanto cidadãos brasileiros quanto estrangeiros podem autenticar cópias de documentos brasileiros.\n\n ",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/263",
+    "dbId": 37539,
+    "nomeOrgao": "Ministério das Relações Exteriores (MRE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 27934
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 27935
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Direitos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autenticação de cópias",
+        "id": 57855
+      },
+      {
+        "item": "Cópia autenticada",
+        "id": 57856
+      },
+      {
+        "item": "Autenticar cópias no exterior",
+        "id": 57857
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 13004
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 67,
+    "negativas": 68
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n ",
+  "etapas": [
+    {
+      "id": 35166,
+      "titulo": "Comparecer ao Posto Consular",
+      "descricao": "A depender do Posto Consular, será preciso agendamento prévio.\n\n [Confira as instruções específicas do Posto Consular de seu interesse.](https://econsular.itamaraty.gov.br)\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 57609,
+            "nome": "Documento original cuja cópia será autenticada\n\n"
+          },
+          {
+            "id": 57610,
+            "nome": "Fotocópias a serem autenticadas. Frente e verso devem estar na mesma folha.\n\n"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 5257,
+            "descricao": "Emolumentos consulares:",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "valor variável, de acordo com a moeda da jurisdição consular.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 43090,
+            "tipo": "web",
+            "descricao": "Postos Consulares: [acesse aqui](https://econsular.itamaraty.gov.br) o Posto Consular de seu interesse para solicitar o serviÃ§o.\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/autenticar-copias-no-exterior",
+  "statusDestaque": false
+}

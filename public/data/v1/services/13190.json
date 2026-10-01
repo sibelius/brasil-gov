@@ -1,0 +1,247 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13190",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UFPE",
+  "sigla": "",
+  "descricao": "Estudantes graduados podem obter o diploma ou 2ª via do diploma de graduação. A partir de janeiro de 2022 os diplomas emitidos pela UFPE serão digitais. O diploma digital terá a mesma validade jurídica do documento físico e contará com assinaturas com certificação digital.",
+  "flagPortalLogado": "N",
+  "contato": "PROGRAD - Divisão de Registro de Diplomas - (81) 2126.8613 - drd.prograd@ufpe.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ufpe.br/prograd/diploma",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 58838
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 53930,
+        "tipo": "Cidadãos concluintes do curso de graduação na UFPE",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/418",
+    "dbId": 57772,
+    "nomeOrgao": "Universidade Federal de Pernambuco (UFPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 84328
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Educação",
+        "id": 203557
+      },
+      {
+        "item": "Diploma",
+        "id": 203558
+      },
+      {
+        "item": "Ensino Superior",
+        "id": 203559
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 66646
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 117302,
+      "titulo": "Solicitar o Diploma",
+      "descricao": "O solicitante deve preencher o formulário específico com seus dados e apresentar a documentação comprobatória.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 164483,
+            "nome": "Declaração de Conclusão de Curso / Habilitação"
+          },
+          {
+            "id": 164484,
+            "nome": "Declaração de Nada Consta – Biblioteca Central"
+          },
+          {
+            "id": 164485,
+            "nome": "Cédula de identidade (RG) / CPF"
+          },
+          {
+            "id": 164486,
+            "nome": "Comprovante de Quitação Eleitoral"
+          },
+          {
+            "id": 164487,
+            "nome": "Documento Militar (Homens)"
+          },
+          {
+            "id": 164488,
+            "nome": "Certidão de Nascimento ou Casamento"
+          },
+          {
+            "id": 164489,
+            "nome": "Certificado e Histórico de Conclusão de 2º Grau (Ficha 19)"
+          },
+          {
+            "id": 164490,
+            "nome": "Comprovante Repositório TCC da Biblioteca Central* (para alunos formados a partir de 2022.1, ver lista dos cursos na pagina de solicitação – obs: pode ser print do e-mail de confirmação)"
+          }
+        ],
+        "casos": [
+          {
+            "id": 21443,
+            "descricao": "Segunda via do Diploma",
+            "documento": [
+              {
+                "id": 164481,
+                "codigo": null,
+                "descricao": "Comprovante de pagamento da Taxa - GRU (<https://www.ufpe.br/vida-academica> - Emissão de GRU – Taxa)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 21444,
+            "descricao": "Apostilamento",
+            "documento": [
+              {
+                "id": 164482,
+                "codigo": null,
+                "descricao": "Diploma",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 150354,
+            "tipo": "web-preencher",
+            "descricao": "[ Preencher](https://www.ufpe.br/prograd/diploma)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 117303,
+      "titulo": "Acompanhar solicitação",
+      "descricao": "Para acompanhar o processo, você deverá entrar no SIG@ (após 30 dias de sua solicitação) e acessar a aba ¨Conclusão¨. Clique em ¨Buscar¨, no final da linha do item ¨Discente¨, e pesquise por nome completo ou CPF. A partir disto, basta clicar em seu nome ou em \"Pesquisar\" nas telas subsequentes.\n\n Diplomas prontos aparecerão com o status ¨Disponível para o Aluno¨ e um link na cor azul aparecerá para que possa ser feito o download do documento digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 150355,
+            "tipo": "web-consultar",
+            "descricao": "[Consultar](https://siga.ufpe.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-ufpe",
+  "statusDestaque": false
+}

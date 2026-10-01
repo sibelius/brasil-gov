@@ -1,0 +1,210 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13110",
+  "nome": "Solicitar aceite de declaração de comercialidade ou de postergação de declaração de comercialidade na fase de exploração",
+  "sigla": "DC",
+  "descricao": "Consiste em receber dos operadores de contrato de concessão, partilha e cessão onerosa o documento referente à Declaração de Comercialidade (DC) ou a solicitação de postergação de DC, em conjunto ou não com o documento de RFAD. A DC, após a análise do documento e aprovação do RFAD, pode ser aceita ou não, sendo o resultado da análise informado ao operador por meio de ofício. A solicitação de postergação de DC após análise pode ser aprovada por meio de Resolução de Diretoria e informada ao operador.\n\n Mais informações sobre esse serviço podem ser encontradas em [Declaração de comercialidade - Agência Nacional de Petróleo e Biocombustíveis](https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/fase-de-exploracao/comercialidade)\n\n **Para utilizar esse serviço você deve ter um cadastro como usuário externo do SEI-ANP. Para mais informações acesse o serviço \"[Solicitar cadastro como usuário externo no SEI-ANP](http://www.gov.br/pt-br/servicos/cadastrar-usuario-externo-no-sei-anp)\".**",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento nº 0800 970 0267\n\n E-mail: faleconosco@anp.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 71413
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 63102,
+        "tipo": "Operadores de Contrato de concessão, partilha e cessão onerosa.",
+        "requisitos": "Cumprir os requisitos definidos na [Resolução ANP nº 845/2021.](http://atosoficiais.com.br/anp/resolucao-n-845-2021-)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Informado no momento da aprovação"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 99560
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exploração e Produção"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Declaração de Comercialidade",
+        "id": 244025
+      },
+      {
+        "item": "Postergação de Declaração de Comercialidade",
+        "id": 244026
+      },
+      {
+        "item": "Exploração e Produção de Petróleo e Gás",
+        "id": 244027
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução ANP nº 845/2021: https://atosoficiais.com.br/anp/resolucao-n-845-2021-",
+        "id": 80767
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 141107,
+      "titulo": "Protocolar Documentos de DC ou solicitação de postergação de DC",
+      "descricao": "Acessar SEI e anexar documentos em processo existente, referente ao PAD.\n\n Até 60 dias para a aceitação da Declaração de Comercialidade ou a solicitação de esclarecimentos, caso a DC seja apresentada conjuntamente com o RFAD  Até 30 dias para a aceitação da Declaração de Comercialidade ou a solicitação de esclarecimentos, caso a DC seja apresentada após a aprovação do RFAD  Até 60 dias para a aprovação do pleito de postergação de Declaração de Comercialidade ou a solicitação de esclarecimentos",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 199454,
+            "nome": "Informações técnicas para embasamento da DC ou da postergação da DC."
+          },
+          {
+            "id": 199455,
+            "nome": "Em caso do pedido de postergação da DC, cronograma de atividades a serem desenvolvidas durante a postergação. Informações se encontram estabelecidas na [Resolução ANP nº 845/2021.](http://atosoficiais.com.br/anp/resolucao-n-845-2021-)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 183124,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "30",
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 30,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 141108,
+      "titulo": "Acompanhar o processo",
+      "descricao": "Após obter o login, senha e número do processo aberto anteriormente, será possível acessar o Sistema Eletrônico de Informação e acompanhar o atendimento da demanda realizada. Ao entrar no sistema, localize a opção 'processo intermitente' e forneça o número do processo para prosseguir.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 183125,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13112",
+      "nome": "Solicitar aprovação de Plano de Avaliação de Descobertas, Revisões de PAD e aprovação de Relatório Final de Avaliação de Descobertas"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13054",
+      "nome": "Solicitar cadastro de usuário externo no SEI-ANP"
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "25",
+  "url": "https://www.gov.br/pt-br/servicos/aceitar-declaracao-de-comercialidade-e-aprovar-pleito-de-postergacao-de-declaracao-de-comercialidade-na-fase-de-exploracao",
+  "statusDestaque": false
+}

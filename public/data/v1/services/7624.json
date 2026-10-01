@@ -1,0 +1,211 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7624",
+  "nome": "Consultar online suas infrações de trânsito",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito (Senatran) que permite consultar, de forma online, as infrações de trânsito registradas para o cidadão ou para um veículo.\n\n Na consulta, é possível acessar o histórico e o detalhamento das infrações.\n\n A consulta pode ser realizada de duas formas:\n\n  * Por infrator;\n * Por veículo.",
+  "flagPortalLogado": "N",
+  "contato": "+ [Central de serviços](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2776)\n     + Telefone: 08007282324\n     + e-mail: [css.serpro@serpro.gov.br](http://css.serpro@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/infracoes/consultar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Minhas infrações",
+        "id": 126860
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106098,
+        "tipo": "Cidadão habilitado a dirigir que:",
+        "requisitos": "+ Possuir CNH Digital ativa.\n     + Esteja autenticado no Portal de Serviços do SENATRAN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177329
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Administrativo e Multas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "multa",
+        "id": 422699
+      },
+      {
+        "item": "multa de transito",
+        "id": 422700
+      },
+      {
+        "item": "infração",
+        "id": 422701
+      },
+      {
+        "item": "consultar",
+        "id": 422702
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152190
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1481,
+    "negativas": 4244
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 247769,
+      "titulo": "Consultar infrações pelo aplicativo da CNH do Brasil - (Opção 1)",
+      "descricao": "Se você ainda não possui o aplicativo CNH do Brasil no seu celular, [clique aqui](https://www.gov.br/obter-carteira-digital-de-transito). \n\n Faça seu login no aplicativo instalado em seu celular e clique em “Infrações”, localizado na tela principal. Na tela seguinte, selecione entre as opções “Por Infrator” ou “Por Veículo” para ver os detalhes de cada infração.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323383,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320298,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247770,
+      "titulo": "Consultar dados da habilitação pelo Portal de Serviços - (Opção 2)",
+      "descricao": "Você deve realizar o login no [Portal de Serviços](https://portalservicos.senatran.serpro.gov.br/#/usuario/painel) com Certificado Digital ou Login com CPF/SENHA. Clique em “Entrar com [gov.br](http://gov.br/)\" no canto superior direito da sua tela e insira seus dados.\n\n Após o login, você deverá localizar na página o bloco \"Infrações\", e clicar em \"Consultar Minhas Infrações”.\n\n Você então deverá selecionar se deseja consultar:\n\n  * Infrações por infrator;\n * Infrações por veículo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320299,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/infracoes/consultar)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4809",
+      "nome": "Obter desconto sobre o valor de multas de trânsito"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/74",
+      "nome": "Apresentar Formulário de Identificação do Condutor Infrator (Transferência de Pontuação) - DNIT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9840",
+      "nome": "Consultar multas aplicadas pelo Departamento Nacional de Infraestrutura de Transportes - DNIT"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "26",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-online-suas-infracoes-de-transito",
+  "statusDestaque": false
+}

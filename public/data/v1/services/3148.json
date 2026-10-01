@@ -1,0 +1,192 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3148",
+  "nome": "Obter declaração de utilidade pública para instalação de energia elétrica",
+  "sigla": "",
+  "descricao": "A Declaração de Utilidade Pública é um documento emitido com o objetivo de permitir a desapropriação e a instituição de servidão administrativa de áreas de terra necessárias para a implantação de instalações destinadas à geração de energia elétrica.",
+  "flagPortalLogado": "N",
+  "contato": "[master.sce@aneel.gov.br](mailto:master.sce@aneel.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/aneel/pt-br/centrais-de-conteudos/manuais-modelos-e-instrucoes/geracao/registro-autorizacao-e-concessao-de-empreendimentos-de-geracao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 98648
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 83589,
+        "tipo": "Concessionários, permissionários e autorizados.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/21089",
+    "dbId": 909,
+    "nomeOrgao": "Agência Nacional de Energia Elétrica (ANEEL)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 137297
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Declaração de utilidade pública",
+        "id": 331271
+      },
+      {
+        "item": "aneel",
+        "id": 331272
+      },
+      {
+        "item": "dup",
+        "id": 331273
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução n° 919 de 23 de fevereiro de 2021, http://www2.aneel.gov.br/cedoc/ren2021919.pdf",
+        "id": 114925
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 21
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "As pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue terão atendimento prioritário, nos termos da Lei n.º14.626, de 2023.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 191271,
+      "titulo": "Fazer download da planilha de validação de dados",
+      "descricao": "Fazer download da planilha de validação e preenchê-la, conforme instruções disponíveis no link de prestação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 250224,
+            "tipo": "web",
+            "descricao": "**<https://www.gov.br/aneel/pt-br/centrais-de-conteudos/manuais-modelos-e-instrucoes/geracao/requerimento-de-dup-para-implantacao-de-instalacoes-de-geracao>Â **",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 191272,
+      "titulo": "Carregar planilha preenchida no validador",
+      "descricao": "Carregar no validador a planilha baixada e preenchida na Etapa 1.\n\n Caso seja necessário o envio de várias versões do documento, salvar com o mesmo nome. Após o envio, salvar o recibo e o relatório de validação para posterior envio à ANEEL junto ao requerimento de Declaração de Utilidade Pública.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 250225,
+            "tipo": "web",
+            "descricao": "<https://sigel.aneel.gov.br/portal/home/group.html?id=a260627815d34c55919309e8c4565f35#overview>\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-declaracao-de-utilidade-publica-para-empreendimentos-de-geracao",
+  "statusDestaque": false
+}

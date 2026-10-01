@@ -1,0 +1,182 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9665",
+  "nome": "Consultar pagamentos não alocados no débito inscrito em dívida ativa da União",
+  "sigla": "",
+  "descricao": "É o serviço que possibilita ao contribuinte consultar um pagamento realizado por Documento de Arrecadação de Receitas Federais (Darf), mas que não foi alocado no débito inscrito em dívida ativa da União. Isso ocorre geralmente quando há erro no preenchimento do documento.\n\n **Atenção!** Caso seja identificado um pagamento não alocado na consulta, o contribuinte deverá solicitar o serviço [Retificação de Darf (Redarf)](https://www.gov.br/pt-br/servicos/retificar-pagamento-em-darf-redarf)[,](http://receita.economia.gov.br/interface/lista-de-servicos/pagamentos-e-parcelamentos/pagamento/retificar-pagamento-redarf) perante a Secretaria da Receita Federal do Brasil (RFB), para corrigir os dados do pagamento e abater o valor pago na dívida.",
+  "flagPortalLogado": "N",
+  "contato": "Clique [aqui](http://www.gov.br/pgfn/pt-br/canais_atendimento/atendimento-ao-contribuinte/contribuinte) para acessar os contatos da Procuradoria-Geral da Fazenda Nacional.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.regularize.pgfn.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Pagamentos Não Alocados",
+        "id": 122385
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102325,
+        "tipo": "Pessoa física e pessoa jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170850
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 170851
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "pagamentos",
+        "id": 407239
+      },
+      {
+        "item": "não alocados",
+        "id": 407240
+      },
+      {
+        "item": "dívida ativa da União",
+        "id": 407241
+      },
+      {
+        "item": "débitos inscritos",
+        "id": 407242
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "**[INSTRUÇÃO NORMATIVA SRF Nº 672, DE 30 DE AGOSTO DE 2006](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=15610)**** **- Dispõe sobre a retificação de erros no preenchimento de Documento de Arrecadação de Receitas Federais (Darf) e de Documento de Arrecadação do Sistema Integrado de Pagamento de Impostos e Contribuições das Microempresas e das Empresas de Pequeno Porte (Darf-Simples) e dá outras providências.",
+        "id": 146813
+      },
+      {
+        "item": "**[ATO DECLARATÓRIO EXECUTIVO CONJUNTO CORAT / COTEC Nº 3, DE 07 DE NOVEMBRO DE 2006](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=3268)**** **-** **Dispõe sobre pedido de retificação de Darf ou Darf-Simples, mediante utilização de meio eletrônico - Redarf Net, disponível na página da Secretaria da Receita Federal na Internet, por meio do Centro Virtual de Atendimento ao Contribuinte (e-CAC).",
+        "id": 146814
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 63,
+    "negativas": 138
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 238481,
+      "titulo": "Consultar pagamentos não alocados",
+      "descricao": "* Acesse o REGULARIZE e clique em*** Consultar Pagamentos Não Alocados***.\n  **Atenção!** Os pagamentos efetuados há mais de cinco anos não estão disponíveis para consulta.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307948,
+            "tipo": "web",
+            "descricao": "[Portal REGULARIZEÂ ](http://www.regularize.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/12608",
+      "nome": "Retificar pagamento em DARF"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 1946,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 1947,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/consulta-a-pagamento-nao-alocados",
+  "statusDestaque": false
+}

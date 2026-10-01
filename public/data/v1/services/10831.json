@@ -1,0 +1,299 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10831",
+  "nome": "Realizar primeiro acesso do representante legal de operadoras de planos de saúde no Portal Operadoras",
+  "sigla": "",
+  "descricao": "Serviço necessário para que o representante legal de uma nova operadora ou novo representante em uma operadora existente possa acessar o Portal Operadoras.",
+  "flagPortalLogado": "N",
+  "contato": "portaloperadoras@ans.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ans.gov.br/portal-operadora",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 109517
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92207,
+        "tipo": "Representante legal das Operadoras de Plano de saúde",
+        "requisitos": "A operadora de planos de saúde deve possuir um registro ANS válido e o representante legal deve estar no Cadastro de Operadoras da ANS (CADOP). \n\n   O representante legal deve estar de posse do e-cnpj da operadora ou deve ter acesso ao e-mail cadastrado no CADOP."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 152759
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Representante legal",
+        "id": 365855
+      },
+      {
+        "item": "Cadastro",
+        "id": 365856
+      },
+      {
+        "item": "ADMP",
+        "id": 365857
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RESOLUÇÃO NORMATIVA ANS Nº 534, DE 02 DE MAIO DE 2022",
+        "id": 127069
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 21
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 213585,
+      "titulo": "Realizar primeiro acesso do representante legal de operadoras de planos de saúde no Portal Operadoras",
+      "descricao": "Para realização do primeiro acesso siga o passo a passo contido no video https://www.youtube.com/watch?v=l7zeQlyoi9s que tem as seguintes etapas:\n\n  * Plugar o token e-cnpj ou ter o certificado digital instalado na maquina que fará a solicitação\n * Acesse o portal operadoras\n * Escolha o certificado e-cnpj da operadora ou informar o pin do token",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277436,
+            "tipo": "web",
+            "descricao": "[www.ans.gov.br/portal-operadora](http://www.ans.gov.br/portal-operadora)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213586,
+      "titulo": "Procedimento caso não seja possível identificar a operadora",
+      "descricao": "Caso não seja possível identificar a operadora o portal solicitará o CNPJ, nesse caso um código será enviado para o e-mail cadastrado pela operadora no CADOP.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277437,
+            "tipo": "web",
+            "descricao": "[www.ans.gov.br/portal-operadora](http://www.ans.gov.br/portal-operadora)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213587,
+      "titulo": "Envio do código",
+      "descricao": "* Caso ainda não seja possível identificar a operadora com o procedimento acima, será exibida uma tela com o nome do dono do certificado e da operadora para que o usuário confirme que é o certificado correto e a operadora correta\n * Será enviado um código para o e-mail cadastrado pela operadora no CADOP",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277438,
+            "tipo": "web",
+            "descricao": "[www.ans.gov.br/portal-operadora](http://www.ans.gov.br/portal-operadora)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213588,
+      "titulo": "Cadastro da senha",
+      "descricao": "* Após a identificação da Operadora será mostrado na tela o Responsável Legal da Operadora que deverá clicar em acessar (não clicar solicitar minha senha). A senha será cadastrada depois.\n * Leia e concorde com o Termo de Responsabilidade\n * Agora o representante Legal cadastrará sua senha seguindo a politica indicada na tela e cadastrará também seu e-mail pessoal para recuperação de senha.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277439,
+            "tipo": "web",
+            "descricao": "[www.ans.gov.br/portal-operadora](http://www.ans.gov.br/portal-operadora)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213589,
+      "titulo": "Procedimento não funcionou",
+      "descricao": "* Caso o procedimento informado não tenha funcionado, favor entrar em contato via e-mail [portaloperadoras@ans.gov.b](mailto:portaloperadoras@ans.gov.be \"mailto:portaloperadoras@ans.gov.be\")r solicitando o primeiro acesso",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277440,
+            "tipo": "e-mail",
+            "descricao": "[portaloperadoras@ans.gov.b](mailto:portaloperadoras@ans.gov.be \"mailto:portaloperadoras@ans.gov.be\")r",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-primeiro-acesso-do-representante-legal-de-operadoras-de-planos-de-saude-no-portal-operadoras",
+  "statusDestaque": false
+}

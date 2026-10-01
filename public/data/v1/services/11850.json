@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11850",
+  "nome": "Cadastrar operador de empilhadeira",
+  "sigla": "",
+  "descricao": "Este serviço é destinado às empresas que possuem empilhadeiras cadastradas pela CEAGESP e desejam registrar um novo funcionário para dirigir a empilhadeira no Entreposto Terminal de São Paulo - ETSP.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações, ligar para (11) 3643-3700 ou enviar e-mail para depec@ceagesp.gov.br. \n\n Este serviço é gratuito.\n\n ** **",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 108941
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91665,
+        "tipo": "Qualquer empresa com contrato firmado com a CEAGESP e que possua uma ou mais empilhadeiras cadastradas pela CEAGESP.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/29415",
+    "dbId": 8326,
+    "nomeOrgao": "Companhia de Entrepostos e Armazéns Gerais de São Paulo  (CEAGESP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 152015
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Empilhadeira",
+        "id": 363718
+      },
+      {
+        "item": "Operador",
+        "id": 363719
+      },
+      {
+        "item": "Cadastro",
+        "id": 363720
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 126545
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 62,
+    "negativas": 19
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 212588,
+      "titulo": "Solicitar cadastro de operador de empilhadeira",
+      "descricao": "O concessionário/permissionário deve protocolar uma carta solicitando o cadastro de operador de empilhadeira, indicando o nome completo, CPF e data de admissão do funcionário.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 286287,
+            "nome": "Cópia autenticada do Certificado de curso de operador de empilhadeira;\n\n Cópia autenticada da Carteira Nacional de Habilitação (CNH);\n\n Cópia de comprovante de residência com, no máximo, 3 (três) meses de emissão;\n\n Exame clínico exigido para exercer a função de operador de empilhadeira, renovado conforme legislação vigente;\n\n Documento que comprove o vínculo empregatício com o permissionário proprietário da empilhadeira"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276344,
+            "tipo": "presencial",
+            "descricao": "Presencial\n\n Departamento de Entreposto da Capital (DEPEC)\n\n Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo / SP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 212589,
+      "titulo": "Identificar o operador de empilhadeira",
+      "descricao": "Após o deferimento do pedido, o interessado deverá providenciar Equipamentos de Proteção Individual (EPI) e Crachá de identificação do operador.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276345,
+            "tipo": "presencial",
+            "descricao": "Presencial\n\n Departamento de Entreposto da Capital (DEPEC)\n\n Av. Dr. Gastão Vidigal, 1946 – Vila Leopoldina – São Paulo / SP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "77",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-operador-de-empilhadeira",
+  "statusDestaque": false
+}

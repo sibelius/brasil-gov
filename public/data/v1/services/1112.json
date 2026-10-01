@@ -1,0 +1,331 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1112",
+  "nome": "Obter autorização ou renovação para hospitais e equipes de transplante",
+  "sigla": "",
+  "descricao": "Solicitar a autorização/renovação para hospital público ou privado e equipe para realizar transplante de órgãos, tecidos ou células-tronco hematopoéticas (transplante de medula óssea).",
+  "flagPortalLogado": "N",
+  "contato": "**Telefones:** (61) 3315-8953 ou (61) 3315-9212\n\n **Email:** snt@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 113523
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 95638,
+        "tipo": "Hospitais transplantadores e equipes transplantadoras",
+        "requisitos": "**Requisitos necessários:**\n\n Encaminhar formulário de solicitação para renovação/ autorização preenchido e assinado, com cópia da documentação exigida."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "15",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 15,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 158434
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 158435
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 158436
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Certificações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "transplante",
+        "id": 379591
+      },
+      {
+        "item": "credenciamento",
+        "id": 379592
+      },
+      {
+        "item": "registro",
+        "id": 379593
+      },
+      {
+        "item": "equipe de transplante",
+        "id": 379594
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[DECRETO Nº 9.175, DE 18 DE OUTUBRO DE 2017](http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Decreto/D9175.htm#art56) [Portaria de Consolidação nº 4, de 28 de setembro de 2017](http://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0004_03_10_2017_comp.html)",
+        "id": 133943
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 17,
+    "negativas": 34
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000..",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n · Urbanidade;\n\n · Respeito;\n\n · Acessibilidade;\n\n · Cortesia;\n\n · Presunção da boa-fé do usuário;\n\n · Igualdade;\n\n · Eficiência; · Segurança; e · Ética.",
+  "etapas": [
+    {
+      "id": 221607,
+      "titulo": "Solicitar autorização",
+      "descricao": "O usuário deve entrar em contato com a Central Estadual de Transplante - CET (e-mail ou presencial) do seu estado e protocolar a  documentação exigida.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 295001,
+            "nome": "Formulário para autorização/renovação/renovação preenchido e assinado com cópia da documentação exigida (Check list)\n\n - CNES\n\n - CNPJ\n\n - Contrato Social\n\n - Licença sanitária atualizada\n\n - Documentação comprobatória de capacitação e experiência dos médicos"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 287475,
+            "tipo": "e-mail",
+            "descricao": "Pode ser presencialmente ou por e-mail.\n\n Na CET do seu estado. O tempo de espera para atendimento pode variar de acordo com o número de demandantes.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287476,
+            "tipo": "e-mail",
+            "descricao": "**Acre**\n\n [cncdoacre@gmail.com](mailto:cncdoacre@gmail.com); [ctxacreplantao@gmail.com](mailto:ctxacreplantao@gmail.com)\n\n **Alagoas**\n\n [doevida@saude.al.gov.br](mailto:doevida@saude.al.gov.br); [doevidaal@gmail.com](mailto:doevidaal@gmail.com) \n\n **Amapá**\n\n [cetcecoordenacao@gmail.com](mailto:cetcecoordenacao@gmail.com); [cet@saude.ap.gov.br](mailto:cet@saude.ap.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287477,
+            "tipo": "e-mail",
+            "descricao": "**Amazonas        **\n\n [centraldetx.am@saude.am.gov.br](mailto:centraldetx.am@saude.am.gov.br) ; [transplante@saude.am.gov.br](mailto:transplante@saude.am.gov.br)\n\n **Bahia **\n\n [centraldetransplantes.ba@saude.ba.gov.br](mailto:centraldetransplantes.ba@saude.ba.gov.br);[  \n](mailto:sesab.transplante@saude.ba.gov.br)\n\n **Ceará **\n\n [cetcecoordenacao@gmail.com](mailto:cetcecoordenacao@gmail.com); [cncdo@saude.ce.gov.br](http://cncdo@saude.ce.gov.br \"cncdo@saude.ce.gov.br\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287478,
+            "tipo": "e-mail",
+            "descricao": "**Distrito Federal**\n\n [diretoriacetdf@gmail.com](mailto:diretoriacetdf@gmail.com); [cetdforgaos@saude.df.gov.br](mailto:cetdforgaos@saude.df.gov.br)\n\n **Espírito Santo **\n\n [credenciamentoes@gmail.com](mailto:credenciamentoes@gmail.com); [centraldetransplantees@gmail.com](mailto:centraldetransplantees@gmail.com)\n\n **Goiás**\n\n [transplantes.saude@goias.gov.br](mailto:transplantes.saude@goias.gov.br); [plantaocncdo2.go@gmail.com](mailto:plantaocncdo2.go@gmail.com)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287479,
+            "tipo": "e-mail",
+            "descricao": "**Maranhão**\n\n [centraldetransplantes@saude.ma.gov.br](mailto:centraldetransplantes@saude.ma.gov.br)\n\n **Mato Grosso**\n\n [transplantemt@ses.mt.gov.br](mailto:transplantemt@ses.mt.gov.br); [gecaor@ses.mt.gov.br](mailto:gecaor@ses.mt.gov.br)\n\n **Mato Grosso do Sul**\n\n [cet@saude.ms.gov.br](mailto:cet@saude.ms.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287480,
+            "tipo": "e-mail",
+            "descricao": "**Minas Gerais**\n\n [mgtx.gerencia@fhemig.mg.gov.br](mailto:mgtx.gerencia@fhemig.mg.gov.br)\n\n **Pará**\n\n [credenciamentocetpa@sespa.pa.gov.br](mailto:credenciamentocetpa@sespa.pa.gov.br); [  \n](mailto:coordenacaocetpa@sespa.pa.gov.br)\n\n **Paraíba**\n\n [transplante@ses.pb.gov.br](mailto:transplante@ses.pb.gov.br)\n\n **Paraná**\n\n [sesatran.credenciamento@sesa.pr.gov.br](mailto:sesatran.credenciamento@sesa.pr.gov.br); [centraldetransplantes.pr@gmail.com](mailto:centraldetransplantes.pr@gmail.com)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287481,
+            "tipo": "e-mail",
+            "descricao": "**Pernambuco**\n\n [transplantespe@saude.pe.gov.br](mailto:transplantespe@saude.pe.gov.br); [ctpe.adm@gmail.com](mailto:ctpe.adm@gmail.com)\n\n **Piauí**\n\n [cetpiaui@gmail.com](mailto:cetpiaui@gmail.com)\n\n **Rio de Janeiro**\n\n [transplantes@saude.rj.gov.br](mailto:transplantes@saude.rj.gov.br); [fabricio.oliveira@saude.rj.gov.br](mailto:fabricio.oliveira@saude.rj.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287482,
+            "tipo": "e-mail",
+            "descricao": "**Rio Grande do Norte**\n\n [cncdorn@gmail.com](mailto:cncdorn@gmail.com)\n\n **Rio Grande do Sul**\n\n [centraldetransplantes@saude.rs.gov.br](mailto:centraldetransplantes@saude.rs.gov.br)\n\n **Rondônia**\n\n [gcentro@gmail.com](mailto:gcentro@gmail.com)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287483,
+            "tipo": "e-mail",
+            "descricao": "**Roraima**\n\n [transplantesrr@saude.rr.gov.br](mailto:transplantesrr@saude.rr.gov.br)\n\n **Santa Catarina**\n\n [getra@saude.sc.gov.br](mailto:getra@saude.sc.gov.br) \n\n **Sergipe**\n\n [central.transplante@gmail.com](http://central.transplante@gmail.com \"central.transplante@gmail.com\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 287484,
+            "tipo": "e-mail",
+            "descricao": "**São Paulo**\n\n [elima@saude.sp.gov.br](mailto:elima@saude.sp.gov.br); [ctrans@saude.sp.gov.br](mailto:ctrans@saude.sp.gov.br)\n\n **Tocantins**\n\n [cncdoto@gmail.com](mailto:gerenciamac.to@gmail.com); [cncdo@saude.to.gov.br](mailto:cncdo@saude.to.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 221608,
+      "titulo": "Receber a vistoria",
+      "descricao": "Após análise da solicitação, a CET ou a CGSNT entrará em contato, por telefone ou outras formas de contato informadas na requisição, para realizar a vistoria do local a ser autorizado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 287485,
+            "tipo": "presencial",
+            "descricao": "Local a ser autorizado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 221609,
+      "titulo": "Receber resultado",
+      "descricao": "Após análise favorável e atendimento a todos os requisitos, a autorização será publicada em portaria do Ministério da Saúde em Diário Oficial de União (DOU).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 287486,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://portal.imprensanacional.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "33",
+  "totalSimplifique": "0",
+  "simplifiqueSolicitacoes": "0",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-estabelecimentos-e-equipes-de-transplante",
+  "statusDestaque": false
+}

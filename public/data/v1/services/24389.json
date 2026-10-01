@@ -1,0 +1,354 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24389",
+  "nome": "Optar pela Autorregularização para Contribuintes com Selo Confia",
+  "sigla": "",
+  "descricao": "Regularize, perante a Receita Federal e sem multa de mora, caso você tenha o Selo Confia, os débitos objeto de comunicação recebida da RFB informando a existência de indício de possível infração à legislação tributária e aduaneira.\n\n Ao assumir voluntariamente esses débitos, por meio de envio de declaração, a empresa pode pagar à vista, parcelar ou compensar os valores devidos, sem pagar multa de mora\n\n A iniciativa incentiva a conformidade tributária e dá aos contribuintes a chance de regularizar sua situação fiscal em condições mais vantajosas, com menos encargos e sem risco de futuras ações de cobrança da Receita Federal.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.cav.receita.fazenda.gov.br/requer/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127896
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107041,
+        "tipo": "Pessoas jurídicas.\n\n **Requisito necessário: **\n\n Possuir **Selo Confia.**",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178904
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Programas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autorregularização",
+        "id": 426364
+      },
+      {
+        "item": "Confia",
+        "id": 426365
+      },
+      {
+        "item": "Conformidade tributária",
+        "id": 426366
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar nº 225/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp225.htm)",
+        "id": 153410
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249983,
+      "titulo": "Enviar Declarações",
+      "descricao": "Envie a DCTF ou DCTFWEB, a depender do período da dívida e conforme a legislação aplicada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323040,
+            "tipo": "web",
+            "descricao": "[Consultar Intimações de Malha de DCTF](https://cav.receita.fazenda.gov.br/autenticacao/login/index/73)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249984,
+      "titulo": "Pagar ou parcelar o débito confessado",
+      "descricao": "1. Gere o Documento de Arrecadação de Receitas Federais **(Darf)** pelo canal abaixo, utilize o código de receita** 6359**\n\n 2. **Anexe** o comprovante de pagamento à vista ou da primeira prestação do parcelamento** na etapa 4.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323041,
+            "tipo": "web",
+            "descricao": "[Gerar Darf](https://sicalc.receita.fazenda.gov.br/sicalc/principal)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249985,
+      "titulo": "Compensar o débito",
+      "descricao": "1. Acesse o canal abaixo.\n\n 2. Crie o documento \"Declaração de Compensação\".\n\n 3. Na aba \"Informar e Ordenar Débitos\", no campo \"Valores Informados\", informe o \"Valor Principal\". O sistema irá gerar o valor da multa e juros. No campo da \"Multa\", em \"Valores Informados\", informe R$ 0,00.\n\n 4. Ainda na aba \"Informar e Ordenar Débitos\", na opção \"Dados do Processo\" ao final da página selecione SIM.\n\n 5. Preencha o número do processo gerado após a confirmação do requerimento de Autorregularização.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323042,
+            "tipo": "web",
+            "descricao": "[Pedir Restituições ou Compensações](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10006)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249986,
+      "titulo": "Fazer a opção pela Autorregularização",
+      "descricao": "1. Acesse o canal abaixo.\n\n 2. Vá em **Solicitar Serviço.**\n\n 3. Escolha a área de concentração **Autorregularização**.\n\n 4. Selecione o serviço **Programa de Conformidade Confia.**\n\n 5. Siga as instruções do formulário e **anexe a documentação necessária**.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325056,
+            "nome": "ADE de Certificação no Programa Confia, ou"
+          },
+          {
+            "id": 325057,
+            "nome": "Plano de Regularização elaborado no âmbito do Programa Confia, oui"
+          },
+          {
+            "id": 325058,
+            "nome": "Cópia da comunicação recebida pelo contribuinte de indício de possível infração à legislação tributária e aduaneira."
+          }
+        ],
+        "casos": [
+          {
+            "id": 49337,
+            "descricao": "Demais documentos obrigatórios:",
+            "documento": [
+              {
+                "id": 325054,
+                "codigo": null,
+                "descricao": "Formulário \"Débitos a regularizar\" (PDF gerado no sistema).",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325055,
+                "codigo": null,
+                "descricao": "Comprovante de pagamento do Darf, quando aplicável (pagamento à vista ou da primeira prestação do parcelamento).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323043,
+            "tipo": "web",
+            "descricao": "[Abrir Novo Processo (Requerimento)](https://www3.cav.receita.fazenda.gov.br/requer/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249987,
+      "titulo": "Acompanhar resultado do processo",
+      "descricao": "Você vai receber a resposta por meio de um despacho no processo.\n\n Para consultar esse despacho:\n\n 1. Acesse o canal abaixo.\n\n 2. Vá em **Processos em que sou o Interessado Principal.**\n\n 3. Lá você poderá ver os documentos do seu processo.\n\n Você também será avisado pela caixa postal.\n\n Em algumas situações o processo é arquivado após a decisão. Neste caso, você encontrará o processo na aba \"Inativos\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323044,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323045,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141 \"https://apps.apple.com/br/app/eprocesso/id1358752141\") | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso \"https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso\") (e-Processo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323046,
+            "tipo": "web",
+            "descricao": "[Minhas Mensagens (Caixa Postal)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/6)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/optar-pela-autorregularizacao-para-contribuintes-com-selo-confia",
+  "statusDestaque": false
+}

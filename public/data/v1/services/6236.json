@@ -1,0 +1,218 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6236",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação e de pós-graduação - UFCA",
+  "sigla": "",
+  "descricao": "Na UFCA, os diplomas são emitidos mediante requerimento dos estudantes após colação de grau do curso de Graduação ou de conclusão do curso de Pós-Graduação.",
+  "flagPortalLogado": "N",
+  "contato": "PROEN - (88)32219270 - mirian.alencar@ufca.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 109574
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92249,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/122391",
+    "dbId": 57777,
+    "nomeOrgao": "Universidade Federal do Cariri  (UFCA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 152909
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 366014
+      },
+      {
+        "item": "Certificado",
+        "id": 366015
+      },
+      {
+        "item": "2ª Via",
+        "id": 366016
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 127119
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 213690,
+      "titulo": "Solicitação do diploma",
+      "descricao": "Esta etapa se inicia através da abertura de e-mail do discente junto à coordenação de seu curso. A partir daí todas as movimentações são registradas e acompanhadas utilizando-se o Sistema Integrado de Patrimônio, Administração e Contratos (SIPAC UFCA).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 287838,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 287839,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 287840,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 287841,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 287842,
+            "nome": "CPF"
+          },
+          {
+            "id": 287843,
+            "nome": "Declaração de Nada Consta da Biblioteca; Cópia de carteira de Reservista (somente no caso dos homens); Cópia do título de eleitor; Recibo de depósito de TCC ."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277700,
+            "tipo": "e-mail",
+            "descricao": "Para cursos de Graduação, pode-se contatar o e-mail [diplomas.prograd@ufca.edu.br](mailto:diplomas.prograd@ufca.edu.br?subject=Emissão de Diploma de Graduação)  \n  \nPara cursos de Pós-Graduação, pode-se contatar o e-mail [ddpg.prpi@ufca.edu.br](mailto:ddpg.prpi@ufca.edu.br?subject=Emissão de Diploma de Pós-Graduação)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "60",
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 60,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213691,
+      "titulo": "Entrega de diploma",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277701,
+            "tipo": "web",
+            "descricao": "O acesso ao Diploma Digital poderá ser realizado através de acesso autenticado no [Sistema Integrado de Gestão de Atividades Acadêmicas (SIGAA UFCA)](https://sig.ufca.edu.br/sigaa \"SIGAA UFCA\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-de-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufca",
+  "statusDestaque": false
+}

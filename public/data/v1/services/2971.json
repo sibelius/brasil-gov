@@ -1,0 +1,185 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2971",
+  "nome": "Obter Certidão de Pertencimento a Comunidade Remanescente de Quilombo",
+  "sigla": "",
+  "descricao": "Emite certidão para cidadãos pertencentes e residentes em Comunidades Remanescentes de Quilombos que estejam matriculados em Universidades e Institutos Federais para fins da concessão da Bolsa Permanência pelo MEC.",
+  "flagPortalLogado": "S",
+  "contato": "Fundação Cultural Palmares - Setor Comercial Sul - SCS Quadra 02, Bloco C, nº 256 - Ed. Toufic - CEP 70.302-000 - Brasília - DF ou em uma das suas [Representações Regionais](http://www.palmares.gov.br/?page_id=19672)\n\n       Telefone: (61) 3424-0145",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Declaração para o Bolsa Permanência",
+        "id": 125871
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105273,
+        "tipo": "Estudantes de nível superior pertencentes a comunidades remanescentes de quilombos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1782",
+    "dbId": 34302,
+    "nomeOrgao": "Fundação Cultural Palmares (FCP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175957
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Patrimônio Cultural"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "quilombo",
+        "id": 419170
+      },
+      {
+        "item": "bolsa",
+        "id": 419171
+      },
+      {
+        "item": "universitário",
+        "id": 419172
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151086
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 192,
+    "negativas": 44
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 245699,
+      "titulo": "Requerer certidão",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321589,
+            "nome": "Uma declaração onde o aluno auto define-se como quilombola."
+          },
+          {
+            "id": 321590,
+            "nome": "Uma declaração de sua comunidade informando que o aluno é quilombola pertencente a sua comunidade e assinada por 3 (três) lideranças da comunidade ligadas a associação da comunidade."
+          },
+          {
+            "id": 321591,
+            "nome": "Cópia do RG/CNH e CPF."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317817,
+            "tipo": "presencial",
+            "descricao": "**Fundação Cultural Palmares** - Setor Comercial Sul - SCS Quadra 02, Bloco C, nº 256 - Ed. Toufic - CEP 70.302-000 - Brasília - DF ou em uma das suas [Representações Regionais](http://www.palmares.gov.br/?page_id=19672)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317818,
+            "tipo": "telefone",
+            "descricao": "(61) 3424-0145",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 317819,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://solicitacao.servicos.gov.br/processos/iniciar?codServico=7932)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "81",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-de-pertencimento-a-comunidade-remanescente-de-quilombo",
+  "statusDestaque": false
+}

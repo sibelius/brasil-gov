@@ -1,0 +1,174 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2355",
+  "nome": "Verificar autenticidade de Boletim de Acidente de Trânsito da PRF",
+  "sigla": "BAT",
+  "descricao": "Serviço oferecido à população que queira verificar a autenticidade do Boletim de Acidente de Trânsito/Laudo Pericial de Acidente de Trânsito, emitido pela Polícia Rodoviária Federal.",
+  "flagPortalLogado": "N",
+  "contato": "<https://portal.prf.gov.br/canais-de-atendimento>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://novobat.prf.gov.br/novobat/autenticar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Autenticar",
+        "id": 32485
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31813,
+        "tipo": "Qualquer pessoa pode utilizar este serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50907
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 50908
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 50909
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 50910
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acidentes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "trânsito",
+        "id": 114435
+      },
+      {
+        "item": "acidente",
+        "id": 114436
+      },
+      {
+        "item": "BR",
+        "id": 114437
+      },
+      {
+        "item": "rodovia",
+        "id": 114438
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33141
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 33,
+    "negativas": 112
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 66604,
+      "titulo": "Verificar autenticidade",
+      "descricao": "Preencher os campos com o protocolo do Boletim de Acidente de Trânsito, o CPF do solicitante e clicar em \"confirmar autenticidade\".",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 95382,
+            "nome": "Número do protocolo"
+          },
+          {
+            "id": 95383,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85650,
+            "tipo": "web-consultar",
+            "descricao": "[ Consultar](https://novobat.prf.gov.br/novobat/consultar)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "23",
+  "url": "https://www.gov.br/pt-br/servicos/verificar-autenticidade-de-boletim-de-acidente",
+  "statusDestaque": false
+}

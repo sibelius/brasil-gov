@@ -1,0 +1,357 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5860",
+  "nome": "Participar de processo seletivo para curso de Educação Superior de Graduação (Licenciatura, Tecnologia e Bacharelado) - IF ES",
+  "sigla": "",
+  "descricao": "Serviço para inscrever-se e participar do Processo Seletivo do Ifes para cursos de graduação, que preenche vagas por prova de redação e etapas oficiais de inscrição, prova, comprovação de cotas e resultado, com publicações na Área do Candidato e em ifes.edu.br.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações ou dúvidas sobre este serviço, entre em contato:  \n Diretoria de Graduação: 27 3357-7533  \nE-mail: ensino.graduacao@ifes.edu.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ifes.edu.br/processosseletivos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Processo Seletivo",
+        "id": 123908
+      },
+      {
+        "item": "Edital",
+        "id": 123909
+      },
+      {
+        "item": "Graduação",
+        "id": 123910
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103723,
+        "tipo": "Cidadãos",
+        "requisitos": "Portadores de certificado de conclusão do Ensino Médio ou equivalente"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "20",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 20,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100912",
+    "dbId": 36754,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo (IFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173322
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Licenciatura",
+        "id": 412547
+      },
+      {
+        "item": "Tecnologia",
+        "id": 412548
+      },
+      {
+        "item": "Bacharelado",
+        "id": 412549
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149034
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 241739,
+      "titulo": "Inscrever-se",
+      "descricao": "Acesse a Área do Candidato, preencha o formulário, selecione campus/curso, informe dados, anexe documentos quando solicitado e gere o boleto. Para isenção, siga o período e as regras do cronograma. Salve o comprovante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318218,
+            "nome": "Identificação (RG/Passaporte/CRNM) e demais itens solicitados no sistema (ex.: para isenção)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41234,
+            "descricao": "Com taxa de inscrição (pagamento no prazo do cronograma) ou isenção conforme regra/cronograma.",
+            "moeda": "R$",
+            "valor": " 85,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312128,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ifes.edu.br/processosseletivos) e Ã¡rea do candidato",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241740,
+      "titulo": "Realizar a prova de redação",
+      "descricao": "Compareça ao local de prova divulgado, nos horários definidos, portando documento oficial; a seleção é por prova de redação. Respeite as normas do edital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318219,
+            "nome": "Documento de identificação aceito pelo edital e cartão/consulta de local de prova."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312129,
+            "tipo": "presencial",
+            "descricao": "local divulgado na Área do Candidato/portal.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 4,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "4",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 4
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 241741,
+      "titulo": "Acompanhar publicações e interpor recursos",
+      "descricao": "Acompanhe gabaritos, resultados prévios, locais, confirmações e recursos exclusivamente pela Área do Candidato e ifes.edu.br, dentro dos prazos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318220,
+            "nome": "Conforme orientações do sistema para recursos."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312130,
+            "tipo": "web",
+            "descricao": "Área do Candidato e [Acesse o site](https://www.gov.br/ifes.edu.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241742,
+      "titulo": "Comprovar condição de cotista / heteroidentificação (quando aplicável)",
+      "descricao": "Para vagas de Ações Afirmativas, enviar documentos no período de análise e, se PPI, comparecer à entrevista de heteroidentificação no campus da vaga.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318221,
+            "nome": "Documentos de cotas conforme regras; atendimento PcD e demais subdivisões conforme edital."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312131,
+            "tipo": "web",
+            "descricao": "Área do Candidato",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 312132,
+            "tipo": "presencial",
+            "descricao": "Entrevistas no campus.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241743,
+      "titulo": "Consultar resultado final (homologação)",
+      "descricao": "Verifique a homologação do Resultado Final na data prevista; candidatos serão encaminhados à etapa de requerimento de matrícula.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312133,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/ifes.edu.br) e Área do Candidato",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "44",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-educacao-superior-de-graduacao-licenciatura-tecnologia-e-bacharelado-if-es",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

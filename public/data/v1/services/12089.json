@@ -1,0 +1,236 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12089",
+  "nome": "Contratar solução digital para automatizar validação de documento (API VIO Decoder)",
+  "sigla": "",
+  "descricao": "A [API VIO Decoder](https://www.loja.serpro.gov.br/vioapidecodifica) permite a integração do seu sistema à  API VIO, para automatizar o processo de validação de documentos codificados com os QR Codes gerados pela [API VIO Encoder](https://www.loja.serpro.gov.br/viogeraqrcode).",
+  "flagPortalLogado": "N",
+  "contato": "Para solicitação de informações, para aquisição do serviço, etc.\n\n informações na [página do serviço](https://www.loja.serpro.gov.br/vioapidecodifica)\n\n Para suporte, acione a Central de Serviços por meio dos canais:\n\n [formulário de atendimento](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2998)\n\n e-mail: [css.serpro@serpro.gov.br](mailto:css.serpro@serpro.gov.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.loja.serpro.gov.br/vioapidecodifica",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 94733
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80590,
+        "tipo": "Empresas (mercado privado)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/90",
+    "dbId": 43381,
+    "nomeOrgao": "Serviço Federal de Processamento de Dados (SERPRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 131327
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Suporte Digital"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "documento",
+        "id": 319206
+      },
+      {
+        "item": "validação",
+        "id": 319207
+      },
+      {
+        "item": "decodificar",
+        "id": 319208
+      },
+      {
+        "item": "Serpro",
+        "id": 319209
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 109339
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 183041,
+      "titulo": "Solicitar contratação",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 29857,
+            "descricao": "Custo da contratação",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Valor contratado",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240345,
+            "tipo": "web",
+            "descricao": "Na [página do serviço](https://www.loja.serpro.gov.br/vioapidecodifica) acione a opção \"Quero contratar\" e preencha o formulário com seus dados institucionais e informe que deseja receber uma proposta.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183042,
+      "titulo": "Integrar sistema",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240346,
+            "tipo": "web",
+            "descricao": "Será informado canal interno específico para a obter o acesso, disponível aos envolvidos na etapa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 183043,
+      "titulo": "Utilizar API para leitura de QRCode VIO",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 240347,
+            "tipo": "web",
+            "descricao": "Será informado canal interno específico para a obter o acesso, disponível aos envolvidos na etapa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/contratar-solucao-digital-para-automatizar-validacao-de-documento-api-vio-decoder",
+  "statusDestaque": false
+}

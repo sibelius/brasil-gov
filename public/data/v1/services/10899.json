@@ -1,0 +1,678 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10899",
+  "nome": "Obter autorização para operações específicas para operadores regidos pelo RBAC 91",
+  "sigla": "",
+  "descricao": "A autorização para operações específicas (CAT II e III, PBN, RVSM, NAT-HLA e CPDLC/ADS-C e EFVS) prevista na Subparte N do Regulamento Brasileiro de Aviação Civil – RBAC 91 por operadores regidos pelo RBAC 91 se dá com a emissão da LOA (*Letter of Authorization*). Os operadores regidos também pelos RBAC 119, 121 e 135 deverão incluir as operações em suas Especificações Operativas.\n\n Com a publicação da [Portaria nº 8.852, de 15 de Agosto de 2022](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2022/portaria-8852?visao=tabela), a ANAC prorrogou por tempo indeterminado as validades das autorizações para condução de operações de navegação baseada em desempenho (LOA PBN) emitidas segundo a IS nº 91-001, e operações RVSM (LOA RVSM) emitidas segundo a IS nº 91-005, que possuem data de vencimento posterior a 1º de agosto de 2022. Assim, o operador não precisa solicitar a renovação de sua LOA do tipo PBN e RVSM. Cabe ressaltar que os procedimentos de treinamento de tripulação, manutenção de aeronaves e equipamentos, bem como eventuais verificações operacionais necessárias para a realização destas operações deverão continuar sendo integralmente cumpridas pelo operador aéreo conforme requisitos aplicáveis do RBAC nº 91 e parâmetros descritos na IS nº 91-001 e na IS nº 91-005. A ANAC poderá, a qualquer tempo, solicitar aos operadores aéreos evidências acerca da conformidade das operações realizadas com relação aos regulamentos e normas da ANAC, sendo que eventuais inconformidades ou violações poderão ensejar na suspensão ou revogação da autorização.\n\n [Clique aqui para Orientações referentes ao Protocolo Eletrônico](https://www.gov.br/../../anac/pt-br/sistemas/protocolo-eletronico-sei)\n\n [Clique aqui para orientações referentes ao uso de sistema eletrônico para registros digitais](https://www.gov.br/anac/pt-br/assuntos/regulados/programa-de-transformacao-digital/solicitacao-de-uso-de-sistema)",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "LOA RVSM",
+        "id": 88474
+      },
+      {
+        "item": "LOA PBN",
+        "id": 88475
+      },
+      {
+        "item": "LOA NAT HLA",
+        "id": 88476
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75788,
+        "tipo": "Operador regido pelo RBAC 91.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "No caso de operações RVSM em que a aeronave ainda não dispõe do Relatório de Monitoramento, é emitida uma LOA provisória, válida por 6 meses, período em que o operador deve fazer o voo de monitoração e enviar a comprovação para a ANAC. Recebido o documento, é emitida a LOA com validade indeterminada."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122770
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 122771
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 298176
+      },
+      {
+        "item": "LOA",
+        "id": 298177
+      },
+      {
+        "item": "Letter of Authorization",
+        "id": 298178
+      },
+      {
+        "item": "CAT II",
+        "id": 298179
+      },
+      {
+        "item": "CAT III",
+        "id": 298180
+      },
+      {
+        "item": "PBN",
+        "id": 298181
+      },
+      {
+        "item": "RNAV",
+        "id": 298182
+      },
+      {
+        "item": "RVSM",
+        "id": 298183
+      },
+      {
+        "item": "NAT HLA",
+        "id": 298184
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Código Brasileiro de Aeronáutica (CBA)](https://www.planalto.gov.br/ccivil_03/leis/l7565compilado.htm)",
+        "id": 101539
+      },
+      {
+        "item": "[Regulamento Brasileiro de Homologação Aeronáutica 91](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-91/@@display-file/arquivo_norma/RBAC91.pdf)",
+        "id": 101540
+      },
+      {
+        "item": "[Instrução Suplementar 91-001](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-001)",
+        "id": 101541
+      },
+      {
+        "item": "[Instrução Suplementar 91-004](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-004)",
+        "id": 101542
+      },
+      {
+        "item": "[Instrução Suplementar 91-005](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-005)",
+        "id": 101543
+      },
+      {
+        "item": "[Instrução Suplementar 91-006](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-006)",
+        "id": 101544
+      },
+      {
+        "item": "[Instrução Suplementar 91-010](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-010)",
+        "id": 101545
+      },
+      {
+        "item": "[Instrução Suplementar 91-011](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-91-011)",
+        "id": 101546
+      },
+      {
+        "item": "[Resolução Nº 457, de 20 de dezembro de 2017](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2017/resolucao-no-457-20-12-2017)",
+        "id": 101547
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 171669,
+      "titulo": "Solicitar LOA",
+      "descricao": "O interessado deverá enviar a solicitação à ANAC por meio de peticionamento eletrônico, com a documentação requerida, escolhendo o tipo de processo \"Autorizações: LOA 91”. Há um Tipo de Processo para cada operação específica.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237983,
+            "nome": "Para todas as petições é requerida uma solicitação formal, contendo informações sobre o operador, a aeronave, listagem dos equipamentos instalados requeridos para a operação, e em alguns casos informação sobre a tripulação e responsável pelas operações. Exceto para LOA CAT I e II, todos os tipos de petições de LOA possuem Formulários Digitais de Solicitação Formal que poderão ser utilizados como petição inicial e consolidam as informações necessárias para a análise do pleito."
+          },
+          {
+            "id": 237984,
+            "nome": "Se aplicável, revisão da Lista de Equipamentos Mínimos (MEL) com alterações necessárias à operação."
+          },
+          {
+            "id": 237985,
+            "nome": "Se aplicável, comprovação do treinamento realizado pela tripulação."
+          },
+          {
+            "id": 237986,
+            "nome": "Comprovação das capacidades da aeronave."
+          }
+        ],
+        "casos": [
+          {
+            "id": 37925,
+            "descricao": "Se a solicitação for apresentada por representante legal do interessado, enviar também:",
+            "documento": [
+              {
+                "id": 237954,
+                "codigo": null,
+                "descricao": "Procuração do operador ou informação sobre procuração digital via SEI",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37926,
+            "descricao": "Se operador for pessoa jurídica, enviar também:",
+            "documento": [
+              {
+                "id": 237955,
+                "codigo": null,
+                "descricao": "Cópia do contrato social do operador ou indicação que cadastro de responsável legal via SEI. Informações adicionais sobre Cadastro de pessoa jurídica e procuradores em Informações adicionais podem ser encontradas em [https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei](https://www.gov.br/../../anac/pt-br/sistemas/protocolo-eletronico-sei)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37927,
+            "descricao": "Se for solicitação inicial de LOA CAT II, enviar também:",
+            "documento": [
+              {
+                "id": 237956,
+                "codigo": null,
+                "descricao": "Manual CAT II desenvolvido pelo operador.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37928,
+            "descricao": "Se for revalidação de LOA CAT II, enviar também:",
+            "documento": [
+              {
+                "id": 237957,
+                "codigo": null,
+                "descricao": "Comprovação do treinamento realizado pela tripulação, conforme aprovado no manual.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37929,
+            "descricao": "Se for solicitação de LOA PBN, enviar também:",
+            "documento": [
+              {
+                "id": 237958,
+                "codigo": null,
+                "descricao": "Comprovação de Programa de Validação de Dados de Navegação.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37930,
+            "descricao": "Se for solicitação de LOA RVSM, enviar também:",
+            "documento": [
+              {
+                "id": 237959,
+                "codigo": null,
+                "descricao": "Relatório de Monitoramento do Sistema de Altimetria da aeronave.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37931,
+            "descricao": "Se for solicitação de LOA NAT HLA, enviar também:",
+            "documento": [
+              {
+                "id": 237960,
+                "codigo": null,
+                "descricao": "Declaração de familiarização teórica da tripulação contemplando todas as operações NAT HLA requeridas.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37932,
+            "descricao": "Se for solicitação para CPDLC/ADS-C, enviar também",
+            "documento": [
+              {
+                "id": 237961,
+                "codigo": null,
+                "descricao": "Documentação de capacidade da aeronave para utilizar procedimentos CPDLC e/ou ACD-S",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237962,
+                "codigo": null,
+                "descricao": "Contrato com Provedor de serviços de dados de comunicação (CSP)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237963,
+                "codigo": null,
+                "descricao": "Comprovação de treinamento da tripulação",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37933,
+            "descricao": "Se for solicitação para CPDLC/ADS-C com certificação PBCS, enviar também",
+            "documento": [
+              {
+                "id": 237964,
+                "codigo": null,
+                "descricao": "Indicação no contrato com o CSP da capacidade PBCS do provedor",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237965,
+                "codigo": null,
+                "descricao": "Contrato com Provedor de serviços de dados de comunicação (CSP)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237966,
+                "codigo": null,
+                "descricao": "Comprovação de treinamento da tripulação",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37934,
+            "descricao": "Se for solicitação para LOA EFVS, enviar também",
+            "documento": [
+              {
+                "id": 237967,
+                "codigo": null,
+                "descricao": "Documentação que comprove atendimento ao AVOP",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237968,
+                "codigo": null,
+                "descricao": "Disposições sobre EFVS nos manuais operacionais da aeronave",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237969,
+                "codigo": null,
+                "descricao": "Descrição de procedimentos operacionais específicos",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237970,
+                "codigo": null,
+                "descricao": "Comprovação de treinamento de tripulação de voo",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237971,
+                "codigo": null,
+                "descricao": "Comprovação de treinamento de pessoal de controle operacional",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237972,
+                "codigo": null,
+                "descricao": "Informações sobre a organização de manutenção",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237973,
+                "codigo": null,
+                "descricao": "Documentos específicos de manutenção de equipamento EFVS",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237974,
+                "codigo": null,
+                "descricao": "Proposta de plano de demonstração de capacidade de operação EFVS",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37935,
+            "descricao": "Para uso de sistema eletrônico para registros digitais, caso o software não tenha sido verificado/atestado pela ANAC",
+            "documento": [
+              {
+                "id": 237975,
+                "codigo": null,
+                "descricao": "Carta;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237976,
+                "codigo": null,
+                "descricao": "Formulário D-144-01 – Decl. para uso de Reg. Digitais;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237977,
+                "codigo": null,
+                "descricao": "Check-list de Conformidade de Software conforme Resolução 458;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237978,
+                "codigo": null,
+                "descricao": "Relatório de conformidade do sistema (Art. 3º, Res. 458) – emitido por entidade competente.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237979,
+                "codigo": null,
+                "descricao": "Atenção: a documentação listada no campo \"Documentação comum para todos os casos\" não é exigida para o uso de sistema eletrônico para registros digitais",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37936,
+            "descricao": "Para uso de sistema eletrônico para registros digitais, caso o software tenha sido verificado/atestado pela ANAC",
+            "documento": [
+              {
+                "id": 237980,
+                "codigo": null,
+                "descricao": "Carta;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237981,
+                "codigo": null,
+                "descricao": "Formulário D-144-01, para uso de Reg.Digitais",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 237982,
+                "codigo": null,
+                "descricao": "Atenção: a documentação listada no campo \"Documentação comum para todos os casos\" não é exigida para o uso de sistema eletrônico para registros digitais",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28515,
+            "descricao": "Custo varia entre R$ 300,00 e",
+            "moeda": "R$",
+            "valor": " 2.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 37937,
+            "descricao": "Caso se trate de autorização para operações RVSM; PBN; ou NAT/HLA",
+            "custo": [
+              {
+                "id": 28509,
+                "descricao": "TFAC Código 011203",
+                "moeda": "R$",
+                "valor": " 500,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37938,
+            "descricao": "Caso se trate de autorização para operações ILS CAT II/III",
+            "custo": [
+              {
+                "id": 28510,
+                "descricao": "TFAC Código 011204",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37939,
+            "descricao": "Caso se trate de autorização para operações RNP-AR-APCH",
+            "custo": [
+              {
+                "id": 28511,
+                "descricao": "TFAC Código 011205",
+                "moeda": "R$",
+                "valor": " 2.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37940,
+            "descricao": "Caso se trate de renovação ou modificação da autorização para operações RVSM; PBN; ou NAT/HLA",
+            "custo": [
+              {
+                "id": 28512,
+                "descricao": "TFAC Código 011303",
+                "moeda": "R$",
+                "valor": " 300,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37941,
+            "descricao": "Caso se trate de renovação ou modificação da autorização para operações ILS CAT II/III",
+            "custo": [
+              {
+                "id": 28513,
+                "descricao": "TFAC Código 011304",
+                "moeda": "R$",
+                "valor": " 500,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37942,
+            "descricao": "Caso se trate de renovação ou modificação da autorização para operações RNP-AR-APCH",
+            "custo": [
+              {
+                "id": 28514,
+                "descricao": "TFAC Código 011305",
+                "moeda": "R$",
+                "valor": " 600,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225232,
+            "tipo": "web",
+            "descricao": "Os Formulários Digitais de Solicitação Formal para Emissão de LOA devem ser preenchidos diretamente via [Peticionamento Eletrônico SEI!, escolhendo o tipo de processo \"Autorizações: LOA 91”,](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei) no momento da abertura processo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37943,
+            "descricao": "Para uso de sistema eletrônico para registros digitais",
+            "canalDePrestacao": [
+              {
+                "id": 225230,
+                "tipo": "web",
+                "descricao": "Realizar Peticionamento Eletrônico, escolhendo o tipo de processo \"Autorizações: LOA 91 – Utilização de Diário de Bordo Digital\".\n\n Caso necessária reunião prévia, indicar na carta.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          },
+          {
+            "id": 37944,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 225231,
+                "tipo": "web",
+                "descricao": "[Clique aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=RedirecionarPaginaServicoBean)\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171670,
+      "titulo": "Aguardar análise do pedido e autorização",
+      "descricao": "Nessa etapa, a ANAC analisa os documentos enviados na etapa anterior, podendo interagir com o regulado para saneamento de pendências documentais.\n\n Nos casos em que sejam identificadas pendências, a ANAC encaminha um Ofício ao interessado para atendimento às providências requeridas.\n\n Nos casos em que a análise concluir pelo deferimento do pedido, o interessado será informado por ofício.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225233,
+            "tipo": "web",
+            "descricao": "Nos casos em que forem identificadas pendências, o interessado deverá encaminhar a documentação complementar requerida pela ANAC pelo [Protocolo Eletrônico do Sistema SEI](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei), por meio de peticionamento intercorrente.\n\n É importante observar o guia elaborado pela ANAC para auxiliar na utilização do protocolo eletrônico.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "61",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-operacoes-especificas-para-operadores-regidos-exclusivamente-pelo-rbac-91",
+  "statusDestaque": false
+}

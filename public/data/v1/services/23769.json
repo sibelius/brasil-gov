@@ -1,0 +1,248 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23769",
+  "nome": "Solicitar regularização junto ao Cadastro de Inadimplentes da União (Cadin)",
+  "sigla": "",
+  "descricao": "Solicitar ao Ibama a revisão de registros no Cadastro Informativo de Créditos não Quitados do Setor Público Federal (Cadin), após o pagamento do valor devido.",
+  "flagPortalLogado": "S",
+  "contato": "Central de Atendimento do Ibama - 0800 061 8080",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 112863
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94770,
+        "tipo": "Pessoas físicas ou jurídicas que tenha sido inscritas no Cadin pelo Ibama e desejam regularizar sua situação.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 157429
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 157430
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cadin",
+        "id": 377075
+      },
+      {
+        "item": "Ibama",
+        "id": 377076
+      },
+      {
+        "item": "Inadimplente",
+        "id": 377077
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 10.522/2002](https://www.planalto.gov.br/ccivil_03/LEIS/2002/L10522.htm)",
+        "id": 132223
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 24
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 220150,
+      "titulo": "Etapa 1 - Enviar o pedido",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 293823,
+            "nome": "* Nome completo ou razão social\n * CPF ou estatuto social e CNPJ (no caso de pessoa jurídica)\n * Procuração (caso o pedido seja realizado por representante legal)\n * Documentação que comprove a quitação ou contestação do débito, e\n * Informações detalhadas sobre o registro a ser regularizado"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285662,
+            "tipo": "web",
+            "descricao": "**Por processo eletrônico**\n\n  * Iniciar processo no [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)\n * Clicar em *Processo Novo*\n * Tipo de Processo: *Arrecadaço*\n * Incluir um *Requerimento*\n * Informar dados e documentos obrigatórios\n * *Peticionar*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 285663,
+            "tipo": "web",
+            "descricao": "**Pela Plataforma FalaBR**\n\n  * Acessar o [FalaBR](http://falabr.cgu.gov.br)[  \n](https://www.gov.br/Fala.BR)\n * Em *Usuário > Ouvidoria > Nova manifestação > Solicitação*\n * Inserir dados e documentos\n * Clicar em* Avançar*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220151,
+      "titulo": "Etapa 2 - Acompanhar o andamento do processo",
+      "descricao": "Acompanhar a tramitação do processo pelo Sei! Ibama ou pela Plataforma FalaBR, onde será possível visualizar as comunicações e o andamento da análise.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285664,
+            "tipo": "web",
+            "descricao": "[Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)Â ou\n\n Plataforma [FalaBR](http://falabr.cgu.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220152,
+      "titulo": "Etapa 3 - Receber a resposta de conclusão do pedido",
+      "descricao": "A resposta será comunicada ao interessado por meio do Sei! Ibama ou pela Plataforma FalaBR, contendo o deferimento do pedido ou as orientações necessárias a seguir, em caso de indeferimento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285665,
+            "tipo": "web",
+            "descricao": "[Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex) ou\n\n Plataforma [FalaBR](http://falabr.cgu.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-regularizacao-junto-ao-cadastro-de-inadimplentes-da-uniao-cadin",
+  "statusDestaque": false
+}

@@ -1,0 +1,203 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10271",
+  "nome": "Alterar apresentação na base SAMMED",
+  "sigla": "",
+  "descricao": "É uma solicitação para alterar os dados das apresentações de produtos ativos na lista da CMED, como:\n\n  * lista PIS/COFINS\n * preço abaixo do publicado na lista CMED.\n * correções de cadastro da apresentação.",
+  "flagPortalLogado": "N",
+  "contato": "Atendimento Telefônico: 0800-642 9782 (dias úteis, das 7h30 às 19h30); \n\n [Webchat ](http://anvisa.chat.comunix.tech:8090/)\n\n [Formulário eletrônico](http://portal.anvisa.gov.br/fale-conosco)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 95248
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81011,
+        "tipo": "Empresas com medicamentos registrados na Anvisa.",
+        "requisitos": "Requisitos: Login e senha no sistema SAMMED."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132128
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Medicamentos e Produtos para Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "SCMED",
+        "id": 321379
+      },
+      {
+        "item": "preços de medicamentos",
+        "id": 321380
+      },
+      {
+        "item": "SAMMED",
+        "id": 321381
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 10.742, de 6 de outubro de 2003](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/fraWeb?OpenFrameSet&Frame=frmWeb2&Src=/legisla/legislacao.nsf/Viw_Identificacao/lei%2010.742-2003?OpenDocument&AutoFramed)",
+        "id": 110132
+      },
+      {
+        "item": "[Decreto nº 4.766, de 26 de junho de 2003](http://www2.camara.leg.br/legin/fed/decret/2003/decreto-4766-26-junho-2003-497170-norma-pe.html)",
+        "id": 110133
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 184087,
+      "titulo": "Fazer a solicitação",
+      "descricao": "Acesse o SAMMED com o login e senha do gestor de segurança. Selecione a opção “Solicitar alteração de apresentação”. Digite o número do processo e selecione as apresentações que pretende alterar. Preencha os campos obrigatórios, anexe os documentos que justifiquem a alteração e envie a petição.\n\n [Acesse o manual do SAMMED](https://www.gov.br/../../anvisa/pt-br/assuntos/medicamentos/cmed/informes/manual-do-sistema-sammed-web-versao-1-1.pdf).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 251127,
+            "nome": "Documentos que justifiquem a alteração solicitada."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241642,
+            "tipo": "web",
+            "descricao": "[Acesse o SAMMED.](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F&_ga=2.10140343.349194144.1610838662-1496467019.1604401991)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 184088,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no SAMMED, acesse “Consultar petição” e utilize os filtros disponíveis para localizar a petição desejada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241643,
+            "tipo": "web",
+            "descricao": "[Acesse o SAMMED.](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsammed-web.anvisa.gov.br%2F&_ga=2.10140343.349194144.1610838662-1496467019.1604401991)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "27",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/alterar-apresentacao-na-base-sammed",
+  "statusDestaque": false
+}

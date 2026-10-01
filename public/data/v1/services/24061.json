@@ -1,0 +1,300 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24061",
+  "nome": "Solicitar emissão de certificado de participação em curso ou evento de extensão",
+  "sigla": "",
+  "descricao": "Permite a emissão e o acesso a certificados e declarações de participação em cursos e eventos de extensão da Universidade Federal do Ceará (UFC). O serviço é realizado por meio de plataforma on-line da Pró-Reitoria de Extensão (PREX), após a homologação dos certificados solicitados pelo(a) coordenador(a) da ação.\n\n Após o envio das informações dos participantes pelo(a) coordenador(a), é criado automaticamente um cadastro individual para cada participante no sistema de certificados da PREX. Com esse cadastro, o participante poderá acessar a plataforma, consultar e realizar o download de seus certificados e declarações.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: certificados@prex.ufc.br  \nSite: [https://prex.ufc.br  \n](https://prex.ufc.br/)Maiores informações: <https://prex.ufc.br/pt/coordenadorias-2/cbce/dec-certificados/coordenadorsolicitaemissao/>\n\n Atendimento presencial:  \nPró-Reitoria de Extensão (PREX)  \nAv. Prof. Abreu Matos – Campus do Pici, Fortaleza – CE",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sistemasprex.ufc.br/certificados/app_Login/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 118970
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 99478,
+        "tipo": "*  Coordenadores(as) de cursos e eventos de extensão\n\n \n *  Participantes internos da UFC (servidores e estudantes)\n\n \n *  Participantes externos (comunidade)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/416",
+    "dbId": 57778,
+    "nomeOrgao": "Universidade Federal do Ceará (UFC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 165916
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 165917
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 165918
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certificado ",
+        "id": 396933
+      },
+      {
+        "item": "extensão",
+        "id": 396934
+      },
+      {
+        "item": "emissão ",
+        "id": 396935
+      },
+      {
+        "item": "curso",
+        "id": 396936
+      },
+      {
+        "item": "evento",
+        "id": 396937
+      },
+      {
+        "item": "homologação",
+        "id": 396938
+      },
+      {
+        "item": "declaração",
+        "id": 396939
+      },
+      {
+        "item": "participação",
+        "id": 396940
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 140694
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 232293,
+      "titulo": "Solicitar homologação dos certificados",
+      "descricao": "Solicitação da homologação dos certificados de ação de extensão via Sistema de Emissão de Certificados da PREX.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300437,
+            "tipo": "web-preencher",
+            "descricao": "Link:Â [https://sistemasprex.ufc.br/certificados/app\\_Login/](https://sistemasprex.ufc.br/certificados/app_Login/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 232294,
+      "titulo": "Receber confirmação da solicitação",
+      "descricao": "O sistema emitirá confirmação da solicitação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300438,
+            "tipo": "web-consultar",
+            "descricao": "Consulta pelo sistema (link da etapa 1).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 232295,
+      "titulo": "Aguardar análise e homologação",
+      "descricao": "A equipe PREX verificará se a solicitação está adequada e se todas as informações estão corretas e completas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300439,
+            "tipo": "web-acompanhar",
+            "descricao": "Consulta pelo sistema (link da etapa 1).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 232296,
+      "titulo": "Acessar e emitir certificado",
+      "descricao": "Disponibilização do acesso aos certificados pelos participantes.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 300440,
+            "tipo": "web-consultar",
+            "descricao": "Consulta pelo sistema (link da etapa 1).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-emissao-de-certificado-de-participacao-em-curso-ou-evento-de-extensao-2",
+  "statusDestaque": false
+}

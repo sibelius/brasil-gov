@@ -1,0 +1,216 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3229",
+  "nome": "Obter autorização para Realização de Pesquisas Arqueológicas",
+  "sigla": "",
+  "descricao": "Tem como objetivo avaliar os projetos de pesquisa arqueológica, em cumprimento à Lei nº 3.924/1961.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 104984
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 88399,
+        "tipo": "Pessoa física com formação acadêmica em Arqueologia.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2045",
+    "dbId": 37065,
+    "nomeOrgao": "Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 145973
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 145974
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 145975
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 145976
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "História e arqueologia"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "arqueologia",
+        "id": 351098
+      },
+      {
+        "item": "escavação",
+        "id": 351099
+      },
+      {
+        "item": "autorização",
+        "id": 351100
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 122026
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 204203,
+      "titulo": "Requerer autorização",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 277970,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 277971,
+            "nome": "CPF"
+          },
+          {
+            "id": 277972,
+            "nome": "Projeto de pesquisa nos moldes da Portaria SPHAN nยบ 07"
+          },
+          {
+            "id": 277973,
+            "nome": "Ofício de requisição"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 265807,
+            "tipo": "postal",
+            "descricao": "Para a [Superintendência do IPHAN](http://portal.iphan.gov.br/uploads/ckfinder/arquivos/Chamada%20P%C3%BAblica_%20Superintendencias_%20Anexo%204.pdf) do estado onde será realizada a pesquisa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 265808,
+            "tipo": "presencial",
+            "descricao": "Na [Superintendência do IPHAN](http://portal.iphan.gov.br/uploads/ckfinder/arquivos/Chamada%20P%C3%BAblica_%20Superintendencias_%20Anexo%204.pdf) do estado onde será realizada a pesquisa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 42970,
+            "descricao": "Em caso de pesquisas em mais de um estado",
+            "canalDePrestacao": [
+              {
+                "id": 265805,
+                "tipo": "postal",
+                "descricao": "**Centro Nacional de Arqueologia (CNA)** - Quadra SEPS, 713/913 Bloco D - 3º andar - Asa Sul - CEP: 70390-135 - Brasília/DF",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 265806,
+                "tipo": "presencial",
+                "descricao": "**Centro Nacional de Arqueologia (CNA)** - Quadra SEPS, 713/913 Bloco D - 3º andar - Asa Sul - CEP: 70390-135 - Brasília/DF",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "83",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-realizacao-de-pesquisas-arqueologicas",
+  "statusDestaque": false
+}

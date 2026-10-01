@@ -1,0 +1,422 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/14877",
+  "nome": "Realizar Residência em Área Médica no Hospital Universitário de Santa Maria – Husm-UFSM",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, profissionais graduados em Medicina realizam Residência Médica no Husm-UFSM.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (55) 3213-1480 / 1481\n\n E-mail: [ugpos.husm-ufsm@ebserh.gov.br](mailto:ugpos.husm-ufsm@ebserh.gov.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/ensino-e-pesquisa",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 107303
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90378,
+        "tipo": "Profissionais graduados em Medicina.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201459",
+    "dbId": 32675,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário de Santa Maria (EBSERH-UFSM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 149578
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Formação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Residência Médica;",
+        "id": 358444
+      },
+      {
+        "item": "Saúde; ",
+        "id": 358445
+      },
+      {
+        "item": "Ensino.",
+        "id": 358446
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124814
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 209429,
+      "titulo": "Fazer a inscrição para o Processo Seletivo especifico da Residência Medica",
+      "descricao": "Fazer a inscrição no site https://www.amrigs.org.br/prova/",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 36687,
+            "descricao": "Valor da inscrição é descrito no edital (https://www.amrigs.org.br/prova/)",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272141,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.amrigs.org.br/prova/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 209430,
+      "titulo": "Fazer a prova",
+      "descricao": "Candidato (a), deverá comparecer no dia e hora indicado no edital do processo seletivo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272142,
+            "tipo": "presencial",
+            "descricao": "Local da prova é descrito no edital disponível em https://www.amrigs.org.br/prova/",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 209431,
+      "titulo": "Realizar matrícula após aprovação via Processo Seletivo específico",
+      "descricao": "Realizar matrícula acessando o site https://portal.ufsm.br/confirmacao/selecionaFormaConfirmacao.html",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272143,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portal.ufsm.br/confirmacao/selecionaFormaConfirmacao.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 209432,
+      "titulo": "Validar documentação e confirmar matrícula",
+      "descricao": "Validar documentos acessando o site https://www.ufsm.br/unidades-universitarias/ccs/coreme/processo-seletivo",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272144,
+            "tipo": "web",
+            "descricao": "[Acesse aqui](https://www.ufsm.br/unidades-universitarias/ccs/coreme/processo-seletivo)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 209433,
+      "titulo": "Tomar posse",
+      "descricao": "Candidato deve se dirigir ao hospital para tomar posse até dia 1º de março.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272145,
+            "tipo": "presencial",
+            "descricao": "Horário de atendimento da Unidade de Gestão de Pós-Graduação (unidade que atende os residentes no Husm-UFSM):\n\n De segunda a sexta-feira: 07h às 12h - 13h às 17h\n\n Local: Av. Roraima nº 1000, Prédio 22, Campus\n\n Bairro: Camobi\n\n Santa Maria - RS\n\n CEP: 97105-900\n\n Telefone: (55) 3213-1480 / 1481\n\n E-mail: [ugpos.husm-ufsm@ebserh.gov.br](mailto:ugpos.husm-ufsm@ebserh.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 209434,
+      "titulo": "Iniciar as atividades de residência médica",
+      "descricao": "O candidato, agora residente, deve iniciar suas atividades no hospital imediatamente após a posse.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272146,
+            "tipo": "presencial",
+            "descricao": "Local: Av. Roraima nº 1000, Prédio 22, Campus\n\n Bairro: Camobi\n\n Santa Maria - RS\n\n CEP: 97105-900",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 209435,
+      "titulo": "Realizar avaliações trimestrais",
+      "descricao": "O residente será avaliado trimestralmente pelo seu preceptor e supervisor.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272147,
+            "tipo": "presencial",
+            "descricao": "Local: Av. Roraima nº 1000, Prédio 22, Campus\n\n Bairro: Camobi\n\n Santa Maria - RS\n\n CEP: 97105-900",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 209436,
+      "titulo": "Entregar trabalho de conclusão ou artigo científico",
+      "descricao": "Ao término da especialização o residente deve elaborar e entregar o trabalho de conclusão de residência (TCR) ou artigo científico. O trabalho de conclusão ou artigo científico, pode ser entregue por meio do site https://www.ufsm.br/cursos/pos-graduacao/santa-maria/residenciamulti/tcc",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272148,
+            "tipo": "web",
+            "descricao": "[Acesso aqui](https://www.ufsm.br/cursos/pos-graduacao/santa-maria/residenciamulti/tcc)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/1-realizar-residencia-em-area-medica-no-hospital-universitario-de-santa-maria-2013-husm-ufsm",
+  "statusDestaque": false
+}

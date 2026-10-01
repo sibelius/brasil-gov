@@ -1,0 +1,188 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2797",
+  "nome": "Obter autorização para o uso e comercialização de aditivo para combustível automotivo",
+  "sigla": "",
+  "descricao": "Autorizar ao solicitante o uso e a comercialização de aditivo para combustíveis automotivos.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "porcentagemManual": false,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 3375,
+        "tipo": "Pessoas jurídicas",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "8",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": "",
+    "min": 8,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 6375
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 6376
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Meio Ambiente e Clima"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "combustível aditivado",
+        "id": 12159
+      },
+      {
+        "item": "gasolina aditivada",
+        "id": 12160
+      },
+      {
+        "item": "ibama",
+        "id": 12161
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\\n· Urbanidade;\\n· Respeito;\\n· Acessibilidade;\\n· Cortesia;\\n· Presunção da boa-fé do usuário;\\n· Igualdade;\\n· Eficiência;\\n· Segurança; e\\n· Ética",
+  "etapas": [
+    {
+      "id": 6490,
+      "titulo": "Solicitar autorização",
+      "descricao": "Solicitar autorização com o envio dos documentos necessários",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 8411,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 8412,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 8413,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 8414,
+            "nome": "Comprovante de pagamento"
+          },
+          {
+            "id": 8415,
+            "nome": "Contrato Social"
+          },
+          {
+            "id": 8416,
+            "nome": "CPF"
+          },
+          {
+            "id": 8417,
+            "nome": "Ofício solicitando autorização com base em um modelo"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 506,
+            "descricao": "Taxa de emissão de autorização",
+            "moeda": "R$",
+            "valor": " 721,77",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 6572,
+            "tipo": "e-mail",
+            "descricao": "proconve.sede@ibama.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 6573,
+            "tipo": "postal",
+            "descricao": "Ibama - SCEN Trecho 2 - Edifício Sede - L4 Norte - Brasília/DF - CEP: 70818-900",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "63",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-o-uso-e-comercializacao-de-aditivo-para-combustivel-automotivo",
+  "servicoIndisponivel": 0,
+  "statusDestaque": false
+}

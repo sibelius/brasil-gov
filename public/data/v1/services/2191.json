@@ -1,0 +1,360 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2191",
+  "nome": "Obter restituição de Taxa de Fiscalização da Aviação Civil",
+  "sigla": "TFAC",
+  "descricao": "Consiste na restituição de taxa de fiscalização da aviação civil paga indevidamente ou em valor acima do devido.\n\n **Atenção:** As solicitações são realizadas através do Portal [ANAC Pay](https://anacpay.anac.gov.br/), sendo necessário possuir cadastro no [GOV.BR](https://www.gov.br/) (nível prata ou ouro) para encaminhar o seu pedido. Para realizar seu cadastro, [clique aqui](https://sso.acesso.gov.br/).\n\n O acesso ao sistema deve ser feito por navegador web em desktop. Dispositivos móveis não são suportados.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://anacpay.anac.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Restituição de TFAC",
+        "id": 121002
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101338,
+        "tipo": "**Pessoa Física, jurídica ou seu procurador.**",
+        "requisitos": "2. Ser o contribuinte que tenha relação pessoal e direta com a TFAC paga, cujo CPF ou CNPJ conste na Guia de Recolhimento da União – GRU ou no comprovante de pagamento realizado por meio do PagTesouro.\n 4. Caso seja procurador de pessoa física será necessário cadastro no sistema SEI como representante legal ou possuir uma procuração eletrônica. Acesse o [Guia do Protocolo Eletrônico](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei/01-guia-protocolo-eletronico) para maiores informações."
+      },
+      {
+        "id": 101339,
+        "tipo": "**Representante legal ou procurador de pessoa jurídica, pública ou privada.**",
+        "requisitos": "2. Para atuar em nome de uma pessoa jurídica (PJ), a pessoa física deve ser cadastrada no sistema SEI como responsável legal ou possuir uma procuração eletrônica desta PJ. Acesse o Guia do Protocolo Eletrônico para maiores informações."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "20",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 20
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 168670
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 168671
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 168672
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Taxas e Multas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "devolução",
+        "id": 402910
+      },
+      {
+        "item": "taxa",
+        "id": 402911
+      },
+      {
+        "item": "anac",
+        "id": 402912
+      },
+      {
+        "item": "TFAC",
+        "id": 402913
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei n.º 14.368, de 14 de junho de 2022 ([abrir](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14368.htm))",
+        "id": 144815
+      },
+      {
+        "item": "Resolução ANAC nº 653, de 20 de dezembro de 2022 ([abrir](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2021/resolucao-no-653-20-12-2021))",
+        "id": 144816
+      },
+      {
+        "item": "Portaria Interministerial nº 52, de 1º de fevereiro de 2017 ([abrir](https://www.gov.br/fazenda/pt-br/acesso-a-informacao/institucional/legislacao/portarias-interministeriais/2017/portaria-interministerial-no-52-de-01-de-fevereiro-de-2017))",
+        "id": 144817
+      },
+      {
+        "item": "Lei 11.182, de 27 de setembro de 2005 ([abrir](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11182.htm))",
+        "id": 144818
+      },
+      {
+        "item": "Lei n.º 9.784, de 29 de janeiro de 1999 ([abrir](http://www.planalto.gov.br/ccivil_03/leis/L9784.htm))",
+        "id": 144819
+      },
+      {
+        "item": "Código Tributário Nacional, Lei n.º 5.172, de 25 de outubro de 1966 ([abrir](https://www.planalto.gov.br/ccivil_03/LEIS/L5172Compilado.htm))",
+        "id": 144820
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 72,
+    "negativas": 109
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 236287,
+      "titulo": "Requerer restituição",
+      "descricao": "2. Acessar o GOV.BR, entrar no **Portal ANAC Pay**, escolher representante e vá em **Gestão TFACs**.\n 4. Verificar a data do pagamento das taxas:\n  * **Antes de 01/08/2025**: siga para etapa seguinte **Solicitar Restituição Manual**.\n   * **Em 01/08/2025 ou posterior**: Selecionar taxas nas grades **TFACs não utilizadas** ou **TFACs utilizadas** e clicar em **Solicitar Restituição.**\n  10. Cadastrar dados bancários (banco, agência e conta), caso aprovada.\n 12. Confirmar pedido.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 312966,
+            "nome": "Requerimento de Restituição de TFAC a ser preenchido e assinado pelo contribuinte ou seu procurador no Protocolo Eletrônico da ANAC;"
+          },
+          {
+            "id": 312967,
+            "nome": "Cópia simples do comprovante de arrecadação - GRU ou pagamento PagTesouro:\n\n **a)** caso não possua cópia da GRU ou do PagTesouro, devem ser informados o valor pago, a data de pagamento, o CPF ou CNPJ do contribuinte e o código da TFAC paga que seja realizada busca no sistema\n\n **b)** no caso em que tiver havido complementação de pagamento, devem ser encaminhados todos os comprovantes que correspondam ao valor total pago."
+          }
+        ],
+        "casos": [
+          {
+            "id": 47416,
+            "descricao": "No caso de Procurador",
+            "documento": [
+              {
+                "id": 312965,
+                "codigo": null,
+                "descricao": "Procuração e cópia simples do documento de identidade do mandante.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305189,
+            "tipo": "web",
+            "descricao": "Portal [ANAC Pay](https://anacpay.anac.gov.br/)\n\n  * Para pagamentos posteriores ao dia 01/08/2025 e não utilizados em nenhum serviço,  após logar no ANAC Pay, selecione a(s) TFACs que deseja pedir restituição na grade “TFACS não utilizadas\";\n * Caso seu pagamento tenha sido feito anterior ao dia 01/08/2025, tenha ou não sido utilizado em algum serviço, deslize a barra de rolagem até o final e clique em “Solicitar Restituição Manual” (abaixo segue descrição para solicitar esse pedido);",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236288,
+      "titulo": "Requerer Restituição de TFAC manual",
+      "descricao": "2. Acesse o Portal ANAC Pay;\n 4. Clique “Solicitar Restituição Manual”;\n 6. Insira o “código de TFAC”, “Número de Referência”, “Data de Pagamento” e “Valor”;\n 8. Clique “Avançar”;\n 10. Inclua a justificativa para o pedido de restituição manual;\n 12. Anexe o comprovante de pagamento e demais documentos que julgar necessários;\n 14. Clique  “Confirmar pedido de restituição”.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 312973,
+            "nome": "Requerimento de Restituição de TFAC preenchido e assinado pelo contribuinte ou seu procurador no Protocolo Eletrônico da ANAC;"
+          },
+          {
+            "id": 312974,
+            "nome": "Cópia simples do **comprovante de arrecadação**:\n\n a. caso não possua cópia da GRU ou do PagTesouro, devem ser informados o valor pago, a data de pagamento, o CPF ou CNPJ do contribuinte e o código TFAC paga para que seja realizada busca no sistema;  \nb. no caso em que tiver havido complementação de pagamento, devem ser encaminhados todos os comprovantes que correspondem ao valor total pago."
+          }
+        ],
+        "casos": [
+          {
+            "id": 47417,
+            "descricao": "No caso de Pessoa Jurídica de Direito Privado",
+            "documento": [
+              {
+                "id": 312968,
+                "codigo": null,
+                "descricao": "Cópia simples do contrato social e eventual alteração que identifique os atuais responsáveis legais.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 47418,
+            "descricao": "No caso de Pessoa Jurídica de Direito Público",
+            "documento": [
+              {
+                "id": 312969,
+                "codigo": null,
+                "descricao": "Cópia simples da lei de criação do órgão ou instituição pública ou Lei Orgânica do Município ou Constituição Estadual e termo de posse do representante legal.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 47419,
+            "descricao": "No caso de Procurador",
+            "documento": [
+              {
+                "id": 312970,
+                "codigo": null,
+                "descricao": "Procuração vigente e cópia simples do documento de identidade do mandante.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 47420,
+            "descricao": "Múltiplas Restituições",
+            "documento": [
+              {
+                "id": 312971,
+                "codigo": null,
+                "descricao": "Pode ser solicitada no mesmo requerimento a restituição de mais de uma taxa, ou seja, mais de uma GRU ou PagTesouro pagos no mesmo código de TFAC ou em códigos distintos.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 312972,
+                "codigo": null,
+                "descricao": "Para restituição de mais de 10 GRUs, preencha o arquivo excel [(Lista de GRUs) disponível aqui](https://www.gov.br/anac/pt-br/sistemas/arquivos/lista-de-grus.xlsx) e envie pelo Protocolo Eletrônico.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305190,
+            "tipo": "web",
+            "descricao": "O acompanhamento do processo pode ser feito pelo Portal [ANAC Pay](https://anacpay.anac.gov.br/), clicando em Gestão de TFACs e Acompanhar Restituição.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236289,
+      "titulo": "Receber comunicação da Anac",
+      "descricao": "Após a análise pela ANAC, o deferimento ou o indeferimento motivado da requisição de restituição será informado no Portal ANAC Pay, assim como para o e-mail do requerente vinculado a conta GOV.BR.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305191,
+            "tipo": "web",
+            "descricao": "Portal [ANACÂ Pay](https://anacpay.anac.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "20",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-restituicao-de-taxa-de-fiscalizacao-da-aviacao-civil",
+  "statusDestaque": false
+}

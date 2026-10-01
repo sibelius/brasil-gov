@@ -1,0 +1,251 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23955",
+  "nome": "Realizar diagnóstico de parasitoses humanas por sorologia para toxocaríase (Toxocara canis) e exames parasitológicos de fezes (coproscopia)",
+  "sigla": "",
+  "descricao": "No Instituto Evandro Chagas são realizados exames laboratoriais para o diagnóstico de parasitoses humanas. Entre eles estão o diagnóstico sorológico da toxocaríase humana, realizado por meio de ensaio imunoenzimático (EIA) para detecção de anticorpos IgG contra *Toxocara canis* no soro humano, e os exames parasitológicos de fezes (coproscopia). A coproscopia consiste na análise microscópica de amostras de fezes para identificação de ovos, larvas, cistos e trofozoítos de parasitos, utilizando métodos como exame direto a fresco, Hoffman (sedimentação), Faust (centrífugo-flutuação), Kato-Katz e Baermann.",
+  "flagPortalLogado": "N",
+  "contato": "protocolo@iec.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://gal.datasus.gov.br/GALL/index.php?area=02",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123576
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103353,
+        "tipo": "Pessoa usuária do SUS",
+        "requisitos": ""
+      },
+      {
+        "id": 103354,
+        "tipo": "Gestor",
+        "requisitos": ""
+      },
+      {
+        "id": 103355,
+        "tipo": "Profissional da saúde",
+        "requisitos": ""
+      },
+      {
+        "id": 103356,
+        "tipo": "Instituições",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172899
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172900
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172901
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Análises e Materiais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Toxocara canis",
+        "id": 411331
+      },
+      {
+        "item": "coproscopia",
+        "id": 411332
+      },
+      {
+        "item": "diagnóstico de parasitoses",
+        "id": 411333
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148633
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O(a) usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n     \n\n   Urbanidade; \n\n   Respeito; \n\n   Acessibilidade; \n\n   Cortesia; \n\n   Presunção da boa-fé do usuário; \n\n   Igualdade; \n\n   Eficiência; \n\n   Segurança e \n\n   Ética.",
+  "etapas": [
+    {
+      "id": 241106,
+      "titulo": "Solicitar o exame diagnóstico no Sistema GAL",
+      "descricao": "Cadastrar a solicitação do exame no sistema GAL (Sistema Gerenciador de Ambiente Laboratorial) ou encaminhar ofício de solicitação do exame por meio de envio de e-mail institucional, caso não utilize o GAL ou o exame solicitado não esteja disponível (coordenacao@iec.gov.br e/ou protocolo@iec.gov.br)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311322,
+            "tipo": "web",
+            "descricao": "[GALL](http://gal.datasus.gov.br/GALL/index.php?area=02)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241107,
+      "titulo": "Enviar amostra",
+      "descricao": "A amostra deve ser encaminhada para o Laboratório de Parasitoses Intestinais, Esquistossomose e outros Helmintos (LAPIEH), Seção de Parasitologia – SEPAR, localizada no Campus Ananindeua-PA, no Instituto Evandro Chagas",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311323,
+            "tipo": "postal",
+            "descricao": "Instituto Evandro Chagas situado na Rodovia BR-316 km7 s/n - 67030-000, Levilândia, Ananindeua – PA, onde os exames serão realizados.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 241108,
+      "titulo": "Receber Resultado de Exame",
+      "descricao": "O resultado dos exames será disponibilizado por e-mail ou no sistema informatizado de laboratório (GAL), no prazo estabelecido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311324,
+            "tipo": "web",
+            "descricao": "[GALL](http://gal.datasus.gov.br/GALL/index.php?area=02)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-diagnostico-de-parasitoses-humanas-por-sorologia-para-toxocariase-toxocara-canis-e-exames-parasitologicos-de-fezes-coproscopia",
+  "statusDestaque": false
+}

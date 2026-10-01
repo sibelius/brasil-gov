@@ -1,0 +1,197 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23484",
+  "nome": "Consultar Meu Cadastro Positivo",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito - Senatran que permite ao cidadão consultar sua situação no Registro Nacional Positivo de Condutores, conhecido com Cadastro Positivo de condutores. A funcionalidade apresenta informações sobre o histórico de autorização, além de outras informações.",
+  "flagPortalLogado": "N",
+  "contato": "- [Central de serviços](https://cssinter.serpro.gov.br/SCCDPortalWEB/pages/dynamicPortal.jsf?ITEMNUM=2776)\n - Telefone: 08007282324\n - e-mail: [css.serpro@serpro.gov.br](mailto:css.serpro@serpro.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/condutor/meu-cadastro-positivo",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 106772
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90035,
+        "tipo": "Cidadão habilitado a dirigir que:",
+        "requisitos": "+ Possuir CNH Digital ativa;\n     + Esteja autenticado no Portal de Serviços SENATRAN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 148942
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CNH Digital",
+        "id": 357024
+      },
+      {
+        "item": "CDT",
+        "id": 357025
+      },
+      {
+        "item": "Cadastro Positivo",
+        "id": 357026
+      },
+      {
+        "item": "Consulta",
+        "id": 357027
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124337
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 162,
+    "negativas": 69
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 208574,
+      "titulo": "Consultar o Cadastro Positivo pelo aplicativo da Carteira Digital de Trânsito (CDT) – (Opção 1)",
+      "descricao": "Se você ainda não possui a Carteira Digital no seu celular, [clique aqui](https://www.gov.br/obter-carteira-digital-de-transito). \n\n Faça seu login no aplicativo instalado em seu celular e clique em “Condutor”. Na tela seguinte, selecione a opção “Cadastro Positivo” para visualizar as informações disponíveis.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271033,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App Store](https://apps.apple.com/br/app/carteira-digital-de-tr%C3%A2nsito/id1275057217?l=pt_BR)\n\n [Google Play](https://play.google.com/store/apps/details?id=br.gov.serpro.cnhe&hl=pt_BR&gl=US)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208575,
+      "titulo": "Consultar o Cadastro Positivo pelo Portal de Serviços – (Opção 2)",
+      "descricao": "Acesse o Portal de Serviços com Certificado Digital ou CPF/SENHA. Clique em “Entrar com gov.br” no canto superior direito e insira seus dados.\n\n Após o login, localize o bloco “Condutor” e selecione “Consultar Meu Cadastro Positivo” para visualizar suas informações.\n\n Obs.: confira também as empresas parceiras que oferecem benefícios aos condutores cadastrados na página “[Parceiros do Bom Condutor](https://portalservicos.senatran.serpro.gov.br/#/condutor/cadastro-positivo-parceiros)”.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282340,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271034,
+            "tipo": "web",
+            "descricao": "[Portal de Serviços Senatran](https://portalservicos.senatran.serpro.gov.br/#/condutor/meu-cadastro-positivo)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "70",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-cadastro-positivo",
+  "statusDestaque": false
+}

@@ -1,0 +1,298 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11423",
+  "nome": "Obter Certidão de Refugiados e Solicitantes de refúgio",
+  "sigla": "",
+  "descricao": "**Este serviço permite obter certidão que comprove a condição de refugiado reconhecido pelo Estado brasileiro ou a situação de pessoa que possui solicitação de refúgio em análise.**\n\n Pessoas com cadastro e processo disponível no Sisconare podem emitir a certidão diretamente pelo sistema. Nos demais casos, a certidão deverá ser solicitada por meio de peticionamento eletrônico no SEI.",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvida, entre em contato no endereço de e-mail conare@mj.gov.br.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.mj.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124493
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104236,
+        "tipo": "Solicitantes de refúgio e pessoas reconhecidas como refugiadas pelo Estado brasileiro.",
+        "requisitos": "Para emissão da certidão via SEI, é necessário encaminhar documento de identificação por meio de foto, frente e verso: para refugiados(as), é necessário encaminhar CRNM; para solicitantes de refúgio, é necessário encaminhar o Protocolo de Refúgio."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "As certidões possuem validade de 90 dias a partir da data da emissão."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235881",
+    "dbId": 58107,
+    "nomeOrgao": "Ministério da Justiça e Segurança Pública (MJSP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 174279
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Serviços para Estrangeiros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Refúgio",
+        "id": 414821
+      },
+      {
+        "item": "Refugee",
+        "id": 414822
+      },
+      {
+        "item": "Solicitante de Refúgio",
+        "id": 414823
+      },
+      {
+        "item": "Refugiado",
+        "id": 414824
+      },
+      {
+        "item": "Asylym",
+        "id": 414825
+      },
+      {
+        "item": "Direitos Humanos",
+        "id": 414826
+      },
+      {
+        "item": "Human Rights",
+        "id": 414827
+      },
+      {
+        "item": "War",
+        "id": 414828
+      },
+      {
+        "item": "Asilo",
+        "id": 414829
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149741
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 55,
+    "negativas": 17
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 243062,
+      "titulo": "Acessar o SEI! do MJSP",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313865,
+            "tipo": "web",
+            "descricao": "Acesse o [SEI! do Ministério da Justiça e Segurança Pública](https://sei.mj.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) com seu login e sua senha.\n\n    Caso ainda não possua cadastro como usuário externo, [consulte as orientações para cadastro e validação do acesso ao SEI!.](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/refugio/servicos/cadastro-no-sei/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243063,
+      "titulo": "Preencher a solicitação de certidão",
+      "descricao": "Após acessar o SEI!, selecione “Peticionamento” e, em seguida, “Processo novo”.\n\n No campo “Tipo de processo”, selecione “Refúgio: Solicitação de Certidão de Refugiado”.\n\n No campo “Especificação”, informe “Solicitação de certidão”.\n\n No campo “Interessado”, informe o nome da pessoa para quem a certidão será emitida.\n\n Em “Documento principal”, selecione “Solicitação de Certidão Confirmatória de Refugiado”, preencha as informações solicitadas e selecione “Salvar”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313866,
+            "tipo": "web",
+            "descricao": "Acesse o [SEI! do Ministério da Justiça e Segurança Pública](https://sei.mj.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) com seu login e sua senha.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243064,
+      "titulo": "Anexar os documentos e concluir o peticionamento",
+      "descricao": "Em “Documentos complementares”, selecione “Escolher arquivo” e anexe cópia ou foto do documento de identificação correspondente à sua situação: Protocolo de Refúgio, para solicitante de refúgio; ou CRNM, para pessoa reconhecida como refugiada.\n\n Em “Tipo de documento”, selecione a opção correspondente. Em “Formato”, indique se o documento é nato-digital ou digitalizado.\n\n Após anexar todos os documentos necessários, selecione “Peticionar” e informe sua senha para concluir o envio.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313867,
+            "tipo": "web",
+            "descricao": "Acesse o [SEI! do Ministério da Justiça e Segurança Pública](https://sei.mj.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) com seu login e sua senha.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243065,
+      "titulo": "Pedido apresentado por procurador",
+      "descricao": "Em interessado, inclua o nome do refugiado, o seu nome, ou o nome de sua organização. Precisa ter uma procuração com poderes específicos relacionados à solicitação de reconhecimento da condição de refugiado assinada pelo solicitante. Para agilizar essa etapa, anexe um documento que comprove a assinatura. Não precisa de firma reconhecida, nem ser feita em cartório. A data de assinatura na procuração não deve ultrapassar um ano da data do peticionamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313868,
+            "tipo": "web",
+            "descricao": "Consulte um modelo de [procuração aqui](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/refugio/servicos/anexos/sugestaoprocuracao_apenasparaajudar.docx).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10716",
+      "nome": "Renovar Protocolo de Refúgio para solicitante que está no Sisconare"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3704",
+      "nome": "Solicitar Refúgio pela primeira vez no Brasil"
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "76",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitacao-de-certidao",
+  "statusDestaque": false
+}

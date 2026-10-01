@@ -1,0 +1,197 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5940",
+  "nome": "Participar de Processo Seletivo para curso de graduação - UFPE",
+  "sigla": "",
+  "descricao": "Se você deseja fazer graduação na Universidade, você precisa concorrer a uma vaga no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Diretoria de Gestão Acadêmica/PROGRAD - (81) 2126.7014 - dga.prograd@ufpe.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 109128
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91771,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/418",
+    "dbId": 57772,
+    "nomeOrgao": "Universidade Federal de Pernambuco (UFPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 152169
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Educação",
+        "id": 364256
+      },
+      {
+        "item": "Ensino Superior",
+        "id": 364257
+      },
+      {
+        "item": "Graduação",
+        "id": 364258
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 126651
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 212791,
+      "titulo": "Envio de documentos",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 286924,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 286925,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 286926,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 286927,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 286928,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 286929,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 286930,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 286931,
+            "nome": "CPF"
+          },
+          {
+            "id": 286932,
+            "nome": "NIS"
+          },
+          {
+            "id": 286933,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37429,
+            "descricao": "Taxa de inscrição para os candidatos  que participarem dos vestibulares e processo seletivo de transferência externa.",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "O valor sofre alteração de acordo com a quantidade de etapas de cada processo seletivo.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276552,
+            "tipo": "web-inscrever-se",
+            "descricao": "Acessar a página  [https://www.ufpe.br/formas-de-ingresso/vestibular-ufpe ](https://www.ufpe.br/formas-de-ingresso/vestibular-ufpe)encontrar os editais e formulário para inscrição.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "79",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-graduacao-ufpe",
+  "statusDestaque": false
+}

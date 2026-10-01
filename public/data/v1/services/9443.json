@@ -1,0 +1,241 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9443",
+  "nome": "Consultar obras sobre a Amazônia na Biblioteca do Instituto Nacional de Pesquisas da Amazônia - INPA",
+  "sigla": "",
+  "descricao": "A Biblioteca do INPA possui um acervo de mais de 200 mil obras, em diversos idiomas, especializadas em temáticas amazônicas.",
+  "flagPortalLogado": "N",
+  "contato": "Responsável: Inácio Oliveira Lima Neto\n\n Telefone: (92) 3643-3220\n\n Email: inacio.neto@inpa.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://koha.inpa.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Koha, Biblioteca, Empréstimo",
+        "id": 32584
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31945,
+        "tipo": "Qualquer pessoa pode consultar localmente as obras na Biblioteca, porém o serviço de empréstimo é restrito à comunidade do INPA (pesquisadores, servidores, bolsistas, e alunos de pós-graduação.)",
+        "requisitos": "Para realizar o empréstimo é necessário estar cadastrado na Biblioteca.\n\n Para fazer consulta local das obras e usar os espaço da Biblioteca não é necessário estar cadastrado."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 51086
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 51087
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 51088
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Amazônia",
+        "id": 114839
+      },
+      {
+        "item": "Acervo",
+        "id": 114840
+      },
+      {
+        "item": "INPA",
+        "id": 114841
+      },
+      {
+        "item": "Biblioteca",
+        "id": 114842
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33235
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 66847,
+      "titulo": "Realizar cadastro na Biblioteca",
+      "descricao": "O cadastro é restrito para a comunidade do INPA e é feito presencialmente na Biblioteca.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 95534,
+            "nome": "**Comprovante de vínculo institucional:**\n\n Crachá funcional para pesquisadores, servidores e bolsistas;\n\n Comprovante de matrícula para alunos de pós-graduação.\n\n  \n\n **Comprovante de residência:**\n\n Conta de água, energia elétrica, telefone, TV ou internet."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85955,
+            "tipo": "presencial",
+            "descricao": "**Localização:**\n\n Av. André Araújo, 2.936 - Petrópolis - CEP 69067-375 - Manaus -AM, Brasil\n\n **Horário de funcionamento:**\n\n Segunda a sexta.\n\n De 8 as 17h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 66848,
+      "titulo": "Consultar localmente as obras na biblioteca",
+      "descricao": "O solicitante pode consultar o [catálogo ](https://koha.inpa.gov.br/)on-line e solicitar a obra desejada no setor de referência da Biblioteca.\n\n As obras devem ser consultadas dentro do espaço físico da Biblioteca, as mesmas devem ser devolvidas até o fim do expediente da Biblioteca.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85956,
+            "tipo": "presencial",
+            "descricao": "**Localização:**\n\n Av. André Araújo, 2.936 - Petrópolis - CEP 69067-375 - Manaus -AM, Brasil\n\n **Horário de funcionamento:**\n\n Segunda a sexta.\n\n De 8 as 17h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 66849,
+      "titulo": "Emprestar obras na Biblioteca",
+      "descricao": "O solicitante deve informar ao atendente na Biblioteca quais as obras que deseja emprestar, no máximo até 5 obras.\n\n As obras podem ser emprestadas por uma semana devendo ser devolvidas ou renovadas no final deste período.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85957,
+            "tipo": "presencial",
+            "descricao": "**Localização:**\n\n Av. André Araújo, 2.936 - Petrópolis - CEP 69067-375 - Manaus -AM, Brasil\n\n **Horário de funcionamento:**\n\n Segunda a sexta.\n\n De 8 as 17h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "62",
+  "url": "https://www.gov.br/pt-br/servicos/emprestar-obras-na-biblioteca-do-inpa",
+  "statusDestaque": false
+}

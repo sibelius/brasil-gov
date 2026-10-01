@@ -1,0 +1,390 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2886",
+  "nome": "Obter Certificado de Aeronavegabilidade Especial para Aeronave Leve Esportiva",
+  "sigla": "CEALE",
+  "descricao": "Verifica o atendimento ao requisito 21.190, culminando com a emissão do Certificado de Aeronavegabilidade (CEALE), documento necessário para o voo da aeronave.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "CEALE",
+        "id": 87463
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74989,
+        "tipo": "Proprietário de aeronave e seus representantes legais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "90",
+      "max": "730",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 90,
+    "max": 730
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O CEALE é válido enquanto a aeronave:\n\n  2. enquadrar-se na definição de aeronave leve esportiva;\n 4. estiver em conformidade com sua configuração original, exceto por aquelas alterações realizadas de acordo com uma norma consensual aplicável e autorizadas pelo fabricante da aeronave ou por uma pessoa aceitável pela ANAC;\n 6. não apresentar condição insegura; e\n 8. estiver registrada no Brasil."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121459
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121460
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 294902
+      },
+      {
+        "item": "CEALE",
+        "id": 294903
+      },
+      {
+        "item": "CA especial",
+        "id": 294904
+      },
+      {
+        "item": "aeronavegabilidade",
+        "id": 294905
+      },
+      {
+        "item": "leve esportiva",
+        "id": 294906
+      },
+      {
+        "item": "ALE",
+        "id": 294907
+      },
+      {
+        "item": "LSA",
+        "id": 294908
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[IS nº 21.191-001 ](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-191-001)",
+        "id": 100470
+      },
+      {
+        "item": "[RBAC nº 21](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 100471
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460, de 2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 169608,
+      "titulo": "Solicitar CEALE",
+      "descricao": "Para solicitar o CEALE o usuário deverá protocolar junto à ANAC a documentação indicada abaixo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236011,
+            "nome": "Todos documentos requeridos na seção 21.190 do RBAC 21, bem como os formulários [F-100-50B](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=100-50&Rev=B), F-100-79C, F-100-80 preenchidos e toda a documentação neles requerida."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28114,
+            "descricao": "Custo do serviço é",
+            "moeda": "R$",
+            "valor": " 400,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 37592,
+            "descricao": "Aeronaves outras que não enquadradas na definição de ultraleve do RBAC 103 (Peso básico Vazio acima de 200kgf)",
+            "custo": [
+              {
+                "id": 28113,
+                "descricao": "TFAC Cód. 012202",
+                "moeda": "R$",
+                "valor": " 400,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222500,
+            "tipo": "web",
+            "descricao": "No [protocolo eletrônico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) o solicitante deve escolher a opção: Certificação de Produto: Aeronave Leve Esportiva Experimental/Especial e congêneres.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37593,
+            "descricao": "Para gerar a GRU",
+            "canalDePrestacao": [
+              {
+                "id": 222499,
+                "tipo": "web",
+                "descricao": "[Clique aqui](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean).\n\n Caso tenha dúvidas para gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169609,
+      "titulo": "Aguardar a análise da documentação encaminhada",
+      "descricao": "O requerente poderá ter que providenciar a solução de pendências ou o esclarecimentos, por meio de novas informações adicionais, para as pendências identificadas na etapa anterior.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222501,
+            "tipo": "web-acompanhar",
+            "descricao": "O interessado deve acompanhar se há necessidade de complementação/correção em seu pedido no mesmo endereço eletrônico usado na etapa anterior.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "180",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 180
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169610,
+      "titulo": "Realizar Vistoria Técnica na aeronave e Visita Técnica ao fabricante",
+      "descricao": "A aeronave e sua documentação serão inspecionadas por servidores da ANAC ou Profissionais Credenciados autorizados. A empresa fabricante receberá uma visita técnica dos servidores da ANAC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236012,
+            "nome": "Todos documentos requeridos pelo formulário [F-100-85B](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=100-85&Rev=B)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222502,
+            "tipo": "presencial",
+            "descricao": "Se a realização de vistoria for necessária para a emissão do certificado, o solicitante deverá receber servidores da ANAC ou Profissional credenciado (PCA). A vistoria é presencial e o andamento do pedido, inclusive o aviso de necessidade de vistoria, pode ser verificado pelo mesmo canal da solicitação na etapa 1.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 169611,
+      "titulo": "Solucionar pendências",
+      "descricao": "O requerente deverá providenciar a solução ou esclarecimentos para as pendências identificadas na etapa anterior.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222503,
+            "tipo": "web-acompanhar",
+            "descricao": "O solicitante pode acompanhar o andamento do pedido e a necessidade de eventuais correções no mesmo canal usado na etapa 1.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "78",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 78
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169612,
+      "titulo": "Emissão do CEALE",
+      "descricao": "A ANAC emite CEALE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222504,
+            "tipo": "web-acompanhar",
+            "descricao": "Acompanhar o processo pelo SEI.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "730",
+  "percentualAvaliacoesPositivas": "78",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-de-aeronavegabilidade-especial-para-aeronave-leve-esportiva-ou-certificado-de-autorizacao-de-voo-experimental-para-aerodesporto",
+  "statusDestaque": false
+}

@@ -1,0 +1,330 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10869",
+  "nome": "Habilitar crédito tributário federal decorrente de decisão judicial transitada em julgado",
+  "sigla": "",
+  "descricao": "Solicite a habilitação de crédito tributário decorrente de decisão judicial transitada em julgado, para fins de compensação.\n\n A compensação com tributos devidos só poderá ser realizada após o procedimento de habilitação pela Receita Federal.\n\n Somente serão habilitados créditos após o transito em julgado da decisão judicial (quando não cabe mais recurso da decisão).\n\n Após a habilitação, a declaração de compensação deve ser feita por meio de PER/DCOMP.\n\n A declaração de compensação poderá ser realizada em até 5 (cinco) anos, contados da data do trânsito em julgado da decisão ou da homologação (confirmação) da desistência da execução do título judicial.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre restituição, ressarcimento e reembolso](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/restituicao-ressarcimento-reembolso-e-compensacao)\n\n [Orientações sobre processos digitais](https://www.gov.br/../../receitafederal/pt-br/assuntos/processos-digitais)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.cav.receita.fazenda.gov.br/requer/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123387
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103115,
+        "tipo": "Contribuinte ou seu representante legal",
+        "requisitos": "Para utilizar o aplicativo no celular ou tablet, você deve [habilitar o seu dispositivo](https://cav.receita.fazenda.gov.br/eCAC/publico/login.aspx?sistema=51 \"Habilitar celular ou tablet\")."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172513
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172514
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172515
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 172516
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Compensar",
+        "id": 410598
+      },
+      {
+        "item": "Compensação",
+        "id": 410599
+      },
+      {
+        "item": "Crédito",
+        "id": 410600
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.055/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=122002#2311139)",
+        "id": 148339
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.022/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116969)",
+        "id": 148340
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 160,
+    "negativas": 93
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240677,
+      "titulo": "Solicitar abertura de processo digital",
+      "descricao": "Solicite a habilitação do crédito judicial pelo canal abaixo. \n\n 1. Escolha a área de concentração \"**Restituição, Ressarcimento, Reembolso e Compensação**\"\n\n 2. Selecione o serviço \"**Habilitação de Crédito Judicial**\".",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317070,
+            "nome": "Certidão de inteiro teor do processo, expedida pela Justiça Federal."
+          },
+          {
+            "id": 317071,
+            "nome": "Cópia da decisão que homologou a desistência de execução do título judicial, pelo Poder Judiciário, ou cópia da declaração pessoal de inexecução do título judicial, protocolada na Justiça Federal e certidão judicial que a ateste."
+          },
+          {
+            "id": 317072,
+            "nome": "Cópia do documento comprobatório da representação legal e do documento de identificação do representante, no caso de pedido de habilitação do crédito formulado por representante legal do sujeito passivo."
+          },
+          {
+            "id": 317073,
+            "nome": "Cópia da procuração pública ou particular e do documento de identificação do outorgado, no caso de pedido de habilitação formulado por mandatário do sujeito passivo."
+          },
+          {
+            "id": 317074,
+            "nome": "Cópia do contrato social ou estatuto social da pessoa jurídica, acompanhada, conforme o caso, da última alteração contratual ou ata de eleição da diretoria (apenas para pessoa jurídica)."
+          },
+          {
+            "id": 317075,
+            "nome": "Cópia dos atos correspondentes aos eventos sucessão (apenas para pessoa jurídica, no caso de decisão judicial que abranja crédito apurado por sucedida)."
+          }
+        ],
+        "casos": [
+          {
+            "id": 48171,
+            "descricao": "Observação",
+            "documento": [
+              {
+                "id": 317069,
+                "codigo": null,
+                "descricao": "A assinatura com conta gov.br dispensa a juntada de documentos de identificação, assim como o uso de procuração digital dispensa a apresentação de outra forma de procuração.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310717,
+            "tipo": "web",
+            "descricao": "[Abrir Novo Processo (Requerimento)](https://www3.cav.receita.fazenda.gov.br/requer/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240678,
+      "titulo": "Acompanhar o andamento do processo",
+      "descricao": "Consulte o andamento do processo, inclusive os documentos juntados, pelos canais abaixo.\n\n Para utilizar o aplicativo para celular ou tablet, você deve [habilitar o seu dispositivo](https://cav.receita.fazenda.gov.br/eCAC/publico/login.aspx?sistema=51 \"Habilitar celular ou tablet\").",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310718,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310719,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://apps.apple.com/br/app/eprocesso/id1358752141) (App Store)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310720,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (Google Play)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240679,
+      "titulo": "Consultar o resultado do processo",
+      "descricao": "A informação do resultado será juntada ao seu processo digital. Clique na opção **Meus Processos** e consulte os documentos do processo para saber se o seu pedido foi aprovado.\n\n Em algumas situações o processo é arquivado após a decisão. Neste caso, você encontrará o processo na aba **Inativos**.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310721,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310722,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://apps.apple.com/br/app/eprocesso/id1358752141) (App Store)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 310723,
+            "tipo": "aplicativo-movel",
+            "descricao": "[App e-Processo](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (Google Play)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10873",
+      "nome": "Obter restituição, ressarcimento ou reembolso de tributos federais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10904",
+      "nome": "Compensar tributos federais"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/habilitar-credito-tributario-decorrente-de-decisao-judicial-transitada-em-julgado",
+  "statusDestaque": false
+}

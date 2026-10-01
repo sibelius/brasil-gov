@@ -1,0 +1,168 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12275",
+  "nome": "Realizar pagamento de multa e outros débitos junto à ANTAQ",
+  "sigla": "",
+  "descricao": "Realizar pagamentos referentes a multas, ressarcimento ao erário, indenizações, devolução de salários e diárias, cujos processos ainda não foram enviados para inscrição em dívida ativa pela Agência Nacional de Transportes Aquaviários (ANTAQ).",
+  "flagPortalLogado": "N",
+  "contato": "Contatos: [gof@antaq.gov.br](mailto:gof@antaq.gov.br), (61) 2029-6905, (61) 2029-6910",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://web3.antaq.gov.br/arrecadacao/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 89816
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76837,
+        "tipo": "Pessoa física ou pessoa jurídica com débitos de multas e outros débitos junto à  Agência Nacional de Transportes Aquaviários (ANTAQ).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "minutos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 124681
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 124682
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 124683
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Emitir GRU",
+        "id": 302671
+      },
+      {
+        "item": "PagTesouro: Pix ou Cartão de Crédito",
+        "id": 302672
+      },
+      {
+        "item": "Pagamento de multa",
+        "id": 302673
+      },
+      {
+        "item": "Pagamento de ressarcimento ao erário",
+        "id": 302674
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 103441
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 17
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm \"Lei nº 10.048\").",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 174228,
+      "titulo": "Emitir a GRU ou Pagar via PagTesouro: Pix ou Cartão de Crédito",
+      "descricao": "Entrar no sistema \"arrecadação\", na notificação do débito é enviada a senha provisória de acesso ao sistema, a qual deve ser alterada no primeiro acesso; selecionar o Processo Administrativo para emitir a GRU ou selecionar PagTesouro e optar pelas formas de pagamento: Pix ou Cartão de Crédito.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 228676,
+            "tipo": "web",
+            "descricao": "Acessar o sistema através do link [Acesse o site](https://web3.antaq.gov.br/arrecadacao/) para realizar os pagamentos devidos.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "23",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "Serviço não requer nenhum dado do usuário",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-pagamento-de-multa-aplicada-pela-antaq",
+  "statusDestaque": false
+}

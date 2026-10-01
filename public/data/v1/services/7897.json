@@ -1,0 +1,172 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7897",
+  "nome": "Habilitação de motorista para o transporte rodoviário interestadual e internacional de passageiros em regime de fretamento ou autorização",
+  "sigla": "",
+  "descricao": "Cadastro dos Motoristas das Empresas Permissonárias ou Autorizatárias de serviços outorgados pela ANTT. Apenas motoristas devidamente cadastrados e com documentação válida poderão prestar serviços em nome das empresas autorizadas pela ANTT.",
+  "flagPortalLogado": "N",
+  "contato": "Encaminhar e-mail para [geope@antt.gov.br](mailto:geope@antt.gov.br) solicitando atendimento",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sishab2.antt.gov.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 107984
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90888,
+        "tipo": "Para se cadastrar na Agência Nacional de Transporte Terrestre, é exigido que a empresa possua em seu Contrato Social, bem como em seu registro de Cadastro Nacional de Pessoa Jurídica como atividade principal ou secundária o transporte coletivo de passageiros, em regime de fretamento, interestadual ou internacional correspondente às seguintes CNAEs.",
+        "requisitos": "- 4929-9/02 - Transporte Rodoviário Coletivo de Passageiros, sob o regime de fretamento, Intermunicipal, interestadual e internacional; e\n\n - 4929-9/04 – Organização de Excursões em veículo Rodoviário Próprio, Intermunicipal, Interestadual e internacional."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 150818
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Passageiros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Motorista",
+        "id": 360800
+      },
+      {
+        "item": "Fretamento",
+        "id": 360801
+      },
+      {
+        "item": "SISHAB",
+        "id": 360802
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "A regulamentação da prestação do serviço de transporte rodoviário coletivo interestadual e internacional de passageiros realizado em regime de fretamento se deu por meio da Resolução nº 4.777, de 6 de julho de 2015\n\n A regulamentação da prestação do serviço de transporte rodoviário coletivo interestadual e internacional de passageiros do serviço regular se deu por meio da Resolução nº 6.033, de 21 de dezembro de 2023",
+        "id": 125520
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 118,
+    "negativas": 84
+  },
+  "condicoesAcessibilidade": "O atendimento é realizado remotamente por meio dos sistemas da ANTT.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 211001,
+      "titulo": "Cadastrar Motorista",
+      "descricao": "Para solicitar habilitação de motorista, o interessado deverá criar requerimento de motorista, realizar upload da documentação exigida e encaminhar para a análise da ANTT.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 284699,
+            "nome": "Número do Cadastro de Pessoa Física - CPF;"
+          },
+          {
+            "id": 284700,
+            "nome": "Certidão negativa do registro de distribuição criminal federal válida no momento do cadastramento, emitida por órgão competente da seção judiciária do estado no qual o motorista é domiciliado e residente;"
+          },
+          {
+            "id": 284701,
+            "nome": "Certidão negativa do registro de distribuição criminal estadual válida no momento do cadastramento, emitida por órgão competente do estado no qual o motorista é domiciliado e residente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 273941,
+            "tipo": "web",
+            "descricao": "Para habilitação de motorista do serviço fretado, regular e semiurbano, deve-se criar requerimento de motorista, realizar upload da documentação exigida e encaminhar para a análise da ANTT\n\n <https://www.gov.br/pt-br/servicos/solicitar-habilitacao-de-motorista-para-prestacao-do-servico-de-transporte-rodoviario-coletivo-interestadual-e-internacional-de-passageiros>\n\n Para o serviço regular, é necessário o cadastro do motorista no SisHAB II ([Acesse o site](https://sishab2.antt.gov.br/login))",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2248",
+      "nome": "Termo de Autorização para prestar serviço de transporte rodoviário interestadual e internacional de passageiros, em regime de fretamento (TAF)"
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "58",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-habilitacao-de-motorista-para-prestacao-do-servico-de-transporte-rodoviario-coletivo-interestadual-e-internacional-de-passageiros",
+  "statusDestaque": false
+}

@@ -1,0 +1,238 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13353",
+  "nome": "Emitir o Documento Manifesto de Transporte de Resíduos",
+  "sigla": "MTR",
+  "descricao": "O Manifesto de Transporte de Resíduos (MTR) é um documento autodeclaratório, válido no território nacional gerado pelo Sistema Nacional de Informações sobre a Gestão dos Resíduos Sólidos (SINIR).\n\n Trata-se de um instrumento que tem como objetivo monitorar, rastrear e controlar a movimentação de resíduos sólidos no Brasil desde sua geração até a destinação final ambientalmente adequada.\n\n Em alguns estados (SP, RJ, SC, MG, RS, ES e GO) já existem sistemas próprios para emissão do MTR. Os órgãos ambientais que possuírem sistemas de coleta, integração, sistematização e disponibilização de dados referentes à operacionalização e implantação dos planos de gerenciamento de resíduos sólidos, deverão realizar a integração com o SINIR.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site: <https://sinir.gov.br/informacoes/contato>\n\n Por e-mail: mtr.sinir@mma.gov.br[  \n](mailto:sinir@mma.gov.br)\n\n Ministério do Meio Ambiente e Mudança do Clima - Secretaria Nacional de Meio Ambiente Urbano, Recursos Hídricos e Qualidade Ambiental, Departamento de Gestão de Resíduos Sólidos - Esplanada dos Ministérios, Bloco B, 8º andar, sala: 832 - CEP: 70.068-900 - Brasília / DF",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://mtr.sinir.gov.br/#/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "MTR/SINIR",
+        "id": 127760
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106936,
+        "tipo": "O Gerador de resíduos deve emitir, no sistema MTR/SINIR, o Manifesto de Transporte de Resíduos sempre que realizar o envio de uma carga. Esse documento deve acompanhar o resíduo durante todo o transporte, e a destinação final precisa ser devidamente registrada no sistema.",
+        "requisitos": "Para utilizar este serviço, o usuário deve estar cadastrado no SINIR com o perfil de Gerador."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1927",
+    "dbId": 37544,
+    "nomeOrgao": "Ministério do Meio Ambiente e Mudança do Clima (MMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178749
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178750
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Manifesto de Transporte de Resíduos",
+        "id": 425944
+      },
+      {
+        "item": "MTR/SINIR",
+        "id": 425945
+      },
+      {
+        "item": "Destinação Final de Resíduos Sólidos",
+        "id": 425946
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[PORTARIA Nº 280, DE 29 DE JUNHO DE 2020 - DOU - Imprensa Nacional (in.gov.br)](https://www.in.gov.br/en/web/dou/-/portaria-n-280-de-29-de-junho-de-2020-264244199)",
+        "id": 153179
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 27,
+    "negativas": 36
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249742,
+      "titulo": "Acessar a plataforma do SINIR",
+      "descricao": "Acesso ao sitema: https://mtr.sinir.gov.br/\n\n Manual do usuário: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://portal-api.sinir.gov.br/wp-content/uploads/2023/03/MANIFESTO-DE-TRANSPORTE-DE-RESIDUOS-%E2%80%93-MTR-1.10.pdf",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322694,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://mtr.sinir.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249743,
+      "titulo": "Preencher as informações no Manifesto",
+      "descricao": "Iniciar \"Novo Manifesto\"\n\n Preencher as informações (tipo de resíduo, quantidade, dentre outras)\n\n Identificar quem fará o transporte e a destinção do resíduo",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322695,
+            "tipo": "web",
+            "descricao": "[https://mtr.sinir.gov.br/](https://sinir.gov.br/sistemas/mtr/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249744,
+      "titulo": "Emitir o Manifeto",
+      "descricao": "Clique em “Enviar” para concluir o processo\n\n O MTR será automaticamente emitido e registrado no sistema\n\n O documento gerado ficará disponível digitalmente (com opção para imprimir)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322696,
+            "tipo": "web",
+            "descricao": "[https://mtr.sinir.gov.br/](https://sinir.gov.br/sistemas/mtr/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322697,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sinir.gov.br/sistemas/mtr/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-o-documento-manifesto-de-transporte-de-residuos-mtr",
+  "statusDestaque": true
+}

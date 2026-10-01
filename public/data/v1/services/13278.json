@@ -1,0 +1,209 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13278",
+  "nome": "Participar de Processo Seletivo para curso de pós-graduação - UFF",
+  "sigla": "",
+  "descricao": "Serviço destinado para a participação em processo seletivo, para ingresso em curso de pós-graduação na Universidade Federal Fluminense (UFF).  \n  \nO módulo utilizado pertence ao Sistema de Pós-Graduação da UFF (SISPOS), cujo é conhecido internamente por [SISPOS Candidatura](https://app.uff.br/sispos/candidatura \"SISPOS Candidatura\")",
+  "flagPortalLogado": "N",
+  "contato": "Para informações do curso ou do edital, entre em contato com a coordenação deste. Segue abaixo a listagem dos cursos oferecidos pela UFF.\n\n  * [LATO SENSU](https://app.uff.br/sispos/candidatura/cursos?tipo_curso=1 \"Lato Sensu\")\n * [ STRICTO SENSU](https://app.uff.br/sispos/candidatura/cursos?tipo_curso=2 \"Stricto Sensu\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://app.uff.br/sispos/candidatura/candidatos/sign_in",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 65302
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 58861,
+        "tipo": "Qualquer pessoa com curso superior exigido para o ingresso no curso de pós-graduação selecionado.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/427",
+    "dbId": 57755,
+    "nomeOrgao": "Universidade Federal Fluminense (UFF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 92372
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Candidatura Pós-graduação,",
+        "id": 224874
+      },
+      {
+        "item": "Pós",
+        "id": 224875
+      },
+      {
+        "item": "Pós-graduação",
+        "id": 224876
+      },
+      {
+        "item": "Lato Sensu",
+        "id": 224877
+      },
+      {
+        "item": "Stricto Sensu.",
+        "id": 224878
+      },
+      {
+        "item": "",
+        "id": 224879
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 73932
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "A UFF proverá local de atendimento presencial, em suas dependências, quando necessário, levando em consideração o estabelecido na lei nº 13.460/17.",
+  "tratamentoPrioritario": "O tratamento prioritário, quando solicitado, será adaptado conforme a necessidade, de acordo com a lei nº 10.048 de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O atendimento dar-se-á à necessidade individual, conforme preciso entre candidato e secretaria.",
+  "etapas": [
+    {
+      "id": 130367,
+      "titulo": "Preenchimento de formulário",
+      "descricao": "[Página de login](https://app.uff.br/sispos/candidatura/candidatos/sign_in \"Login candidatura pós UFF\")\n\n  Somente para o primeiro acesso, há a necessidade do preenchimento de formulário local para captura de informações extras, que serão utilizadas em outras ações.[](https://app.uff.br/sispos/candidatura/candidatos/sign_in \"Login candidatura pós UFF\")",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 168796,
+            "tipo": "e-mail",
+            "descricao": "Para informações, dúvidas ou esclarecimentos quanto ao preenchimento do formulário, envie e-mail para atendimento@id.uff.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 130368,
+      "titulo": "Inscrever-se em um edital",
+      "descricao": "Na listagem dos cursos de pós-graduação, editais com inscrição aberta estarão disponíveis em forma de link.\n\n Para editais que aceitem inscrição online, haverá uma ação ao lado do edital para seguir com a candidatura.\n\n Ao final da inscrição, o candidato pode acompanhar o status e ver os detalhes da candidatura.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 182322,
+            "nome": "RG com a naturalidade, conforme Lei Federal nº 7.088, de 23 de março de 1983;"
+          },
+          {
+            "id": 182323,
+            "nome": "CPF;"
+          },
+          {
+            "id": 182324,
+            "nome": "Diploma da graduação ou Certidão/Declaração de conclusão."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 168797,
+            "tipo": "web",
+            "descricao": "Para qualquer problema com o uso do sistema, envie e-mail para [atendimento@id.uff.br](mailto:atendimento@id.uff.br?subject=Suporte canditatura GovBR \"atendimento@id.uff.br\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-pos-graduacao-uff",
+  "statusDestaque": false
+}

@@ -1,0 +1,260 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23958",
+  "nome": "Realizar diagnóstico laboratorial (molecular e sorológico) para BKV, JCV, CMV, EBV, HHV-6, Varicela-zóster (VZV), Parvovírus B19 e Caxumba.",
+  "sigla": "",
+  "descricao": "O Instituto Evandro Chagas, por meio de sua Seção de Virologia, realiza o diagnóstico laboratorial de infecções causadas pelos vírus Poliomavírus BKV e JCV (vírus John Cunningham), Citomegalovírus humano (CMV), vírus Epstein-Barr (EBV), Herpesvírus humano tipo 6 (HHV-6), vírus Varicela-zóster (VZV), Parvovírus B19 e vírus da Caxumba.\n\n Os exames podem ser realizados por meio de técnicas de biologia molecular e testes sorológicos. A detecção molecular é realizada pela técnica de reação em cadeia da polimerase em tempo real (PCR em Tempo Real), que permite identificar o material genético dos vírus em diferentes tipos de amostras biológicas, como sangue, urina, líquido cefalorraquidiano (líquor) ou secreções de lesões cutâneas, conforme o agente investigado.\n\n Também são realizados testes sorológicos utilizando o método de Ensaio Imunoenzimático (EIE/ELISA), a partir de amostras de soro ou plasma, para detecção de anticorpos específicos das classes IgM e/ou IgG. Esses exames auxiliam na identificação de infecção recente ou passada, bem como no apoio ao diagnóstico clínico e à vigilância epidemiológica das infecções virais.",
+  "flagPortalLogado": "N",
+  "contato": "sevir@iec.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://gal.datasus.gov.br/GALL/index.php",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123584
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103382,
+        "tipo": "Pessoa usuária do SUS",
+        "requisitos": ""
+      },
+      {
+        "id": 103383,
+        "tipo": "Gestor",
+        "requisitos": ""
+      },
+      {
+        "id": 103384,
+        "tipo": "Profissional da saúde",
+        "requisitos": ""
+      },
+      {
+        "id": 103385,
+        "tipo": "Instituições",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172921
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 172922
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172923
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Análises e Materiais"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Epstein Barr",
+        "id": 411358
+      },
+      {
+        "item": "EBV",
+        "id": 411359
+      },
+      {
+        "item": "CMV",
+        "id": 411360
+      },
+      {
+        "item": "exame de vírus",
+        "id": 411361
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148641
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O(a) usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento. \n\n  .",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei n° 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(a) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n     \n\n   Urbanidade; \n\n   Respeito; \n\n   Acessibilidade; \n\n   Cortesia; \n\n   Presunção da boa-fé do usuário; \n\n   Igualdade; \n\n   Eficiência; \n\n   Segurança e \n\n   Ética",
+  "etapas": [
+    {
+      "id": 241129,
+      "titulo": "Solicitar o exame diagnóstico no Sistema GAL",
+      "descricao": "Cadastrar a solicitação do exame no Sistema online GAL;",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 317571,
+            "nome": "Ficha de encaminhamento do solicitante, via (GAL) -\n\n Formulário do SINAN (quando aplicável) -\n\n Ficha Epidemiológica"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311345,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://gal.datasus.gov.br/GALL/index.php?area=01)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241130,
+      "titulo": "Enviar amostra",
+      "descricao": "A amostra deve ser encaminhada para o Setor de Gerenciamento de Amostras (SEGEA), localizado no Campus Ananindeua-PA, no Instituto Evandro Chagas",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311346,
+            "tipo": "postal",
+            "descricao": "Rodovia BR-316 km 7 s/n - Levilândia - 67030-000 Ananindeua – PA.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 241131,
+      "titulo": "Receber Resultado de Exame",
+      "descricao": "O usuário deverá acessar o Sistema GAL para conferir o resultado dos exames solicitados, no prazo estabelecido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311347,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://gal.datasus.gov.br/GALL/index.php?area=01)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-diagnostico-laboratorial-molecular-e-sorologico-para-bkv-jcv-cmv-ebv-hhv-6-varicela-zoster-vzv-parvovirus-b19-e-caxumba",
+  "statusDestaque": false
+}

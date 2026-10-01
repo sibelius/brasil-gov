@@ -1,0 +1,191 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11633",
+  "nome": "Solicitar atualização de dados na Antaq para o Sistema Mercante - AFRMM",
+  "sigla": "",
+  "descricao": "Através deste serviço o usuário poderá ter seu pedido de cadastros de embarcações, portos, terminais portuários, armadores e *n**on-vessel-operating common carriers* (NVOCCs) analisado e homologado no Sistema Mercante da Receita Federal do Brasil.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Afretamento da Navegação - GAF\n\n [afretamento@antaq.gov.br](mailto:afretamento@antaq.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.mercante.transportes.gov.br/g33159MT/jsp/logon.jsp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "AFRMM ressarcimento Mercante",
+        "id": 76650
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 67193,
+        "tipo": "Empresas brasileiras de naveagação\n\n Armadores",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 106121
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "NVOCC",
+        "id": 260875
+      },
+      {
+        "item": "Sistema Mercante",
+        "id": 260876
+      },
+      {
+        "item": "Afretamento",
+        "id": 260877
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Portaria Ministério dos Transportes nº 72, de 18 de março de 2008; \n\n Manual da Receita Federal para Transportadores e Consignatários, versão de 20 de fevereiro de 2017; \n\n Resolução Normativa Antaq nº 18, de 21 de dezembro de 2017.",
+        "id": 87477
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 14,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 149962,
+      "titulo": "Pré-cadastro no Sistema Mercante e envio de documentação à Antaq",
+      "descricao": "Para os casos de embarcações e armadores, o requerente deve realizar o pré-cadastro no Sistema Mercante, e enviar e-mail para a ANTAQ (afretamento@antaq.gov.br) com a solicitação de homologação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 195502,
+            "tipo": "e-mail",
+            "descricao": "afretamento@antaq.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 149963,
+      "titulo": "NVOCC Agentes de carga internacional",
+      "descricao": "Para o caso de NVOCC, o requerente deve realizar o pré-cadastro no Sistema Mercante, e enviar e-mail para a ANTAQ (afretamento@antaq.gov.br) com os documentos: carta de apontamento em português com reconhecimento de firma do expedidor e ato constitutivo da empresa estrangeira contendo seu endereço.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 195503,
+            "tipo": "e-mail",
+            "descricao": "afretamento@antaq.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "1",
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 1,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "54",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-atualizacao-de-dados-na-antaq-para-o-sistema-mercante-receita-federal",
+  "statusDestaque": false
+}

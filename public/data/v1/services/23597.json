@@ -1,0 +1,471 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23597",
+  "nome": "Inscrever Entidade no Cadastro Nacional de Pessoas Jurídicas",
+  "sigla": "CNPJ",
+  "descricao": "Solicite a inscrição da sua empresa, associação ou entidade no Cadastro Nacional de Pessoas Jurídicas (CNPJ).\n\n O Cadastro Nacional das Pessoas Jurídicas, administrado pela Receita Federal, armazena as informações de entidades de interesse das administrações tributárias.\n\n Para fazer a inscrição, é preciso ter a [viabilidade aprovada pelo município](https://www.gov.br/empresas-e-negocios/pt-br/redesim/abrir-cnpj/viabilidade) onde será instalado, ter as regras jurídicas e viabilidade de nome aprovados pelo estado e órgão de registro competente, e confirmar a escolha dos regimes tributários.\n\n **Atenção!** A inscrição do MEI (Microempreendedor Individual) deve ser feita por meio do Portal do Empreendedor.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://redesimservicos.rfb.gov.br/coletor-nacional/opcoes/inscricao-matriz",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Abrir Empresa",
+        "id": 124205
+      },
+      {
+        "item": "Abrir CNPJ",
+        "id": 124206
+      },
+      {
+        "item": "Abrir Matriz no CNPJ",
+        "id": 124207
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103982,
+        "tipo": "O responsável pela entidade e o profissional contábil indicado precisam assinar a solicitação para obter o CNPJ.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "24",
+      "unidade": "horas"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 24
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173832
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173833
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 173834
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 173835
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pessoa Jurídica (CNPJ)"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CNPJ",
+        "id": 413717
+      },
+      {
+        "item": "Empresa",
+        "id": 413718
+      },
+      {
+        "item": "Inscrição",
+        "id": 413719
+      },
+      {
+        "item": "Matriz",
+        "id": 413720
+      },
+      {
+        "item": " Negócio",
+        "id": 413721
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.119/2022](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/127567)",
+        "id": 149424
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 33,
+    "negativas": 61
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 242373,
+      "titulo": "Consultar viabilidade",
+      "descricao": "Informe o nome empresarial, o código das atividades econômicas e o endereço pretendido para verificar se são permitidos no local desejado e se necessitam de licenças específicas.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318957,
+            "nome": "Nome empresarial;"
+          },
+          {
+            "id": 318958,
+            "nome": "Código das Atividades Econômicas (CNAE); e"
+          },
+          {
+            "id": 318959,
+            "nome": "Endereço."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312999,
+            "tipo": "web",
+            "descricao": "[Portais Estaduais](https://www.gov.br/empresas-e-negocios/pt-br/redesim/abrir-cnpj/viabilidade)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 242374,
+      "titulo": "Informar os termos do ato constitutivo",
+      "descricao": "Informe os dados da pessoa jurídica que está sendo inscrita, conforme o ato constitutivo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318960,
+            "nome": "Informações que constarão no ato constitutivo da pessoa jurídica (contrato social, estatuto social ou o seu regulamento)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313000,
+            "tipo": "web",
+            "descricao": "[Portal de NegÃ³cios Redesim](https://redesimservicos.rfb.gov.br/coletor-nacional/opcoes/inscricao-matriz)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 242375,
+      "titulo": "Registrar o ato constitutivo",
+      "descricao": "Envie o ato constitutivo para o órgão de registro competente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318961,
+            "nome": "Documento Básico de Entrada (DBE), gerado na etapa anterior;"
+          },
+          {
+            "id": 318962,
+            "nome": "Ato constitutivo da pessoa jurídica (contrato social, estatuto social ou o seu regulamento)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41266,
+            "descricao": "Consulte, no seu Estado/DF, as taxas das Juntas Comerciais, dos Cartórios de PJ e das Seccionais da OAB.",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Valor variável",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313001,
+            "tipo": "web",
+            "descricao": "[Juntas Comerciais](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cnpj/juntas-comerciais-conveniadas-para-inscricao-e-alteracao-do-cnpj/relacao-das-juntas-comerciais-conveniadas) - **Para empresas e cooperativas**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 313002,
+            "tipo": "web",
+            "descricao": "[Ordem dos Advogados do Brasil](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cnpj/ordem-dos-advogados-do-brasil-conveniadas/ordem-dos-advogados-do-brasil-conveniadas) - **Para escritórios de advocacia**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 313003,
+            "tipo": "web",
+            "descricao": "[Cartórios de Registro](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cnpj/cartorios-de-registro-civil-das-pessoas-juridicas-conveniados-para-inscricao-no-cnpj) - **Para sociedades simples e demais associações**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 242376,
+      "titulo": "Enviar documentos à Receita Federal",
+      "descricao": "Nos casos em que é dispensado registro, ou nos casos em que Documento Básico de Entrada (DBE) é direcionado à Receita Federal (quando o órgão de registro não está integrado à Redesim), os documentos precisam ser enviados para análise.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318963,
+            "nome": "Documento Básico de Entrada (DBE), gerado na etapa anterior;"
+          },
+          {
+            "id": 318964,
+            "nome": "Ato constitutivo da pessoa jurídica (contrato social ou estatuto social) REGISTRADO."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313004,
+            "tipo": "web",
+            "descricao": "[Portal de ServiÃ§os da Receita Federal](https://www3.cav.receita.fazenda.gov.br/requer/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "17",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 17
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 242377,
+      "titulo": "Acompanhar protocolo, confirmar informações tributárias e assinar e receber número CNPJ",
+      "descricao": "Selecione os regimes tributários desejados e confirme os dados do profissional contábil responsável. O representante da pessoa jurídica e o profissional contábil devem assinar digitalmente para confirmar as opções e gerar a inscrição no CNPJ.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313005,
+            "tipo": "web",
+            "descricao": "[Portal de NegÃ³cios Redesim](https://redesimservicos.rfb.gov.br/consultapedido)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 313006,
+            "tipo": "web",
+            "descricao": "[Portal de ServiÃ§os da Receita Federal](https://servicos.receitafederal.gov.br/servico/confirmar-inscricao-cnpj)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 242378,
+      "titulo": "Obter licenças de funcionamento",
+      "descricao": "Apresente informações relativas à segurança sanitária, controle ambiental, prevenção contra incêndios e pânico, e outras exigências previstas na legislação que autorizam o funcionamento da pessoa jurídica.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313007,
+            "tipo": "web",
+            "descricao": "[Portais Estaduais](https://www.gov.br/empresas-e-negocios/pt-br/redesim/abrir-cnpj/licenciamento)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10976",
+      "nome": "Atualizar CNPJ ou inscrever filial"
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "35",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/inscrever-no-cnpj",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

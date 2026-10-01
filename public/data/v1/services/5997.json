@@ -1,0 +1,359 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5997",
+  "nome": "Participar de Processo Seletivo para curso de graduação - UFSM",
+  "sigla": "",
+  "descricao": "Processo seletivo para ingresso na instituição em cursos presenciais de Graduação\n\n - Vestibular  \n- Processo Seletivo Seriado",
+  "flagPortalLogado": "N",
+  "contato": "COPA\n\n copa.prograd@ufsm.br\n\n 3220-8187\n\n (55) 3220-8170 - Processos Seletivos (SiSU, Vestibular, PSS e outros)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ufsm.br/pro-reitorias/prograd/ingresse-na-ufsm",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122460
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102369,
+        "tipo": "Cidadãos interessados em cursar graduação na Universidade Federal de Santa Maria",
+        "requisitos": "Ter se inscrito para o processo seletivo desejado, comparecer a aplicação das provas e obter nota compatível para aprovação no concurso"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "8",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 8,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/431",
+    "dbId": 57774,
+    "nomeOrgao": "Universidade Federal de Santa Maria (UFSM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170947
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Processo Seletivo",
+        "id": 407468
+      },
+      {
+        "item": "Curso",
+        "id": 407469
+      },
+      {
+        "item": "Graduação",
+        "id": 407470
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 146892
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 21,
+    "negativas": 47
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 238615,
+      "titulo": "Inscrever-se no Processo Seletivo desejado",
+      "descricao": "Realizar a inscrição no Processo Seletivo desejado",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41020,
+            "descricao": "Taxa de Inscrição para Vestibular",
+            "moeda": "R$",
+            "valor": " 80,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 41021,
+            "descricao": "Taxa de Inscrição para Processo Seletivo Seriado",
+            "moeda": "R$",
+            "valor": " 60,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 47857,
+            "descricao": "Isenção",
+            "custo": [
+              {
+                "id": 41019,
+                "descricao": "Em casos específicos há isenção do valor de inscrição para o concurso",
+                "moeda": "R$",
+                "valor": " 0,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308097,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ufsm.br/pro-reitorias/prograd)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238616,
+      "titulo": "Comparecer no local e horário indicados e realizar as provas",
+      "descricao": "Comparecimento no local da prova e realização da prova conforme datas estipuladas em edital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 315148,
+            "nome": "Cédula de Identidade (RG ou CIN);"
+          },
+          {
+            "id": 315149,
+            "nome": "Carteira de Identidade Nacional;"
+          },
+          {
+            "id": 315150,
+            "nome": "Carteira de Trabalho e Previdência Social;"
+          },
+          {
+            "id": 315151,
+            "nome": "Carteira Nacional de Habilitação com fotografia, na forma da Lei n.º 9.503, de 23 de setembro de 1997;"
+          },
+          {
+            "id": 315152,
+            "nome": "Carteira expedida por conselhos regionais e federações trabalhistas (OAB, CREA, CRM,etc.);"
+          },
+          {
+            "id": 315153,
+            "nome": "Carteiras expedidas pelos Comandos Militares;"
+          },
+          {
+            "id": 315154,
+            "nome": "Carteiras expedidas pelas Secretarias de Segurança Pública;"
+          },
+          {
+            "id": 315155,
+            "nome": "Carteiras expedidas pelos Institutos de Identificação;"
+          },
+          {
+            "id": 315156,
+            "nome": "Carteiras expedidas pelo Corpo de Bombeiros;"
+          },
+          {
+            "id": 315157,
+            "nome": "Carteiras expedidas pelos órgãos fiscalizadores de Exercício Profissional (órgãos,conselhos, etc.);"
+          },
+          {
+            "id": 315158,
+            "nome": "Carteiras funcionais do Ministério Público e as expedidas por órgão público que, por LeiFederal, valem como identificação;"
+          },
+          {
+            "id": 315159,
+            "nome": "Certificado de reservista;"
+          },
+          {
+            "id": 315160,
+            "nome": "Passaporte."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308098,
+            "tipo": "presencial",
+            "descricao": "Duração de cada prova constará nio edital e podem variar conforme especificações em dias específicos.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 4,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 238617,
+      "titulo": "Obter nota compatível com o curso desejado",
+      "descricao": "O candidato deverá obter nota compatível com o curso pretendido, conforme divulgações e normas do edital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308099,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ufsm.br/pro-reitorias/prograd)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 238618,
+      "titulo": "Confirmar a vaga no período indicado em edital",
+      "descricao": "Confirmação da vaga após classificação em listagem divulgada pela UFSM.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 315161,
+            "nome": "Documentação necessária constará no edital do Processo Seletivo"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308100,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ufsm.br/pro-reitorias/prograd)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-graduacao-ufsm",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

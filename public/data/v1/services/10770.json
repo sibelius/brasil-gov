@@ -1,0 +1,239 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10770",
+  "nome": "Consultar comunicações de cobrança da Receita Federal",
+  "sigla": "",
+  "descricao": "A Receita Federal envia diferentes tipos de intimações e cobranças automáticas para contribuintes que estão com dívidas.\n\n Consulte esses documentos e as pendências de que tratam.\n\n Através deste serviço você poderá consultar os débitos e pendências relativos a:\n\n  * Intimação do Sief-Cobrança;\n * Intimação de Omissão de Declaração\n * Intimação de Pagamento de GFIPxGPS (IP)\n * Multas por Atraso na Entrega de Declaração (MAED).\n * Débitos do Termo de Exclusão do Simples Nacional;\n    \n Dependendo do tipo de intimação, é possível emitir a segunda via de documentos e o documento de arrecadação para pagamento.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre cobranças](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/cobrancas-e-intimacoes) \n\n [Fale conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122642
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102540,
+        "tipo": "Contribuinte intimado ou seu representante legal",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171317
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171318
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171319
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171320
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cobrança",
+        "id": 408158
+      },
+      {
+        "item": "MAED",
+        "id": 408159
+      },
+      {
+        "item": "Multa por atraso",
+        "id": 408160
+      },
+      {
+        "item": "Notificação de Lançamento",
+        "id": 408161
+      },
+      {
+        "item": "Auto de Infração",
+        "id": 408162
+      },
+      {
+        "item": "Regularização",
+        "id": 408163
+      },
+      {
+        "item": "Débito",
+        "id": 408164
+      },
+      {
+        "item": "Omissão",
+        "id": 408165
+      },
+      {
+        "item": "Declarações",
+        "id": 408166
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 147318
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2168,
+    "negativas": 5305
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239136,
+      "titulo": "Consultar cobranças",
+      "descricao": "Acesse o sistema que corresponde ao tipo de cobrança recebida para detalhar os débitos cobrados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308762,
+            "tipo": "web",
+            "descricao": "[Minhas Intimações de Cobrança](https://cav.receita.fazenda.gov.br/autenticacao/login/index/9)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 308763,
+            "tipo": "web",
+            "descricao": "[Minhas Intimações por Atraso](https://cav.receita.fazenda.gov.br/autenticacao/login/index/5116)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 308764,
+            "tipo": "web",
+            "descricao": "[Intimação de pagamento GFIP x GPS](http://cobaut.receita.fazenda.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 308765,
+            "tipo": "web",
+            "descricao": "[Minhas Multas por Atraso](https://cav.receita.fazenda.gov.br/autenticacao/login/index/88)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 308766,
+            "tipo": "web",
+            "descricao": "[Consultar ExclusÃ£o do Simples](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10026)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10690",
+      "nome": "Consultar dívidas e pendências fiscais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10673",
+      "nome": "Consultar inclusão no Cadin pela Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10669",
+      "nome": "Consultar Intimação para Pagamento e Débito Confessado em GFIP"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-cobrancas-da-receita-federal",
+  "statusDestaque": false
+}

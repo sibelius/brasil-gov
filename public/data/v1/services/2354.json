@@ -1,0 +1,198 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2354",
+  "nome": "Obter cópia ou via de Laudo Pericial de Sinistro de Trânsito",
+  "sigla": "LPST",
+  "descricao": "Este serviço consiste na emissão da cópia ou segunda via do **Laudo Pericial de Sinistro de Trânsito (LPST)** para fins legais.\n\n  *  **Nomenclaturas anteriores:** Dependendo da data do registro, o documento pode constar como *Laudo Pericial de Acidente de Trânsito (LPAT)* ou *Boletim de Acidente de Trânsito (BAT)*. Todos possuem a mesma validade jurídica.\n\n \n *  **Importante:** Este documento é o relatório oficial elaborado pela perícia administrativa da PRF. Não deve ser confundido com a \"Comunicação\" (Declaração) de sinistro, que é o registro feito pelo próprio cidadão. Para acessar o menu de Comunicação de Sinistro de Trânsito (CST), clique [aqui](http://comunicante.prf.gov.br).",
+  "flagPortalLogado": "N",
+  "contato": "<https://portal.prf.gov.br/canais-de-atendimento>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://lpst.prf.gov.br/lpat/consultar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Boletim de Acidente de Trânsito (BAT)",
+        "id": 126669
+      },
+      {
+        "item": "Laudo Pericial de Sinistro de Trânsito (LPST)",
+        "id": 126670
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105927,
+        "tipo": "Qualquer pessoa pode utilizar este serviço. No entanto, para que o sistema permita a emissão do documento, a pessoa deve constar como envolvida na ocorrência (Condutor/passageiro/pedestre/proprietário).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "15",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177103
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 177104
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 177105
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 177106
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acidentes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "acidente",
+        "id": 422105
+      },
+      {
+        "item": "federal",
+        "id": 422106
+      },
+      {
+        "item": "BR",
+        "id": 422107
+      },
+      {
+        "item": "sinistro",
+        "id": 422108
+      },
+      {
+        "item": "laudo",
+        "id": 422109
+      },
+      {
+        "item": "boletim",
+        "id": 422110
+      },
+      {
+        "item": "PRF",
+        "id": 422111
+      },
+      {
+        "item": "",
+        "id": 422112
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151980
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 215,
+    "negativas": 1094
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 247323,
+      "titulo": "Obter LPST",
+      "descricao": "Inserir o protocolo da ocorrência e identificação do interessado (CPF/CNPJ).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322961,
+            "nome": "Número do protocolo"
+          },
+          {
+            "id": 322962,
+            "nome": "Número do CPF ou CNPJ do envolvido"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319764,
+            "tipo": "web-emitir",
+            "descricao": "Para gerar uma cópia do Laudo Pericial de Acidente de Trânsito (LPAT), acessar o site [https://lpst.prf.gov.br/lpat/consultar](https://novobat.prf.gov.br/novobat/consultar) e digitar o número do protocolo e o número do CPF ou CNPJ de um dos envolvidos.\n\n  \n\n Para acidente ocorrido até 31/12/2016 acessar o site [https://bat.prf.gov.br/bat/](https://bat.prf.gov.br/bat/ \"https://bat.prf.gov.br/bat/\")[  \n](https://www.prf.gov.br/bat/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "16",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-boletim-de-acidente-de-transito",
+  "statusDestaque": false
+}

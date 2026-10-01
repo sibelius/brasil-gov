@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6111",
+  "nome": "Matricular-se em curso de graduação - UFGD",
+  "descricao": " Se você concluiu com êxito graduação ou pós-graduação na Universidade, pode obter o seu diploma (ou 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "DIVISÃO DE REGISTRO DE DIPLOMAS - 6734102824 - dird@ufgd.edu.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 8806,
+        "tipo": "Cidadãos, Estrangeiros",
+        "requisitos": null
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "90",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 90,
+    "max": 120
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/84712",
+    "dbId": 34314,
+    "nomeOrgao": "Fundação Universidade Federal da Grande Dourados (UFGD)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 13895
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Educação e Pesquisa"
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "<p style=\"text-align:justify\">O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</p>",
+  "tratamentoPrioritario": "<p style=\"text-align:justify\">Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.</p>",
+  "tratamentoDispensadoAtendimento": "<p style=\"text-align:justify\">O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:</p>\n<br>\n<ul>\n<li>Urbanidade;</li>\n<li>Respeito;</li>\n<li>Acessibilidade;</li>\n<li>Cortesia;</li>\n<li>Presunção da boa-fé do usuário;</li>\n<li>Igualdade;</li>\n<li>Eficiência;</li>\n<li>Segurança; e</li>\n<li>Ética.</li>\n</ul>",
+  "etapas": [
+    {
+      "id": 16114,
+      "titulo": "O processo de Registro de Diploma é feito automaticamente após a colação de grau. Não sendo necessário interação com o usuário.",
+      "descricao": null,
+      "documentos": {
+        "documentos": [
+          {
+            "id": 30173,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 30174,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 30175,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 30176,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 30177,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 30178,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 30179,
+            "nome": "CPF"
+          },
+          {
+            "id": 30180,
+            "nome": "Diploma"
+          },
+          {
+            "id": 30181,
+            "nome": "Passaporte"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 1574,
+            "descricao": "Emissão de segunda via de Diploma.",
+            "moeda": "R$",
+            "valor": " 190,80",
+            "valorVariavel": null,
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 17631,
+            "tipo": "presencial",
+            "descricao": "Coordenadoria de Assuntos Acadêmicos",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17632,
+            "tipo": "telefone",
+            "descricao": "6734102824",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 17633,
+            "tipo": "postal",
+            "descricao": "Rua João Rosa Góes, 1761 - Vila Progresso, Cx. Postal 322 - CEP 79825-070",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "90",
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 90,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "43",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufgd",
+  "statusDestaque": false
+}

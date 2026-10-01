@@ -1,0 +1,375 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9027",
+  "nome": "Solicitar depósito de Material Biológico - Fiocruz",
+  "sigla": "",
+  "descricao": "O objetivo do serviço de depósito é realizar a guarda de material biológico, após sua incorporação ao acervo, por meio da catalogação em sistema gerenciador, planilha eletrônica ou livro tombo. O solicitante deverá estar ciente das particularidades de cada coleção, seguindo as regras explícitas nos documentos enviados no ato da solicitação do serviço e respeitando as diferentes categorias de depósito.\n\n ** **",
+  "flagPortalLogado": "N",
+  "contato": "**Horário de atendimento: **Para dar início à solicitação do serviço por meio digital, não há horário definido. Para recebimento do material biológico a ser depositado, o horário de atendimento de segunda à sexta-feira, de 8h às 17h.\n\n **Site: **<https://portal.fiocruz.br/colecoes-biologicas>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74877
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65727,
+        "tipo": "* Empresas",
+        "requisitos": ""
+      },
+      {
+        "id": 65728,
+        "tipo": "* Órgãos e entidades públicas",
+        "requisitos": "Os solicitantes devem fazer parte do quadro de instituições reconhecidas de pesquisa e ensino, que prestam serviços, ou indústrias."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "15",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 15,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 103525
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 103526
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pesquisas e Ensaios"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Material biológico",
+        "id": 254429
+      },
+      {
+        "item": "Depósito",
+        "id": 254430
+      },
+      {
+        "item": "Preservação",
+        "id": 254431
+      },
+      {
+        "item": "Patrimônio biológico",
+        "id": 254432
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 13.123 / 2015\n\n Decreto nº 8.772 / 2016",
+        "id": 84898
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 146501,
+      "titulo": "Solicitar depósito de Material Biológico",
+      "descricao": "O solicitante deverá entrar em contato com a coleção de interesse por e-mail, requerendo o **Formulário para Solicitação de Identificação, Autenticação e Depósito**, no caso de material microbiológico; ou o **Formulário de Solicitação de Serviços**, no caso de materiais zoológicos ou vegetais; ou ainda o **Formulário de Depósito**, no caso de materiais histopatológicos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 190509,
+            "tipo": "e-mail",
+            "descricao": "Os endereços de e-mail das coleções biológicas estão disponíveis na página web de cada uma e podem ser acessados por meio do link:  http://portal.fiocruz.br/pt-br/content/coleções-biológicas",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 146502,
+      "titulo": "Preencher o formulário de solicitação do serviço",
+      "descricao": "Após a solicitação do serviço, a coleção biológica deverá enviar ao solicitante o formulário, que deverá ser preenchido para que a solicitação seja formalizada.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 32170,
+            "descricao": "Solicitante de depósito de material microbiológico",
+            "documento": [
+              {
+                "id": 208063,
+                "codigo": null,
+                "descricao": "Formulário para Solicitação de Identificação, Autenticação e Depósito",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 32171,
+            "descricao": "Solicitante de depósito de material zoológico e excicatas.",
+            "documento": [
+              {
+                "id": 208064,
+                "codigo": null,
+                "descricao": "Formulário de Solicitação de Serviços",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 32172,
+            "descricao": "Solicitante de depósito de material histopatológico",
+            "documento": [
+              {
+                "id": 208065,
+                "codigo": null,
+                "descricao": "Formulário de Depósito",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 190510,
+            "tipo": "e-mail",
+            "descricao": "O solicitante deverá assinar o formulário, obrigatoriamente, e enviar à coleção por e-mail.  \n\n Os endereços de e-mail das coleções biológicas estão disponíveis na página web de cada uma e podem ser acessados por meio do link: http://portal.fiocruz.br/pt-br/content/coleções-biológicas",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 146503,
+      "titulo": "Enviar material biológico para depósito",
+      "descricao": "O solicitante enviará o material biológico a ser depositado à Coleção Biológica de interesse.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 190511,
+            "tipo": "postal",
+            "descricao": "O solicitante deverá enviar por transportadora que atenda as normas de transporte de material biológico vigente.  \nO endereço da coleção de interesse está disponível na página web da Coleção, no Portal Fiocruz (http://portal.fiocruz.br/pt-br/content/coleções-biológicas).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 190512,
+            "tipo": "presencial",
+            "descricao": "O solicitante deverá levar o material presencialmente à Coleção Biológica.  \nO endereço da coleção de interesse está disponível na página web da Coleção, no Portal Fiocruz (http://portal.fiocruz.br/pt-br/content/coleções-biológicas).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 146504,
+      "titulo": "Enviar Termo de Depósito assinado",
+      "descricao": "Após a preservação do material enviado à Coleção Biológica, um número de catálogo será gerado pela Coleção e o Termo de Depósito será enviado ao solicitante em duas cópias, que serão preenchidas pelo solicitante. Uma cópia ficará sob posse do solicitante e a outra retornará assinada à Coleção.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 208066,
+            "nome": "Termo de depósito assinado"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 190513,
+            "tipo": "e-mail",
+            "descricao": "O Termo de Depósito deve ser preenchido, assinado e enviado por e-mail à Coleção, após a formalização do depósito com o número de catálogo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 146505,
+      "titulo": "Preencher Pesquisa de Satisfação",
+      "descricao": "Após a finalização do serviço de depósito, o solicitante receberá um Formulário de Pesquisa de Satisfação pelo e-mail informado na solicitação do serviço. O formulário deverá ser preenchido e enviado por e-mail à Coleção.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 208067,
+            "nome": "Formulário de Pesquisa de Satisfação"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 190514,
+            "tipo": "e-mail",
+            "descricao": "A pesquisa de satisfação tem o objetivo de garantir a qualidade dos serviços das Coleções Biológicas e deve ser preenchida e enviada por e-mail, após a conclusão do serviço.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-deposito-de-material-biologico",
+  "statusDestaque": false
+}

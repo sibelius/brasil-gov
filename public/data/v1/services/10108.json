@@ -1,0 +1,249 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10108",
+  "nome": "Cancelar Autorização de Funcionamento a Pedido",
+  "sigla": "",
+  "descricao": "As empresas especializadas em segurança privada e as empresas que possuem serviço orgânico de segurança privada podem, a qualquer momento, solicitar espontaneamente o cancelamento da autorização de funcionamento expedida pela Polícia Federal. Este pedido cancelará totalmente a autorização concedida pela PF para todas as atividades da empresa no Brasil (caso seja solicitada pela matriz) ou em um estado ou no DF (caso seja requerida pela unidade responsável naquela UF). Para mais informações [veja o Decreto 13.012/2026](https://www.gov.br/pf/pt-br/assuntos/seguranca-privada/legislacao-normas-e-orientacoes/decretos)",
+  "flagPortalLogado": "N",
+  "contato": "* **Horários e peculiaridades de atendimento nas unidades PF:**\n  No caso de dúvidas relativas à particularidades locais das unidades de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras, consulte uma [unidade da Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias).\n\n  \n\n O usuário poderá registrar críticas, duvidas, sugestões ou informações sobre o processo através do e-mail [dpsp.cgcsp.dpa@pf.gov.br](mailto:dpsp.cgcsp@dpf.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.dpf.gov.br/gesp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cancelar autorização a pedido",
+        "id": 122872
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102704,
+        "tipo": "Empresas especializadas em Segurança Privada ou empresas com Serviço Orgânico de Segurança Privada.",
+        "requisitos": "Manifestar a intenção em encerrar as atividades de segurança privada.\n\n Realizar a entrega de todo o material controlado em posse da empresa (armas de fogo, munições, petrechos, coletes balísticos, armas não letais)\n\n  \n\n Certificado Digital"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171684
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171685
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171686
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Segurança Privada"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cancelamento, ",
+        "id": 408832
+      },
+      {
+        "item": "Encerramento, ",
+        "id": 408833
+      },
+      {
+        "item": "Autorização, ",
+        "id": 408834
+      },
+      {
+        "item": "Segurança Privada",
+        "id": 408835
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 7.102/83\n\n Decreto nº 89.056/83\n\n Portaria nº 18.045/23-DG/PF",
+        "id": 147588
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n *  A análise dos processos obedece a ordem cronológica de protocolo.\n\n \n *  Os atos serão praticados no processo administrativo eletrônico e serão notificados pessoalmente, por e-mail indicado nos autos ou por outro meio que assegure a ciência do interessado.",
+  "etapas": [
+    {
+      "id": 239560,
+      "titulo": "Enviar a solicitação",
+      "descricao": "A solicitação de cancelamento deverá ser enviada através do Sistema GESP (Gestão Eletrônica de Segurança Privada), com acesso através de Certificado Digital, disponível no link a seguir: https://servicos.dpf.gov.br/gesp/",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309248,
+            "tipo": "web-preencher",
+            "descricao": "Acesso ao Sistema GESP (Gestão Eletrônica de Segurança Privada) disponível no link [Acesse o site](https://servicos.dpf.gov.br/gesp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239561,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após processada, a solicitação será encaminhada à Coordenação-Geral de Serviços e Produtos (CGCSP) da Polícia Federal para, caso seja deferido, promover a devida publicação da Portaria de Cancelamento no Diário Oficial da União e atualização do cadastro da empresa no Sistema GESP.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309249,
+            "tipo": "web-acompanhar",
+            "descricao": "Acesso ao Sistema GESP (Gestão Eletrônica de Segurança Privada) disponível no link  [Acesse o site](http://servicos.dpf.gov.br/gesp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239562,
+      "titulo": "Entregar o material controlado",
+      "descricao": "A Delegacia de Segurança Privada - DELESP ou a Unidade de Controle e Vistoria - UCV da circunscrição da empresa efetuará as eventuais diligências para arrecadar ou receber armas e outros produtos controlados em posse da empresa, autorizados em decorrência do respectivo serviço de segurança privada que está sendo cancelado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309250,
+            "tipo": "presencial",
+            "descricao": "O local e a forma de entrega do material controlado (armas, munição, petrechos, coletes, máquinas de recarga e armas não letais) serão agendados pela unidade da Polícia Federal mais próxima. Para localizar a unidade da PF mais próxima, [clique aqui](https://www.gov.br/../../pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias \"clique aqui\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-autorizacao-de-funcionamento-a-pedido",
+  "statusDestaque": false
+}

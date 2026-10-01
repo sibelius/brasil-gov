@@ -1,0 +1,203 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23011",
+  "nome": "Realizar o protocolo de um documento na Agência, que pode ser físico, por meio do Guichê, ou digital, por meio do Sistema de Protocolo Digital",
+  "sigla": "",
+  "descricao": "Consiste em realizar o envio de um documento para a Aneel, com vistas a fazer algum requerimento administrativo ou apenas informar algo. O protocolo pode ser físico ou digital. O Protocolo digital é o canal exclusivo para o envio de documentos à ANEEL, eliminando a necessidade de deslocamento do cidadão até nosso endereço físico ou de arcar com despesas de postagem por correio.",
+  "flagPortalLogado": "N",
+  "contato": "[master.sge@aneel.gov.br](mailto:master.sge@aneel.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/aneel/pt-br/canais_atendimento/processo-eletronico/protocolo-digital",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 99170
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84101,
+        "tipo": "Qualquer pessoa pode utilizar o serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/21089",
+    "dbId": 909,
+    "nomeOrgao": "Agência Nacional de Energia Elétrica (ANEEL)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 138309
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 138310
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 138311
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 138312
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pedidos de Alterações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "protocolo",
+        "id": 333318
+      },
+      {
+        "item": "documento",
+        "id": 333319
+      },
+      {
+        "item": "digital",
+        "id": 333320
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 115592
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "As pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue terão atendimento prioritário, nos termos da Lei nº 14.626, de 2023.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 192754,
+      "titulo": "Realizar protocolo de documentos",
+      "descricao": "Realizar o envio de documentos à ANEEL, de forma física ou digital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251934,
+            "tipo": "web-consultar",
+            "descricao": "- Protocolo físico (SGAN 603 - Módulos I e J - térreo)\n\n - Protocolo digital ( [Consultar](https://www.gov.br/aneel/pt-br/canais_atendimento/processo-eletronico/protocolo-digital) )",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192755,
+      "titulo": "Cadastrar pedido no Protocolo Digital da ANEEL",
+      "descricao": "Elaborar a carta de encaminhamento (pdf) e assinar o documento com certificado digital ou assinatura eletrônica pel apaltaforma Gov.Br.\n\n Adicione a carta como documento principal e inclua os anexos como documentos complementares.\n\n Ao enviar o documento, você receberá um e-mail de confirmaçã com o Número ùnico de Protocolo (NUP) e poderá acompanhar a tramitação do processo enviado por meio da Pesquisa Pública.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251935,
+            "tipo": "web-consultar",
+            "descricao": "[Protocolo Digital — Agência Nacional de Energia Elétrica](https://www.gov.br/aneel/pt-br/canais_atendimento/processo-eletronico/protocolo-digital)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-o-protocolo-de-um-documento-na-agencia-que-pode-ser-fisico-por-meio-do-guiche-ou-digital-por-meio-do-sistema-de-protocolo-digital-spd",
+  "statusDestaque": false
+}

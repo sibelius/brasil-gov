@@ -1,0 +1,213 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6378",
+  "nome": "Emitir Certificado de Curso Aberto (MOOC) do Ifes",
+  "sigla": "MOOC",
+  "descricao": "Serviço para emitir o certificado de conclusão do MOOC cursado na Plataforma de Cursos Abertos do Ifes. O certificado é reconhecido pelo MEC e pode ser baixado on-line após o(a) estudante comprovar aproveitamento mínimo de 60% no curso concluído.",
+  "flagPortalLogado": "N",
+  "contato": "Depende da unidade ofertante - Depende da unidade ofertante - Depende da unidade ofertante",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado",
+        "id": 106834
+      },
+      {
+        "item": "Mooc",
+        "id": 106835
+      },
+      {
+        "item": "EaD",
+        "id": 106836
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90065,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100912",
+    "dbId": 36754,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo (IFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 148973
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Universidades e IFES"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 357140
+      },
+      {
+        "item": "FIC",
+        "id": 357141
+      },
+      {
+        "item": "Capacitação",
+        "id": 357142
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124377
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 208695,
+      "titulo": "Solicitar emissão do certificado",
+      "descricao": "No curso concluído, acesse “Certificado” e solicite a emissão. O sistema verifica automaticamente se o aproveitamento ≥ 60% foi alcançado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282436,
+            "nome": "(requer login na plataforma)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271171,
+            "tipo": "web",
+            "descricao": "Página do curso/área do estudante ([Acesse o site](https://mooc.cefor.ifes.edu.br)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208696,
+      "titulo": "Baixar/validar o certificado",
+      "descricao": "No curso concluído, acesse “Certificado” e solicite a emissão. O sistema verifica automaticamente se o aproveitamento ≥ 60% foi alcançado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282437,
+            "nome": "(requer login na plataforma)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271172,
+            "tipo": "web",
+            "descricao": "Página do curso/área do estudante ([Acesse o site](https://mooc.cefor.ifes.edu.br)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "38",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-formacao-inicial-e-continuada-if-es",
+  "statusDestaque": false
+}

@@ -1,0 +1,241 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11137",
+  "nome": "Obter análise de projetos de infraestrutura relacionados ao Porto",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá obter análise técnica acerca de novos empreendimentos, bem como de reformas, melhorias, ampliações ou demolições de estruturas existentes na área do Porto Organizado e/ou que interfiram direta ou indiretamente na infraestrutura portuária e suas operações, com a finalidade de validar, ou não, os projetos apresentados.",
+  "flagPortalLogado": "N",
+  "contato": "Diretoria de Infraestrutura - DIINF\n\n Telefone: (13) 3202-6510\n\n Email: infra@portodesantos.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128245
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107380,
+        "tipo": "Empresas cujos projetos possam interferir com as atividades nas áreas públicas do Porto Organizado de Santos e que precisem aprovar seus projetos junto à Autoridade Portuária de Santos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179399
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infraestrutura"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "infraestrutura",
+        "id": 427453
+      },
+      {
+        "item": "projetos",
+        "id": 427454
+      },
+      {
+        "item": "empreendimentos",
+        "id": 427455
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Normas da Autoridade Portuária – NAP;\n\n Normas técnicas da ABNT;\n\n Resoluções do CONFEA, CREA e CAU;\n\n Manual de Análise e Fiscalização do Projeto Executivo em Arrendamentos Portuários da ANTAQ.",
+        "id": 153773
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250807,
+      "titulo": "Solicitar análise",
+      "descricao": "O interessado deve encaminhar carta, em papel timbrado, via Sistema de Protocolo Digital, contendo a descrição do pleito e meios para contato. Os documentos exigidos deverão ser apresentados em uma via digital, obrigatoriamente em formato pdf.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 49483,
+            "descricao": "Projeto em Planta",
+            "documento": [
+              {
+                "id": 325785,
+                "codigo": null,
+                "descricao": "Deverão apresentar malha de coordenadas UTM (Datum Sirgas 2000) e os projetos de cortes/perfis/elevações deverão estar referenciados, à cota DHN.  \nEm caso de pendências/dúvidas/inconsistências haverá: convocação do solicitante (correio eletrônico ou contato telefônico) para reunião de esclarecimentos ou envio de correio eletrônico/carta com a relação dos itens a serem providenciados. No caso de documentação \"conforme\" e sem óbices será emitida carta com a validação dos projetos.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49484,
+            "descricao": "Impacto de Vizinhança",
+            "documento": [
+              {
+                "id": 325786,
+                "codigo": null,
+                "descricao": "Quando aplicável, deverá ser apresentado relatório com Estudo de Impacto de Vizinhança aprovado pela Prefeitura Municipal impactada pelo projeto.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49485,
+            "descricao": "Responsabilidade Técnica",
+            "documento": [
+              {
+                "id": 325787,
+                "codigo": null,
+                "descricao": "Deverão ser apresentadas as Anotações de Responsabilidade Técnica – ART’s e/ou os Registros de Responsabilidade Técnica –  \nRRT’s (de acordo com o caso), de todas as disciplinas dos projetos, memoriais, planos de rigging, estudos de tráfego e/ou impacto de  \nvizinhança, devidamente assinados pelos responsáveis técnicos.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49486,
+            "descricao": "Outros",
+            "documento": [
+              {
+                "id": 325788,
+                "codigo": null,
+                "descricao": "A depender do caso, outros documentos poderão ser solicitados.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324167,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](http://protocolo.portodesantos.com.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250808,
+      "titulo": "Obter resposta da análise",
+      "descricao": "Após análise pelas áreas afetas, inclusive, quanto às interferências com as redes existentes, caso existam pendências, o interessado será comunicado para proceder com as adequações/envio de documentos faltantes, em até 20 dias. A falta de envio ensejará em arquivamento do pleito, devendo, se for de interesse, ser realizada nova solicitação. Em caso de documentação completa, o interessado será comunicado quanto a indicação de óbice ou não para execução do projeto.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324168,
+            "tipo": "e-mail",
+            "descricao": "A resposta da análise/aprovação do projeto será enviada por meio de carta da Diretoria de Infraestrutura - DIINF comunicando o fato, preferencialmente ao e-mail do solicitante ou por via física ao endereço fornecido.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/analise-de-projetos-de-infraestrutura",
+  "statusDestaque": false
+}

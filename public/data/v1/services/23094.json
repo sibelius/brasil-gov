@@ -1,0 +1,364 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23094",
+  "nome": "Realizar Atendimento para Cirurgia Ginecológica na Maternidade Escola Januário Cicco (MEJC) - UFRN/HU Brasil",
+  "sigla": "",
+  "descricao": "O Ambulatório da Maternidade Escola Januário Cicco (MEJC) é um serviço especializado em saúde da mulher, responsável por avaliar, planejar e realizar cirurgias ginecológicas relacionadas ao aparelho reprodutor feminino.\n\n A equipe assistencial é composta por docentes da UFRN, médicos especialistas, residentes e estudantes, comprometidos com um atendimento humanizado, ético e de qualidade.",
+  "flagPortalLogado": "N",
+  "contato": "Telefones para marcação de agendamento interno: (84) 3342-5845 e (84) 3342-5846.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 118676
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 99268,
+        "tipo": "Usuárias do Sistema Único de Saúde (SUS), encaminhadas por meio da Unidade Básica de Saúde (UBS) via SISREG/REGULA RN.\n\n Para ter acesso ao serviço, a usuária deve inicialmente comparecer à Unidade Básica de Saúde (UBS) mais próxima de sua residência, onde será avaliada por um profissional médico. Havendo indicação, a usuária será cadastrada no sistema de Regulação (SISREG/REGULA/RN), gerenciado pela Secretaria Municipal de Saúde de Natal.",
+        "requisitos": "Após a marcação da consulta, a usuária será atendida pela equipe do ambulatório da MEJC para confirmação da indicação cirúrgica."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/200695",
+    "dbId": 32687,
+    "nomeOrgao": "EBSERH - Filial Maternidade Escola Januário Cicco (EBSERH-MEJC-UFRN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 165536
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Saúde",
+        "id": 396020
+      },
+      {
+        "item": "Consulta",
+        "id": 396021
+      },
+      {
+        "item": "Agendamento",
+        "id": 396022
+      },
+      {
+        "item": "MEJC",
+        "id": 396023
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 140292
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 231785,
+      "titulo": "Realizar procedimento de identificação na recepção",
+      "descricao": "Confirmar presença e retirar senha.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 306643,
+            "nome": "Guia de marcação emitida pela UBS via SISREG/REGULA RN e encaminhamento médico da Unidade Básica de Saúde."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299824,
+            "tipo": "presencial",
+            "descricao": "Recepção do Ambulatório da MEJC (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231786,
+      "titulo": "Cadastrar no sistema - Arquivo",
+      "descricao": "Aguardar chamada no painel eletrônico para cadastro e emissão do prontuário (carteirinha).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 306644,
+            "nome": "* Guia de marcação emitida pela UBS via SISREG/REGULA RN e encaminhamento médico da Unidade Básica de Saúde\n * Documento oficial com foto (RG)\n * CPF\n * Comprovante de residência\n * Cartão do SUS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299825,
+            "tipo": "presencial",
+            "descricao": "Recepção do Ambulatório da MEJC (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231787,
+      "titulo": "Registrar consulta - Recepção",
+      "descricao": "Inserção da consulta no sistema e impressão do adesivo de identificação. Após esse procedimento a usuária será orientada sobre o consultório do atendimento médico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299826,
+            "tipo": "presencial",
+            "descricao": "Recepção do Ambulatório da MEJC (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231788,
+      "titulo": "Realizar consulta médica",
+      "descricao": "Avaliação médica especializada para confirmação da necessidade cirúrgica.\n\n Orientação: Se disponíveis, levar exames realizados nos últimos 6 meses, como:\n\n  * Exames Laboratoriais\n * Ultrassonografia transvaginal\n * Risco cirúrgico\n * Outros (se necessário)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 306645,
+            "nome": "Caso a usuária possua resultados de exames (coagulograma, tipo sanguíneo, hemograma, ultrassom vaginal, risco cirúrgico, sumário de urina etc.) realizados especialmente nos últimos 6 meses poderá apresentar o médico."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299827,
+            "tipo": "presencial",
+            "descricao": "Recepção do Ambulatório da MEJC (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231789,
+      "titulo": "Agendar pós-consulta",
+      "descricao": "*  Retornar à recepção para agendamento conforme solicitação médica. Encaminhamentos possíveis:\n\n \n\t + Retorno ao ambulatório (agendamento interno)\n\t + Encaminhamento para outra especialidade (se necessário)\n\t + Agendamento para consulta pré-operatória e/ou pré-anestésica.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299828,
+            "tipo": "presencial",
+            "descricao": "Recepção do Ambulatório da MEJC (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231790,
+      "titulo": "Agendar cirurgia",
+      "descricao": "Comparecer à secretaria do ambulatório (sala 05) com a seguinte documentação:\n\n  * Autorização de Internação Hospitalar (AIH);\n * Autorização do anestesista.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 306646,
+            "nome": "Autorização de internação hospitalar (AIH) e autorização do anestesista para o procedimento cirúrgico."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299829,
+            "tipo": "presencial",
+            "descricao": "Recepção do Ambulatório da MEJC (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/atendimento-para-cirurgia-ginecologica-na-maternidade-escola-januario-cicco-ebserh-ufrn",
+  "statusDestaque": false
+}

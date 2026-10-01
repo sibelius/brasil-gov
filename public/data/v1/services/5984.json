@@ -1,0 +1,167 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5984",
+  "nome": "Solicitar emissão de declaração de participação em atividade de extensão",
+  "sigla": "",
+  "descricao": "Trata-se de serviço de emissão de documento em que se procede a uma exposição clara de uma determinada situação ou fato. É elaborada por escrito e constitui prova de compromisso perante uma terceira pessoa ou entidade, pois o declarante compromete-se ao conteúdo da sua declaração. Documento emitido durante o período de vigência da atividade de extensão.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail do Departamento de Extensão - kellyhuany@unifap.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "DECLARAÇÃO",
+        "id": 72226
+      },
+      {
+        "item": "CERTIFICADO",
+        "id": 72227
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 63657,
+        "tipo": "Comunidade Acadêmica",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1710",
+    "dbId": 34328,
+    "nomeOrgao": "Fundação Universidade Federal do Amapá (UNIFAP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 100531
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Documentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DECLARAÇÃO",
+        "id": 246622
+      },
+      {
+        "item": "CERTIDÃO",
+        "id": 246623
+      },
+      {
+        "item": "CERTIFICADO",
+        "id": 246624
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 81818
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário de serviço público tem direito à adequada prestação dos serviços, devendo os agentes públicos e prestadores de serviços públicos na PROEAC observar as seguintes diretrizes:\n\n I. Urbanidade, respeito, acessibilidade e cortesia no atendimento aos usuários;\n\n II. Presunção de boa-fé do usuário;\n\n III. Atendimento por ordem de chegada, ressalvados casos de urgência e aqueles em que houver possibilidade de agendamento, asseguradas as prioridades legais às pessoas com deficiência, aos idosos, às gestantes, às lactantes e às pessoas acompanhadas por crianças de colo;\n\n IV. Adequação entre meios e fins, vedada a imposição de exigências, obrigações, restrições e sanções não previstas na legislação;\n\n V. Igualdade no tratamento aos usuários, vedado qualquer tipo de discriminação;\n\n VI. Cumprimento de prazos e normas procedimentais;\n\n VII. Definição, publicidade e observância de horários e normas compatíveis com o bom atendimento ao usuário;\n\n VIII. Adoção de medidas visando a proteção ",
+  "etapas": [
+    {
+      "id": 142640,
+      "titulo": "Solicitação",
+      "descricao": "O serviço deve ser solicitado presencialmente no DEx/PROEAC/UNIFAP, preenchendo o formulário de solicitação do documento; ou, enviando o pedido por e-mail para dex@unifap.br, com as seguintes informações: nome completo do requerente; nome do(a) coordenador(a) da atividade; título da atividade e ano de participação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 202426,
+            "nome": "São necessárias as seguintes informações para o departamento realizar a busca pelas informações para o serviço:\n\n Nome completo do requerente;\n\n Nome do(a) coordenador(a) da atividade;\n\n Título da atividade;\n\n Ano de participação na atividade."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 185207,
+            "tipo": "presencial",
+            "descricao": "O serviço pode ser solicitado presencialmente no DEx/PROEAC/UNIFAP, preenchendo o formulário de solicitação do documento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 3,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 185208,
+            "tipo": "e-mail",
+            "descricao": "A solicitação pode ser enviada para o e-mail para dex@unifap.br, com as seguintes informações: nome completo do requerente; nome do(a) coordenador(a) da atividade; título da atividade e ano de participação.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "71",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-emissao-de-declaracao-de-participacao-em-atividade-de-extensao",
+  "statusDestaque": false
+}

@@ -1,0 +1,160 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10848",
+  "nome": "Acompanhar parcelamento especial da Lei 11.345/2006",
+  "sigla": "Timemania",
+  "descricao": "Este parcelamento especial (Timemania) é um tipo de parcelamento de débitos fiscais para entidades desportivas com dívidas com a Receita Federal (RFB), Procuradoria Geral da Fazenda Nacional (PGFN), Instituto Nacional do Seguro Social (INSS) e Fundo de Garantia do Tempo de Serviço (FGTS).\n\n Através deste serviço você pode consultar o extrato do parcelamento e emitir parcelas.\n\n O prazo de adesão está encerrado.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações sobre parcelamentos especiais](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/parcelamentos-especiais)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/navegacao)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121834
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101902,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": "Para acessar os sistemas, você precisará gerar um código de acesso específico. Este código é gerado no próprio sistema ou [clicando aqui](https://servicos.receita.fazenda.gov.br/Servicos/paex/PaexAdesao/PaexCodigoAcesso/PaexCodigoAcesso_P1.asp)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 169907
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Parcelamento",
+        "id": 405279
+      },
+      {
+        "item": "Parcelamento Especial",
+        "id": 405280
+      },
+      {
+        "item": "PAEX",
+        "id": 405281
+      },
+      {
+        "item": "Timemania",
+        "id": 405282
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 772/2007](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15720&visao=anotado)",
+        "id": 145639
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 37,
+    "negativas": 48
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237470,
+      "titulo": "Acompanhar o parcelamento",
+      "descricao": "Acesse o sistema para consultar o extrato parcelamento especial e emitir parcelas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306554,
+            "tipo": "web",
+            "descricao": "[Extrato do parcelamento](https://servicos.receita.fazenda.gov.br/Servicos/paex/Timemania/TimemaniaExtrato/TMExtrato_P1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 306555,
+            "tipo": "web",
+            "descricao": "[Emitir DARF do parcelamento](https://servicos.receita.fazenda.gov.br/Servicos/paex/Timemania/TimemaniaDarf/TMDarf_P1.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "44",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acompanhar-parcelamento-especial-da-lei-11-345-2006",
+  "statusDestaque": false
+}

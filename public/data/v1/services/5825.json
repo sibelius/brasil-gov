@@ -1,0 +1,260 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5825",
+  "nome": "Matricular-se em curso de Educação Profissional Técnica de nível médio - IF ES",
+  "sigla": "",
+  "descricao": "O serviço formaliza o vínculo do candidato aprovado com o Ifes. Após a convocação, o interessado deve requerer a matrícula dentro do prazo divulgado pelo campus; a matrícula é efetivada após conferência documental e homologada em publicação oficial. O pré-requisito (ex.: conclusão do Ensino Fundamental) é verificado no ato do requerimento. Prazos e orientações operacionais são divulgados pelo campus junto ao resultado final.",
+  "flagPortalLogado": "N",
+  "contato": "Informações sobre matrícula: Na coordenadoria de registro acadêmico do campus. O endereço e o contato podem ser obtidos pelo link https://www.ifes.edu.br/campi",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ifes.edu.br/campi",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Proeja",
+        "id": 106817
+      },
+      {
+        "item": "Cursos Técnicos",
+        "id": 106818
+      },
+      {
+        "item": "Integrado",
+        "id": 106819
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90058,
+        "tipo": "Cidadãos",
+        "requisitos": "Ter concluído o ensino fundamental"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100912",
+    "dbId": 36754,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo (IFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 148965
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Universidades e IFES"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 357112
+      },
+      {
+        "item": "Cursos técnicos",
+        "id": 357113
+      },
+      {
+        "item": "Educação Profissional",
+        "id": 357114
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124370
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade; \n     + Respeito; \n     + Acessibilidade; \n     + Cortesia; \n     + Presunção da boa-fé do usuário; \n     + Igualdade; \n     + Eficiência; \n     + Segurança; e \n     + Ética.",
+  "etapas": [
+    {
+      "id": 208674,
+      "titulo": "Requerer a matrícula",
+      "descricao": "Após a convocação, siga as orientações do campus para requerer a matrícula dentro do prazo divulgado. A matrícula seguirá a ordem de classificação e o atendimento aos pré-requisitos do edital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282425,
+            "nome": "Comprovar o pré-requisito do curso (conclusão do Ensino Fundamental) e demais documentos conforme orientações publicadas pelo campus junto ao calendário de matrícula."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271144,
+            "tipo": "web",
+            "descricao": "site do campus/Área do Candidato com orientações e cronograma",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 271145,
+            "tipo": "presencial",
+            "descricao": "CRA do campus, quando aplicável (endereço/horário do campus).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 40,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208675,
+      "titulo": "Homologar matrícula",
+      "descricao": "O campus confere documentos, verifica pré-requisitos e homologa a matrícula. Acompanhe a publicação no site/canais oficiais do campus.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282426,
+            "nome": "Complementações que o campus solicitar na conferência (se houver)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271146,
+            "tipo": "web",
+            "descricao": "publicações oficiais do campus (homologação/convocações).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 271147,
+            "tipo": "presencial",
+            "descricao": "CRA do campus (quando houver entrega física).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208676,
+      "titulo": "Iniciar as atividades",
+      "descricao": "Após a homologação, acompanhe o calendário acadêmico do campus e as orientações iniciais (ambientes, e-mail institucional, apresentações).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271148,
+            "tipo": "web",
+            "descricao": "calendário acadêmico do campus.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "83",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-educacao-profissional-tecnica-educacao-de-jovens-e-adultos-integrado-e-subsequente-if-es",
+  "statusDestaque": false
+}

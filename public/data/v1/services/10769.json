@@ -1,0 +1,154 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10769",
+  "nome": "Consultar ação fiscal do Simples Nacional",
+  "sigla": "",
+  "descricao": "O Simples Nacional é o nome abreviado do “Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte”.\n\n Ações fiscais são fiscalizações realizadas pelos entes federativos (união, estados, Distrito Federal e municípios) para verificar se o contribuinte (pessoa física ou jurídica) apurou e pagou corretamente os tributos (impostos, taxas e contribuições).\n\n Utilize este serviço para consultar ações fiscais em relação a sua empresa, se ela for optante pelo Simples Nacional.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/106",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122614
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102512,
+        "tipo": "Empresas optantes pelo Simples Nacional.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171241
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Regulação e Fiscalização"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Fiscalização",
+        "id": 408011
+      },
+      {
+        "item": "Simples",
+        "id": 408012
+      },
+      {
+        "item": "Ação Fiscal",
+        "id": 408013
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução CGSN nº 140/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278#1893250)",
+        "id": 147268
+      },
+      {
+        "item": "[Lei Complementar nº 123/2006](https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2006-12-14;123)",
+        "id": 147269
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 122,
+    "negativas": 361
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239096,
+      "titulo": "Consultar ações fiscais",
+      "descricao": "Acesse o sistema no Portal e-CAC para consultar informações sobre as ações fiscais relativas ao Simples Nacional realizadas sobre a sua empresa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 308686,
+            "tipo": "web-consultar",
+            "descricao": "[Consultar Ação Fiscal do Simples](https://cav.receita.fazenda.gov.br/autenticacao/login/index/106)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-acao-fiscal-do-simples-nacional",
+  "statusDestaque": false
+}

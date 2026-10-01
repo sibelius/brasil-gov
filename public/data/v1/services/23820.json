@@ -1,0 +1,264 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23820",
+  "nome": "Solicitar adesão ao Programa Saúde na Escola",
+  "sigla": "PSE",
+  "descricao": "Este serviço permite que **gestores municipais e estaduais de saúde** solicitem ao Ministério da Saúde a **adesão ao Programa Saúde na Escola (PSE)**, uma política intersetorial entre Saúde e Educação que visa promover a formação integral dos estudantes da rede pública por meio de ações de promoção da saúde, prevenção de agravos e atenção à saúde.\n\n Ao final do processo, o município ou estado passa a integrar oficialmente o PSE, possibilitando a implementação de ações de saúde junto às escolas pactuadas e o recebimento dos incentivos previstos em normativos do Ministério da Saúde.",
+  "flagPortalLogado": "N",
+  "contato": "pse@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sisaps.saude.gov.br/pse/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 113415
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 95548,
+        "tipo": "*  Gestores municipais de saúde\n\n \n *  Gestores estaduais de saúde",
+        "requisitos": "O gestor deve prever no Plano Municipal ou Distrital de Saúde ou Programação Anual de Saúde, diretriz, meta, objetivo ou ação relacionada à qualificação e/ou aumento de cobertura de equipes e serviços de saúde."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 158308
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Certificações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "PSE",
+        "id": 379280
+      },
+      {
+        "item": "Saúde na escola",
+        "id": 379281
+      },
+      {
+        "item": "Programa saúde na escola",
+        "id": 379282
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 133693
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 221304,
+      "titulo": "Solicitar adesão ao Programa Saúde na Escola (PSE)",
+      "descricao": "Registrar a solicitação de adesão ao PSE por meio do sistema Gerência APS (e-Gestor APS), conforme período definido pelo Ministério da Saúde.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 287100,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://acesso-egestoraps.saude.gov.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 221305,
+      "titulo": "Analisar a solicitação de adesão",
+      "descricao": "O Ministério da Saúde analisa a solicitação apresentada pelo gestor, verificando o cumprimento dos critérios técnicos e normativos do programa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 287101,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/saude/pt-br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 221306,
+      "titulo": "Publicar o resultado da adesão",
+      "descricao": "O resultado final da adesão ao PSE é publicado por meio de Portaria do Ministério da Saúde.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 287102,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://egestoraps.saude.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 221307,
+      "titulo": "Implementar as ações do Programa Saúde na Escola",
+      "descricao": "Após a publicação da Portaria, o gestor inicia a execução das ações do PSE junto às escolas pactuadas, conforme planejamento local.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 287103,
+            "tipo": "web",
+            "descricao": "**<https://egestoraps.saude.gov.br/>**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-adesao-ao-pse-programa-saude-na-escola",
+  "statusDestaque": false
+}

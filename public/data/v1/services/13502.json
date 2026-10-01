@@ -1,0 +1,220 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13502",
+  "nome": "Obter diploma ou 2ª via de diploma de pós-graduação - UFU",
+  "sigla": "",
+  "descricao": "Se você concluiu com êxito a pós-graduação na Universidade, pode obter seu diploma ou a 2ª via seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Diploma de Pós-graduação:  <https://prograd.ufu.br/servicos/diploma-de-pos-graduacao>\n\n 2ª via de diploma e Apostilamento: <https://prograd.ufu.br/servicos/2a-de-diploma-e-apostilamento>",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://prograd.ufu.br/servicos/2a-de-diploma-e-apostilamento",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 74160
+      },
+      {
+        "item": "2ª via",
+        "id": 74161
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65186,
+        "tipo": "Concluintes",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/472",
+    "dbId": 57776,
+    "nomeOrgao": "Universidade Federal de Uberlândia (UFU)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 102773
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 252300
+      },
+      {
+        "item": "Pós-graduação",
+        "id": 252301
+      },
+      {
+        "item": "UFU",
+        "id": 252302
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 83964
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145464,
+      "titulo": "Solicitar Segunda Via de Diploma",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 206686,
+            "nome": "Em casos de extravio ou danificação da 1ª via do diploma, é possível realizar a solicitação da 2ª via. Orientações para solicitação da 2ª via do diploma e apostilamento: <https://prograd.ufu.br/servicos/2a-de-diploma-e-apostilamento>"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24212,
+            "descricao": "A taxa para solicitação da 2ª via é de",
+            "moeda": "R$",
+            "valor": " 120,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189200,
+            "tipo": "web",
+            "descricao": "<https://prograd.ufu.br/servicos/2a-de-diploma-e-apostilamento>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 189201,
+            "tipo": "presencial",
+            "descricao": "Os diplomas impressos podem ser retirados na Divisão de Informações e Atendimento ao Acadêmico (DINFA). Bloco 3P - Térreo -Campus Santa Mônica.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 145465,
+      "titulo": "Obter diploma de pós-graduação",
+      "descricao": "O diploma é emitido e registrado para todo aluno após o cumprimento dos requisitos, mediante solicitação da coordenação e aquiescência da Diretoria de Pós-Graduação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189202,
+            "tipo": "web",
+            "descricao": "[Diploma de Pós-graduação](https://prograd.ufu.br/servicos/diploma-de-pos-graduacao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "0",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-pos-graduacao-ufu",
+  "statusDestaque": false
+}

@@ -1,0 +1,177 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/4350",
+  "nome": "Consultar débitos - CVM",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá obter o levantamento de seus débitos junto à CVM, ou de débitos de pessoa jurídica por ele representada, cujas cobranças estejam em âmbito administrativo ou sob a administração da Procuradoria-Geral Federal (dívida ativa).\n\n Há de se ressalvar que, em razão do movimento de centralização da cobrança de créditos tributários e não tributários das autarquias e fundações públicas federais na Procuradoria-Geral Federal, via Decreto 9.194/2017,** há possibilidade de o Sistema não apresentar todos os débitos em cobrança no âmbito da PGF**.\n\n Sendo assim, recomenda-se contato com a Unidade Consultiva e de Contencioso de Autarquias e Fundações - órgão de representação da Procuradoria-Geral Federal - do domicílio fiscal do sujeito passivo. Informações de contato podem ser obtidas em no [site da Advocacia-Geral da União](https://www.gov.br/../../agu/pt-br/composicao/procuradoria-geral-federal-1/orgaosdeexecucao).",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Arrecadação e Cobrança (GEARC) - gearc@cvm.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cvmweb.cvm.gov.br/SWB/SAU/LoginForm.asp?destURL=%2fSWB%2fSistemas%2fSAR%2fConsultaDebitos%2fFormPesqGRU.aspx%3f",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 92877
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 79232,
+        "tipo": "Regulados cadastrados junto à CVM.",
+        "requisitos": "Requisito: possuir** Identidade Digital Prata ou Ouro** na Plataforma Gov.Br."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478",
+    "dbId": 7907,
+    "nomeOrgao": "Comissão de Valores Mobiliários (CVM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 128796
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 128797
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Valores Mobiliários"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Taxa",
+        "id": 312874
+      },
+      {
+        "item": "Débito",
+        "id": 312875
+      },
+      {
+        "item": "Crédito",
+        "id": 312876
+      },
+      {
+        "item": "CVM",
+        "id": 312877
+      },
+      {
+        "item": "Multa",
+        "id": 312878
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 106990
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 38,
+    "negativas": 79
+  },
+  "condicoesAcessibilidade": ".",
+  "tratamentoPrioritario": "Conforme a legislação vigente",
+  "tratamentoDispensadoAtendimento": ".",
+  "etapas": [
+    {
+      "id": 179758,
+      "titulo": "Consultar débitos",
+      "descricao": "Consultar débitos junto à CVM.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 236163,
+            "tipo": "web",
+            "descricao": "- Clique no botão \"Iniciar\", no canto direito superior desta página.\n\n - Caso não possua login e senha, realize seu cadastro.\n\n - Pesquise por Participante (CPF ou CNPJ), ou por Representante de Investidor Não Residente (CPF/CNPJ).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3730",
+      "nome": "Restituir ou compensar pagamento - CVM"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2938",
+      "nome": "Recorrer contra multa cominatória - CVM"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3199",
+      "nome": "Parcelar taxa e multa - CVM"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "32",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-debitos-cvm",
+  "statusDestaque": false
+}

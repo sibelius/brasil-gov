@@ -1,0 +1,242 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/21002",
+  "nome": "Obter autorização da ANTAQ para celebração de contrato de transição",
+  "sigla": "",
+  "descricao": "Serviço destinado à obtenção de autorização da ANTAQ para celebração de contrato de transição entre a administração do porto e uma empresa interessada na exploração transitória de área ou instalação portuária. A autorização objetiva garantir a continuidade da prestação dos serviços portuários ou a regularização da exploração da área até a conclusão de processo licitatório, nos termos do art. 37 da Resolução nº 127/2025-ANTAQ.",
+  "flagPortalLogado": "N",
+  "contato": "GPO@antaq.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "contrato de transição",
+        "id": 101312
+      },
+      {
+        "item": "exploração transitória",
+        "id": 101313
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85801,
+        "tipo": "Autoridades Portuárias",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 141356
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "transição",
+        "id": 340544
+      },
+      {
+        "item": "contrato",
+        "id": 340545
+      },
+      {
+        "item": "porto organizado",
+        "id": 340546
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução ANTAQ nº 127  \nLei nº 12.815/2013 (Lei dos Portos)  \nLei nº 10.233/2001  \nLei nº 9.784/1999",
+        "id": 118244
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 197483,
+      "titulo": "Solicitar autorização à ANTAQ",
+      "descricao": "A autoridade portuária deverá encaminhar requerimento específico à ANTAQ, por meio de **peticionamento eletrônico no SEI-ANTAQ**, devidamente instruído com a documentação obrigatória.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 269861,
+            "nome": "* **REQUERIMENTO DE AUTORIZAÇÃO PARA CONTRATO DE TRANSIÇÃO** (preenchido por meio de peticionamento eletrônico)\n * **DOCUMENTOS OBRIGATÓRIOS ANEXOS AO REQUERIMENTO**\n  1. Declaração de adimplência da empresa junto à Autoridade Portuária;\n\n 2. Minuta do Contrato de Transição (com cláusulas essenciais e preenchida) e anexos\n\n 3. Planta de Localização da Área (em KML, KMZ ou formato equivalente);\n\n 4. Comprovante do Chamamento Público (**caso aplicável**)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257579,
+            "tipo": "web",
+            "descricao": "[Peticionamento eletrônico por meio do SEI-ANTAQ – Usuário Externo](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)\n\n Peticionamento -> Processo Novo -> Tipo de Processo: Finalístico: Autorização para Transição de Áreas Portuárias",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197484,
+      "titulo": "Elaborar manifestação técnica da ANTAQ",
+      "descricao": "A Gerência de Portos Organizados realiza a análise técnica do pedido, com base na documentação apresentada e nas disposições da Resolução nº 127/2025-ANTAQ. Após a análise, os autos são encaminhados à Superintendência de Outorgas (SOG) para aprovação técnica.  \n  \nA SOG avalia o pleito com base na instrução técnica elaborada pela GPO e profere manifestação técnica quanto à autorização solicitada. Os autos são encaminhados ao diretor-relator para deliberação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257580,
+            "tipo": "web",
+            "descricao": "SEI-ANTAQ – Usuário Externo",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197485,
+      "titulo": "Apreciar e deliberar  – Diretoria da ANTAQ",
+      "descricao": "Recebido os autos, o Diretor-Relator examina a matéria, elabora voto e submete à Diretoria Colegiada.  \nApós manifestação do Diretor-Relator, os demais Diretores votam, formalizando a deliberação da ANTAQ.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257581,
+            "tipo": "web",
+            "descricao": "SEI-ANTAQ – Usuário Externo",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "30",
+          "max": "45",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 30,
+        "max": 45
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-da-antaq-para-celebracao-de-contrato-de-transicao",
+  "statusDestaque": false
+}

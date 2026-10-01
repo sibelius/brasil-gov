@@ -1,0 +1,187 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1435",
+  "nome": "Obter autorização de uso do Observatório Pico dos Dias",
+  "sigla": "OPD",
+  "descricao": "Processo de submissão de propostas, seleção e disponibilização da infraestrutura observacional do Observatório Pico dos Dias (Laboratório Multiusuário) através de chamada pública e seleção por mérito. https://www.gov.br/lna/pt-br/composicao-1/coast/obs/opd",
+  "flagPortalLogado": "N",
+  "contato": "secop@lna.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/lna/pt-br/composicao-1/coast/obs/opd",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Observatório Pico dos Dias",
+        "id": 32347
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31717,
+        "tipo": "Cientistas",
+        "requisitos": "Cientista filiado a instituição de pesquisa."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "90",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 90,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50723
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 50724
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instrumentos e Instalações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Observatório Pico dos Dias",
+        "id": 114120
+      },
+      {
+        "item": "Laboratório Multiusuário",
+        "id": 114121
+      },
+      {
+        "item": "LNA",
+        "id": 114122
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33031
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 66408,
+      "titulo": "Submissão de proposta",
+      "descricao": "Submissão de proposta científica para acesso ao Observatório do Pico dos Dias (OPD) para realizar observações astronômicas. O acesso pode ser presencial, custeado pelo solicitante, mas a maioria das missões observacionais são realizadas remotamente via internet.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 95171,
+            "nome": "Projeto de pesquisa submetido nas datas informadas pelo LNA. \n\n Há duas chamadas para propostas anualmente. \n\n Projeto deve ser feito em formulário padrão e seguindo as regras disponibilizadas no site do LNA https://www.gov.br/lna/pt-br/composicao-1/coast/obs/opd"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85428,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/../../lna/pt-br/composicao-1/coast/obs/opd)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 85429,
+            "tipo": "e-mail",
+            "descricao": "secop@lna.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1437",
+      "nome": "Obter autorização de uso do Observatório Gemini"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1436",
+      "nome": "Obter autorização de uso do Telescópio SOAR"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1438",
+      "nome": "Obter autorização de uso do Telescópio CFHT"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1434",
+      "nome": "Utilizar laboratório multiusuários de instrumentação científica"
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-de-uso-do-observatorio-pico-dos-dias",
+  "statusDestaque": true
+}

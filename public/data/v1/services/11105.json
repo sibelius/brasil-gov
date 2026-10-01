@@ -1,0 +1,228 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11105",
+  "nome": "Regularizar cadastro bloqueado de assentado",
+  "sigla": "",
+  "descricao": "Regularizar o cadastro de beneficiário assentado bloqueado em virtude de indício de irregularidade identificado durante auditoria do Tribunal de Contas da União.\n\n Para verificar se o cadastro está bloqueado o agricultor assentado deve acessar a [página da Sala da Cidadania](https://saladacidadania.incra.gov.br/). Caso esteja bloqueado, o beneficiário saberá qual ou quais indícios estão vinculados ao seu nome ou do seu cônjuge, e será orientado sobre os documentos necessários para apresentar ao Incra a fim de resolver as pendências.",
+  "flagPortalLogado": "N",
+  "contato": "[Consulte os contatos da Divisão de Desenvolvimento de Projetos de Assentamento da superintendência regional do Incra no estado.](https://www.gov.br/../../incra/pt-br/composicao/superintendencias-regionais)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 38486
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 36544,
+        "tipo": "Famílias assentadas com cadastro bloqueado no Incra.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1799",
+    "dbId": 36785,
+    "nomeOrgao": "Instituto Nacional de Colonização e Reforma Agrária (INCRA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 58685
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Reforma Agrária"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Beneficiário da reforma agrária",
+        "id": 133538
+      },
+      {
+        "item": "Desbloqueio de cadastro",
+        "id": 133539
+      },
+      {
+        "item": "Indício de irregularidade cadastral",
+        "id": 133540
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 40988
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 395,
+    "negativas": 1841
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 77781,
+      "titulo": "Acessar a página da Sala da Cidadania",
+      "descricao": "Acessar a [“Área do(a) Beneficiário(a)” na página da Sala da Cidadania](https://saladacidadania.incra.gov.br/). Caso esteja bloqueado, o beneficiário saberá qual ou quais indícios estão vinculados ao seu nome ou do seu cônjuge, e será orientado sobre os documentos necessários para apresentar ao Incra a fim de resolver as pendências.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 99155,
+            "tipo": "web",
+            "descricao": "[Acessar a “Área do(a) Beneficiário(a)” na página da Sala da Cidadania.](https://saladacidadania.incra.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 77782,
+      "titulo": "Enviar a documentação para desbloquear o cadastro",
+      "descricao": "Os documentos solicitados no acesso à página da Sala da Cidadania podem ser enviados pelo próprio sistema ou encaminhados para a [Divisão de Desenvolvimento de Projetos de Assentamento das superintendências regionais do Incra nos estados](http://www.gov.br/incra/pt-br/composicao/superintendencias-regionais).\n\n Caso os documentos apresentados não sejam suficientes para a decisão quando ao desbloqueio dos indícios, o Incra realizará a supervisão ocupacional (vistoria) no lote da família.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 99156,
+            "tipo": "web",
+            "descricao": "[Acessar a “Área do(a) Beneficiário(a)” na página da Sala da Cidadania.](https://saladacidadania.incra.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 77783,
+      "titulo": "Consultar o desbloqueio",
+      "descricao": "Para verificar se o desbloqueio foi efetuado, o interessado deve emitir o Espelho do Beneficiário na “[Área do(a) Beneficiário(a)” na página da Sala da Cidadania](https://saladacidadania.incra.gov.br/). Caso ainda conste a informação do bloqueio é necessário consultar a [Divisão de Desenvolvimento de Projetos de Assentamento da superintendência regional do Incra no estado](https://www.gov.br/../../incra/pt-br/composicao/superintendencias-regionais).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 99157,
+            "tipo": "web",
+            "descricao": "[Acessar a “Área do(a) Beneficiário(a)” na página da Sala da Cidadania](https://saladacidadania.incra.gov.br/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "18",
+  "url": "https://www.gov.br/pt-br/servicos/Regularizar-o-cadastro-bloqueado-de-beneficiario-assentado",
+  "statusDestaque": false
+}

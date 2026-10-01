@@ -1,0 +1,235 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10955",
+  "nome": "Solicitar homologação de acreditação de operadoras de planos de saúde",
+  "sigla": "",
+  "descricao": "Permite a validação de certidões de acreditação concedidas às operadoras de planos privados de assistência à saúde.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: qualidade.dides@ans.gov.br[  \n](mailto:anapaula.cavalcante@ans.gov.br)\n\n  \n\n Telefone: Disque ANS (0800.701.9656)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 67940
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 60665,
+        "tipo": "Entidades Acreditadoras de Operadoras de Planos de Saúde e Operadoras de Planos de Saúde",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 95354
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Entidades acreditadoras",
+        "id": 232872
+      },
+      {
+        "item": "Acreditação",
+        "id": 232873
+      },
+      {
+        "item": "Operadoras",
+        "id": 232874
+      },
+      {
+        "item": "Atenção à saúde",
+        "id": 232875
+      },
+      {
+        "item": "ANS",
+        "id": 232876
+      },
+      {
+        "item": "",
+        "id": 232877
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RESOLUÇÃO NORMATIVA - RN Nº 507, DE 30 DE MARÇO DE 2022 ([Acesse)](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDE5Ng==)",
+        "id": 76951
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 134912,
+      "titulo": "Encaminhar a solicitação de homologação e a documentação obrigatória.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 191173,
+            "nome": "* A entidade acreditadora deverá encaminhar os seguintes documentos:\n * Certidão de acreditação da operadora com o nível e o período de vigência;\n * Relatório de avaliação da acreditação da operadora, conforme diretrizes descritas no Anexo IV da [RN 507/22](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDE5Ng==);\n * Cópia dos certificados de graduação e/ou pós-graduação dos auditores que conduziram a acreditação."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174705,
+            "tipo": "web",
+            "descricao": "Meios formais de protocolo na ANS ([Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0))",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 27874,
+            "descricao": "Enviar correspondência para os endereços da Sede ou Núcleos da ANS",
+            "canalDePrestacao": [
+              {
+                "id": 174704,
+                "tipo": "postal",
+                "descricao": "Enviar documentação para os endereços da ANS (https://www.gov.br/ans/pt-br/canais\\_atendimento/nossos-enderecos)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 134913,
+      "titulo": "Consultar, no portal da ANS, nome da operadora acreditada, nível da acreditação e a respectiva data de início e fim de validade da certidão.",
+      "descricao": "Além da publicação, no sítio eletrônico da ANS na internet, o resultado do requerimento da homologação de acreditação junto à ANS é formalmente comunicado à Entidade Acreditadora e à Operadora avaliada, por Ofício (protocolo eletrônico ), e-mail, e/ou Correios.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174706,
+            "tipo": "web",
+            "descricao": "Portal da ANS: [Acesse o site](https://www.gov.br/ans/pt-br/assuntos/informacoes-e-avaliacoes-de-operadoras/acreditacao-de-operadoras-1)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 174707,
+            "tipo": "postal",
+            "descricao": "A ANS comunica o resultado do Requerimento ás Operadoras de Planos de Saúde por Ofício, envido pelos Correios.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 174708,
+            "tipo": "web",
+            "descricao": "A ANS comunica o resultado do Requerimento ás Operadoras de Planos de Saúde por Ofício.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-homologacao-de-acreditacao-de-operadoras-de-planos-de-saude",
+  "statusDestaque": false
+}

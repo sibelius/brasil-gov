@@ -1,0 +1,313 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12609",
+  "nome": "Retificar pagamento em GPS",
+  "sigla": "RetGPS",
+  "descricao": "Retifique (corrija) pagamentos feitos com erro no preenchimento do Guia da Previdência Social (GPS).\n\n Através deste serviço você pode corrigir os valores (desde que não altere o total), competência, identificador, código de pagamento e data do vencimento.\n\n A correção do estabelecimento de uma mesma empresa pode ser feita diretamente pelo sistema, mas a alteração de contribuinte (outra pessoa) precisa ser solicitada por processo digital.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10021",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128375
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107516,
+        "tipo": "Contribuinte identificado na GPS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179622
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179623
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 179624
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 179625
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Corrigir",
+        "id": 427900
+      },
+      {
+        "item": "Correção",
+        "id": 427901
+      },
+      {
+        "item": "Retificar",
+        "id": 427902
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.265/2012](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=37672&visao=anotado)",
+        "id": 153907
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.022/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116969)",
+        "id": 153908
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 97,
+    "negativas": 314
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 251087,
+      "titulo": "Retificar o pagamento",
+      "descricao": "Acesse o serviço, selecione o pagamento e preencha corretamente as informações que deseja alterar.\n\n Se para a retificação for necessário processo:\n\n 1. Acesse o canal **Meus Processos.**\n\n 2.  Clique em **Solicitar serviço via processo digital.**\n\n 3. Selecione a área **Regularização de impostos.**\n\n 4. Escolha o serviço **Retificar pagamento em GPS**.\n\n 4. Em seguida, junte (inclua) os documentos necessários. Documentos sem relação com o serviço ou a pessoa serão rejeitados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 326063,
+            "nome": "Comprovante do pagamento que deseja corrigir."
+          }
+        ],
+        "casos": [
+          {
+            "id": 49530,
+            "descricao": "Para alterar o contribuinte (identificador)",
+            "documento": [
+              {
+                "id": 326058,
+                "codigo": null,
+                "descricao": "[Pedido de retificação de GPS](https://www.gov.br/../../receitafederal/pt-br/centrais-de-conteudo/formularios/impostos/pagamento/retgps), com os campos 5 e 6 assinados;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 326059,
+                "codigo": null,
+                "descricao": "[Documentos de identificação oficiais](https://www.gov.br/../../receitafederal/pt-br/assuntos/processos-digitais/documentos) dos envolvidos no pedido.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49531,
+            "descricao": "Se o contribuinte for falecido",
+            "documento": [
+              {
+                "id": 326060,
+                "codigo": null,
+                "descricao": "Certidão de óbito do contribuinte;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 326061,
+                "codigo": null,
+                "descricao": "[Documentos de identificação e representação](https://www.gov.br/../../receitafederal/pt-br/assuntos/processos-digitais/documentos) dos envolvidos no pedido;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 326062,
+                "codigo": null,
+                "descricao": "[Declaração de inexistência de inventário ou arrolamento](https://www.gov.br/../../receitafederal/pt-br/centrais-de-conteudo/formularios/impostos/pagamento/retgps-declaracao).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324522,
+            "tipo": "web",
+            "descricao": "[Retificar GPS](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10021) (somente pessoa jurÃ­dica)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49532,
+            "descricao": "Abertura de processo nos casos de retificação para pessoa física ou pessoa jurídica (PJ apenas nas situações que não puderem ser retificadas diretamen",
+            "canalDePrestacao": [
+              {
+                "id": 324521,
+                "tipo": "web",
+                "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 251088,
+      "titulo": "Confirmar a retificação",
+      "descricao": "O resultado da retificação será informado em sua caixa postal.\n\n Os pedidos realizados por processo digital podem ser acompanhados pelo próprio processo.\n\n Em algumas situações o processo é arquivado após a decisão. Nestes casos, acesse o canal abaixo e clique na opção **Processos em que sou o Interessado Principal**, seguido da aba **Inativos**.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324525,
+            "tipo": "web",
+            "descricao": "[Retificar GPS](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10021)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 324526,
+            "tipo": "web",
+            "descricao": "[Minhas Mensagens (Caixa Postal)](https://cav.receita.fazenda.gov.br/autenticacao/login/index/6)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49533,
+            "descricao": "Pedidos feitos por processo",
+            "canalDePrestacao": [
+              {
+                "id": 324523,
+                "tipo": "web",
+                "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 324524,
+                "tipo": "aplicativo-movel",
+                "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141) | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso) (e-Processo)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "24",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/retificar-pagamento-em-gps-retgps",
+  "statusDestaque": false
+}

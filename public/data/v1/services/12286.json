@@ -1,0 +1,218 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12286",
+  "nome": "Obter dados para atender demandas e necessidades de uso de dados ambientais para a comunidade científica - INPE",
+  "sigla": "SINDA",
+  "descricao": "O Instituto Nacional de Pesquisas Espaciais (INPE) disponibiliza o acesso ao Sistema Integrado de Dados Ambientais (SINDA) que tem como função o processamento, armazenamento e disseminação para os usuários, dos dados coletados remotamente por uma rede de Plataformas de Coleta de Dados (PCDs) instaladas no território brasileiro que transmitem para uma constelação dos satélites que carregam a bordo o sistema DCS (transponder de coleta de Dados) e estes por sua vez retransmitem para Estações de Recepção Terrestres que entregam os dados dos satélites para o SINDA.",
+  "flagPortalLogado": "N",
+  "contato": "O interessado poderá em caso de dúvidas entrar em contato diretamente pelo e-mail: sinda@crn.inpe.br.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sinda.crn.inpe.br/PCD/SITE/novo/site/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SINDA",
+        "id": 29892
+      },
+      {
+        "item": "Sistema Brasileiro de Coleta de Dados Ambientais",
+        "id": 29893
+      },
+      {
+        "item": "Sistema Integrado de Dados Ambientais",
+        "id": 29894
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 29722,
+        "tipo": "Comunidade científica em geral, e instituições cuja atividade necessite de dados ambientais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/267175",
+    "dbId": 58111,
+    "nomeOrgao": "Ministério da Ciência, Tecnologia e Inovação (MCTI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 47272
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 47273
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 47274
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 47275
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "SINDA",
+        "id": 106033
+      },
+      {
+        "item": "Sistema Brasileiro de Coleta de Dados Ambient",
+        "id": 106034
+      },
+      {
+        "item": "Sistema Integrado de Dados Ambientais",
+        "id": 106035
+      },
+      {
+        "item": "Instituto Nacional de Pesquisas Espaciais",
+        "id": 106036
+      },
+      {
+        "item": "INPE",
+        "id": 106037
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 29960
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [lei nº13.460/17](http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [lei nº 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [lei nº 13.460/17](http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19141395/do1-2017-06-27-lei-no-13-460-de-26-de-junho-de-2017-19141216), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 61956,
+      "titulo": "Definir a(s) PCD(s) das quais necessita obter os dados",
+      "descricao": "Relacionar a(s) localização(ões), onde existe(m) PCD(s) instalada(s), das quais necessita obter os dados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 79665,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sinda.crn.inpe.br/PCD/SITE/novo/site/) para relacionar a(s) localização(ões), onde existe(m) PCD(s) instalada(s), das quais necessita obter os dados.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 61957,
+      "titulo": "Solicitar dados por e-mail",
+      "descricao": "Caso o interessado queira poderá solicitar os dados pelo e-mail sinda@crn.inpe.br. \n\n Para isso deverá informar a relação dos locais que deseja obter dados ambientais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 79666,
+            "tipo": "e-mail",
+            "descricao": "sinda@crn.inpe.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/obter-dados-para-atender-demandas-e-necessidades-de-uso-de-dados-ambientais-para-a-comunidade-cientifica-inpe-sinda",
+  "statusDestaque": false
+}

@@ -1,0 +1,174 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2642",
+  "nome": "Realizar inscrição no concurso de admissão ao Colégio Militar de Santa Maria",
+  "sigla": "CMSM",
+  "descricao": "Realizar inscrição no Processo Seletivo ao Colégio Militar de Santa Maria do 6º ano do ensino fundamental ao 3º ano do ensino médio.",
+  "flagPortalLogado": "N",
+  "contato": "http://www.cmsm.eb.mil.br/index.php",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cmsm.eb.mil.br/index.php/institucional/processo-seletivo-de-admissao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Colégio do Vagão",
+        "id": 128029
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107201,
+        "tipo": "Estudantes do ensino fundamental e médio.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94",
+    "dbId": 7409,
+    "nomeOrgao": "Comando do Exército (CEX)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179088
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Ensino Fundamental e Médio"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Rio Grande do Sul",
+        "id": 426836
+      },
+      {
+        "item": "escola militar",
+        "id": 426837
+      },
+      {
+        "item": "educação militar",
+        "id": 426838
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153580
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 24,
+    "negativas": 22
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 250315,
+      "titulo": "Inscrever-se",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325496,
+            "nome": "Carteira de identidade, com foto recente e Comprovante de inscrição no Cadastro de Pessoas Físicas (CPF); e  \nConsultar o Manual do Candidato ao Processo Seletivo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41755,
+            "descricao": "Taxa de inscrição",
+            "moeda": "R$",
+            "valor": " 95,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323540,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cmsm.eb.mil.br/index.php/institucional/processo-seletivo-de-admissao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323541,
+            "tipo": "presencial",
+            "descricao": "**Colégio Militar de Santa Maria** - Rua Radialista Osvaldo Nobre, N° 1132 - Bairro Juscelino Kubitschek - Santa Maria - RS - CEP: 97035-000",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "52",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/ingressar-no-colegio-militar-de-santa-maria",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

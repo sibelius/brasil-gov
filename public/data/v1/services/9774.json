@@ -1,0 +1,213 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9774",
+  "nome": "Solicitar conversão de categoria de registro de emissor - CVM",
+  "sigla": "",
+  "descricao": "A companhia pode solicitar a conversão de uma categoria de registro de emissor de valores mobiliários em outra, por meio de pedido encaminhado à Superintendência de Relações com Empresas (SEP) da CVM através do [protocolo digital](http://www.gov.br/cvm/pt-br/canais_atendimento/protocolo-digital) e, após análise, receberá o deferimento ou indeferimento de sua solicitação.",
+  "flagPortalLogado": "N",
+  "contato": "Superintendência de Relações com Empresas (SEP) - sep@cvm.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar?codServico=4333#",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Conversão de categoria de registro de emissor de valores mobiliários",
+        "id": 106025
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89258,
+        "tipo": "Companhias abertas registradas na CVM.\n\n A solicitação deve ser apresentada por meio de \"Requerimento\" - Tipo de Assinatura Exigido: Simples, com fundamento no Art. 4º, I, a do Decreto Noº 10.543/20.",
+        "requisitos": "Ser companhia emissoras de valores mobiliários registrada na CVM."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478",
+    "dbId": 7907,
+    "nomeOrgao": "Comissão de Valores Mobiliários (CVM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 147897
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Valores Mobiliários"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CVM",
+        "id": 354579
+      },
+      {
+        "item": "Registro",
+        "id": 354580
+      },
+      {
+        "item": "Conversão",
+        "id": 354581
+      },
+      {
+        "item": "Categoria",
+        "id": 354582
+      },
+      {
+        "item": "Companhia",
+        "id": 354583
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução CVM 80/22 - [http://www.cvm.gov.br/legislacao/resolucoes/resol080.html](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html)",
+        "id": 123278
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 26,
+    "negativas": 37
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 207285,
+      "titulo": "Realizar solicitação",
+      "descricao": "O interessado deve requerer a conversão de categoria à Superintendência de Relações com Empresas (SEP) da CVM através do [protocolo digital](http://www.gov.br/cvm/pt-br/canais_atendimento/protocolo-digital), encaminhando junto a documentação necessária, de acordo com a [Resolução 80/22](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html). Em caso de dúvidas, entrar em contato pelo e-mail sep@cvm.gov.br.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 280838,
+            "nome": "Arts. 9° e 10° da Resolução CVM 80/22 ([http://www.cvm.gov.br/legislacao/resolucoes/resol080.html](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html))"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269420,
+            "tipo": "web",
+            "descricao": "[Solicitar](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=4333)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 207286,
+      "titulo": "Receber resposta",
+      "descricao": "Análise do pedido e documentação enviados e manifestação (deferimento ou indeferimento) da Superintendência de Relações com Empresas (SEP) da CVM. Em caso de exigências adicionais ou correções, o interessado será contatado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 269421,
+            "tipo": "e-mail",
+            "descricao": "A resposta será enviada ao e-mail do requerente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/4333",
+      "nome": "Protocolar Documentos - CVM"
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "41",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-conversao-categoria-registro-emissor-cvm",
+  "statusDestaque": false
+}

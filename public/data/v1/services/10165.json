@@ -1,0 +1,226 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10165",
+  "nome": "Solicitar credenciamento para prestar serviço de parcelamento de multas com cartão de crédito e débito",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito (SENATRAN) de arrecadação de multas e demais débitos relacionados a veículos e o repasse dos valores arrecadados, para dispor sobre o pagamento parcelado por meio de cartão de crédito e débito.",
+  "flagPortalLogado": "S",
+  "contato": "Peticionamento via SEI: [https://sei.transportes.gov.br/sei ](https://sei.transportes.gov.br/sei)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.transportes.gov.br/sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Credenciamento de empresas para o parcelamento de multas e demais débitos de veículos.",
+        "id": 126117
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105497,
+        "tipo": "**Pessoa Jurídica **\n--------------------\n\n Credenciadoras (adquirentes), instituição responsável pela relação entre os estabelecimentos comerciais e as bandeiras emissoras de cartões; \n\n Subcredenciadora (subadquirentes), responsável pela relação entre alguns estabelecimentos comerciais e as adquirentes; e \n\n Facilitadora de pagamentos, instituição que de algum modo intermedia o pagamento a outros.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176341
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "parcelamento de multas",
+        "id": 420060
+      },
+      {
+        "item": "cartão de crédito",
+        "id": 420061
+      },
+      {
+        "item": "credenciamento ",
+        "id": 420062
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria DENATRAN nº 149 de 2018](https://www.gov.br/../../infraestrutura/pt-br/assuntos/transito/conteudo-denatran/portarias-2018-denatran \"Portaria DENATRAN nº 149 de 2018\")\n\n Resolução CONTRAN nº 918, de 28 de março de 2022",
+        "id": 151373
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 66,
+    "negativas": 191
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246196,
+      "titulo": "Enviar os documentos via peticionamento no sistema eletrônico de informações (SEI)",
+      "descricao": "**Credenciamento**\n\n Cumprir o disposto nos arts. 17, 18, 19, 20 e 21 da Portaria SENATRAN nº 149, de 2018",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318415,
+            "tipo": "web",
+            "descricao": "Peticionamento via SEI: <https://sei.transportes.gov.br/sei>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246197,
+      "titulo": "Aguardar análise dos documentos",
+      "descricao": "Se houver pendência na documentação, a Senatran entrará em contato por e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318416,
+            "tipo": "web-acompanhar",
+            "descricao": "Peticionamento via SEI: <https://sei.transportes.gov.br/sei>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246198,
+      "titulo": "Verificar publicação de portaria de credenciamento",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318417,
+            "tipo": "web-consultar",
+            "descricao": "Peticionamento via SEI: [https://sei.transportes.gov.br/seiÂ ](https://sei.transportes.gov.br/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "26",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/credenciamento-de-empresas-interessadas-em-prestar-servicos-de-parcelamento-de-multas-por-meio-de-cartao-de-credito",
+  "statusDestaque": false
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7777",
+  "nome": "Emitir certidão negativa de Contas e Relacionamentos",
+  "sigla": "",
+  "descricao": "Certidão que demonstra que você não possui conta, investimento ou outro tipo de relacionamento com nenhum banco, financeira ou cooperativa.\n\n Em geral, ela serve para que você possa comprovar que não tem condições financeiras e obter Justiça gratuita ou bolsas estudantis. Serve ainda para você ver se há alguma conta aberta em seu nome sem sua autorização.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](https://www.bcb.gov.br/meubc/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www3.bcb.gov.br/nadaconsta/emitirCertidaoCCS",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Emitir Certidão negativa de Contas e investimentos",
+        "id": 88383
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75716,
+        "tipo": "Qualquer pessoa física",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122645
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Regulação e Fiscalização"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certidão Negativa",
+        "id": 297910
+      },
+      {
+        "item": "Conta",
+        "id": 297911
+      },
+      {
+        "item": "CCS",
+        "id": 297912
+      },
+      {
+        "item": "Relacionamento",
+        "id": 297913
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101444
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 214,
+    "negativas": 294
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 171452,
+      "titulo": "Emitir certidão",
+      "descricao": "Acesse [aqui](https://www3.bcb.gov.br/nadaconsta/emitirCertidaoCCS), digite seu CPF e o código mostrado na imagem. Após preencher os campos, clique no botão \"Emitir\".\n\n A certidão será emitida somente se você não possuir conta corrente, poupança, investimentos e outro relacionamento ativo com bancos, financeiras e outras instituições autorizadas pelo Banco Central.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237727,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 224917,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/nadaconsta/emitirCertidaoCCS)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171453,
+      "titulo": "Validar a certidão emitida",
+      "descricao": "Para validar uma certidão emitida, a partir do código inserido nela, clique [aqui.](https://www3.bcb.gov.br/nadaconsta/validacao)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237728,
+            "nome": "Certidão emitida com código"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 224918,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/nadaconsta/validacao).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7790",
+      "nome": "Emitir Relatório de Contas e Relacionamentos em Bancos"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "42",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-negativa-de-relacionamento-com-o-sfn",
+  "statusDestaque": false
+}

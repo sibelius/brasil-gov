@@ -1,0 +1,203 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11195",
+  "nome": "Obter credenciamento para lavagem de porões e abastecimento de água potável a embarcações",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá solicitar credenciamento para prestação de serviços de lavagem de porões de navios graneleiros e de abastecimento de água potável a embarcações (tanto por mar quanto por terra)",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Meio Ambiente  Telefone (13) 3202-6565 ramal 2801",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://protocolo.portodesantos.com.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128199
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107340,
+        "tipo": "Empresas interessadas em realizar os serviços",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179311
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "lavagem",
+        "id": 427303
+      },
+      {
+        "item": "meio ambiente",
+        "id": 427304
+      },
+      {
+        "item": "porão",
+        "id": 427305
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[NAP.SUMAS.OPR.005/2021](http://www.portodesantos.com.br/informacoes-operacionais/normas-e-regulamentos/)\n\n [Resolução SPA DP nº 10/2015](http://www.portodesantos.com.br/santos-port-authority/governanca-corporativa/normas-e-resolucoes/)\n\n [Tarifa Portuária do Porto de Santos](http://www.portodesantos.com.br/informacoes-operacionais/operacoes-portuarias/tarifas-portuarias/)",
+        "id": 153713
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250711,
+      "titulo": "Solicitar credenciamento",
+      "descricao": "As empresas interessadas deverão encaminhar, por meio do Sistema de Protocolo Digital, os documentos exigidos nos normativos descritos, via carta de solicitação de credenciamento, endereçada à Superintendência de Meio Ambiente, Saúde e Segurança do Trabalho – SUMAS, datada e assinada por responsável legal da empresa ou por preposto, especificando o tipo de operação que pretende realizar.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325708,
+            "nome": "[NAP.SUMAS.OPR.005/2021](http://www.portodesantos.com.br/informacoes-operacionais/normas-e-regulamentos/) (lavagem de porões)\n\n [NAP SUMAS.OPR.018/2023](http://www.portodesantos.com.br/santos-port-authority/governanca-corporativa/normas-e-resolucoes/) (abastecimento de água potável)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41873,
+            "descricao": "Custo Portuário, conforme itens 12.2.1 e 12.2.2, da Tabela VII da Tarifa Portuária do Porto de Santos",
+            "moeda": "R$",
+            "valor": " 595,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324050,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital  [Acesse o site](http://protocolo.portodesantos.com.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250712,
+      "titulo": "Obter credenciamento/autorização",
+      "descricao": "Após a solicitação, a documentação será analisada pela equipe técnica e o interessado será comunicado do resultado, podendo ser solicitada a complementação de documentos, se o caso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324051,
+            "tipo": "e-mail",
+            "descricao": "A comunicação a respeito da análise quanto à solicitação é feita através de ofício pelo e-mail cadastrado pela própria empresa.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-credenciamento-para-lavagem-de-poroes-e-abastecimento-de-agua-potavel-a-embarcacoes",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

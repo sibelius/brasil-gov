@@ -1,0 +1,200 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/14762",
+  "nome": "Cadastrar e habilitar Cooperativas e Associações de Catadores de materiais recicláveis e reutilizáveis no Sinir",
+  "sigla": "",
+  "descricao": "Esse serviço permite que organizações de catadores de materiais reutilizáveis e recicláveis façam seu cadastro no Módulo Catadores, parte do Sistema Nacional de Informações sobre a Gestão dos Resíduos Sólidos (SINIR).\n\n Ao preencher o cadastro, a cooperativa ou associação informa seus dados e envia documentos como CNPJ, estatuto social, comprovação de rateio de lucros entre os membros e estrutura para triagem.\n\n Se atender aos requisitos, a organização recebe a habilitação, válida por 3 anos, que permite participar de programas como a Coleta Seletiva Cidadã e de iniciativas de Logística Reversa.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site https://sinir.gov.br/informacoes/contato ou e-mail sinir@mma.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sinir.gov.br/sistemas/catadores/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127763
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106939,
+        "tipo": "O (A) responsável pela organização e que possua conta no Gov.br",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1927",
+    "dbId": 37544,
+    "nomeOrgao": "Ministério do Meio Ambiente e Mudança do Clima (MMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178757
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Cadastros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "cooperativas e associações ",
+        "id": 425953
+      },
+      {
+        "item": "catadores e catadora",
+        "id": 425954
+      },
+      {
+        "item": "materiais recicláveis e reutilizáveis",
+        "id": 425955
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "https://www.in.gov.br/en/web/dou/-/portaria-gm/mma-n-1.018-de-19-de-marco-de-2024-549089546",
+        "id": 153186
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249749,
+      "titulo": "Cadastro da organização no módulo catadores/SINIR",
+      "descricao": "Acessar o módulo https://sinir.gov.br/sistemas/catadores  \nPreencher o formulário eletrônico e anexar a documentação solicitada",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322704,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sinir.gov.br/sistemas/catadores/Â )",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249750,
+      "titulo": "Habilitação",
+      "descricao": "A habilitação ocorre de forma automática pelo módulo Catadores, a partir das informações cadastradas no formulário e dos documentos anexados. As organizações que tiverem sua habilitação confirmada estarão aptas a participar do Programa Coleta Cidadã e poderão coletar os resíduos recicláveis descartados pelos órgãos e pelas entidades da administração pública federal direta e indireta.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324873,
+            "nome": "(Decreto 10.936/22) \n\n Sejam formalmente constituídas por catadores de materiais reutilizáveis e recicláveis;\n\n Possuam infraestrutura para realizar a triagem e a classificação dos resíduos recicláveis descartados;\n\n Apresentem o sistema de rateio entre os associados e os cooperados;\n\n Estejam regularmente cadastradas e habilitadas no Sinir."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322705,
+            "tipo": "web",
+            "descricao": "Acessar [Acesse o site](https://sinir.gov.br/sistemas/catadores/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13353",
+      "nome": "Emitir o Documento Manifesto de Transporte de Resíduos"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-cadastro-e-habilitacao-de-cooperativas-e-associacoes-de-catadores-e-catadoras-de-materiais-reciclaveis-e-reutilizaveis-no-sinir-1",
+  "statusDestaque": false
+}

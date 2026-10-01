@@ -1,0 +1,372 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11005",
+  "nome": "Requerer cisão de plano de benefícios",
+  "sigla": "",
+  "descricao": "**Obter autorização para cisão de plano de benefícios administrado por entidade fechada de previdência complementar (EFPC).**",
+  "flagPortalLogado": "N",
+  "contato": "**Coordenação-Geral de Autorização para Transferência Fusão, Cisão, Incorporação e Retirada - CGTR  \n**\n\n Tel: (61) 2021-2000\n\n E-mail: previc.cgtr@previc.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://bit.ly/2NPFvbP",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "cisão",
+        "id": 61584
+      },
+      {
+        "item": "plano de benefícios",
+        "id": 61585
+      },
+      {
+        "item": "previdência complementar",
+        "id": 61586
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 55904,
+        "tipo": "Entidade fechada de previdência complementar (EFPC)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "110",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 110
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/105915",
+    "dbId": 55521,
+    "nomeOrgao": "Superintendência Nacional de Previdência Complementar (PREVIC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 87812
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicações e Requerimentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "plano de benefícios",
+        "id": 212232
+      },
+      {
+        "item": "cisão",
+        "id": 212233
+      },
+      {
+        "item": "EFPC",
+        "id": 212234
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar nº 109, de 29 de maio de 2001](https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2001-05-29;109)",
+        "id": 69587
+      },
+      {
+        "item": "Resolução Previc nº 23, de 14 de agosto de 2023",
+        "id": 69588
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 15,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 122530,
+      "titulo": "Protocolar Requerimento",
+      "descricao": "**Enviar documentação para análise da Previc.**\n\n Você deverá enviar todos os documentos listados abaixo pelo sistema.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 172138,
+            "nome": "Expediente Explicativo"
+          },
+          {
+            "id": 172139,
+            "nome": "Termo de Responsabilidade para Requerimento de Cisão de Plano de Benefícios, conforme modelo disponibilizado no [sítio eletrônico da Previc](https://www.gov.br/previc/pt-br/licenciamento-e-habilitacao/entidades-planos-e-patrocinadores/termos-de-responsabilidade)."
+          },
+          {
+            "id": 172140,
+            "nome": "Texto das propostas de regulamento dos planos de benefícios resultantes da operação"
+          },
+          {
+            "id": 172141,
+            "nome": "Texto consolidado do regulamento do plano de benefício cindido, contendo as propostas de alteração em destaque, quando for o caso"
+          },
+          {
+            "id": 172142,
+            "nome": "Quadro comparativo entre o texto vigente e o proposto para o regulamento do plano de benefícios cindido, somente com as disposições alteradas, a respectiva justificativa, o fundamento legal, se for o caso, e as alterações propostas em destaque"
+          },
+          {
+            "id": 172143,
+            "nome": "Nota técnica atuarial dos planos de benefícios resultantes da operação"
+          },
+          {
+            "id": 172144,
+            "nome": "Texto das propostas de convênios de adesão firmados em relação aos planos de benefícios resultantes da operação"
+          },
+          {
+            "id": 172145,
+            "nome": "Texto consolidado dos convênios de adesão do plano cindido, contendo as propostas de alteração em destaque, se for o caso"
+          },
+          {
+            "id": 172146,
+            "nome": "Quadro comparativo entre o texto vigente e o proposto para os convênios de adesão do plano cindido, somente com as disposições alteradas, a respectiva justificativa, o fundamento legal, se for o caso, e as alterações propostas em destaque"
+          },
+          {
+            "id": 172147,
+            "nome": "Relatório sobre demandas judiciais e extrajudiciais em que a EFPC figure como parte, relacionadas ao plano de benefícios a ser cindido, posicionado na data-base"
+          },
+          {
+            "id": 172148,
+            "nome": "Termo de Cisão de Plano de Benefícios"
+          },
+          {
+            "id": 172149,
+            "nome": "Relatório da operação, posicionado na data-base, em formato “xlsx”, disponível no [sítio eletrônico da Previc na internet](https://www.gov.br/previc/pt-br/licenciamento-e-habilitacao/entidades-planos-e-patrocinadores/relatorios-da-operacao)"
+          }
+        ],
+        "casos": [
+          {
+            "id": 23258,
+            "descricao": "No caso de plano com patrocinador p´úblico",
+            "documento": [
+              {
+                "id": 172137,
+                "codigo": null,
+                "descricao": "Manifestação favorável do órgão responsável pela supervisão, pela coordenação e pelo controle do patrocinador, no caso de patrocinadores sujeitos ao disposto no art. 4º da Lei Complementar nº 108, de 2001",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157221,
+            "tipo": "web",
+            "descricao": "[Sistema Eletrônico de Informações - SEi!](https://bit.ly/2NPFvbP)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 122531,
+      "titulo": "Receber Análise",
+      "descricao": "Receber resultado da análise do requerimento de cisão de plano de benefícios.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157222,
+            "tipo": "e-mail",
+            "descricao": "A EFPC será notificada com o resultado da análise por meio do e-mail institucional cadastrado no sistema de cadastro de entidades e planos - CadPrevic.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "80",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 80
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 122532,
+      "titulo": "Receber decisão",
+      "descricao": "Receber decisão final da Previc relativa ao requerimento de cisão de plano de benefícios.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157224,
+            "tipo": "web",
+            "descricao": "A decisão final da Previc será publicada no Diário Oficial da União, no caso de autorização do requerimento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 23259,
+            "descricao": "Requerimento não autorizado",
+            "canalDePrestacao": [
+              {
+                "id": 157223,
+                "tipo": "e-mail",
+                "descricao": "No caso de cancelamento, arquivamento ou indeferimento do requerimento a EFPC será notificada da decisão da Previc por meio do e-mail cadastrado no sistema de cadastro de entidades e planos - CadPrevic.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 122533,
+      "titulo": "Comprovar Finalização da Operação",
+      "descricao": "**Encaminhar documentação para comprovação da finalização da cisão do plano de benefícios, conforme definido no Termo de Cisão.**  \n  \nA comprovação da finalização da operação é necessária para que a Previc faça os devidos registros cadastrais dos planos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 172150,
+            "nome": "Expediente Explicativo"
+          },
+          {
+            "id": 172151,
+            "nome": "Termo de Responsabilidade de Finalização de Cisão de Plano de Benefícios, conforme modelo disponibilizado em <https://www.gov.br/previc/pt-br/licenciamento-e-habilitacao/entidades-planos-e-patrocinadores/termos-de-responsabilidade>"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 157225,
+            "tipo": "web",
+            "descricao": "[Sistema Eletrônico de Informações - SEi!](http://bit.ly/34xLW96)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "110",
+  "percentualAvaliacoesPositivas": "60",
+  "url": "https://www.gov.br/pt-br/servicos/requerer-cisao-de-plano-de-beneficios",
+  "statusDestaque": false
+}

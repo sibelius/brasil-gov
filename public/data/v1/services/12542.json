@@ -1,0 +1,200 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12542",
+  "nome": "Obter 2ª via de diploma de graduação - UFRN",
+  "sigla": "",
+  "descricao": "Serviço oferecido pela **Universidade Federal do Rio Grande do Norte - UFRN**. Permite que o usuário solicite a expedição da segunda via de diploma de graduação da Universidade Federal do Rio Grande do Norte.",
+  "flagPortalLogado": "N",
+  "contato": "**E-mail:** diplomas@prograd.ufrn.br  \n**Telefones:** (84) 3342-2299 (R 124 / 125)/(84) 99474-6725",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 43428
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 40626,
+        "tipo": "Cidadãos egressos de cursos de graduação da Universidade Federal do Rio Grande do Norte - UFRN.",
+        "requisitos": "O usuário deve ter concluído curso de graduação na UFRN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/417",
+    "dbId": 57786,
+    "nomeOrgao": "Universidade Federal do Rio Grande do Norte (UFRN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 65659
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 150669
+      },
+      {
+        "item": "Segunda via",
+        "id": 150670
+      },
+      {
+        "item": "Graduação",
+        "id": 150671
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 47417
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 87330,
+      "titulo": "Solicitar a segunda via do diploma",
+      "descricao": "O interessado deve formalizar a solicitação à Coordenadoria de Atendimento da Pró-Reitoria de Graduação – PROGRAD através do e-mail **atendimento@prograd.ufrn.br.**\n\n Após o recebimento da solicitação via e-mail, a Coordenadoria encaminhará um requerimento padrão para ser preenchido pelo solicitante, que deve enviá-lo juntamente com a documentação necessária.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 123989,
+            "nome": "2. Requerimento padrão preenchido;\n 4. Documento oficial com foto;\n 6. Documentação que justifique a emissão da segunda via:\n  * Para perda ou extravio: Boletim de ocorrência;\n * Para alteração de dados: Diploma anterior;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111593,
+            "tipo": "e-mail",
+            "descricao": "O usuário solicita a segunda via do diploma na Coordenadoria de Atendimento da PROGRAD através do e-mail atendimento@prograd.ufrn.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 87331,
+      "titulo": "Retirar a segunda via do diploma",
+      "descricao": "Quando confeccionada a segunda via do diploma, o interessado deve proceder a retirada do documento na Coordenadoria de Atendimento da Pró-Reitoria de Graduação – PROGRAD, localizada no prédio da Reitoria da Universidade Federal do Rio Grande do Norte – térreo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 123990,
+            "nome": "2. Documento oficial com foto ou procuração particular."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111594,
+            "tipo": "presencial",
+            "descricao": "A retirada da segunda via do diploma deve ser realizada na Coordenadoria de Atendimento da Pró-Reitoria de Graduação – PROGRAD, localizada no prédio da Reitoria – térreo. Endereço: Campus Universitário - Lagoa Nova, Natal - RN, CEP 59078-970.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "60",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-segunda-via-de-diploma-de-graduacao-ufrn",
+  "statusDestaque": false
+}

@@ -1,0 +1,192 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24169",
+  "nome": "Solicitar apoio na integração com o SIAFI",
+  "sigla": "",
+  "descricao": "O sistema SIAFI (Sistema Integrado de Administração Financeira do Governo Federal) permite a integração com outros sistemas utilizando a tecnologia Web Services SOAP. São 4 web services:  \n\n   *  [Consultar tabelas administrativas](https://www.gov.br/conecta/catalogo/apis/consultar-tabelas-administrativas-do-siafi) \n\n \n     *  [Manter contas a pagar e receber](https://www.gov.br/conecta/catalogo/apis/novo-siafi-manter-contas-a-pagar-e-receber) \n\n \n     *  [Módulo orçamentário](https://www.gov.br/conecta/catalogo/apis/novo-siafi-manter-contas-a-pagar-e-receber) \n\n \n     *  [Manter programação financeira](https://www.gov.br/conecta/catalogo/apis/manter-programacao). \n\n \n    Este serviço é destinado aos usuários que estão com alguma dificuldade relacionada à integração \n\n   Todas as informações de integração estão na página [integração com o SIAFI](https://www.gov.br/tesouronacional/pt-br/central-de-conteudo/apis/siafi/informacoes-sobre-a-integracao-com-o-siafi).",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: ti.stn@tesouro.gov.br \n\n  Veja também a página de \"[perguntas frequentes](https://www.gov.br/tesouronacional/pt-br/central-de-conteudo/apis/siafi/informacoes-sobre-a-integracao-com-o-siafi)\".",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://e-servicos.tesouro.gov.br/#/Servico/22",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 121747
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101820,
+        "tipo": "Qualquer Órgão que já usa o SIAFI",
+        "requisitos": "*  Ser Órgão usuário do SIAFI \n\n \n    *  Adquirir certificado digital (CD) de aplicação ICP-Brasil \n\n \n     *  Cadastrar o CD no SIAFI Web \n\n \n     *  Possuir usuário habilitado no SIAFI"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1696",
+    "dbId": 43043,
+    "nomeOrgao": "Secretaria do Tesouro Nacional (STN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 169701
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Sistemas e Bases de Dados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "integração",
+        "id": 404929
+      },
+      {
+        "item": "integração ao SIAFI",
+        "id": 404930
+      },
+      {
+        "item": "SIAFI",
+        "id": 404931
+      },
+      {
+        "item": "webservice SIAFI",
+        "id": 404932
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 145441
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237377,
+      "titulo": "Registrar solicitação",
+      "descricao": "Acessar o sistema clicando [aqui](https://e-servicos.tesouro.gov.br/#/Servico/22) \n\n Realizar login no GOV.BR\n\n Enviar as dúvidas e anexar os prints do erro, se houver\n\n Aguardar a resposta da equipe de atendimento\n\n  \n\n Caso o sistema esteja indisponível, enviar e-mail para ti.stn@tesouro.gov.br.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306340,
+            "tipo": "web",
+            "descricao": "[Acesse o sistema](http://e-servicos.tesouro.gov.br/#/Servico/22)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 237378,
+      "titulo": "Acompanhar solicitação",
+      "descricao": "Para realizar o acompanhamento, acesse o sistema [aqui](https://e-servicos.tesouro.gov.br/#/Servico/22) e realize a consulta informando o número do chamado.\n\n Caso seja identificada a necessidade de complementar as informações inseridas na sua solicitação, você será notificado via sistema e-Serviços para que possa adicionar mais dados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 306341,
+            "tipo": "web",
+            "descricao": "[Acesse o sistema](http://e-servicos.tesouro.gov.br/#/Servico/22)Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-apoio-na-integracao-com-o-siafi",
+  "statusDestaque": false
+}

@@ -1,0 +1,261 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8964",
+  "nome": "Realizar consulta de puericultura e amamentação - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O Banco de Leite Humano (BLH) do IFF tem por missão apoiar, proteger e promover o aleitamento materno.\n\n Esse pode ser um período de muitas dúvidas e podem ser registrados diversos problemas e dificuldades. Por isso, o BLH oferece às lactantes consultas em aleitamento materno, que tem como objetivo ajudar a mãe a solucionar os principais problemas que acontecem durante o processo de lactação, como a ocorrência de fissuras, dores no seio, \"empedramento de leite\", bebê agitado ou com dificuldade de sugar, dificuldade de pega, queda de produção e ganho de peso da criança.\n\n As mulheres são atendidas por uma equipe multidisciplinar, formada por enfermeiras, médicas, psicólogos e nutricionistas, que irá propor o manejo clínico relacionado à amamentação e dar suporte para que a lactante tenha uma experiência bem sucedida.",
+  "flagPortalLogado": "N",
+  "contato": "**Endereço: **Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF\n\n Avenida Rui Barbosa 716 - Flamengo - CEP: 22250-020 - Rio de Janeiro, RJ\n\n **Telefone:** (21) 2554-1703\n\n **E-mail:** [blhiff@iff.fiocruz.br](mailto:blhiff@iff.fiocruz.br)\n\n **Site: **<http://www.rblh.fiocruz.br>\n\n **Horário de atendimento:** de segunda à sexta-feira, de 8h às 17h (exceto finais de semana e feriados).",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 30337
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 30109,
+        "tipo": "* Cidadãos",
+        "requisitos": "Mães em fase de amamentação.\n\n Mães com bebês menores de 15 dias terão prioridade de atendimento."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "4",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 4
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 47959
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Amamentação",
+        "id": 107725
+      },
+      {
+        "item": "Atendimento",
+        "id": 107726
+      },
+      {
+        "item": "Puericultura",
+        "id": 107727
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 30526
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "Rampa, Elevador, Intérprete de Libras",
+  "tratamentoPrioritario": "Mães com bebês menores de 15 dias terão prioridade de atendimento.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 62712,
+      "titulo": "Agendar consulta",
+      "descricao": "A paciente deverá realizar o agendamento da consulta por telefone 2554-1703 ou comparecer presencialmente  na recepção do Banco de Leite do IFF. Para agendar a consulta é necessária a informação dos dados de identificação da mãe.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 90366,
+            "nome": "CPF"
+          },
+          {
+            "id": 90367,
+            "nome": "Certificado de vacinação da mãe (se presencial)"
+          },
+          {
+            "id": 90368,
+            "nome": "Carteira de Identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 80635,
+            "tipo": "telefone",
+            "descricao": "O telefone para agendamento é (21) 2554-1703",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 80636,
+            "tipo": "presencial",
+            "descricao": "Esta etapa poderá ser realizada presencialmente na recepção do Banco de Leite.\n\n Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF \n\n Endereço: Avenida Rui Barbosa 716 - Flamengo\n\n CEP: 22250-020 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 62713,
+      "titulo": "Realizar o cadastro",
+      "descricao": "Antes da consulta a usuária deverá informar os dados referentes ao pré-natal e queixas atuais sobre a amamentação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 90369,
+            "nome": "Certificado de vacinação da mãe"
+          },
+          {
+            "id": 90370,
+            "nome": "Caderneta de vacinação da criança"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 80637,
+            "tipo": "presencial",
+            "descricao": "Esta etapa antecede a consulta e é realizada na recepção do Banco de Leite.\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo \n\n CEP: 22250-020 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 62714,
+      "titulo": "Realizar a consulta",
+      "descricao": "Consulta com o pediatra ou enfermeira pediátrica para avaliar a amamentação e a saúde do bebê e orientar a lactante. Caso necessário serão marcadas novas consultas.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 90371,
+            "nome": "Caderneta da criança"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 80638,
+            "tipo": "presencial",
+            "descricao": "Realizada no consultório ao binômio mãe-bebê. \n\n Endereço: Avenida Rui Barbosa 716 - Flamengo\n\n CEP: 22250-020 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "4",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-de-puericultura-e-amamentacao",
+  "statusDestaque": false
+}

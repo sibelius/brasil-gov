@@ -1,0 +1,373 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2831",
+  "nome": "Solicitar a caducidade de patente",
+  "sigla": "",
+  "descricao": "Serviço para solicitar o processo administrativo de caducidade de uma patente que não esteja sendo explorada de forma a prevenir ou sanar o abuso ou desuso da exploração.\n\n **ALERTA CONTRA FRAUDES: O INPI NÃO ENVIA BOLETOS NEM FAZ COBRANÇAS. LEIA MAIS [AQUI.](https://www.gov.br/inpi/pt-br/central-de-conteudo/alerta-contra-fraudes \"Aqui\")**",
+  "flagPortalLogado": "N",
+  "contato": "<https://www.gov.br/inpi/pt-br/plataforma-integrada-de-atendimento>",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/inpi/pt-br/plataforma-integrada-de-atendimento/logica-dos-servicos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 117241
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98348,
+        "tipo": "Pessoa física ou jurídica com legítimo interesse ou procurador devidamente constituído.",
+        "requisitos": "É necessário ser cadastrado no Sistema e-INPI."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/382",
+    "dbId": 36783,
+    "nomeOrgao": "Instituto Nacional da Propriedade Industrial (INPI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 163882
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 163883
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 163884
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Patentes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "inpi",
+        "id": 391918
+      },
+      {
+        "item": "patente",
+        "id": 391919
+      },
+      {
+        "item": "caducidade",
+        "id": 391920
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "<https://www.gov.br/inpi/pt-br/central-de-conteudo/legislacao>",
+        "id": 138410
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "A Portaria INPI/PR n° 79 de 16 de dezembro de 2022 publicada na RPI n° 2712 de 27 de dezembro de 2022 institui 17 modalidades de trâmite prioritário para processo de patente ou certificado de adição. Há modalidades para Depositante Idoso, Portador de Deficiência ou Doença Grave, Microempreendedor Individual, Microempresa, Empresa de Pequeno Porte, Startup e Instituição Científica Tecnológica e de Inovação, entre outros. Há modalidades que envolvem estas tecnologias: Verde, para Tratamento de Saúde, de Interesse público, Resultante de Financiamento Público, Disponível no Mercado, entre outras. A Portaria INPI/PR n° 48 de 20 de junho de 2022 publicada na RPI n° 2814 de 10 de dezembro de 2024 possibilita ao depositante de país ou região participante do *Global Patent Prosection Highway* (GPPH) ou que possua Memorando de Entendimento vigente com o INPI requerer o *Patent Prosecution Highway* (PPH) para processo de patente ou certificado de adição.",
+  "tratamentoDispensadoAtendimento": "Assiste aos usuários do INPI: I – obter a proteção de seus dados e informações pessoais, e daqueles considerados sensíveis; II – ter acesso a dados e informações necessárias à tutela judicial ou administrativa de direitos fundamentais, e daqueles relativos à sua pessoa, contidos em registros ou documentos, produzidos ou custodiados pelo INPI, e constantes das bases de dados do Instituto e de suas unidades administrativas; III – acompanhar e monitorar os serviços públicos solicitados ao INPI, evitando, quando possível, a necessidade de atendimento presencial; IV – receber atendimento igualitário, prestado com urbanidade, respeito, cortesia e em linguagem cidadã; V – ter assegurado o recebimento de requerimentos pelos serviços de protocolo, exceto quando o INPI ou suas unidades administrativas forem manifestamente incompetentes; VI – ter assegurada a simplificação de processos e procedimentos de atendimento, com a valorização da jornada e experiência para a obtenção do serviço público.",
+  "etapas": [
+    {
+      "id": 229276,
+      "titulo": "Fazer o login",
+      "descricao": "Após o cadastro, realizar o login no Sistema e-INPI.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302735,
+            "nome": "Ser cadastrado no Sistema e-INPI."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296785,
+            "tipo": "web-inscrever-se",
+            "descricao": "[Inscrever-se](http://www.gov.br/inpi/pt-br/cadastro-no-e-inpi \"Inscrever-se\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229277,
+      "titulo": "Pagar a Guia de Recolhimento da União",
+      "descricao": "Emitir e pagar a GRU (relativa ao serviço). Acesse a [Tabela de Retribuições do INPI.](https://www.gov.br/inpi/pt-br/inpi-data/precificacao-dos-servicos/NovaTabeladeRetribuiesINPI_PortariaINPI_Final_20_dez_25.pdf \"Tabela de Retribuições do INPI\")",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302736,
+            "nome": "Cadastrado no Sistema e-INPI."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 39672,
+            "descricao": "Código 294: Caducidade de invenção, modelo de utilidade ou certificado de adição de invenção (sem desconto)",
+            "moeda": "R$",
+            "valor": " 1.070,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 39673,
+            "descricao": "Código 294: Caducidade de invenção, modelo de utilidade ou certificado de adição de invenção (com desconto)",
+            "moeda": "R$",
+            "valor": " 535,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296786,
+            "tipo": "web-emitir",
+            "descricao": "[Emitir](https://meu.inpi.gov.br/pag/ \"Emitir\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229278,
+      "titulo": "Peticionar",
+      "descricao": "Acessar o Sistema de Peticionamento Eletrônico e preencher o formulário.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302737,
+            "nome": "Dados de identificação do solicitante; Numeração da GRU paga; Petição de caducidade."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296787,
+            "tipo": "web-preencher",
+            "descricao": "[Preencher](https://gru.inpi.gov.br/peticionamentoeletronico/ \"Preencher\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229279,
+      "titulo": "Acompanhar o serviço",
+      "descricao": "Acompanhamento processual. Os processos relativos aos serviços prestados pelo INPI atravessam diferentes etapas, a consulta pelos usuários aos conteúdos publicados, o cumprimento de exigências e o envio de documentos. Os usuários podem acompanhar a movimentação processual no Sistema de Busca de Processos no Portal do INPI. No entanto, para não perder prazos, é importante acompanhar atentamente o andamento do processo pela consulta à Revista da Propriedade Industrial (RPI).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302738,
+            "nome": "Acesso ao Sistema Busca Web"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296788,
+            "tipo": "web-acompanhar",
+            "descricao": "[Acompanhar](https://busca.inpi.gov.br/pePI/ \"Acompanhar\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229280,
+      "titulo": "Tomar conhecimento da decisão",
+      "descricao": "Publicação da decisão de mérito na Revista da Propriedade Industrial (RPI). A RPI é a publicação oficial do INPI. Em conformidade com a Lei nº 5.648, de 11 de dezembro de 1970, o Instituto publica todos os seus atos, despachos e decisões relativos ao sistema de propriedade industrial do Brasil. O usuário deve acompanhar atentamente o andamento do processo através consulta à RPI, publicada semanalmente, às terças-feiras.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 302739,
+            "nome": "Acesso à RPI."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296789,
+            "tipo": "web-consultar",
+            "descricao": "[Consultar](http://revistas.inpi.gov.br/rpi/ \"Consultar\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-a-caducidade-de-patente-ou-de-certificado-de-adicao-de-invencao",
+  "statusDestaque": false
+}

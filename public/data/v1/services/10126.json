@@ -1,0 +1,358 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10126",
+  "nome": "Obter ou Renovar Certificado de Vistoria de Carro-forte",
+  "sigla": "",
+  "descricao": "Documento com validade de 1 (um) ano que comprova a vistoria do veículo especial de transporte de valores pela PF e autoriza o seu uso pelas empresas de transporte de valores.",
+  "flagPortalLogado": "N",
+  "contato": "* **Horários e peculiaridades de atendimento nas unidades PF:**\n  No caso de dúvidas relativas à particularidades locais das unidades de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras, consulte uma [unidade da Polícia Federal](https://www.gov.br/../../pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias).\n\n  \n\n Para mais informações enviar e-mail  para dicof.cgcsp@dpf.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 75,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.dpf.gov.br/gesp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado de Vistoria",
+        "id": 122912
+      },
+      {
+        "item": "Vistoria de Carro-Forte",
+        "id": 122913
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102731,
+        "tipo": "Empresas especializadas em Segurança Privada ou Empresas com Serviço Orgânico de Segurança Privada.",
+        "requisitos": "A empresa de segurança privada ou empresa com serviço orgânico de segurança deve possuir autorização para o exercício da atividade de Transporte de Valores.\n\n Certificado Digital"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171733
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Segurança Privada"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Vistoria, ",
+        "id": 408936
+      },
+      {
+        "item": "Carro Forte, ",
+        "id": 408937
+      },
+      {
+        "item": "Veículo Especial, ",
+        "id": 408938
+      },
+      {
+        "item": "Transporte de Valores, ",
+        "id": 408939
+      },
+      {
+        "item": "Segurança Privada",
+        "id": 408940
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 7.102/83\n\n Decreto nº 89.056/83\n\n Portaria nº 18.045/23-DG/PF",
+        "id": 147643
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239629,
+      "titulo": "Pagar as Taxas",
+      "descricao": "No caso de expedição do Certificado de Vistoria:\n\n  * GRU da taxa de Vistoria De Veículos Especiais De Transporte De Valores (código de receita 140252)\n   \n\n No caso de renovação do Certificado de vistoria: \n\n  * GRU da taxa de Vistoria De Veículos Especiais De Transporte De Valores (código de receita 140252)\n * GRU da taxa de Renovação De Certificado De Vistoria De Veículos Especiais De Transporte De Valores (código de receita 140279)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41060,
+            "descricao": "VISTORIA DE VEICULOS ESPECIAIS DE TRANSPORTE DE VALORES",
+            "moeda": "R$",
+            "valor": " 1.616,77",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 41061,
+            "descricao": "RENOVACAO DE CERTIFICADO DE VISTORIA DE VEICULOS ESPECIAIS DE TRANSPORTE DE VALORES",
+            "moeda": "R$",
+            "valor": " 404,21",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309325,
+            "tipo": "web-preencher",
+            "descricao": "As GRU deverão ser emitidas pela empresa proprietária dos veículos especiais através no link [https://www.gov.br/pf/pt-br/assuntos/seguranca-privada/sistemas](https://www.gov.br/../../pf/pt-br/assuntos/seguranca-privada/sistemas \"Emitir GRU\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239630,
+      "titulo": "Enviar a solicitação",
+      "descricao": "A solicitação de Certificado de Vistoria deverá ser enviada via Sistema GESP (Gestão Eletrônica da Segurança Privada), com acesso através de Certificado Digital, disponível no link a seguir: <https://servicos.dpf.gov.br/gesp/>",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 315839,
+            "nome": "Comprovante da posse ou propriedade do veículo"
+          },
+          {
+            "id": 315840,
+            "nome": "Certificados de Conformidade das blindagens opaca e transparente dentro do prazo de validade"
+          },
+          {
+            "id": 315841,
+            "nome": "Comprovante de regularidade perante ao órgão de trânsito"
+          },
+          {
+            "id": 315842,
+            "nome": "As GRUs pagas e compensadas"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309326,
+            "tipo": "presencial",
+            "descricao": "[Acesso ao sistema GESP](https://servicos.dpf.gov.br/gesp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239631,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após o envio da solicitação através do Sistema GESP o interessado(a) deve acompanhar através do sistema, semanalmente, o andamento do processo de Solicitação de Certificado de Vistoria de Carro-forte.\n\n Podem ser encontradas pendencias no processo pela PF, que notificará a empresa a corrigir os dados e/ou documentos necessários. O recebimento da notificação e envio da resposta também são efetuados também através do sistema GESP",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309327,
+            "tipo": "web-acompanhar",
+            "descricao": "[Acesso ao sistema GESP](https://servicos.dpf.gov.br/gesp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239632,
+      "titulo": "Vistoria no veículo especial",
+      "descricao": "Levar o veículo especial na data e horário e local previamente agendados pela DELESP ou UCV para a realização da vistoria. Em caso de reprovação do veículo na vistoria a empresa terá prazo de 10 dias corridos para apresentar recurso.\n\n [Clique aqui para conferir o Checklist ](https://www.gov.br/pf/pt-br/assuntos/seguranca-privada/servicos/certificado-de-vistoria-de-carro-forte)dos itens que serão verificados na vistoria do veículo especial.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309328,
+            "tipo": "presencial",
+            "descricao": "Para consultar e localizar a unidade da PF na circunscrição do endereço da empresa, [clique aqui](https://www.gov.br/../../pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias \"Unidades da PF\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 60,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 239633,
+      "titulo": "Receber o Certificado de Vistoria do Carro Forte",
+      "descricao": "Após a aprovação do veículo na vistoria será emitido pela PF o Certificado de Vistoria do Carro Forte. O documento estará disponível para impressão através do Sistema GESP da empresa de Transporte de Valores.\n\n Para imprimir o Certificado basta acessar no GESP o menu Processos Autorizativos, Acompanhar. Após localizar a solicitação acesse Documentos de Avaliação, Certificado de Vistoria.\n\n O Sistema GESP disponibiliza o Certificado em formato PDF com QR Code para validação de autenticidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309329,
+            "tipo": "web-acompanhar",
+            "descricao": "[Acesso ao sistema GESP](https://servicos.dpf.gov.br/gesp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-ou-renovar-certificado-de-vistoria-de-carro-forte",
+  "flagPagTesouro": "S",
+  "statusDestaque": false
+}

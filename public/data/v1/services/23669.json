@@ -1,0 +1,210 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23669",
+  "nome": "Obter diploma ou 2ª via de diploma de pós-graduação - UNIPAMPA",
+  "sigla": "",
+  "descricao": "Este serviço é destinado aos estudantes que já concluíram com êxito cursos de pós-graduação da Universidade Federal do Pampa (UNIPAMPA) e que desejam solicitar a emissão do diploma OU para solicitar [segunda via do diploma](https://sites.unipampa.edu.br/cidra/2a-via-de-diplomas-e-certificados-de-graduacao-e-pos-graduacao/).",
+  "flagPortalLogado": "N",
+  "contato": "Coordenadoria de Ingresso, Documentação e Registros Acadêmicos\n\n <https://sites.unipampa.edu.br/cidra/diplomacao-de-pos-graduacao-stricto-sensu/>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 111345
+      },
+      {
+        "item": "certificado de conclusão",
+        "id": 111346
+      },
+      {
+        "item": "diplomação",
+        "id": 111347
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93615,
+        "tipo": "Concluintes dos cursos de pós-graduação da UNIPAMPA",
+        "requisitos": "Ter concluído com êxito as exigências curriculares do respectivo curso."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94739",
+    "dbId": 34330,
+    "nomeOrgao": "Fundação Universidade Federal do Pampa (UNIPAMPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 155347
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "estudantes",
+        "id": 372017
+      },
+      {
+        "item": "pós-graduado",
+        "id": 372018
+      },
+      {
+        "item": "formado",
+        "id": 372019
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 129460
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 217153,
+      "titulo": "Abrir processo de diplomação",
+      "descricao": "Após defesa da dissertação/tese, entrega da versão final do documento, regularização junto à Biblioteca e homologação do título, o discente deverá solicitar na Secretaria Acadêmica a abertura do processo de diplomação, mediante a entrega dos documentos necessários.\n\n  [Procedimentos de defesa e diplomação](https://sites.unipampa.edu.br/posgraduacao/files/2024/08/sei_unipampa-1517940-proppi-oficio.pdf)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 291253,
+            "nome": "* Requerimento de Abertura de Processo de Diplomação;\n * Comprovantes de inexistência de débito e de entrega da versão final na Biblioteca;\n * Cópia de documento de identidade;\n * Cópia do diploma de Graduação e de Mestrado (quando aplicável);\n * Cópia das atas de defesa e de homologação do título pela Comissão de Pós-Graduação.\n   \n\n obs: para solicitação de segunda via, siga [esta orientação](https://sites.unipampa.edu.br/cidra/2a-via-de-diplomas-e-certificados-de-graduacao-e-pos-graduacao/)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282108,
+            "tipo": "e-mail",
+            "descricao": "[posgraduacao@unipampa.edu.br](mailto:posgraduacao@unipampa.edu.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 217154,
+      "titulo": "Gerar Diploma ou Certificado e acompanhamento",
+      "descricao": "Nesta etapa o Núcleo de Documentação, Emissão, Registro e Revalidação de Diplomas - NUDERD revisa a documentação e emite o diploma.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282109,
+            "tipo": "web-acompanhar",
+            "descricao": "<https://sites.unipampa.edu.br/cidra/nuderd/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 282110,
+            "tipo": "e-mail",
+            "descricao": "[nuderd@unipampa.edu.br](mailto:nuderd@unipampa.edu.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2o-via-de-diploma-de-pos-graduacao",
+  "statusDestaque": false
+}

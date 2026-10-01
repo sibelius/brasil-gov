@@ -1,0 +1,240 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11060",
+  "nome": "Retificar lançamento de imposto de renda",
+  "sigla": "SRL",
+  "descricao": "Solicite a retificação de lançamento (SRL) decorrente de notificação automática (sem prévia intimação) de imposto de renda.\n\n Antes de continuar, verifique na sua notificação se é possível apresentar a SRL. A informação se encontra no quadro \"Intimação\" da notificação.\n\n Se a notificação não permitir retificação, utilize o serviço \"**Impugnar notificação de lançamento**\" para contestar a autuação.\n\n Se ao final da análise você ainda não concordar com o resultado, você pode apresentar uma impugnação, que será julgada pela Delegacia da Receita Federal do Brasil de Julgamento (DRJ) competente.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)\n\n [Manual de orientações de Requerimentos Malha Fiscal IRPF](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/julgamento-administrativo/arquivos-e-imagens/orientacoespreenchimentorequerimentoswebmalhairpf.pdf)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.cav.receita.fazenda.gov.br/requer/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127396
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106592,
+        "tipo": "Cidadão que recebeu uma notificação de lançamento decorrente de malha fiscal de imposto de renda.",
+        "requisitos": "Para utilizar o aplicativo no celular ou tablet, você deve [habilitar o seu dispositivo.](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178160
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imposto de Renda e Malha Fiscal"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Imposto de Renda",
+        "id": 424761
+      },
+      {
+        "item": "Malha Fiscal",
+        "id": 424762
+      },
+      {
+        "item": "Processo Digital",
+        "id": 424763
+      },
+      {
+        "item": "Atendimento",
+        "id": 424764
+      },
+      {
+        "item": "Processo Digital",
+        "id": 424765
+      },
+      {
+        "item": "e-Defesa",
+        "id": 424766
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 958/2009 ](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=15922#:~:text=IN%20RFB%20n%C2%BA%20958%2F2009&text=Estabelece%20procedimentos%20para%20revis%C3%A3o%20das,Propriedade%20Territorial%20Rural%20(DITR))",
+        "id": 152764
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.022/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116969)",
+        "id": 152765
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1329,
+    "negativas": 5674
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248931,
+      "titulo": "Protocolar o pedido de retificação de lançamento",
+      "descricao": "A solicitação deve ser realizada via processo digital.\n\n Para abrir o processo, acesse o canal abaixo e:\n\n 1. Escolha a área **Malha Fiscal IRPF**.\n\n 2. Depois, o serviço **Solicitar retificação de lançamento** e informe o número da notificação.\n\n 3. Em seguida, junte (inclua) os documentos necessários, em arquivos separados e classificados por tipo.\n\n Abra apenas um processo para cada notificação. Documentos sem relação com o serviço serão rejeitados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324140,
+            "nome": "Solicitação de Retificação de Lançamento assinada;"
+          },
+          {
+            "id": 324141,
+            "nome": "[Documento de identificação](https://www.gov.br/receitafederal/pt-br/assuntos/processos-digitais/documentos);"
+          },
+          {
+            "id": 324142,
+            "nome": "Documentos que comprovem as alegações na solicitação de retificação."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321677,
+            "tipo": "web",
+            "descricao": "[Abrir Novo Processo (Requerimento)](https://www3.cav.receita.fazenda.gov.br/requer/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 248932,
+      "titulo": "Acompanhar o resultado do processo",
+      "descricao": "A informação do resultado será juntada ao seu processo.\n\n Clique na opção **Processos em que sou o interessado principal** e consulte os documentos do processo para saber se o seu pedido foi aprovado.\n\n Em algumas situações o processo é arquivado após a decisão. Neste caso, você encontrará o processo na aba **Inativos**.\n\n Se o pedido for negado, você receberá uma nova notificação e poderá apresentar impugnação, no prazo de 20 (vinte) dias úteis, contados da data da ciência da decisão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321678,
+            "tipo": "web",
+            "descricao": "[Meus Processos](https://cav.receita.fazenda.gov.br/autenticacao/login/index/51)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 321679,
+            "tipo": "aplicativo-movel",
+            "descricao": "[Apple](https://apps.apple.com/br/app/eprocesso/id1358752141 \"e-Processo\") | [Android](https://play.google.com/store/apps/details?id=br.gov.fazenda.receita.eprocesso \"e-Processo\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10689",
+      "nome": "Impugnar notificação de lançamento de imposto de renda"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10813",
+      "nome": "Emitir DARF para pagamento de tributos federais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10943",
+      "nome": "Entregar documentos de malha fiscal de imposto de renda"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "19",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/retificar-lancamento-de-imposto-de-renda",
+  "statusDestaque": false
+}

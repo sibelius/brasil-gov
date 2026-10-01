@@ -1,0 +1,186 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13478",
+  "nome": "Realizar o exame Eletrocardiograma no Humap-UFMS",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, pacientes vindos do Ambulatório de Cardiologia, internados no Humap-UFMS ou que precisam realizar o risco cirúrgico para fazer cirurgia no Humap-UFMS, fazem o exame Eletrocardiograma.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (67)3345-3131\n\n E-mail: uscv.humap-ufms@ebserh.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74493
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65475,
+        "tipo": "Pacientes vindos do Ambulatório de Cardiologia do Humap-UFMS;",
+        "requisitos": ""
+      },
+      {
+        "id": 65476,
+        "tipo": "Pacientes internados no Humap-UFMS;",
+        "requisitos": ""
+      },
+      {
+        "id": 65477,
+        "tipo": "Pacientes que precisam realizar o risco cirúrgico para fazer cirurgia no Humap-UFMS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 103094
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "eletrocardiograma",
+        "id": 253187
+      },
+      {
+        "item": "exame",
+        "id": 253188
+      },
+      {
+        "item": "saúde",
+        "id": 253189
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 84447
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145953,
+      "titulo": "Dirigir-se ao Serviço de Eletrocardiograma, no dia e horário agendados para fazer o exame.",
+      "descricao": "Comparecer ao Guichê do Serviço de Eletrocardiograma, no dia e horário agendados para fazer o exame, com o seguinte documento: Pedido do exame.\n\n Ao chegar no guichê, favor avisar que veio fazer o exame eletrocardiograma.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207543,
+            "nome": "Pedido do exame."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24301,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189828,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - portão 01 - prédio do Ambulatório Geral.\n\n Horário de atendimento: de segunda a sexta-feira: 07h às 11h - 12h às 16h\n\n Telefone: (67)3345-3131\n\n E-mail: uscv.humap-ufms@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32099,
+            "descricao": "Em caso de dúvidas ou para maiores informações, ligue",
+            "canalDePrestacao": [
+              {
+                "id": 189827,
+                "tipo": "telefone",
+                "descricao": "(67)3345-3131",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "40",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-exame-de-eletrocardiograma-no-humap-ufms",
+  "statusDestaque": false
+}

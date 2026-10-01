@@ -1,0 +1,189 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23893",
+  "nome": "Emitir Nota Fiscal de Serviço Eletrônica (NFS-e) - Padrão Nacional",
+  "sigla": "",
+  "descricao": "Emita a NFS-e de Padrão Nacional para gerar a nota fiscal digital que formaliza a prestação de serviços.\n\n O documento gerado possui validade jurídica em todo o território nacional, assegura a regularidade fiscal das operações de prestação de serviços e, quando aplicável, substitui a emissão realizada em sistemas municipais.\n\n Outros benefícios:\n\n  * Redução dos custos de conformidade para as empresas.\n * Padronização do registro da prestação de serviços em âmbito nacional.\n * Melhoria da gestão e do controle das receitas municipais.\n * Maior transparência e acompanhamento das atividades econômicas locais.\n * Compartilhamento de documentos fiscais, essencial para a implementação da Reforma Tributária.",
+  "flagPortalLogado": "N",
+  "contato": "[Mais informações sobre a NFS-e](https://www.gov.br/nfse/pt-br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.nfse.gov.br/EmissorNacional",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Nota do MEI",
+        "id": 114873
+      },
+      {
+        "item": "Nota Nacional",
+        "id": 114874
+      },
+      {
+        "item": "Nota de Prestação de Serviço",
+        "id": 114875
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96664,
+        "tipo": "* Microempreendedores Individuais (MEI) - Obrigatório para operações com Pessoas Jurídicas.\n * Empresas (Pessoas Jurídicas) em geral, estabelecidas em municípios conveniados\n * Pessoas Físicas (autônomos), conforme legislação municipal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 160276
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 160277
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Emissão de Nota",
+        "id": 384164
+      },
+      {
+        "item": "MEI",
+        "id": 384165
+      },
+      {
+        "item": "NFS-e",
+        "id": 384166
+      },
+      {
+        "item": "Nota de Serviço,",
+        "id": 384167
+      },
+      {
+        "item": "ISS",
+        "id": 384168
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)",
+        "id": 135694
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 76,
+    "negativas": 260
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 224348,
+      "titulo": "Emitir a Nota",
+      "descricao": "2. Acesse o Emissor Web ou o Aplicativo \"NFS-e Mobile\".\n 4. Realize o login com sua conta gov.br ou certificado digital.\n 6. Escolha a opção de emissão (Simplificada ou Completa).\n 8. Informe o CPF/CNPJ do tomador (cliente) e descreva o serviço.\n 10. Insira o valor do serviço (o sistema calcula os tributos automaticamente).\n 12. Clique em \"Emitir\" para gerar o documento.\n  **Obs: **Para emissão via **API** (sistemas próprios), é necessário **credenciamento prévio no Painel do Contribuinte.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 290816,
+            "tipo": "web",
+            "descricao": "[Portal do Contribuinte](https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional) (Emissor Web)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 290817,
+            "tipo": "web",
+            "descricao": "[Integração via API](https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/apis-prod-restrita-e-producao) (Webservice para ERPs)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 290818,
+            "tipo": "aplicativo-movel",
+            "descricao": "[ App NFS-e Mobile](https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/apis-prod-restrita-e-producao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "23",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+  "statusDestaque": false
+}

@@ -1,0 +1,337 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23661",
+  "nome": "Cadastrar procuração eletrônica para acesso ao Fator Acidentário de Prevenção de empresas incorporadas",
+  "sigla": "",
+  "descricao": "Este serviço permite que empresas incorporadoras cadastrem uma procuração eletrônica para acessar o Fator Acidentário de Prevenção (FAP) de empresas que foram incorporadas. Após o deferimento da solicitação, a empresa incorporadora pode consultar o FAP das empresas incorporadas, possibilitando a gestão unificada das informações de segurança do trabalho após processos de fusão, incorporação ou cisão empresarial. O cadastro é feito de forma digital, mediante autenticação por certificado digital.",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o Portal da Previdência Social ([gov.br/previdencia](http://gov.br/previdencia)) ou consulte o [manual do FAP disponível no portal](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/fap/legislacao-e-atos-normativos-sobre-o-fap).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://fap-mps.dataprev.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111111
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93437,
+        "tipo": "* Empresas que incorporaram outras empresas e necessitam acessar o FAP desses estabelecimentos incorporados.\n * Representantes legais de empresas incorporadoras.\n * Procuradores com certificado digital válido (e-CNPJ ou e-CPF com procuração).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308819",
+    "dbId": 58140,
+    "nomeOrgao": "Ministério da Previdência Social (MPS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 155020
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 155021
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 155022
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Cadastros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Procuração eletrônica",
+        "id": 371182
+      },
+      {
+        "item": "FAP",
+        "id": 371183
+      },
+      {
+        "item": "CNPJ",
+        "id": 371184
+      },
+      {
+        "item": "Fator Acidentário de Prevenção",
+        "id": 371185
+      },
+      {
+        "item": "Cadastrar procuração FAP",
+        "id": 371186
+      },
+      {
+        "item": "Procuração FAP",
+        "id": 371187
+      },
+      {
+        "item": "procuração eletrônica",
+        "id": 371188
+      },
+      {
+        "item": "procuração eletrônica FAP",
+        "id": 371189
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 129056
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "Não se aplica.",
+  "tratamentoPrioritario": "Serviço oferecido de forma digital.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 216601,
+      "titulo": "Acessar o sistema FAP",
+      "descricao": "Acesse o portal da Previdência Social ([gov.br/previdencia](http://gov.br/previdencia)) e clique em \"FAP - Fator Acidentário de Prevenção\" ou acesse diretamente o sistema em [fap.dataprev.gov.br](http://fap.dataprev.gov.br/).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281367,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216602,
+      "titulo": "Autenticar com certificado digital",
+      "descricao": "Na tela de login único (Gov.br), selecione a opção de entrar com certificado digital. Utilize seu e-CNPJ da empresa incorporadora ou e-CPF com procuração eletrônica válida.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281368,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216603,
+      "titulo": "Acessar o menu de Procurações Eletrônicas",
+      "descricao": "No menu principal do sistema FAP, selecione a opção \"Procurações Eletrônicas\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281369,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216604,
+      "titulo": "Cadastrar a procuração",
+      "descricao": "Para incluir uma nova autorização de acesso em caso de incorporação, clique em [+ Incluir Procuração]. No campo [Tipo Procuração], selecione “Incorporação de Empresa” e preencha todos os dados solicitados pelo sistema, lembrando que o CNPJ da empresa incorporada deve ser registrado em “CNPJ Raiz do Outorgante” e o CNPJ da empresa incorporadora deve ser registrado em “CNPJ Raiz do Outorgado”.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 290888,
+            "nome": "Para a comprovação da incorporação, anexar, preferencialmente, a certidão emitida por meio do portal e-CAC, da Receita Federal do Brasil. Na impossibilidade de obtenção da respectiva certidão, anexar a alteração do contrato social onde consta o registro da incorporação"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281370,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216605,
+      "titulo": "Confirmar o cadastro",
+      "descricao": "Revise as informações inseridas e confirme o cadastro da procuração eletrônica. Após a confirmação, a solicitação será encaminhada à unidade competente no Ministério da Previdência Social para análise e deferimento ou indeferimento, sendo que a situação do pedido poderá ser acompanhada através da opção “Consultar”.\n\n Após o deferimento da solicitação, o CNPJ Raiz outorgante ou incorporado poderá ser consultado pela empresa outorgada ou incorporadora na opção “Consulta do FAP”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 281371,
+            "tipo": "web",
+            "descricao": "[Sistema FAP](https://fap.dataprev.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cadastrar-procuracao-eletronica-para-acesso-ao-fator-acidentario-de-prevencao-de-empresas-incorporadas",
+  "statusDestaque": false
+}

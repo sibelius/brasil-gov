@@ -1,0 +1,282 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2236",
+  "nome": "Obter aprovação de programas de promoção da saúde e prevenção de riscos e doenças",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, as operadoras de planos de saúde podem pedir que a ANS aprove seus programas de promoção da saúde e prevenção de riscos e doenças, chamados de Promoprev.\n\n Os programas são voluntários e têm o objetivo de melhorar o cuidado com a saúde dos beneficiários. Eles são formados por ações que incentivam hábitos saudáveis e reduzem riscos de doenças.\n\n A ANS estimula o desenvolvimento desses programas, ao oferecer benefícios às operadoras que possuem programas aprovados, tais como:\n\n  * pontuação no [indicador de Qualidade em Atenção à Saúde (IDQS) do Índice de Desempenho da Saúde Suplementar (IDSS)](https://www.gov.br/ans/pt-br/assuntos/informacoes-e-avaliacoes-de-operadoras/qualificacao-ans); e\n * pontuação bônus na [Dimensão Assistencial do Mapeamento do Risco Assistencial](https://www.gov.br/ans/pt-br/assuntos/operadoras/regulacao-prudencial-acompanhamento-assistencial-e-economico-financeiro/monitoramento-do-risco-assistencial-1/mapeamento-do-risco-assistencial/anexo_i_nt_163.pdf).",
+  "flagPortalLogado": "N",
+  "contato": "Enviar e-mail para promoprev@ans.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.ans.gov.br/externo/site/perfil_operadoras/promoprev/FC/login.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "PROMOPREV",
+        "id": 112072
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94119,
+        "tipo": "Operadoras de planos de saúde, exceto administradoras de benefícios.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "10",
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 10,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 156318
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Operadora",
+        "id": 374182
+      },
+      {
+        "item": "prevenção",
+        "id": 374183
+      },
+      {
+        "item": "plano de saúde",
+        "id": 374184
+      },
+      {
+        "item": "PROMOPREV",
+        "id": 374185
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resoluções Normativas 498 e 499/2022 e Instruções Normativas 6, 7 e 15/2022 e ([Acesse) ](https://www.ans.gov.br/index.php?temaId=&diretoriaId=&relevancia=Relevancia&assuntoId=20&normaId=&numero=&revogada=0&palavra_chave=&publicacao=Igual+a&data_dou=&buscar=&acao=buscar&limit=5&option=com_legislacao&origin=&post=index.php%3Foption%3Dcom_legislacao%26view%3Dlegislacao&view=legislacao).",
+        "id": 130480
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 32,
+    "negativas": 33
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 218535,
+      "titulo": "Cadastrar o programa",
+      "descricao": "*  Consultar os [critérios de analise](http://Criterios_de_Analise_do_formulario_do_Cadastramento_Promoprev_0308__1_.pdf ;);  \n\n \n *  Preencher o Formulário de Cadastramento de Informações (FC); \n\n \n *  Guardar o código de identificação do programa.\n\n \n *  Leia mais ([aqui)](http://Gerenciar APIs, usuários e senha TXT no portal Operadoras”)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283807,
+            "tipo": "web",
+            "descricao": "[Acesse o site.](http://www.ans.gov.br/externo/site/perfil_operadoras/promoprev/FC/login.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 218536,
+      "titulo": "Receber notificação da ANS",
+      "descricao": "Após o envio da documentação, a operadora receberá, por meio de, por meio de oficio, uma notificação da ANS, solicitando complementação dos dados enviados na etapa anterior.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292645,
+            "nome": "Dados do programa"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283808,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.ans.gov.br/externo/site/perfil_operadoras/promoprev/FC/login.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 218537,
+      "titulo": "Ajustar informações referentes ao programa cadastrado (se necessário)",
+      "descricao": "* Ajuste as informações do Programa no formulário, conforme indicado na análise da ANS;",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292646,
+            "nome": "Informações e dados do programa"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283809,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://www.ans.gov.br/externo/site/perfil_operadoras/promoprev/FC/login.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 218538,
+      "titulo": "Receber resposta sobre a aprovação do programa pela ANS",
+      "descricao": "* A operadora é  comunicada do resultado da análise (aprovado ou reprovado) por ofício via SEI\n * Em caso de aprovação, a operadora deverá registrar as despesas conforme o Plano de Contas da ANS, enviar o Formulário de Monitoramento Anual à DIDES, de 1º/2 a 1º/4 e encaminhar à DIOPE, até 31/3, Relatório Circunstanciado por Auditor Independente (IN nº 15/2022).\n * Em caso de reprovação, poderá cadastrar novo programa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283810,
+            "tipo": "web",
+            "descricao": "([https://www.ans.gov.br/externo/site/perfil\\_operadoras/promoprev/FC/login.asp](https://www.ans.gov.br/externo/site/perfil_operadoras/promoprev/FC/login.asp)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "49",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-aprovacao-de-programas-de-promocao-da-saude-e-prevencao-de-riscos-e-doencas",
+  "statusDestaque": false
+}

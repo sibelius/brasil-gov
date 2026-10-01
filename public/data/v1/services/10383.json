@@ -1,0 +1,338 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10383",
+  "nome": "Solicitar verificação subsequente de cronotacógrafo",
+  "sigla": "",
+  "descricao": "Execução da selagem e do ensaio do cronotacógrafo para emissão do certificado de verificação subsequente. O serviço deve ser realizado por todos os donos de cronotacógrafos para atendimento da legislação de trânsito.",
+  "flagPortalLogado": "N",
+  "contato": "Se suas dúvidas sobre esse serviço não puderem ser sanadas em consulta às Perguntas frequentes, contate a área pelos seguintes canais:\n\n (21) 2145-3228 / Fale Conosco",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cronotacografo.rbmlq.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Verificação subsequente do tacógrafo",
+        "id": 45427
+      },
+      {
+        "item": "Aferição do tacógrafo",
+        "id": 45428
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 42175,
+        "tipo": "Consumidores, empresas.",
+        "requisitos": "Possuir veículo com cronotacógrafo de uso obrigatório."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "15",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 15,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Desde que mantidas as marcas de selagem e/ou as características do veículo (conjunto pneu/roda)."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240",
+    "dbId": 36793,
+    "nomeOrgao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 68287
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 68288
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 68289
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 68290
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Verificação subsequente de cronotacógrafos",
+        "id": 156614
+      },
+      {
+        "item": "Cronotacógrafos",
+        "id": 156615
+      },
+      {
+        "item": "CPC",
+        "id": 156616
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 49896
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 20,
+    "negativas": 100
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 91007,
+      "titulo": "Emitir e pagar GRU (Guia de Recolhimento da União)",
+      "descricao": "Acessar o site: [https://cronotacografo.rbmlq.gov.br/grus/emitir\\_verificacao](https://cronotacografo.rbmlq.gov.br/grus/emitir_verificacao) e preencher os campos do formulário online.\n\n Emitir GRU, efetuar o pagamento e aguardar a compensação do pagamento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 129751,
+            "nome": "CRLV do veículo no qual o cronotacógrafo está instalado."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 13418,
+            "descricao": "GRU de verificação subsequente de cronotacógrafo",
+            "moeda": "R$",
+            "valor": " 90,09",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 116173,
+            "tipo": "web",
+            "descricao": "<https://cronotacografo.rbmlq.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "1",
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 1,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 91008,
+      "titulo": "Encaminhar veículo com cronotacógrafo a um posto de selagem ou PAC para realização da selagem",
+      "descricao": "Para realizar a selagem do cronotacógrafo, escolher um posto de selagem ou um posto autorizado de cronotacógrafo (<https://cronotacografo.rbmlq.gov.br/relacao-de-postos/relacao-de-postos>) e agendar a data com o posto de selagem ou PAC.\n\n Levar o veículo no qual está instalado o cronotacógrafo ao posto escolhido, junto com a documentação necessária.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 129752,
+            "nome": "CRLV do veículo no qual o cronotacógrafo está instalado;\n\n Comprovante de residência."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 13419,
+            "descricao": "Tarifa de selagem",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Entre R$ 68,94 e R$ 83,49.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 116174,
+            "tipo": "presencial",
+            "descricao": "No endereço do Posto contratado; relação disponível em: <https://cronotacografo.rbmlq.gov.br/relacao-de-postos/relacao-de-postos>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "horas"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 91009,
+      "titulo": "Encaminhar veículo com cronotacógrafo a um PAC para realização do ensaio",
+      "descricao": "Para realizar o ensaio do cronotacógrafo, após a selagem, escolher um posto autorizado de cronotacógrafo (<https://cronotacografo.rbmlq.gov.br/relacao-de-postos/relacao-de-postos>) e agendar a data com o PAC.\n\n Levar o veículo no qual está instalado o cronotacógrafo ao posto escolhido, junto com a documentação necessária.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 129753,
+            "nome": "CRLV do veículo no qual o cronotacógrafo está instalado;\n\n Comprovante de residência."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 13420,
+            "descricao": "Tarifa de ensaio",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "De R$ 142,44 a R$ 172,50.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 116175,
+            "tipo": "presencial",
+            "descricao": "No endereço do Posto contratado; relação disponível em: <https://cronotacografo.rbmlq.gov.br/relacao-de-postos/relacao-de-postos>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 91010,
+      "titulo": "Receber certificado de verificação subsequente do cronotacógrafo",
+      "descricao": "Após o ensaio, o usuário recebe um certificado provisório, com validade de 30 dias.\n\n Depois da análise da documentação e do ensaio pelo Inmetro, o usuário recebe o certificado de verificação subsequente do cronotacógrafo.\n\n Ambos documentos podem ser baixados a qualquer momento pelo site: https://cronotacografo.rbmlq.gov.br/certificados/consultar",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 116176,
+            "tipo": "web",
+            "descricao": "<https://cronotacografo.rbmlq.gov.br/certificados/consultar>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "17",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-verificacao-subsequente-de-cronotacografo",
+  "statusDestaque": true
+}

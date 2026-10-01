@@ -1,0 +1,188 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11246",
+  "nome": "Submeter artigos científicos para conferências",
+  "sigla": "",
+  "descricao": "Esse serviço visa disponibilizar a submissão de artigo científico para avaliação e publicação.\n\n Possibilita que cidadãos inscritos em uma conferência submetam artigos científicos para avaliação e, se aprovados, apresentação no evento.  \n  \n\n\n",
+  "flagPortalLogado": "N",
+  "contato": "email: propgpec@cp2.g12.br  \ntelefone: 2121635728\n\n",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://conferencia.cp2.g12.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Publicação de artigo científico",
+        "id": 20832
+      },
+      {
+        "item": "envio de artigo científico",
+        "id": 20833
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 22648,
+        "tipo": "Público em Geral\n\n",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/256",
+    "dbId": 7327,
+    "nomeOrgao": "Colégio Pedro II (CP II)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 35548
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divulgação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Submissão de artigo científico",
+        "id": 76544
+      },
+      {
+        "item": "Envio de artigo científico",
+        "id": 76545
+      },
+      {
+        "item": "Publicação de artigo científico",
+        "id": 76546
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 19740
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n ",
+  "etapas": [
+    {
+      "id": 45960,
+      "titulo": "Enviar resumo",
+      "descricao": "Ao acessar a página inicial do evento, o cidadão deverá clicar em “Submeter novo resumo” e preencher as informações solicitadas sobre o trabalho a ser enviado.  \nO cidadão deverá, então, aguardar a revisão de seu resumo.\n\n",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 58238,
+            "tipo": "web",
+            "descricao": "O canal de comunicação será o sítio eletrônico.\n\n Acesso pelo site [Acesse o site](http://conferencia.cp2.g12.br)\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 45961,
+      "titulo": "Enviar trabalho completo",
+      "descricao": "Caso o trabalho seja aprovado, será possível o envio do artigo científico completo. Basta clicar em “Enviar” e buscar o arquivo em seu computador arrastá-lo de seu computador para o formulário.\n\n",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 58239,
+            "tipo": "web",
+            "descricao": "O canal de comunicação será o sítio eletrônico.\n\n Acesso pelo site [Acesse o site](http://conferencia.cp2.g12.br)\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "79",
+  "url": "https://www.gov.br/pt-br/servicos/submeter-artigos-cientificos-para-conferencias",
+  "statusDestaque": false
+}

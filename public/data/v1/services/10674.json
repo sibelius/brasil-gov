@@ -1,0 +1,233 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10674",
+  "nome": "Consultar pagamentos de tributos federais",
+  "sigla": "",
+  "descricao": "Consulte pagamentos, emita comprovantes de arrecadação ou confirme a autenticidade de comprovantes emitidos.\n\n Permite ainda a consulta a saldo disponível de pagamentos realizados por meio de DARF, DARF-Simples ou DJE - Depósitos Judiciais ou Extrajudiciais à Ordem e à Disposição da Autoridade Judicial ou Administrativa Competente.\n\n  **Observação:**\n\n Os documentos de arrecadação do Regime Especial de Regularização Cambial e Tributária (RERCT) compõem uma base de dados específica.\n\n Para os efeitos da norma, basta ao contribuinte o comprovante de pagamento fornecido pelo próprio banco arrecadador. Caso necessite de um comprovante de pagamento suplementar, poderá obtê-lo nas unidades de atendimento da Receita Federal.\n\n Se apresentar o DARF impresso pela Declaração de Regularização Cambial e Tributária (DERCAT), o atendente fornecerá um comprovante de pagamento em que consta o número do DARF. Se o contribuinte não apresentar o DARF impresso pela DERCAT, o comprovante de pagamento será providenciado em procedimento especial e lhe será entregue em atendimento posterior.",
+  "flagPortalLogado": "N",
+  "contato": "Mais informações:  \n [Orientações sobre documentos de arrecadação](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/emissao-e-pagamento-de-darf-das-gps-e-dae/emissao-e-pagamento-de-darf-e-gps)  \n [Orientações sobre comprovantes de pagamento](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/validacao-do-comprovante-de-arrecadacao)\n\n  \n\n [Fale Conosco ](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.receitafederal.gov.br/servico/pagamentos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Comprovante de pagamento",
+        "id": 122802
+      },
+      {
+        "item": "Validar comprovante de pagamento",
+        "id": 122803
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102652,
+        "tipo": "Contribuinte ou seu representante legal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171569
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171570
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171571
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171572
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Pagamento",
+        "id": 408606
+      },
+      {
+        "item": "Arrecadação",
+        "id": 408607
+      },
+      {
+        "item": "Comprovante",
+        "id": 408608
+      },
+      {
+        "item": "DARF",
+        "id": 408609
+      },
+      {
+        "item": "DAS",
+        "id": 408610
+      },
+      {
+        "item": "DAE",
+        "id": 408611
+      },
+      {
+        "item": "DJE",
+        "id": 408612
+      },
+      {
+        "item": "GPS",
+        "id": 408613
+      },
+      {
+        "item": "Depósito",
+        "id": 408614
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria Codac nº 89/2013 ](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=43982&visao=anotado)",
+        "id": 147514
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 479,
+    "negativas": 2335
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239441,
+      "titulo": "Consultar pagamentos",
+      "descricao": "Acesse o canal correspondente para consultar os pagamentos realizados por tipo de documento de arrecadação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309105,
+            "tipo": "web",
+            "descricao": "[Consultar Meus Pagamentos](https://servicos.receitafederal.gov.br/servico/pagamentos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 47910,
+            "descricao": "Para consultar pagamentos em GPS",
+            "canalDePrestacao": [
+              {
+                "id": 309102,
+                "tipo": "web",
+                "descricao": "[Consultar Extrato de Contribuições Previdenciárias ](http://gps.receita.fazenda.gov.br/)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              },
+              {
+                "id": 309103,
+                "tipo": "web",
+                "descricao": "[Meus Pagamentos em GPS](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10045)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          },
+          {
+            "id": 47911,
+            "descricao": "Para confirmar a autenticidade de comprovante de pagamento",
+            "canalDePrestacao": [
+              {
+                "id": 309104,
+                "tipo": "web",
+                "descricao": "[Validar Comprovante de Pagamento](https://servicos.receitafederal.gov.br/servico/validar-pagamento)Â (DARF, DAS, DAE e DJE)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "17",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-pagamentos-de-tributos-federais",
+  "statusDestaque": false
+}

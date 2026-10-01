@@ -1,0 +1,208 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11875",
+  "nome": "Solicitar passagens (aéreas/terrestres) para visitantes externos",
+  "sigla": "",
+  "descricao": "Realizar pedidos de passagens (aéreas/terrestres) para visitantes externos à trabalho na instituição (palestrantes, membros de bancas diversas, missões de trabalho, entre outros).",
+  "flagPortalLogado": "N",
+  "contato": "Tel.: (31) 3612-6500  \nE-mail: dep@ufv.br  \nSite: www.dep.ufv.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.dep.ufv.br/?attachment_id=847",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 41508
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 39074,
+        "tipo": "Profissionais do setor público e órgãos públicos.",
+        "requisitos": "Desde que haja recurso disponível para tal finalidade, previamente informado."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/474",
+    "dbId": 34325,
+    "nomeOrgao": "Fundação Universidade Federal de Viçosa (UFV)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 62992
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Eventos e Palestras"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Passagem",
+        "id": 144183
+      },
+      {
+        "item": "Terrestre",
+        "id": 144184
+      },
+      {
+        "item": "Aérea",
+        "id": 144185
+      },
+      {
+        "item": "Visitante",
+        "id": 144186
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 44912
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 87,
+    "negativas": 163
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 83332,
+      "titulo": "Preencher formulário",
+      "descricao": "O demandante deve preencher o formulário de solicitação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 119309,
+            "nome": "Informar o número do RG, do CPF, do Passaporte (viagens internacionais) e um documento que comprove a data do trabalho a ser realizado na instituição."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 106550,
+            "tipo": "web",
+            "descricao": "Preenchimento do formulário de solicitação no site: [https://www.dep.ufv.br/?attachment\\_id=847](https://www.dep.ufv.br/?attachment_id=847 \"https://www.dep.ufv.br/?attachment_id=847\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "48",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 48
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 83333,
+      "titulo": "Encaminhar solicitação",
+      "descricao": "O demandante deve encaminhar a solicitação para o Departamento de Engenharia de Produção e Mecânica.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 106551,
+            "tipo": "presencial",
+            "descricao": "Encaminhar a solicitação presencialmente nas secretarias do Departamento de Engenharia de Produção e Mecânica – DEP, localizado na Avenida Prof. Peter Henry Rolfs, s/n, Campus Universitário, CEP 36570-900 – Viçosa/MG.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 106552,
+            "tipo": "e-mail",
+            "descricao": "O demandante pode também encaminhar a solicitação para o e-mail institucional do departamento: dep@ufv.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "48",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 48
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "35",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-passagens-aereas-terrestres-para-visitantes-externos",
+  "statusDestaque": false
+}

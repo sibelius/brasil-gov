@@ -1,0 +1,244 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23773",
+  "nome": "Solicitar restituição ou compensação de valores pagos indevidamente ao Ibama",
+  "sigla": "",
+  "descricao": "Solicitar ao Ibama a restituição de valores pagos indevidamente ou a compensação com outros débitos.",
+  "flagPortalLogado": "S",
+  "contato": "Central de Atendimento do Ibama - 0800 061 8080",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 112950
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94854,
+        "tipo": "Todo contribuinte que tenha realizado, por qualquer motivo, pagamento indevido em favor do Ibama.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1812",
+    "dbId": 36724,
+    "nomeOrgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 157552
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 157553
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Restituição",
+        "id": 377376
+      },
+      {
+        "item": "Pagamento indevido",
+        "id": 377377
+      },
+      {
+        "item": "Ibama",
+        "id": 377378
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 10.522/2002](https://www.planalto.gov.br/ccivil_03/LEIS/2002/L10522.htm)",
+        "id": 132429
+      },
+      {
+        "item": "[Instrução Normativa nº 17/2011](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=126035)",
+        "id": 132430
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 220257,
+      "titulo": "Etapa 1 - Enviar o pedido",
+      "descricao": "* Iniciar um processo no [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)\n * Clicar em *Processo Novo*\n * Tipo de Processo: *Arrecadação – Restituição*\n * Incluir um *Requerimento para Restituição de Valores*\n * Preencher os campos obrigatórios e anexar os documentos solicitados;\n * *Peticionar*, enviando o processo ao Serviço de Cobrança Administrativa de Taxas e Autos de Infração",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 293950,
+            "nome": "* Nome completo ou razão social\n * CPF ou estatuto social e CNPJ (no caso de pessoa jurídica)\n * Procuração (caso o pedido seja realizado por representante legal)\n * Banco, agência e número da conta para depósito, caso opte pela restituição do valor\n * Cópia digitalizada do comprovante de pagamento indevido, contendo o número da Guia de Recolhimento da União (GRU), data e valor exato pago"
+          },
+          {
+            "id": 293951,
+            "nome": "* Justificativa clara do motivo que caracteriza o pagamento como indevido (por exemplo, pagamento em duplicidade ou erro na cobrança)\n * Caso deseje compensar o valor com outro débito em aberto, informar o número do processo, auto de infração ou débito com o qual o crédito deverá ser compensado"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285793,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220258,
+      "titulo": "Etapa 2 - Acompanhar o andamento do processo",
+      "descricao": "Acompanhar a tramitação do processo pelo SEI, onde será possível visualizar as comunicações e o andamento da análise.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285794,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 220259,
+      "titulo": "Etapa 3 - Receber a resposta da decisão administrativa",
+      "descricao": "A decisão será comunicada por meio do SEI.   \nSe a solicitação for aceita, o Ibama providenciará a restituição ou a compensação do valor.  \nCaso contrário, o Ibama informará a razão do indeferimento do pedido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 285795,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - [Sei! Ibama](https://www.gov.br/ibama/pt-br/acesso-a-informacao/documentos-e-processos-eletronicos-sistema-eletronico-de-informacoes-sei#acesso-ao-sei-ex)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-restituicao-ou-compensacao-de-valores-pagos-indevidamente-ao-ibama",
+  "statusDestaque": false
+}

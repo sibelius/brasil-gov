@@ -1,0 +1,239 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9375",
+  "nome": "Declarar capitais estrangeiros decorrentes de operações de crédito",
+  "sigla": "SCE-Crédito",
+  "descricao": "Prestar informações de capitais estrangeiros decorrentes de operações de crédito externo concedidas a pessoas físicas ou jurídicas residentes no Brasil.\n\n Devem ser declaradas ao Banco Central do Brasil as seguintes operações de crédito externo, ou seja, quando os créditos forem concedidos por não residentes a residentes do Brasil, mesmo quando mantidos no exterior em favor de residentes:\n\n  * Empréstimo, emissão de Título e Financiamento de organismos, quando o valor da operação de crédito for igual ou superior a US$1.000.000,00 (um milhão de dólares dos Estados Unidos da América) ou seu equivalente em outras moedas;\n * Recebimento antecipado de exportação e Arrendamento mercantil financeiro, com prazo de pagamento superior a 360 dias, quando o valor da operação de crédito for igual ou superior a US$1.000.000,00 (um milhão de dólares dos Estados Unidos da América) ou seu equivalente em outras moedas;\n * Importação financiada de bens ou serviços com prazo de pagamento superior a 180 dias, sempre que o valor da operação de crédito externo for igual ou superior a US$500.000,00 (quinhentos mil dólares dos Estados Unidos da América) ou seu equivalente em outras moedas;\n   \n\n As informações devem ser prestadas no Sistema de Prestação de Informações de Capitais Estrangeiros de Crédito Externo (SCE – Crédito).\n\n Para mais detalhes, consulte [aqui](https://www.bcb.gov.br/estabilidadefinanceira/capitaisestrangeiros) o manual.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale conosco](https://www.bcb.gov.br/acessoinformacao/faleconosco)\n\n Pelo e-mail [rde-rof@bcb.gov.br](mailto:rde-rof@bcb.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.bcb.gov.br/estabilidadefinanceira/registrocapitaisestrangeiros",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 110832
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93201,
+        "tipo": "Devedores pessoa física ou pessoa jurídica residentes no Brasil que tenham recebido capital estrangeiro decorrente de operação de crédito externo em valor superior ao piso declaratório e seus mandatários.",
+        "requisitos": "**Tipo de operação crédito externo** **Valor do piso declaratório em dólares (US$) ou equivalente em outras moedas**   Empréstimo * US$ 1.000.000,00   Emissão de título no mercado internacional US$ 1.000.000,00    Recebimento antecipado de exportações e Arrendamento mercantil financeiro (prazo acima de 360 dias)\n\n  US$ 1.000.000,00    Financiamento de organismos \n\n  US$ 1.000.000,00    Importação financiada de bens ou serviços (prazo acima de 180 dias) \n\n  US$ 500.000,00        ***Inclui os títulos de colocação privada no Brasil para captação de crédito externo. **\n\n Observação: Todas as contrapartes não residentes da operação de crédito devem ser previamente incluídas no sistema Cadastro Declaratório de não Residente (CDNR)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 154718
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Sistemas e Bases de Dados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "RDE-ROF",
+        "id": 370245
+      },
+      {
+        "item": "Operações Financeiras",
+        "id": 370246
+      },
+      {
+        "item": "Capitais Internacionais",
+        "id": 370247
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 128622
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 21,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 216042,
+      "titulo": "Cadastrar conta no Sisbacen (pessoa jurídica) ou via conta govbr",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 290389,
+            "nome": "Acesso para pessoas físicas: nível prata ou ouro pela Conta govbr.\n\n Acesso para empresas: certificado digital vinculado a Conta govbr."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280685,
+            "tipo": "web",
+            "descricao": "Siga as orientações para credenciamento no Sisbacen aqui: [acesso Sisbacen](https://www.bcb.gov.br/meubc/sisbacen)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 280686,
+            "tipo": "postal",
+            "descricao": "Siga as orientações para credenciamento no Sisbacen aqui: [acesso Sisbacen](https://www.bcb.gov.br/meubc/sisbacen)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 280687,
+            "tipo": "presencial",
+            "descricao": "**Atendimento presencial suspenso.**\n\n Na Central de Atendimento ao Público, em Brasília, no Setor Bancário Sul (SBS), Quadra 3, Bloco B - Ed. Sede. CEP: 70074-900. De segunda a sexta, das 10h às 16h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 216043,
+      "titulo": "Prestar informações sobre a operação de crédito externo",
+      "descricao": "Após o cadastramento no Sisbacen ou via conta govbr, você obtém acesso aos serviços do sistema SCE-Crédito para a prestação de informações sobre a operação de crédito externo.\n\n Acesso de pessoas físicas: nível prata ou ouro pela conta govbr.\n\n Acesso de pessoas jurídicas: certificado digital pela conta govbr ou com acesso via login Sisbacen de pessoa jurídica.\n\n Acesso de pessoas jurídicas: certificado digital pela Conta govbr.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280688,
+            "tipo": "web",
+            "descricao": "Acesse o [Sistema](https://www3.bcb.gov.br/sce-credito)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 280689,
+            "tipo": "web",
+            "descricao": "**Login via conta govbr: **PF agindo em nome próprio: cadastro com nível prata ou ouro é suficiente. PF agindo em nome de uma PJ: PF previamente cadastrada como mandatário de receptor, em funcionalidade específica do sistema (ver capítulo 11 – Gestão de mandatários). PF atuando como representante do CNPJ da empresa vinculada no login govbr (não vale para colaborador do CNPJ). PF agindo em nome de IF não pode acessar o sistema usando a conta govbr, o acesso é restrito via login Sisbacen.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 280690,
+            "tipo": "web",
+            "descricao": "**Login Sisbacen.**  \nSe PJ: informar o Código da Instituição (5 dígitos) e o Código da Dependência (4 dígitos), obtidas no credenciamento no Sisbacen, bem como o login do usuário (campo Operador) e a Senha. Formato da conta institucional = IIIIIDDDD.OPERADOR. Clicar no botão Entrar. Se PF: somente poderão acessar o sistema SCE-Crédito via conta govbr (ver item anterior).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9372",
+      "nome": "Realizar o registro de investimento estrangeiro no mercado financeiro e de capitais brasileiro, no sistema registro declaratório eletrônico"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/9376",
+      "nome": "Declarar capitais estrangeiros decorrentes de investimento estrangeiro direto"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "72",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/declarar-capitais-estrangeiros-decorrentes-de-operacoes-de-credito-sce-credito",
+  "statusDestaque": false
+}

@@ -1,0 +1,172 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10433",
+  "nome": "Solicitar Autorização de Retorno ao Brasil",
+  "sigla": "ARB",
+  "descricao": "A Autorização de Retorno ao Brasil (ARB) é o documento de viagem concedido pelas Repartições Consulares brasileiras a nacionais brasileiros e estrangeiros residentes no Brasil, que, estando no exterior e necessitando regressar ao território nacional, não preencham os requisitos para a obtenção de passaporte. Será inscrito no campo \"observação\" o termo \"Retorno ao Brasil via (cidade de escala ou trânsito)\" quando for o caso.      \n\n Aos nacionais brasileiros que não possam apresentar a documentação requerida para concessão de passaportes, desde que comprovem sua identidade e nacionalidade brasileiras, poderá ser expedida \"Autorização de Retorno ao Brasil\", válida para a viagem de regresso ao Brasil, limitando-se ao mínimo seu prazo de validade.              \n  \nA ARB será recolhida pelas autoridades responsáveis pelo controle migratório quando da chegada de seu titular ao Brasil.\n\n",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas, [entre em contato com o Posto Consular](https://econsular.itamaraty.gov.br) de sua jurisdição.\n\n",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://econsular.itamaraty.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "ARB",
+        "id": 15287
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 17831,
+        "tipo": "Cidadãos brasileiros e nacionais estrangeiros residentes no Brasil que, estando no exterior e necessitando regressar ao território brasileiro, não preencham os requisitos para a obtenção de passaporte.\n\n",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A ARB será recolhida pelas autoridades do controle migratório quando o titular do documento chegar ao Brasil.\n\n"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/263",
+    "dbId": 37539,
+    "nomeOrgao": "Ministério das Relações Exteriores (MRE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 27941
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Nacionalidade"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ARB",
+        "id": 57876
+      },
+      {
+        "item": "Retorno ao Brasil",
+        "id": 57877
+      },
+      {
+        "item": "Roubo de passaporte",
+        "id": 57878
+      },
+      {
+        "item": "Perda de passaporte",
+        "id": 57879
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 13010
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 260,
+    "negativas": 233
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n ",
+  "etapas": [
+    {
+      "id": 35172,
+      "titulo": "Comparecer ao Posto Consular",
+      "descricao": "Para obter a Autorização de Retorno ao Brasil, é obrigatório comparecer perante a autoridade consular.\n\n A depender do Posto Consular, será necessário agendamento prévio.\n\n [Confira as instruções específicas do Posto Consular de seu interesse.](https://econsular.itamaraty.gov.br)\n\n A emissão de ARB não tem custo para o cidadão.\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 57622,
+            "nome": "Documentação que comprove a identidade.\n\n"
+          }
+        ],
+        "casos": [
+          {
+            "id": 4638,
+            "descricao": "Somente para estrangeiros",
+            "documento": [
+              {
+                "id": 57621,
+                "codigo": null,
+                "descricao": "Comprovação de residência permanente no Brasil.\n\n",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 43096,
+            "tipo": "web",
+            "descricao": "Postos Consulares: [acesse aqui](https://econsular@itamaraty.gov.br) o Posto Consular de seu interesse para solicitar o serviÃ§o.\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "60",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "53",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-autorizacao-de-retorno-ao-brasil",
+  "statusDestaque": false
+}

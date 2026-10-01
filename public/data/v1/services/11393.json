@@ -1,0 +1,181 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11393",
+  "nome": "Matricular-se em cursos de graduação - UFTM",
+  "sigla": "",
+  "descricao": "Solicitação de matrícula pelos aprovados nos processos seletivos para vínculo inicial nos cursos de graduação.",
+  "flagPortalLogado": "N",
+  "contato": "matricula.drca@uftm.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SISU",
+        "id": 107144
+      },
+      {
+        "item": "ENEM",
+        "id": 107145
+      },
+      {
+        "item": "Ingresso",
+        "id": 107146
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90288,
+        "tipo": "Candidatos aprovados dentro do número de vagas, nos processos seletivos para ingresso nos cursos de graduação.",
+        "requisitos": "Para ingresso nas vagas iniciais: ser aprovado no processo seletivo dentro do número de vagas disponíveis, ter concluído o ensino médio. \n\n Para ingresso nas vagas para transferência: ser aprovado no processo seletivo dentro do número de vagas disponíveis, ter vínculo em outro curso de graduação reconhecido e em área afim. \n\n Para ingresso como portador de diploma: ser aprovado no processo seletivo dentro do número de vagas disponíveis, ter concluído curso de graduação reconhecido."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "3",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Requerimento deve ser feito estritamente nos prazos definidos em edital. Após conclusão da matrícula, aluno fica vinculado até concluir o curso, cancelar ou ter a matrícula cancelada administrativamente.\n\n Não será possível finalizar a solicitação de matrícula após o encerramento do prazo previsto na convocação. No horário definido para encerramento da chamada, o sistema é automaticamente bloqueado."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/459",
+    "dbId": 57791,
+    "nomeOrgao": "Universidade Federal do Triângulo Mineiro (UFTM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 149386
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 357995
+      },
+      {
+        "item": "Graduação",
+        "id": 357996
+      },
+      {
+        "item": "UFTM",
+        "id": 357997
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "https://www.planalto.gov.br/ccivil\\_03/leis/l9394.htm\n\n https://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2012/lei/l12711.htm\n\n https://www.planalto.gov.br/ccivil\\_03/\\_ato2015-2018/2016/lei/l13409.htm\n\n https://www.planalto.gov.br/ccivil\\_03/\\_ato2023-2026/2023/lei/l14723.htm\n\n https://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2012/decreto/d7824.htm",
+        "id": 124698
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 24,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 209210,
+      "titulo": "Requerer a matrícula via sistema e fazer upload dos documentos digitalizados no sistema.",
+      "descricao": "Preenchimento de cadastro com dados pessoais e de conclusão do ensino médio ou conclusão de graduação anterior (para Portadores de Diploma) e carregamento da documentação digitalizada no sistema.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282882,
+            "nome": "Documentos obrigatórios: Histórico e Certificado de Conclusão do Ensino Médio, RG, CPF, Certidão de Nascimento ou Casamento, Certidão de Quitação Eleitoral, comprovante de endereço e foto recente. Conforme o caso, podem ser exigidos documentos adicionais, como históricos e diplomas de cursos anteriores, parecer de equivalência, laudos, declarações e comprovantes específicos previstos em edital."
+          }
+        ],
+        "casos": [
+          {
+            "id": 43338,
+            "descricao": "Procedimento INTERNO de análise da documentação e conferência de cadastro",
+            "documento": [
+              {
+                "id": 282881,
+                "codigo": null,
+                "descricao": "Analisar se os documentos enviados estão de acordo com o exigido, conferir o cadastro de dados e realizar as correções cadastrais.  \nEm caso de documentação errada ou incompleta, devolver o requerimento, via sistema, para o candidato fazer as correções.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271836,
+            "tipo": "web",
+            "descricao": "SISU: [Acesse o site](http://uftm.edu.br/graduacao/uberaba/sisu)   \nTransferência: [Acesse o site](http://uftm.edu.br/graduacao/uberaba/transferencia)   \nPortador de diploma: [Acesse o site](http://uftm.edu.br/graduacao/uberaba/portador-de-diploma)   \nReoferta de vagas iniciais, LECampo, Refugiados: [Acesse o site](http://uftm.edu.br/graduacao/uberaba/outros-ingressos)  \nPedagogia, Banco de Dados e Matemática Ead Semipresencial: [Acesse o site](https://www.uftm.edu.br/graduacao/ead)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "71",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-nos-cursos-de-graduacao",
+  "statusDestaque": false
+}

@@ -1,0 +1,299 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10753",
+  "nome": "Obter autorização ou modificação de projeto de Sistema de Aeronave Remotamente Pilotada",
+  "sigla": "RPAS",
+  "descricao": "É o serviço pelo qual a ANAC autoriza um projeto, ou a modificação de um projeto, de Sistema de Aeronave Remotamente Pilotada (RPAS) Classe 3 para Operações Além da Linha de Visada Visual (BVLOS) ou acima de 400 pés ou Classe 2 para qualquer tipo de operação, com o objetivo de confirmar o cumprimento dos requisitos técnicos.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 87262
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74829,
+        "tipo": "Pessoa Física ou Jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "90",
+      "max": "730",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 90,
+    "max": 730
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121183
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121184
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificação",
+        "id": 294262
+      },
+      {
+        "item": "Drone",
+        "id": 294263
+      },
+      {
+        "item": "BVLOS",
+        "id": 294264
+      },
+      {
+        "item": "Classe 2",
+        "id": 294265
+      },
+      {
+        "item": "RPAS",
+        "id": 294266
+      },
+      {
+        "item": "UA ",
+        "id": 294267
+      },
+      {
+        "item": "",
+        "id": 294268
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC-E nº 94  \n](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94-emd-01)",
+        "id": 100093
+      },
+      {
+        "item": "[IS nº E94-001](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-e94-001)",
+        "id": 100094
+      },
+      {
+        "item": "[IS nº E94-002](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-94-002)",
+        "id": 100095
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 169152,
+      "titulo": "Submeter Requerimento",
+      "descricao": "O requerente deve protocolar o peticionamento de autorização ou de modificação de projeto de RPAS.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 37227,
+            "descricao": "Caso seja pedido autorização de projeto",
+            "documento": [
+              {
+                "id": 234858,
+                "codigo": null,
+                "descricao": "[Formulário F-101-60 “Pedido de Autorização de Projeto”](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=101-60&Rev=/)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234859,
+                "codigo": null,
+                "descricao": "[Plano de Trabalho - Modelo ](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=101-10&Rev=/)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37228,
+            "descricao": "Caso seja pedido de modificação de projeto",
+            "documento": [
+              {
+                "id": 234860,
+                "codigo": null,
+                "descricao": "[Formulário F-101-50](https://sistemas.anac.gov.br/certificacao/Form/FormDetail.asp?Form=101-50&Rev=/) “Pedido de Modificação de Projeto Autorizado”.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221689,
+            "tipo": "web",
+            "descricao": "O requerente deve encaminhar a documentação por meio do [Protocolo Eletrônico](https://www.gov.br/../../../../../../anac/pt-br/sistemas/protocolo-eletronico-sei).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 221690,
+            "tipo": "postal",
+            "descricao": "O requerente também pode encaminhar documentação via postal para o endereço, Rua Dr. Orlando Feirabend Filho, 230 - Centro Empresarial Aquarius - Torre B - Andares 14 a 18, Parque Residencial Aquarius, São José dos Campos/SP - CEP 12.246-190.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169153,
+      "titulo": "Solucionar eventuais pendências documentais",
+      "descricao": "Após a análise do plano de trabalho e demais documentos técnicos recebidos, esclarecimentos adicionais podem ser solicitados para fins de entendimento do projeto, bem como para demonstrar cumprimento com os RBACs aplicáveis. Esta etapa é interativa com a agência até que tenham sido sanadas todas as pendências técnicas por ventura identificadas durante a análise da documentação apresentada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221691,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://www.gov.br/../../../../../../anac/pt-br/sistemas/protocolo-eletronico-sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169154,
+      "titulo": "Receber a autorização do projeto ou da modificação do projeto",
+      "descricao": "O requerente receberá um ofício de autorização do projeto ou da modificação do projeto por e-mail enviado pelo Protocolo Eletrônico e uma folha de especificações do projeto autorizado (DADS) é publicado no sítio eletrônico da agência.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221692,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://www.gov.br/../../../../../../anac/pt-br/sistemas/protocolo-eletronico-sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "730",
+  "percentualAvaliacoesPositivas": "69",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-de-projeto-de-sistema-de-aeronave-remotamente-pilotada-rpas",
+  "statusDestaque": false
+}

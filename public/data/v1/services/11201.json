@@ -1,0 +1,206 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11201",
+  "nome": "Obter serviços e/ou disponibilização de energia elétrica para instalação elétrica em alta, média e baixa tensão",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá solicitar a disponibilização de ponto(s) de energia elétrica em alta, média e baixa tensão, conforme a necessidade do usuário (arrendatários, empresas terceirizadas, construtoras, entre outros) mediante conveniência e/ou viabilidade técnica da Autoridade Portuária de Santos para o atendimento.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Saneamento Básico, Energia e Conservação\n\n Telefone: (13) 3202-6565 - Ramais 2556 e 2024\n\n Gerência de Contratos de Arrendamento\n\n Telefone: (13) 3202-6565 - Ramal 2347",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128231
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107366,
+        "tipo": "Empresas (arrendatários, empresas terceirizadas, construtoras, entre outros) que necessitem do serviço.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179367
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infraestrutura"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "infraestrutura ",
+        "id": 427391
+      },
+      {
+        "item": "elétrica ",
+        "id": 427392
+      },
+      {
+        "item": "instalação",
+        "id": 427393
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Tarifa Portuária do Porto de Santos](http://www.portodesantos.com.br/informacoes-operacionais/operacoes-portuarias/tarifas-portuarias/)",
+        "id": 153745
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250775,
+      "titulo": "Solicitar serviço",
+      "descricao": "O interessado deve encaminhar solicitação, via Protocolo Digital, à Diretoria de Infraestrutura.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325746,
+            "nome": "I. Memorial descritivo; II. Levantamento de cargas; III. Diagramas unifilares; IV. Quadro de cargas elétricas; V. Estudo de fator de potência da instalação; VI. Demanda máxima prevista (em kVA); VII. Projeto de padrão de entrada; VIII. Layout das instalações e planta de situação/localização, com as rotas dos trajetos dos cabos e eventuais escavações necessárias; e IX. Anotação de Responsabilidade Técnica (ART) Termo de Responsabilidade Técnica (TRT), conforme o caso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41888,
+            "descricao": "Custo Portuário, conforme item 4.5, da Tabela IX da Tarifa Portuária do Porto de Santos",
+            "moeda": "R$",
+            "valor": " 299,04",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324121,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](http://protocolo.portodesantos.com.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250776,
+      "titulo": "Obter parecer para execução do serviço",
+      "descricao": "Após análise, o solicitante será contatado e informado dos aspectos necessários para sua solicitação (interferências diversas, programação de desligamentos na subestação relativo a outros usuários afetados, entre outros), sendo o solicitante responsável pela infraestrutura até o ponto de fornecimento de energia elétrica indicado, ficando a cargo da Autoridade Portuária de Santos as intervenções e/ou conexões que necessitem ser realizadas nas instalações elétricas sob sua responsabilidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324122,
+            "tipo": "e-mail",
+            "descricao": "Será encaminhada resposta, por e-mail, ao interessado pela Gerência de Saneamento Básico, Energia e Conservação ou Gerência de Contratos de Arrendamento, conforme o caso. (comunicação aos arrendatários)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "45",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 45
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-servicos-e-ou-disponibilizacao-de-energia-eletrica-para-instalacao-eletrica-em-alta-media-e-baixa-tensao",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

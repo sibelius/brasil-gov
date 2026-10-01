@@ -1,0 +1,186 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12489",
+  "nome": "Solicitar prorrogação do prazo do Recibo de Recolhimento de Documento da PRF",
+  "sigla": "RRD",
+  "descricao": "Através deste serviço o condutor/proprietário pode solicitar a prorrogação de prazo descrito no RRD, quando julgar que o prazo concedido inicialmente não é suficiente para sanar a irregularidade. A solicitação deve ser feita antes do vencimento do prazo constante no RRD.",
+  "flagPortalLogado": "N",
+  "contato": "Presencialmente em qualquer Delegacia PRF (endereços disponíveis em [Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf)).",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 101968
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 86200,
+        "tipo": "Condutor",
+        "requisitos": "Indicado no momento da abordagem conforme Recibo de Recolhimento de Documento e Maior de idade."
+      },
+      {
+        "id": 86201,
+        "tipo": "Proprietário do veículo",
+        "requisitos": "Entende-se por proprietário do veículo a pessoa cadastrada nos sistemas dos Órgãos Executivos de Trânsito de registro do veículo."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704",
+    "dbId": 26268,
+    "nomeOrgao": "Polícia Rodoviária Federal (PRF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 142105
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Infrações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Retenção administrativa",
+        "id": 342189
+      },
+      {
+        "item": "CRLV",
+        "id": 342190
+      },
+      {
+        "item": "Multa",
+        "id": 342191
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 9.503](http://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm), de 23 de setembro de 1997 e suas alterações.",
+        "id": 118853
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 24,
+    "negativas": 63
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 198507,
+      "titulo": "Entregar solicitação de prorrogação de prazo",
+      "descricao": "Entregar requerimento de prorrogação de prazo de RRD, antes do vencimento do prazo constante no RRD, em qualquer Delegacia PRF.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 271401,
+            "nome": "Documento de identificação com foto do requerente"
+          },
+          {
+            "id": 271402,
+            "nome": "Documento do veículo objeto do RRD"
+          },
+          {
+            "id": 271403,
+            "nome": "Requerimento de prorrogação de prazo preenchido, contendo e-mail e telefone para contato."
+          },
+          {
+            "id": 271404,
+            "nome": "Documentos que comprovem a necessidade de prorrogação e prazo (opcional)"
+          }
+        ],
+        "casos": [
+          {
+            "id": 41902,
+            "descricao": "Procurador legal",
+            "documento": [
+              {
+                "id": 271400,
+                "codigo": null,
+                "descricao": "Caso compareça a unidade PRF o procurador legal do proprietário ou do condutor, também será exigida a Procuração Pública ou Procuração Particular com firma reconhecida perante órgãos públicos, na forma do Art. 654, §1º do Código Civil. e documento de identificação com foto do procurador.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258724,
+            "tipo": "presencial",
+            "descricao": "Qualquer Delegacia PRF (endereços disponíveis em [Unidades PRF](https://www.gov.br/prf/pt-br/canais-de-atendimento/unidades-prf))",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "28",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-prorrogacao-do-prazo-do-recibo-de-recolhimento-de-documento-da-prf-rrd",
+  "statusDestaque": false
+}

@@ -1,0 +1,228 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6013",
+  "nome": "Matricular-se em curso de graduação - UFPE",
+  "sigla": "",
+  "descricao": "Serviço oferecido pela Universidade Federal de Pernambuco (UFPE). Procedimento utilizado pelo candidato selecionado em processo seletivo para ingressar em curso de graduação para o qual foi convocado, mediante entrega de documentos comprobatórios e certificação de pré-requisitos.",
+  "flagPortalLogado": "N",
+  "contato": "Pró-reitoria de Graduação - (81) 2126.8611 - sisu@ufpe.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 109131
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91774,
+        "tipo": "Cidadãos brasileiros e Estrangeiros na forma da Lei",
+        "requisitos": "Ter concluído o Ensino Médio e ter sido classificado em processo seletivo para ingresso em cursos de graduação na Universidade Federal de Pernambuco (UFPE)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/418",
+    "dbId": 57772,
+    "nomeOrgao": "Universidade Federal de Pernambuco (UFPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 152172
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Educação. ",
+        "id": 364265
+      },
+      {
+        "item": "Ensino, ",
+        "id": 364266
+      },
+      {
+        "item": "Graduação",
+        "id": 364267
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 126654
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 20,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n   + Urbanidade; \n     + Respeito; \n     + Acessibilidade; \n     + Cortesia; \n     + Presunção da boa-fé do usuário; \n     + Igualdade; \n     + Eficiência; \n     + Segurança; e \n     + Ética.",
+  "etapas": [
+    {
+      "id": 212796,
+      "titulo": "Consultar Edital de Matrícula",
+      "descricao": "Consulta o edital do processo seletivo seja o SISU ou um processo realizado pela UFPE.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276557,
+            "tipo": "web-consultar",
+            "descricao": "Processo de Vestibular da UFPE: [ Consultar](https://www.ufpe.br/formas-de-ingresso/vestibular-ufpe)\n\n Procese seletivo do SISU UFPE: [ Consultar](https://sisu.ufpe.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 212797,
+      "titulo": "Entregar os documentos exigidos em Edital",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 286951,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 286952,
+            "nome": "Certidão de casamento ou Certidão de nascimento"
+          },
+          {
+            "id": 286953,
+            "nome": "Histório de conclusão do ensino médio"
+          },
+          {
+            "id": 286954,
+            "nome": "Certificado de conclusão do ensino médio ou equivalente"
+          },
+          {
+            "id": 286955,
+            "nome": "Comprovante de renda (caso seja da cota)"
+          },
+          {
+            "id": 286956,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 286957,
+            "nome": "CPF"
+          },
+          {
+            "id": 286958,
+            "nome": "Procuração do representante legal (caso se aplique)"
+          },
+          {
+            "id": 286959,
+            "nome": "Certidão de quitação militar (caso masculino maior de 18 anos)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276558,
+            "tipo": "web-preencher",
+            "descricao": "O formulário de inscrição de cada processo seletivo encontra-se no respectivo edital.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "77",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufpe",
+  "statusDestaque": false
+}

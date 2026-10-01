@@ -1,0 +1,600 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10416",
+  "nome": "Atualizar CPF",
+  "sigla": "",
+  "descricao": "Solicite a atualização das informações no seu Cadastro de Pessoas Físicas (CPF) ou a regularização da inscrição que se encontra na situação \"**Suspensa**\".\n\n A situação \"**Suspensa**\" significa que o cadastro está incorreto ou incompleto e não há pendência de entrega de declarações. Para resolver, atualize as suas informações pessoais no CPF.\n\n A situação \"**Pendente de Regularização**\" significa que você deixou de entregar alguma Declaração de Imposto de Renda (DIRPF) nos últimos cinco anos. Para regularizar o CPF neste caso, basta entregar as declarações que estiverem faltando. Consulte a suas dívidas e pendências para saber quais declarações precisam ser enviadas.\n\n **Atenção!! **Brasileiros e estrangeiros: A atualização do CPF é **gratuita**, exceto quando realizada em  unidades conveniadas (neste caso será cobrado uma taxa de  R$ 7,00). Não são necessários intermediários. \n\n **Atenção!!** As pessoas que já possuem a **Carteira de Identidade Nacional (CIN)** devem solicitar a alteração de dados no CPF ao **Órgão de Identificação Civil (OIC)**. A exceção são os casos que envolvem apenas informações de contato, endereço, cadastros externos ou situação cadastral, que não afetam a identidade civil do cidadão. Nessas situações, a atualização deve ser feita diretamente na Receita Federal.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)\n\n [Orientações sobre CPF](https://gov.br/receitafederal/pt-br/assuntos/meu-cpf)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Alterar CPF",
+        "id": 127943
+      },
+      {
+        "item": "Regularizar CPF",
+        "id": 127944
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107095,
+        "tipo": "Pessoa inscrita no Cadastro de Pessoas Físicas (CPF).",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178961
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pessoa Física (CPF)"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CPF",
+        "id": 426524
+      },
+      {
+        "item": "Alterar",
+        "id": 426525
+      },
+      {
+        "item": "Atualizar",
+        "id": 426526
+      },
+      {
+        "item": "Cartão CPF",
+        "id": 426527
+      },
+      {
+        "item": "Corrigir",
+        "id": 426528
+      },
+      {
+        "item": "Regularizar",
+        "id": 426529
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.172/2024](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=135611 \"\\\"\")",
+        "id": 153477
+      },
+      {
+        "item": "[Lei nº 14.534/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14534.htm)",
+        "id": 153478
+      },
+      {
+        "item": "[Lei nº 7.116/1983](https://www.planalto.gov.br/ccivil_03/leis/1980-1988/l7116.htm)",
+        "id": 153479
+      },
+      {
+        "item": "[Decreto nº 10.977/2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d10977.htm)",
+        "id": 153480
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 58605,
+    "negativas": 86606
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250115,
+      "titulo": "Solicitar alteração ou regularização",
+      "descricao": "Se você já possui a CIN (Carteira de Identidade Nacional), as alterações de dados devem ser solicitadas ao Órgão de Identificação Civil (OIC), **exceto** quando se referirem apenas à atualização de contato, endereço ou à regularização cadastral, que devem ser feitas na Receita Federal.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325328,
+            "nome": "Documento de identificação oficial com foto do interessado;"
+          }
+        ],
+        "casos": [
+          {
+            "id": 49405,
+            "descricao": "Se os documentos forem enviados por e-mail",
+            "documento": [
+              {
+                "id": 325327,
+                "codigo": null,
+                "descricao": "Foto do solicitante segurando seu documento de identificação oficial com foto próximo ao rosto, em que o documento apareça completo, com imagem nítida que possibilite reconhecer que o documento da foto é o mesmo apresentado para atendimento. Não sendo possível exibir o documento completo, serão necessárias duas fotos, uma com a frente e outra com o verso do documento de identificação. \n\n Documentos adicionais poderão se solicitados pelo atendente.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [],
+        "casos": [
+          {
+            "id": 49406,
+            "descricao": "Somente no atendimento em unidades conveniadas",
+            "custo": [
+              {
+                "id": 41721,
+                "descricao": "Tarifa",
+                "moeda": "R$",
+                "valor": " 7,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323258,
+            "tipo": "web-preencher",
+            "descricao": "[Alterar dados cadastrais no CPF](https://servicos.receita.fazenda.gov.br/Servicos/CPF/alterar/default.asp), se a situação for **regular**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323259,
+            "tipo": "web-preencher",
+            "descricao": "[Regularizar CPF](https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp), se a situações for **suspenso**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323260,
+            "tipo": "web-preencher",
+            "descricao": "[Complementar Meu CPF](https://cav.receita.fazenda.gov.br/autenticacao/login/index/16)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323261,
+            "tipo": "web-preencher",
+            "descricao": "[Alterar Meu EndereÃ§o no CPF](https://cav.receita.fazenda.gov.br/autenticacao/login/index/17)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323262,
+            "tipo": "e-mail",
+            "descricao": "[Atendimento por e-mail](https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf/envio-de-documentos-por-e-mail/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323263,
+            "tipo": "presencial",
+            "descricao": "[Locais de atendimento](https://www.gov.br/receitafederal/pt-br/canais_atendimento/fale-conosco/presencial)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 49407,
+            "descricao": "Para residentes no exterior",
+            "canalDePrestacao": [
+              {
+                "id": 323256,
+                "tipo": "web",
+                "descricao": "[Atualizar CPF de residentes no exterior](https://servicos.receita.fazenda.gov.br/Servicos/CPF/cpfEstrangeiro/Fcpf.asp)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          },
+          {
+            "id": 49408,
+            "descricao": "Em unidades conveniadas - custo R$ 7,00",
+            "canalDePrestacao": [
+              {
+                "id": 323257,
+                "tipo": "presencial",
+                "descricao": "* [Cartório de Registro Civil de Pessoas Naturais](https://registrocivil.org.br/search-registry/);\n * Banco do Brasil;\n * Caixa Econômica Federal; ou\n * Correios.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 15,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250116,
+      "titulo": "Apresentar documentos",
+      "descricao": "Se após o preenchimento do formulário eletrônico ou atendimento por entidade conveniada for emitido um** protocolo de atendimento**, apresente os documentos abaixo à Receita Federal ou ao consulado brasileiro para os residentes no exterior, para finalizar o serviço.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325344,
+            "nome": "Documento de identidade oficial com foto;"
+          },
+          {
+            "id": 325345,
+            "nome": "Certidão de Nascimento ou Certidão de Casamento (ou documento equivalente para estrangeiros), caso não conste no documento de identificação oficial com foto apresentado a naturalidade, a filiação e a data de nascimento; e"
+          },
+          {
+            "id": 325346,
+            "nome": "Foto do requerente segurando seu documento de identificação oficial com foto próximo ao rosto, em que o documento apareça completo, com imagem nítida que possibilite reconhecer que o documento da foto é o mesmo apresentado para atendimento"
+          },
+          {
+            "id": 325347,
+            "nome": "Documentos adicionais poderão ser solicitados pelo atendente."
+          }
+        ],
+        "casos": [
+          {
+            "id": 49409,
+            "descricao": "Pessoa com 16 (dezesseis) ou 17 (dezessete) anos",
+            "documento": [
+              {
+                "id": 325329,
+                "codigo": null,
+                "descricao": "Se o requerente for a própria pessoa: documento de identificação oficial com foto;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325330,
+                "codigo": null,
+                "descricao": "Se o requerente for um dos pais, tutor ou guardião: certidão de nascimento ou documento de identificação oficial com foto do menor, e documento de identificação oficial com foto do requerente (um dos pais, tutor ou responsável pela guarda);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325331,
+                "codigo": null,
+                "descricao": "Documento que comprove tutela ou responsabilidade pela guarda, conforme o caso.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49410,
+            "descricao": "Pessoa com menos de 16 (dezesseis) anos, tutelada ou sujeita à guarda",
+            "documento": [
+              {
+                "id": 325332,
+                "codigo": null,
+                "descricao": "Certidão de Nascimento ou documento de identificação oficial com foto do menor, que comprove naturalidade (para estrangeiros, a nacionalidade), filiação e data de nascimento;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325333,
+                "codigo": null,
+                "descricao": "Documento de identificação oficial com foto do requerente (um dos pais, tutor, ou responsável pela guarda);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325334,
+                "codigo": null,
+                "descricao": "Documento que comprove tutela ou responsabilidade pela guarda, conforme o caso.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49411,
+            "descricao": "Pessoa com deficiência com 18 (dezoito) anos de idade ou mais",
+            "documento": [
+              {
+                "id": 325335,
+                "codigo": null,
+                "descricao": "Se o solicitante for a própria pessoa ou procurador: documento de identificação oficial com foto da pessoa;;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325336,
+                "codigo": null,
+                "descricao": "Se o solicitante for cônjuge, companheiro, ascendente, descendente ou parente colateral até o 3º (terceiro) grau: laudo médico atestando a deficiência e Certidão de Nascimento, Certidão de Casamento, ou documento de identificação oficial com foto da pessoa e do requerente, bem como documento que comprove o parentesco, o vínculo matrimonial ou de união estável;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325337,
+                "codigo": null,
+                "descricao": "Se o solicitante for o curador: termo de curatela e Certidão de Nascimento, Certidão de Casamento ou documento de identificação oficial com foto da pessoa e do requerente.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49412,
+            "descricao": "Pessoa falecida",
+            "documento": [
+              {
+                "id": 325338,
+                "codigo": null,
+                "descricao": "Certidão de Óbito ou Certidão de Nascimento ou Certidão de Casamento (ou documentos equivalentes, para estrangeiros) em que conste a averbação da data do óbito;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325339,
+                "codigo": null,
+                "descricao": "Documento de identificação com foto, Certidão de Nascimento ou Certidão de Casamento da pessoa falecida, caso não constem a data de nascimento, naturalidade (para estrangeiros, a nacionalidade) e filiação na Certidão de Óbito;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325340,
+                "codigo": null,
+                "descricao": "Documento que comprove a legitimidade do requerente. Para o caso de beneficiário de pensão previdenciária por morte, documentação do órgão previdenciário que comprove ser beneficiário do falecido;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325341,
+                "codigo": null,
+                "descricao": "<p\">Documento de identificação oficial com foto do requerente;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 325342,
+                "codigo": null,
+                "descricao": "Documento que a justifique a inscrição.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 49413,
+            "descricao": "Se os documentos forem enviados por e-mail",
+            "documento": [
+              {
+                "id": 325343,
+                "codigo": null,
+                "descricao": "Foto do solicitante segurando seu documento de identificação oficial com foto próximo ao rosto*,* em que o documento apareça completo, com imagem nítida que possibilite reconhecer que o documento da foto é o mesmo apresentado para atendimento. Não sendo possível exibir o documento completo, serão necessárias duas fotos, uma com a frente e outra com o verso do documento de identificação.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323264,
+            "tipo": "e-mail",
+            "descricao": "[Atendimento por e-mail](https://www.gov.br/../../receitafederal/pt-br/assuntos/meu-cpf/envio-de-documentos-por-e-mail/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323265,
+            "tipo": "presencial",
+            "descricao": "[Agendar horário na Receita Federal](https://www.gov.br/../../receitafederal/pt-br/canais_atendimento/atendimento-presencial/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323266,
+            "tipo": "presencial",
+            "descricao": "[Atendimento presencial para residentes no exterior](https://econsular.itamaraty.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250117,
+      "titulo": "Acompanhar o andamento do pedido",
+      "descricao": "Se você enviou os documentos da 2ª etapa por e-mail, acompanhe o andamento do pedido a partir do número de protocolo de atendimento gerado na 1ª etapa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323267,
+            "tipo": "web",
+            "descricao": "[Consultar andamento do pedido](https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaAndamento/ConsultaAndamento.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250118,
+      "titulo": "Consultar CPF",
+      "descricao": "Consulte a situação cadastral ou as informações no seu CPF.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323268,
+            "tipo": "web",
+            "descricao": "[Consultar situação cadastral no CPF](https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 323269,
+            "tipo": "web",
+            "descricao": "[Consultar Informações do CPF](https://cav.receita.fazenda.gov.br/autenticacao/login/index/15)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10418",
+      "nome": "Consultar Cadastro de Pessoa Física (CPF) na Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10424",
+      "nome": "Obter Cartão de CPF"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10420",
+      "nome": "Inscrever Cidadão no Cadastro de Pessoas Físicas (CPF)"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/atualizar-cadastro-de-pessoas-fisicas",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

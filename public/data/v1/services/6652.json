@@ -1,0 +1,250 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6652",
+  "nome": "Obter Assistência Estudantil - UFPA",
+  "sigla": "",
+  "descricao": "Alunos de graduação e pós-graduação que vivam em situação familiar de baixa renda podem receber auxílio para ter condições de continuar com seus estudos. Se este é seu caso, você pode obter Assistência Estudantil através deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Superintendência de Assistência Estudantil - 913201-8095 - josemaia@ufpa.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Bolsa Permanência",
+        "id": 51197
+      },
+      {
+        "item": "Auxílio Permanência",
+        "id": 51198
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 47579,
+        "tipo": "Cidadãos, Estrangeiros",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/415",
+    "dbId": 57784,
+    "nomeOrgao": "Universidade Federal do Pará (UFPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 75539
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Assistência",
+        "id": 177939
+      },
+      {
+        "item": "Auxílio",
+        "id": 177940
+      },
+      {
+        "item": "Baixa-Renda",
+        "id": 177941
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 56662
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 17,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 102386,
+      "titulo": "Inscrever-se no cadastro",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 145187,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 145188,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 145189,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 145190,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 145191,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 145192,
+            "nome": "Certidões da Receita Federal"
+          },
+          {
+            "id": 145193,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 145194,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 145195,
+            "nome": "CPF"
+          },
+          {
+            "id": 145196,
+            "nome": "NIS"
+          },
+          {
+            "id": 145197,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 145198,
+            "nome": "Documentação referente à condição socieconômica"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 130997,
+            "tipo": "e-mail",
+            "descricao": "http://proex.ufpa.br/sigaest/admin/login.php",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 102387,
+      "titulo": "Realizar entrevista, quando for o caso.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 145199,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 145200,
+            "nome": "Carteira de identidade de estrangeiro"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 130998,
+            "tipo": "e-mail",
+            "descricao": "Endereço d e e-mail do usuário",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "89",
+  "url": "https://www.gov.br/pt-br/servicos/obter-assistencia-estudantil-ufpa",
+  "statusDestaque": false
+}

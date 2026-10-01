@@ -1,0 +1,226 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10669",
+  "nome": "Consultar Intimação para Pagamento e Débito Confessado em GFIP",
+  "sigla": "DCG/Debcad",
+  "descricao": "Consulte as Divergências GFIP x GPS, que são as diferenças entre os valores devidos de contribuições previdenciárias declaradas na Guia de Recolhimento do FGTS e Informações à Previdência Social (GFIP) e os valores pagos via Guia da Previdência Social (GPS).\n\n As diferenças podem acontecer por erro no preenchimento da GFIP ou da GPS.\n\n Através deste serviço você poderá:\n\n  * Emitir GPS para pagar os valores devidos mostrados em Intimação para Pagamento (IP).\n * Consultar detalhes das diferenças apontadas na Intimação para Pagamento (IP) ou Débito Confessado em GFIP (DCG/Debcad); e\n * Emitir relatórios detalhados das diferenças incluídas na IP ou DCG/Debcad.",
+  "flagPortalLogado": "N",
+  "contato": "[Orientações Gerais](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cobrancas-e-intimacoes/intimacao-para-pagamento-de-valores-declarados-em-gfip-e-nao-recolhidos-em-gps)\n\n [Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://kitldcg.receita.fazenda.gov.br/index.htm",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122791
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102643,
+        "tipo": "Contribuinte ou seu representante legal",
+        "requisitos": "Ter recebido uma Intimação para Pagamento (IP) de contribuições previdenciárias devidas ou Débito Confessado em GFIP (DCG)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171545
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171546
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171547
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171548
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "GFIP",
+        "id": 408563
+      },
+      {
+        "item": "DCG",
+        "id": 408564
+      },
+      {
+        "item": "LDCG",
+        "id": 408565
+      },
+      {
+        "item": "DEBCAD",
+        "id": 408566
+      },
+      {
+        "item": "Débito previdenciário",
+        "id": 408567
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.110/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=126687#2379545)",
+        "id": 147505
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 365,
+    "negativas": 1245
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239431,
+      "titulo": "Consultar Intimação para Pagamento (IP) e Emitir GPS",
+      "descricao": "Consulte as diferenças apuradas entre as informações declaradas na GFIP e os valores pagos via GPS referente as competências constantes da Intimação para Pagamento (IP) recebida. Também disponibiliza as GPS para o pagamento.\n\n Acesse o sistema e informe:\n\n  * O número de Intimação para Pagamento (IP);\n * CNPJ/CEI do contribuinte.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309080,
+            "tipo": "web",
+            "descricao": "[Consulta Intimação para Pagamento (IP) e Emitir GPS](http://kitldcg.receita.fazenda.gov.br/index.htm)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239432,
+      "titulo": "Emitir Relatórios para Intimação para Pagamento (IP) e/ou DCG",
+      "descricao": "A consulta fornece relatórios de IP recebida ou de Débito Confessado em GFIP (DCG/Debcad). Os relatórios contêm informações sobre as diferenças entre as informações declaradas na GFIP e os valores pagos via GPS - Divergência GFIP x GPS.\n\n Acesse o sistema e informe:\n\n  * CNPJ/CEI do contribuinte;\n * Intimação para Pagamento (IP) ou\n * Débito Confessado em GFIP (DCG/Debcad).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309081,
+            "tipo": "web",
+            "descricao": "[Consultar DÃ­vidas de GFIP](http://kitldcg.receita.fazenda.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10690",
+      "nome": "Consultar dívidas e pendências fiscais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10770",
+      "nome": "Consultar comunicações de cobrança da Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10673",
+      "nome": "Consultar inclusão no Cadin pela Receita Federal"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13494",
+      "nome": "Revisar Dívida Confessada em GFIP‎"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "23",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-detalhamento-de-debitos-declarados-em-gfip",
+  "statusDestaque": false
+}

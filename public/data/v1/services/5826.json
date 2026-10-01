@@ -1,0 +1,210 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5826",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UFES",
+  "sigla": "",
+  "descricao": "Solicitação e obtenção de Segunda Via de Diploma de Curso de Graduação UFES (documento físico).\n\n Para o Diploma digital, não há Segunda Via.",
+  "flagPortalLogado": "N",
+  "contato": "cerd.prograd@ufes.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://atendimento.ufes.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 43508
+      },
+      {
+        "item": "Segunda Via de Diploma",
+        "id": 43509
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 40685,
+        "tipo": "Egressos formados de Cursos de Graduação oferecidos pela UFES.",
+        "requisitos": "* Ter formado em Curso de Graduação oferecido pela UFES;\n * Ter obtido a Primeira Via do Diploma;"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425",
+    "dbId": 57779,
+    "nomeOrgao": "Universidade Federal do Espírito Santo (UFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 65756
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "diploma",
+        "id": 150871
+      },
+      {
+        "item": "segunda via",
+        "id": 150872
+      },
+      {
+        "item": "certificado",
+        "id": 150873
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 47484
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 87478,
+      "titulo": "Solicitar a 2ª via do diploma",
+      "descricao": "Acesse: https://prograd.ufes.br/solicitacao",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 124210,
+            "nome": "* Certidão de nascimento ou casamento; ***[cópia]***\n * Documento de identificação com foto (RG/CTPS/CNH/Identidade profissional ou militar); ***[original]***\n * Comprovante de quitação com as obrigações militares (para homens); ***[original]***\n * Comprovante de quitação com as obrigações eleitorais;*** [original]***\n * GRU e comprovante de pagamento do GRU."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 12962,
+            "descricao": "Pagamento de GRU",
+            "moeda": "R$",
+            "valor": " 69,10",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111809,
+            "tipo": "web",
+            "descricao": "A Segunda Vida do diploma deve ser solicitada via [Acesse o site](https://www.gov.br/atendimento.ufes.br), por meio da abertura de ticket.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 87479,
+      "titulo": "Obter a 2ª via do diploma",
+      "descricao": "Após a confecção do diploma, o solicitante deve retirá-lo pessoalmente no guichê de atendimento da Pró-Reitoria de Graduação - Prograd.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 124211,
+            "nome": "Documento de identificação com foto (RG/CTPS/CNH/Identidade profissional ou militar) original."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111810,
+            "tipo": "presencial",
+            "descricao": "Após a confecção do diploma, o solicitante deve retirá-lo pessoalmente no guichê de atendimento da Pró-Reitoria de Graduação - Prograd.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "4",
+          "unidade": "meses"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 4
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-ufes",
+  "statusDestaque": false
+}

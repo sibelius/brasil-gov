@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12372",
+  "nome": "Obter levantamento de Suspensão de Credencial no Sistema De Segurança Pública Portuária - SSPP",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, é possível solicitar o levantamento de suspensão de credencial quando houver falta de uso.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Planejamento da Unidade de Segurança\n\n Telefones: (13) 3202-6565 - Ramais 2070, 2239, 2546, 2570, 2123, 2277.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128228
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107363,
+        "tipo": "Empresas credenciadas no Sistema de Segurança Pública Portuária",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "7",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179364
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Licenças"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Levantamento",
+        "id": 427382
+      },
+      {
+        "item": "Credenciamento",
+        "id": 427383
+      },
+      {
+        "item": "Reativação",
+        "id": 427384
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Plano de Segurança Pública Portuária do Porto de Santos (PSPP)\n\n [Portaria ALF/STS nº 200/2011](http://sspp.brssz.com.br/asp/downloads/arquivos/Portaria_200_Alf_Stos_13abr11.pdf \"Portaria ALF/STS nº 200/2011\")\n\n [NAP.SUPGP.OPR.003/2023](https://intranet.portodesantos.com.br/docs_codesp/doc_codesp_pdf_site.asp?id=140131)\n\n [Manual do Sistema –Solicitações Online](http://sspp.brssz.com.br/asp/downloads/arquivos/Manual%20do%20Usu%C3%A1rio%20-%20Solicita%C3%A7%C3%B5es%20Online%20Credenciamento.pdf)",
+        "id": 153742
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048/00](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm \"Lei nº 10.048/00\").",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250768,
+      "titulo": "Solicitar levantamento",
+      "descricao": "A empresa que tiver funcionário/veículo com a credencial suspensa por conta de falta de uso no período de 365 dias, ou mais, deve encaminhar, via Portal do Cliente e Fornecedor, a requisição de levantamento de suspensão.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325742,
+            "nome": "Comprovante ou justificativa de acesso do veículo ou pessoa à área restrita;\n\n Pessoas: RG e CPF ou CNH (obrigatória para motoristas) e comprovante de residência;\n\n Veículos: Certificado de Registro e Licenciamento do Veículo (CRLV), ANTT (para veículos transportadores de cargas de terceiros) e Contrato de Locação ou Arrendamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324114,
+            "tipo": "web",
+            "descricao": "Portal do Cliente e Fornecedor\n\n [Acesse o site](https://portaldocliente.portodesantos.com.br/login)\n\n Canal de solicitação via e-mail (exclusivo para autônomos):\n\n recurso.guardaportuaria@portodesantos",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250769,
+      "titulo": "Obter retorno quanto ao pedido de levantamento",
+      "descricao": "Após análise e realização dos trâmites internos, o interessado é cientificado, mediante alteração do status no SSPP.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324115,
+            "tipo": "web",
+            "descricao": "Sistema de Segurança Pública Portuária\n\n [Acesse o site](http://sspp.portodesantos.com.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-levantamento-de-suspensao-de-credencial-no-sistema-de-seguranca-publica-portuaria-sspp",
+  "statusDestaque": false
+}

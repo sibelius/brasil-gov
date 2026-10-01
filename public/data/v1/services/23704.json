@@ -1,0 +1,200 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23704",
+  "nome": "Agendar consulta especializada no Hospital das Clínicas da Universidade Federal de Pernambuco (HC-UFPE) através da Central de Regulação Estadual",
+  "sigla": "",
+  "descricao": "Consiste no agendamento de consulta com especialista para o Hospital das Clínicas da Universidade Federal de Pernambuco (HC-UFPE) através da Central de Regulação do Estado de Pernambuco.",
+  "flagPortalLogado": "N",
+  "contato": "**Para mais informações ou dúvidas sobre este serviço, entre em contato por mensagem de texto com a:**\n\n Unidade de Regulação Assistencial do HC-UFPE\n\n **Fone: **(81) 21263757 ou (81)21263737 WhatsApp (apenas mensagem de texto).\n\n **E-mail: **ura.hc-ufpe@ebserh.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111955
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94043,
+        "tipo": "Usuários do SUS",
+        "requisitos": "Ser atendido em Unidade de Saúde Municipal e possuir encaminhamento para especialista."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201441",
+    "dbId": 32681,
+    "nomeOrgao": "EBSERH - Filial Hospital das Clínicas da UFPE (HC-UFPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 156123
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Agendamento de consulta ",
+        "id": 373806
+      },
+      {
+        "item": "HC-UFPE ",
+        "id": 373807
+      },
+      {
+        "item": "Central de Regulação Estadual",
+        "id": 373808
+      },
+      {
+        "item": "SUS",
+        "id": 373809
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 130380
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 218308,
+      "titulo": "Agendar consulta através da Central de Regulação Estadual",
+      "descricao": "Consiste na marcação de consulta com especialista do Hospital das Clínicas (HC-UFPE) por meio do Sistema Estadual de Regulação de Vagas, via Central de Marcação de Consulta Eletiva (CMCE), no Hospital das Clínicas UFPE.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292471,
+            "nome": "- Solicitação médica para consulta especializada;\n\n - Documento de identificação com foto;\n\n - Cartão Nacional de Saúde - CNS."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283574,
+            "tipo": "presencial",
+            "descricao": "O atendimento presencial deve ser realizado na Unidade Básica de Saúde mais próxima da residência do usuário.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218309,
+      "titulo": "Receber comprovante de Agendamento de consulta especializada",
+      "descricao": "Nessa etapa, o usuário recebe o comprovante da marcação de consulta especializada no Hospital das Clínicas (HC-UFPE), constando a data, horário, especialidade e profissional que realizará a consulta.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292472,
+            "nome": "- Cartão Nacional de Saúde - CNS;\n\n - Documento de identificação com foto."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283575,
+            "tipo": "presencial",
+            "descricao": "O atendimento presencial deve ser realizado na Unidade Básica de Saúde mais próxima da residência do usuário.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "70",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-consulta-especializada-no-hospital-das-clinicas-da-universidade-federal-de-pernambuco-2013-hc-ufpe-atraves-da-central-de-regulacao",
+  "statusDestaque": false
+}

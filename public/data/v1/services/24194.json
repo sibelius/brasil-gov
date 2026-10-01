@@ -1,0 +1,194 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24194",
+  "nome": "Solicitar Denúncia do Convênio do Imposto sobre a Propriedade Territorial Rural",
+  "sigla": "ITR",
+  "descricao": "Este serviço permite ao município ou ao Distrito Federal formalizar a desistência de convênio firmado com a Receita Federal do Brasil (RFB), que delega as atribuições de fiscalização, lançamento de créditos tributários e cobrança relacionadas ao Imposto sobre a Propriedade Territorial Rural (ITR).\n\n A denúncia do convênio ocorre quando o ente conveniado opta por não mais exercer essas atividades. Para isso, é necessário protocolar o Termo de Denúncia, formalizando o encerramento da parceria.\n\n Considera-se efetivada a denúncia na data de sua comunicação à Receita Federal, ou seja, na data de assinatura e conclusão do Termo de Denúncia. Os efeitos financeiros passam a valer a partir de 1º de janeiro do ano subsequente ao da assinatura do referido termo.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais esclarecimentos acesse a orientação: [Solicitar denúncia de convênio ITR](https://www.gov.br/enat/pt-br/assuntos/cooperacoes/itr/denuncia-de-convenio-itr-pelo-municipio/denuncia.pdf). \n\n Em caso de dúvidas, envie um e-mail para o endereço:** **[equipeitr@rfb.gov.br](mailto:equipeitr@rfb.gov.br), mencionando o nome e UF do município na mensagem.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/5082",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123150
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102930,
+        "tipo": "Município ou Distrito Federal",
+        "requisitos": "**Requisitos necessários:**\n\n  * Convênio do Imposto sobre a Propriedade Territorial Rural (ITR) na situação VIGENTE;\n * Uso do Certificado Digital da Prefeitura (e-CNPJ);\n * Situação cadastral do CNPJ da prefeitura na base CNPJ ser igual à Ativa;\n * CPF do representante legal da prefeitura contido no Certificado Digital da prefeitura for o mesmo CPF do representante legal da base CNPJ."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172075
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Estados e Municípios"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Denúncia",
+        "id": 409822
+      },
+      {
+        "item": "Convênio",
+        "id": 409823
+      },
+      {
+        "item": "ITR",
+        "id": 409824
+      },
+      {
+        "item": "",
+        "id": 409825
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1.640/2016](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/73816/visao/multivigente)",
+        "id": 147969
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240092,
+      "titulo": "Solicitar a denúncia do convênio",
+      "descricao": "1. Acesse o canal abaixo e veja as condições.\n\n 2. Clique em **Concordar**, assine o Termo e depois em **Concluir.**\n\n 3.  Verifique a mensagem de bloqueio de acesso ao Portal ITR - isso confirma a solicitação de denúncia pelo ente.\n\n 4. Se não clicar **Concluir**, a situação ficará **Denúncia Solicitada.**\n\n 5. Nesse caso, volte ao sistema, acesse **Conveniados e Parceiros** e escolha **prosseguir** ou **desistir**.\n\n 6. Ao desistir, o convênio volta para **Vigente.**",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 316337,
+            "nome": "Termo de Denúncia de Convênio"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310015,
+            "tipo": "web",
+            "descricao": "[Meu ConvÃªnio de ITR](https://cav.receita.fazenda.gov.br/autenticacao/login/index/5082) [  \n](https://cav.receita.fazenda.gov.br/autenticacao/login/index/5082)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 240093,
+      "titulo": "Obter o resultado",
+      "descricao": "Ao Concluir, o convênio passará para a situação **Denúncia Vigente**, e a denúncia será publicada no Diário Oficial da União (DOU).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310016,
+            "tipo": "web",
+            "descricao": "[DOU](https://www.in.gov.br/servicos/diario-oficial-da-uniao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-denuncia-do-convenio-do-imposto-sobre-a-propriedade-territorial-rural",
+  "statusDestaque": false
+}

@@ -1,0 +1,207 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11328",
+  "nome": "Apresentar Recurso Administrativo – 1ª Instância – Autorização de Funcionamento (AFE) ou Autorização Especial (AE)",
+  "sigla": "",
+  "descricao": "Este serviço permite que empresas peçam à Anvisa uma revisão de uma decisão negativa relacionada à Autorização de Funcionamento (AFE) ou Autorização Especial (AE).\n\n Ou seja, se a Anvisa indeferir pedido de concessão ou alteração de Autorização, a empresa pode apresentar um recurso administrativo, seguindo as regras previstas na RDC 266/2019, que organiza todo o processo de recurso administrativo dentro da Anvisa.\n\n De acordo com a RDC nº 266/2019, o recurso de 1ª instância é direcionado ao setor da Anvisa que tomou a decisão. Esse setor pode reconsiderar e mudar a decisão, se entender que há motivo para isso. Caso não mude, o processo é encaminhado para uma instância superior, que fará a análise final e dará a deliberação final.\n\n Para mais informações sobre recurso administrativo de AFE e AE, consulte:\n\n ➡ [Orientações sobre recurso administrativo de AFE e AE](https://www.gov.br/anvisa/pt-br/setorregulado/autorizacao-de-funcionamento-afe-ou-ae/orientacoes/documentos-nao-aceitos-em-etapa-recursal-e-principais-motivos-de-indeferimento-de-pedidos-de-afe-1)",
+  "flagPortalLogado": "N",
+  "contato": "[Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 109232
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91875,
+        "tipo": "Empresas que tiveram o pedido de concessão ou alteração de AFE indeferidos.",
+        "requisitos": "Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/anvisa/pt-br/sistemas/cadastro)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 152273
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Recurso Administrativo, ",
+        "id": 364910
+      },
+      {
+        "item": "Recurso, ",
+        "id": 364911
+      },
+      {
+        "item": "AFE ",
+        "id": 364912
+      },
+      {
+        "item": "AE",
+        "id": 364913
+      },
+      {
+        "item": "1ª instância ",
+        "id": 364914
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RDC Nº 266, de 8 de fevereiro de 2019](https://anvisalegis.datalegis.net/action/UrlPublicasAction.php?acao=abrirAtoPublico&sgl_tipo=RDC&num_ato=00000266&seq_ato=000&vlr_ano=2019&sgl_orgao=RDC/DC/ANVISA/MS&cod_modulo=134&cod_menu=1696) - Dispõe sobre os procedimentos relativos à interposição de recursos administrativos em face das decisões da Agência Nacional de Vigilância Sanitária, e dá outras providências.",
+        "id": 126781
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 213023,
+      "titulo": "Fazer a solicitação",
+      "descricao": "**(1.1)** Acesse o sistema Solicita com o login e senha. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo já existente”.\n\n **(1.2)** Clique na lupa e procure o expediente que deseja solicitar a interposição do recurso de 1ª Instância. Em “Assunto”, clique na lupa e selecione o serviço desejado. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 287155,
+            "nome": "A lista de documentos varia conforme o tipo de solicitação (também conhecida como Assunto de Petição). Você pode conferir todos os formulários e anexos obrigatórios no checklist disponível no link de [consulta de Assunto de Petição da Anvisa](https://consultas.anvisa.gov.br/#/consultadeassuntos/)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276791,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213024,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "O processo pode ser acompanhado pelo [Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F). Selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](https://consultas.anvisa.gov.br/), selecionando a opção “Situação de documentos” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276792,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "45",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/apresentar-recurso-administrativo-1-instancia-autorizacao-de-funcionamento-afe-ou-autorizacao-especial-ae",
+  "statusDestaque": false
+}

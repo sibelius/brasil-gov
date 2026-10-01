@@ -1,0 +1,237 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11197",
+  "nome": "Obter disponibilização de par telefônico, ramal telefônico ou ponto de fibra ótica - servidão de passagem",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário (arrendatários, permissionários e empresas terceirizadas mediante contrato com a Autoridade Portuária de Santos) poderá obter a instalação de ponto de par telefônico, ramal telefônico e ponto de fibra ótica (servidão de passagem), conforme a necessidade.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Infraestrutura de Dados\n\n Telefone (13) 3202-6565 - Ramal 3083",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://protocolo.portodesantos.com.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 64489
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 58226,
+        "tipo": "Arrendatários, permissionários e empresas terceirizadas, mediante contrato com a Autoridade Portuária de Santos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "20",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 20
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 91314
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "infraestrutura ",
+        "id": 222089
+      },
+      {
+        "item": "telecomunicação ",
+        "id": 222090
+      },
+      {
+        "item": "instalação",
+        "id": 222091
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Tarifa Portuária do Porto de Santos](http://www.portodesantos.com.br/informacoes-operacionais/operacoes-portuarias/tarifas-portuarias/)",
+        "id": 73023
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 128503,
+      "titulo": "Solicitar disponibilização",
+      "descricao": "O interessado deve solicitar o serviço, via Sistema de Protocolo Digital, à Diretoria da Presidência, informando o local e dados para faturamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 166566,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](http://protocolo.portodesantos.com.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 128504,
+      "titulo": "Obter parecer para execução do serviço",
+      "descricao": "Será informado ao requisitante todos os aspectos necessários para a realização do serviço (local, materiais, interferências, entre outros), sendo o solicitante responsável por toda infraestrutura necessária para a instalação, ficando a cargo da Autoridade Portuária de Santos apenas a ligação na rede existente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 166567,
+            "tipo": "e-mail",
+            "descricao": "A resposta quanto à solicitação será encaminhada ao e-mail do solicitante.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 128505,
+      "titulo": "Realizar o serviço",
+      "descricao": "Após análise e deferimento do pleito, o serviço é executado com acompanhamento e fiscalização da área técnica da Autoridade Portuária de Santos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 20028,
+            "descricao": "Custo Portuário",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Valores constantes nos itens 4.1, 4.2 e 4.3 da Tabela IX da Tarifa Portuária do Porto de Santos",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 166568,
+            "tipo": "presencial",
+            "descricao": "A prestação do serviço será realizado no local",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "20",
+  "percentualAvaliacoesPositivas": "69",
+  "url": "https://www.gov.br/pt-br/servicos/solicitacao-para-disponibilizacao-de-par-telefonico-ramal-telefonico-ou-ponto-de-fibra-otica-servidao-de-passagem",
+  "statusDestaque": false
+}

@@ -1,0 +1,238 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2816",
+  "nome": "Acreditar Provedores de Ensaios de Proficiência",
+  "sigla": "PEP",
+  "descricao": "Reconhecimento da competência técnica do laboratório para prover ensaios de proficiência. Tais serviços visam prover confiança nas atividades de avaliação da conformidade prestadas por estes organismos tendo em vista a avaliação de uma terceira parte (Cgcre) independente no processo.",
+  "flagPortalLogado": "N",
+  "contato": "[dicla@inmetro.gov.br](mailto:dicla@inmetro.gov.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://orquestra.inmetro.gov.br/workflow/wfportalInmetro.aspx",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cgcre do Inmetro",
+        "id": 92254
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 78733,
+        "tipo": "Provedores de Ensaios de Proficiência",
+        "requisitos": "Os provedores devem estar **cadastrados no sistema Orquestra**, utilizado pelo Inmetro para automatizar alguns de seus processos de negócio.\n\n  * [Fazer cadastro no Orquestra com gov.br](https://orquestra.inmetro.gov.br/workbase/wusersigninBC.aspx?g=KhNOuA59RdU=)\n * [Como se cadastrar no Orquestra com gov.br](http://www4.inmetro.gov.br/sistemas/orquestra)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240",
+    "dbId": 36793,
+    "nomeOrgao": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 127864
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 127865
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 127866
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acreditações e Registros"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Acreditação",
+        "id": 310902
+      },
+      {
+        "item": "Avaliação da conformidade",
+        "id": 310903
+      },
+      {
+        "item": "Laboratório",
+        "id": 310904
+      },
+      {
+        "item": "Certificação",
+        "id": 310905
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 106320
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 9,
+    "negativas": 23
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: Urbanidade; Respeito; Acessibilidade; Cortesia; Presunção da boa-fé do usuário; Igualdade; Eficiência; Segurança; e Ética.",
+  "etapas": [
+    {
+      "id": 178573,
+      "titulo": "Requerer acreditação",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244530,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 244531,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 244532,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 244533,
+            "nome": "Comprovante de pagamento"
+          },
+          {
+            "id": 244534,
+            "nome": "Contrato Social"
+          },
+          {
+            "id": 244535,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 29431,
+            "descricao": "Taxa de acreditação",
+            "moeda": "R$",
+            "valor": " 2.230,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234611,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://orquestra.inmetro.gov.br/workflow/wfportalInmetro.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 178574,
+      "titulo": "Receber acreditação",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244536,
+            "nome": "Documentos do processo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234612,
+            "tipo": "e-mail",
+            "descricao": "E-mail individual do gestor do processo de acreditação.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "28",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acreditar-provedores-de-ensaios-de-proficiencia",
+  "statusDestaque": false
+}

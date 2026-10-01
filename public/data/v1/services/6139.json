@@ -1,0 +1,217 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6139",
+  "nome": "Matricular-se em curso de graduação - FURG",
+  "sigla": "",
+  "descricao": "Consiste na etapa posterior a de seleção em processo seletivo para ingresso na Universidade Federal do Rio Grande - FURG, com a apresentação/submissão *online* da documentação exigida em Edital.",
+  "flagPortalLogado": "N",
+  "contato": "Diretoria de Gestão Acadêmica - 53 3233 6663 - digea.cra@furg.br, prograd@furg.br e digea@furg.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Matrícula na Universidade Federal do Rio Grande - FURG",
+        "id": 39765
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 37617,
+        "tipo": "Cidadão brasileiro ou estrangeiro ingressante aprovado em processo seletivo para ingresso na Universidade Federal do Rio Grande - FURG.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/476",
+    "dbId": 34332,
+    "nomeOrgao": "Fundação Universidade Federal do Rio Grande (FURG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 60646
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Ensino Superior",
+        "id": 138006
+      },
+      {
+        "item": "Graduação",
+        "id": 138007
+      },
+      {
+        "item": "Matrícula",
+        "id": 138008
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 43031
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 80403,
+      "titulo": "Solicitação de matrícula",
+      "descricao": "Solicitação de matrícula, consiste no envio dos documentos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 114694,
+            "nome": "Certificado, ou do atestado de conclusão do Ensino Médio (antigo 2º Grau);"
+          },
+          {
+            "id": 114695,
+            "nome": "Histórico Escolar do Ensino Médio (antigo 2º Grau);"
+          },
+          {
+            "id": 114696,
+            "nome": "Certificado de reservista ou de alistamento no Serviço Militar para candidatos do sexo masculino entre 18 e 46 anos;"
+          },
+          {
+            "id": 114697,
+            "nome": "Comprovante de quitação eleitoral;"
+          },
+          {
+            "id": 114698,
+            "nome": "Comprovante de inscrição do CPF;"
+          },
+          {
+            "id": 114699,
+            "nome": "Cédula de identidade (no caso de candidato estrangeiro, cédula de identidade expedida pela Polícia Federal ou passaporte com Visto Temporário de estudante em validade);"
+          },
+          {
+            "id": 114700,
+            "nome": "Declaração digital, no sistema de solicitação de matrículas online, de que não ocupa vaga em curso de graduação em outra instituição pública de ensino superior brasileira, conforme Lei nº 12.089/2009;"
+          },
+          {
+            "id": 114701,
+            "nome": "Documentos específicos poderão ser solicitados de acordo com o edital do processo seletivo e modalidades de cotas de ações afirmativas."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 102471,
+            "tipo": "web",
+            "descricao": "Página inicial da FURG=>Ensino=>Pró-Reitoria de Graduação=>Processo Seletivo=>Solicitação de matrícula online\n\n <http://prograd.furg.br>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 80404,
+      "titulo": "Efetivação da matrícula",
+      "descricao": "Será realizada via acesso ao Sistema Acadêmico - FURG (https://sistemas.furg.br) pelo ingressante durante a primeira semana de aulas, definida em Calendário Acadêmico Universitário, através da confirmação eletrônica. O estudante que não cumprir esta etapa, perderá a vaga.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 102472,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://sistemas.furg.brÂ )",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "56",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-furg",
+  "statusDestaque": false
+}

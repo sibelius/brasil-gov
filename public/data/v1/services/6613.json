@@ -1,0 +1,236 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6613",
+  "nome": "Obter Assistência Estudantil - UFMG",
+  "sigla": "",
+  "descricao": "Alunos de graduação e pós-graduação que vivam em situação familiar de baixa renda podem receber auxílio para ter condições de continuar com seus estudos. Se este é seu caso, você pode obter Assistência Estudantil através deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "PRÓ-REITORIA DE ASSUNTOS ESTUDANTIS DA UFMG - 31 3409 4567 - info@prae.ufmg.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Política de Assistência Estudantil da UFMG",
+        "id": 51174
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 47559,
+        "tipo": "Cidadãos, Estudantes de graduação em situação de vulnerabilidade socioeconômica",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/423",
+    "dbId": 57771,
+    "nomeOrgao": "Universidade Federal de Minas Gerais (UFMG)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 75519
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Obter Assistência Estudantil",
+        "id": 177874
+      },
+      {
+        "item": "Obter Assistência Estudantil",
+        "id": 177875
+      },
+      {
+        "item": "Obter Assistência Estudantil",
+        "id": 177876
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 56642
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 102331,
+      "titulo": "Realizar entrevista.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 145124,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 145125,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 145126,
+            "nome": "Carteira estudantil"
+          },
+          {
+            "id": 145127,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 145128,
+            "nome": "Certidões de cartório"
+          },
+          {
+            "id": 145129,
+            "nome": "Certidões da Receita Federal"
+          },
+          {
+            "id": 145130,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 145131,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 145132,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 130837,
+            "tipo": "presencial",
+            "descricao": "Pró-reitoria de Assuntos Estudantis.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 130838,
+            "tipo": "telefone",
+            "descricao": "3134094567",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 130839,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/www.ufmg.br/prae)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 130840,
+            "tipo": "e-mail",
+            "descricao": "info@prae.ufmg.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 130841,
+            "tipo": "aplicativo-movel",
+            "descricao": "Aplicativo Viver UFMG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 130842,
+            "tipo": "postal",
+            "descricao": "Universidade Federal de Minas Gerais / Pró-reitoria de Assuntos Estudantis  \nAv. Pres. Antônio Carlos, 6627 - Pampulha, Belo Horizonte - MG, 31270-901",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "16",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 16,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "30",
+  "url": "https://www.gov.br/pt-br/servicos/obter-assistencia-estudantil-ufmg",
+  "statusDestaque": false
+}

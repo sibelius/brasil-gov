@@ -1,0 +1,628 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13071",
+  "nome": "Solicitar acesso a dados técnicos exploração e produção",
+  "sigla": "E&P",
+  "descricao": "Atendimento a solicitações de dados técnicos de exploração, desenvolvimento e produção de petróleo e gás natural nas bacias sedimentares brasileiras, armazenados no BDEP – Banco de Dados de Exploração e Produção da ANP. Os dados técnicos públicos poderão ser acessados por quaisquer interessados, enquanto os dados técnicos em período de sigilo somente estão disponíveis ao titular do dado.\n\n As instruções para solicitação de dados, conforme o tipo de usuário e o dado pretendido, constam na página Acesso aos Dados Técnicos: https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos Incluem-se nesse serviço as solicitações para uso da Sala de Visualização de Dados (antiga Sala de Clientes) com o intuito de visualizar dados do acervo do BDEP.\n\n O usuário que tiver sua solicitação aprovada terá acesso aos dados técnicos via link ou por meio de mídia física. Para os usuários Associado e Eventual, o acesso está condicionado ao pagamento dos custos para acesso aos dados. As solicitações são efetuadas por meio do SEI – Sistema Eletrônico de Informações. As instruções para cadastro de usuários externos com vistas ao peticionamento eletrônico de documentos estão disponíveis na seguinte página: https://www.gov.br/anp/pt-br/servicos/processo-eletronico-sei/orientacoes-para-realizacao-de-cadastro-de-usuario-externo",
+  "flagPortalLogado": "N",
+  "contato": "Email: helpdesk@anp.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 70088
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 62245,
+        "tipo": "Dado público: qualquer pessoa física ou jurídica, sem distinção de constituição sob leis brasileiras ou estrangeiras.",
+        "requisitos": "Dado em período de sigilo: apenas o respectivo titular do dado."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "15",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 15,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 97853
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 97854
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 97855
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 97856
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exploração e Produção"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Acessar dados de processamento",
+        "id": 239534
+      },
+      {
+        "item": "Acessar dados de reprocessamento",
+        "id": 239535
+      },
+      {
+        "item": "Acessar dados de aquisição",
+        "id": 239536
+      },
+      {
+        "item": "Geofísica",
+        "id": 239537
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução ANP nº 889/2022: [Resolução 889 2022 da ANP - Agência Nacional do Petróleo, Gás Natural e Biocombustíveis BR (atosoficiais.com.br)](https://atosoficiais.com.br/anp/resolucao-n-889-2022-regulamenta-as-atividades-de-aquisicao-e-processamento-e-reprocessamento-de-dados-elaboracao-de-estudos-e-acesso-aos-dados-tecnicos-de-exploracao-desenvolvimento-e-producao-de-petroleo-e-gas-natural-nas-bacias-sedimentares-brasileiras?origin=instituicao&q=889/2022)",
+        "id": 79184
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 138867,
+      "titulo": "Cadastrar usuário - universidade",
+      "descricao": "Todos os usuários de universidades e institutos de pesquisa (coordenadores, docentes e estudantes) devem se registrar no Cadastro Básico para obter dados gratuitos para fins acadêmicos.\n\n Instruções e documentação necessária:  \nseção \"Solicitação de Dados Técnicos\", subseção \"Instituições de Pesquisa\".  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196014,
+            "nome": "Formulário de Cadastro Básico, assinado e digitalizado em formato PDF"
+          },
+          {
+            "id": 196015,
+            "nome": "Formulário de Cadastro Básico, original em formato XLSX"
+          },
+          {
+            "id": 196016,
+            "nome": "Documentos pessoais dos docentes a serem cadastrados"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179882,
+            "tipo": "web",
+            "descricao": "Para se cadastrar como usuário externo do SEI/ANP, siga as orientações contidas nesse link ([Acesse o site](http://www.gov.br/anp/pt-br/servicos/processo-eletronico-sei/orientacoes-para-realizacao-de-cadastro-de-usuario-externo)).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "7",
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 7,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138868,
+      "titulo": "Cadastrar usuário - eventual",
+      "descricao": "O usuário eventual deve enviar a documentação exigida para acesso aos dados técnicos.\n\n Instruções e documentação necessária: seção \"Solicitação de Dados Técnicos\", subseção \"Cliente eventual\".  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196017,
+            "nome": "**Para pessoas jurídicas**: comprovante de inscrição e situação cadastral do CNPJ, documento de identidade dos sócios ou representantes legalmente constituídos e CPF dos sócios ou representantes legalmente constituídos"
+          },
+          {
+            "id": 196018,
+            "nome": "**Para pessoas físicas**: Documento de identidade ou passaporte e comprovante do CPF\n\n O CPF é dispensável caso o documento  de identidade já o contenha."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179883,
+            "tipo": "presencial",
+            "descricao": "Protocolo ANP (recebimento de formulários e documentos impressos): Av. Rio Branco, 65 - Térreo, Centro, Rio de Janeiro/RJ, CEP 20090-004. O envio também pode ser realizado pelos correios.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 179884,
+            "tipo": "e-mail",
+            "descricao": "E-mail: helpdesk@anp.gov.br (para envio de cópias dos documentos).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "7",
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 7,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138869,
+      "titulo": "Celebrar Termo de Adesão - associado",
+      "descricao": "O usuário associado celebra com a ANP o Termo de Adesão ao BDEP, que oferece cinco planos com diferentes custos e cotas (volumes pré-definidos) de dados. Ao final da vigência de 1 ano, a associação é renovada mediante novo pagamento. Disponível apenas para pessoas jurídicas.\n\n **Instruções, documentação e custos:** seção \"Solicitação de Dados Técnicos\", subseção \"Como se associar\": https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 196019,
+            "nome": "**Pessoas jurídicas**: Comprovante de inscrição e situação cadastral do CNPJ, documento de identidade dos sócios ou representantes legalmente constituídos e CPF dos sócios ou representantes legalmente constituídos \n\n O CPF é dispensável caso o documento  de identidade já o contenha."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 22297,
+            "descricao": "Custo da adesão",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Varia conforme o plano",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179885,
+            "tipo": "presencial",
+            "descricao": "Protocolo ANP (recebimento de formulários e documentos impressos): Av. Rio Branco, 65 - Térreo, Centro, Rio de Janeiro/RJ, CEP 20090-004. O envio também pode ser realizado pelos correios.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 179886,
+            "tipo": "e-mail",
+            "descricao": "E-mail: helpdesk@anp.gov.br (para envio de cópias dos documentos).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "15",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 15,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138870,
+      "titulo": "Solicitar dados - universidade",
+      "descricao": "A solicitação é efetuada via peticionamento eletrônico, no SEI, do formulário específico.\n\n Acesso gratuito, porém restrito a um conjunto de dados definido por cotas.\n\n **Formulário e instruções:**  \nseção \"Solicitação de Dados Técnicos\", subseção \"Instituições de Pesquisa\".  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos\n\n Após o recebimento da solicitação, os dados são recuperados da base de dados para o usuário acessar.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179887,
+            "tipo": "web",
+            "descricao": "Usuário Externo Sistema Eletrônico de Informação/SEI: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "15",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 15,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138871,
+      "titulo": "Solicitar dados - eventual",
+      "descricao": "A solicitação de dados é efetuada por meio de peticionamento eletrônico, no SEI, do formulário específico.\n\n **Formulários e instruções:**  \nseção \"Solicitação de dados técnicos\",  \nsubseção \"Cliente eventual\".  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos\n\n Após o recebimento da solicitação, será elaborado orçamento com vistas ao pagamento pelo usuário.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179888,
+            "tipo": "postal",
+            "descricao": "Protocolo ANP (recebimento de formulários e documentos impressos) - Av. Rio Branco, 65 / Térreo - Centro/Rio de Janeiro, RJ - CEP 22050-012.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 179889,
+            "tipo": "e-mail",
+            "descricao": "E-mail: helpdesk@anp.gov.br, para envio de cópias dos documentos.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "15",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 15,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138872,
+      "titulo": "Solicitar dados - associado",
+      "descricao": "O usuário associado pode solicitar dados durante a vigência do Termo de Adesão.\n\n **Formulários e instruções:**  \nseção \"Solicitação de Dados Técnicos\",  \nsubseção \"Cliente associado\".  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos\n\n Após o recebimento da solicitação, os dados são recuperados da base de dados para o usuário acessar.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 28849,
+            "descricao": "Custo Variável",
+            "documento": [
+              {
+                "id": 196020,
+                "codigo": null,
+                "descricao": "Caso haja solicitações acima dos volumes pré-definidos, haverá cobrança pelos dados adicionais, que varia conforme o tipo de dado e a quantidade solicitada (unidade ou volume em bytes).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179890,
+            "tipo": "e-mail",
+            "descricao": "E-mail: helpdesk@anp.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "15",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 15,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138873,
+      "titulo": "Efetuar pagamento - eventual",
+      "descricao": "A disponibilização dos dados ao usuário eventual é condicionada à realização do pagamento, por meio de GRU (Guia de Recolhimento da União), do valor que consta no orçamento enviado ao usuário com base nos dados solicitados e conforme instruções da ANP/SDT. Após a confirmação do pagamento, os dados são recuperados da base de dados para o usuário acessar.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 28850,
+            "descricao": "Custo Variável",
+            "documento": [
+              {
+                "id": 196021,
+                "codigo": null,
+                "descricao": "O custo do dado varia conforme o tipo de dado e a quantidade solicitada (unidade ou volume em bytes).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179891,
+            "tipo": "e-mail",
+            "descricao": "E-mail: helpdesk@anp.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138874,
+      "titulo": "Receber dados - todos os usuários",
+      "descricao": "Os dados são disponibilizados para o usuário efetuar o *download*, via* link.*\n\n O prazo para o usuário completar o *download* é de 10 (dez) dias corridos.\n\n Reclamações sobre a integridade dos dados somente serão aceitas até 30 dias corridos, a contar do acesso aos dados.\n\n **Instruções gerais:**  \nseção \"Solicitação de Dados Técnicos\", subseção \"Download dos dados\".  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179892,
+            "tipo": "e-mail",
+            "descricao": "E-mail: helpdesk@anp.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 138875,
+      "titulo": "Solicitar acesso à Sala de Visualização",
+      "descricao": "A Sala de Visualização é utilizada para consultar e visualizar detalhes sobre os dados de interesse do usuário.\n\n Funciona nos dias úteis, de 9h-12h e 13h-16h, mediante agendamento prévio após confirmação do pagamento, cujas instruções são enviadas ao usuário após recebimento do formulário pelo usuário.\n\n **Formulário e instruções:**  \nseção \"Sala de Visualização de Dados\".  \nhttps://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos/acesso-aos-dados-tecnicos",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 28851,
+            "descricao": "Custo Variável",
+            "documento": [
+              {
+                "id": 196022,
+                "codigo": null,
+                "descricao": "Custo de R$ 1.500,00 (mil e quinhentos reais) para cada período de três horas de utilização.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 179893,
+            "tipo": "e-mail",
+            "descricao": "E-mail: helpdesk@anp.gov.br (para envio de cópias dos documentos).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 179894,
+            "tipo": "presencial",
+            "descricao": "Protocolo ANP (recebimento de formulários e documentos impressos) - Av. Rio Branco, 65 / Térreo, Centro/Rio de Janeiro, RJ - CEP 22.050-012.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "7",
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 7,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13070",
+      "nome": "Solicitar autorização para aquisição, processamento, reprocessamento e estudo de dados"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13054",
+      "nome": "Solicitar cadastro de usuário externo no SEI-ANP"
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "60",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-dados-tecnicos-exploracao-e-producao",
+  "statusDestaque": false
+}

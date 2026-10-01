@@ -1,0 +1,190 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13439",
+  "nome": "Agendar o exame Cistoscopia no Humap-UFMS.",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, pacientes internados, egressos de internação e/ou vindos de outros ambulatórios do Humap-UFMS, recebem atendimento para agendar o exame cistoscopia.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (67) 3345-3357\n\n E-mail: usur.humap-ufms@ebserh.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 74457
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 65394,
+        "tipo": "Pacientes internados no Humap-UFMS;",
+        "requisitos": ""
+      },
+      {
+        "id": 65395,
+        "tipo": "Pacientes egressos da internação no Humap-UFMS;",
+        "requisitos": ""
+      },
+      {
+        "id": 65396,
+        "tipo": "Paciente vindos de outros ambulatórios do Humap-UFMS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201456",
+    "dbId": 32666,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Maria Aparecida Pedrossian (EBSERH-UFMS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 103058
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "saúde",
+        "id": 253067
+      },
+      {
+        "item": "agendamento",
+        "id": 253068
+      },
+      {
+        "item": "cistoscopia",
+        "id": 253069
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 84411
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 145905,
+      "titulo": "Dirigir-se ao Ambulatório de Urologia para agendar a cistoscopia.",
+      "descricao": "Comparecer Ambulatório de Urologia com o Pedido do exame e a Carteirinha de Identificação do Humap-UFMS (desejável). Solicitar o agendamento do exame de cistoscopia para a recepcionista.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 207396,
+            "nome": "Pedido do exame;"
+          },
+          {
+            "id": 207397,
+            "nome": "Carteirinha de Identificação do Humap-UFMS (desejável)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 24257,
+            "descricao": "Os atendimentos realizados no Humap-UFMS são 100% pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 189732,
+            "tipo": "presencial",
+            "descricao": "Avenida Senador Filinto Muller, 355 - Vila Ipiranga, Campo Grande - MS, 79080-190 - entrada principal - prédio do Ambulatório Geral.\n\n Horário de atendimento do Ambulatório de Urologia: de segunda a sexta-feira, das 07 às 11h e das 13 às 17h\n\n Telefone: (67) 3345-3357\n\n E-mail: usur.humap-ufms@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 32043,
+            "descricao": "Em caso de dúvidas ou para maiores informações, entre em contato pelo telefone",
+            "canalDePrestacao": [
+              {
+                "id": 189731,
+                "tipo": "telefone",
+                "descricao": "(67) 3345-3357",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": "minutos",
+                "tempoEstimadoEspera": 30,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-o-exame-cistoscopia-no-humap-ufms",
+  "statusDestaque": false
+}

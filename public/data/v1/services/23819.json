@@ -1,0 +1,269 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23819",
+  "nome": "Solicitar a Caderneta de Saúde da Pessoa Idosa",
+  "sigla": "",
+  "descricao": "Este serviço permite a **pessoas idosas, familiares, cuidadores e profissionais de saúde** obter a **Caderneta de Saúde da Pessoa Idosa**, instrumento do Ministério da Saúde destinado a apoiar o cuidado integral à saúde de pessoas com 60 anos ou mais.\n\n A Caderneta reúne informações para a promoção do envelhecimento saudável, acompanhamento de condições clínicas, orientações sobre qualidade de vida, autocuidado, direitos da pessoa idosa e prevenção de agravos, estando disponível gratuitamente em formato **digital** e **impresso**.",
+  "flagPortalLogado": "N",
+  "contato": "dgci@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-da-pessoa-idosa/caderneta-de-saude",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123543
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103266,
+        "tipo": "*  Pessoas idosas\n\n \n *  Familiares e cuidadores\n\n \n *  Profissionais de saúde",
+        "requisitos": "Não é necessária a apresentação de documentos específicos para acesso à Caderneta de Saúde da Pessoa Idosa."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172825
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 172826
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "idoso",
+        "id": 411201
+      },
+      {
+        "item": "caderneta do idoso",
+        "id": 411202
+      },
+      {
+        "item": "caderneta de saúde",
+        "id": 411203
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148592
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241006,
+      "titulo": "Solicitar a Caderneta de Saúde da Pessoa Idosa",
+      "descricao": "O arquivo da caderneta pode ser solicitado a qualquer momento pelo e-mail do Departamento de Gestão do Cuidado Integral (dgci@saude.gov.br), ou acessado diretamento no site do Ministério da Saúde.\n\n Nas UBS, a caderneta pode ser solicitada durante o horário de funcionamento.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311214,
+            "tipo": "e-mail",
+            "descricao": "dgci@saude.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241007,
+      "titulo": "Validar a solicitação",
+      "descricao": "Verificar a solicitação e a disponibilidade da Caderneta de Saúde da Pessoa Idosa no formato solicitado (digital ou impresso).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311215,
+            "tipo": "e-mail",
+            "descricao": "dgci@saude.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241008,
+      "titulo": "Disponibilizar a caderneta",
+      "descricao": "Disponibilizar a Caderneta de Saúde da Pessoa Idosa ao solicitante, em formato digital ou impresso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311216,
+            "tipo": "presencial",
+            "descricao": "Unidades Básicas de Saúde (UBS)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 241009,
+      "titulo": "Utilizar a caderneta para acompanhamento em saúde",
+      "descricao": "Utilizar a caderneta para registrar e acompanhar informações sobre condições de saúde, autocuidado, prevenção de agravos e qualidade de vida da pessoa idosa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311217,
+            "tipo": "presencial",
+            "descricao": "Unidades Básicas de Saúde (UBS)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "57",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/ofertar-a-caderneta-de-saude-da-pessoa-idosa",
+  "statusDestaque": false
+}

@@ -1,0 +1,168 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23002",
+  "nome": "Consultar Ocorrência de Embargo e Emitir Certidão Negativa de Embargo (ICMBio)",
+  "sigla": "",
+  "descricao": "É um serviço gratuito disponibilizado para os cidadãos consultarem a ocorrência de Embargo de obra, atividade ou área em nome de Pessoas Físicas (PF) ou Pessoas Jurídicas (PJ). Além disso, o cidadão logado em sua conta Gov.br poderá emitir Certidão Negativa de Embargo se não constar embargo em seu CPF ou CNPJ ou Certidão Positiva de Embargo.",
+  "flagPortalLogado": "S",
+  "contato": "Coordenação de Apuração de Infrações Ambientais - CIAM e-mail: ciam@icmbio.gov.br / telefone: (61) 2028-8832 / (61) 2028-9632.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao2.servicos.gov.br/consultar-ocorrencia-de-embargo-e-emitir-certidao-negativa-de-embargo?forceAuth=true",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 104911
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 88250,
+        "tipo": "Cidadãos, empresas, órgãos e entidades públicas, outras entidades - ONGs, cooperativas, instituições financeiras, etc.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/91842",
+    "dbId": 36726,
+    "nomeOrgao": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 145785
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 145786
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 145787
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 145788
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Licenças"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Embargo",
+        "id": 350572
+      },
+      {
+        "item": "ICMBio",
+        "id": 350573
+      },
+      {
+        "item": "Certidão",
+        "id": 350574
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto Federal 6.514/2008",
+        "id": 121907
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 203893,
+      "titulo": "Acessar o serviço",
+      "descricao": "Acessar o serviço clicando no botão verde escrito \"Iniciar\" nesta página, realizar o login utilizando as suas credenciais na plataforma Gov.br. Após o login a primeira página do serviço permitirá que o solicitante faça consultas de embargos utilizando CPF, CNPJ ou Nome. Além disso, o serviço ainda permite gerar a certidão negativa ou positiva de embargo do interessado que esteja logado no serviço.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 265458,
+            "tipo": "web",
+            "descricao": "Em construção",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/certidao-negativa-de-embargo",
+  "statusDestaque": false
+}

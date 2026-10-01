@@ -1,0 +1,168 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11671",
+  "nome": "Inscrever na Semana do Produtor Rural (comunidade externa)",
+  "sigla": "",
+  "descricao": "Inscrições dos participantes na Semana do Produtor Rural no campus da UFV de Florestal-MG, bem como credenciamento, inscrição nos cursos, hospedagem e alimentação dos participantes.",
+  "flagPortalLogado": "N",
+  "contato": "Para dúvidas ou problemas em relação ao sistema de inscrição:   \nAdilson Rosa Lopes - Analista e Desenvolvedor do sistema (*Rusticus) * [adillopes@ufv.br](mailto:adillopes@ufv.br) (31) 3602-1065    Para dúvidas sobre a inscrição no evento:  Wanderson Ferreira de Souza - Diretor de Extensão e Cultura  \n[wanderson.souza@ufv.br](mailto:wanderson.souza@ufv.br) (31) 3602-1181",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://producao.cedaf.ufv.br/admin_extensao/scripts/preInscricao",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 23089
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 24341,
+        "tipo": "Servidores da Diretoria de Extensão e Cultura (Gerenciamento), estudantes, técnicos, docentes e comunidade em geral.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/474",
+    "dbId": 34325,
+    "nomeOrgao": "Fundação Universidade Federal de Viçosa (UFV)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 38344
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Informações e Eventos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Semana do Produtor Rural ",
+        "id": 84003
+      },
+      {
+        "item": "SPR UFV ",
+        "id": 84004
+      },
+      {
+        "item": "Inscrição Semana do Produtor Rural ",
+        "id": 84005
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 22010
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 49918,
+      "titulo": "Inscrições",
+      "descricao": "- Inscrição online pelo link https://producao.cedaf.ufv.br/admin\\_extensao/scripts/preInscricao;   \n- emissão do boleto de pagamento da inscrição;   \n- o interessado receberá um e-mail com confirmação da inscrição;   \n- credenciamento no 1º dia do evento, com crachá que será usado no controle das refeições e entrada nos alojamentos (se for o caso).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 76017,
+            "nome": "Dados pessoais no momento da inscrição pelo link."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 7507,
+            "descricao": "Custo da inscrição",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "variável",
+            "statusCustoVariavel": 1
+          },
+          {
+            "id": 7508,
+            "descricao": "Custo por curso",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "variável de acordo com o curso escolhido",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 63408,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://producao.cedaf.ufv.br/admin_extensao/scripts/preInscricao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "80",
+  "url": "https://www.gov.br/pt-br/servicos/inscrever-na-semana-do-produtor-rural-comunidade-externa",
+  "statusDestaque": false
+}

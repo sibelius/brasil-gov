@@ -1,0 +1,164 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12954",
+  "nome": "Consultar Corretores Susep",
+  "sigla": "",
+  "descricao": "Encontrar um corretor de seguros, de capitalização e/ou de previdência privada, cadastrado pela Superintendência de Seguros Privados – Susep.",
+  "flagPortalLogado": "N",
+  "contato": "Ouvidoria",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.susep.gov.br/safe/Corretores/pesquisa",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 47500
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 44232,
+        "tipo": "Qualquer interessado, pessoa natural ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/235",
+    "dbId": 55943,
+    "nomeOrgao": "Superintendência de Seguros Privados (SUSEP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 71077
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 71078
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Consultas e Sistemas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Corretor",
+        "id": 165229
+      },
+      {
+        "item": "Seguros",
+        "id": 165230
+      },
+      {
+        "item": "Susep",
+        "id": 165231
+      },
+      {
+        "item": "",
+        "id": 165232
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 52559
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 52,
+    "negativas": 268
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 95101,
+      "titulo": "Consultar Corretor",
+      "descricao": "Acesse o [link](https://www2.susep.gov.br/safe/Corretores/pesquisa \"Sistema de corretores\") , preencha as informações indicadas e clique em \"Pesquisar\".\n\n A busca pode ser por parte do nome do corretor, pessoa natural ou jurídica, pelo CPF ou CNPJ, pelos produtos comercializados ou pela situação do registro do corretor.\n\n Após a pesquisa ser concluída, é possível gerar e certidão do corretor com o status do registro perante à Susep. Somente podem operar no mercado corretores com cadastro ATIVO.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 121616,
+            "tipo": "web-consultar",
+            "descricao": "Acesse o site da Susep em:Â <https://www2.susep.gov.br/safe/Corretores/pesquisa>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 121617,
+            "tipo": "e-mail",
+            "descricao": "[corretores@susep.gov.br](mailto:corretores@susep.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "16",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-corretores-susep",
+  "statusDestaque": false
+}

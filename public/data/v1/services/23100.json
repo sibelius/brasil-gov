@@ -1,0 +1,164 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23100",
+  "nome": "Consultar a Existência de Processos de Auto de Infração Trabalhista ou Notificação de Débito do FGTS, por empregador",
+  "sigla": "",
+  "descricao": "Trata-se de serviço destinado à consulta de eventuais processos administrativos decorrentes dos Autos de Infração trabalhista ou Notificação de Débito do FGTS, lavrados pelos Auditores-Fiscais do Trabalho, que tramitam em face de determinado empregador. A consulta é pública e pode ser acessada por meio do número de inscrição no CNPJ ou CPF, do empregador pesquisado.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações ou detalhes acesse:\n\n [Instruções - eCPMR - Secretaria de Inspeção do Trabalho](https://eprocesso.sit.trabalho.gov.br/Instrucoes)\n\n Caso ainda possua alguma dúvida, contate a Unidade de Multas e Recursos de seu Estado, por um dos canais de atendimento disponíveis\n\n [Canais de Atendimento - eCPMR - Secretaria de Inspeção do Trabalho](https://eprocesso.sit.trabalho.gov.br/Atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://eprocesso.sit.trabalho.gov.br/ProcessoEletronico/Consultar/ProcessosPorEmpregador",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 101420
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85885,
+        "tipo": "Qualquer interessado",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 141542
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141543
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para Todos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autos de Infração trabalhista",
+        "id": 340872
+      },
+      {
+        "item": "Notificação de Débito do FGTS",
+        "id": 340873
+      },
+      {
+        "item": "Processos",
+        "id": 340874
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "* PORTARIA MTP Nº 667, DE 8 DE NOVEMBRO DE 2021\n * LEI Nº 9.784 , DE 29 DE JANEIRO DE 1999.",
+        "id": 118430
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 21
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 197767,
+      "titulo": "Consultar a Existência de Processos, por empregador",
+      "descricao": "Para consultar a existência de eventuais processos, em face de determinada pessoa física ou jurídica, o interessado deverá acessar o endereço eletrônico e preencher o número do CPF ou CNPJ do empregador que pretende pesquisar.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 270179,
+            "nome": "Para processos **eletrônicos**:\n\n [Processo Eletrônico - Consultar Processos por Empregador - eCPMR - Secretaria de Inspeção do Trabalho](https://eprocesso.sit.trabalho.gov.br/ProcessoEletronico/Consultar/ProcessosPorEmpregador)"
+          },
+          {
+            "id": 270180,
+            "nome": "Para processos **físicos**:\n\n [Processo Físico - Consultar Processos por Empregador - eCPMR - Secretaria de Inspeção do Trabalho](https://eprocesso.sit.trabalho.gov.br/ProcessoFisico/Consultar/ProcessosPorEmpregador)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257882,
+            "tipo": "web",
+            "descricao": "[Consultar processos](https://eprocesso.sit.trabalho.gov.br/)\n\n Â \n\n [](https://eprocesso.sit.trabalho.gov.br/ProcessoEletronico/Consultar/AndamentoProcessual)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "28",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-a-existencia-de-processos-de-auto-de-infracao-trabalhista-ou-notificacao-de-debito-do-fgts-por-empregador",
+  "statusDestaque": false
+}

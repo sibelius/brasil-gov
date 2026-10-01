@@ -1,0 +1,199 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/20997",
+  "nome": "Consultar débitos e emitir boletos bancários para pagamento de taxas, multas e de outras receitas arrecadadas pela Anatel",
+  "sigla": "",
+  "descricao": "Consulta de débitos e emissão de boletos para pagamento de valores relacionados à outorga, autorização, permissão de serviços de telecomunicações, despesas administrativas e demais obrigações tributárias e não tributárias junto à Anatel.",
+  "flagPortalLogado": "N",
+  "contato": "Para pedidos de informações, dúvidas ou esclarecimentos, registre uma solicitação no [Anatel Consumidor](https://apps.anatel.gov.br/anatelconsumidor/).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sistemas.anatel.gov.br/Boleto/Internet/Index_Boleto.asp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125704
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105131,
+        "tipo": "Pessoas físicas e jurídicas com débitos de valores relacionados à outorga, autorização, permissão de serviços de telecomunicações, despesas administrativas e demais obrigações tributárias e não tributárias junto à Anatel.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25064",
+    "dbId": 911,
+    "nomeOrgao": "Agência Nacional de Telecomunicações (ANATEL)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175726
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175727
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 175728
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Boletos",
+        "id": 418619
+      },
+      {
+        "item": "Cadin",
+        "id": 418620
+      },
+      {
+        "item": "Fistel",
+        "id": 418621
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 5.070, de 07 de julho de 1996](https://www.planalto.gov.br/ccivil_03/leis/L5070.htm) - Fundo de Fiscalização das Telecomunicações - Fistel",
+        "id": 150909
+      },
+      {
+        "item": "[Lei nº 9.472, de 16 de julho de 1997](https://www.planalto.gov.br/ccivil_03/leis/l9472.htm) - Lei Geral de Telecomunicações - LGT",
+        "id": 150910
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 24,
+    "negativas": 150
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 245325,
+      "titulo": "Consultar e imprimir boleto bancário no Sistema Boleto",
+      "descricao": "* Acesse o [Sistema Boleto](https://sistemas.anatel.gov.br/Boleto/Internet/Index_Boleto.asp) e clique em Impressão de boletos;\n * Preencha o CNPJ/CPF e o nº do Fistel, localizado no cabeçalho ou verso das Notificações de Lançamento ou no campo mensagem do boleto (Guia de Recolhimento da União - GRU);\n * Serão listados os débitos existentes;\n * Ao clicar no texto grifado em azul da coluna “FISTEL/Sequencial (Nosso Número)”, será apresentado o boleto (GRU) a ser impresso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317368,
+            "tipo": "web",
+            "descricao": "[Sistema Boleto](https://sistemas.anatel.gov.br/Boleto/Internet/Index_Boleto.asp) - Para mais informações, acesse o [Manual de Cadastro e Acesso ao Sistema Boleto](https://sistemas.anatel.gov.br/anexar-api/publico/anexos/download/25bfcbe6568e99f2c2013c9045b2b7ec).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245326,
+      "titulo": "Solucionar possíveis problemas com o pagamento do boleto",
+      "descricao": "* Se houver recusa pelo Banco ou mensagem de que o boleto não está registrado, orientamos que aguarde até 1 hora e tente novamente, utilizando o mesmo boleto. Isso porque a Federação Brasileira de Bancos - Febraban exige que os boletos bancários do tipo GRU Cobrança passem por um processo de registro e validação junto à rede bancária.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317369,
+            "tipo": "web",
+            "descricao": "Rede bancária.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "14",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-boletos-bancarios-para-pagamento-de-taxas-multas-e-de-outras-receitas-arrecadadas-pela-anatel",
+  "statusDestaque": false
+}

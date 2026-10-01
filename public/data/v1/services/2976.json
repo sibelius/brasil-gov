@@ -1,0 +1,244 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2976",
+  "nome": "Obter coordenadas referenciadas ao SIRGAS2000",
+  "sigla": "",
+  "descricao": "O IBGE-PPP (Posicionamento por Ponto Preciso) é um serviço online gratuito para o pós-processamento de dados GNSS (Global Navigation Satellite System). Ele permite aos usuários com receptores GPS e/ou GLONASS, obterem coordenadas referenciadas ao SIRGAS2000 (Sistema de Referência Geocêntrico para as Américas) através de um processamento preciso",
+  "flagPortalLogado": "N",
+  "contato": "Para o esclarecimento de dúvidas entre em contato com os [canais de atendimento do IBGE](https://www.ibge.gov.br/atendimento.html).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ibge.gov.br/geociencias/informacoes-sobre-posicionamento-geodesico/servicos-para-posicionamento-geodesico/16334-servico-online-para-pos-processamento-de-dados-gnss-ibge-ppp.html?=&t=processar-os-dados",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "IBGE-PPP",
+        "id": 92330
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 78779,
+        "tipo": "Qualquer pessoa que possua um receptor GPS ou GLONASS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3",
+    "dbId": 34305,
+    "nomeOrgao": "Fundação Instituto Brasileiro de Geografia e Estatística (IBGE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 127940
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 127941
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 127942
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 127943
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Documentos e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "coordenadas",
+        "id": 311039
+      },
+      {
+        "item": "conversão",
+        "id": 311040
+      },
+      {
+        "item": "precisão",
+        "id": 311041
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 106372
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 112,
+    "negativas": 164
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 178664,
+      "titulo": "Requisitar coordenadas",
+      "descricao": "Envio dos dados através de um arquivo e recebimento dos resultados em outro arquivo fornecido pelo sistema IBGE-PPP",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244616,
+            "nome": "Arquivo RINEX de um período máximo de até 48 horas e tamanho de até 20 Mb."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234734,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ibge.gov.br/geociencias/informacoes-sobre-posicionamento-geodesico/servicos-para-posicionamento-geodesico/16334-servico-online-para-pos-processamento-de-dados-gnss-ibge-ppp.html?=&t=processar-os-dados)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 178665,
+      "titulo": "Preencher dados solicitados",
+      "descricao": "Email válido e informações sobre o levantamento quando não especificado no arquivo RINEX são essenciais para obtenção de resultados fidedignos. Mensagens de erros de um trabalho malsucedido serão informadas para ajudar aos usuários a resolverem problemas comuns. Entretanto, as dúvidas ou outros problemas que surgirem podem ser encaminhados para o canal de atendimento <https://www.ibge.gov.br/atendimento.html>.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 244619,
+            "nome": "E-mail válido"
+          }
+        ],
+        "casos": [
+          {
+            "id": 38857,
+            "descricao": "Quando não informado no arquivo RINEX",
+            "documento": [
+              {
+                "id": 244617,
+                "codigo": null,
+                "descricao": "Tipo de Antena",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 244618,
+                "codigo": null,
+                "descricao": "Altura da antena",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 234735,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.ibge.gov.br/geociencias/informacoes-sobre-posicionamento-geodesico/servicos-para-posicionamento-geodesico/16334-servico-online-para-pos-processamento-de-dados-gnss-ibge-ppp.html?=&t=processar-os-dados)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "41",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-coordenadas-referenciadas-ao-sirgas2000",
+  "statusDestaque": false
+}

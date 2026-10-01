@@ -1,0 +1,243 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23708",
+  "nome": "Realizar consulta médica com especialistas no Hospital das Clínicas da Universidade Federal de Pernambuco (HC-UFPE)",
+  "sigla": "",
+  "descricao": "Consiste no atendimento por médico especialista previamente agendado para o Hospital das Clínicas da Universidade Federal de Pernambuco (HC-UFPE).\n\n Esse agendamento pode ser realizado pela Central de Regulação do Estado de Pernambuco ou através do agendamento de Interconsultas.",
+  "flagPortalLogado": "N",
+  "contato": "**Para mais informações ou dúvidas sobre este serviço, entre em contato por mensagem de texto com a:**\n\n Unidade de Regulação Assistencial do HC-UFPE\n\n **Fone: **(81) 21263757 ou (81)21263737 whatsapp (apenas mensagem de texto).\n\n **E-mail: **ura.hc-ufpe@ebserh.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111959
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94047,
+        "tipo": "Usuários do SUS",
+        "requisitos": "Possuir encaminhamento para médico especialista."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201441",
+    "dbId": 32681,
+    "nomeOrgao": "EBSERH - Filial Hospital das Clínicas da UFPE (HC-UFPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 156127
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "- Consulta médica",
+        "id": 373822
+      },
+      {
+        "item": "- Atendimento ambulatorial especializado",
+        "id": 373823
+      },
+      {
+        "item": "- Consulta especializada no Hospital das Clín",
+        "id": 373824
+      },
+      {
+        "item": "",
+        "id": 373825
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 130384
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 7
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 218318,
+      "titulo": "Apresentar-se na Central de Marcação",
+      "descricao": "Nesta etapa, o paciente deve comparecer à Central de Marcação no dia e horário agendados para apresentar a documentação exigida, conferir e confirmar seus dados cadastrais, garantindo que todas as informações estejam corretas e atualizadas para a continuidade do atendimento. Após a confirmação dos dados, a atendente encaminha o paciente para o ambulatório de especialidades.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292481,
+            "nome": "**Interconsulta: **\n\n - Solicitação de interconsulta devidamente preenchido, assinado e carimbado pelo solicitante\n\n - Cartão de consultas do HC-UFPE\n\n - Documento de identificação com foto\n\n **Agendamento da Central de Regulação Estadual:**\n\n - Comprovante de agendamento para o HC-UFPE, devidamente preenchido\n\n - Documento de identificação com foto\n\n - Cadastro de Pessoa Física - CPF\n\n - Comprovante de residência\n\n - Cartão Nacional de Saúde – CNS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283584,
+            "tipo": "presencial",
+            "descricao": "O paciente deve comparecer com a documentação exigida na Central de Marcação (em frente a Portaria 4) do Hospital das Clínicas .\n\n Av. Prof. Moraes Rego, 1235 - Cidade Universitária, Recife - PE, 50670-901",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218319,
+      "titulo": "Apresentar-se no balcão de atendimento do Ambulatório de especialidades",
+      "descricao": "Paciente entrega sua documentação no balcão do ambulatório e é orientado a aguardar sua chamada pelo médico.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292482,
+            "nome": "**Interconsulta:**\n\n - Solicitação de interconsulta devidamente preenchido, assinado e carimbado pelo solicitante\n\n - Cartão de consultas do HC-UFPE\n\n - Documento de identificação com foto\n\n **Agendamento da Central de Regulação Estadual:**\n\n - Comprovante de agendamento para o HC-UFPE, devidamente preenchido\n\n - Documento de identificação com foto\n\n - Cadastro de Pessoa Física - CPF\n\n - Comprovante de residência\n\n - Cartão Nacional de Saúde – CNS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283585,
+            "tipo": "presencial",
+            "descricao": "O paciente deve comparecer com a documentação exigida na Unidade de Ambulatório do Hospital das Clínicas, na Portaria 4.\n\n Av. Prof. Moraes Rego, 1235 - Cidade Universitária, Recife - PE, 50670-901",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218320,
+      "titulo": "Executar procedimentos e encaminhamentos após a consulta",
+      "descricao": "Ao término da consulta, o paciente deve se dirigir ao atendente da Unidade de Ambulatório do Hospital das Clínicas para informações dos procedimentos necessários.\n\n Após a consulta o paciente pode ter os seguintes encaminhamentos:\n\n - Agendar retorno direto com o profissional no momento da consulta\n\n - Agendar Interconsulta na Central de Marcação\n\n - Agendar exame na Central de Marcação\n\n - Agendar exame no site HC-UFPE\n\n - Internação\n\n - Alta médica",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292483,
+            "nome": "- Cartão de consultas do HC/UFPE;\n\n - Documento de identificação com foto;\n\n - Cartão Nacional de Saúde - CNS."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283586,
+            "tipo": "presencial",
+            "descricao": "O paciente deve se dirigir à recepção da:\n\n Unidade de Ambulatório do Hospital das Clínicas – Portaria 4\n\n Av. Prof. Moraes Rego, 1235 - Cidade Universitária, Recife - PE, 50670-901",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "22",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/atendimento-medico-especializado-no-hospital-das-clinicas-da-universidade-federal-de-pernambuco-2013-hc-ufpe",
+  "statusDestaque": false
+}

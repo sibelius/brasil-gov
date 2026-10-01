@@ -1,0 +1,211 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5851",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UFRGS",
+  "sigla": "",
+  "descricao": "A partir deste serviço o aluno ou ex-aluno da UFRGS pode solicitar a expedição de seu diploma de graduação ou segunda via do diploma.\n\n O aluno que cola grau em cerimônia no Salão de Atos da UFRGS recebe seu diploma no ato da colação de grau. Já nos casos de colação de grau em Gabinete ou solicitação de segunda via de diploma, o documento é entregue ao solicitante posteriormente.",
+  "flagPortalLogado": "N",
+  "contato": "Ligue para (51)3308-2000. Whatsapp: (51) 3308-4862",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www1.ufrgs.br/CatalogoServicos/servicos/servico?servico=4268",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 80508
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 69949,
+        "tipo": "Aluno ou ex-aluno de graduação da UFRGS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/430",
+    "dbId": 57787,
+    "nomeOrgao": "Universidade Federal do Rio Grande do Sul (UFRGS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 111538
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 273467
+      },
+      {
+        "item": "Graduação",
+        "id": 273468
+      },
+      {
+        "item": "2ª via",
+        "id": 273469
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 91478
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 157065,
+      "titulo": "Obter diploma de graduação",
+      "descricao": "Há duas formas de o aluno obter seu diploma de graduação:\n\n Para alunos que colam grau no Salão de Atos: não é necessário solicitação específica por parte do aluno, pois, nesses casos, a expedição e disponibilização do diploma fazem parte dos trâmites administrativos internos do processo de colação de grau.\n\n Para alunos que colam grau em gabinete: o aluno deve solicitar a expedição do diploma via web.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 205125,
+            "tipo": "presencial",
+            "descricao": "Para alunos que colam grau no Salão de Atos: O aluno recebe seu diploma durante a cerimônia de colação de grau, a qual tem duração média de 3 horas.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 3,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 205126,
+            "tipo": "web",
+            "descricao": "Para alunos que colam grau em gabinete:Â <https://www1.ufrgs.br/CatalogoServicos/servicos/servico?servico=1578>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 157066,
+      "titulo": "Solicitar segunda via de diploma de graduação",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 26009,
+            "descricao": "Taxa de expedição e registro de 2ª via de diplomas",
+            "moeda": "R$",
+            "valor": " 150,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 205127,
+            "tipo": "web",
+            "descricao": "<https://www1.ufrgs.br/CatalogoServicos/servicos/servico?servico=1579>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-graduacao-ufrgs",
+  "statusDestaque": false
+}

@@ -1,0 +1,166 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6242",
+  "nome": "Obter diploma ou 2ª via de diploma de graduação - UNILAB",
+  "sigla": "",
+  "descricao": "Após a colação de grau, o processo de confeccão de diploma segue para registro e expedição no prazo de 60 dias, prorrogáveis se necessário, conforme Portaria MEC Nº 1.095, de 25 de outubro de 2018. \n\n Todos os diplomas serão entregues aos discentes na SRCA.\n\n Para mais informações, consultar [https://unilab.edu.br/diploma/.](https://unilab.edu.br/diploma/)",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: registroacademico@unilab.edu.br ou \n\n drca@unilab.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://unilab.edu.br/diploma/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Solicitação de Diploma de Graduação",
+        "id": 43440
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 40638,
+        "tipo": "Alunos concluintes da UNILAB",
+        "requisitos": "Alunos de graduação que colaram grau com carga horária obrigatória cumprida em algum curso na Unilab."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/109912",
+    "dbId": 57795,
+    "nomeOrgao": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 65671
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 150705
+      },
+      {
+        "item": "Certificado",
+        "id": 150706
+      },
+      {
+        "item": "Colação de Grau",
+        "id": 150707
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 47429
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n   + Urbanidade; \n     + Respeito; \n     + Acessibilidade; \n     + Cortesia; \n     + Presunção da boa-fé do usuário; \n     + Igualdade; \n     + Eficiência; \n     + Segurança; e \n     + Ética.",
+  "etapas": [
+    {
+      "id": 87352,
+      "titulo": "Solicitação de colação de grau e expedição de diploma.",
+      "descricao": "O(A) aluno(a) de graduação deve solicitar à Coordenação do curso participação em colação de grau via formulário disponível em [https://unilab.edu.br/secretaria-de-registro-e-controle-academico-srca/.](https://unilab.edu.br/secretaria-de-registro-e-controle-academico-srca/) \n\n Após a colação de grau (regular ou especial), os diplomas são confeccionados no prazo de 60 dias prorrogáveis por igual período se necessário.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 124019,
+            "nome": "Documentos obrigatórios: \n\n - documento de identidade oficial, \n\n - certificado de conclusão do ensino médio, \n\n - histórico do curso integralizado, \n\n - ata de defesa do trabalho final do curso, \n\n - declaração de quitação com a Biblioteca e \n\n - declaração de depósito do trabalho final na Biblioteca."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 111636,
+            "tipo": "web",
+            "descricao": "As informações sobre registro e expedição de diplomas podem ser obtidas no [site](https://unilab.edu.br/diploma/ \"site\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 111637,
+            "tipo": "e-mail",
+            "descricao": "As informações sobre registro e expedição de diplomas podem ser obtidas pelo e-mail registroacademico@unilab.edu.br.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "0",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-de-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-unilab",
+  "statusDestaque": false
+}

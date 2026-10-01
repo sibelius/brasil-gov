@@ -1,0 +1,254 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10303",
+  "nome": "Obter publicações técnicas",
+  "sigla": "DNOCS",
+  "descricao": "Por este serviço, podem ser adquiridas publicações técnicas do DNOCS, mediante reserva e pagamento do valor de custo via sistema de pagamento online do [PagTesouro](https://pagtesouro.tesouro.gov.br/docs/#que), e sua retirada no DNOCS.",
+  "flagPortalLogado": "S",
+  "contato": "Seção de Documentação do DNOCS\n\n Telefones: (85) 3391-5296 e (85) 3391-5380",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Comprar publicações do DNOCS",
+        "id": 126141
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105515,
+        "tipo": "Pessoas físicas ou jurídicas",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "1",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/367",
+    "dbId": 23733,
+    "nomeOrgao": "Departamento Nacional de Obras Contra as Secas (DNOCS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176377
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176378
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176379
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 176380
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Material de Pesquisa"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "compra",
+        "id": 420141
+      },
+      {
+        "item": "publicação",
+        "id": 420142
+      },
+      {
+        "item": "técnica",
+        "id": 420143
+      },
+      {
+        "item": "pagtesouro",
+        "id": 420144
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Portaria nº DNOCS/DG/GAB 43/17 (Regimento Interno), Art. 36, IV, \"c\".",
+        "id": 151390
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246241,
+      "titulo": "Reservar os títulos e pagar com PagTesouro",
+      "descricao": "O solicitante inicia a solicitação, inserindo a seguinte informação no formulário:\n\n  * Identificação;\n * Dados de contato;\n * Lista de títulos para aquisição e sua quantidade.\n   \n\n O solicitante escolhe a forma de pagamento e o efetua online, exceto pelo formato de boleto, onde deve pagar por outro meio e enviar comprovante antes de continuar com o serviço - atentar para o prazo de 3 dias úteis, pois, caso o comprovante não seja enviado neste período, a reserva será desfeita.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318460,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=10303)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246242,
+      "titulo": "Receber agendamento para recebimento",
+      "descricao": "Caso se comprove o pagamento, o solicitante recebe confirmação para retirada das publicações adquiridas no DNOCS a partir de determinada data.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318461,
+            "tipo": "web",
+            "descricao": "[Acompanhar](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246243,
+      "titulo": "Retirar publicações adquiridas no DNOCS",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318462,
+            "tipo": "presencial",
+            "descricao": "O solicitante deve se deslocar até a Av. Duque de Caxias, 1700, Centro, Fortaleza-CE, CEP 60.035-111, e dirigir-se à Seção de Documentação, munido de documento com CPF (ou CNPJ) solicitando o recolhimento das publicações adquiridas.\n\n O DNOCS não se responsabiliza pelo transporte ao veículo do solicitante nem realiza despacho via correios ou transportadora.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-publicacoes-tecnicas",
+  "statusDestaque": false
+}

@@ -1,0 +1,265 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24208",
+  "nome": "Consultar painel \"Produção Certa\" na aplicação Meu Imóvel Rural para obter informações sobre ZARC, clima e custos de produção",
+  "sigla": "",
+  "descricao": "A funcionaildade \"Produção Certa\" da aplicação \"Meu Imóvel Rural\" foi pensada para que o agricultor acesse de forma fácil e intuitiva informações relevantes para sua produção. A funcionalidade contempla três conjutos de dados, divididas em três abas: \n\n Planejamento: mostra as melhores épocas para plantar em cada município, com menos risco de perder a safra por chuva, seca ou geada. A informação vem do **Zoneamento Agrícola de Risco Climático (ZARC)**, um estudo oficial que leva em conta o clima, o solo e o tipo de cultura plantada. O ZARC também é usado pelos bancos e seguradoras para definir as regras de crédito e seguro agrícola.\n\n Clima: traz a previsão do tempo, disponibilizando dados como temperatura, precipitação, umidade do ar, etc. \n\n Custos: Mostra quanto costuma custar produzir cada tipo de plantação, com base em dados da Conab. A partir da escolha do município e da cultura a ser plantada, a ferramenta mostrar somados os gastos relativos a sementes, adubo e outros insumos.",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o link e veja todas as informações sobre o Meu Imóvel Rural:  \n[www.gov.br/gestao/pt-br/assuntos/meu-imovel-rural](https://www.gov.br/gestao/pt-br/assuntos/meu-imovel-rural/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "ZARC",
+        "id": 123847
+      },
+      {
+        "item": "Custos Conab",
+        "id": 123848
+      },
+      {
+        "item": "Previsão do tempo",
+        "id": 123849
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103648,
+        "tipo": "Cidadãos (pessoas físicas) que sejam detentores de imóveis rurais e possuam cadastro no [GOV.BR](http://gov.br/).",
+        "requisitos": "Os pré-requisitos de acesso são: \n\n  * Ter cadastro ativo no [GOV.BR](http://gov.br/)\n * Ter imóvel rural vinculado ao seu CPF em pelo menos um dos sistemas (SICAR – Sistema Nacional de Cadastro Ambiental Rural, SNCR – Sistema Nacional de Cadastro Rural ou SIGEF – Sistema de Gestão Fundiária)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308803",
+    "dbId": 58136,
+    "nomeOrgao": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173231
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Assistência Técnica e Financiamentos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ZARC",
+        "id": 412340
+      },
+      {
+        "item": "Zoneamento Agrícola",
+        "id": 412341
+      },
+      {
+        "item": "custos de produção",
+        "id": 412342
+      },
+      {
+        "item": "previsão do tempo",
+        "id": 412343
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148966
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241576,
+      "titulo": "Acessar a plataforma Meu Imóvel Rural",
+      "descricao": "Acesse o site ou aplicativo do Meu Imóvel Rural e entre com sua conta GOV.BR.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311918,
+            "tipo": "web",
+            "descricao": "<https://meuimovelrural.sistema.gov.br/#/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311919,
+            "tipo": "aplicativo-movel",
+            "descricao": "<https://www.gov.br/pt-br/apps/meu-imovel-rural>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241577,
+      "titulo": "Clicar no card \"Produção Certa\"",
+      "descricao": "Após fazer o login, \"Meu Imóvel Rural\" mostrará em tela a lista de cards das funcionalidades da aplicaçação. Clique no card \"Tô em dia\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311920,
+            "tipo": "web",
+            "descricao": "<https://meuimovelrural.sistema.gov.br/#/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311921,
+            "tipo": "aplicativo-movel",
+            "descricao": "<https://www.gov.br/pt-br/apps/meu-imovel-rural>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241578,
+      "titulo": "Visualizar dados de Zonemento Agrícola de Risco Climárico, Clima ou Custos",
+      "descricao": "Navegue pelas abas para visualizar os dados de planejamento de plantio, de clima ou de custos. As informações apresentadas consideram a localilzação dos imóveis vinculados a CPF do agricultor logado. Caso haja imóveis em mais de um município, é possível selecionar a localidade para visualizar os dados. Na aba de \"Planejamento\" é possível selecionar o tipo de solo para informações mais precisas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311922,
+            "tipo": "web",
+            "descricao": "<https://meuimovelrural.sistema.gov.br/#/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311923,
+            "tipo": "aplicativo-movel",
+            "descricao": "<https://www.gov.br/pt-br/apps/meu-imovel-rural>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-painel-producao-certa-na-aplicacao-meu-imovel-rural-para-obter-informacoes-sobre-zoneamento-agricola-de-risco-clima-e-custos-de-producao",
+  "statusDestaque": false
+}

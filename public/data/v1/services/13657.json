@@ -1,0 +1,152 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13657",
+  "nome": "Solicitar Atendimento (Regulado) - CVM",
+  "sigla": "",
+  "descricao": "Serviço voltado aos participantes (regulados) do mercado registrados na CVM, para esclarecimento de assuntos relativos à suas áreas de atuação:\n\n  * Administradores de Carteira\n * Analistas de Valores Mobiliários\n * Assessores de Investimento (Agentes Autônomos de Investimento)\n * Auditores Independentes\n * Clubes de Investimento\n * Comitê de Termo de Compromisso\n * Companhias\n * Consultores de Valores Mobiliários\n * Corretoras e Distribuidoras\n * Custodiantes, Escrituradores e Depositários Centrais de Valores Mobiliários\n * Dívida Ativa\n * Fundos de Investimento em Geral\n * Investidores Não-Residentes\n * Investimentos Estruturados (Securitização, Ativos Imobiliários e outros)\n * Normas Contábeis\n * Plataforma de Crowdfunding\n * Registro de Ofertas Públicas\n * Taxa de Fiscalização e Multa Cominatória",
+  "flagPortalLogado": "N",
+  "contato": "A área da CVM a ser contatada está indicada na página https://www.gov.br/cvm/pt-br/canais\\_atendimento/regulados, conforme o assunto",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/cvm/pt-br/canais_atendimento/regulados",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 80832
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 70191,
+        "tipo": "Participantes (Regulados) do mercado de valores mobiliários.",
+        "requisitos": "Necessário ser participante registrado na CVM"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478",
+    "dbId": 7907,
+    "nomeOrgao": "Comissão de Valores Mobiliários (CVM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 111967
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Valores Mobiliários"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Regulado",
+        "id": 274531
+      },
+      {
+        "item": "Participante",
+        "id": 274532
+      },
+      {
+        "item": "Registrado",
+        "id": 274533
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 91750
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 157471,
+      "titulo": "Selecionar o assunto e consultar a área correspondente da CVM",
+      "descricao": "Selecionar o assunto na página https://www.gov.br/cvm/pt-br/canais\\_atendimento/regulados e consultar a área da CVM por ele responsável",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 205604,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/cvm/pt-br/canais_atendimento/regulados)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3362",
+      "nome": "Solicitar atendimento (Investidores) - CVM"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-atendimento-regulado-cvm",
+  "statusDestaque": false
+}

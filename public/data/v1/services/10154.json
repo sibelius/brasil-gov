@@ -1,0 +1,203 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10154",
+  "nome": "Obter Credenciamento Aeroportuário",
+  "sigla": "",
+  "descricao": "É o cadastro digital feito na Polícia Federal obrigatório para a obtenção de uma credencial aeroportuária (temporária ou permanente). Esse cadastro é uma das exigências da ANAC para a obtenção de uma credencial aeroportuária e visa realizar pesquisas de segurança dos requerentes.",
+  "flagPortalLogado": "N",
+  "contato": "* **Horários e peculiaridades de atendimento nas unidades PF:**\n  No caso de dúvidas relativas à particularidades locais das unidades de atendimento, tais como: dias e horário de funcionamento da unidade, necessidade ou não de agendamento prévio, dentre outras, consulte uma [unidade da Polícia Federal](https://www.gov.br/../../pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias).\n\n  \n\n siscaer.suporte@pf.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.dpf.gov.br/siscaer-publico-web/#/cadastro",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Credenciamento aeroportuário",
+        "id": 122899
+      },
+      {
+        "item": "Credencial para aeroporto",
+        "id": 122900
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102723,
+        "tipo": "Cidadãos brasileiros e estrangeiros.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171717
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Licenças"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "credenciamento",
+        "id": 408904
+      },
+      {
+        "item": "aeroportuário",
+        "id": 408905
+      },
+      {
+        "item": "polícia federal",
+        "id": 408906
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto 11.195/2022 (PNAVSEC)\n\n Regulamento Brasileiro de Aviação Civil (RBAC) nº 107 da ANAC.",
+        "id": 147625
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 102,
+    "negativas": 127
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239608,
+      "titulo": "Realizar o cadastro na Polícia Federal",
+      "descricao": "Você deve preencher o requerimento de cadastro no formulário eletrônico disponibilizado no site da Polícia Federal e imprimi-lo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309299,
+            "tipo": "web-inscrever-se",
+            "descricao": "Cadastro realizado apenas no site da Polícia Federal na internet: [https://www.gov.br/pt-br/servicos/obter-credenciamento-aeroportuario](https://servicos.dpf.gov.br/siscaer-publico-web/#/cadastro)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 239609,
+      "titulo": "Validar o cadastro previamente realizado.",
+      "descricao": "Esse processo não é realizado nas unidades da Polícia Federal. Você deve comparecer ao setor de credenciamento do aeroporto para o qual solicitou acesso para validar o cadastro gerado. O procedimento para validação dos pedidos e o prazo para conclusão desta etapa variam conforme o aeroporto em questão. Após validação do seu cadastro, verificação de antecedentes criminais e apresentação dos demais documentos exigidos pela ANAC, a sua credencial estará apta a ser emitida pelo aeroporto.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 315778,
+            "nome": "* Cadastro impresso;\n * Documento de identificação."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309300,
+            "tipo": "presencial",
+            "descricao": "No setor de credenciamento do aeroporto ao qual se pretende o acesso.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "45",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-credenciamento-aeroportuario",
+  "statusDestaque": false
+}

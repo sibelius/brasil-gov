@@ -1,0 +1,263 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9486",
+  "nome": "Obter Declarações de RAIS e CAGED",
+  "sigla": "",
+  "descricao": "Este serviço possibilita ao declarante, procurador ou seu representante legal obter declarações ou número do Recibo do CAGED ou declarações ou Recibo de entrega da RAIS, em PDF.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações ou dúvidas sobre este serviço, entre em contato com o Ministério do Trabalho e Emprego.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://atendimento.trabalho.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 102408
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 86528,
+        "tipo": "O estabelecimento ou seu representante legal, acessando o portal Emprega Brasil, conseguirá, após preenchimento do questionário, imprimir o relatório da RAIS e/ou recibo do CAGED, em formato PDF, desde que tenham sido declarados pela empresa no período oportuno, de acordo com cada ano-base solicitado (RAIS) e competência/ano (CAGED).\n\n Tribunais de Justiça, por intermédio de servidores das Varas ou Secretarias e Defensoria Pública.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308820",
+    "dbId": 58141,
+    "nomeOrgao": "Ministério do Trabalho e Emprego (MTE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 142690
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para o empregador"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CAGED",
+        "id": 343602
+      },
+      {
+        "item": "RAIS",
+        "id": 343603
+      },
+      {
+        "item": "CREA",
+        "id": 343604
+      },
+      {
+        "item": "RECIBO",
+        "id": 343605
+      },
+      {
+        "item": "DECLARAÇÃO.",
+        "id": 343606
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "* [Lei n.º 4.923, de 23 de dezembro de 1965](https://www.planalto.gov.br/ccivil_03/leis/l4923.htm)\n * [Decreto nº 10.854, de 10 de novembro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10854.htm)",
+        "id": 119378
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8184,
+    "negativas": 10599
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 199336,
+      "titulo": "Solicitar declaração",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 272481,
+            "nome": "**Documentação para todos os casos**\n\n  * Requerimento elaborado pela empresa solicitando a informação com carimbo e assinatura do responsável legal, contendo:\n        i. Número de inscrição do empregador; e\n\n       ii. Documentos de identificação e assinatura do responsável legal.\n\n  *  Período desejado das declarações"
+          },
+          {
+            "id": 272482,
+            "nome": "**Quando for o procurador ou representante **\n\n  * Procuração que autorize o procurador a solicitar documentos junto ao MTE; e\n * Documento de identificação do procurador ou representante."
+          },
+          {
+            "id": 272483,
+            "nome": "**Documentação para a justiça**\n\n  * Determinação Judicial;\n * Número de inscrição do empregador; e\n * CPF ou PIS/PASEP do trabalhador."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 259801,
+            "tipo": "web",
+            "descricao": "[Portal CAGED](https://caged.maisemprego.mte.gov.br/portalcaged/paginas/home/home.xhtml): Para obter declaração do CAGED.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 259802,
+            "tipo": "web",
+            "descricao": "[Portal RAIS](http://www.rais.gov.br/sitio/obter_declaracao.jsf): Para obter declaração da RAIS a partir de 2002.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 259803,
+            "tipo": "web",
+            "descricao": "[Portal Emprega Brasil](https://servicos.mte.gov.br/spme-v2/#/login) \n\n Para obter o extrato de vínculos declarados nos sistemas CAGED/RAIS, com o selo de autenticidade do MTE.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 259804,
+            "tipo": "web",
+            "descricao": "[Plataforma de Atendimento MTE](https://atendimento.trabalho.gov.br/) \n\n Serviço de informações prestado pelas Unidades Regionais do Trabalho e Emprego.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 259805,
+            "tipo": "web",
+            "descricao": "[Protocolo do MTE](https://www.gov.br/pt-br/servicos/protocolar-documentos-junto-ao-ministerio-do-trabalho-e-emprego)\n\n Canal destinado aos Tribunais de Justiça, por intermédio de servidores das Varas ou Secretarias e Defensoria Pública, para que possam solicitar os vínculos empregatícios, solicitação de endereço do empregador do vínculo mais recente declarado na RAIS ou CAGED, ou relatório completo da RAIS do estabelecimento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 259806,
+            "tipo": "telefone",
+            "descricao": "Central 158\n\n Serviço de informações pela Central Alô Trabalho, com ligação gratuita.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 199337,
+      "titulo": "Enviar declarações ao solicitante",
+      "descricao": "Em caso de conformidade da documentação apresentada, a declaração solicitada será disponibilizada no menu “Meus Pedidos” disponível na página de acompanhamento em: [  \n](https://atendimento.trabalho.gov.br/)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 259807,
+            "tipo": "web",
+            "descricao": "<https://atendimento.trabalho.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "44",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-declaracoes-de-rais-e-caged",
+  "statusDestaque": false
+}

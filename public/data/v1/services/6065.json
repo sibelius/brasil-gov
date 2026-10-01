@@ -1,0 +1,253 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6065",
+  "nome": "Obter 2ª via de diploma e histórico de graduação - UFF",
+  "sigla": "",
+  "descricao": "Solicitação de emissão da segunda via de diploma e histórico escolar de curso de graduação da UFF.",
+  "flagPortalLogado": "N",
+  "contato": "Divisão de Controle de Certificados e Diplomas – diploma.prograd@id.uff.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 109773
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92430,
+        "tipo": "Egressos de cursos de graduação da UFF.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/427",
+    "dbId": 57755,
+    "nomeOrgao": "Universidade Federal Fluminense (UFF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 153253
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "2ª Via",
+        "id": 366804
+      },
+      {
+        "item": "Diploma",
+        "id": 366805
+      },
+      {
+        "item": "Graduação",
+        "id": 366806
+      },
+      {
+        "item": "",
+        "id": 366807
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 127357
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 214068,
+      "titulo": "Solicitação / requisição do diploma de graduação",
+      "descricao": "Solicitação de emissão de 2ª via de diploma e histórico escolar de curso de graduação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288296,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 288297,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 288298,
+            "nome": "Cópia da 1ª via do diploma da graduação (se tiver)"
+          },
+          {
+            "id": 288299,
+            "nome": "Cópia da 1ª via do histórico da graduação (se tiver)"
+          },
+          {
+            "id": 288300,
+            "nome": "Comprovante de pagamento"
+          },
+          {
+            "id": 288301,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 37691,
+            "descricao": "Obter 2°via de diploma e histórico de graduação",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "2ª via de diploma e histórico de graduação - R$ 335,00",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278174,
+            "tipo": "presencial",
+            "descricao": "Protocolo Geral da Reitoria",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 278175,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.uff.br/processo/solicitacao-de-2a-via-de-diploma-e-ou-historico-escolar-de-graduacao/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 214069,
+      "titulo": "Retirada/entrega do diploma de graduação",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 288302,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 288303,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 288304,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 278176,
+            "tipo": "e-mail",
+            "descricao": "Quando o diploma digital (diploma e o histórico escolar final) estiver disponível para acesso e download no Sistema Acadêmico, o interessado receberá uma comunicação específica em seu e-mail.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-de-2a-via-de-diploma-de-graduacao-e-de-pos-graduacao-uff",
+  "statusDestaque": false
+}

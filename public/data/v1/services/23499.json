@@ -1,0 +1,228 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23499",
+  "nome": "Obter diploma ou 2ª via de diploma de curso técnico - UFTM",
+  "sigla": "",
+  "descricao": "Serviço destinado à solicitação do diploma de curso técnico ou de segunda via, em casos de perda, extravio, roubo ou alteração de nome.",
+  "flagPortalLogado": "N",
+  "contato": "Seção de Registro Acadêmico do Cefores/UFTM E-mail: [registro.cefores@uftm.edu.br](mailto:registro.cefores@uftm.edu.br)  \nWhatsapp: (34) 3700-6835  \nTelefones: (34) 3700-6835 e (34) 3700-6302",
+  "gratuito": "false",
+  "porcentagemDigital": 50,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificação",
+        "id": 107150
+      },
+      {
+        "item": "Documentos Acadêmicos",
+        "id": 107151
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90290,
+        "tipo": "Alunos egressos de cursos técnicos na instituição UFTM.",
+        "requisitos": "É necessário concluir o curso técnico, colar grau e não possuir documentação pendente."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Validade por prazo indeterminado."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/459",
+    "dbId": 57791,
+    "nomeOrgao": "Universidade Federal do Triângulo Mineiro (UFTM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 149388
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certificação",
+        "id": 358006
+      },
+      {
+        "item": "Curso Técnico",
+        "id": 358007
+      },
+      {
+        "item": "Documentos Acadêmicos",
+        "id": 358008
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124700
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei n. 13.460/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei n. 13.460/2017\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue, conforme estabelecido pela [Lei n. 10.048, de 8 de novembro de 2000](https://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 209213,
+      "titulo": "Referente à 1ª via",
+      "descricao": "Após fechamento das notas e verificada a regularidade da documentação, será emitido em até 2 (dois) dias a Declaração de Conclusão.\n\n O diploma será expedido e registrado no prazo máximo de 60 (sessenta) dias após a conclusão do curso.\n\n Esse prazo poderá ser reduzido para até 30 (trinta) dias quando o respectivo conselho de classe ou órgão de representação profissional não emitir o registro provisório ou quando o concluinte comprovar, por meio de portaria, a nomeação em concurso público.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271839,
+            "tipo": "presencial",
+            "descricao": "Centro de Educação Profissional - Cefores - UFTM  \nAvenida Getúlio Guaritá, 159 - Bairro Abadia  \nCEP: 38025-440 - Uberaba-MG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 209214,
+      "titulo": "Solicitação da 2ª via",
+      "descricao": "O solicitante deverá preencher o \"[Formulário 1 – Requerimento Geral para Seção de Registro Acadêmico](http://sistemas.uftm.edu.br/integrado/?to=magic%3Ae285d725bf9280feeb0a2d06&secret=uftm \"Formulário 1 – Requerimento Geral para Seção de Registro Acadêmico\")\" e, juntamente com a documentação exigida, encaminhar à Secretaria do CEFORES/UFTM, pessoalmente ou pelo e-mail [sec.cefores@uftm.edu.br](mailto:sec.cefores@uftm.edu.br).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282884,
+            "nome": "[Formulário 1 – Requerimento Geral para Seção de Registro Acadêmico](http://sistemas.uftm.edu.br/integrado/?to=magic%3Ae285d725bf9280feeb0a2d06&secret=uftm \"Formulário 1 – Requerimento Geral para Seção de Registro Acadêmico\")\n\n Cópia da certidão de nascimento ou casamento\n\n Carteira de identidade ou habilitação\n\n CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 36655,
+            "descricao": "2ª via",
+            "moeda": "R$",
+            "valor": " 120,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271840,
+            "tipo": "presencial",
+            "descricao": "Centro de Educação Profissional - Cefores - UFTM  Avenida Getúlio Guaritá, 159 - Bairro Abadia CEP: 38025-440 - Uberaba-MG",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 271841,
+            "tipo": "e-mail",
+            "descricao": "sec.cefores@uftm.edu.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11384",
+      "nome": "Matricular-se em curso de Educação Profissional Técnica (Educação de Jovens e Adultos, Integrado, Subsequente e Concomitante)"
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "83",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-graduacao-uftm",
+  "statusDestaque": false
+}

@@ -1,0 +1,444 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2899",
+  "nome": "Solicitar autorização para o uso de combustíveis experimentais",
+  "sigla": "",
+  "descricao": "Solicitação de autorização prévia da ANP para a utilização de combustíveis experimentais em todo o território nacional.\n\n Mais informações sobre esse serviço podem ser encontrados em [Combustíveis experimentais - Agência Nacional de Petróleo e Biocombustíveis](https://www.gov.br/anp/pt-br/assuntos/qualidade-de-produtos/combustiveis-experimentais)\n\n **Para utilizar esse serviço você deve ter um cadastro como usuário externo do SEI-ANP. Para mais informações acesse o serviço \"[Solicitar cadastro como usuário externo no SEI-ANP](http://www.gov.br/pt-br/servicos/cadastrar-usuario-externo-no-sei-anp)\".**",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento nº 0800 970 0267 (ligação gratuita) ou o  [Fala.BR](https://falabr.cgu.gov.br/web/home), plataforma integrada de Ouvidoria e acesso à informação da Controladoria-Geral da União (CGU), para entrar em contato com a Agência.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0#",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Autorização para uso de combustíveis experimentais",
+        "id": 110775
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93154,
+        "tipo": "Agente interessado em utilizar combustível experimental.",
+        "requisitos": "[Resolução ANP nº 908, de 18 de novembro de 2022](http://atosoficiais.com.br/anp/resolucao-n-908-2022), Capítulo II, Seção I, referente ao uso do combustível experimental por tempo indeterminado e Seção II, referente ao uso do combustível experimental em evento específico."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "180",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 180
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 154655
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 154656
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Compra, Venda e Uso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Combustível",
+        "id": 370061
+      },
+      {
+        "item": "Experimental",
+        "id": 370062
+      },
+      {
+        "item": "Uso de combustível",
+        "id": 370063
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução 908 2022 da ANP BR](https://atosoficiais.com.br/anp/resolucao-n-908-2022-dispoe-sobre-a-autorizacao-previa-da-anp-para-a-utilizacao-de-combustiveis-experimentais-em-todo-o-territorio-nacional?origin=instituicao&q=908)",
+        "id": 128547
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 5
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 215938,
+      "titulo": "Encaminhamento de consulta inicial do agente.",
+      "descricao": "O agente interessado em utilizar combustível experimental deve submeter à ANP consulta inicial conforme o Anexo da [Resolução ANP nº 908, de 18 de novembro de 2022.](http://atosoficiais.com.br/anp/resolucao-n-908-2022)\n\n A ANP emitirá parecer técnico contendo a análise técnica e a definição dos critérios que devem ser abordados na elaboração do plano de trabalho pelo agente interessado, no prazo máximo de 30 dias da data de apresentação da consulta inicial.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 290292,
+            "nome": "I - detalhes do combustível experimental, com varredura completa full scan dos compostos orgânicos por cromatografia acoplada a espectrômetro de massas e de metais por ICP;"
+          },
+          {
+            "id": 290293,
+            "nome": "II - relatório de ensaio de caracterização do produto de acordo com o disposto no item 3.1 do Anexo da resolução;"
+          },
+          {
+            "id": 290294,
+            "nome": "III - finalidade do uso (transporte de carga ou de passageiros, colheita de grãos, geração de energia, geração de vapor, secagem de agrícolas, entre outros);"
+          },
+          {
+            "id": 290295,
+            "nome": "IV - informações sobre toxicidade do produto ou ficha de informações e segurança de produto químico (FISPQ) e manuseio do produto;"
+          },
+          {
+            "id": 290296,
+            "nome": "V - regulamentação ou legislação aplicável em outros países, ensaios normalizados por órgãos normatizadores, como ABNT, ASTM, ISO e outros, caso disponível;"
+          },
+          {
+            "id": 290297,
+            "nome": "VI - licença ou parecer favorável emitido pelo órgão ambiental competente, relativo aos possíveis impactos ambientais decorrentes do uso do produto, caso já possua;"
+          },
+          {
+            "id": 290298,
+            "nome": "VII - fluxograma das etapas da produção do combustível experimental incluindo as matérias-primas e os subprodutos obtidos;"
+          },
+          {
+            "id": 290299,
+            "nome": "VIII - consumo mensal previsto, o local onde será realizado o uso, a relação dos equipamentos de uso industrial ou a frota cativa, conforme o caso;"
+          },
+          {
+            "id": 290300,
+            "nome": "IX - identificação do(s) agente(s) responsável(is) pelo fornecimento do produto, conforme Capítulo VII;"
+          },
+          {
+            "id": 290301,
+            "nome": "X - ficha cadastral da requerente, Usuário(s) e produtor, conforme [FORMULÁRIO DE FICHA CADASTRAL](https://www.gov.br/anp/pt-br/assuntos/qualidade-de-produtos/combustiveis-experimentais), disponibilizado no sítio eletrônico da ANP; e"
+          },
+          {
+            "id": 290302,
+            "nome": "XI - comprovação dos poderes do(s) subscritor(es) dos documentos requeridos na solicitação de autorização."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280529,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 43993,
+            "descricao": "Dúvidas",
+            "canalDePrestacao": [
+              {
+                "id": 280528,
+                "tipo": "web",
+                "descricao": "Dúvidas sobre a autorização para uso de combustíveis experimentais devem ser encaminhadas via documento eletrônico no SEI para a SBQ.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215939,
+      "titulo": "Encaminhar autorização para utilização de combustível experimental, acompanhada do plano de trabalho",
+      "descricao": "O agente interessado que obtiver parecer técnico favorável à consulta inicial deve solicitar autorização para utilização de combustível experimental, acompanhada do plano de trabalho.\n\n A solicitação da autorização deve ser encaminhada pelo agente interessado à ANP no prazo máximo de 120 dias a partir da data de recebimento do parecer técnico favorável à consulta inicial.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 290303,
+            "nome": "I- cronograma de uso e o planejamento experimental, com os objetivos, metodologia e resultados esperados de cada etapa;"
+          },
+          {
+            "id": 290304,
+            "nome": "II - proposta justificada de ensaios de caracterização do produto baseada nos itens da especificação do combustível a ser substituído, acompanhado da análise preliminar de risco dos parâmetros que não atendam à especificação estabelecida pela ANP, bem como a periodicidade da realização dos ensaios;"
+          },
+          {
+            "id": 290305,
+            "nome": "III - planejamento de testes para avaliar emissões, desempenho e durabilidade dos motores com o produto, contendo a lista das substâncias emitidas e seus riscos, com as respectivas normas para cada teste;"
+          },
+          {
+            "id": 290306,
+            "nome": "IV - cópia do contrato com empresa ou instituição responsável pelo monitoramento e execução do plano de trabalho, quando for o caso;"
+          },
+          {
+            "id": 290307,
+            "nome": "V - ficha cadastral da empresa ou instituição responsável pelo monitoramento do uso do produto e emissão de relatórios com os resultados obtidos, bem como a identificação de seu responsável técnico, conforme[ FORMULÁRIO DE FICHA CADASTRAL](https://www.gov.br/anp/pt-br/assuntos/qualidade-de-produtos/combustiveis-experimentais), disponibilizado no sítio eletrônico da ANP no caso do inciso IV;"
+          },
+          {
+            "id": 290308,
+            "nome": "VI - declaração de responsabilidade pelo uso do produto, conforme consta no [FORMULÁRIO DE DECLARAÇÃO DE RESPONSABILIDADE](https://www.gov.br/anp/pt-br/assuntos/qualidade-de-produtos/combustiveis-experimentais), disponibilizado no sítio eletrônico da ANP, firmada pela Requerente e pelo Usuário(s);"
+          },
+          {
+            "id": 290309,
+            "nome": "VII - comprovação dos poderes do subscritor da declaração requerida no inciso VI;"
+          },
+          {
+            "id": 290310,
+            "nome": "VIII - relação dos veículos automotores que utilizarão o combustível experimental, com as seguintes informações: a) o tipo de veículo automotor; b) o fabricante ou a montadora do veículo automotor; c) o fabricante do motor; d) a data de fabricação do veículo automotor e motor; e) quilometragem; f) placas e caracteres gravados no chassi; g) o sistema de pós-tratamento, se for o caso; e h) a fase de atendimento de limites de emissões do CONAMA;"
+          },
+          {
+            "id": 290311,
+            "nome": "IX - relação dos equipamentos de uso industrial, com as seguintes informações: a) o tipo de equipamento de uso industrial; b) o fabricante do equipamento de uso industrial; c) a data de fabricação; d) o sistema de pós-tratamento, se for o caso; e) o fabricante do motor, se for o caso; e"
+          },
+          {
+            "id": 290312,
+            "nome": "X - Os interessados que utilizem produtos obtidos com uso de micro-organismos geneticamente modificados deverão apresentar os pareceres da Comissão Técnica Nacional de Biossegurança - CTNBio, em conformidade com o artigo 1º da [Lei nº 11.105, de 24 de março de 2005](http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2005/Lei/L11105.htm), e com os atos normativos que a regulamentaram"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280531,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 43994,
+            "descricao": "Dúvidas",
+            "canalDePrestacao": [
+              {
+                "id": 280530,
+                "tipo": "web",
+                "descricao": "Dúvidas sobre a autorização para uso de combustíveis experimentais devem ser encaminhadas via documento eletrônico no SEI para a SBQ.",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "120",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215940,
+      "titulo": "Receber novo parecer técnico",
+      "descricao": "Após análise do plano de trabalho, a ANP emitirá novo parecer técnico.\n\n ANP emitirá novo parecer técnico no prazo máximo de 30 dias, contados da data de apresentação da solicitação de autorização para utilização de combustível experimental.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280532,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215941,
+      "titulo": "Acompanhar o processo",
+      "descricao": "Após obter o login, senha e número do processo aberto anteriormente, o usuário poderá acessar o Sistema Eletrônico de Informação e acompanhar o atendimento da demanda realizada. Ao entrar no sistema, localize a opção 'processo intermitente' e forneça o número do processo para prosseguir.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280533,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 215942,
+      "titulo": "Caso análise seja favorável, receber autorização no Diário Oficial da União",
+      "descricao": "Caso a análise seja favorável, a autorização concedida será publicada no Diário Oficial da União.\n\n O prazo da autorização de utilização de combustível experimental constará na autorização publicada no Diário Oficial da União e será estabelecido de acordo com o prazo indicado no parecer técnico da ANP e com o cronograma estabelecido no plano de trabalho.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 280534,
+            "tipo": "web",
+            "descricao": "[Diário Oficial da União](https://www.in.gov.br/leiturajornal)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13054",
+      "nome": "Solicitar cadastro de usuário externo no SEI-ANP"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10405",
+      "nome": "Acessar o Diário Oficial da União"
+    }
+  ],
+  "tempoMediaEspera": "180",
+  "percentualAvaliacoesPositivas": "44",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-o-uso-de-combustiveis-nao-especificados",
+  "statusDestaque": false
+}

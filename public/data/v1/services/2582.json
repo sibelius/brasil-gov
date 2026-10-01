@@ -1,0 +1,231 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2582",
+  "nome": "Obter Certificado de Capacidade Técnica junto à SUDECO",
+  "sigla": "",
+  "descricao": "O Atestado de Capacidade Técnica - consiste na apresentação de documento que comprove e ateste o fornecimento de materiais e/ou serviços prestados pela empresa interessada, emitido por representante legal do contratante, a fim de comprovar a qualificação técnica do interessado nos termos do inciso II, art. 30, da Lei 8.666, de 21 de junho de 1993.",
+  "flagPortalLogado": "S",
+  "contato": "Telefone",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Atestado de capacidade técnica",
+        "id": 125850
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105257,
+        "tipo": "Pessoa Jurídica - prestadores de serviço ou fornecedores de materiais que atendem e/ou atenderam a Sudeco por meio de formalização contratual",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100113",
+    "dbId": 55796,
+    "nomeOrgao": "Superintendência do Desenvolvimento do Centro-Oeste (SUDECO)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 175935
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "registro",
+        "id": 419106
+      },
+      {
+        "item": "certidão",
+        "id": 419107
+      },
+      {
+        "item": "centro-oeste",
+        "id": 419108
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151059
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 13
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 245648,
+      "titulo": "Solicitar certificado",
+      "descricao": "O solicitante da empresa acessa a página do serviço no Portal Gov.br e, depois de informado sobre o serviço, solicita o atestado através do Botão Iniciar”. Logado no sistema, o solicitante preenche o formulário com as informações do contrato com a superintendência e envia o requerimento",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321534,
+            "nome": "Dados do solicitante\n\n Razão social da empresa\n\n Número do CNPJ\n\n Endereço\n\n Número do Contrato ou Nota de Empenho, se for o caso\n\n Ofício com a solicitação assinada pelo representante da empresa interessada"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317757,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=2582)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245649,
+      "titulo": "Acompanhar solicitação",
+      "descricao": "Após o envio da solicitação, o interessado poderá acompanhar sua solicitação, via sistema.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317758,
+            "tipo": "web",
+            "descricao": "[Acompanhar](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 245650,
+      "titulo": "Receber resposta",
+      "descricao": "O analista da área contratual da Sudeco, ao aceitar a solicitação, gerará automaticamente processo eletrônico no SEI para atendimento da demanda. Caso seja necessária alguma correção, o analista poderá devolver o requerimento ao solicitante, via sistema, informando os ajustes necessários. O ajuste deverá ser feito em https://solicitacao.servicos.gov.br/processos",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 317759,
+            "tipo": "web",
+            "descricao": "[Acompanhar](http://solicitacao.servicos.gov.br/processos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "55",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-de-capacidade-tecnica-junto-a-sudeco",
+  "statusDestaque": false
+}

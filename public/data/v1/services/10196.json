@@ -1,0 +1,365 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10196",
+  "nome": "Registrar Direitos sobre Aeronaves",
+  "sigla": "",
+  "descricao": "Este serviço realiza registro de contratos que:\n\n  * Inscrevam ou Cancelem Direitos Reais de Propriedade, como:\n    + Hipoteca\n + Contratos de Compra e Venda com Reserva de Domínio\n + Alienação Fiduciária\n + IDERA\n  * Inscrevam ou Cancelem direitos de Uso com mudança de Operador, como:\n  + Arrendamento Operacional\n + Intercambio Operacional\n + Arrendamento Mercantil\n + Comodato; ou\n + Anotação de Direitos de Uso: contratos que alterem apenas cláusulas, mas que não mudem a responsabilidade da Operação.\n    \n\n Para mais informações, consulte a página do [Rab Digital](https://www.gov.br/anac/pt-br/sistemas/rab/rab-digital).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://santosdumont.anac.gov.br/menu/f?p=200104:3000:105381778753722:::::",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Inscrição de Direitos",
+        "id": 87201
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74784,
+        "tipo": "Proprietário ou operador de aeronave, ou representante legal destes, mediante procuração.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A validade dos contratos está inserida nos mesmos no ato de registro."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121094
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121095
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 121096
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 121097
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC; ",
+        "id": 294060
+      },
+      {
+        "item": "RAB; ",
+        "id": 294061
+      },
+      {
+        "item": "Transferência; ",
+        "id": 294062
+      },
+      {
+        "item": "Registro.",
+        "id": 294063
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei 7.565/1986 - Código Brasileiro de Aeronáutica; ](http://www.planalto.gov.br/ccivil_03/leis/l7565compilado.htm)",
+        "id": 100023
+      },
+      {
+        "item": "[Resolução n° 293, de 19 de novembro de 2013.](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013/@@display-file/arquivo_norma/RA2013-0293%20-%20Compilado%20at%C3%A9%20RA2020-0552.pdf)",
+        "id": 100024
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 17,
+    "negativas": 21
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 169055,
+      "titulo": "Solicitar o registro",
+      "descricao": "Nesta etapa, o solicitante deverá solicitar o serviço de Inscrição de Direitos que lhe atenda, dentre eles:\n\n  * Inscrição de Direito Real\n * Cancelamento de Direito Real\n * Inscrição de Direito de Uso\n * Anotação de Direito de Uso (inscrição sem alteração do Operador)\n * Cancelamento de Direito de Uso\n  A solicitação deverá ser realizada por pessoa física, em razão do acesso ao sistema ser realizado pelo Gov.br.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 234702,
+            "nome": "Informações que constam no [Requerimento Padronizado do RAB](https://www.gov.br/anac/pt-br/sistemas/rab/arquivos/1.RequerimentoRAB.pdf);\n\n As informações presentes no Requerimento deverão ser preenchidas diretamente no Sistema."
+          },
+          {
+            "id": 234703,
+            "nome": "Informações de endereço;\n\n As informações de endereço deverão ser preenchidas em campos específicos no Sistema Rab Digital. Todas as partes no processo de registro deverão ter suas informações de endereço cadastradas no Sistema."
+          },
+          {
+            "id": 234704,
+            "nome": "Cópia Simples de RG e CPF das partes;"
+          }
+        ],
+        "casos": [
+          {
+            "id": 37168,
+            "descricao": "Se Solicitante for Representante Legal (procurador)",
+            "documento": [
+              {
+                "id": 234690,
+                "codigo": null,
+                "descricao": "Documento outorgando poderes específicos para a prática do ato objeto de registro;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234691,
+                "codigo": null,
+                "descricao": "No caso de procuração pública, deve-se apresentar o respectivo traslado. (Cópia simples);",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234692,
+                "codigo": null,
+                "descricao": "Se a procuração for outorgada por empresa estrangeira, no Exterior, deverá conter visto consular ou apostilamento, além de ser traduzida por tradutor público juramentado. (Original ou Cópia autenticada).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37169,
+            "descricao": "Se propriedade ou Operação de PJ",
+            "documento": [
+              {
+                "id": 234693,
+                "codigo": null,
+                "descricao": "Cópia simples do CNPJ;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234694,
+                "codigo": null,
+                "descricao": "Cópia simples dos Documentos constitutivos da sociedade;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234695,
+                "codigo": null,
+                "descricao": "Cópia simples do Instrumento de Nomeação dos Administradores devidamente registrado",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37170,
+            "descricao": "Se firma individual",
+            "documento": [
+              {
+                "id": 234696,
+                "codigo": null,
+                "descricao": "Registro de firma  no órgão competente;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234697,
+                "codigo": null,
+                "descricao": "No caso de empresa estrangeira, o Decreto de autorização de funcionamento. Os contratos celebrados no exterior devem ter firmas reconhecidas pela autoridade competente, com visto consular ou apostilamento.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37171,
+            "descricao": "Para registrar atos e contratos que estabeleçam ou alterem Direitos Reais (ônus, garantias, gravames) sobre o bem",
+            "documento": [
+              {
+                "id": 234698,
+                "codigo": null,
+                "descricao": "Certidão Negativa de Débito com o INSS, ou em nome da pessoa jurídica vendedora ou dadora da garantia.\n\n Atenção: Este documento é exigido sempre que um bem móvel de uma Pessoa Jurídica, de valor superior a R$ 84.209,56 (oitenta e quatro mil, duzentos e nove reais e cinquenta e seis centavos é alienado ou onerado. É exigido apenas da pessoa jurídica alienante, vendedora ou dadora da garantia.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 234699,
+                "codigo": null,
+                "descricao": "Contrato ou traslado da escritura pública referente gravame a ser inscrito.\n\n Atenção:\n\n  * Se documento celebrado com empresa estrangeira ou no exterior, firma reconhecida em Notário Público, apostilado e com tradução juramentada.\n * Se instrumento particular, as firmas das partes reconhecidas por autenticidade e as de 2 testemunhas, no mínimo, reconhecidas por semelhança.\n * Se instrumento público, apresentar o traslado da escritura pública.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37172,
+            "descricao": "Para registrar atos e contratos que estabeleçam ou alterem Direitos de Uso (Cessão Temporária, Locação, Arrendamento e outros) sobre o bem",
+            "documento": [
+              {
+                "id": 234700,
+                "codigo": null,
+                "descricao": "Contrato de uso, arrendamento, subarrendamento (comodato, cessão de uso/direitos no arrendamento e locação), com firma das partes reconhecida por semelhança.\n\n Atenção:\n\n  * Se por escritura pública, respectivo traslado\n * Se celebrado com empresa estrangeira, firma reconhecida em Notário Público, apostilado e com tradução juramentada. Subarrendamento e cessão do arrendamento exigem consentimento do proprietário\n * Se o contrato envolver serviços de manutenção, avaliar-se-á a capacidade técnica",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37173,
+            "descricao": "Para cancelar Direitos Reais ou Direitos de Uso",
+            "documento": [
+              {
+                "id": 234701,
+                "codigo": null,
+                "descricao": "Instrumento de liberação de gravames, firmado pelo credor (Direitos Reais) ou  Instrumento de rescisão ou distrato, firmado pelas partes e testemunhas (Direitos de Uso).\n\n Atenção:\n\n  * Se por escritura pública, o respectivo traslado.\n * Se firmado por empresa estrangeira, deverá ser traduzido por tradutor público juramentado, estar com firma reconhecida em Notário Público e estar apostilado.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221583,
+            "tipo": "web",
+            "descricao": "Acessar o Sistema RAB Digital, clicando no botão iniciar desta página e logando com a conta [Gov.br](http://gov.br).[  \n](https://www.gov.br/Gov.br)\n\n Para visualizar as orientações sobre como solicitar o serviço de inscrição e/ou anotação no sistema, [clique aqui](https://www.gov.br/anac/pt-br/sistemas/rab/arquivos/RegistrarDireitos.pdf); e, o serviço de cancelamento no sistema, [clique aqui](https://www.gov.br/anac/pt-br/sistemas/rab/arquivos/CancelarDireitosemAeronaves.pdf).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169056,
+      "titulo": "Aguardar processamento e registro",
+      "descricao": "A ANAC avalia a documentação e, julgando-a conforme, procede ao registro das transações no Sistema SACI e no livro de Aeronave. Após o registro no SACI, o usuário recebe um e-mail informando que já pode usar o RAB Digital para emitir seus Certificados de Matrícula e Aeronavegabilidade atualizados.\n\n O solicitante deverá se cadastrar no Protocolo Eletrônico do SEI para facilitar a comunicação da GTRAB/ANAC, em especial, nos casos de sobrestamentos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 221584,
+            "tipo": "web",
+            "descricao": "O acompanhamento do pedido pode ser feito pelo [SEI](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0), [RAB online](https://sistemas.anac.gov.br/aeronaves/cons_rab.asp) ou RAB digital. No caso do RAB digital, basta clicar no link para o acompanhamento do processo no SEI.\n\n Assim que finalizada a solicitação no Sistema RAB Digital, é aberto um Processo no SEI, por onde tramitará o processo na GTRAB.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3243",
+      "nome": "Obter Certificado de Autorização de Voo Experimental para Aeronaves Certificadas ou Protótipos em processo de certificação"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/3064",
+      "nome": "Matricular Aeronave Certificada"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2599",
+      "nome": "Credenciar-se junto à ANAC como pessoa jurídica apta a emitir certificados e aprovações"
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "45",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-direitos-sobre-aeronaves",
+  "statusDestaque": false
+}

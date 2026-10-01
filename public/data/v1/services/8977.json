@@ -1,0 +1,257 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8977",
+  "nome": "Realizar exame de densitometria óssea para tratamento de câncer - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O exame de densitometria óssea é um exame de imagem complementar ao diagnóstico de múltiplas condições de saúde, onde as imagens adquiridas são analisadas pelo médico radiologista.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (21) 2554-1887\n\n  **Site: **<http://www.iff.fiocruz.br/>",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 33474
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32768,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "Este serviço é solicitado por médicos da Atenção Básica do Sistema Único de Saúde (SUS) através do Sistema de Regulação em Saúde após consulta. O paciente deve ser encaminhado pela Unidade Básica de Saúde através do Sistema de Regulação em Saúde."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 52518
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Densitometria Óssea",
+        "id": 117835
+      },
+      {
+        "item": "Exame diagnóstico",
+        "id": 117836
+      },
+      {
+        "item": "Oncologia",
+        "id": 117837
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 34251
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "Rampa, Elevador",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 68790,
+      "titulo": "Identificar-se junto à recepção do serviço de Radiologia",
+      "descricao": "Esta etapa consiste na identificação da paciente junto à recepção do serviço de Radiologia.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 97231,
+            "nome": "Carteira de Identidade"
+          },
+          {
+            "id": 97232,
+            "nome": "Guia de Encaminhamento do Sistema de Regulação em Saúde"
+          },
+          {
+            "id": 97233,
+            "nome": "Pedido médico"
+          }
+        ],
+        "casos": [
+          {
+            "id": 8375,
+            "descricao": "Para os pacientes que já tiverem exames feitos anteriormente",
+            "documento": [
+              {
+                "id": 97230,
+                "codigo": null,
+                "descricao": "Exames anteriores",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88458,
+            "tipo": "presencial",
+            "descricao": "Essa etapa é realizada na recepção do Serviço de Radiologia. Também é informado ao usuário o prazo para entrega do exame.\n\n Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nEndereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 68791,
+      "titulo": "Realizar o exame de Densitometria Óssea",
+      "descricao": "Esta etapa consiste na aquisição das imagens pelo densitômetro, que serão posteriormente avaliadas pelo médico radiologista.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88459,
+            "tipo": "presencial",
+            "descricao": "Essa etapa é realizada na sala da Densitometria Óssea pela técnica de radiologia, e na sala de laudos pelo médico radiologista.\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 68792,
+      "titulo": "Receber resultado do exame",
+      "descricao": "O usuário apresenta-se na recepção do serviço de radiologia, com um documento de identificação, e recebe o resultado do exame de Densitometria Óssea.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 97234,
+            "nome": "Carteira de Identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 88460,
+            "tipo": "presencial",
+            "descricao": "Essa etapa é realizada no arquivo do Serviço de Radiologia (local anexo à recepção).\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "25",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-exame-de-densitometria-ossea-para-tratamento-de-cancer",
+  "statusDestaque": false
+}

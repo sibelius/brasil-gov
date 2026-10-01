@@ -1,0 +1,162 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12193",
+  "nome": "Participar de processo seletivo para curso de pós-graduação stricto sensu - UFRN",
+  "sigla": "",
+  "descricao": "Serviço oferecido pela **Universidade Federal do Rio Grande do Norte - UFRN**. Permite que o usuário realize inscrição em processos seletivos que estejam abertos no Sistema Integrado de Gestão de Atividades Acadêmicas - SIGAA para submissão de inscrição, com a observação ao referido edital e formulário de inscrição.",
+  "flagPortalLogado": "N",
+  "contato": "**E-mail:** ppg@reitoria.ufrn.br\n\n   \nO cidadão também poderá tirar dúvidas através dos contatos dos programas de pós-graduação disponibilizados pelos editais.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sigaa.ufrn.br/sigaa/public/processo_seletivo/lista.jsf?nivel=S&aba=p-stricto",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 49550
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 46211,
+        "tipo": "Egresso de cursos de graduação e pós-graduação Lato sensu e Stricto sensu.",
+        "requisitos": "Graduados e pós-graduados que atendam aos requisitos dos editais dos processos seletivos."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "30",
+      "max": "40",
+      "unidade": "minutos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 30,
+    "max": 40
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/417",
+    "dbId": 57786,
+    "nomeOrgao": "Universidade Federal do Rio Grande do Norte (UFRN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 73710
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Inscrição",
+        "id": 172607
+      },
+      {
+        "item": "Curso",
+        "id": 172608
+      },
+      {
+        "item": "Stricto sensu",
+        "id": 172609
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 54886
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 99080,
+      "titulo": "Realizar inscrição no processo seletivo",
+      "descricao": "O usuário deve preencher o formulário de inscrição e inserção de documentos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 15176,
+            "descricao": "Taxa de Inscrição",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "100,00",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 126719,
+            "tipo": "web",
+            "descricao": "* Preenchimento do formulário de inscrição;\n * Inserção de documentos;\n * Conclusão da inscrição com a emissão do comprovante.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "43",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-inscricao-em-processo-seletivo-de-cursos-de-stricto-sensu-da-universidade-federal-do-rio-grande-do-norte-ufrn",
+  "statusDestaque": false
+}

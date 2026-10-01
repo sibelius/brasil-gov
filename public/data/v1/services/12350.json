@@ -1,0 +1,282 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12350",
+  "nome": "Consultar dados do Cadastro Único",
+  "sigla": "CadÚnico",
+  "descricao": "Quem está inscrito no Cadastro Único poderá consultar seu Número de Identificação Social (NIS), código familiar, situação cadastral, data da última atualização e data limite para uma nova atualização cadastral por meio do aplicativo do Cadastro Único e também na versão web, no endereço [https://cadunico.dataprev.gov.br/](https://cadunico.dataprev.gov.br/ \"Cadastro Único\"). Além disso, também serão exibidos os dados de identificação do Responsável pela Unidade Familiar, os dados da família e de seus membros.\n\n Na Consulta Simples, o usuário não precisa realizar o login Gov.br, mas precisa informar dados de identificação como Nome Completo, Data de Nascimento, Nome da Mãe e UF/Município onde está cadastrado, da forma como estão registrados no Cadastro Único, para que o cadastro seja encontrado na base de dados do Governo Federal.\n\n No acesso sem login, o cidadão poderá ter acesso à consulta simplificada de seu cadastro, à emissão e validação de Comprovante de Cadastro e à busca por Postos de Atendimento do Cadastro Único.",
+  "flagPortalLogado": "N",
+  "contato": "Este é um serviço do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome - MDS. Para mais informações, entre em contato pelo telefone 121 (a ligação é gratuita tanto para celular como para telefone fixo) ou pelos canais de atendimento digital, acesse: [https://www.gov.br/mds/pt-br/acesso-a-informacao/participacao-social/fale-conosco](https://www.gov.br/mds/pt-br/acesso-a-informacao/participacao-social/fale-conosco \"Canais de atendimento - Disque Social 121\"). Em caso de sugestão, elogio, reclamação, solicitação de providência, simplifique e denúncia, acesse o [Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação](https://falabr.cgu.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx?ReturnUrl=%2f).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cadunico.dataprev.gov.br/#/consultaSimples",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "CadÚnico",
+        "id": 88801
+      },
+      {
+        "item": "Cadastro Único",
+        "id": 88802
+      },
+      {
+        "item": "Cadastro Único para Programas Sociais do Governo Federal",
+        "id": 88803
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76046,
+        "tipo": "Podem acessar os serviços de consulta aqueles cidadãos inscritos no Cadastro Único. Existem duas opções de consulta aos dados cadastrais: a Consulta Simples e a Consulta Completa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308796",
+    "dbId": 58149,
+    "nomeOrgao": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome (MDS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 123308
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Assistência Direta"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cadúnico",
+        "id": 299255
+      },
+      {
+        "item": "Cadastro Único",
+        "id": 299256
+      },
+      {
+        "item": "Programa Social",
+        "id": 299257
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101993
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13465,
+    "negativas": 10167
+  },
+  "condicoesAcessibilidade": "O(A) usuário(a) do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O(A) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 172341,
+      "titulo": "Acessar Identificação Positiva",
+      "descricao": "A Consulta Simples pode ser acessada por meio de uma identificação positiva. Na versão simplificada, o cidadão poderá ter acesso à emissão e validação de Comprovante de Cadastro e à Busca por Postos de Atendimento do Cadastro Único.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226148,
+            "tipo": "aplicativo-movel",
+            "descricao": "Por meio do Aplicativo do Cadastro Único ou pelo acesso web no site do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome - MDS. O aplicativo pode ser baixado por meio das lojas de aplicativos Apple Store e Play Store ou acessado na sua versão web através do endereço [https://cadunico.dataprev.gov.br/#/identificacao-positiva](https://cadunico.dataprev.gov.br/#/identificacao-positiva \"Identificação Positiva\") .",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172342,
+      "titulo": "Acessar Consulta Simples",
+      "descricao": "Sendo identificado o cadastro, o usuário poderá visualizar na Consulta Simples o código familiar e sua situação cadastral, bem como a data da última atualização e a data limite para uma nova atualização cadastral. Além disso, também serão exibidos os dados de identificação do Responsável pela Unidade Familiar, os dados da família e de seus membros.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 238751,
+            "nome": "É necessário informar os dados de identificação como Nome Completo, Data de Nascimento, Nome da Mãe e UF/Município onde está cadastrado, da forma como estão registrados no Cadastro Único, para que o cadastro seja encontrado na base de dados do Governo Federal."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226149,
+            "tipo": "aplicativo-movel",
+            "descricao": "Por meio do Aplicativo do Cadastro Único ou pelo acesso web no site do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome - MDS. O aplicativo pode ser baixado por meio das lojas de aplicativos Apple Store e Play Store ou acessado na sua versão web através do endereço [https://cadunico.dataprev.gov.br/#/identificacao-positiva](https://cadunico.dataprev.gov.br/#/identificacao-positiva \"Identificação positiva\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172343,
+      "titulo": "Acessar Consulta ao Formulário - Login Gov BR",
+      "descricao": "É necessário que o usuário realize uma autenticação por meio do seu login Gov.BR para ter acesso à Consulta ao formulário. Você poderá criar sua conta no portal Gov BR e, por meio de uma única senha, conseguirá acessar vários serviços digitais do Governo Federal, inclusive os do Cadastro Único. Saiba como criar a sua conta [aqui](https://www.gov.br/pt-br/ \"Página para criar a conta única\").",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226150,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://cadunico.dataprev.gov.br/ \"Acesse o site do Cadastro Ãšnico\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172344,
+      "titulo": "Acessar Consulta ao Formulário",
+      "descricao": "Por meio da Consulta ao formulário, o usuário poderá verificar os seus dados cadastrais (informações de código familiar, situação cadastral, data da última atualização, data limite para nova atualização) e os blocos de informação de Endereço da Família, Dados do Domicílio, Despesas, Integrantes da Família e Responsável pela Unidade Familiar.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 238752,
+            "nome": "Para consulta simples, o cidadão irá informar os dados de identificação como Nome Completo, Data de Nascimento, Nome da Mãe e UF/Município, da forma que estão registrados no Cadastro Único, para que o cadastro seja encontrado na base de dados do Governo Federal."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226151,
+            "tipo": "aplicativo-movel",
+            "descricao": "Por meio do Aplicativo do Cadastro Único ou pelo acesso web no site do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome - MDS. O aplicativo pode ser baixado por meio das lojas de aplicativos Apple Store e Play Store ou acessado na sua versão web através do endereço [cadunico.dataprev.gov.br/ ](http://cadunico.dataprev.gov.br/ \"Site do Cadastro Único\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "57",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-dados-do-cadastro-unico-cadunico",
+  "statusDestaque": false
+}

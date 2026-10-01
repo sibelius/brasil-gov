@@ -1,0 +1,236 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7791",
+  "nome": "Emitir Relatório de Câmbio e Transferências Internacionais",
+  "sigla": "",
+  "descricao": "O Relatório de Câmbio e Transferências Internacionais mostra as operações de compra ou venda de moeda estrangeira e as transferências internacionais que você já fez.\n\n O Banco Central não possui cópia de contratos de câmbio. Se precisar, solicite à instituição com a qual contratou a operação de câmbio.\n\n         O relatório serve para você:\n\n  * consultar detalhes de suas operações em moeda estrangeira;\n * conferir se existe alguma operação que não contratou; e\n * comprovar recebimento ou pagamento em moeda estrangeira.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](http://www.bcb.gov.br/acessoinformacao/solicitar_informacao).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meubc.bcb.gov.br/meubc/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Relatório de Operações de Câmbio",
+        "id": 99063
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84013,
+        "tipo": "Qualquer pessoa física ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 138110
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 138111
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Operação de Câmbio",
+        "id": 333004
+      },
+      {
+        "item": "Transferência Internacional",
+        "id": 333005
+      },
+      {
+        "item": "Relatório",
+        "id": 333006
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei Complementar 105, de 2001  \nResolução 3.568, de 2008  \nCircular 3.691, de 2013",
+        "id": 115463
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 74,
+    "negativas": 84
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 192470,
+      "titulo": "Acessar o Registrato ou solicitar o relatório por outros canais",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 263720,
+            "nome": "Acesso para pessoas físicas: nível prata ou ouro pela Conta govbr, com a verificação em duas etapas habilitada.\n\n Acesso para empresas: certificado digital vinculado à Conta govbr, nível prata ou ouro, com a verificação em duas etapas habilitada."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251625,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC](http://meubc.bcb.gov.br/meubc/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 251626,
+            "tipo": "web",
+            "descricao": "Acesso pelo [Pedido de Informação](https://www.bcb.gov.br/meubc/solicitar_informacao).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 251627,
+            "tipo": "postal",
+            "descricao": "Siga as orientações aqui: [documentação para pessoa física ou jurídica.](https://www.bcb.gov.br/meubc/docs)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192471,
+      "titulo": "Receber o relatório",
+      "descricao": "Você pode consultar o relatório no próprio Registrato, em até 02 dias úteis, após a sua solicitação.\n\n Se a solicitação foi feita por correspondência ou pelo Pedido de Informação, o relatório será enviado no endereço ou no e-mail que você informou na solicitação. O relatório é sigiloso e só pode ser solicitado por você ou por alguém autorizado por você.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251628,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC](http://meubc.bcb.gov.br/meubc/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7790",
+      "nome": "Emitir Relatório de Contas e Relacionamentos em Bancos"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7786",
+      "nome": "Emitir Relatório de Empréstimos e Financiamentos (SCR)"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10713",
+      "nome": "Emitir Relatórios de Chaves Pix"
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "47",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "S",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/gerar-relatorio-de-operacoes-de-cambio-e-transferencias-internacionais",
+  "statusDestaque": false
+}

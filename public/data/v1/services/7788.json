@@ -1,0 +1,274 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7788",
+  "nome": "Enviar documentos pelo Protocolo Digital do BC",
+  "sigla": "",
+  "descricao": "O [Protocolo Digital do BC](https://www.bcb.gov.br/acessoinformacao/protocolodigital) possibilita aos cidadãos, às empresas, às instituições supervisionadas e às entidades públicas **enviar documentos ao Banco Central de forma totalmente digital**, proporcionando mais agilidade no atendimento e redução nos custos.\n\n Após enviados, os documentos são analisados pela área do BC responsável pela demanda. Assim, é importante saber quais os documentos são necessários para ter seu pedido atendido. Há casos, inclusive, em que os documentos devem possuir mecanismos eletrônicos de verificação de autenticidade.\n\n Envio ou pedido de informações não-sigilosas: nível bronze, prata ou ouro pela Conta govbr.\n\n Envio ou pedido de informações sigilosas de pessoas físicas: nível prata ou ouro pela Conta govbr ou com envio da documentação necessária solicitada pelo Departamento responsável pela demanda. \n\n Envio ou pedido de informações sigilosas de empresas: certificado digital pela Conta govbr ou com envio da documentação necessária solicitada pelo Departamento responsável pela demanda.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo telefone: (61) 3414-2156\n\n Pelo e-mail: [protocolo.digital@bcb.gov.br](mailto:protocolo.digital@bcb.gov.br)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.bcb.gov.br/acessoinformacao/protocolodigital",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Protocolo Digital",
+        "id": 88522
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75816,
+        "tipo": "Qualquer pessoa física, enviando em seu nome ou representando outra pessoa física ou jurídica.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122827
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 122828
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Protocolo ",
+        "id": 298321
+      },
+      {
+        "item": "Digital ",
+        "id": 298322
+      },
+      {
+        "item": "Web",
+        "id": 298323
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101582
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 104,
+    "negativas": 128
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 171735,
+      "titulo": "Gerar o documento no formato exigido",
+      "descricao": "Os documentos enviados por meio do Protocolo Digital do BC devem ter no máximo **50MB** e devem estar no formato **PDF/A**, o que permitirá uma visualização padronizada do documento e garantirá que ele possa ser acessado no futuro com suas características originais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225316,
+            "tipo": "web",
+            "descricao": "Acesse o [tutorial](http://www.bcb.gov.br/content/acessoinformacao/Documents/Processos_Eletronicos_docs/ProtocoloDigital_PDF-A.pdf) para saber como criar ou converter documentos no formato PDF/A.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171736,
+      "titulo": "Acessar o Protocolo Digital",
+      "descricao": "Para acessar o Protocolo Digital do BC, é necessário utilizar uma conta Sisbacen ou uma conta govbr.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 238031,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225317,
+            "tipo": "web",
+            "descricao": "PeloÂ [Protocolo Digital](https://www.bcb.gov.br/acessoinformacao/protocolodigital).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171737,
+      "titulo": "Enviar o documento",
+      "descricao": "Após acessar o [Protocolo Digital do BC](https://protocolodigital.bcb.gov.br/protocolo/login/index.html), será possível fazer o upload do documento e enviá-lo ao BC, junto com as devidas informações sobre o documento, as quais serão solicitadas por meio de campos no sistema.\n\n Depois de concluir o envio do documento, será gerado o Número Único de Protocolo (NUP). Esse número é único dentro de toda a Administração Pública Federal e permite que o trâmite do documento seja consultado posteriormente",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225318,
+            "tipo": "web",
+            "descricao": "PeloÂ [Protocolo Digital](https://www.bcb.gov.br/acessoinformacao/protocolodigital).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171738,
+      "titulo": "Acompanhar o andamento de um documento enviado",
+      "descricao": "Você pode acompanhar o andamento do documento na opção “Meus protocolos”, dentro do Protocolo Digital do BC, ou no Protocolo Integrado do Governo Federal, informando o nº do Protocolo (NUP).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225319,
+            "tipo": "web",
+            "descricao": "Pelo [Protocolo Digital](https://www.bcb.gov.br/acessoinformacao/protocolodigital)\n\n Acesse o [Protocolo Integrado](https://protocolointegrado.gov.br/)  do Governo Federal\n\n No caso do Protocolo Integrado do Governo Federal, ele estará disponível em até meia hora após a protocolização.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "45",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/enviar-documentos-pelo-protocolo-digital-do-banco-central",
+  "statusDestaque": false
+}

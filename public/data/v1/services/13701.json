@@ -1,0 +1,210 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13701",
+  "nome": "Incluir pedido de Licença, Permissão, Certificado ou Outro Documento (LPCO)",
+  "sigla": "",
+  "descricao": "Inclusão de pedido de Licença, Permissão, Certificado ou Outro Documento (LPCO) necessário para exportar ou importar produtos.",
+  "flagPortalLogado": "N",
+  "contato": "Mais informações em <https://www.gov.br/siscomex/pt-br>   \n  \nPara verificar a necessidade de Licença, Permissão, Certificado ou Outro Documento (LPCO) para uma determinada exportação ou importação, o operador poderá consultar o módulo “Classif”, no Portal Único Siscomex, ou os [simuladores de Tratamento Administrativo](https://www.gov.br/siscomex/pt-br/sistemas-de-comercio-exterior/simuladores)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalunico.siscomex.gov.br/portal/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Licença de Exportação",
+        "id": 115191
+      },
+      {
+        "item": "Licença de Importação",
+        "id": 115192
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96899,
+        "tipo": "Empresas exportadoras e importadoras, operadores de remessa e pessoas físicas que pretendam exportar ou importar produtos.",
+        "requisitos": "Para utilizar este serviço é necessário estar habilitado no Sistema Integrado de Comércio Exterior (Siscomex) com representação legal da empresa exportadora ou importadora."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308814",
+    "dbId": 58150,
+    "nomeOrgao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 160852
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 160853
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 160854
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "LCPO",
+        "id": 385069
+      },
+      {
+        "item": "Importação",
+        "id": 385070
+      },
+      {
+        "item": "Exportação",
+        "id": 385071
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 136138
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "A pessoa usuária do serviço público, conforme estabelecido pela Lei nº 13.460, de 26 de junho de 2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, as pessoas idosas com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e as pessoas obesas, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "A pessoa usuária deverá receber, conforme os princípios expressos na Lei nº 13.460, de 26 de junho de 2017, um atendimento pautado nas seguintes diretrizes:  \n  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética.",
+  "etapas": [
+    {
+      "id": 225204,
+      "titulo": "Acessar o Portal Único Siscomex e incluir o pedido de LPCO no sistema",
+      "descricao": "O representante da empresa exportadora ou importadora seleciona o modelo de Licença, Permissão, Certificado ou Outro Documento (LPCO) e registra o pedido no Sistema Integrado de Comércio Exterior (Siscomex), prestando as informações solicitadas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 291869,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 225205,
+      "titulo": "Acompanhar o pedido no Portal Único Siscomex e cumprir as exigências, se houver, no sistema",
+      "descricao": "O representante da empresa exportadora ou importadora verifica no Sistema Integrado de Comércio Exterior (Siscomex) se há exigências e as cumpre, corrigindo informações ou anexando documentos solicitados pelo órgão anuente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 298376,
+            "nome": "Eventual documento adicional poderá ser exigido pelo órgão público responsável pelo processo correspondente ao modelo de Licença, Permissão, Certificado ou Outro Documento (LPCO) selecionado."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 291870,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/incluir-pedido-de-licenca-permissao-certificado-ou-outro-documento-lpco",
+  "statusDestaque": false
+}

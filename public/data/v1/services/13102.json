@@ -1,0 +1,425 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13102",
+  "nome": "Solicitar aprovação de recálculo da produção de água, petróleo e gás natural",
+  "sigla": "",
+  "descricao": "Serviço destinado à aprovação do recálculo (correção) da produção de petróleo e gás natural através de três tipos:\n\n 1) Recálculo simples\n\n 2) Recálculo oriundo de falha de medição previsível ou\n\n 3) Recálculo de rateio ou volume de água.\n\n **Para utilizar esse serviço você deve ter um cadastro como usuário externo do SEI-ANP. Para mais informações acesse o serviço \"[Solicitar cadastro como usuário externo no SEI-ANP](http://www.gov.br/pt-br/servicos/cadastrar-usuario-externo-no-sei-anp)\".**",
+  "flagPortalLogado": "N",
+  "contato": "Central de Atendimento nº 0800 970 0267\n\n E-mail: faleconosco@anp.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Recálculo da Produção",
+        "id": 68470
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 61119,
+        "tipo": "Operador do contrato (PJ)",
+        "requisitos": "O processo de recálculo é o meio pelo qual os agentes regulados solicitam a alteração do volume e/ou rateio de hidrocarboneto e água produzidos, indicados no BMP. \n\n A alteração de volume só é possível por meio da aprovação de notificação de falha de medição, sendo necessário referenciar tal notificação na carta de pedido de recálculo.\n\n  A alteração de rateio da produção e água produzida prescinde do envio de NFSM, bastando a descrição do evento que gerou a comunicação equivocada da distribuição do volume de hidrocarbonetos produzidos ou da água produzida."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "5",
+      "unidade": "meses"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O ato de correção da produção terá validade permanente em regra, salvo nova retificação"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281",
+    "dbId": 917,
+    "nomeOrgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 96073
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exploração e Produção"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Recálculo de água, petróleo e gás",
+        "id": 234820
+      },
+      {
+        "item": "Recálculo da produção",
+        "id": 234821
+      },
+      {
+        "item": "Recálculo de rateio",
+        "id": 234822
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução Conjunta ANP/Inmetro nº 1 de 10/06/2013, https://atosoficiais.com.br/anp/resolucao-conjunta-n-1-2013?origin=instituicao&q=1",
+        "id": 77561
+      },
+      {
+        "item": "Resolução ANP nº 18/2014, item 7.1.4.2, https://atosoficiais.com.br/anp/resolucao-n-18-2014?origin=instituicao&q=18",
+        "id": 77562
+      },
+      {
+        "item": "Decreto nº 2.705/1998, www.planalto.gov.br/ccivil\\_03/decreto/d2705.htm",
+        "id": 77563
+      },
+      {
+        "item": "Portaria ANP nº 265/2020, https://atosoficiais.com.br/anp/portaria-anp-n-265-2020-",
+        "id": 77564
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 135828,
+      "titulo": "Solicitar recálculo para alteração de volumes de até 10.000 m³ de petróleo equivalente",
+      "descricao": "O usuário deve protocolizar uma carta, incluindo as informações exigidas. A ANP irá:\n\n  * Emitir despacho de aprovação ou não do pleito;\n * Se aprovado, será a apurado o possível impacto nas participações governamentais;\n * Caso haja participações governamentais a serem pagas, o agente deve enviar uma carta informando o recolhimento do valor devido;\n * Ofício informando que o agente regulado efetuou o recolhimento do montante de royalties;\n * Alteração da base de dados",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 192469,
+            "nome": "A alteração de rateio da produção e água produzida prescinde do envio de NFSM, bastando a descrição do evento que gerou a comunicação equivocada da distribuição do volume de hidrocarbonetos produzidos ou da água produzida."
+          },
+          {
+            "id": 192470,
+            "nome": "No tipo 1 de recálculo a única documentação exigida é carta da concessionária contendo as informações simplificadas sobre o que aconteceu que resultou no pedido de alteração de BMP. Essas informações precisam indicar qual(ais) NFSM(s) está(ão) relacionada(s) à situação. Caso não haja NFSM relacionada é preciso dizer isso e explicar porque não houve a necessidade de emissão de NFSM."
+          },
+          {
+            "id": 192471,
+            "nome": "Em todos os tipos de recálculo a carta encaminhada deve conter tabela de recálculo no padrão:\n\n A: Mês/ano;\n\n B: Nome do Campo;\n\n C***: Nome do poço cujo rateio se pretende alterar;\n\n D: Tipo de fluido;\n\n E: Volume declarado no BMP (m³);\n\n F: Volume efetivamente produzido (m³);\n\n G: Diferença entre volume declarado no BMP e volume efetivamente produzido.\n\n ***A coluna C somente é necessária quando se tratar de recálculo de rateio da produção."
+          }
+        ],
+        "casos": [
+          {
+            "id": 28061,
+            "descricao": "Oscilação do prazo",
+            "documento": [
+              {
+                "id": 192467,
+                "codigo": null,
+                "descricao": "O período necessário para concluir a fase de recálculo pode oscilar entre 90 e 720 dias, sendo influenciado tanto pelo volume acumulado de processos relativos a falhas de medição e recálculos quanto pela complexidade inerente a cada caso em particular.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 192468,
+                "codigo": null,
+                "descricao": "Recálculos que não impactam em participações governamentais e não necessitam de análise de falha de medição são concluídos dentro de um período de 90 dias.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 175876,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "90",
+          "max": "720",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 90,
+        "max": 720
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 135829,
+      "titulo": "Solicitar recálculo para alteração de volume superior a 10.000 m³ de petróleo equivalente",
+      "descricao": "O usuário deve protocolizar uma carta, incluindo as informações exigidas. A ANP irá:\n\n  * Elaborar NT e Despacho de Encaminhamento para deliberação da diretoria;\n * Enviar a decisão da diretoria para a concessionária e para a SPG;\n * Caso a SPG solicite, elaborar de NT da defesa da concessionária nos autos do processo de Auto de Infração lavrado pela SPG;\n * Admitir o relatório de distribuição das participações governamentais da alteração solicitada;\n * Alteração da base de dados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 192477,
+            "nome": "Carta da concessionária contendo as informações simplificadas sobre o que aconteceu que resultou no pedido de alteração de BMP. Essas informações precisam indicar qual(ais) NFSM(s) está(ão) relacionada(s) à situação"
+          },
+          {
+            "id": 192478,
+            "nome": "Em todos os tipos de recálculo a carta encaminhada deve conter tabela de recálculo no padrão: A: Mês/ano ; B: Nome do Campo; C***: Nome do poço cujo rateio se pretende alterar ; D: Tipo de fluido; E: Volume declarado no BMP (m³);F: Volume efetivamente produzido (m³); G: Diferença entre volume declarado no BMP e volume efetivamente produzido.\n\n ***A coluna C somente é necessária quando se tratar de recálculo de rateio da produção."
+          },
+          {
+            "id": 192479,
+            "nome": "Em todos os tipos de recálculo a carta encaminhada deve conter tabela de recálculo no padrão: A: Mês/ano ; B: Nome do Campo; C***: Nome do poço cujo rateio se pretende alterar ; D: Tipo de fluido; E: Volume declarado no BMP (m³);F: Volume efetivamente produzido (m³); G: Diferença entre volume declarado no BMP e volume efetivamente produzido.\n\n ***A coluna C somente é necessária quando se tratar de recálculo de rateio da produção."
+          }
+        ],
+        "casos": [
+          {
+            "id": 28062,
+            "descricao": "No tipo 2, quando o novo fator do medidor for inferior ao fator do medidor imediatamente anterior",
+            "documento": [
+              {
+                "id": 192472,
+                "codigo": null,
+                "descricao": "Além da carta do tipo 1, contendo a indicação da(s) NFSM(s) associadas, a concessionária terá que encaminhar • Certificado de calibração para as duas calibrações realizadas (calibração atual e a calibração imediatamente anterior), evidenciando que o fator do medidor sofreu alteração acima de 0,25% • Audit trail do computador de vazão evidenciando o input do fator de medidor após as duas calibrações; • Certificado de calibração para o medidor padrão contra o qual o medidor em falha foi calibrado;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 192473,
+                "codigo": null,
+                "descricao": "• Certificado de calibração para o medidor padrão contra o qual o medidor em falha foi calibrado; • Caso o medidor em falha tenha sido calibrado contra um provador é necessário o envio de certificado de calibração pelo método “water draw”, bem como o envio de ensaio de não vazamento interno;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 192474,
+                "codigo": null,
+                "descricao": "• Planilha Excel contendo o cálculo do fator de correção, conforme descrito no item 7.1.4.1 da RANP nº 18/2014, bem como a aplicação desse fator aos volumes que sofrerão alteração devido à falha presumida conforme subitens d) e e) do item 7.1.4.2 da RANP nº 18/2014; e • Boletins Diários de Produção do período envolvido.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 28063,
+            "descricao": "Oscilação de prazos",
+            "documento": [
+              {
+                "id": 192475,
+                "codigo": null,
+                "descricao": "O período necessário para concluir a fase de recálculo pode oscilar entre 90 e 720 dias, sendo influenciado tanto pelo volume acumulado de processos relativos a falhas de medição e recálculos quanto pela complexidade inerente a cada caso em particular.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 192476,
+                "codigo": null,
+                "descricao": "Recálculos que não impactam em participações governamentais e não necessitam de análise de falha de medição são concluídos dentro de um período de 90 dias.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 175877,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "90",
+          "max": "720",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 90,
+        "max": 720
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 135830,
+      "titulo": "Solicitar recálculo para alteração de rateio da produção ou recálculo de água",
+      "descricao": "O usuário deve protocolizar uma carta através do módulo peticionamento de processo novo, incluindo as informações exigidas. A ANP irá:\n\n  * Emitir despacho de aprovação ou não aprovação do pleito para a concessionária solicitante. (se o pleito for não aprovado, processo é enviado para arquivo);\n * Encaminhar o rateio de produção ou do volume de água produzida alterados para a SDP;\n * Arquivar o processo",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 192483,
+            "nome": "Carta da concessionária contendo as informações simplificadas sobre o que aconteceu que resultou no pedido de alteração de BMP. Essas informações precisam indicar qual(ais) NFSM(s) está(ão) relacionada(s) à situação."
+          },
+          {
+            "id": 192484,
+            "nome": "Em todos os tipos de recálculo a carta encaminhada deve conter tabela de recálculo no padrão:\n\n A: Mês/ano;\n\n B: Nome do Campo;\n\n C***: Nome do poço cujo rateio se pretende alterar ;\n\n D: Tipo de fluido;\n\n E: Volume declarado no BMP (m³);\n\n F: Volume efetivamente produzido (m³);\n\n G: Diferença entre volume declarado no BMP e volume efetivamente produzido.\n\n ***A coluna C somente é necessária quando se tratar de recálculo de rateio da produção."
+          }
+        ],
+        "casos": [
+          {
+            "id": 28064,
+            "descricao": "No tipo 2, quando o novo fator do medidor for inferior ao fator do medidor imediatamente anterior",
+            "documento": [
+              {
+                "id": 192480,
+                "codigo": null,
+                "descricao": "Além da carta do tipo 1, contendo a indicação da(s) NFSM(s) associadas, a concessionária terá que encaminhar • Certificado de calibração para as duas calibrações realizadas (calibração atual e a calibração imediatamente anterior), evidenciando que o fator do medidor sofreu alteração acima de 0,25% • Audit trail do computador de vazão evidenciando o input do fator de medidor após as duas calibrações; • Certificado de calibração para o medidor padrão contra o qual o medidor em falha foi calibrado;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 192481,
+                "codigo": null,
+                "descricao": "• Certificado de calibração para o medidor padrão contra o qual o medidor em falha foi calibrado; • Caso o medidor em falha tenha sido calibrado contra um provador é necessário o envio de certificado de calibração pelo método “water draw”, bem como o envio de ensaio de não vazamento interno;",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 192482,
+                "codigo": null,
+                "descricao": "• Planilha Excel contendo o cálculo do fator de correção, conforme descrito no item 7.1.4.1 da RANP nº 18/2014, bem como a aplicação desse fator aos volumes que sofrerão alteração devido à falha presumida conforme subitens d) e e) do item 7.1.4.2 da RANP nº 18/2014; e • Boletins Diários de Produção do período envolvido.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 175878,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "30",
+          "max": "90",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 30,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 135831,
+      "titulo": "Acompanhar o processo",
+      "descricao": "Após obter o login, senha e número do processo aberto anteriormente, o usuário poderá acessar o Sistema Eletrônico de Informação e acompanhar o atendimento da demanda realizada. Ao entrar no sistema, localize a opção 'processo intermitente' e forneça o número do processo para prosseguir.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 175879,
+            "tipo": "web",
+            "descricao": "SEI/Sistema Eletrônico de Informação: [Acesse o site](https://sei.anp.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13054",
+      "nome": "Solicitar cadastro de usuário externo no SEI-ANP"
+    }
+  ],
+  "tempoMediaEspera": "150",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/aprovar-recalculo-da-producao-de-agua-petroleo-e-gas-natural",
+  "statusDestaque": false
+}

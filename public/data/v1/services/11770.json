@@ -1,0 +1,201 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11770",
+  "nome": "Solicitar diagnóstico de gestação de fêmeas de grande porte",
+  "sigla": "",
+  "descricao": "O diagnóstico de gestação (DG) é utilizado para confirmação de prenhes de fêmeas que tenham sido cobertas naturalmente ou inseminadas. Na espécie equina, o DG é realizado a partir de 15 dias após a última cobertura/inseminação artificial ou 12 dias a partir da detecção da ovulação mediante ultrassonografia transretal. Na espécie bovina, o DG é realizado aos 30 dias após a IA ou último cio mediante ultrassonografia transretal. Ainda é possível confirmar animais não gestantes aos 20 dias após a inseminação artificial mediante uso de ultrassonografia Doppler, ferramenta extremamente importante para otimização de protocolos de IATF.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: bruna.waddington@ufv.br  \nTelefone: (31) 98881-6509",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 41541
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 39113,
+        "tipo": "Público em geral.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/474",
+    "dbId": 34325,
+    "nomeOrgao": "Fundação Universidade Federal de Viçosa (UFV)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 63050
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para Todos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diagnóstico",
+        "id": 144299
+      },
+      {
+        "item": "Gestação",
+        "id": 144300
+      },
+      {
+        "item": "Fêmeas",
+        "id": 144301
+      },
+      {
+        "item": "Grande",
+        "id": 144302
+      },
+      {
+        "item": "Porte",
+        "id": 144303
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 44948
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 83393,
+      "titulo": "Realizar agendamento",
+      "descricao": "Após contato e agendamento prévio, a equipe técnica se desloca até o local onde se encontra o animal, para realizar o atendimento de forma presencial.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 119349,
+            "nome": "Identidade e CPF; Endereço; e-mail e telefone do responsável."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 12181,
+            "descricao": "Valor do deslocamento por KM rodado",
+            "moeda": "R$",
+            "valor": " 2,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 12182,
+            "descricao": "Valor do exame (espécie equina)",
+            "moeda": "R$",
+            "valor": " 100,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 12183,
+            "descricao": "Valor do exame (espécie bovina - US modo B)",
+            "moeda": "R$",
+            "valor": " 20,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          },
+          {
+            "id": 12184,
+            "descricao": "Valor do exame (espécie bovina - Doppler)",
+            "moeda": "R$",
+            "valor": " 40,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 106652,
+            "tipo": "e-mail",
+            "descricao": "As solicitações podem também ser feitas via e-mail (bruna.waddington@ufv.br), com um mínimo de 72 horas de antecedência.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 106651,
+            "tipo": "telefone",
+            "descricao": "As solicitações devem ser feitas por telefone, via ligação ou mensagem pelo aplicativo WhatsApp.\n\n (31) 98881-6509.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "75",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-diagnostico-de-gestacao-de-femeas-de-grande-porte",
+  "statusDestaque": false
+}

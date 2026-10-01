@@ -1,0 +1,183 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2919",
+  "nome": "Obter certidão de regime especial de direção técnica",
+  "sigla": "",
+  "descricao": "Emissão de certidão informando se a operadora está em regime especial de Direção Técnica. É fornecida diante da necessidade em situações como demandas jurídicas, ou para utilização em licitações; é solicitada tanto pela operadora quanto pelo órgão público demandante.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: gedit.dipro@ans.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ans.gov.br/ans-idp/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 72853
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 64050,
+        "tipo": "Operadoras de Plano de Saúde e administradoras de benefícios; Órgãos do poder judiciário; Órgãos e entidades da Administração Pública",
+        "requisitos": "Solicitação protocolizada via Peticionamento Eletrônico da Agência"
+      },
+      {
+        "id": 64051,
+        "tipo": "Operadoras de Plano de Saúde e administradoras de benefícios; Órgãos do poder judiciário",
+        "requisitos": "Solicitação protocolizada via Peticionamento Eletrônico da Agência"
+      },
+      {
+        "id": 64052,
+        "tipo": "Órgãos e entidades da Administração Pública",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "10",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Sem validade definida, porém as condições para aceitação podem variar conforme a finalidade da solicitação"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 101132
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 101133
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certidão ",
+        "id": 248188
+      },
+      {
+        "item": "direção ",
+        "id": 248189
+      },
+      {
+        "item": "técnica",
+        "id": 248190
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "RN 534/2022\n\n [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?temaId=&diretoriaId=&relevancia=Relevancia&assuntoId=&normaId=7&numero=485&revogada=1&palavra_chave=&publicacao=Igual+a&data_dou=&buscar=&acao=buscar&limit=5&option=com_legislacao&origin=&post=index.php%3Foption%3Dcom_legislacao%26view%3Dlegislacao&view=legislacao)",
+        "id": 82502
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:n· Urbanidade;n· Respeito;n· Acessibilidade;n· Cortesia;n· Presunção da boa-fé do usuário;n· Igualdade;n· Eficiência;n· Segurança; en· Ética",
+  "etapas": [
+    {
+      "id": 143651,
+      "titulo": "Solicitar Certidão de Direção Técnica",
+      "descricao": "Encaminhamento de correspondência solicitando a Certidão de Direção Técnica, através do Portal Operadoras - Protocolo Eletrônico, disposto no link [ANS - Agência Nacional de Saúde Suplementar](https://www.ans.gov.br/index.php?option=com_acessooperadora&view=login)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 203575,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 23835,
+            "descricao": "gratuito",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 186561,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "25",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-de-regime-especial-de-direcao-tecnica",
+  "statusDestaque": false
+}

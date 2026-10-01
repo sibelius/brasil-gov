@@ -1,0 +1,340 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9854",
+  "nome": "Consultar Lista de Devedores da PGFN",
+  "sigla": "",
+  "descricao": "Na [Lista de Devedores da PGFN](https://www.listadevedores.pgfn.gov.br/), o cidadão pode consultar os contribuintes que estão inscritos em dívida ativa da União e do FGTS, na condição de devedor principal, corresponsável ou solidário, em situação irregular. \n\n A situação irregular envolve os débitos que estão em processo de efetiva cobrança por parte da PGFN junto ao devedor. Já as dívidas em situação regular são aquelas cujos valores foram parcelados, garantidos, suspensos por decisão judicial ou que estão em fase de negociação entre a PGFN e o contribuinte, e por isso não estão incluídos na Lista. \n\n Para um resultado mais preciso, a ferramenta oferece vários filtros de pesquisa.\n\n **Atenção!** Para uma pesquisa completa com as informações de todos devedores da PGFN e a respectiva situação dos débitos, indicamos a utilização dos [Dados Abertos da PGFN](https://www.gov.br/../../pgfn/pt-br/assuntos/divida-ativa-da-uniao/dados-abertos/dados-abertos). Já para consultar quais contribuintes estão cumprindo com o compromisso de pagar as prestações dos parcelamentos formalizados perante a PGFN, você pode recorrer ao [Painel das Negociações](https://www.pgfn.gov.br/assuntos/divida-ativa-da-uniao/painel-dos-parcelamentos/bem-vindo-ao-painel-dos-parcelamentos \"Painel dos Parcelamentos\").\n\n Importante destacar que as informações detalhadas sobre a dívida são de acesso exclusivo do contribuinte, por meio consulta ao [REGULARIZE](https://www.regularize.pgfn.gov.br/ \"REGULARIZE\"), o portal de serviços digitais da PGFN.",
+  "flagPortalLogado": "N",
+  "contato": "Clique [aqui](http://www.gov.br/pgfn/pt-br/canais_atendimento/atendimento-ao-contribuinte/contribuinte) para acessar os contatos da Procuradoria-Geral da Fazenda Nacional.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.listadevedores.pgfn.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88878
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76107,
+        "tipo": "Cidadão.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/78",
+    "dbId": 40714,
+    "nomeOrgao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 123443
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123444
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 123445
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 123446
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Divida Ativa da União"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Lista de devedores",
+        "id": 299473
+      },
+      {
+        "item": "Consultar",
+        "id": 299474
+      },
+      {
+        "item": "Dívida ativa da União",
+        "id": 299475
+      },
+      {
+        "item": "FGTS",
+        "id": 299476
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria nº 636, de 9 de janeiro de 2020](http://www.in.gov.br/en/web/dou/-/portaria-n-636-de-9-de-janeiro-de-2020-239634966) - Dispõe sobre a divulgação de informações relativas à dívida ativa da União e do FGTS e seus devedores.",
+        "id": 102056
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 96,
+    "negativas": 69
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 172534,
+      "titulo": "Acessar a ferramenta",
+      "descricao": "Basta acessar a [Lista de Devedores](https://www.listadevedores.pgfn.gov.br/) e começar a pesquisa. O acesso é aberto, não é necessário cadastro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226418,
+            "tipo": "web",
+            "descricao": "[Lista de Devedores](https://www.listadevedores.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172535,
+      "titulo": "Pesquisar por nome ou CPF/CNPJ",
+      "descricao": "Para saber se alguém está na lista de devedores, você pode informar o número do CPF ou do CNPJ para verificação no banco de dados. Também é possível pesquisar pelo nome ou parte dele, inclusive o nome fantasia, no caso de empresa.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226419,
+            "tipo": "web",
+            "descricao": "[Lista de Devedores](https://www.listadevedores.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172536,
+      "titulo": "Pesquisar por setor econômico",
+      "descricao": "Você também pode visualizar os devedores de acordo com o CNAE (Classificação Nacional de Atividades Econômicas) em que eles se enquadram — como administração pública, defesa e seguridade social; atividades imobiliárias; educação e transporte.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226420,
+            "tipo": "web",
+            "descricao": "[Lista de Devedores](https://www.listadevedores.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172537,
+      "titulo": "Pesquisar por natureza da dívida e faixa de valores",
+      "descricao": "Também é possível filtrar por natureza da dívida — FGTS, previdenciária, multa trabalhista, multa criminal, multa eleitoral, demais débitos tributários e demais débitos não tributários  — e a faixa de valor.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226421,
+            "tipo": "web",
+            "descricao": "[Lista de Devedores](https://www.listadevedores.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172538,
+      "titulo": "Exportar o resultado da consulta",
+      "descricao": "É possível exportar o resultado da pesquisa no formato de planilha (csv). A exportação estará disponível para consultas com resultados de até 50.000 registros.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226422,
+            "tipo": "web",
+            "descricao": "[Lista de Devedores](https://www.listadevedores.pgfn.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11982",
+      "nome": "Solicitar Exclusão da Lista de Devedores da PGFN"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "58",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "S",
+  "integracaoCidadao": {
+    "itens": [
+      {
+        "id": 145,
+        "descricaoIntegracao": "Cadastro base do cidadão (CPF)"
+      },
+      {
+        "id": 146,
+        "descricaoIntegracao": "Cadastro nacional de pessoas jurídicas (CNPJ)"
+      }
+    ]
+  },
+  "url": "https://www.gov.br/pt-br/servicos/consultar-lista-de-devedores-da-pgfn",
+  "statusDestaque": false
+}

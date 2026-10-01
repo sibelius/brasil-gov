@@ -1,0 +1,190 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23679",
+  "nome": "Habilitar serviços de saúde para  realização de Terapia Gênica no SUS",
+  "sigla": "",
+  "descricao": "Habilitação e registro de serviços que realizam Terapia Gênica no Cadastro Nacional de Estabelecimentos de Saúde – CNES e inclui procedimentos na Tabela de Procedimentos Medicamentos, Órteses, Próteses e Materiais Especiais do SUS – Tabela de Procedimentos do SUS",
+  "flagPortalLogado": "N",
+  "contato": "cgraras@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://saips.saude.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111574
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 93794,
+        "tipo": "Gestor do SUS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 155684
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Credenciamentos e Habilitações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Terapia Gênica",
+        "id": 372648
+      },
+      {
+        "item": "Habilitação",
+        "id": 372649
+      },
+      {
+        "item": "CNES",
+        "id": 372650
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "PORTARIA SAES/MS Nº 3.080, DE 29 DE JULHO DE 2025",
+        "id": 129948
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 217643,
+      "titulo": "Solicitar Habilitação",
+      "descricao": "• Todos os que integram a equipe especializada que foram capacitados pela empresa farmacêutica responsável pelo fornecimento da terapia gênica, deverão encaminhar declaração assinada e datada, devendo declarar e comprovar a capacitação para infusão de terapia gênica",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 291842,
+            "nome": "• O Hospital deverá estar com Alvará Sanitário vigente; \n\n • Manter atualizado o cadastro do estabelecimento de saúde no CNES, com registro do serviço especializado 168 – Atenção às Pessoas com Doenças Raras, classificação 003 Terapia Gênica, a fim de identificar os serviços habilitados para realizar a infusão de terapia gênica;\n\n  • Declaração assinada e datada referente às exigências descritas no anexo II da Portaria SAES/MS nº 3.080/2025."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282758,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://saips.saude.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 217644,
+      "titulo": "Acompanhar",
+      "descricao": "Via Plataforma SAIPS",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 282759,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://saips.saude.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "18",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/habilitar-servicos-de-saude-para-realizacao-de-terapia-genica-no-sus",
+  "statusDestaque": false
+}

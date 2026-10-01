@@ -1,0 +1,155 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10098",
+  "nome": "Consultar decisões do Colegiado - CVM",
+  "sigla": "",
+  "descricao": "Busca de jurisprudência da CVM. Ferramenta de pesquisa que reúne todas as Decisões do Colegiado (processos sancionadores julgados, termos de compromisso apreciados e demais assuntos de competência da Autarquia).\n\n Pesquise por palavra chave ou correlacione assuntos (relator e processo; relator e penalidade; penalidade e acusado; entre outros). Acesse o [Manual de Orientação](http://www.cvm.gov.br/export/sites/cvm/decisoes/pesquisa/manual_pesquisa_avancada_jurisprudencia_CVM.pdf) para ter detalhes sobre o funcionamento e o conteúdo disponível, além de dicas de busca mais avançada e eficiente.",
+  "flagPortalLogado": "N",
+  "contato": "Gerência Executiva (EXE) - exe@cvm.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.cvm.gov.br/decisoes/pesquisa/pesquisa.html#gsc.tab=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 80788
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 70150,
+        "tipo": "Pessoas físicas e jurídicas",
+        "requisitos": "N/A"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478",
+    "dbId": 7907,
+    "nomeOrgao": "Comissão de Valores Mobiliários (CVM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 111876
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 111877
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Sistemas e Bases de Dados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CVM",
+        "id": 274373
+      },
+      {
+        "item": "COLEGIADO",
+        "id": 274374
+      },
+      {
+        "item": "DECISÃO",
+        "id": 274375
+      },
+      {
+        "item": "JURISPRUDÊNCIA",
+        "id": 274376
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 91702
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 10,
+    "negativas": 8
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 157390,
+      "titulo": "Consultar",
+      "descricao": "Acessar o sistema e efetuar a pesquisa/consulta nos documentos",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 205484,
+            "tipo": "web",
+            "descricao": "<http://www.cvm.gov.br/decisoes/pesquisa/pesquisa.html#gsc.tab=0>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "56",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-decisoes-do-colegiado-da-cvm",
+  "statusDestaque": false
+}

@@ -1,0 +1,200 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11920",
+  "nome": "Solicitar parcelamento de débitos",
+  "sigla": "",
+  "descricao": "É uma solicitação para parcelar débitos existentes junto à Anvisa. Podem ser parcelados débitos de multa por infração sanitária ou de sanção em contrato administrativo.\n\n  \n\n Saiba mais sobre o parcelamento de débitos [https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/administrativo/parcelamento-de-debitos](https://www.gov.br/../../anvisa/pt-br/acessoainformacao/perguntasfrequentes/administrativo/parcelamento-de-debitos).",
+  "flagPortalLogado": "N",
+  "contato": "**Contato do serviço para dúvidas: **[**Central de Atendimento da Anvisa**](https://www.gov.br/../../anvisa/pt-br/canais_atendimento)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 95725
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81329,
+        "tipo": "Empresas com débitos junto à Anvisa, de multa por infração sanitária ou por sanção em contrato administrativo.",
+        "requisitos": "Deve possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o Sistema Solicita. [Saiba mais sobre o Cadastro na Anvisa](https://www.gov.br/../../anvisa/pt-br/sistemas/cadastros).\n\n Ter sido notificado em relação a débito(s) existente(s) junto à Anvisa."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132726
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Parcelamento",
+        "id": 322657
+      },
+      {
+        "item": "Débitos",
+        "id": 322658
+      },
+      {
+        "item": "Multa",
+        "id": 322659
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução da Diretoria Colegiada - RDC nº 240 de 09/09/2003](http://antigo.anvisa.gov.br/documents/10181/2718376/%281%29RDC_240_2003_COMP.pdf/0230d393-69dd-41ec-9895-df5d9e99c51d) - Dispõe sobre o parcelamento de débitos originários da aplicação de multas junto à Agência Nacional de Vigilância Sanitária – Anvisa.",
+        "id": 110632
+      },
+      {
+        "item": "[INSTRUÇÃO NORMATIVA Nº 43, DE 8 DE JUNHO DE 2020](https://www.gov.br/../../compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-43-de-8-de-junho-de-2020 \"Document\") - Dispõe sobre a dispensa, o parcelamento, a compensação e a suspensão de cobrança de débito resultante de multa administrativa, prevista nas Leis nº 8.666/93, nº 10.520/02 e nº 12.462/11, no âmbito da Administração Pública Federal direta, autárquica e fundacional, não inscritas em dívida ativa.",
+        "id": 110633
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 91
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 184750,
+      "titulo": "Fazer a solicitação",
+      "descricao": "2. Acesse o Sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo já existente”.\n 4. Localize o processo relacionado, constante da Notificação Administrativa, e o assunto de código 7637. Anexe os documentos constantes da relação de assuntos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 252252,
+            "nome": "A documentação consta da lista de verificação relacionada ao assunto de petição, código 7637. A documentação poderá ser obtida no [**Sistema de Emissão de Boletos e Parcelamento – SISPAR.**](https://www.gov.br/../../anvisa/pt-br/sistemas/sispar)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242535,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 184751,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "Após login no sistema Solicita, selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” no canto superior direito para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), utilizando os filtros na opção Situação de Documentos > Documentos Técnicos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242536,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "17",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-parcelamento-de-debitos",
+  "statusDestaque": false
+}

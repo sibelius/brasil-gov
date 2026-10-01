@@ -1,0 +1,257 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24434",
+  "nome": "Realizar Exame Laboratorial no Ambulatório do HU - UFJF - Unidade Dom Bosco",
+  "sigla": "",
+  "descricao": "O Laboratório de Análises Clínicas do Hospital Universitário da UFJF é responsável pela realização de exames de sangue, urina, fezes e outros fluidos biológicos. Atende pacientes que são acompanhados pelas especialidades oferecidas no ambulatório. É um serviço 100% SUS, referência para Juiz de Fora e Zona da Mata, com qualidade garantida e equipe especializada.",
+  "flagPortalLogado": "N",
+  "contato": "(32) 4009-5363",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 127683
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106843,
+        "tipo": "Atende todos os pacientes que são acompanhados pelas diversas especialidades oferecidas no ambulatório.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "1",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/206367",
+    "dbId": 32674,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário de Juiz de Fora (EBSERH/UFJF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178636
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Saúde ",
+        "id": 425644
+      },
+      {
+        "item": "Exame ",
+        "id": 425645
+      },
+      {
+        "item": "Agendamento",
+        "id": 425646
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153087
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249561,
+      "titulo": "Agendar exame laboratorial no HU - UFJF",
+      "descricao": "- O serviço é prestado ao usuário através da distribuição de senha na portaria lateral do HU-UFJF Unidade Dom Bosco.\n\n - De posse da senha o usuário deverá se dirigir a recepção do laboratório e aguardar ser chamado para atendimento;",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324684,
+            "nome": "- Documento de identificação;\n\n - Cartão com número do prontuário;\n\n - Cartão do SUS;\n\n - Pedido médico constando o código AGHU e agendamento do retorno para consulta na especialidade solicitante."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322431,
+            "tipo": "presencial",
+            "descricao": "**HU - UFJF - Unidade Dom Bosco**\n\n Endereço: Av. Eugênio do Nascimento, s/n - Bairro Dom Bosco, Juiz de Fora - MG, 36038-330",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 322432,
+            "tipo": "telefone",
+            "descricao": "- Watsapp: (32) 4009-5363",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249562,
+      "titulo": "Realizar exame laboratorial",
+      "descricao": "**Orientações para o dia do exame:**\n\n - Retirar senha na portaria lateral do HU-UFJF Unidade Dom Bosco;\n\n - Dirigir-se para a recepção do laboratório de análises clinicas;\n\n - Aguardar ser chamado pelo nome para atendimento;\n\n - Realizar o exame;\n\n - Receber o protocolo e orientações para retirada do resultado do exame;",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324685,
+            "nome": "- Documento de identificação; \n\n - Protocolo de agendamento que foi entregue no dia da marcação do exame."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322433,
+            "tipo": "presencial",
+            "descricao": "**HU - UFJF - Unidade Dom Bosco**\n\n Endereço: Av. Eugênio do Nascimento, s/n - Bairro Dom Bosco, Juiz de Fora - MG, 36038-330",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 249563,
+      "titulo": "Retirar resultado de exame laboratorial",
+      "descricao": "- Retirar senha na portaria lateral do HU-UFJF Unidade Dom Bosco;\n\n - Dirigir-se para a recepção do laboratório de análises clinicas;\n\n - Aguardar ser chamado para atendimento;\n\n - Entregar o protocolo de retirada do exame;\n\n - Receber o resultado;",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 324686,
+            "nome": "- Apresentar o protocolo para retirada do resultado que foi entregue no dia da realização do exame;\n\n **Prazos para entrega dos resultados dos exames:**\n\n - Exame de rotina: 3 dias corridos;\n\n - Exame de proteína: 15 dias corridos;\n\n  - Exame de carga viral: 20 dias corridos;\n\n - Exame de doenças raras: de 20 à 90 dias corridos;\n\n - Exame de urina: 7 dias corridos;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 322434,
+            "tipo": "presencial",
+            "descricao": "**HU - UFJF - Unidade Dom Bosco**\n\n Endereço: Av. Eugênio do Nascimento, s/n - Bairro Dom Bosco, Juiz de Fora - MG, 36038-330\n\n ** **",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-exame-laboratorial-no-ambulatorio-do-hu-ufjf-unidade-dom-bosco",
+  "statusDestaque": false
+}

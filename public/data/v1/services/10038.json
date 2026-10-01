@@ -1,0 +1,266 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10038",
+  "nome": "Alterar Autorização Especial",
+  "sigla": "AE",
+  "descricao": "É uma solicitação para alterar a Autorização Especial (AE) da empresa junto à Anvisa. É necessária nos seguintes casos:\n\n  * Mudança de endereço do CNPJ detentor da AE \n * Mudança de razão social do CNPJ detentor da AE \n * Ampliação ou redução de atividades na AE\n * Ampliação ou redução de classes na AE \n * Mudança ou inclusão de responsável legal vinculado à AE\n * Mudança ou inclusão de responsável técnico vinculado à AE",
+  "flagPortalLogado": "N",
+  "contato": "Contato do serviço para dúvidas: [Central de Atendimento da Anvisa](https://www.gov.br/anvisa/pt-br/canais_atendimento)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 95224
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 80987,
+        "tipo": "Empresas que já possuem AE ativa e desejam alterar as informações ou que possuam pedido de concessão de AE pendente de análise e desejam solicitar outra atividade não inerente ao pedido de concessão.",
+        "requisitos": "Possuir CNPJ cadastrado na Anvisa e gestor de segurança associado para acessar o sistema Solicita.\n\n  \n\n [Saiba mais sobre o Cadastro na Anvisa](http://portal.anvisa.gov.br/cadastramento)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687",
+    "dbId": 914,
+    "nomeOrgao": "Agência Nacional de Vigilância Sanitária (ANVISA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132102
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 132103
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Autorizações, Certificados e Informações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Autorização Especial",
+        "id": 321290
+      },
+      {
+        "item": "Alteração",
+        "id": 321291
+      },
+      {
+        "item": "Razão social",
+        "id": 321292
+      },
+      {
+        "item": "Ampliação",
+        "id": 321293
+      },
+      {
+        "item": "Redução",
+        "id": 321294
+      },
+      {
+        "item": "Responsável técnico",
+        "id": 321295
+      },
+      {
+        "item": "Responsável legal",
+        "id": 321296
+      },
+      {
+        "item": "",
+        "id": 321297
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 6360/1976](http://www.planalto.gov.br/ccivil_03/leis/l6360.htm#:~:text=L6360&text=LEI%20No%206.360%2C%20DE%2023%20DE%20SETEMBRO%20DE%201976.&text=Disp%C3%B5e%20sobre%20a%20Vigil%C3%A2ncia%20Sanit%C3%A1ria,Produtos%2C%20e%20d%C3%A1%20outras%20Provid%C3%AAncias.)",
+        "id": 110074
+      },
+      {
+        "item": "[RDC nº 16/2014](http://portal.anvisa.gov.br/legislacao#/visualizar/355258)",
+        "id": 110075
+      },
+      {
+        "item": "[RDC nº 222/2006](http://portal.anvisa.gov.br/legislacao#/visualizar/27878)",
+        "id": 110076
+      },
+      {
+        "item": "[*Portaria SVS/MS nº 344/1998*](http://portal.anvisa.gov.br/legislacao#/visualizar/26291)",
+        "id": 110077
+      },
+      {
+        "item": "[*Portaria SVS/MS nº 6/ 1999*](http://portal.anvisa.gov.br/legislacao#/visualizar/26309)",
+        "id": 110078
+      },
+      {
+        "item": "[RDC nº 275/2019](https://antigo.anvisa.gov.br/documents/10181/5436917/RDC_275_2019_.pdf/418f4412-c4b2-4db5-8f5d-346a5a81ff56)",
+        "id": 110079
+      },
+      {
+        "item": "[RDC nº 743/2022](https://antigo.anvisa.gov.br/documents/10181/5767121/RDC_743_2022_.pdf/ab7c5327-23c7-48c3-aef9-700cd066e505)",
+        "id": 110080
+      },
+      {
+        "item": "[RDC nº 204/2005](https://antigo.anvisa.gov.br/documents/10181/2718376/%282%29RDC_204_2005_COMP.pdf/7ff3a93e-2e9d-4244-86eb-6b9dae1c1bdd)",
+        "id": 110081
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 184038,
+      "titulo": "Fazer a solicitação",
+      "descricao": "* Acesse o sistema Solicita com o login e senha do gestor de segurança. Selecione a opção > “Rascunho” > “Novo” > “Petição vinculada a processo já existente”.\n * Localize o processo relacionado e o assunto relacionado à alteração. Anexe os documentos e envie a petição.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 251093,
+            "nome": "Relatório de inspeção ou documento equivalente emitido pelo órgão de vigilância sanitária responsável que informe explicitamente que o estabelecimento cumpre os requisitos de controle especial constantes da Portaria SVS/MS nº 344/1998 e da Portaria SVS/MS nº 6/ 1999."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 30010,
+            "descricao": "Taxa de Fiscalização de Vigilância Sanitária",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "variável de acordo com o porte da empresa e o tipo de solicitação",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241593,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 184039,
+      "titulo": "Acompanhar a solicitação",
+      "descricao": "O processo pode ser acompanhado pelo sistema Solicita. Selecione o CNPJ que realizou a solicitação, acesse a aba “Processos” e utilize o “Filtro rápido” para localizar o processo desejado. A solicitação também poderá ser consultada no [Portal de Consultas](http://consultas.anvisa.gov.br/), selecionando a opção “Situação de documentos>Técnico” e utilizando os filtros de preferência.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 251094,
+            "nome": "Login e senha no sistema Solicita"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 241594,
+            "tipo": "web",
+            "descricao": "[Sistema Solicita](https://sso.anvisa.gov.br/sso/internet/login?service=https%3A%2F%2Fsolicita.anvisa.gov.br%2Fsolicita%2F)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/alterar-autorizacao-especial",
+  "statusDestaque": false
+}

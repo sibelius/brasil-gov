@@ -1,0 +1,215 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8404",
+  "nome": "Obter vistas e cópias de processos eletrônicos de apuração de infração e aplicação de penalidade",
+  "sigla": "",
+  "descricao": "É o serviço relativo à vistas de processos eletrônicos de apuração de infração e aplicação de penalidade. No serviço é permitida a baixa de arquivo (PDF) contendo cópia integral do processo eletrônico.",
+  "flagPortalLogado": "N",
+  "contato": "📞 Atendimento e Contato – ANTT    Para mais informações, os Autuados podem registrar suas manifestações por meio da plataforma Fala.BR.   Ou, caso prefira, o atendimento também pode ser realizado pelos seguintes canais:  * ✔️ Telefone: 166\n  📍 Atendimento Presencial:  \nEdifício-Sede da ANTT, Setor de Clubes Esportivos Sul (SCES), lote 10, trecho 03, Projeto Orla - Polo 8 - Bloco \"A\" – Térreo, Brasília - DF, CEP: 70200-003",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi#",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 106853
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90074,
+        "tipo": "Pessoa Física ou Jurídica que possua autuação junto à ANTT.",
+        "requisitos": "A solicitação de acesso será analisada pela GEAUT/SUDEG, que verificando a comprovação da legitimidade, irá aprovar a solicitação e imediatamente o autuado/representante terá acesso a funcionalidade de vistas aos processos eletrônicos."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "3",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 148994
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 148995
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 148996
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 148997
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Administrativo e Multas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Vistas",
+        "id": 357171
+      },
+      {
+        "item": "Cópias",
+        "id": 357172
+      },
+      {
+        "item": "Processos Eletrônicos",
+        "id": 357173
+      },
+      {
+        "item": "Multas",
+        "id": 357174
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124386
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 17,
+    "negativas": 98
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética.",
+  "etapas": [
+    {
+      "id": 208725,
+      "titulo": "Solicitar Acesso",
+      "descricao": "Para realização da consulta, o interessado **(Pessoa Física)** deve acessar a [ÁREA DO AUTUADO](https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi) e realizar a solicitação de acesso, ocasião em que deverá encaminhar documento comprobatório de legitimidade.  \nNos casos de a consulta ser relativa à **Pessoa Jurídica**, deverá ser realizado o mesmo procedimento, com o cadastro do CPF do Representante Legal.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 282466,
+            "nome": "Devem ser incluídos documentos que comprovem a legitimidade do solicitante, tais como: documento de identidade, CPF, contrato social (pessoa jurídica) e procuração, se for o caso."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271205,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208726,
+      "titulo": "Obter Vistas de Processos Eletrônicos",
+      "descricao": "Após validação do cadastro pela GEAUT/SUDEG, o interessado poderá acessar a [ÁREA DO AUTUADO](https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi) e obter vistas dos processos eletrônicos. \n\n Após aprovação da GEAUT/SUDEG, o usuário deverá clicar na aba \"Processos Administrativo\", opção \"Solicitar Vistas ao Processo\", preencher apenas o campo \"Tipo de Multa\" e pesquisar. \n\n O acompanhamento da solicitação pode ser feito através da aba \"Acessos\", opção \"Acompanhar solicitação\".",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 271206,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://appweb1.antt.gov.br/spmi/Site/Login.aspx?ReturnUrl=%2fspmi)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "15",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-vistas-e-copias-de-processos-eletronicos-de-apuracao-de-infracao-e-aplicacao-de-penalidade",
+  "statusDestaque": false
+}

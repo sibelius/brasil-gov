@@ -1,0 +1,152 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10939",
+  "nome": "Calcular alíquota efetiva do imposto de renda",
+  "sigla": "",
+  "descricao": "Faça uma simulação do imposto de renda devido e confira a alíquota efetiva aplicada, ou seja, o percentual verdadeiro de imposto que você paga sobre seus rendimentos.\n\n **Atenção!** Esta simulação não substitui a necessidade de entregar a Declaração de Imposto de Renda.",
+  "flagPortalLogado": "N",
+  "contato": "Mais informações:  \n[Orientações sobre a Declaração de Imposto de Renda](https://www.gov.br/../../receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dirpf)\n\n [Fale conosco](https://servicos.receitafederal.gov.br/servico/receita-atende)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www27.receita.fazenda.gov.br/simulador-irpf",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 122032
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102077,
+        "tipo": "Qualquer pessoa.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 170289
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imposto de Renda e Malha Fiscal"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Simular",
+        "id": 406113
+      },
+      {
+        "item": "Imposto de Renda",
+        "id": 406114
+      },
+      {
+        "item": "Percentual",
+        "id": 406115
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 146124
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 624,
+    "negativas": 1465
+  },
+  "condicoesAcessibilidade": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 237835,
+      "titulo": "Calcular o imposto",
+      "descricao": "Após selecionar a periodicidade (mensal ou anual), informe os valores dos rendimentos tributáveis e as deduções. Serão mostrados o valor do imposto devido e a alíquota efetiva.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 314176,
+            "nome": "Informações de rendimentos e despesas."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 307150,
+            "tipo": "web",
+            "descricao": "[Simulação de Alíquota Efetiva](https://www27.receita.fazenda.gov.br/simulador-irpf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "30",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/calcular-aliquota-efetiva-do-imposto-de-renda",
+  "statusDestaque": false
+}

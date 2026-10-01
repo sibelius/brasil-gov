@@ -1,0 +1,290 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24027",
+  "nome": "Registrar reclamação contra empresa aérea",
+  "sigla": "",
+  "descricao": "O cidadão que não obteve atendimento satisfatório nos canais próprios de atendimento das empresas aéreas pode registrar uma reclamação na Anac. O registro é sempre realizado na plataforma Anac Passageiro, podendo ser feito diretamente pelo usuário ou com o auxílio dos canais de atendimento da Anac. As demandas registradas são enviadas pela Anac à empresa aérea, que tem até 10 dias para responder ao usuário. Após a resposta, o reclamante tem até 30 dias para informar se sua reclamação foi resolvida e avaliar o atendimento recebido. A Anac monitora as interações em âmbito coletivo e atua quando identifica descumprimento sistêmico da regulação.",
+  "flagPortalLogado": "S",
+  "contato": "Quaisquer dúvidas adicionais podem ser apresentadas diretamente pelo [sistema de manifestações da ANAC](https://www.anac.gov.br/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/assuntos/passageiros/anac_passageiro/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126610
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105886,
+        "tipo": "Usuários do transporte aéreo regular de passageiros, bem como seus procuradores devidamente constituídos.",
+        "requisitos": "É necessário ter 18 anos ou mais.   \nÉ necessário ter conta gov.br nível prata ou ouro."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177044
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 421916
+      },
+      {
+        "item": "Anac passageiro",
+        "id": 421917
+      },
+      {
+        "item": "Conflito de consumo",
+        "id": 421918
+      },
+      {
+        "item": "Fale com a Anac",
+        "id": 421919
+      },
+      {
+        "item": "Direito do consumidor",
+        "id": 421920
+      },
+      {
+        "item": "Reclamação contra empresa aérea",
+        "id": 421921
+      },
+      {
+        "item": "",
+        "id": 421922
+      },
+      {
+        "item": "",
+        "id": 421923
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151935
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 247221,
+      "titulo": "Fazer Login",
+      "descricao": "Fazer Login na plataforma: fazer o login na plataforma Anac Passageiro com conta gov.br nível prata ou ouro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319642,
+            "tipo": "web",
+            "descricao": "Plataforma Anac PassageiroÂ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247222,
+      "titulo": "Registrar a reclamação",
+      "descricao": "Registrar a reclamação: o usuário fornece, na plataforma Anac Passageiro, informações sobre o problema que deseja resolver. Para facilitar o atendimento, recomenda-se apresentar dados como: protocolo(s) de atendimento junto à empresa aérea, número do bilhete aéreo, data do voo etc",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319643,
+            "tipo": "web",
+            "descricao": "Plataforma Anac PassageiroÂ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247223,
+      "titulo": "Acompanhar o andamento e receber resposta",
+      "descricao": "Acompanhar o andamento: o usuário pode acompanhar pela própria plataforma Anac Passageiro ou com o auxílio dos canais de atendimento da Anac. Após o registro da reclamação, a empresa aérea deve responder o cidadão em até 10 dias corridos.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319644,
+            "tipo": "web",
+            "descricao": "Plataforma Anac PassageiroÂ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247224,
+      "titulo": "Avaliar a solução da empresa",
+      "descricao": "Avaliar: em até 30 dias após a resposta da empresa aérea, o usuário pode avaliar o atendimento recebido e indicar se seu problema foi ou não resolvido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319645,
+            "tipo": "web",
+            "descricao": "Plataforma Anac PassageiroÂ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "57",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-reclamacao-contra-empresa-aerea",
+  "statusDestaque": false
+}

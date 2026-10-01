@@ -1,0 +1,139 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8106",
+  "nome": "Solicitar cadastramento de material rodante",
+  "sigla": "",
+  "descricao": "Solicitação junto à ANTT de inclusão ou alteração de vagões e/ou locomotivas no Sistema de Acompanhamento e Fiscalização do Transporte Ferroviário - SAFF.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "porcentagemManual": false,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0#",
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 11106,
+        "tipo": "Concessionária que possui contrato de concessão firmado com a ANTT para exploração da infraestrutura e serviço de transporte ferroviário de cargas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": "",
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": null,
+    "quantidade": null,
+    "unidade": null,
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 16854
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito e Transportes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Transporte",
+        "id": 30628
+      },
+      {
+        "item": "Transporte Ferroviário",
+        "id": 30629
+      },
+      {
+        "item": "Ferrovia",
+        "id": 30630
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 10.233, de 5 de junho de 2001;\nResolução ANTT nº 2502, de 19 de dezembro de 2007.\nLEI Nº 8.987, DE 13 DE FEVEREIRO DE 1995.\nContrato de Concessão",
+        "id": 5649
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n· Urbanidade;\n· Respeito;\n· Acessibilidade;\n· Cortesia;\n· Presunção da boa-fé do usuário;\n· Igualdade;\n· Eficiência;\n· Segurança; e\n· Ética",
+  "etapas": [
+    {
+      "id": 20472,
+      "titulo": "Solicitação de Atualização de Material Rodante",
+      "descricao": "1 - Solicitação protocolado junto à ANTT de inclusão ou alteração de vagões e/ou locomotivas;\n2. Analise e cadastramento por parte da ANTT no SAFF.\n3 - Para os casos de inclusão de material rodante novo o SAFF gera um número de identificação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 23927,
+            "tipo": "web",
+            "descricao": "https://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-cadastramento-de-material-rodante",
+  "statusDestaque": false
+}

@@ -1,0 +1,230 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/913",
+  "nome": "Pagar débitos a órgãos federais - Autarquias e fundações públicas",
+  "sigla": "",
+  "descricao": "Canal para obter informações, realizar pagamentos e/ou parcelamento de suas dívidas inscritas em dívida ativa de autarquias e fundações públicas federais (ANTT, ANCINE, DNIT, IBAMA, INMETRO, etc.).",
+  "flagPortalLogado": "N",
+  "contato": "Via e-mail descrito nos Canais de Prestação de acordo com a Unidade.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://supersapiens.agu.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 117047
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98190,
+        "tipo": "Todo o cidadão, empresa, sociedade sem fins lucrativos, estados e municípios que possuem dívidas com as autarquias e fundações públicas federais, desde que inscritos em Dívida Ativa, cobrados pela Procuradoria-Geral Federal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "10",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/46",
+    "dbId": 822,
+    "nomeOrgao": "Advocacia-Geral da União (AGU)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 163435
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 163436
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 163437
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 163438
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Parcelamento",
+        "id": 391298
+      },
+      {
+        "item": "Dívida",
+        "id": 391299
+      },
+      {
+        "item": "Divida Ativa",
+        "id": 391300
+      },
+      {
+        "item": "Procuradoria-Geral Federal",
+        "id": 391301
+      },
+      {
+        "item": "Negociar",
+        "id": 391302
+      },
+      {
+        "item": "Transação",
+        "id": 391303
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 138173
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 139,
+    "negativas": 577
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 228596,
+      "titulo": "Quitar ou parcelar débitos com Autarquias Federais inscritos em Dívida Ativa.",
+      "descricao": "Para quitação à vista, parcelamentos ou demais solicitações, o público externo pode acessar o [Portal Resolve Dívidas da AGU](https://www.gov.br/agu/pt-br/assuntos-1/resolve-dividas-agu).[  \n](https://www.gov.br/agu/pt-br/assuntos-1/resolve-dividas-agu)",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301987,
+            "nome": "Possuir certificado digital válido ou Conta GOV.BR nível prata ou ouro."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296066,
+            "tipo": "web",
+            "descricao": "**Link de acesso:Â <https://www.gov.br/agu/pt-br/assuntos-1/resolve-dividas-agu>.**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 228597,
+      "titulo": "Atendimento para dúvidas (E-mail ou Telefone)",
+      "descricao": "Caso não seja possível solucionar a demanda pelo autoatendimento, entre em contato com a unidade da PGF correspondente à unidade federativa do seu domicílio, conforme indicado abaixo:",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 296067,
+            "tipo": "e-mail",
+            "descricao": "Contatos das unidades de atendimento:\n\n    Região Unidade Federativa   E-MAIL TELEFONE   1ª AP, AM, AC, BA, DF, GO, MA, MT, PA, PI, RO, RR, TO ecojud1.atendimento@agu.gov.br (61) 2026-9269/9270/9293   2ª RJ, ES pgf.dcjud2@agu.gov.br (21) 2211-6812 ou (27) 3041-4300/4301  \n   3ª SP, MS prf3.cidada@agu.gov.br (11) 3506-2200/2988  \n   4ª PR, SC, RS pgf.dcjud4@agu.gov.br (51) 2139-4600/4690   5ª AL, CE, PB, PE, RN, SE pgf.dcjud5@agu.gov.br (81) 2102-2600   6ª MG pgf.dcjud6@agu.gov.br (31) 2126-2670",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "19",
+  "totalSimplifique": "21",
+  "simplifiqueSolicitacoes": "21",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "0",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/pagar-debitos-a-orgaos-federais-autarquias-e-fundacoes-publicas",
+  "statusDestaque": false
+}

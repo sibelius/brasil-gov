@@ -1,0 +1,313 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12957",
+  "nome": "Acessar as informações de operações de crédito rural",
+  "sigla": "CACR",
+  "descricao": "Permite que pessoas físicas e empresas consultem todas as operações de crédito rural registradas em seu CPF ou no CNPJ de sua empresa. por meio do sistema de consulta e autorização de acesso a operações de crédito rural (CACR).\n\n Além disso, é possível ao titular dos dados conceder o acesso para outras pessoas e empresas. A escolha é sua de quais dados fornecer, de acordo com o relatório que estará disponível para visualização, sendo “Consulta Resumida” ou “Consulta Detalhada”.\n\n Seus dados são sigilosos e não podem ser visualizados sem a sua permissão, para que terceiros acessem o seu relatório é necessário que você autorize.\n\n A autorização não é obrigatória para que as instituições concedam o crédito, mas permite aumentar a oferta de financiamento para o setor agropecuário por meio do mercado de capitais ou do sistema financeiro.\n\n Acesso para pessoas físicas: nível prata ou ouro pela Conta govbr.\n\n Acesso para empresas: certificado digital pela Conta govbr.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale conosco](https://www.bcb.gov.br/acessoinformacao/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meubc.bcb.gov.br/meubc/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Sistema de consulta e autorização de acesso a operações de crédito rural",
+        "id": 98964
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 83895,
+        "tipo": "Qualquer pessoa física ou jurídica, com a devida permissão de acesso, que necessite consultar suas operações de crédito rural ou autorizar terceiros a fazê-lo.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 137902
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 137903
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Vida Financeira"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CACR",
+        "id": 332526
+      },
+      {
+        "item": "Operações de crédito rural",
+        "id": 332527
+      },
+      {
+        "item": "Sistema de consulta e autorização de acesso a",
+        "id": 332528
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 115353
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 51,
+    "negativas": 30
+  },
+  "condicoesAcessibilidade": "O BC não oferece atendimento presencial.",
+  "tratamentoPrioritario": "O BC não oferece atendimento presencial.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá ser atendido conforme os princípios expressos na lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 192220,
+      "titulo": "Acessar o CACR",
+      "descricao": "Acesse o sistema utilizando a Conta gov.br.\n\n  * Acesso para pessoas físicas: nível prata ou ouro pela Conta gov.br.\n * Acesso para empresas: certificado digital vinculado a Conta gov.br.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251354,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC](http://meubc.bcb.gov.br/meubc/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192221,
+      "titulo": "Realizar a consulta resumida de operações",
+      "descricao": "Receba o seu relatório no próprio sistema após acesso com Conta gov.br. Você deverá informar o ano do início e do fim da Contratação e o tipo de consulta (suas operações ou autorizadas por terceiros).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251355,
+            "tipo": "web",
+            "descricao": "Acesse oÂ [Meu BC.](http://meubc.bcb.gov.br/meubc/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192222,
+      "titulo": "Realizar a consulta detalhada de operações",
+      "descricao": "Receba o relatório no próprio sistema após acesso com Conta gov.br. Você deverá digitar o número de referência do BACEN.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251356,
+            "tipo": "web",
+            "descricao": "Acesse oÂ [Meu BC.](http://meubc.bcb.gov.br/meubc/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192223,
+      "titulo": "Realizar a consulta de autorizações",
+      "descricao": "Consulte as autorizações de acessos a dados em que você é autorizador ou autorizado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251357,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC.](http://meubc.bcb.gov.br/meubc/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 192224,
+      "titulo": "Cadastrar autorizações",
+      "descricao": "Cadastre autorizações de acessos a seus dados de operações de crédito rural.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 251358,
+            "tipo": "web",
+            "descricao": "Acesse o [Meu BC.](http://meubc.bcb.gov.br/meubc/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7786",
+      "nome": "Emitir Relatório de Empréstimos e Financiamentos (SCR)"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-as-informacoes-de-operacoes-de-credito-rural-cacr",
+  "statusDestaque": false
+}

@@ -1,0 +1,283 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10812",
+  "nome": "Obter certidão emitida pela ANS",
+  "sigla": "",
+  "descricao": "Mediante solicitação, a Agência Nacional de Saúde Suplementar (ANS) poderá expedir certidões para a defesa de direitos e esclarecimentos de situações.   \n  \nsua solicitação será encaminhada para a área responsável e você será informado do resultado da sua solicitação.",
+  "flagPortalLogado": "N",
+  "contato": "Disque ANS 0800 7019656",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/ans/pt-br/acesso-a-informacao/institucional/ans-digital-1/usuarios-externos-1/protocolo-eletronico",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123803
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103607,
+        "tipo": "Interessados em processos administrativos em posse da ANS.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "15",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173181
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173182
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 173183
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "certidão",
+        "id": 412172
+      },
+      {
+        "item": "requerimento",
+        "id": 412173
+      },
+      {
+        "item": "expedição",
+        "id": 412174
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Resolução Normativa ANS nº 534, de 02 de maio de 2022, que dispõe sobre os procedimentos para funcionamento do processo administrativo eletrônico e sobre requerimentos de vista e cópia de documentos e processos, de reunião ou de certidão para defesa de direitos e esclarecimentos de situações no âmbito da Agência Nacional de saúde Suplementar",
+        "id": 148933
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 62
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 241498,
+      "titulo": "Acessar o Protocolo Eletrônico da ANS",
+      "descricao": "ATENÇÃO: Existem duas formas de acesso ao Protocolo Eletrônico da ANS:\n\n  2. **Portal Operadoras**: exclusivo para as operadoras de planos de saúde e seus representantes;\n 4. **SEI**: para pessoas físicas (ou seu representante legal), fornecedores e prestadores de serviços de saúde.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311832,
+            "tipo": "web",
+            "descricao": "Portal Operadoras:Â [Acesse o site](https://www2.ans.gov.br/ans-idp/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311833,
+            "tipo": "web",
+            "descricao": "SEI:Â [Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241499,
+      "titulo": "Solicitar certidão",
+      "descricao": "Enviar documentação necessária à formalização da solicitação de certidão.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318054,
+            "nome": "Formulário de Solicitação de Certidão;"
+          },
+          {
+            "id": 318055,
+            "nome": "Documento legal de identificação;"
+          },
+          {
+            "id": 318056,
+            "nome": "Procuração, se for o caso;"
+          },
+          {
+            "id": 318057,
+            "nome": "Cópia de ato constitutivo atualizado, quando for o caso, podendo ser utilizado em substituição às informações contidas no Sistema de Cadastro das Operadoras - CADOP."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311834,
+            "tipo": "web",
+            "descricao": "Portal Operadoras:Â [Acesse o site](https://www2.ans.gov.br/ans-idp/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311835,
+            "tipo": "web",
+            "descricao": "SEI:Â [Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241500,
+      "titulo": "Receber a certidão",
+      "descricao": "A unidade organizacional que emitir a certidão entrará em contato com o solicitante informando como será o envio da certidão.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 311836,
+            "tipo": "web",
+            "descricao": "Portal Operadoras:Â [Acesse o site](https://www2.ans.gov.br/ans-idp/).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 311837,
+            "tipo": "web",
+            "descricao": "SEI:Â [Acesse o site](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "15",
+  "percentualAvaliacoesPositivas": "15",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certidao-emitida-pela-ANS",
+  "statusDestaque": false
+}

@@ -1,0 +1,552 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2593",
+  "nome": "Obter validação de Certificado de Tipo de aeronave, motor ou hélice estrangeiro",
+  "sigla": "VTC",
+  "descricao": "É o processo pelo qual a ANAC aprova um projeto estrangeiro de aeronave, motor ou hélice, via solicitação do detentor do Certificado de Tipo (CT) estrangeiro, com o objetivo de avaliar o cumprimento com os requisitos brasileiros de aeronavegabilidade e de proteção ambiental. Inclui também adendos ao Certificado de Tipo para inclusão de novos modelos.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Validação de Certificado de Tipo ou adendo",
+        "id": 87480
+      },
+      {
+        "item": "Validação de aeronave, motor ou hélice",
+        "id": 87481
+      },
+      {
+        "item": "Validated Type Certificate",
+        "id": 87482
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74998,
+        "tipo": "Detentor de Certificado de Tipo estrangeiro",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "15",
+      "unidade": "meses"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 15
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A validação de um projeto estrangeiro tem sua duração variável (de 6 a 24 meses), dependendo da existência, ou não, e dos termos dos Protocolos de Implementação dos Acordos Bilaterais de Reconhecimento e das semelhanças entre os procedimentos de certificação brasileiros e os da Autoridade do Estado de Projeto."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121471
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Projeto",
+        "id": 294942
+      },
+      {
+        "item": "Certificação",
+        "id": 294943
+      },
+      {
+        "item": "ANAC",
+        "id": 294944
+      },
+      {
+        "item": "Validação",
+        "id": 294945
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 21 - Certificação de Produto Aeronáutico](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21);",
+        "id": 100486
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade; \n     + Respeito; \n     + Acessibilidade; \n     + Cortesia; \n     + Presunção da boa-fé do usuário; \n     + Igualdade; \n     + Eficiência; \n     + Segurança; e \n     + Ética.",
+  "etapas": [
+    {
+      "id": 169637,
+      "titulo": "Requerer validação de certificado de tipo",
+      "descricao": "Submeter requerimento de validação de Certificado de Tipo (Formulário 101-11 ou carta com informações) e encaminhar à ANAC por intermédio da autoridade do Estado de Projeto. Apresentar documentação técnica que permita o conhecimento das características do projeto a ser validado e indicar formas de contato.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236046,
+            "nome": "Formulário de [Requerimento F-101-11](http://sistemas.anac.gov.br/certificacao/Form/FormE.asp) (Application for Certification Works) ou carta com as informações."
+          },
+          {
+            "id": 236047,
+            "nome": "Dados e descrição de projeto em aderência com o bilateral aplicável, tais como \"Compliance Check Lists\", manuais aprovados, especificações de tipo, listas mestras de desenhos, base de certificação da autoridade estrangeira com texto de condições especiais, níveis equivalentes de segurança e isenções de requisitos de aeronavegabilidade, ruído e emissões. Dados e descrição de projeto."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222547,
+            "tipo": "web",
+            "descricao": "O pedido pode ser encaminhado via Peticionamento Eletrônico.  \n  \nNo protocolo eletrônico o solicitante deverá escolher a opção: Certificação de Produto: Validação no Brasil de Certificado de Tipo Estrangeiro.\n\n   \nVeja vídeo explicativo [aqui](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169638,
+      "titulo": "Receber ofício de deferimento e pagar a taxa (TFAC)",
+      "descricao": "O Requerente receberá um ofício da ANAC com as primeiras orientações sobre o processo de validação, tais como informação do número do projeto, a definição do valor e código da TFAC com as orientações para recolhimento, o contato do gerente de projeto de certificação (GPC) designado e o tipo de validação requerida. Após recolher a TFAC, o requerente deverá enviar o comprovante de pagamento para ANAC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236048,
+            "nome": "Comprovante de pagamento da TFAC"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 28152,
+            "descricao": "Custo varia entre R$ 0,00 e",
+            "moeda": "R$",
+            "valor": " 450.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 37619,
+            "descricao": "Validação de Certificado de Aeronave não tripulada com PMD até 150 kgf,",
+            "custo": [
+              {
+                "id": 28138,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011801",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37620,
+            "descricao": "Validação de Certificado de Hélice; Motor elétrico; Planador; Balão; Dirigível",
+            "custo": [
+              {
+                "id": 28139,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011801",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37621,
+            "descricao": "Validação de Certificado de Motor alternativo à combustão interna",
+            "custo": [
+              {
+                "id": 28140,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011801",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37622,
+            "descricao": "Validação de adendo ao Certificado de Aeronave não tripulada com PMD até 150 kgf",
+            "custo": [
+              {
+                "id": 28141,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011801",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37623,
+            "descricao": "Validação de adendo ao Certificado de Hélice; Motor elétrico; Planador; Balão; Dirigível",
+            "custo": [
+              {
+                "id": 28142,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011801",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37624,
+            "descricao": "Validação de adendo ao Certificado de Motor alternativo à combustão interna",
+            "custo": [
+              {
+                "id": 28143,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011801",
+                "moeda": "R$",
+                "valor": " 1.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37625,
+            "descricao": "Validação de Certificado de: Avião com PMD até 2.722 kgf",
+            "custo": [
+              {
+                "id": 28144,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011802",
+                "moeda": "R$",
+                "valor": " 20.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37626,
+            "descricao": "Validação de Certificado de Aeronave não tripulada com PMD acima de 150 kgf",
+            "custo": [
+              {
+                "id": 28145,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011802",
+                "moeda": "R$",
+                "valor": " 20.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37627,
+            "descricao": "Validação de Certificado de Motor a turbina à combustão interna; Helicópteros com PMD até 2.730 kgf",
+            "custo": [
+              {
+                "id": 28146,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011802",
+                "moeda": "R$",
+                "valor": " 20.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37628,
+            "descricao": "Validação de adendo ao Certificado de: Avião com PMD até 8.620 kgf; Aeronave não tripulada com PMD acima de 150 kgf",
+            "custo": [
+              {
+                "id": 28147,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011802",
+                "moeda": "R$",
+                "valor": " 20.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37629,
+            "descricao": "Validação de adendo ao Certificado de Motor a turbina à combustão interna; Helicópteros com PMD até 2.730 kgf",
+            "custo": [
+              {
+                "id": 28148,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011802",
+                "moeda": "R$",
+                "valor": " 20.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37630,
+            "descricao": "Validação de Certificado de: Aviões com PMD entre 2.723 e 8.620 kgf; Helicópteros com PMD acima de 2.730 kgf",
+            "custo": [
+              {
+                "id": 28149,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011803",
+                "moeda": "R$",
+                "valor": " 100.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37631,
+            "descricao": "Validação de adendo ao Certificado de: Aviões com PMD acima de 8.620 kgf; ou Helicópteros com PMD acima de 2.730 kgf",
+            "custo": [
+              {
+                "id": 28150,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011803",
+                "moeda": "R$",
+                "valor": " 100.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 37632,
+            "descricao": "Validação de Certificado de Tipo estrangeiro (Type Certificate ou equivalente) de Aviões com PMD acima de 8.620 kgf",
+            "custo": [
+              {
+                "id": 28151,
+                "descricao": "Taxa de Fiscalização da Aviação Civil - TFAC Cód. 011804",
+                "moeda": "R$",
+                "valor": " 450.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222549,
+            "tipo": "e-mail",
+            "descricao": "O Requerente será informado por ofício enviado por e-mail através do sistema SEI.\n\n Após, o requerente deve enviar o comprovante de recolhimento da TFAC para os seguintes e-mails:\n\n  * [progcert@anac.gov.br](mailto:progcert@anac.gov.br)\n * [tfac@anac.gov.br](mailto:tfac@anac.gov.br)\n * e do GPC ANAC designado para contato.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": [
+          {
+            "id": 37633,
+            "descricao": "Para pagamento da TFAC",
+            "canalDePrestacao": [
+              {
+                "id": 222548,
+                "tipo": "web",
+                "descricao": "Para gerar a Guia de Recolhimento da UniÃ£o - GRU, clique [aqui.](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=RedirecionarPaginaServicoBean)",
+                "procedimentoSistemaIndisponivel": "",
+                "tempoEstimadoPeriodo": null,
+                "tempoEstimadoEspera": null,
+                "tempoEstimadoPeriodoService": null
+              }
+            ]
+          }
+        ]
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169639,
+      "titulo": "Apresentar as informações e documentos requeridos e viabilizar visita técnica",
+      "descricao": "Apresentar informações em reuniões ou comunicações com a ANAC. Por exemplo: relatórios de descrição dos sistemas, de análises, de propostas de ensaios, de resultados dos ensaios ou inspeções; declarações; manuais; posições técnicas, etc. Essa etapa é interativa com a ANAC e a autoridade estrangeira, até que tenham sido apresentadas todas as informações de forma satisfatória. Quando for aplicável, pode ser requerida familiarização, visita técnica ou ensaios in loco, a ser coordenado com a ANAC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236049,
+            "nome": "Relatórios de descrição dos sistemas, de análises, de propostas de ensaios, de resultados dos ensaios ou inspeções ou auditorias, desenhos, declarações, manuais, \"issue papers\", etc."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222550,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 222551,
+            "tipo": "e-mail",
+            "descricao": "Na forma eletrônica combinada com a ANAC discutida no planejamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "12",
+          "unidade": "meses"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 12
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169640,
+      "titulo": "Submeter declaração de cumprimento com requisitos e receber o certificado de validação",
+      "descricao": "A requerente e a autoridade estrangeira atestam o cumprimento com requisitos aplicáveis e, após conclusão da avaliação da ANAC, o requerente fará jus ao Certificado de Tipo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236050,
+            "nome": "Declaração de Cumprimento de Requisitos emitido pela autoridade do estado de projeto (Statement of Compliance)."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222552,
+            "tipo": "web",
+            "descricao": "[Protocolo EletrÃ´nico](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 222553,
+            "tipo": "e-mail",
+            "descricao": "Na forma eletrônica combinada com a ANAC discutida no planejamento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "450",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/validar-projeto-aeronautico-certificado-no-exterior",
+  "statusDestaque": false
+}

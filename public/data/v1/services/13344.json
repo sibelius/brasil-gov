@@ -1,0 +1,220 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13344",
+  "nome": "Obter Segunda via de Diplomas de Pós-Graduação (Mestrados e Doutorados)",
+  "sigla": "UFES",
+  "descricao": "Segunda via de diploma de pós-graduação (mestrado e/ou doutorado)",
+  "flagPortalLogado": "N",
+  "contato": "Contatos da PRPPG: https://prppg.ufes.br/fale-conosco",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://prppg.ufes.br/solicitacao-de-emissao-de-2a-de-diplomas",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "2ª VIA de Diplomas de Pós-Graduação",
+        "id": 67861
+      },
+      {
+        "item": "diploma de doutorado",
+        "id": 67862
+      },
+      {
+        "item": "diploma de mestrado",
+        "id": 67863
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 60602,
+        "tipo": "Egressos formados de Cursos de Pós-Graduação (mestrado e doutorado) oferecidos pela UFES.",
+        "requisitos": "* Ter formado em Curso de Pós-Graduação (mestrado e doutorado) oferecido pela UFES;\n * Ter obtido a Primeira Via do Diploma;"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425",
+    "dbId": 57779,
+    "nomeOrgao": "Universidade Federal do Espírito Santo (UFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 95252
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 95253
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Solicitação de Emissão de segunda via de Dipl",
+        "id": 232612
+      },
+      {
+        "item": "Mestrado",
+        "id": 232613
+      },
+      {
+        "item": "Doutorado ",
+        "id": 232614
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 76876
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 134769,
+      "titulo": "Solicitar segunda via de Diploma de Pós-Graduação - Mestrado e Doutorado",
+      "descricao": "Se você deseja solicitar uma segunda via de Diploma de Pós-Graduação (Mestrado e Doutorado), deve seguir as etapas descritas nesta página.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 191049,
+            "nome": "Requerimento de segunda via junto ao programa de pós-graduação (PPG) na Ufes; Comprovante de pagamento da taxa de segunda via (GRU); Cópia certidão de nascimento ou casamento; Cópia de documento oficial de identificação com foto."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 21530,
+            "descricao": "Pagamento de Taxa (GRU)",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Valor: R$ 110,56 para mestrado e R$ 138,20 para doutorado (Resolução 29/2018 CUn / UFES).",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174484,
+            "tipo": "web",
+            "descricao": "Acessar site da PRPPG:Â [Acesse o site](https://prppg.ufes.br/solicitacao-de-emissao-de-2a-de-diplomas)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 134770,
+      "titulo": "Realizar pagamento de Taxa (GRU)",
+      "descricao": "**- Preencha os campos com os seguintes dados:  \n**(UG): 153046  \nGestão: 15225  \nUnidade: UFES  \nRecolhimento: 28927-2 (Taxa diplomas).\n\n **- Clique em AVANÇAR**  \n  \nnº Referência: 15350200250000016  \nCNPJ ou CPF: somente números  \nNome do Contribuinte: seu nome  \nValor Principal: R$ 110,56,00 (mestrado); R$ 138,20 (doutorado).  \nValor Total: Repetir valor principal.  \n  \n**- Emitir GRU;  \n****- Realizar pagamento.  \n****- Após pagamento, contatar PPG na Ufes.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 174485,
+            "tipo": "web",
+            "descricao": "Página do Tesouro Nacional: [Acesse o site](https://consulta.tesouro.fazenda.gov.br/gru_novosite/gru_simples.asp)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/obter-segunda-via-de-diplomas-de-pos-graduacao-mestrados-e-doutorados-ufes",
+  "statusDestaque": true
+}

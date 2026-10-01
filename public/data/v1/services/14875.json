@@ -1,0 +1,242 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/14875",
+  "nome": "Solicitar Cópia de Prontuário do Hospital Universitário de Santa Maria - Husm-UFSM",
+  "sigla": "",
+  "descricao": "O prontuário do paciente é um documento legal que todo paciente precisa ter para ser atendido. Neste documento consta o histórico de atendimento do paciente no hospital (consultas, exames, cirurgias, etc). A cópia do prontuário, integral ou parcial, pode ser fornecida aos pacientes mediante solicitação junto ao serviço de Cópia de Prontuário.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: (55) 3213 1765",
+  "gratuito": "false",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/governanca/superintendencia/setor-de-contratualizacao-e-regulacao/diretrizes-de-regulacao-assistencial/gestao-de-arquivo-e-documentacao-clinica/view",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 100087
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 84748,
+        "tipo": "**Pacientes do HUSM**",
+        "requisitos": "Documento oficial com foto"
+      },
+      {
+        "id": 84749,
+        "tipo": "**Terceiro**\n\n  * Procuração do paciente com autorização específica para a entrega de documentos de seu prontuário, bem como a identificação do terceiro que pode obter as cópias; *(A autenticação do documento é realizada no próprio guichê de atendimento, não é necessário levar em cartório)*\n * cópia do documento de identidade do paciente;\n * cópia do documento de identidade do solicitante.",
+        "requisitos": ""
+      },
+      {
+        "id": 84750,
+        "tipo": "**Sucessor de paciente falecido**\n\n Para cópias de pacientes falecidos, a solicitação deverá atender a ordem legítima de sucessão:\n\n 1) Cônjuge/companheiro;\n\n 2) Filhos, netos e bisnetos (descendentes);\n\n 3) Pais, avós e bisavós (ascendentes);\n\n 4) Irmãos (colaterais de segundo grau);\n\n 5) Sobrinhos/tios (colaterais de terceiro grau);\n\n 6) Sobrinhos-netos / tios-avós / primos (colaterais de quarto grau).",
+        "requisitos": "*Deverão ser apresentados os documentos de comprovação do vínculo familiar e certidão de óbito do paciente.*"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201459",
+    "dbId": 32675,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário de Santa Maria (EBSERH-UFSM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 139402
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Registros e Certificações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Prontuário;",
+        "id": 336107
+      },
+      {
+        "item": "Saúde;",
+        "id": 336108
+      },
+      {
+        "item": "Registros.",
+        "id": 336109
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 116629
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 194699,
+      "titulo": "Retirar senha para atendimento",
+      "descricao": "Paciente/solicitante comparece no guichê das senhas, de segunda a sexta-feira, das 07h às 16:30h, retira uma senha para Portaria Central. Paciente aguarda ser chamado no painel eletrônico. Após ser chamado irá informar ao atendente que necessita ir até o Serviço de Arquivo. O atendente irá fornecer identificação, para que o paciente possa entrar no hospital e se dirigir ao serviço.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 32767,
+            "descricao": "Os atendimentos realizados no Husm-UFSM são 100% pelo SUS.",
+            "moeda": "R$",
+            "valor": " 0,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254387,
+            "tipo": "presencial",
+            "descricao": "Local: Av. Roraima nº 1000, Prédio 22, Campus\n\n Bairro: Camobi\n\n Santa Maria - RS\n\n CEP: 97105-900\n\n De segunda a sexta-feira: 07h às 19h\n\n Telefone: (55) 3213 1765",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194700,
+      "titulo": "Realizar solicitação de cópia de prontuário",
+      "descricao": "Paciente/Solicitante se dirige ao Serviço, formaliza o pedido de cópia de prontuário em formulário específico, após comprovação de identidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254388,
+            "tipo": "presencial",
+            "descricao": "Local: Av. Roraima nº 1000, Prédio 22, Campus\n\n Bairro: Camobi\n\n Santa Maria - RS\n\n CEP: 97105-900\n\n De segunda a sexta-feira: 07h às 19h\n\n Telefone: (55) 3213 1765",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 194701,
+      "titulo": "Retirar cópia de prontuário",
+      "descricao": "Após solicitar a cópia do prontuário, solicitante pode se dirigir ao setor de Cópia de Prontuário para retirar o documento no prazo de 5 dias úteis.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 254389,
+            "tipo": "presencial",
+            "descricao": "Local: Av. Roraima nº 1000, Prédio 22, Campus\n\n Bairro: Camobi\n\n Santa Maria - RS\n\n CEP: 97105-900\n\n De segunda a sexta-feira: 07h às 19h\n\n Telefone: (55) 3213 1765",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-copia-de-prontuario-do-complexo-hospital-universitario-de-santa-maria-husm",
+  "statusDestaque": false
+}

@@ -1,0 +1,212 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11637",
+  "nome": "Obter declaração da Antaq para fins de credenciamento, validação ou outros atestados",
+  "sigla": "",
+  "descricao": "*Emissão de declaração de adimplência junto à Agência Nacional de Transportes Aquaviários (ANTAQ)*",
+  "flagPortalLogado": "N",
+  "contato": "Contatos: *[gof@antaq.gov.br](mailto:gof@antaq.gov.br),* (61) 2029-6905, (61) 2029-6910",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Declaração de Adimplência",
+        "id": 101252
+      },
+      {
+        "item": "Certidão Negativa de Débitos",
+        "id": 101253
+      },
+      {
+        "item": "Declaração Negativa de Débitos",
+        "id": 101254
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85747,
+        "tipo": "*Qualquer pessoa física e pessoa jurídica*",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "3",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 3
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 141184
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141185
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 141186
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Declaração de Adimplência",
+        "id": 340342
+      },
+      {
+        "item": "Certidão Negativa de Débitos",
+        "id": 340343
+      },
+      {
+        "item": "Declaração Negativa de Débitos",
+        "id": 340344
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118175
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460/17](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048](https://www.planalto.gov.br/ccivil_03/LEIS/L10048.htm \"Lei nº 10.048\"), de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460/17](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460/17\"), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 197257,
+      "titulo": "Solicitar declaração de adimplência",
+      "descricao": "Solicitar a emissão de declaração de adimplência à Gerência de Orçamento e Finanças via peticionamento eletrônico com nomes e CNPJ/CPF da entidade e das pessoas jurídicas, direta ou indiretamente, controladoras, controladas, coligadas, ou de controlador comum, para as quais serão emitidas as declarações, nos termos do art. 62 da [Lei nº 12.815/2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12815.htm \"Lei nº 12.815/2013\").",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257341,
+            "tipo": "web",
+            "descricao": "Acessar como usuário externo o SEI através do link [Acesse o site](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) e solicitar a declaração de adimplência.*  \n*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197258,
+      "titulo": "Analisar e emitir Declaração",
+      "descricao": "A área técnica consulta a existência ou não de débitos do CNPJ, emite e envia a Declaração via peticionamento eletrônico.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257342,
+            "tipo": "web",
+            "descricao": "Consulta a existência ou não de débitos do CNPJ, emite e envia a Declaração via peticionamento eletrônico.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "3",
+  "percentualAvaliacoesPositivas": "14",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-declaracao-da-antaq-para-fins-de-credenciamento-validacao-ou-outros-atestados",
+  "statusDestaque": false
+}

@@ -1,0 +1,209 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8953",
+  "nome": "Realizar consulta ambulatorial em genética médica - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "A Consulta em Genética Médica consiste em avaliar, entrevistar e diagnosticar bebês e seus familiares com anomalias congênitas ou adquiridas, oferecer tratamento (caso haja), esclarecimentos à família sobre a doença bem como orientar sobre terapias de apoio e aconselhamento genético.",
+  "flagPortalLogado": "N",
+  "contato": "**Endereço: **Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nEndereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro, RJ\n\n **Telefone:** (21) 2554-1709\n\n **E-mail:** [genetica@iff.fiocruz.br](mailto:genetica@iff.fiocruz.br)\n\n **Site: **<http://www.iff.fiocruz.br>\n\n **Horário de atendimento:** de segunda à sexta-feira, de 8h às 17h (o serviço não funciona aos sábados, domingos e feriados).",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 32649
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32049,
+        "tipo": "* **Cidadãos**",
+        "requisitos": "O agendamento deve será realizado via Sistema de Regulação (SISREG), após consulta e encaminhamento da rede de atenção primária do Sistema Único de Saúde (SUS).  O atendimento será realizado por ordem de chegada no dia marcado pelo Sistema de Regulação (SISREG)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 51245
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Genética IFF",
+        "id": 115095
+      },
+      {
+        "item": "Doenças raras",
+        "id": 115096
+      },
+      {
+        "item": "Tratamento de doenças raras",
+        "id": 115097
+      },
+      {
+        "item": "Anomalias congênitas",
+        "id": 115098
+      },
+      {
+        "item": "Anomalias adquiridas",
+        "id": 115099
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33295
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 15
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Terão prioridade no atendimento os pacientes que apresentarem genitália ambígua, recém nascido com suspeita de erro inato do metabolismo, osteogênese imperfeita ou patologia genética crítica à saúde do bebê.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 67032,
+      "titulo": "Realizar procedimentos  de identificação",
+      "descricao": "Na recepção do IFF apresentar documento de identificação pessoal. No Arquivo Médico identificar-se para abertura do prontuário e geração do Cartão de Identificação do IFF. Na recepção do Ambulatório de Genética entregar o Cartão de Identificação do IFF e a Guia de Encaminhamento do Sisreg para registro na Agenda Eletrônica e efetivação no Sistema de Regulação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 95620,
+            "nome": "Guia de Encaminhamento do Sistema de Regulação - Sisreg"
+          },
+          {
+            "id": 95621,
+            "nome": "Carteira de Identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86213,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na recepção de entrada do IFF, no Arquivo Médico e na recepção do Ambulatório de Genética.\n\n Endereço: Instituto Nacional de Saúde da Mulher, Criança e Adolescente Fernandes Figueira - IFF  \nEndereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 67033,
+      "titulo": "Realizar consulta em genética médica",
+      "descricao": "Esta etapa consiste em entrevista, exame físico e avaliação de exames, se existirem. A depender do diagnóstico, o paciente poderá ser orientado a realizar algum tipo de tratamento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 95622,
+            "nome": "Exames"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86214,
+            "tipo": "presencial",
+            "descricao": "Esta etapa é realizada na sala de consulta do Ambulatório de Genética.\n\n Endereço: Avenida Rui Barbosa 716 - Flamengo  \nCEP: 22250-020 - Rio de Janeiro, RJ",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "56",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-ambulatorial-em-genetica-medica",
+  "statusDestaque": false
+}

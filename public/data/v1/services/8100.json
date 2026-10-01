@@ -1,0 +1,151 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8100",
+  "nome": "Solicitar cadastramento como usuário dependente",
+  "sigla": "",
+  "descricao": "De acordo com o Regulamento dos Usuários dos Serviços de Transporte Ferroviário de Cargas – REDUF (Resolução ANTT nº 3.694/2011), o registro de Usuário Dependente poderá ser concedido ao usuário que considere a prestação do serviço de transporte ferroviário de cargas indispensável à viabilidade de seu negócio.",
+  "flagPortalLogado": "N",
+  "contato": "",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0#",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 66673
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 59798,
+        "tipo": "Usuários do transporte ferroviário de cargas.",
+        "requisitos": "Apresentação de documentação específica: Declaração de Dependência (modelo disponível no Portal da ANTT) e Contrato de Transporte formalizado com a concessionária ferroviária, caso o possua. A prestação do serviço é isenta do pagamento de taxas."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 93688
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Transportes de cargas",
+        "id": 228944
+      },
+      {
+        "item": "Transportes",
+        "id": 228945
+      },
+      {
+        "item": "Mobilidade",
+        "id": 228946
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Regulamento dos Usuários dos Serviços de Transporte Ferroviário de Cargas – REDUF (Resolução ANTT nº 3.694/2011)",
+        "id": 75263
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 21,
+    "negativas": 78
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 132753,
+      "titulo": "Apresentação da Declaração de Dependência, pelo requerente;",
+      "descricao": "2. Apresentação da Declaração de Dependência,pelo requerente;\n  \n4. Caso o requerente ainda não tenha formalizado o Contrato de Transporte com a concessionária, a ANTT poderá emitir Ato Declaratório, com validade de 180 dias, habilitando-o a negociar junto à concessionária;\n  \n6. Apresentação do Contrato de Transporte formalizado entre o requerente e a concessionária; e\n  \n8. Expedição pela ANTT do título que confere o Registro de Usuário Dependente, por meio de ato normativo.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 185379,
+            "nome": "• Declaração de Dependência do transporte ferroviário (modelo disponível no Portal da ANTT); e\n\n  \n• Contrato de Transporte formalizado com a concessionária ferroviária."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 171556,
+            "tipo": "web-preencher",
+            "descricao": "**[ Preencher](https://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "21",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-cadastramento-como-usuario-dependente",
+  "statusDestaque": false
+}

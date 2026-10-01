@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11495",
+  "nome": "Solicitar Pensão Alimentícia - UFES",
+  "sigla": "",
+  "descricao": "Importância  descontada,  mensalmente,  do  servidor  (a)  em  decorrência  de  decisão judicial e depositada na conta dos beneficiários.\n\n **Informações gerais**  \n1.  Os beneficiários da pensão alimentícia são determinados na sentença judicial da ação de prestação de alimentos ou outras afins.  \n2.  A fórmula de cálculo da pensão alimentícia é determinada na sentença judicial.",
+  "flagPortalLogado": "N",
+  "contato": "Servidores que trabalham na Seção de Pagamentos e Descontos (SPD/CARP/DGP/Progep)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://progep.ufes.br/manual-de-procedimentos",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Pensão Alimentícia",
+        "id": 88140
+      },
+      {
+        "item": "Pensão",
+        "id": 88141
+      },
+      {
+        "item": "Benefício",
+        "id": 88142
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75504,
+        "tipo": "Familiar ou ex familiar de servidor que tenha a decisão judicial para o pagamento da Pensão Alimentícia.",
+        "requisitos": "Decisão judicial favorável ao pagamento da Pensão Alimentícia."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425",
+    "dbId": 57779,
+    "nomeOrgao": "Universidade Federal do Espírito Santo (UFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122302
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Benefício",
+        "id": 297055
+      },
+      {
+        "item": "Pensão Alimentícia",
+        "id": 297056
+      },
+      {
+        "item": "Pensão",
+        "id": 297057
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "1.  Arts. 1.694 a 1.710 do Código Civil.  \n2.  Lei n° 5.478, de 25/07/68 (DOU 26/07/68).  \n3.  Arts. 45 e 48 da Lei n° 8.112/90.  \n4.  Art. 1° da Lei n° 8.971/94.  \n5.  Instrução  Normativa  n°  15/2001,  MF/SRF,  de  06/02/2001  (DOU 08/02/2001).",
+        "id": 101126
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 83,
+    "negativas": 168
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 171010,
+      "titulo": "Solicitação",
+      "descricao": "**Tipo Documental: **Processo Digital\n\n **Seleção de assunto no sistema de protocolo:**  \nAssunto nível 1  \nADMINISTRAÇÃO GERAL  \nAssunto nível 2  \nPessoal  \nAssunto nível 3  \nDireitos, obrigações e vantagens  \nAssunto nível 4  \nFolha de pagamento. Fichas financeiras  \nAssunto nível 5  \nDescontos  \nAssunto nível 6  \nPensões alimentícias",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 237411,
+            "nome": "Ofício do Juiz da Vara de Família onde conste o nome, RG, CPF e comprovante de residência  do  (a)  beneficiário  (a),  bem  como  a  conta/agência  e  o  banco  para depósito e a decisão judicial estipulando a base de cálculo da pensão alimentícia."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 224245,
+            "tipo": "presencial",
+            "descricao": "Seção de Pagamentos e Descontos (SPD/CARP/DGP/Progep)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 224246,
+            "tipo": "e-mail",
+            "descricao": "[spd.dgp.progep@ufes.br](mailto:spd.dgp.progep@ufes.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 224247,
+            "tipo": "telefone",
+            "descricao": "(27) 4009-2269",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-pensao-alimenticia",
+  "statusDestaque": false
+}

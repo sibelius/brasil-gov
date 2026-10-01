@@ -1,0 +1,208 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12480",
+  "nome": "Obter 2ª via de diploma de pós-graduação - UFJF",
+  "sigla": "",
+  "descricao": "Consiste na emissão de 2ª via de diploma de pós-graduação stricto sensu (mestrado e doutorado)  ou de certificado de pós-graduação lato sensu (especialização ou aperfeiçoamento), ao final do qual o solicitante receberá referido documento, em papel.",
+  "flagPortalLogado": "N",
+  "contato": "cdara@ufjf.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www2.ufjf.br/cdara/graduacao/servicos/orientacoes-sobre-pagamento-de-taxas/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "confecção de diploma",
+        "id": 32427
+      },
+      {
+        "item": "2ª via",
+        "id": 32428
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 31775,
+        "tipo": "Alunos e alunas que concluíram cursos de Pós-Graduação (Lato e Stricto Sensu) na UFJF",
+        "requisitos": "Ter concluído o curso de Pós-Graduação Stricto ou Lato Sensu, na UFJF"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/424",
+    "dbId": 57769,
+    "nomeOrgao": "Universidade Federal de Juiz de Fora (UFJF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 50853
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "2ª via",
+        "id": 114330
+      },
+      {
+        "item": "Diploma",
+        "id": 114331
+      },
+      {
+        "item": "Certificado",
+        "id": 114332
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "https://www.semesp.org.br/legislacao/resolucao-cneces-no-7-de-11-de-dezembro-de-2017/\n\n http://portal.mec.gov.br/index.php?option=com\\_docman&view=download&alias=85591-rces001-18&category\\_slug=abril-2018-pdf&Itemid=30192",
+        "id": 33105
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 66541,
+      "titulo": "Emitir e Pagar GRU",
+      "descricao": "Emitir GRU de acordo com o disposto no site e pagar a guia.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 10036,
+            "descricao": "Taxa definida pelo CDARA",
+            "moeda": "R$",
+            "valor": " 115,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85583,
+            "tipo": "web",
+            "descricao": "[Emitir GRU](https://www2.ufjf.br/cdara/graduacao/servicos/orientacoes-sobre-pagamento-de-taxas/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 66542,
+      "titulo": "Solicitar 2ª via do diploma/certificado",
+      "descricao": "Preencher formulário para solicitar 2ª via do diploma/certificado.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 95296,
+            "nome": "Comprovante de pagamento da taxa."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 85584,
+            "tipo": "web-preencher",
+            "descricao": "[Formulário de solicitação](https://www2.ufjf.br/cat/formularios/segunda-via-de-diploma-de-graduacao/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/obter-2a-via-de-diploma-de-pos-graduacao-ufjf",
+  "statusDestaque": false
+}

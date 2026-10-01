@@ -1,0 +1,232 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13778",
+  "nome": "Obter acesso à informação do IFAP",
+  "sigla": "SIC",
+  "descricao": "É o espaço destinado a receber os pedidos de acesso à informações relativas ao IFAP. A Lei de Acesso à Informação, Lei 12.527, de 18 de novembro de 2011, também conhecida como LAI estabelece que os órgãos públicos devem divulgar as informações de interesse coletivo de forma espontânea e proativa. As informações institucionais do IFAP estão disponíveis no endereço eletrônico: [Serviço de Informação ao Cidadão - SIC](https://ifap.edu.br/index.php/servico-informacao-cidadao)",
+  "flagPortalLogado": "N",
+  "contato": "via e-mail com sic@ifap.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://falabr.cgu.gov.br/web/home",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88490
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75797,
+        "tipo": "Cidadão",
+        "requisitos": "Estar cadastrado na plataforma <https://falabr.cgu.gov.br/>"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/94428",
+    "dbId": 36751,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Amapá (IFAP)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 122788
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Informação",
+        "id": 298233
+      },
+      {
+        "item": "Serviços",
+        "id": 298234
+      },
+      {
+        "item": "Cidadão",
+        "id": 298235
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 101560
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 171690,
+      "titulo": "Cadastre-se",
+      "descricao": "Para solicitar informação on-line é necessário realizar cadastro na  plataforma <https://falabr.cgu.gov.br/>",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225265,
+            "tipo": "web",
+            "descricao": "<https://falabr.cgu.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171691,
+      "titulo": "Fazer um pedido de acesso à informação",
+      "descricao": "Após realizar cadastro o cidadão poderá realizar serviço clicando na opção “Acesso a Informação - LAI”, em seguida preencha o formulário e clique na opção “Avançar” na parte inferior da página, depois clique em “Concluir”.\n\n Para acompanhamento do serviço o cidadão poderá acessar a plataforma <https://falabr.cgu.gov.br/>, e clicar em “Ouvidoria” na parte superior da página, em seguida na opção “Minhas Manifestações”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225266,
+            "tipo": "web",
+            "descricao": "<https://falabr.cgu.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 171692,
+      "titulo": "Realizar acompanhamento do serviço",
+      "descricao": "Para acompanhamento do serviço o cidadão poderá acessar a plataforma <https://falabr.cgu.gov.br/>, e clicar em “Ouvidoria” na parte superior da página, em seguida na opção “Minhas Manifestações”.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225267,
+            "tipo": "web",
+            "descricao": "<https://falabr.cgu.gov.br/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/Obter-acesso-a-informacao-do-ifap-sic",
+  "statusDestaque": false
+}

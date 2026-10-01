@@ -1,0 +1,270 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12882",
+  "nome": "Obter números dos meus processos na ANS",
+  "sigla": "",
+  "descricao": "Este serviço informa o número de todos os processos administrativos na Agência Nacional de Saúde Suplementar (ANS) registrados em seu nome ou de quem represente. A lista será gerada a partir dos sistemas da ANS.\n\n **Não inclui** as informações do **conteúdo dos processos. Somente a relação dos números.**\n\n **Atenção:** Caso possua os números dos processos ou após obtê-los, utilize o serviço [\"Obter vista e cópia de processos administrativos em posse da ANS\"](https://www.gov.br/pt-br/servicos/obter-vistas-e-copias-de-processos-administrativos-em-posse-da-ans \"Obter vista e cópia de processos administrativos em posse da ANS\").",
+  "flagPortalLogado": "N",
+  "contato": "Entre em contato com a ANS pelo e-mail sei@ans.gov.br.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Lista de processos",
+        "id": 121454
+      },
+      {
+        "item": "Relação de processos",
+        "id": 121455
+      },
+      {
+        "item": "Obter relatório de processos",
+        "id": 121456
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 101572,
+        "tipo": "* Qualquer cidadão ou seu representante legal;\n * Prestadores de serviços de saúde (ex.: hospitais, clínicas, laboratórios, profissionais de saúde); e\n * Empresas que têm contrato ou precisam se relacionar com a ANS\n   \n\n **Atenção:** \n\n 1. Caso não tenha acesso ao SEI Externo, faça seu cadastro como Usuário Externo do SEI. Veja como fazer em Etapas do serviço.\n\n 2. As operadoras de planos de saúde devem utilizar o canal exclusivo \"Portal Operadoras\" em: <https://www2.ans.gov.br/ans-idp/>",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A relação vem com o número dos processos existentes na data de emissão. Portanto, é válido até que sejam abertos novos processos."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 169210
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 169211
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 169212
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 169213
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Lista de processos ",
+        "id": 403808
+      },
+      {
+        "item": "Relação de processos",
+        "id": 403809
+      },
+      {
+        "item": "Certidão",
+        "id": 403810
+      },
+      {
+        "item": "Relatório de processos",
+        "id": 403811
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RN 534/2022.](https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDIyOA== \"RN 534/2022\")",
+        "id": 145118
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 58,
+    "negativas": 107
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei nº 13.460, de 26 de junho de 2017\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048/2000.](https://www.planalto.gov.br/ccivil_03/LEIS/L10048.htm \"Lei nº 10.048, de 8 de novembro de 2000\")",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 236812,
+      "titulo": "Realizar cadastro prévio no Sistema Eletrônico de Informações - SEI",
+      "descricao": "Se você já tem cadastro no SEI, vá direto para a Etapa 2.\n\n   \n Entre no [SEI](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_avisar_cadastro&id_orgao_acesso_externo=0 \"SEI\") e faça seu cadastro.  \n Leia o Termo de Concordância.  \n Clique em \"Clique aqui para continuar\", no canto inferior esquerdo da página.  \n Preencha seus dados e clique em \"Enviar\".  \n Espere o e-mail automático chegar.  \n Responda o e-mail para confirmar e aguarde a liberação do cadastro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305743,
+            "tipo": "web-inscrever-se",
+            "descricao": "[Faça seu cadastro no SEI](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_avisar_cadastro&id_orgao_acesso_externo=0 \"Faça seu cadastro no SEI\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236813,
+      "titulo": "Preencher a solicitação do relatório",
+      "descricao": "Faça *login*\n\n **Peticionamento** e **Processo Novo**\n\n Em Tipo de Processo: **Obter números dos meus processo na ANS**\n\n Especifique o pedido\n\n Marque **Pessoa Física ou Jurídica**\n\n Digite o dado e clique em** Validar** e depois** Adicionar**\n\n Em **Documento Principal**, clique: **Formulário para Obter Relatório de processo**\n\n Preencha os campos e depois **Salvar**\n\n Na página inicial, clique **Peticionar**\n\n Selecione a opção **Cidadão**\n\n **Digite sua senha** e clique em **Assinar**",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 313380,
+            "nome": "Não há."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305744,
+            "tipo": "web",
+            "descricao": "Acessar o SEI: [**Usuários Externo SEI**   \n](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 236814,
+      "titulo": "Receber o relatório de números de processos através do Protocolo Eletrônico no SEI",
+      "descricao": "Entrar no sistema SEI ANS - Acesso para usuário externo e verificar recebimento de intimação eletrônica contendo o relatório solicitado como anexo. \n\n Para maiores informações sobre como receber a intimação eletrônica, acesse: https://www.gov.br/ans/pt-br/acesso-a-informacao/institucional/ans-digital-1/usuarios-externos-1/intimacao-eletronica/intimacao-eletronica",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 313381,
+            "nome": "Não há."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 305745,
+            "tipo": "web",
+            "descricao": "[Usuários Externo SEI que não sejam Operadoras de Planos de Saúde](https://sei.ans.gov.br/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)\n\n [Portal Operadoras](https://www2.ans.gov.br/ans-idp/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "35",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-relatorio-de-processos",
+  "statusDestaque": true
+}

@@ -1,0 +1,193 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13208",
+  "nome": "Obter diploma ou segunda via de diploma de pós-graduação - UnB",
+  "sigla": "",
+  "descricao": "Através deste serviço, discentes egressos(as) da Universidade de Brasília podem requerer a emissão da segunda via de seu diploma de graduação ou certificado de pós-graduação emitidos originalmente pela Instituição.\n\n A expedição da segunda via pode ser solicitada nos casos em que, por algum motivo, o/a egresso tenha extraviado, danificado ou alterado os dados pessoais.",
+  "flagPortalLogado": "N",
+  "contato": "https://www.saa.unb.br\n\n saaatendimento@unb.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.saa.unb.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 61017
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 55503,
+        "tipo": "Egressos(as) que tenham concluído um curso de graduação ou pós-graduação na UnB.",
+        "requisitos": "Para solicitar a segunda via de diploma, o egresso da pós-graduação da UnB já deve ter retirado a primeira via. \n\n A emissão da segunda via de diploma pode ser solicitada pelo(a) egresso(a) da UnB nos seguintes casos:  \nI - extravio;  \nII - danificação do original;  \nIII - modificação de dados pessoais constantes no diploma após sua emissão;  \nIV - incorreções nos dados do diploma cometidas pela Instituição."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "10",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 10
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Validade indeterminada."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/470",
+    "dbId": 34335,
+    "nomeOrgao": "Fundação Universidade de Brasília (UNB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 87087
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma.",
+        "id": 210401
+      },
+      {
+        "item": "Pós-graduação.",
+        "id": 210402
+      },
+      {
+        "item": "Obtenção",
+        "id": 210403
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 69000
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 121543,
+      "titulo": "Obter primeira via de diploma de pós-graduação",
+      "descricao": "**No caso de primeira via**, não há necessidade de solicitação. Após a defesa da tese ou dissertação, o próprio programa de pós graduação deve enviar o processo via SEI ao Decanato de Pós Graduação para homologação do relatório. Após esta etapa, o processo segue para a SAA para os devidos registros e, só então, é enviado ao setor de diplomas que expede o diploma digital em aproximadamente 30 dias.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 155563,
+            "tipo": "web",
+            "descricao": "*Após o prazo estabelecido, o diploma fica disponível no site da UnB, link \"diploma digital\", fazendo a busca pelo CPF (alunos brasileiros) e Passaporte (alunos estrangeiros). O diploma ficará disponível no mesmo local sempre que o aluno precisar do arquivo.*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 121544,
+      "titulo": "Obter segunda via de diploma de pós-graduação",
+      "descricao": "**No caso de segunda via**, o interessado só precisa encaminhar ao email **rdgsaa@ub.br** seu documento de identificação com foto, CPF e local de nascimento e, caso tenha, cópia da primeira via do diploma em questão. O diploma é emitido em formato digital e fica disponível no prazo de aproximadamente 30 dias.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 155564,
+            "tipo": "web",
+            "descricao": "*Após o prazo estabelecido, o diploma fica disponível no site da UnB, link \"diploma digital\", fazendo a busca pelo CPF (alunos brasileiros) e Passaporte (alunos estrangeiros). O diploma ficará disponível no mesmo local sempre que o aluno precisar do arquivo.*",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "10",
+  "percentualAvaliacoesPositivas": "67",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-segunda-via-de-diploma-de-pos-graduacao",
+  "statusDestaque": false
+}

@@ -1,0 +1,263 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5859",
+  "nome": "Obter Diploma ou 2ª Via de Diploma de Pós-Graduação - UNIFEI",
+  "sigla": "",
+  "descricao": "Através deste serviço, o usuário poderá obter seu diploma da pós-graduação concluída ou sua 2ª via. Para a 1ª via, o egresso deverá solicitar o diploma. Para solicitar a 2ª via, os egressos dos cursos de pós-graduação da UNIFEI deverão comprovar que tiveram a 1ª via do diploma extraviada ou rasurada, por meio de emissão de Boletim de Ocorrência ou amostra da 1ª via rasurada.",
+  "flagPortalLogado": "N",
+  "contato": "raprppg@unifei.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://unifei.edu.br/prppg/conclusao/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Certificado de Pós-graduação",
+        "id": 58904
+      },
+      {
+        "item": "Certificação de Pós-graduação",
+        "id": 58905
+      },
+      {
+        "item": "Título de Pós-graduação",
+        "id": 58906
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 53980,
+        "tipo": "Discentes que concluíram o curso de pós-graduação",
+        "requisitos": "* Ter curso de pós-graduação concluído na UNIFEI\n * Não ter nenhuma pendência com a UNIFEI.\n * Para solicitar a 2ª via, os egressos dos cursos de pós-graduação da UNIFEI devem comprovar que tiveram a 1ª via do diploma extraviada ou rasurada, por meio de emissão de Boletim de Ocorrência ou amostra da 1ª via rasurada."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/462",
+    "dbId": 57768,
+    "nomeOrgao": "Universidade Federal de Itajubá (UNIFEI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 84395
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Documento",
+        "id": 203733
+      },
+      {
+        "item": "Conclusão",
+        "id": 203734
+      },
+      {
+        "item": "Certificado",
+        "id": 203735
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 66688
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n + Respeito;\n + Acessibilidade;\n + Cortesia;\n + Presunção da boa-fé do usuário;\n + Igualdade;\n + Eficiência;\n + Segurança; e\n + Ética.",
+  "etapas": [
+    {
+      "id": 117385,
+      "titulo": "Preencher o formulário de solicitação de documento",
+      "descricao": "Preencher o formulário de solicitação de documento (<https://drive.google.com/file/d/1yiCNA9szeOqzhizd9B3HVZhps7bv7Myh/view>) e encaminhá-lo por e-mail a raprppg@unifei.edu.br\n\n Após solicitação e conferência dos dados, o Registro Acadêmico envia o pedido para confecção e registro do diploma",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 164649,
+            "nome": "Certidão de Nascimento,"
+          },
+          {
+            "id": 164650,
+            "nome": "RG"
+          }
+        ],
+        "casos": [
+          {
+            "id": 21474,
+            "descricao": "Egressos Estrangeiros",
+            "documento": [
+              {
+                "id": 164646,
+                "codigo": null,
+                "descricao": "Passaporte válido",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 21475,
+            "descricao": "Solicitação de 2ª via de diploma",
+            "documento": [
+              {
+                "id": 164647,
+                "codigo": null,
+                "descricao": "Causado por extravio da 1ª via: apresentar o Boletim de Ocorrência.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 164648,
+                "codigo": null,
+                "descricao": "Causado por rasura da 1ª via: apresentar a 1ª via e seus sinais de rasura.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 150442,
+            "tipo": "web",
+            "descricao": "Formulário de solicitação de documento: [Acesse o site](http://unifei.edu.br/prppg/conclusao/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 90
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 117386,
+      "titulo": "Retirada do diploma",
+      "descricao": "Retirada do diploma, presencialmente na UNIFEI, setor PRPPG - Pró-Reitoria de Pesquisa e Pós-Graduação (Prédio da Administração Central, 2º andar, Campus Itajubá).\n\n Atendimento ao público: segunda a sexta - 08:30 às 12:00 / 13:30 às 17:30",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 164652,
+            "nome": "Documento de identificação"
+          }
+        ],
+        "casos": [
+          {
+            "id": 21476,
+            "descricao": "Retirada via procuração",
+            "documento": [
+              {
+                "id": 164651,
+                "codigo": null,
+                "descricao": "Documento de identificação e procuração.\n\n Autenticação da assinatura da procuração pode se dar de 3 maneiras:\n\n - reconhecimento de firma em cartório;\n\n - em posse de um documento de identificação seu (a autenticação da assinatura é realizada no próprio setor); ou\n\n - autenticação digital (no Portal Gov.br, tendo o nº de CPF, é possível realizar o cadastro de forma gratuita).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 150443,
+            "tipo": "presencial",
+            "descricao": "Retirada do diploma, presencialmente na UNIFEI, setor PRPPG - Pró-Reitoria de Pesquisa e Pós-Graduação (Prédio da Administração Central, 2º andar, Campus Itajubá).\n\n Atendimento ao público: segunda a sexta - 08:30 às 12:00 / 13:30 às 17:30",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "-1",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-de-pos-graduacao-unifei",
+  "statusDestaque": false
+}

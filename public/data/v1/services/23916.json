@@ -1,0 +1,265 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23916",
+  "nome": "Compartilhar cadastros de imóveis rurais com terceiros na Plataforma Meu Imóvel Rural (CAR, SNCR e SIGEF)",
+  "sigla": "",
+  "descricao": "Pela Plataforma Meu Imóvel Rural, o detentor (titular dos dados) pode compartilhar o cadastro de seu imóvel rural com terceiros. Esse compartilhamento funciona como uma autorização de acesso, permitindo que integrantes de sua rede de apoio consultem os cadastros de imóveis utilizando credenciais de acesso próprias (login e senha), sem a necessidade de compartilhamento das credenciais da conta GOV.BR do detentor. \n\n Dessa forma, preserva-se a privacidade das informações pessoais e garante-se a segurança da conta GOV.BR do detentor do imóvel.",
+  "flagPortalLogado": "N",
+  "contato": "Acesse o link e veja todas as informações sobre o Meu Imóvel Rural:  \n www.gov.br/gestao/pt-br/assuntos/meu-imovel-rural",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meuimovelrural.sistema.gov.br/#/home",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "imóveis rurais",
+        "id": 117413
+      },
+      {
+        "item": "CAR",
+        "id": 117414
+      },
+      {
+        "item": "CCIR",
+        "id": 117415
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98488,
+        "tipo": "Cidadãos (pessoas físicas) que sejam detentores de imóveis e possuam conta no GOV.BR.",
+        "requisitos": "Os pré-requisitos de acesso são: \n\n  * Ter cadastro ativo no GOV.BR\n * Ter imóvel vinculado a seu CPF em pelo menos um dos seguintes cadastros: SICAR (Sistema Nacional de Cadastro Ambiental Rural); SNCR (Sistema Nacional de Cadastro Rural); SIGEF (Sistema de Gestão Fundiária)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O compartilhamento dos dados de um cadastro de imóvel com terceiros terá tempo definido pelo titular, o detentor do imóvel, que também poderá revogá-lo a qualquer momento."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308803",
+    "dbId": 58136,
+    "nomeOrgao": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 164251
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imóveis"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "compartilhar cadastro de imóveis rurais",
+        "id": 392415
+      },
+      {
+        "item": "recibo do CAR",
+        "id": 392416
+      },
+      {
+        "item": "demonstrativo do CAR",
+        "id": 392417
+      },
+      {
+        "item": "CCIR",
+        "id": 392418
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 138631
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 229800,
+      "titulo": "Acessar a plataforma Meu Imóvel Rural",
+      "descricao": "Acesse o site ou aplicativo Meu Imóvel Rural e faça login com sua conta GOV.BR.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 297324,
+            "tipo": "web",
+            "descricao": "<https://meuimovelrural.sistema.gov.br/#/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 297325,
+            "tipo": "aplicativo-movel",
+            "descricao": "<https://www.gov.br/pt-br/apps/meu-imovel-rural>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229801,
+      "titulo": "Visualizar a lista de cadastros vinculados ao seu CPF e selecionar um",
+      "descricao": "Após fazer o login, clique na opção \"Imóveis Rurais\". A Plataforma localiza automaticamente os cadastros de imóveis rurais vinculados a seu CPF. Eles aparecem agrupados de acordo com o sistema de origem: SICAR, SNCR e SIGEF. Selecione um dos cadastros listados para compartilhar com terceiros.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 297326,
+            "tipo": "web",
+            "descricao": "<https://meuimovelrural.sistema.gov.br/#/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 297327,
+            "tipo": "aplicativo-movel",
+            "descricao": "<https://www.gov.br/pt-br/apps/meu-imovel-rural>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 229802,
+      "titulo": "Compartilhar o cadastro com terceiros",
+      "descricao": "Na página de detalhes de um cadastro, clique no botão \"Compartilhar\". Em seguida, informa o CPF da pessoa com quem deseja compartilhar o cadastro, a data em que o compartilhamento deve expirar e o motivo pelo qual compartilha o cadastro.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 297328,
+            "tipo": "web",
+            "descricao": "<https://meuimovelrural.sistema.gov.br/#/>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 297329,
+            "tipo": "aplicativo-movel",
+            "descricao": "<https://www.gov.br/pt-br/apps/meu-imovel-rural>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "url": "https://www.gov.br/pt-br/servicos/compartilhar-cadastros-de-imoveis-rurais-com-terceiros-na-plataforma-meu-imovel-rural-car-sncr-e-sigef",
+  "statusDestaque": false
+}

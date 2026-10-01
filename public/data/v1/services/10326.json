@@ -1,0 +1,280 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10326",
+  "nome": "Acessar os Sistemas Informatizados de propriedade do SENATRAN",
+  "sigla": "",
+  "descricao": "É a disponibilização de acesso à base de dados dos sistemas e subsistemas informatizados da Secretaria Nacional de Trânsito (SENATRAN) relativos a veículos automotores, condutores habilitados, infrações e estatísticas de trânsito, e outros tipos de serviços e de acessos à base de dados para registro e/ou consulta.",
+  "flagPortalLogado": "N",
+  "contato": "cgplan@transportes.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/transportes/pt-br/servicos/protocolo-eletronico-super",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "api senatran",
+        "id": 55678
+      },
+      {
+        "item": "acesso ao sistema do senatran",
+        "id": 55679
+      },
+      {
+        "item": "webservice senatran",
+        "id": 55680
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 51263,
+        "tipo": "I - Órgãos e Entidades componentes do Sistema Nacional de Trânsito (SNT);  \nII - Órgãos e entidades públicos não integrantes do SNT;  \nIII - Entidades privadas;  \nIV - Órgãos da imprensa, Instituições de Ensino Superior (públicas e privadas), Associações Civis, Órgãos Representativos de Classe e Entidades Representativas de Setores somente poderão solicitar acesso aos dados e informações contidos nos sistemas RENACH, RENAVAM e RENAINF, de caráter público, para fins estatísticos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O Termo de Autorização terá validade por até 5 anos."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 81043
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 81044
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "api senatran",
+        "id": 192594
+      },
+      {
+        "item": "webservice senatran",
+        "id": 192595
+      },
+      {
+        "item": "acessar os sistemas do senatran",
+        "id": 192596
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Portaria DENATRAN nº 15 de 18 de janeiro de 2016",
+        "id": 62958
+      },
+      {
+        "item": "Portaria nº 215 de 6 de agosto de 2018 (combinado com a Portaria no 4312 de 4 de outubro de 2019)",
+        "id": 62959
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 182,
+    "negativas": 837
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 111475,
+      "titulo": "Enviar documentos por meio de peticionamento eletrônico SUPER",
+      "descricao": "Conforme art. 16 da [Portaria DENATRAN n°15 de 18 de janeiro de 2016](https://www.gov.br/infraestrutura/pt-br/assuntos/transito/arquivos-senatran/portarias/2016/portaria0152016_nova3.pdf).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 143031,
+            "tipo": "web",
+            "descricao": "[Peticionamento eletrônico SUPER](https://www.gov.br/transportes/pt-br/servicos/protocolo-eletronico-super)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 111476,
+      "titulo": "Aguardar análise da documentação",
+      "descricao": "Nesta etapa o(a) solicitante aguarda a análise da documentação enviada ao SENATRAN. Caso haja pendência, o SENATRAN entrará em contato por e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 143032,
+            "tipo": "web",
+            "descricao": "[Consultar andamento](https://sei.infraestrutura.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0 \"https://sei.infraestrutura.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 111477,
+      "titulo": "Emissão de Termo de Autorização",
+      "descricao": "* Analisada e aprovada a documentação pelas Coordenações Gerais, o SENATRAN emitirá Termo de Autorização de acesso, com posterior publicação do Extrato de Autorização no Diário Oficial da União;\n * Caso seja indeferida a solicitação de acesso, o SENATRAN emitirá Ofício informando o(a) interessado(a).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 143033,
+            "tipo": "web-acompanhar",
+            "descricao": "[Consulte aqui](https://super.transportes.gov.br/sip/login.php?sigla_orgao_sistema=MT&sigla_sistema=SEI&infra_url=L3NlaS8= \"https://www.gov.br/infraestrutura/pt-br/assuntos/transito/conteudo-denatran/portarias-denatran\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 111478,
+      "titulo": "Cadastro junto ao Sistema RedMine",
+      "descricao": "Após autorizado o acesso pelo SENATRAN, será feito cadastro do(a) interessado(a) em Sistema Próprio (Redmine), para contratação onerosa junto ao Serviço Federal de Processamento de Dados (SERPRO), conforme previsto no art. 22 da Portaria DENATRAN n°15 de 18 de janeiro de 2016.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 143034,
+            "tipo": "e-mail",
+            "descricao": "cgplan@transportes.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "18",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-os-sistemas-informatizados-de-propriedade-do-denatran",
+  "statusDestaque": false
+}

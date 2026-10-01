@@ -1,0 +1,209 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3067",
+  "nome": "Inscrever Atos de Autoridade Judiciária ou Administrativa em Livro de Aeronave",
+  "sigla": "",
+  "descricao": "Trata-se da inscrição de Decisão Judicial, Sequestro, Arresto, Penhora e outros atos, emitidos por autoridade Judicial ou Administrativa. \n\n Dá-se a necessidade de tal inscrição quando uma Autoridade emite ordem de inscrição (judicial ou administrativa) restringindo o uso ou a disposição de uma aeronave. Esse ato pode ocorrer tanto por solicitação formulada pelo interessado quanto por comunicação direta pela Autoridade. O gravame é anotado no livro da aeronave e nos Certificados de Matricula emitidos após essa inscrição.\n\n A retirada do gravame inscrito dependerá da liberação pela Autoridade responsável pela averbação original",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 89009
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 76203,
+        "tipo": "Pessoa física ou jurídica interessada.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "20",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 20
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 123660
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 299881
+      },
+      {
+        "item": "RAB",
+        "id": 299882
+      },
+      {
+        "item": "Decisão Judicial",
+        "id": 299883
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei 7.565/1986 - Código Brasileiro de Aeronáutica; ](http://www.planalto.gov.br/ccivil_03/leis/l7565compilado.htm)",
+        "id": 102264
+      },
+      {
+        "item": "[Resolução n° 293](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013)",
+        "id": 102265
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 172772,
+      "titulo": "Aguardar inscrição e solucionar pendências",
+      "descricao": "Caso seja necessário a ANAC entrará em contato com o solicitante para solucionar alguma pendência eventualmente encontrada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226746,
+            "tipo": "web",
+            "descricao": "O acesso ao Sistema de Controle de Processos do Registro Aeronáutico Brasileiro ([SCBRAB](https://sistemas.anac.gov.br/SCPRAB/relatorios/listarprocessoweb.asp)) é a forma mais rápida de obter informações sobre o andamento do seu processo no Registro. \n\n A pesquisa se dá por marca e/ou por nº do processo. \"Sobrestamento\" indica que há alguma documentação pendente para o deferimento do seu processo. Ao seu lado, são enumeradas as pendências encontradas.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172771,
+      "titulo": "Solicitar inscrição do Ato",
+      "descricao": "Para solicitar a inscrição de Atos de Autoridade Judiciária ou Administrativa  o solicitante deverá protocolar a documentação exigida.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 239312,
+            "nome": "Decisão judicial, sequestro, arresto ou penhora – carta de adjudicação ou remição, carta de arrematação, certidão de sentença judicial com trânsito em julgado, ou ofício do juízo competente.\n\n Este documento é emitido por autoridade judicial ou administrativa e determina a inscrição de um ato. São os casos de decisões judiciais, sequestro, carta de adjudicação ou remição, carta de arrematação, certidão de sentença judicial com trânsito em julgado ou ofício do juízo competente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 226744,
+            "tipo": "web",
+            "descricao": "A documentação poderá ser encaminhada por meio do [Protocolo Eletrônico da ANAC.](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)  \nNo protocolo eletrônico o solicitante deverá escolher a opção:Aeronaves: RAB - Prestação de Informações a Órgãos Judiciais e Administrativos",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 226745,
+            "tipo": "postal",
+            "descricao": "**ANAC** - Setor Comercial Sul, Quadra 09, Lote C, Edifício Parque Cidade Corporate – Torre A , Brasília - DF, CEP: 70308-200 ou **ANAC** - Av. Presidente Vargas, 850 – Centro, Rio de Janeiro – RJ, CEP: 20071-001",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "20",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/inscrever-atos-de-autoridade-judiciaria",
+  "statusDestaque": false
+}

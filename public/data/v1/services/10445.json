@@ -1,0 +1,208 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10445",
+  "nome": "Emitir certidão de regularidade fiscal",
+  "sigla": "CND",
+  "descricao": "Emita a certidão de regularidade fiscal perante a Fazenda Nacional.\n\n A **Certidão de Regularidade Fiscal** é o documento que comprova a situação fiscal do contribuinte perante a Receita Federal do Brasil (RFB) e a Procuradoria-Geral da Fazenda Nacional (PGFN).\n\n Também conhecida como Certidão Conjunta, ela informa se há ou não pendências relativas a débitos tributários federais e à Dívida Ativa da União, inclusive contribuições previdenciárias.\n\n A certidão pode ser:\n\n  * ** Negativa:** indica plena regularidade fiscal;\n * ** Positiva com efeitos de negativa:** há pendências, mas com exigibilidade suspensa (ex: parcelamento);\n * ** Positiva:** há pendências sem suspensão da exigibilidade.\n  Se não for possível emitir a certidão, consulte sua situação fiscal para identificar as pendências que impedem a emissão. Nesses casos, utilize o serviço [Comprovar regularidade fiscal para liberar emissão de certidão](https://www.gov.br/pt-br/servicos/comprovar-regularidade-para-liberar-emissao-de-certidao).",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)\n\n [Orientações sobre processos digitais](https://www.gov.br/receitafederal/pt-br/assuntos/processos-digitais \"e-Processo\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.receitafederal.gov.br/servico/certidoes",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Emitir certidão negativa",
+        "id": 122989
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 102793,
+        "tipo": "Qualquer pessoa pode consultar e emitir certidões.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "A Portaria Conjunta nº 555 (DOU 24/03/2020) e a Portaria Conjunta nº 1.178 (DOU 14/07/2020) prorrogaram o prazo de validade das Certidões Negativas de Débitos e Certidões Positivas com Efeitos de Negativa válidas na data de sua publicação."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 171857
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 171858
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 171859
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 171860
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Certidão Negativa",
+        "id": 409246
+      },
+      {
+        "item": "Certidão Positiva",
+        "id": 409247
+      },
+      {
+        "item": "Certidão de Débitos",
+        "id": 409248
+      },
+      {
+        "item": "Certidão de Obra",
+        "id": 409249
+      },
+      {
+        "item": "Certidão de Regularidade Fiscal",
+        "id": 409250
+      },
+      {
+        "item": "Atendimento",
+        "id": 409251
+      },
+      {
+        "item": "Processo Digital",
+        "id": 409252
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portaria Conjunta RFB/PGFN nº 1.751/2014](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=56753)",
+        "id": 147782
+      },
+      {
+        "item": "[Instrução Normativa RFB nº 2.022/2021](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=116969)",
+        "id": 147783
+      },
+      {
+        "item": "[Portaria MF nº 358/2014](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=55975)",
+        "id": 147784
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 22851,
+    "negativas": 92319
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 239776,
+      "titulo": "Emitir certidão de regularidade fiscal",
+      "descricao": "Acesse o canal abaixo escolha o tipo de certidão que deseja emitir e informe o número de identificação da pessoa física (CPF), jurídica (CNPJ) ou imóvel rural (CIB). Se a situação fiscal estiver regular, a certidão será emitida.\n\n Você também pode obter segunda via de certidões já emitidas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 309572,
+            "tipo": "web",
+            "descricao": "[CertidÃµes Federais (CND)](https://servicos.receitafederal.gov.br/servico/certidoes)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10667",
+      "nome": "Consultar certidões de regularidade fiscal emitidas"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10690",
+      "nome": "Consultar dívidas e pendências fiscais"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/22995",
+      "nome": "Comprovar regularidade fiscal para liberar emissão de certidão"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11248",
+      "nome": "Anular certidão de regularidade fiscal de obra"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/11247",
+      "nome": "Emitir certidão de regularidade fiscal de obra"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "20",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal",
+  "statusDestaque": false
+}

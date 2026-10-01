@@ -1,0 +1,201 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13332",
+  "nome": "Obter laudo pericial de mercadoria importada ou exportada",
+  "sigla": "",
+  "descricao": "Solicite laudo pericial para mercadorias importadas ou a serem exportadas.\n\n A perícia tem o objetivo de quantificar ou identificar a mercadoria. Além disso, ela pode oferecer elementos para a confirmação da classificação fiscal, da origem, da adequação às normas técnicas ou do estado de novo ou usado do bem.\n\n O serviço de perícia e a emissão de laudos periciais serão realizados, conforme indicação da autoridade aduaneira, por:\n\n  * laboratórios da Receita Federal;\n * órgãos ou entidades da administração pública ou serviços sociais autônomos previamente credenciados;\n * entidades privadas ou peritos especializados, previamente credenciados; ou\n * perito não credenciado, de comprovada especialização ou experiência profissional, designado ad hoc (para esta finalidade) pelo chefe da unidade quando inexistir perito credenciado para a matéria envolvida.",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)\n\n [Manual de Importação](https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-importacao/topicos-1/despacho-de-importacao/etapas-do-despacho-aduaneiro-de-importacao/conferencia-aduaneira/verificacao-da-mercadoria-1/pericia-e-assistencia-tecnica)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalunico.siscomex.gov.br/portal/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 124510
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104253,
+        "tipo": "Importador, exportador, o transportador ou o depositário da mercadoria.\n\n Cabe ao chefe da unidade local de despacho decidir quanto à conveniência e oportunidade da realização da perícia.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 174301
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Importação",
+        "id": 414938
+      },
+      {
+        "item": "Siscomex",
+        "id": 414939
+      },
+      {
+        "item": "Laudo",
+        "id": 414940
+      },
+      {
+        "item": "Perícia",
+        "id": 414941
+      },
+      {
+        "item": "",
+        "id": 414942
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 2.086/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=124407#2344995)",
+        "id": 149770
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 243129,
+      "titulo": "Solicitar laudo pericial.",
+      "descricao": "Elabore um requerimento informando a justificativa para a realização da perícia na mercadoria e junte ao dossiê vinculado à Declaração de Importação ou de Exportação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 319579,
+            "nome": "Requerimento com justificativas."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313966,
+            "tipo": "web",
+            "descricao": "[Portal único de Comércio Exterior – Anexação ](https://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 243130,
+      "titulo": "Obter resultado da perícia",
+      "descricao": "O laudo com o resultado da perícia será juntado (incluído) ao dossiê da declaração a que se refere a mercadoria.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 313967,
+            "tipo": "web",
+            "descricao": "[Portal único de Comércio Exterior – Anexação ](https://portalunico.siscomex.gov.br/portal/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "25",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-laudo-pericial-de-mercadoria-importada-ou-exportada",
+  "statusDestaque": false
+}

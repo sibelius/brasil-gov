@@ -1,0 +1,164 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9600",
+  "nome": "Obter cópia de notas técnicas dos processos CEBAS – Educação",
+  "sigla": "",
+  "descricao": "Consiste na liberação de cópia de notas técnicas da Certificação de Entidades Beneficentes de Assistência Social na área de educação (CEBAS) protocolado junto ao SEI.",
+  "flagPortalLogado": "S",
+  "contato": "Em caso de inconsistência sistêmica, sugerimos que tente mais tarde ou entre em contato com o MEC por meio do telefone (61) 2022-8199 ou no link <https://faleconosco-mec-cube.call.inf.br/tipos-solicitacao/29666> e relate a dificuldade enfrentada.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126067
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105456,
+        "tipo": "Cidadão, Representante Legal e Procurador Institucional.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176269
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176270
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CEBAS-Educação;",
+        "id": 419881
+      },
+      {
+        "item": "Cópia de Nota Técnica.",
+        "id": 419882
+      },
+      {
+        "item": "Educação",
+        "id": 419883
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei nº 12.101, de 27 de novembro de 2009 e suas alterações.",
+        "id": 151317
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 47,
+    "negativas": 88
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246101,
+      "titulo": "Acesso integral ao processo CEBAS.",
+      "descricao": "Requerimento do acesso à nota técnica  \nIndicação do CNPJ da matriz, do número do processo no SEI/MEC na qual é requerido a cópia da Nota Técnica e o e-mail para encaminhamento do documento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 321956,
+            "nome": "Para atendimento a esta solicitação, é necessário informar os dados abaixo:\n\n **Dados:**\n\n  * Requerimento do acesso à nota técnica;\n * Indicação do CNPJ da matriz;\n * Indicação do número do processo no SEI/MEC na qual é requerido a cópia da Nota Técnica;\n * Indicação do e-mail para encaminhamento do documento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318298,
+            "tipo": "web",
+            "descricao": "[https://solicitacao.servicos.gov.br/processos/iniciar?CodServico=9](https://solicitacao.servicos.gov.br/processos/iniciar?CodServico=9327)600Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "10",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "35",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-copia-de-notas-tecnicas-cebas",
+  "statusDestaque": false
+}

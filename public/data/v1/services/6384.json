@@ -1,0 +1,244 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6384",
+  "nome": "Obter diploma ou 2ª via de diploma - IFS",
+  "sigla": "",
+  "descricao": "Se você concluiu um curso no Instituto, pode solicitar o seu diploma ou certificado final (ou a 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "S",
+  "contato": "Departamento de Registros Acadêmicos - 79998621995 - cra@ifs.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://suap.ifs.edu.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 126515
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105772,
+        "tipo": "Concluintes dos cursos ofertados pelo Instituto Federal de Educação, Ciência e Tecnologia de Sergipe (IFS).",
+        "requisitos": "O(a) aluno(a) deve ter concluído todos os requisitos acadêmicos previstos para finalização do curso no IFS e não possuir pendências junto à biblioteca."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100909",
+    "dbId": 36747,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia de Sergipe (IFS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 176872
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diploma",
+        "id": 421495
+      },
+      {
+        "item": "Certificado de Conclusão",
+        "id": 421496
+      },
+      {
+        "item": "IFS",
+        "id": 421497
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151817
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 246942,
+      "titulo": "Solicitar o Diploma ou Certificado Final",
+      "descricao": "*  Solicite a **declaração de nada consta** à biblioteca e salve o arquivo em formato **PDF**.\n\n \n *  Acesse **“Meus Dados”** na tela inicial do **SUAP**. Clique na aba **“Pasta Documental”** e, em seguida, em **“Adicionar arquivo”**. Selecione o arquivo do *nada consta*, escolha o tipo **“Requerimento de Diploma”** e clique em **“Salvar”**.\n\n \n *  Caso seu **documento de identidade** não esteja na Pasta Documental, insira-o da mesma forma, selecionando o tipo **“Documento de Identidade”**.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322678,
+            "nome": "Declaração de Nada Consta da Biblioteca"
+          },
+          {
+            "id": 322679,
+            "nome": "Documento de Identidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319295,
+            "tipo": "web",
+            "descricao": "Acessar o Suap ([Acesse o site](https://www.gov.br/suap.ifs.edu.br))",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246943,
+      "titulo": "Acompanhamento do Processo de Emissão",
+      "descricao": "Após inserir o requerimento e os documentos na Pasta Documental, o aluno deve acompanhar o andamento da solicitação. Durante a análise, o Registro Escolar poderá solicitar complementação ou atualização de documentos. Caso isso ocorra, o aluno será informado e deverá atender às orientações para que o processo continue sem interrupções.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319296,
+            "tipo": "e-mail",
+            "descricao": "O acompanhamento e as notificações são realizados **por e-mail**, utilizando o endereço cadastrado pelo aluno no SUAP. É importante manter o e-mail atualizado e verificar a caixa de entrada regularmente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246944,
+      "titulo": "Recebimento do Diploma",
+      "descricao": "Após a conclusão da análise e emissão do diploma ou certificado, o documento é encaminhado ao aluno pela Coordenação de Registros Escolares (CRE). Nesta etapa, não é necessário realizar nenhuma ação adicional no sistema; basta aguardar o envio do documento. É fundamental que o aluno mantenha seus dados atualizados para garantir o recebimento correto.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319297,
+            "tipo": "e-mail",
+            "descricao": "O envio do diploma ou certificado é realizado **por e-mail**, utilizando o endereço cadastrado pelo aluno no SUAP. O aluno deve verificar regularmente sua caixa de entrada, incluindo a pasta de spam ou lixo eletrônico.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-ifs",
+  "statusDestaque": false
+}

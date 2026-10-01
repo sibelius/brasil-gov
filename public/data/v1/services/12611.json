@@ -1,0 +1,358 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12611",
+  "nome": "Transferir propriedade de aeronaves",
+  "sigla": "",
+  "descricao": "Tem como finalidade mudar o(s) proprietário(s) no registro para um ou mais novos, através da inscrição de um contrato. O contrato de transferência de propriedade pode ser elaborado por instrumento público ou particular, observada a forma necessária em cada caso. Os títulos de transferência de propriedade da aeronave só tem a força de, de fato, a transferirem no momento em que forem inscritos no RAB.\n\n Para mais informações, consulte a página do [Rab Digital](https://www.gov.br/anac/pt-br/sistemas/rab/rab-digital).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://santosdumont.anac.gov.br/menu/f?p=200104:2:101719836471880",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 88666
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75938,
+        "tipo": "Proprietário ou operador de aeronave, ou representante legal destes mediante procuração.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Essa validade é aplicada apenas a alguns documentos como alterações estatutárias em transferências por sucessão ou cisão e nesses casos o prazo é de um ano."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 123059
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 123060
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 123061
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 123062
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Anac",
+        "id": 298808
+      },
+      {
+        "item": "Transferência",
+        "id": 298809
+      },
+      {
+        "item": "RAB",
+        "id": 298810
+      },
+      {
+        "item": "Propriedade",
+        "id": 298811
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução nº 293, de 19 de novembro de 2013](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013#:~:text=Resolu%C3%A7%C3%A3o%20n%C2%BA%20293%20de%2019,Nacional%20de%20Avia%C3%A7%C3%A3o%20Civil%20ANAC&text=Ementa%3A,Brasileiro%20e%20d%C3%A1%20outras%20provid%C3%AAncias.)",
+        "id": 101812
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 20,
+    "negativas": 12
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 172033,
+      "titulo": "Solicitar o registro de transferência da propriedade",
+      "descricao": "O Solicitante pelo RAB Digital será sempre uma PF cadastrada pelo Gov.br – assim uma PJ sempre terá que ser representada por uma PF.\n\n O solicitante deve enviar a documentação abaixo à ANAC via sistema RAB Digital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 238380,
+            "nome": "Recibo de compra e venda ou título de aquisição, firmado pelo vendedor, comprador e 2 testemunhas; em original, com firmas reconhecidas por autenticidade. Se escritura pública, o traslado. Para aeroclube, ata de assembleia extraordinária aprovando a venda da aeronave, edital de convocação dos sócios, publicado no jornal local, ou instrumento de convocação do conselho deliberativo;"
+          },
+          {
+            "id": 238381,
+            "nome": "Certidão Negativa de Débito com o INSS, ou em nome da pessoa jurídica vendedora ou dadora da garantia.  \nEste documento é exigido sempre que um bem móvel de uma Pessoa Jurídica, de valor superior a R$ 62.981,70 é alienado ou onerado. Ele é exigido apenas da pessoa jurídica alienante, vendedora ou dadora da garantia, de acordo com o Art. 8º (VI) da Portaria nº 914 de 13 de janeiro de 2020 do Ministério da Economia."
+          }
+        ],
+        "casos": [
+          {
+            "id": 38000,
+            "descricao": "Documentos das Partes ou de Terceiros Interessados, se Pessoa Física",
+            "documento": [
+              {
+                "id": 238368,
+                "codigo": null,
+                "descricao": "Solicitante (não precisa reconhecer a firma)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238369,
+                "codigo": null,
+                "descricao": "Cópia Simples de RG e CPF das partes",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238370,
+                "codigo": null,
+                "descricao": "Prova de condição de residente no país, se estrangeiro.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 38001,
+            "descricao": "Documentos das Partes ou de Terceiros Interessados, se solicitante for Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 238371,
+                "codigo": null,
+                "descricao": "Cópia simples da Prova de inscrição no Cadastro Nacional da Pessoa Jurídica – CNPJ",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238372,
+                "codigo": null,
+                "descricao": "Cópia simples dos Documentos constitutivos da sociedade: contrato social ou estatuto social, consolidados e arquivados no órgão competente",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238373,
+                "codigo": null,
+                "descricao": "Cópia simples do Instrumento de nomeação dos administradores (ata da assembleia geral que elegeu a atual diretoria no caso de sociedade anônima ou aeroclube) devidamente registrado",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 38002,
+            "descricao": "Documentos das Partes ou de Terceiros Interessados, se firma individual",
+            "documento": [
+              {
+                "id": 238374,
+                "codigo": null,
+                "descricao": "Registro de firma individual no órgão competente",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 38003,
+            "descricao": "Documentos das Partes ou de Terceiros Interessados, se empresa estrangeira",
+            "documento": [
+              {
+                "id": 238375,
+                "codigo": null,
+                "descricao": "incluir decreto de autorização de funcionamento. Os contratos celebrados no exterior devem ter firmas reconhecidas por autoridade que é competente, de acordo com as leis locais, e serem apostilados.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 38004,
+            "descricao": "Documentos das Partes ou de Terceiros Interessados, se solicitante for Representante legal (procurador)",
+            "documento": [
+              {
+                "id": 238376,
+                "codigo": null,
+                "descricao": "Documento outorgando poderes específicos para a prática do ato objeto de registro",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 238377,
+                "codigo": null,
+                "descricao": "Se procuração pública, apresentar o respectivo traslado (cópia simples); se procuração particular, firmas reconhecidas por semelhança. (Original ou Cópia autenticada); se a procuração outorgar transferência de aeronave, firmas reconhecidas por autenticidade; se a procuração for outorgada por empresa estrangeira no Exterior a tradução juramentada deve ser apostilada e as firmas reconhecidas pela autoridade competente local (Original ou Cópia autenticada).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 38005,
+            "descricao": "No caso de proprietário falecido",
+            "documento": [
+              {
+                "id": 238378,
+                "codigo": null,
+                "descricao": "Alvará judicial ou o formal de partilha ou outro documento hábil expedido pelo juízo competente",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 38006,
+            "descricao": "Sucessão de pessoa jurídica (fusão, cisão, incorporação ou transformação)",
+            "documento": [
+              {
+                "id": 238379,
+                "codigo": null,
+                "descricao": "A respectiva alteração contratual, ou estatutária, acompanhada de certidão do órgão competente para o registro (apenas no caso de transferência para PJ).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225692,
+            "tipo": "web",
+            "descricao": "Acesse e envie a documentação via [RAB Digital](https://sso.anac.gov.br/auth/realms/producao/protocol/openid-connect/auth?response_type=code&client_id=client-apex&scope=origem_acesso&redirect_uri=https://santosdumont.anac.gov.br/menu/apex_authentication.callback&state=NONPD0-hInNCz8a6QVsLsKyndFw9a9zZVWhErsaMzaB5iQPYZ_LrqHP0zG3314BILu5ricraaysVQEinG1gN8-elCQq6X1IvGS_3aBQ8Moz50GTw5KClBkmR2PvVrS2JH4xIlPln1TF0hC1F8xl6WZrkVFTxzj08gGWZAIlOsAUeWvx_DoOa1td3gNg8gftEWfPykmc5ZknC7o-HnArEUQ)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 225693,
+            "tipo": "web-consultar",
+            "descricao": "Mais informações sobre o requerimento podem ser obtidas [aqui](https://www.gov.br/anac/pt-br/sistemas/rab/servico/entenda-o-requerimento-padronizado).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 172034,
+      "titulo": "Aguardar processamento e registro",
+      "descricao": "A ANAC avalia a documentação e, julgando-a conforme, procede ao registro das transações tanto no Sistema SACI quanto no Livro da Aeronave.\n\n É importante e conveniente que o usuário que demandou o serviço no RAB Digital também tenha cadastro no [Protocolo Eletrônico do SEI](https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei), para facilidade de comunicações da GTRAB/ANAC.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 225694,
+            "tipo": "web",
+            "descricao": "O acompanhamento do pedido pode ser feito pelo SEI através do [acesso público](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).\n\n Assim que as atualizações do sistema SACI são lançadas, o usuário recebe um e-mail – mas pode acompanhar os lançamentos no RAB Online – e usar o RAB Digital para emitir seus Certificados de Matrícula e Aeronavegabilidade atualizados.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/transferir-propriedade-de-aeronaves",
+  "statusDestaque": false
+}

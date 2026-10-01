@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10432",
+  "nome": "Solicitar atestado de vida no exterior",
+  "sigla": "",
+  "descricao": "Os atestados de vida têm como objetivo comprovar que o cidadão está vivo e capacitado para continuar a usufruir de direitos que se interrompem automaticamente com a morte, como, por exemplo, o recebimento de pensões.\n\n É recomendável que o interessado entre em contato com o órgão onde será apresentado o atestado, para que tenha informações atualizadas sobre a sua possível aceitação.\n\n",
+  "flagPortalLogado": "N",
+  "contato": "Em caso de dúvidas, [contatar o Posto Consular](https://econsular.itamaraty.gov.br) de sua jurisdição.\n\n",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://econsular.itamaraty.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Atestado de vida",
+        "id": 15285
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 17829,
+        "tipo": "Tanto cidadãos brasileiros quanto estrangeiros podem solicitar o atestado de vida.\n\n",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "É recomendável que o interessado entre em contato com o órgão onde será apresentado o atestado, para que tenha informações atualizadas sobre a validade e sua possível aceitação.\n\n"
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/263",
+    "dbId": 37539,
+    "nomeOrgao": "Ministério das Relações Exteriores (MRE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 27939
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Atestado de vida",
+        "id": 57868
+      },
+      {
+        "item": "INSS",
+        "id": 57869
+      },
+      {
+        "item": "Previdência",
+        "id": 57870
+      },
+      {
+        "item": "Aposentadoria",
+        "id": 57871
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 13008
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 335,
+    "negativas": 524
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n ",
+  "etapas": [
+    {
+      "id": 35170,
+      "titulo": "Comparecer ao Posto Consular",
+      "descricao": "Para obter o atestado de vida, é obrigatório comparecer perante a autoridade consular.\n\n A depender do Posto Consular, será necessário agendamento prévio.\n\n [Confira as instruções específicas do Posto Consular de seu interesse.](https://econsular.itamaraty.gov.br)\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 57618,
+            "nome": "Formulário de atestado de vida, preenchido digitalmente ou na repartição consular, de forma legível e sem abreviaturas, e assinado pelo interessado.\n\n"
+          }
+        ],
+        "casos": [
+          {
+            "id": 4636,
+            "descricao": "Somente para estrangeiros",
+            "documento": [
+              {
+                "id": 57617,
+                "codigo": null,
+                "descricao": "Original e cópia de passaporte estrangeiro ou de documento oficial estrangeiro com foto que identifique claramente o interessado.\n\n",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 5261,
+            "descricao": "Emolumentos consulares:",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "o valor varia de acordo com a moeda da jurisdição consular.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 43094,
+            "tipo": "web",
+            "descricao": "Postos Consulares: [acesse aqui](https://econsular.itamaraty.gov.br) o Posto Consular de seu interesse para solicitar o serviÃ§o.\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "39",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-atestado-de-vida-no-exterior",
+  "statusDestaque": false
+}

@@ -1,0 +1,240 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13034",
+  "nome": "Obter parcela de Contrato de Concessão/Arrendamento em que a Agência Nacional de Transportes Aquaviários (Antaq) seja interveniente",
+  "sigla": "",
+  "descricao": "Realizar pagamentos referentes parcelas de Contrato de Concessão/Arrendamento em que a Agência Nacional de Transportes Aquaviários (Antaq) seja interveniente.",
+  "flagPortalLogado": "N",
+  "contato": "[gof@antaq.gov.br](mailto:gof@antaq.gov.br), (61) 2029-6905, (61) 2029-6910.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 101256
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85749,
+        "tipo": "Concessionários/Arrendatários em contratos que a Agência Nacional de Transportes Aquaviários (Antaq) seja interveniente.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141188
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Emitir GRU",
+        "id": 340349
+      },
+      {
+        "item": "Pagar parcela de contrato de concessão/arrend",
+        "id": 340350
+      },
+      {
+        "item": "Pagar débito contratual",
+        "id": 340351
+      },
+      {
+        "item": "",
+        "id": 340352
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118177
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela [Lei nº 10.048, de 8 de novembro de 2000](http://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na [Lei nº 13.460/17](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 197262,
+      "titulo": "Solicitar guia para pagamento de parcela contratual",
+      "descricao": "Enviar solicitação via peticionamento eletrônico de guia para pagamento da parcela referente ao contrato de concessão/arrendamento em que a Agência Nacional de Transportes Aquaviários (Antaq) seja interveniente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257346,
+            "tipo": "web",
+            "descricao": "Acessar como usuário externo o SEI através do link [https://sei.antaq.gov.br/sei/controlador\\_externo.php?acao=usuario\\_externo\\_logar&id\\_orgao\\_acesso\\_externo=0](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197263,
+      "titulo": "Analisar, calcular e emitir a Guia para pagamento da parcela contratual",
+      "descricao": "A área técnica analisa o contrato, atualiza o valor da parcela e emiti a Guia de Recolhimento da União (GRU).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257347,
+            "tipo": "web",
+            "descricao": "Análise e providências internas para emissão de GRU para o credor realizar o pagamento da parcela do contrato de concessão/arrendamento em que a Agência Nacional de Transportes Aquaviários (Antaq) seja interveniente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197264,
+      "titulo": "Obter a Guia para pagamento da parcela contratual",
+      "descricao": "Entrar no sistema \"arrecadação\", na notificação do débito é enviada a senha provisória de acesso ao sistema, a qual deve ser alterada no primeiro acesso; selecionar o respectivo Processo Administrativo para emitir a GRU ou selecionar PagTesouro e optar pelas formas de pagamento: Pix ou Cartão de Crédito.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 257348,
+            "tipo": "web",
+            "descricao": "Acessar o sistema através do link [Acesse o site](https://web3.antaq.gov.br/arrecadacao/) para realizar o pagamento da parcela do contrato de concessão/arrendamento em que a Agência Nacional de Transportes Aquaviários (Antaq) seja interveniente.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "40",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "Serviço não requer nenhum dado do usuário",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-parcela-de-contrato-de-concessao-arrendamento-em-que-a-agencia-nacional-de-transportes-aquaviarios-antaq-seja-interveniente",
+  "statusDestaque": false
+}

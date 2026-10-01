@@ -1,0 +1,211 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11148",
+  "nome": "Protocolar documentos na Autoridade Portuária de Santos",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá realizar a protocolização de documentos a serem encaminhados aos diversos setores da APS.",
+  "flagPortalLogado": "N",
+  "contato": "Supervisão de Gestão de Documentos\n\n Telefone: (13) 3202-6565 ramal 2003",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128178
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107323,
+        "tipo": "Qualquer pessoa física ou jurídica que necessite encaminhar correspondências/documentos à Autoridade Portuária de Santos.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 179273
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179274
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 179275
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 179276
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Comunicação Governamental"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Correspondência",
+        "id": 427242
+      },
+      {
+        "item": "Protocolo",
+        "id": 427243
+      },
+      {
+        "item": "Endereçamento.",
+        "id": 427244
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 153696
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250659,
+      "titulo": "Protocolar documentos",
+      "descricao": "O usuário deverá enviar o documento em via original e no formato “.PDF”, por meio do Sistema de Protocolo Digital, assinado, com identificação da assinatura e, obrigatoriamente, endereçado à APS, podendo ter a indicação do destinatário. Nos casos em que acompanhe anexos, estes também devem estar, obrigatoriamente, em formato “.PDF”",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325681,
+            "nome": "Ofício endereçado a Autoridade Portuária de Santos – APS, sendo facultativa a identificação nominal do destinatário. Deve estar assinado com identificação do responsável pela assinatura. No caso de empresa, o ofício deve estar em papel timbrado."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323991,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](https://portaldocliente.portodesantos.com.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250660,
+      "titulo": "Obter resposta sobre efetiva protocolização",
+      "descricao": "Após análise e a documentação estando correta, será efetuado registro no sistema de gestão eletrônica de documentos, com o envio de resposta informando o número que a documentação recebeu. No caso de recusa dos documentos, é emitida resposta com a respectiva justificativa. Essas informações ficarão registradas no sistema, podendo ser consultadas pelo interessado, a qualquer tempo, bem como serão encaminhadas, automaticamente, para o e-mail cadastrado no sistema.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 323992,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital\n\n [Acesse o site](https://portaldocliente.portodesantos.com.br/login)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/protocolar-documentos-na-autoridade-portuaria-de-santos",
+  "statusDestaque": false
+}

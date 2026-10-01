@@ -1,0 +1,307 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23745",
+  "nome": "Solicitar habilitação para receber Incentivo para Atenção Especializada aos Povos Indígenas",
+  "sigla": "IAE-PI",
+  "descricao": "O Incentivo para a Atenção Especializada aos Povos Indígenas (IAE-PI) é o repasse de recurso financeiro a estabelecimentos de saúde, de média e alta complexidade, que integram a Rede de Referência para a População Indígena, da circunscrição do Distrito Sanitário Especial Indígena (Dsei) responsável pela habilitação, com o objetivo de qualificar o atendimento, acolhendo de forma diferenciada e realizando adaptações que considerem as especificidades e necessidades.",
+  "flagPortalLogado": "N",
+  "contato": "coair.sesai@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/saude/pt-br/composicao/sesai/dapsi/iae-pi",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 114516
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 96380,
+        "tipo": "Gestor do SUS",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 159756
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 159757
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Credenciamentos e Habilitações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "IAE-PI",
+        "id": 383009
+      },
+      {
+        "item": "Habilitação",
+        "id": 383010
+      },
+      {
+        "item": "Incentivo",
+        "id": 383011
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 135308
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 223578,
+      "titulo": "Analisar a compatibilidade dos documentos",
+      "descricao": "O Dsei/Sesai/MS fará a análise da compatibilidade dos documentos e, em caso de aprovação, os remeterá ao órgão central da Sesai/MS, por meio do Sistema SEI, dentro do prazo de 15 (quinze) dias a partir da data da apresentação do pedido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 289744,
+            "tipo": "e-mail",
+            "descricao": "coair.sesai@saude.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 223579,
+      "titulo": "Enviar os documentos",
+      "descricao": "Recebidos os documentos, o órgão central da Sesai/MS fará a homologação do processo de habilitação, mediante parecer técnico prévio do Departamento de Atenção Primária à Saúde Indígena (Dapsi).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 289745,
+            "tipo": "e-mail",
+            "descricao": "coair.sesai@saude.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 223580,
+      "titulo": "Aguardar parecer",
+      "descricao": "Havendo parecer técnico favorável, o processo será encaminhado à Secretaria de Atenção Especializada à Saúde (Saes), do Ministério da Saúde, no prazo de 30 (dias) a partir da data de recebimento da documentação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 289746,
+            "tipo": "e-mail",
+            "descricao": "coair.sesai@saude.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 223581,
+      "titulo": "Aguardar análise de viabilidade orçamentária",
+      "descricao": "Por sua vez, a Saes realizará a análise da viabilidade orçamentária e financeira do pedido de habilitação do estabelecimento de saúde.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 289747,
+            "tipo": "e-mail",
+            "descricao": "coair.sesai@saude.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 223582,
+      "titulo": "Aguardar a publicação da portaria",
+      "descricao": "Por fim, a publicação de Portaria do Ministro de Estado da Saúde, autorizando o repasse do recurso ao estabelecimento habilitado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 289748,
+            "tipo": "web-acompanhar",
+            "descricao": "[ Acompanhar](https://www.gov.br/imprensanacional/pt-br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-habilitacao-para-receber-incentivo-para-atencao-especializada-aos-povos-indigenas",
+  "statusDestaque": false
+}

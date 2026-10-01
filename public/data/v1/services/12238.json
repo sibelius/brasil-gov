@@ -1,0 +1,236 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12238",
+  "nome": "Realizar visitas institucionais - IBC",
+  "sigla": "",
+  "descricao": "Apresenta o IBC a visitantes, mostrando as instalações e dando a eles um panorama da história e dos serviços prestados pela Instituição às pessoas com deficiência visual. A visita deve ser solicitada, explicitando o foco do seu interesse a fim de que se possa organizar convenientemente a recepção aos visitantes. O número máximo de visitantes por grupo, não deverá exceder a 25 pessoas.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: [visitainstitucional@ibc.gov.br](mailto:visitainstitucional@ibc.gov.br) Tels.: (21) 3478-4446 / 4443",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 101533
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85959,
+        "tipo": "Pessoas físicas ou entidades de cunho educacional, artístico-cultural ou do mundo do trabalho, sejam públicas ou privadas.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/251",
+    "dbId": 36718,
+    "nomeOrgao": "Instituto Benjamin Constant (IBC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 141685
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Eventos e Palestras"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Visita guiada",
+        "id": 341235
+      },
+      {
+        "item": "Deficiência visual",
+        "id": 341236
+      },
+      {
+        "item": "Educação especializada",
+        "id": 341237
+      },
+      {
+        "item": "",
+        "id": 341238
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118585
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 3
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 197995,
+      "titulo": "Agendar visita",
+      "descricao": "Encaminhar informações sobre número de visitantes e objetivo da visita.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258136,
+            "tipo": "e-mail",
+            "descricao": "[visitainstitucional@ibc.gov.br](mailto:visitainstitucional@ibc.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258137,
+            "tipo": "telefone",
+            "descricao": "(21) 3478-4446 / 4443",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197996,
+      "titulo": "Aguardar retorno de confirmação",
+      "descricao": "O demandante deve aguardar retorno com a confirmação do dia e horário da visita.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258138,
+            "tipo": "e-mail",
+            "descricao": "[visitainstitucional@ibc.gov.br](mailto:visitainstitucional@ibc.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197997,
+      "titulo": "Realizar a visita",
+      "descricao": "Comparecer presencialmente no IBC para realização da visita institucional conforme agendado.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258139,
+            "tipo": "presencial",
+            "descricao": "Av. Pasteur, número 350/368 - Urca, Rio de Janeiro - RJ, 22290-250. Para consultar a localização [clique aqui](https://www.gov.br/ibc/pt-br/acesso-a-informacao/institucional/localizacao).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "63",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-visitas-institucionais-ibc",
+  "statusDestaque": false
+}

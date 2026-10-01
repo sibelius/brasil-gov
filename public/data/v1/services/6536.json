@@ -1,0 +1,261 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6536",
+  "nome": "Matricular-se em curso de graduação - UnB",
+  "sigla": "",
+  "descricao": "Se você deseja fazer graduação na Universidade de Brasília (UnB), deverá ser aprovado em um processo seletivo e realizar o [registro acadêmico](https://boasvindas.unb.br/registro/sub-item \"Registro Acadêmico\"). Após o registro acadêmico o estudante será formalmente graduando da Universidade.",
+  "flagPortalLogado": "N",
+  "contato": "SAA - Secretaria de Administração Acadêmica - Telefone: (61) 3107-0521; E-mail: saaatendimento@unb.br; site da SAA: [https://saa.unb.br/](https://saa.unb.br/ \"https://saa.unb.br/\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 24037
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 25019,
+        "tipo": "Cidadão",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/470",
+    "dbId": 34335,
+    "nomeOrgao": "Fundação Universidade de Brasília (UNB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 39461
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Admissão em disciplinas",
+        "id": 87113
+      },
+      {
+        "item": "Ingresso",
+        "id": 87114
+      },
+      {
+        "item": "Disciplinas",
+        "id": 87115
+      },
+      {
+        "item": "Universidade de Brasília (UnB)",
+        "id": 87116
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 22971
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: \n\n   + Urbanidade;\n + Respeito; \n     + Acessibilidade;\n + Cortesia; \n     + Presunção da boa-fé do usuário; \n     + Igualdade;\n + Eficiência; \n     + Segurança; e \n     + Ética.",
+  "etapas": [
+    {
+      "id": 51545,
+      "titulo": "Seleção",
+      "descricao": "Consiste na etapa de realização do processo seletivo, podendo ser realizado por meio de vestibular, do Programa de Avaliação Seriada (PAS), pelo Exame Nacional do Ensino Médio (ENEM) e outros definidos por edital.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 65537,
+            "tipo": "web",
+            "descricao": "O canal depende do processo seletivo.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 51546,
+      "titulo": "Registro Acadêmico",
+      "descricao": "Compreende a etapa de registro formal como estudante da graduação na UnB após processo seletivo definido por edital.\n\n ![Fluxo do Processo de Registro Online ](https://boasvindas.unb.br/images/2021/Registro_Online_-_2021.jpg \"Fluxo do Processo de Registro Online \")",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 78208,
+            "nome": "RG; CNH"
+          },
+          {
+            "id": 78209,
+            "nome": "Certificado de conclusão do ensino médio"
+          },
+          {
+            "id": 78210,
+            "nome": "Histórico escolar do ensino médio"
+          },
+          {
+            "id": 78211,
+            "nome": "CPF"
+          },
+          {
+            "id": 78212,
+            "nome": "Comprovante de quitação com o serviço militar (quando for o caso)"
+          },
+          {
+            "id": 78213,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 78214,
+            "nome": "Outros documentos poderão ser solicitados de acordo com o edital do processo seletivo."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 65538,
+            "tipo": "web",
+            "descricao": "Você precisa fazer upload dos documentos que o edital do seu processo seletivo listou e, assim, confirmar que preenche todos os requisitos exigidos para se tornar estudante da UnB.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "48",
+          "unidade": "horas"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 48
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 51547,
+      "titulo": "Matrícula",
+      "descricao": "A Matrícula em Disciplina é a indicação das disciplinas que serão cursadas no semestre em vigor. Estas matrículas acontecem dentro de prazos estipulados pelo [Calendário de Matrícula](http://saa.unb.br/graduacao/62-calendario-de-matricula), ao qual os estudantes deverão se atentar para solicitar as disciplinas do 2° semestre do curso em diante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 65539,
+            "tipo": "web",
+            "descricao": "A solicitação de matrícula é realizada de acordo com o calendário acadêmico devendo o estudante realiza-la via sistema [SIGAA](https://autenticacao.unb.br/sso-server/login?service=https://sig.unb.br/sigaa/login/cas \"SIGAA\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "62",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-unb",
+  "statusDestaque": false
+}

@@ -1,0 +1,162 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12525",
+  "nome": "Participar de Processo Seletivo para curso de lato sensu - UFPE",
+  "sigla": "",
+  "descricao": "Serviço oferecido pela Universidade Federal de Pernambuco - UFPE. Permite que o usuário realize inscrição em processos seletivos de lato sensu que estejam abertos no Sistema Integrado de Gestão de Atividades Acadêmicas - SIGAA para submissão de inscrição, com a observação ao referido edital e formulário de inscrição.",
+  "flagPortalLogado": "N",
+  "contato": "E-mail: [especializacao.propg@ufpe.br](mailto:especializacao.propg@ufpe.br)  \nO cidadão também poderá tirar dúvidas através dos contatos dos programas de pós-graduação disponibilizados pelos editais.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sigaa.ufpe.br/sigaa/public/processo_seletivo/lista.jsf?nivel=L&aba=p-lato",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 32988
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 32336,
+        "tipo": "Egresso de cursos de graduação.",
+        "requisitos": "Possuir graduação e atender aos requisitos dos editais dos processos seletivos."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "30",
+      "max": "40",
+      "unidade": "minutos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 30,
+    "max": 40
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/418",
+    "dbId": 57772,
+    "nomeOrgao": "Universidade Federal de Pernambuco (UFPE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 51729
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pós"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Inscrição.",
+        "id": 116205
+      },
+      {
+        "item": "Curso.",
+        "id": 116206
+      },
+      {
+        "item": "Lato sensu.",
+        "id": 116207
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 33559
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 67644,
+      "titulo": "Realizar inscrição no processo seletivo",
+      "descricao": "O usuário deve acessar o Sistema Integrado de Gestão de Atividades Acadêmicas - SIGAA para preencher o formulário de inscrição e inserção de documentos. Conclusão da inscrição com a emissão do comprovante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 10249,
+            "descricao": "Taxa de Inscrição varia de acordo com o Programa.",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "Observar o Edital.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 86953,
+            "tipo": "web",
+            "descricao": "[Sistema Integrado de Gestão de Atividades Acadêmicas - SIGAA](https://sigaa.ufpe.br/sigaa/public/processo_seletivo/lista.jsf?nivel=L&aba=p-lato)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "100",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-lato-sensu-ufpe",
+  "statusDestaque": false
+}

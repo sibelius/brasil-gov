@@ -1,0 +1,313 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12304",
+  "nome": "Requerer restituição de taxas ou multas da Polícia Federal",
+  "sigla": "",
+  "descricao": "Este serviço permite que o usuário solicite, de forma online, a **restituição de taxas ou multas pagas à Polícia Federal**, caso o serviço não tenha sido utilizado. Após a solicitação, a Polícia Federal analisa o pedido e, se for aprovado, o valor é devolvido na conta indicada pelo solicitante.\n\n Algumas situações comuns para pedir a restituição são:\n\n  * Desistência do serviço\n * Pagamento em duplicidade\n * Falecimento do solicitante\n  Este serviço é **gratuito** e o prazo de atendimento é de aproximadamente **90 dias**.\n\n O solicitante deve acompanhar o crédito na conta indicada, já que a Polícia Federal **não** faz contato para informar sobre o depósito.",
+  "flagPortalLogado": "N",
+  "contato": "Diretamente com a [unidade responsável pela análise do processo de restituição](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias) informando o seu número de protocolo.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://servicos.pf.gov.br/siar-restituicao/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Restituição",
+        "id": 101489
+      },
+      {
+        "item": "Devolução",
+        "id": 101490
+      },
+      {
+        "item": "Reembolso",
+        "id": 101491
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85934,
+        "tipo": "Qualquer usuário que tenha pago taxas da Polícia Federal cujos serviços não foram efetivamente utilizados, ou multas que foram anuladas administrativamente ou judicialmente.",
+        "requisitos": "Qualquer pessoa que pagou uma taxa para a Polícia Federal, mas **não utilizou o serviço**, ou que teve multas anuladas.\n\n Para utilizar o serviço, é necessário:\n\n  2. **Ter uma conta no gov.br**;\n 4. **Ter os documentos digitalizados**;\n 6. **Informar uma conta corrente em banco no Brasil** (não são aceitas contas-poupança)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "60",
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 60,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "Antes de efetivar o requerimento de restituição da taxa, é importante saber que uma taxa paga pode ser utilizada por até 5 (cinco) anos, desde que pela mesma pessoa que consta na Guia de Recolhimento da União (GRU). Esse prazo é contado a partir da data em que o pagamento é compensado e, mesmo que ocorra algum reajuste na taxa durante esse período, em geral a diferença não é cobrada."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324",
+    "dbId": 26267,
+    "nomeOrgao": "Polícia Federal (PF)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 141638
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 141639
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Pagamentos e Restituições"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Restituição",
+        "id": 341127
+      },
+      {
+        "item": "Reembolso",
+        "id": 341128
+      },
+      {
+        "item": "Devolução",
+        "id": 341129
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 118524
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 166,
+    "negativas": 399
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.\n\n  \n\n [![Serviços PF.png](https://www.gov.br/pt-br/imagens-de-servicos/servicos-pf.png/@@images/61c55b2b-1785-4416-a780-11762d1bb19c.png)](http://conselhodeusuarios.cgu.gov.br/inicio)",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 197925,
+      "titulo": "Criar conta no portal gov.br",
+      "descricao": "A conta é vinculada ao CPF do requerente e a Guia de Recolhimento da União (GRU) cujo valor se pretende a restituição precisa estar emitida para o mesmo CPF da conta gov.br utilizada;",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 270525,
+            "nome": "documentação pessoal (RG, CNH ou equivalente) digitalizada em formato .jpg, .png ou .pdf com tamanho máximo de 3 Mb;"
+          },
+          {
+            "id": 270526,
+            "nome": "comprovante de pagamento da Guia de Recolhimento da União (GRU) digitalizado em formato .jpg, .png ou .pdf com tamanho máximo de 3 Mb;"
+          },
+          {
+            "id": 270527,
+            "nome": "Guia de Recolhimento da União (GRU) para a qual se pretende a restituição (opcional) digitalizada em formato .jpg, .png ou .pdf com tamanho máximo de 3 Mb."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258059,
+            "tipo": "web-preencher",
+            "descricao": "Clique [aqui](https://www.gov.br/pt-br/servicos/requerer-restituicao-de-taxas-ou-multas-da-policia-federal).\n\n   \n **OBS:** Em caso de restituição de taxa paga em nome de **menor de idade**, não é possível o protocolo eletrônico, devendo ser feito somente presencialmente (informações abaixo).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 258060,
+            "tipo": "presencial",
+            "descricao": "[Unidades da Polícia Federal](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias \"unidade da Polícia Federal\") em todo o país.\n\n Para isso, o requerente deverá comparecer à unidade portando os documentos elencados na Etapa 2 e entregar o requerimento abaixo, preenchido de forma legível e assinado:\n\n [Requerimento de restituição](https://www.gov.br/pt-br/arquivos-de-servicos/requerimento_de_restituicao_de_taxa_2021.pdf)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197926,
+      "titulo": "Reunir a documentação necessária",
+      "descricao": "2. documentação pessoal (RG, CNH ou equivalente);\n 4. comprovante de pagamento da Guia de Recolhimento da União;\n 6. Guia de Recolhimento da União para a qual se pretende a restituição (opcional).\n   Todos digitalizados em formato .jpg, .png ou .pdf com tamanho máximo de 3 Mb por arquivo.\n\n Para restituição em nome de **menor de idade**, também reunir sua documentação (RG, certidão de nascimento ou equivalente).",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258061,
+            "tipo": "web-preencher",
+            "descricao": "[Aqui](https://www.gov.br/pt-br/servicos/requerer-restituicao-de-taxas-ou-multas-da-policia-federal).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197927,
+      "titulo": "Cadastrar o requerimento de restituição no sistema",
+      "descricao": "Cadastrar o requerimento de restituição no sistema da Polícia Federal ([aqui](https://www.gov.br/pt-br/servicos/requerer-restituicao-de-taxas-ou-multas-da-policia-federal)). **O requerimento pode ser alterado ou cancelado no sistema dentro do prazo de 3 dias a partir da data do cadastro**. Após esse período o pedido será encaminhado automaticamente ao setor responsável, para análise;",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258062,
+            "tipo": "web-preencher",
+            "descricao": "[Aqui](https://www.gov.br/pt-br/servicos/requerer-restituicao-de-taxas-ou-multas-da-policia-federal).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 197928,
+      "titulo": "Acompanhar o andamento do processo",
+      "descricao": "Acompanhar se ao final do prazo informado houve o pagamento na conta bancária informada. O requerente receberá um e-mail com o número de protocolo para acompanhamento no sistema.\n\n Caso o depósito não tenha sido efetivado dentro do prazo informado, o requerente poderá contatar diretamente a [unidade responsável pela análise do processo de restituição](https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias) informando o seu número de protocolo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 258063,
+            "tipo": "web-acompanhar",
+            "descricao": "[Aqui](https://www.gov.br/pt-br/servicos/requerer-restituicao-de-taxas-ou-multas-da-policia-federal).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "60",
+          "max": "90",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 60,
+        "max": 90
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "29",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/requerer-restituicao-de-taxas-ou-multas-da-policia-federal",
+  "statusDestaque": false
+}

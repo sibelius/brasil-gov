@@ -1,0 +1,168 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11240",
+  "nome": "Meu Certificado",
+  "sigla": "MC",
+  "descricao": "O Meu Certificado é um serviço desenvolvido pelo Instituto Nacional da Tecnologia da Informação, que permite aos usuários que consultem os certificados digitais em seu nome, emitidos pelas Autoridades Certificadoras credenciadas à ICP-Brasil.",
+  "flagPortalLogado": "N",
+  "contato": "sic\\_iti@iti.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://meucertificado.iti.gov.br",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Meu Certificado",
+        "id": 127447
+      },
+      {
+        "item": "Certificado Digital",
+        "id": 127448
+      },
+      {
+        "item": "Meu Certificado Digital",
+        "id": 127449
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106633,
+        "tipo": "Todos os cidadãos, inclusive organizações públicas e privadas,  que possui ou já possuiu Certificado Digital ativo, emitido pelas Autoridades Certificadoras credenciadas à ICP-Brasil.",
+        "requisitos": "Para ter acesso a aplicação o usuário deve ter acesso ao site gov.br através de dados cadastrais ou certificado digital. \n\n O usuário deve acessar o serviço diretamente pelo endereço [https://meucertificado.iti.gov.br](https://meucertificado.iti.gov.br/) ou pelo item Meu Certificado que estará disponível na plataforma gov.br na aba serviços. \n\n Acessando a aplicação em minutos, serão disponibilizadas as informações de todos os certificados, ativos ou não, emitidos pelas Autoridades Certificadoras credenciadas à ICP-Brasil."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/47388",
+    "dbId": 36799,
+    "nomeOrgao": "Instituto Nacional de Tecnologia da Informação (ITI)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 178287
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 178288
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 178289
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Meu Certificado",
+        "id": 424991
+      },
+      {
+        "item": "Certificado Digital",
+        "id": 424992
+      },
+      {
+        "item": "ICP Brasil",
+        "id": 424993
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 152861
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 780,
+    "negativas": 1259
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 249045,
+      "titulo": "Etapa 1",
+      "descricao": "2. **1.    ****Acesso ao serviço: **O usuário deve acessar o serviço diretamente pelo endereço [https://meucertificado.iti.gov.br](https://meucertificado.iti.gov.br/) ou pelo item Meu Certificado que estará disponível na plataforma gov.br na aba serviços, após isso realizar login no portal login único do gov.br.\n 4. **2.    ****Informações disponibilizadas:** Serial number, AC, Tipo de Uso, Emissão e Expiração.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 321853,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://www.gov.br/sso.acesso.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "38",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/meu-certificado",
+  "statusDestaque": false
+}

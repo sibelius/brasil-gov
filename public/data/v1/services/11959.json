@@ -1,0 +1,156 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11959",
+  "nome": "Buscar requerimento de regularização fundiária",
+  "sigla": "",
+  "descricao": "Consultar requerimento de regularização fundiária de posse em área rural federal efetuado via Plataforma de Governança Territorial ou pelo Sistema de Gestão Fundiária - Módulo Titulação.\n\n Na busca de requerimento, o interessado pode verificar o estágio do pedido de regularização fundiária de área rural federal.",
+  "flagPortalLogado": "N",
+  "contato": "Consulte a Coordenação-Geral de Regularização Fundiária do Sede do Incra pelo correio [coordenacao.fundiaria@incra.gov.br](mailto:coordenacao.fundiaria@incra.gov.br) ou o Serviço de Regularização Fundiária das Superintendências do Incra nos estados. [Consulte os endereços e telefones das unidades do Incra nos estados](https://www.gov.br/../../incra/pt-br/composicao/superintendencias-regionais).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://pro-pgt-incra.estaleiro.serpro.gov.br/pgt/home",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 46500
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 42995,
+        "tipo": "Ocupante de área rural federal que solicitou a regularização de sua posse por meio da Plataforma de Governança Territorial ou pelo Sistema de Gestão Fundiária - Módulo Titulação.",
+        "requisitos": "Ter apresentado pedido de regularização fundiária na Plataforma de Governança Territorial ou no Sistema de Gestão Fundiária - Módulo Titulação."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1799",
+    "dbId": 36785,
+    "nomeOrgao": "Instituto Nacional de Colonização e Reforma Agrária (INCRA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 69658
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imóveis"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Regularização fundiária",
+        "id": 160750
+      },
+      {
+        "item": "imóvel rural",
+        "id": 160751
+      },
+      {
+        "item": "Sistema de Gestão Fundiária - Módulo Titulaçã",
+        "id": 160752
+      },
+      {
+        "item": "",
+        "id": 160753
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 51154
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 34,
+    "negativas": 16
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 92615,
+      "titulo": "Consultar requerimento",
+      "descricao": "Acessar via internet a consulta de requerimento de regularização fundiária na Plataforma de Governança Territorial ou no Sistema de Gestão Fundiária - Módulo Titulação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 118072,
+            "tipo": "web-consultar",
+            "descricao": "[Para pesquisar na Plataforma de Governança Territorial, conecte-se com a conta gov.br e acesse \"Minhas Solicitações\" ou \"Meus Títulos\".](http://pro-pgt-incra.estaleiro.serpro.gov.br/pgt/home)\n\n [Buscar o requerimento no Sistema de Gestão Fundiária - Módulo Titulação.](https://sigeftitulacao.incra.gov.br/rural/publico/requerimentos)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10988",
+      "nome": "Regularizar ocupação em área rural da União"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "68",
+  "url": "https://www.gov.br/pt-br/servicos/buscar-requerimento-de-regularizacao-fundiaria",
+  "statusDestaque": false
+}

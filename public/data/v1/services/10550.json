@@ -1,0 +1,179 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10550",
+  "nome": "Recarregar crédito no Restaurante Universitário - UFES",
+  "sigla": "",
+  "descricao": "Recarga de crédito do cartão de acesso ao Restaurante Universitário da Universidade Federal do Espírito Santo (UFES).",
+  "flagPortalLogado": "N",
+  "contato": "**Setor:** Coordenação de Administração e Finanças - Diretoria de Gestão dos Restaurantes - Proaeci **Endereço:**  Av. Fernando Ferrari, 514, Goiabeiras, Vitória-ES, CEP: 29075-910. - No guichê de atendimento do prédio do Restaurante Universitário.   **Telefone:**  (27) 3335 7943 **E-mail:** cadastro.drg.proaeci@ufes.br  **Horário de atendimento presencial no guichê:**  09:30 às 13:30 16:30 às 19:00 **Horário de funcionamento interno:** 07:00 às 19:00 **Sítio eletrônico:**  [Restaurante Universitário](https://ru.ufes.br/)\n\n **Funcionamento especial na pandemia:**\n\n Para mais informações sobre o atendimento do Restaurante Universitário na pandemia, acesse a [página da Proaeci](https://proaeci.ufes.br/ \"Proaeci\") ou a [página do RU](https://ru.ufes.br/).",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://web7.ufes.br/gru-ru/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Recarga de cartão",
+        "id": 41616
+      },
+      {
+        "item": "Recarga de crédito",
+        "id": 41617
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 39162,
+        "tipo": "Estudante de graduação da Universidade Federal do Espírito Santo (UFES)\n\n Estudante de pós-graduação da Universidade Federal do Espírito Santo (UFES)\n\n Servidor docente da Universidade Federal do Espírito Santo (UFES)\n\n Servidor técnico administrativo da Universidade Federal do Espírito Santo (UFES)",
+        "requisitos": "Requisito: Possuir o cartão de acesso"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425",
+    "dbId": 57779,
+    "nomeOrgao": "Universidade Federal do Espírito Santo (UFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 63123
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Recarga",
+        "id": 144489
+      },
+      {
+        "item": "RU",
+        "id": 144490
+      },
+      {
+        "item": "Cartão",
+        "id": 144491
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 44998
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 83482,
+      "titulo": "Recarregar crédito",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 12201,
+            "descricao": "Recarga de crédito para aluno",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "A partir de R$ 5,00",
+            "statusCustoVariavel": 1
+          },
+          {
+            "id": 12202,
+            "descricao": "Recarga de crédito para servidor",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "A partir de R$ 9,50",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 106778,
+            "tipo": "web",
+            "descricao": "[http://web7.ufes.br/gru-ru/](http://web7.ufes.br/gru-ru/ \"Recarga RU\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 106779,
+            "tipo": "presencial",
+            "descricao": "Para recarga nos guichês, você precisa apenas do seu cartão de acesso. As recargas poderão ser realizadas por terceiros, caso o portador do cartão não possa comparecer aos guichês nos horários de funcionamento. Além disso, caso não esteja com o cartão de acesso, é permitida, somente para recarga, a identificação pelo nome completo do portador.\n\n Endereço: Av. Fernando Ferrari, 514, Goiabeiras, Vitória-ES, CEP: 29075-910.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 20,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "80",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-recarga-de-credito-no-restaurante-universitario",
+  "statusDestaque": false
+}

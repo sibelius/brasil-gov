@@ -1,0 +1,232 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/7634",
+  "nome": "Consultar informações de fabricantes de placa veicular",
+  "sigla": "",
+  "descricao": "É um serviço da Secretaria Nacional de Trânsito (SENATRAN) que consiste na consulta de informações de Fabricantes de Placa Veicular credenciados e habilitados para utilizar o Sistema Nacional de Emplacamento (WS-Emplaca).",
+  "flagPortalLogado": "N",
+  "contato": "+ [Central de serviços](https://form.omni.serpro.gov.br/upperScreenForm/2776)\n    \n\n   + Telefone: 08007282324\n    \n\n   + e-mail: css.serpro@serpro.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portalservicos.senatran.serpro.gov.br/#/home",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Consulta Fabricantes de Placa Veicular",
+        "id": 76998
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 67551,
+        "tipo": "Pessoas físicas ou jurídicas que:",
+        "requisitos": "+ Estejam cadastradas no Portal de Serviços do SENATRAN."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308818",
+    "dbId": 58154,
+    "nomeOrgao": "Ministério dos Transportes (MT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 106647
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 106648
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 106649
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 106650
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Trânsito"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "DENATRAN",
+        "id": 262231
+      },
+      {
+        "item": "Fabricantes de placas",
+        "id": 262232
+      },
+      {
+        "item": "placa de carro",
+        "id": 262233
+      },
+      {
+        "item": "placa de veículo",
+        "id": 262234
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 88004
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 25,
+    "negativas": 53
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 150684,
+      "titulo": "Realizar login",
+      "descricao": "Você deve realizar o login no Portal de Serviços SENATRAN com Certificado Digital ou Login com CPF/SENHA. Clique em \"Entrar com gov.br\" no canto superior direito da sua tela e insira seus dados.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 213271,
+            "nome": "CPF"
+          }
+        ],
+        "casos": [
+          {
+            "id": 33413,
+            "descricao": "Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 213270,
+                "codigo": null,
+                "descricao": "Certificado Digital",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 196529,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/home)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 150685,
+      "titulo": "Realizar Consulta",
+      "descricao": "Após o login, você deve localizar no canto esquerdo da página o bloco \"Veículo\" e ali clicar em \"Fabricantes de Placas\".\n\n   \nDepois de clicar em \"Fabricantes de Placas\", você poderá conferir os fabricantes habilitados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 196530,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://portalservicos.senatran.serpro.gov.br/#/veiculos/fabricantes)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7633",
+      "nome": "Consultar informações de estampadores de placa veicular"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/7632",
+      "nome": "Consultar online os dados de placa veicular"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "32",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-informacoes-de-fabricantes-de-placa-veicular",
+  "statusDestaque": false
+}

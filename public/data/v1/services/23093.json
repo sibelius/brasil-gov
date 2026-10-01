@@ -1,0 +1,283 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23093",
+  "nome": "Realizar Atendimento para Vítimas de Violência na Unidade de Urgência e Emergência da Maternidade Escola Januário Cicco (MEJC) - UFRN/HU Brasil",
+  "sigla": "",
+  "descricao": "A Unidade de Urgência e Emergência da MEJC presta assistência às pacientes vítimas de violência sexual pelo Programa de Atenção à Mulher e Adolescente em Situação de Violência Sexual (PROAMA) por demanda espontânea vindas dos distritos leste, oeste e sul do município de Natal, ou encaminhadas da 1ª região de saúde.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: 84 3215-8727.",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 118679
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 99271,
+        "tipo": "Mulheres que tenham sofrido violência sexual.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "90",
+      "unidade": "minutos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/200695",
+    "dbId": 32687,
+    "nomeOrgao": "EBSERH - Filial Maternidade Escola Januário Cicco (EBSERH-MEJC-UFRN)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 165541
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Urgências e Emergências"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Urgência",
+        "id": 396034
+      },
+      {
+        "item": "Emergência",
+        "id": 396035
+      },
+      {
+        "item": "Violência",
+        "id": 396036
+      },
+      {
+        "item": "EBSERH",
+        "id": 396037
+      },
+      {
+        "item": "MEJC",
+        "id": 396038
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 140303
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 231799,
+      "titulo": "Realizar procedimento de identificação",
+      "descricao": "Paciente se dirige à recepção do Pronto Atendimento Ginecológico e Obstétrico da MEJC para iniciar processo de acolhimento e classificação de risco.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 306707,
+            "nome": "* Cartão do SUS;\n * RG e CPF;\n * Comprovante de residência;\n * Se gestante, cartão do pré-natal."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299842,
+            "tipo": "presencial",
+            "descricao": "Recepção da urgência (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231800,
+      "titulo": "Realizar acolhimento e classificação de risco",
+      "descricao": "Após registro na recepção, paciente passa por Acolhimento e Classificação de Risco (CR) com a equipe de enfermagem, que define o grau de urgência e emergência:\n\n  * Vermelho: Atendimento imediato\n * Laranja: Atendimento em até 15 minutos\n * Amarelo: Atendimento em até 30 minutos\n * Verde: Atendimento em até 2 horas\n * Azul: Atendimento em até 4 horas",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299843,
+            "tipo": "presencial",
+            "descricao": "Recepção da urgência (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "10",
+          "unidade": "minutos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 10
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231801,
+      "titulo": "Realizar atendimento com assistente social e/ou psicologia",
+      "descricao": "Após classificação de risco, paciente será atendida pelo serviço social e/ou psicologia para acolhimento emocional e início do protocolo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299844,
+            "tipo": "presencial",
+            "descricao": "Recepção da urgência (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "60",
+          "unidade": "minutos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 60
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 231802,
+      "titulo": "Realizar atendimento médico",
+      "descricao": "Paciente será atendida pela equipe médica, a partir desse momento podemos ter solicitações de exames laboratoriais e de imagem, administração de profilaxia para HIV e sífilis, e para definição das condutas, como alta com retorno programado ou internação hospitalar.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 299845,
+            "tipo": "presencial",
+            "descricao": "Recepção da urgência (Acesso pela Rua Dr. Manoel Dantas, 484, Petrópolis, Natal/RN).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 4,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "71",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-atendimento-para-vitimas-de-violencia-na-unidade-de-urgencia-e-emergencia-da-maternidade-escola-januario-cicco-mejc",
+  "statusDestaque": false
+}

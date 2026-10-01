@@ -1,0 +1,164 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2232",
+  "nome": "Emitir comprovante de cadastro de beneficiário de plano de saúde",
+  "sigla": "",
+  "descricao": "Este serviço permite que você consulte e emita um comprovante com seus dados de contratação de planos de saúde.\n\n As informações são enviadas pelas operadoras e organizadas pela ANS, de forma resumida.\n\n O documento **não é obrigatório** **para [fazer a portabilidade de carências](https://www.gov.br/pt-br/servicos/pesquisar-planos-para-exercicio-da-portabilidade-de-carencias-ou-migracao-no-guia-ans-de-planos-de-saude).**\n\n Se você encontrar algum erro nos dados, entre em contato com sua operadora para pedir a correção. Se ela não resolver o problema, você pode [registrar uma reclamação na ANS](https://www.gov.br/pt-br/servicos/receber-reclamacoes-sobre-possiveis-praticas-irregulares-de-operadoras-de-planos-privados-de-assistencia-a-saude-inclusive-administradoras-de-beneficios).",
+  "flagPortalLogado": "N",
+  "contato": "Entrar em contato por meio do Disque ANS (0800.701.9656)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ans.gov.br/COMPROVA",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Comprova",
+        "id": 104239
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 87823,
+        "tipo": "Qualquer pessoa que tenha ou já tenha tido um plano de saúde.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 145000
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 145001
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "comprovante",
+        "id": 349006
+      },
+      {
+        "item": "cadastro",
+        "id": 349007
+      },
+      {
+        "item": "ans",
+        "id": 349008
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 121184
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 128,
+    "negativas": 351
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 202596,
+      "titulo": "Acessar o sistema e emitir o comprovante.",
+      "descricao": "Acesse o sistema Comprova, no Portal da ANS, e faça login com sua conta [gov.br](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br) . Depois do login, consulte seus dados e clique em **\"****Imprimir Comprovante\"** para emitir o documento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 276229,
+            "nome": "Você não precisa apresentar nenhuma documentação para usar este serviço. Basta ter uma conta no [gov.br](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br) e saber seu CPF e a senha. Se ainda não tiver uma conta, você pode criar uma nova conta."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 263877,
+            "tipo": "web-emitir",
+            "descricao": "[Sistema Comprova](http://www.ans.gov.br/COMPROVA)[  \n](http://www.ans.gov.br/COMPROVA)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "27",
+  "totalSimplifique": "1",
+  "simplifiqueSolicitacoes": "0",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-comprovante-de-dados-cadastrais-do-consumidor-junto-a-ans",
+  "statusDestaque": false
+}

@@ -1,0 +1,339 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6715",
+  "nome": "Participar de Processo Seletivo para curso de graduação - UFCA",
+  "sigla": "",
+  "descricao": "Se você deseja fazer graduação na Universidade, você precisa concorrer a uma vaga no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "Pró-Reitoria de Ensino - 32219268 - cca.proen@ufca.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sig.ufca.edu.br/sigps-mvc-web/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SISU - Sistema de Seleção Unificada",
+        "id": 109571
+      },
+      {
+        "item": "Admissão de transferidos",
+        "id": 109572
+      },
+      {
+        "item": "Admissão de graduados.",
+        "id": 109573
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 92248,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "16",
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 16,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/122391",
+    "dbId": 57777,
+    "nomeOrgao": "Universidade Federal do Cariri  (UFCA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 152908
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Processo seletivo",
+        "id": 366011
+      },
+      {
+        "item": "Vestibular",
+        "id": 366012
+      },
+      {
+        "item": "Graduação",
+        "id": 366013
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 127118
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 6,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 213686,
+      "titulo": "Convocação nominal",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277696,
+            "tipo": "web",
+            "descricao": "Acesse o [Sistema Integrado de GestÃ£o de Processos Seletivos (SIGPS UFCA)](https://sig.ufca.edu.br/sigps-mvc-web/login \"SIGPS UFCA\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213687,
+      "titulo": "Entrega da documentação",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 287826,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 287827,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 287828,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 287829,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 287830,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 287831,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 287832,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 287833,
+            "nome": "CPF"
+          },
+          {
+            "id": 287834,
+            "nome": "Diploma"
+          },
+          {
+            "id": 287835,
+            "nome": "NIS"
+          },
+          {
+            "id": 287836,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 287837,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277697,
+            "tipo": "web",
+            "descricao": "Acesse o [Sistema Integrado de Gestão de Processos Seletivos (SIGPS UFCA)](https://sig.ufca.edu.br/sigps-mvc-web/login \"SIGPS UFCA\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213688,
+      "titulo": "Resultado parcial",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277698,
+            "tipo": "web",
+            "descricao": "[Acesse o ](https://www.gov.br/sisu.ufca.edu.br)[Sistema Integrado de Gestão de Processos Seletivos (SIGPS UFCA)](https://sig.ufca.edu.br/sigps-mvc-web/login \"SIGPS UFCA\")[  \n](https://www.gov.br/sisu.ufca.edu.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 213689,
+      "titulo": "Resultado Final",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 277699,
+            "tipo": "web",
+            "descricao": "Resultado Final disponÃ­vel no [portal da UFCA](https://www.ufca.edu.br \"Portal da UFCA\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "75",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/participar-de-processo-seletivo-para-curso-de-graduacao-ufca",
+  "statusDestaque": false
+}

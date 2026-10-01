@@ -1,0 +1,229 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11064",
+  "nome": "Solicitar o saneamento de curso na base do Sistema e-MEC no caso de curso presencial idêntico a outro curso da IES",
+  "sigla": "",
+  "descricao": "A solicitação para Instituições com cursos de graduação presenciais que possuem denominação, grau e endereço iguais com diferentes códigos no Cadastro no Sistema e-MEC.",
+  "flagPortalLogado": "S",
+  "contato": "Com Núcleo de Apoio e Atendimento Integrado, canal institucional de comunicação da SERES, que possuí uma equipe especializada para atendimento aos Representantes das Instituições de Educação Superior (IES), o contato pode ser realizado no endereço https://mecsp.metasix.solutions/portal ou pelo telefone (61) 2022-8199.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://solicitacao.servicos.gov.br/processos/iniciar",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Extinguir curso por duplicidade",
+        "id": 126212
+      },
+      {
+        "item": "Unificar de código de curso por duplicidade",
+        "id": 126213
+      },
+      {
+        "item": "Extinguir curso presencial por duplicidade",
+        "id": 126214
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105583,
+        "tipo": "Instituições de Educação Superior - IES",
+        "requisitos": "Ser o Procurador Institucional – PI da IES conforme cadastro no Sistema e-MEC"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244",
+    "dbId": 37528,
+    "nomeOrgao": "Ministério da Educação (MEC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 176477
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 176478
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 176479
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cursos de Graduação; ",
+        "id": 420339
+      },
+      {
+        "item": "Duplicidade de Código de Curso de Graduação;",
+        "id": 420340
+      },
+      {
+        "item": "Unificação de Código de Curso de Graduação.",
+        "id": 420341
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Decreto nº 9.235/2020; Portaria Normativa nº 21/2017",
+        "id": 151454
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 246424,
+      "titulo": "Preencher Formulário de Solicitação",
+      "descricao": "Etapa em que o Procurador Institucional da IES preenche as informações no Formulário de Solicitação conforme indicado abaixo:",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322271,
+            "nome": "Formulário de Solicitação, contendo:\n\n  * Código e denominação do curso a ser mantido; e\n * respectivo(s) código(s) de Curso(s) a ser extinto(s) por duplicidade"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318686,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://solicitacao.servicos.gov.br/processos/iniciar?codServico=11064)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318687,
+            "tipo": "postal",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 318688,
+            "tipo": "presencial",
+            "descricao": "Esplanada dos Ministérios - Edifício Sede - Cep: 70047-900 - Brasília – DF",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 246425,
+      "titulo": "Buscar Resultado o Site",
+      "descricao": "Se a análise das informações for satisfatória, a alteração é realizada no Sistema e-MEC. Caso contrário, a IES é informada da impossibilidade do atendimento. É enviado comunicado para a Instituição por meio do Sistema e-MEC.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 318689,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://emec.mec.gov.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-o-saneamento-de-curso-na-base-do-sistema-e-mec-no-caso-de-curso-presencial-identico-a-outro-curso-da-ies",
+  "statusDestaque": false
+}

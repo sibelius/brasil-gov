@@ -1,0 +1,202 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11466",
+  "nome": "Pagar à vista débito de Ressarcimento ao SUS",
+  "sigla": "",
+  "descricao": "Este serviço permite que as operadoras de planos de saúde paguem, à vista, débitos de [Ressarcimento ao SUS](http://https://www.gov.br/ans/pt-br/assuntos/operadoras/compromissos-e-interacoes-com-a-ans-1/espaco-ressarcimento-ao-sus-1), vencidos ou a vencer, desde que ainda não tenham sido enviados para inscrição em dívida ativa.  \n\n Após o envio para cobrança como dívida ativa, o pagamento deve ser solicitado à Procuradoria Federal junto à ANS.",
+  "flagPortalLogado": "N",
+  "contato": "Caso haja dúvidas, encaminhe e-mail para o endereço: [ressarcimento@ans.gov.br](mailto:ressarcimento@ans.gov.br).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.ans.gov.br/portal/site/ressarcimento/pardal/default.asp?f=dfc",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 112485
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94441,
+        "tipo": "Operadoras de planos de saúde que possuam débitos de ressarcimento ao SUS vencidos e a vencer, ainda não inscritos em dívida ativa",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013",
+    "dbId": 910,
+    "nomeOrgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 156881
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Planos de Saúde"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "pagamento",
+        "id": 375609
+      },
+      {
+        "item": "ressarcimento ao sus",
+        "id": 375610
+      },
+      {
+        "item": "ans",
+        "id": 375611
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução Normativa - RN n° 502, de 30 de março de 2022.](http://https://www.ans.gov.br/component/legislacao/?view=legislacao&task=textoLei&format=raw&id=NDE2Mg==)",
+        "id": 131363
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 13,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 219348,
+      "titulo": "Acessar o serviço pela área do sistema.  (Apenas para débitos a vencer)",
+      "descricao": "As Operadoras com débito a vencer devem buscar a GRU desejada na seção de notificação da ANS.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 284784,
+            "tipo": "web",
+            "descricao": "[Acesse o sistema](http://www.ans.gov.br/portal/site/ressarcimento/pardal/default.asp?f=dfc).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 219349,
+      "titulo": "Solicitar GRU com nova data de vencimento (Apenas para débitos vencidos)",
+      "descricao": "Para GRUs vencidas, a operadora pode regularizar a situação por dois meios: **(1) **Acessando o** Protocolo Eletrônico da ANS**, informando dados da operadora, número da GRU e nova data de vencimento; ou (2) enviando um **e-mail **para ressarcimento@ans.gov.br com os dados da operadora, número da GRU, nova data de vencimento e, se aplicável, documentos do representante.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 293318,
+            "nome": "A solicitação de emissão da GRU deve conter os dados básicos da operadora (registro ANS e razão social), o número da GRU e a nova data de vencimento, que pode ser definida pelo solicitante, inclusive antes do vencimento original. Devem ser enviados documentos de identificação do representante apenas quando a solicitação ocorrer por e-mail sem domínio cadastrado na ANS. Em pedidos feitos via Protocolo Eletrônico ou e-mail institucional, pressupõe-se a autenticidade do solicitante."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 284785,
+            "tipo": "web",
+            "descricao": "[Protocolo Eletrônico](http://https://www.gov.br/ans/pt-br/acesso-a-informacao/institucional/protocolo/usuarios-externos-1/protocolo-eletronico).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 284786,
+            "tipo": "e-mail",
+            "descricao": "A operadora devera enviar e-mail para [ressarcimento@ans.gov.br](mailto:ressarcimento@ans.gov.br).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "57",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/pagar-a-vista-debito-de-ressarcimento-ao-sus",
+  "statusDestaque": false
+}

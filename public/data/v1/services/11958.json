@@ -1,0 +1,164 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11958",
+  "nome": "Consultar requerimento de certificação de imóvel rural",
+  "sigla": "",
+  "descricao": "Consultar o requerimento de certificação de imóvel rural no Sistema de Gestão Fundiária (Sigef) do Incra.",
+  "flagPortalLogado": "N",
+  "contato": "[Serviço de Cartografia das Superintendências Regionais do Incra.](http://www.gov.br/incra/pt-br/composicao/superintendencias-regionais) Os contatos da Coordenação-Geral de Cartografia do Incra são [coordenacao.cartografia@incra.gov.br](mailto:coordenacao.cartografia@incra.gov.br) e (61) 3411-7374.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sigef.incra.gov.br/consultar/requerimentos/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 95747
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 81345,
+        "tipo": "O profissional credenciado no Incra para realizar o georreferenciamento e a certificação do imóvel rural.\n\n O dententor de imóvel rural certificado ou em processo de certificação no Incra.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1799",
+    "dbId": 36785,
+    "nomeOrgao": "Instituto Nacional de Colonização e Reforma Agrária (INCRA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 132758
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 132759
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 132760
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Imóveis"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Imóvel rural",
+        "id": 322722
+      },
+      {
+        "item": "Certificação",
+        "id": 322723
+      },
+      {
+        "item": "Georreferenciamento",
+        "id": 322724
+      },
+      {
+        "item": "Sistema de Gestão Fundiária (Sigef)",
+        "id": 322725
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 110651
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 22,
+    "negativas": 30
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 184775,
+      "titulo": "Consultar o requerimento",
+      "descricao": "Acessar via internet a consulta de requerimento do Sistema de Gestão Fundiária (Sigef).\n\n O interessado deve informar um dos seguintes requisitos para consulta:\n\n  * Protocolo do requerimento;\n * CPF ou CNPJ do detentor do imóvel rural;\n * Nome/Razação social do detentor do imóvel rural;\n * Código da parcela certificada;\n * Número da matrícula da parcela certificada;\n * Código do credenciado responsável pelo georreferenciamento da parcela;\n * Código do imóvel no Incra;\n * Número do processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 242569,
+            "tipo": "web-acompanhar",
+            "descricao": "[Consultar o requerimento no Sistema de Gestao FundiÃ¡ria.](https://sigef.incra.gov.br/consultar/requerimentos/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "42",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/consultar-requerimento-de-certificacao-de-imovel-rural",
+  "statusDestaque": false
+}

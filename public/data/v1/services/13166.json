@@ -1,0 +1,284 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13166",
+  "nome": "Realizar consulta na Unidade Básica de Saúde (UBS) Santa Cecília - HCPA",
+  "sigla": "UBS",
+  "descricao": "A UBS Santa Cecília é um serviço de Atenção Primária à Saúde vinculado ao Hospital de Clínicas de Porto Alegre (HCPA), como área de ensino da Universidade Federal do Rio Grande do Sul (UFRGS). É formada por 4 Equipes de Atenção Primária responsáveis pelo cuidado da população cadastrada. A atenção à saúde é prestada por médicos/as, enfermeiras, assistente social, farmacêutica e nutricionista, juntamente com os professores da UFRGS, residentes e estudantes de graduação e pós-graduação.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações ou dúvidas sobre este serviço, entre em contato Telefone (51) 3359-8685. Para registrar reclamações ou sugestões favor acessar: https://www.hcpa.edu.br/fale-conosco/ouvidoria/registre-sua-manifestacao ou envie e-mail para ouvidoria@hcpa.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "UNIDADE BÁSICA DE SAÚDE",
+        "id": 118103
+      },
+      {
+        "item": "UBS SANTA CECÍLIA",
+        "id": 118104
+      },
+      {
+        "item": "UBS HCPA",
+        "id": 118105
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98952,
+        "tipo": "Usuários cadastrados na UBS Santa Cecília.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/258",
+    "dbId": 36614,
+    "nomeOrgao": "Hospital de Clínicas de Porto Alegre (HCPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 165039
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Posto de saúde",
+        "id": 394567
+      },
+      {
+        "item": "Postinho",
+        "id": 394568
+      },
+      {
+        "item": "Unidade Básica de Saúde",
+        "id": 394569
+      },
+      {
+        "item": "Saúde da Família",
+        "id": 394570
+      },
+      {
+        "item": "Atenção Primária",
+        "id": 394571
+      },
+      {
+        "item": "Santa Cecília",
+        "id": 394572
+      },
+      {
+        "item": "Consulta",
+        "id": 394573
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 139527
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 16,
+    "negativas": 23
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário pessoas com deficiência, os idosos com idade igual ou superior a 80 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000. Em algumas circunstâncias pode ser necessário antecipar o atendimento conforme a gravidade. Caso identifique alguma emergência o usuário será encaminhado pela equipe assistente para o serviço de saúde definido pela regulação.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 230947,
+      "titulo": "Agendar consulta",
+      "descricao": "Para o agendamento da consulta o usuário deverá escolher um dos tipos de consulta:\n\n  * consulta presencial\n * consulta remota entre os profissionais de sua equipe de referência. A consulta remota pode ser realizada pelo APP Meu Clínicas ou por telefone.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 305127,
+            "nome": "Cartão do SUS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298812,
+            "tipo": "presencial",
+            "descricao": "Comparecer à UBS na Rua São Manoel 543, Bairro Santa Cecília, Porto Alegre RS, horários: de segunda a sexta-feira das 8h às 18h, exceto quarta-feira atendemos no horário das 8h às 12h e das 14h às 18h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 298813,
+            "tipo": "telefone",
+            "descricao": "Canal do idoso: de terça-feira a sexta-feira, no telefone: 3359-8685, das 9h30 às 12h e de 14h às 17h.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 298814,
+            "tipo": "aplicativo-movel",
+            "descricao": "Pelo aplicativo Meu Clínicas que está disponível para download na: Google Play < https://play.google.com/store/apps/details?id=br.edu.hcpa.meuclinicas&pli=1 > Apple < https://apps.apple.com/br/app/meu-cl%C3%ADnicas/id1541719546 > Web : Acesse o site https://www.hcpa.edu.br/",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 230948,
+      "titulo": "Confirmar presença",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 305128,
+            "nome": "Cartão do SUS"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298815,
+            "tipo": "presencial",
+            "descricao": "Apresentar-se no balcão da recepção da UBS 30 min antes da hora agendada, munido da documentação, para receber orientação de onde aguardar para ser chamado ao atendimento.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 230949,
+      "titulo": "Realizar a consulta",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 298816,
+            "tipo": "presencial",
+            "descricao": "O profissional assistente chama o usuário pelo nome para atendimento na consulta presencial.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 298817,
+            "tipo": "telefone",
+            "descricao": "O usuário deverá estar logado pelo APP Meu Clínicas, ou aguardar a ligação telefônica durante o turno agendado.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 15,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "41",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-consulta-na-unidade-basica-de-saude-ubs-santa-cecilia-hcpa",
+  "statusDestaque": false
+}

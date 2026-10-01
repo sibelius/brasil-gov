@@ -1,0 +1,345 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23998",
+  "nome": "Enviar à Antaq o inventário patrimonial e a Lista de Bens Reversíveis dos portos organizados",
+  "sigla": "SisPAT",
+  "descricao": "O envio anual do inventário patrimonial e da Lista de Bens Reversíveis é uma obrigação periódica das autoridades portuárias e dos arrendatários dos portos organizados, conforme a [Resolução ANTAQ nº 43/2021](https://sophia.antaq.gov.br/Terminal/acervo/detalhe/28313). O prazo final é 30 de abril de cada ano ([Resolução ANTAQ nº 75/2022](https://sophia.antaq.gov.br/Terminal/acervo/detalhe/31169)).\n\n O serviço é operacionalizado pelo Sistema de Controle Patrimonial dos Portos Organizados (SisPAT), reformulado em 2026 para reduzir o retrabalho, minimizar erros de digitação, padronizar o formato de envio e diminuir o custo regulatório dos entes regulados. O sistema permite o envio dos dados por três caminhos complementares: cadastro direto pela interface web, importação por planilha Excel validada e integração via API a partir dos sistemas próprios dos regulados.\n\n Ao concluir o envio dentro do prazo, o regulado cumpre sua obrigação anual de prestação de informações patrimoniais à Agência. Os dados enviados sustentam, entre outras decisões regulatórias, a análise dos pleitos de incorporação e desincorporação de bens da União ao acervo patrimonial dos portos organizados.",
+  "flagPortalLogado": "N",
+  "contato": "[inventario@antaq.gov.br](mailto:inventario@antaq.gov.br?subject=Acesso ao SisPAT \"inventario@antaq.gov.br\")",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://prd-apex.antaq.gov.br/ords/r/sfc/sispat",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Inventário SisPAT",
+        "id": 117716
+      },
+      {
+        "item": "Inventário de bens dos portos",
+        "id": 117717
+      },
+      {
+        "item": "Lista de Bens Reversíveis",
+        "id": 117718
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 98661,
+        "tipo": "Autoridades portuárias dos portos organizados",
+        "requisitos": "Ser autoridade portuária responsável pela administração de porto organizado regulado pela ANTAQ. Possuir acesso ao SisPAT, solicitado previamente pelo e-mail [inventario@antaq.gov.br](mailto:inventario@antaq.gov.br?subject=Acesso ao SisPAT \"inventario@antaq.gov.br\") informando nome completo, CPF, e-mail institucional e CNPJ do porto/organização (o CNPJ deve ser o mesmo que consta no contrato firmado com a ANTAQ)."
+      },
+      {
+        "id": 98662,
+        "tipo": "Arrendatários de áreas e instalações portuárias em portos organizados",
+        "requisitos": "Ser arrendatário de área ou instalação portuária em porto organizado, com contrato vigente. Possuir acesso ao SisPAT, solicitado previamente pelo e-mail [inventario@antaq.gov.br](mailto:inventario@antaq.gov.br?subject=Acesso ao SisPAT \"inventario@antaq.gov.br\") informando nome completo, CPF, e-mail institucional e CNPJ do arrendatário (o CNPJ deve ser o mesmo que consta no contrato de arrendamento firmado com a autoridade portuária)."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "2",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 2
+  },
+  "validadeDocumento": {
+    "tipo": "Válido por",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O envio do inventário patrimonial e da Lista de Bens Reversíveis deve ser repetido a cada exercício, com prazo final em 30 de abril, conforme a Resolução ANTAQ nº 75/2022. O cumprimento de um exercício não dispensa o envio do exercício seguinte."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 164551
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 164552
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "inventário patrimonial",
+        "id": 393259
+      },
+      {
+        "item": "inventário de bens",
+        "id": 393260
+      },
+      {
+        "item": "bens reversíveis",
+        "id": 393261
+      },
+      {
+        "item": "lista de bens reversíveis",
+        "id": 393262
+      },
+      {
+        "item": "controle patrimonial",
+        "id": 393263
+      },
+      {
+        "item": "patrimônio dos portos",
+        "id": 393264
+      },
+      {
+        "item": "porto organizado",
+        "id": 393265
+      },
+      {
+        "item": "autoridade portuária",
+        "id": 393266
+      },
+      {
+        "item": "arrendatário portuário",
+        "id": 393267
+      },
+      {
+        "item": "incorporação de bens",
+        "id": 393268
+      },
+      {
+        "item": "desincorporação de bens",
+        "id": 393269
+      },
+      {
+        "item": "SisPAT",
+        "id": 393270
+      },
+      {
+        "item": "Resolução 43/2021",
+        "id": 393271
+      },
+      {
+        "item": "Resolução 75/2022",
+        "id": 393272
+      },
+      {
+        "item": "ANTAQ",
+        "id": 393273
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução ANTAQ nº 43, de 31 de março de 2021](https://sophia.antaq.gov.br/Terminal/acervo/detalhe/28313) — estabelece critérios e procedimentos para a reversibilidade e o controle de bens da União nos portos organizados.",
+        "id": 138891
+      },
+      {
+        "item": "[Resolução ANTAQ nº 49, de 26 de julho de 2021](https://sophia.antaq.gov.br/terminal/Acervo/Detalhe/29031) — adota o Manual de Contas do Setor Portuário como método contábil auxiliar padronizado obrigatório para todas as administrações dos portos organizados e como referência para a contabilidade regulatória dos demais agentes regulados.",
+        "id": 138892
+      },
+      {
+        "item": "[Resolução ANTAQ nº 75, de 2 de junho de 2022](https://sophia.antaq.gov.br/Terminal/acervo/detalhe/31169) — estabelece obrigações para a prestação de serviço adequado e define as respectivas infrações administrativas para as administrações dos portos organizados, arrendatários, operadores portuários e autorizatários. Entre as obrigações instituídas está o envio anual do inventário patrimonial à ANTAQ até 30 de abril.",
+        "id": 138893
+      },
+      {
+        "item": "[Resolução ANTAQ nº 121, de 23 de outubro de 2024](https://juris.antaq.gov.br/index.php/2024/10/24/121-2024/) — aprova o Manual de Contas do Setor Portuário – Versão 2024, dando vigência à aplicação do ICPC 01 às concessões portuárias brasileiras.",
+        "id": 138894
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 230233,
+      "titulo": "Solicitar acesso ao SisPAT",
+      "descricao": "O regulado solicita acesso ao SisPAT enviando um e-mail para [inventario@antaq.gov.br](mailto:inventario@antaq.gov.br?subject=Acesso ao SisPAT \"inventario@antaq.gov.br\") com nome completo, CPF, e-mail institucional e CNPJ do porto/organização. O CNPJ informado deve ser o mesmo que consta no contrato firmado entre o porto/organização e a ANTAQ. Após validação, a equipe do SisPAT libera o acesso e envia as instruções de primeiro login.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 303912,
+            "nome": "Nome completo do solicitante\n\n CPF do solicitante\n\n E-mail institucional do solicitante\n\n CNPJ do porto/organização (deve ser o mesmo que consta no contrato firmado com a ANTAQ)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 297910,
+            "tipo": "e-mail",
+            "descricao": "inventario@antaq.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 230234,
+      "titulo": "Acessar o SisPAT e enviar o inventário patrimonial e a Lista de Bens Reversíveis",
+      "descricao": "Com o acesso liberado, o regulado entra no SisPAT e envia o inventário patrimonial e a Lista de Bens Reversíveis correspondentes ao exercício, escolhendo um dos três caminhos disponíveis: cadastro direto pela interface web, importação por planilha Excel validada antes do envio, ou integração via API a partir do sistema próprio. Para usar a planilha ou a API, basta gerar a chave de API na própria interface web do SisPAT — não é preciso solicitar à ANTAQ.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 303913,
+            "nome": "Inventário patrimonial completo do exercício, conforme parâmetros do [Manual de Inventário de Bens da ANTAQ](https://wiki.antaq.gov.br/pt/manual-inventario-de-bens).\n\n Lista de Bens Reversíveis atualizada"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 297911,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://prd-apex.antaq.gov.br/ords/r/sfc/sispat/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 297912,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://antaq.github.io/sispat-api/upload.html) (importação por planilha Excel)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 297913,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://antaq.github.io/sispat-api/) (documentação da API para integração entre sistemas)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 230235,
+      "titulo": "Conferir a validação e corrigir eventuais erros",
+      "descricao": "Após o envio, o regulado deve conferir o resultado da validação automática do SisPAT. Em caso de inconsistências apontadas, os dados devem ser corrigidos e reenviados até que a validação acuse sucesso. O envio só é considerado concluído após a validação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 297914,
+            "tipo": "web-consultar",
+            "descricao": "[ Consultar](https://prd-apex.antaq.gov.br/ords/r/sfc/sispat/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/2244",
+      "nome": "Obter autorização da Antaq para incorporação/desincorporação de bens da União ao/do acervo patrimonial dos portos organizados."
+    }
+  ],
+  "tempoMediaEspera": "2",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "S",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/enviar-a-antaq-o-inventario-patrimonial-e-a-lista-de-bens-reversiveis-dos-portos-organizados",
+  "statusDestaque": true
+}

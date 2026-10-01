@@ -1,0 +1,196 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11132",
+  "nome": "Contestar faturas (APS S.A.)",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá efetuar a contestação de fatura com a qual não esteja de acordo.",
+  "flagPortalLogado": "S",
+  "contato": "Gerência de Faturamento\n\n Telefone (13) 3202-6565 ramal 2517",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 108885
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 91603,
+        "tipo": "Empresas que queiram contestar faturas em razão de discordância de valores",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 151922
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "fatura ",
+        "id": 363555
+      },
+      {
+        "item": "contestação ",
+        "id": 363556
+      },
+      {
+        "item": "valores",
+        "id": 363557
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 126502
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 11,
+    "negativas": 25
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 212491,
+      "titulo": "Efetuar contestação",
+      "descricao": "O interessado deve realizar contestação, até 06 dias da data da emissão da fatura, por carta protocolada à Gerência de Faturamento, via e-mail, fundamentada, com logotipo da empresa, datada e assinada, original, pelo seu representante legal ou preposto. Não são aceitas cartas de terceiros. No caso de parcial, deverá ser efetuado o depósito do valor correto, a ser confirmado pela GERFA.Caso o erro seja do requerente ou não seja obedecido o prazo, o pagamento deverá ser efetuado em sua totalidade",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 286267,
+            "nome": "Devem estar em anexo à carta de contestação, a via da fatura, Nota Fiscal (se houver) e o respectivo comprovante de quitação ou depósito parcial, conforme o caso, obrigatoriamente.\n\n É facultada a solicitação de restituição do valor pago a maior, sujeito a análise."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276236,
+            "tipo": "e-mail",
+            "descricao": "Gerência de Faturamento\n\n faturamento.contestacao-faturas@portodesantos.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 212492,
+      "titulo": "Análise e resultado",
+      "descricao": "Após análise quanto a procedência do pedido de contestação, em caso de indeferimento, o requisitante é comunicado com as devidas explanações para a efetivação do pagamento integral. No caso de deferimento da contestação, a fatura é cancelada e, quando o caso, substituída por outra com novo valor, sendo encaminhada ao solicitante.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 276237,
+            "tipo": "e-mail",
+            "descricao": "A fatura substituta, quando houver, será enviada pela Supervisão de Tesouraria e Contas a Receber ao e-mail do solicitante",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "31",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/contestacao-de-faturas",
+  "statusDestaque": false
+}

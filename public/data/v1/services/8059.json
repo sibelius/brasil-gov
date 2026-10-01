@@ -1,0 +1,362 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/8059",
+  "nome": "Solicitar habilitação, recadastramento ou renovação de Operador de Transporte Multimodal de Cargas",
+  "sigla": "OTM",
+  "descricao": "Compreende a solicitação de habilitação como Operador de Transporte Multimodal, recadastramento ou renovação do COTM.",
+  "flagPortalLogado": "N",
+  "contato": "**Coordenação de Transporte Multimodal de Cargas e Logística Integrada (CTLOG) - ctlog@antt.gov.br  \nOuvidoria - ouvidoria@antt.gov.br ou telefone 166  \nDúvidas relacionadas às solicitações: (61) 3410-1233**",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0#",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 106578
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 89731,
+        "tipo": "Empresas brasileiras ou estrangeiras que queiram se habilitar.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "45",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 45
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793",
+    "dbId": 913,
+    "nomeOrgao": "Agência Nacional de Transportes Terrestres (ANTT)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 148625
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Transporte de Cargas"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "OTM",
+        "id": 356331
+      },
+      {
+        "item": "HABILITAÇÃO",
+        "id": 356332
+      },
+      {
+        "item": "CERTIFICADO",
+        "id": 356333
+      },
+      {
+        "item": "MULTIMODAL",
+        "id": 356334
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Resolução nº 794, de 22 de novembro de 2004](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&cod_modulo=161&cod_menu=5412&num_ato=00000794&sgl_tipo=RES&sgl_orgao=DG/ANTT/MT&vlr_ano=2004&seq_ato=000)",
+        "id": 124142
+      },
+      {
+        "item": "[Resolução nº 5.908, de 15 de setembro de 2020](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&num_ato=00005908&sgl_tipo=RES&sgl_orgao=DG/ANTT/MI&vlr_ano=2020&seq_ato=000)",
+        "id": 124143
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 50,
+    "negativas": 343
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 208185,
+      "titulo": "Solicitar habilitação",
+      "descricao": "Etapa destinada ao cadastro de solicitação de habilitação. Nessa etapa devem ser preenchidas as informações da empresa, de seu representante e, no caso de empresa estrangeira, do Certificado emitido no país de origem, caso possua.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 281848,
+            "nome": "Contrato ou Estatuto social registrados na junta comercial"
+          }
+        ],
+        "casos": [
+          {
+            "id": 43176,
+            "descricao": "Inscrição para atuação nos termos do Decreto nº 1.563, de 1995",
+            "documento": [
+              {
+                "id": 281846,
+                "codigo": null,
+                "descricao": "Comprovação de patrimônio mínimo em bens ou equipamentos equivalente a 80.000 DES (oitenta mil Direitos Especiais de Saque), ou aval bancário ou seguro de caução equivalente.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 43177,
+            "descricao": "Empresa estrangeira",
+            "documento": [
+              {
+                "id": 281847,
+                "codigo": null,
+                "descricao": "Procuração do representante legal",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270572,
+            "tipo": "web",
+            "descricao": "[Acesse o site](http://sei.antt.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270573,
+            "tipo": "postal",
+            "descricao": "[Sede da ANTT](http://www.antt.gov.br/textogeral/Enderecos.html \"SEDE ANTT\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270574,
+            "tipo": "presencial",
+            "descricao": "[Sede da ANTT](http://www.antt.gov.br/textogeral/Enderecos.html \"SEDE ANTT\")",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208186,
+      "titulo": "Receber reposta sobre análise da documentação",
+      "descricao": "Análise da documentação, envio de email para ANTAQ e ANP se manifestarem quanto à habilitação e emissão de parecer. Em caso de indeferimento, o parecer é enviado para o requerente. Em caso de deferimento é emitida a Decisão SUROC de habilitação e encaminhada para ciência da Diretoria e posterior publicação na Imprensa Oficial. Após publicação, é emitido o COTM pela área técnica e enviado para o requerente e Organismos competentes, quando for o caso.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270575,
+            "tipo": "e-mail",
+            "descricao": "ctlog@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270576,
+            "tipo": "web",
+            "descricao": "Portal ANTT - Portaria SUROCÂ [Acesse o site](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=categorias&cod_modulo=421&menuOpen=true)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270577,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI: [Acesse o site](https://portal.antt.gov.br/web/guest/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "45",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 45
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208187,
+      "titulo": "Realizar recurso, quando for o caso.",
+      "descricao": "Recursos podem ser feitos a qualquer tempo pelos meios de peticionamento disponíveis.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270578,
+            "tipo": "e-mail",
+            "descricao": "ctlog@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270579,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI: [Acesse o site](https://portal.antt.gov.br/web/guest/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 208188,
+      "titulo": "Aprovação tácita, quando for o caso.",
+      "descricao": "Aprovação tácita em até 45 (quarenta e cinco)  dias úteis desde que atendidos os requisitos previstos na Resolução ANTT nº 794, de 2004, e, para empresas que pretendam atuar no âmbito do Mercosul, os requisitos previstos no Decreto nº 1.563, de 1995.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 270580,
+            "tipo": "e-mail",
+            "descricao": "clog@antt.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 270581,
+            "tipo": "web",
+            "descricao": "Sistema Eletrônico de Informações - SEI: [Acesse o site](https://portal.antt.gov.br/web/guest/sei)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "45",
+  "percentualAvaliacoesPositivas": "13",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-habilitacao-recadastramento-ou-renovacao-de-operador-de-transporte-multimodal-de-cargas",
+  "statusDestaque": false
+}

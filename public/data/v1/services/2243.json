@@ -1,0 +1,403 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/2243",
+  "nome": "Obter autorização da Antaq para revisão/reajuste das tarifas portuárias.",
+  "sigla": "",
+  "descricao": "Obter autorização da Antaq para a revisão ou o reajuste das tarifas cobradas pelo porto das empresas arrendatárias e usuários em geral, nos termos do art. 27, inciso VII, da Lei nº 10.233, de 2001.\n\n Revisão realizada a pedido ou promovida de ofício pela Antaq quando da ocorrência de fatos ou situações não previstos, que alteraram de forma estrutural a compatibilidade entre as condições da prestação dos serviços e o equilíbrio econômico-financeiro da estrutura tarifária vigente.\n\n Atualização monetária (reajuste) de uma ou mais modalidades tarifárias existentes no porto organizado, tendo como referência a aplicação da variação percentual de índices de preços em um período mínimo de 1 (um) ano.",
+  "flagPortalLogado": "N",
+  "contato": "Para mais informações ou dúvidas sobre este serviço, entre em contato pelo e-mail [GRP@antaq.gov.br](mailto:GRP@antaq.gov.br?subject=INFORMA%C3%87%C3%95ES%20E%20D%C3%9AVIDAS%20SOBRE%20SERVI%C3%87O%20DA%20ANTAQ)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Tarifas portuárias",
+        "id": 30874
+      },
+      {
+        "item": "Revisão",
+        "id": 30875
+      },
+      {
+        "item": "Reajuste",
+        "id": 30876
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 30525,
+        "tipo": "Autoridades Portuárias",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54843",
+    "dbId": 912,
+    "nomeOrgao": "Agência Nacional de Transportes Aquaviários (ANTAQ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 48691
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 48692
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Revisão",
+        "id": 109522
+      },
+      {
+        "item": "Reajuste",
+        "id": 109523
+      },
+      {
+        "item": "Tarifas portuárias ",
+        "id": 109524
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei nº 9.784, de 29 de janeiro de 1999](http://www.planalto.gov.br/ccivil_03/leis/l9784.htm)",
+        "id": 31193
+      },
+      {
+        "item": "[Lei nº 10.233, de 5 de junho de 2001](http://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10233.htm)",
+        "id": 31194
+      },
+      {
+        "item": "[Lei n° 12.815, de 5 de junho de 2015](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12815.htm#:~:text=1%C2%BA%20Esta%20Lei%20regula%20a,e%20arrendamento%20de%20bem%20p%C3%BAblico.)",
+        "id": 31195
+      },
+      {
+        "item": "[Decreto nº 8.033, 27 de junho de 2013](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d8033.htm#:~:text=DECRETO%20N%C2%BA%208.033%2C%20DE%2027%20DE%20JUNHO%20DE%202013&text=Regulamenta%20o%20disposto%20na%20Lei,organizados%20e%20de%20instala%C3%A7%C3%B5es%20portu%C3%A1rias.)",
+        "id": 31196
+      },
+      {
+        "item": "[Resolução ANTAQ nº 61, de 30 de novembro de 2021](https://www.in.gov.br/en/web/dou/-/resolucao-antaq-n-61-de-30-de-novembro-2021-363501894)",
+        "id": 31197
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460, de 2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela Lei nº 10.048, de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460, de 2017, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 63753,
+      "titulo": "1ª Etapa: Solicitar a autorização da Antaq",
+      "descricao": "Encaminhar à Antaq, por um dos canais disponíveis, requerimento quanto à autorização para proceder com a revisão/reajuste das tarifas portuárias, acompanhado da documentação necessária prevista em normativo da Agência Reguladora.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 91839,
+            "nome": "Documentação prevista na Resolução ANTAQ nº 61, de 30 de novembro de 2021."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81920,
+            "tipo": "presencial",
+            "descricao": "Na sede da Antaq, em Brasília/DF, ou em suas unidades regionais e postos avançados.\n\n Os endereços podem ser obtidos no endereço eletrônico [https://www.gov.br/antaq/pt-br/canais\\_atendimento/atendimento-presencial](https://www.gov.br/../../antaq/pt-br/canais_atendimento/atendimento-presencial)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 45,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 81921,
+            "tipo": "postal",
+            "descricao": "Enviar para a sede da Antaq, em Brasília/DF, ou para uma de suas unidades regionais ou postos avançados.\n\n Os endereços podem ser obtidos no endereço eletrônico [https://www.gov.br/antaq/pt-br/canais\\_atendimento/atendimento-presencial](https://www.gov.br/../../antaq/pt-br/canais_atendimento/atendimento-presencial)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 81922,
+            "tipo": "web",
+            "descricao": "Pelo Sistema Eletrônico de Informações (SEI) em [https://sei.antaq.gov.br/sei/controlador\\_externo.php?acao=usuario\\_externo\\_logar&id\\_orgao\\_acesso\\_externo=0](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63754,
+      "titulo": "2ª Etapa: Acompanhar - Apreciação e manifestação técnica - Gerência de Regulação Portuária (GRP) e Superintendência de Regulação (SRG).",
+      "descricao": "A GRP procede com a devida análise e manifestação técnica do pleito e encaminha os autos para apreciação da SRG.\n\n A SRG apresenta o seu entendimento e despacha os autos para análise e manifestação jurídica.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81923,
+            "tipo": "web",
+            "descricao": "O acompanhamento pode ser feito por meio doÂ [SEI](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63755,
+      "titulo": "3ª Etapa: Acompanhar - Análise e manifestação jurídica - Procuradoria Federal junto à Antaq (PFA).",
+      "descricao": "A PFA realiza a análise e manifestação jurídica do pleito e encaminha os autos para apreciação da relatoria.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81924,
+            "tipo": "web",
+            "descricao": "O acompanhamento pode ser feito por meio doÂ [SEI](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63756,
+      "titulo": "4ª Etapa: Acompanhar - Análise e voto - Diretor-Relator.",
+      "descricao": "O Diretor-Relator efetua a devida análise do feito e elabora o seu voto, levando-o à apreciação e deliberação da Diretoria Colegiada.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81925,
+            "tipo": "web",
+            "descricao": "O acompanhamento pode ser feito por meio doÂ [SEI](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63757,
+      "titulo": "5ª Etapa: Acompanhar - Decisão quanto ao pleito - Diretoria Colegiada.",
+      "descricao": "O voto do Diretor-Relator é prolatado, seguido pelos votos dos demais Diretores, ocorrendo a deliberação  da Diretoria Colegiada a respeito do pleito.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81926,
+            "tipo": "web",
+            "descricao": "O acompanhamento pode ser feito por meio doÂ [SEI](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 63758,
+      "titulo": "6ª Etapa: Acompanhar - Comunicação sobre a decisão ao requerente e aos Ministérios da Infraestrutura e da Economia - Secretária-Geral (SGE).",
+      "descricao": "A SGE oficializa o requerente e aos Ministérios da Infraestrutura e da Economia da decisão tomada pela Diretoria Colegiada quanto ao pleito.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 81927,
+            "tipo": "web",
+            "descricao": "O acompanhamento pode ser feito por meio doÂ [SEI](https://sei.antaq.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-revisao-e-reajuste-das-tarifas-portuarias",
+  "statusDestaque": true
+}

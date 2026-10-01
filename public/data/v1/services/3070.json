@@ -1,0 +1,196 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3070",
+  "nome": "Obter liberação após reparo de aeronaves envolvidas em incidentes/acidentes",
+  "sigla": "",
+  "descricao": "Em caso de acidente/incidente aeronáutico no qual a aeronave tenha sofrido danos substanciais ou graves e seu Certificado de Aeronavegabilidade (CA) tenha sido suspenso pelo código “S1”, a Organização de Manutenção (OM) deve comunicar à ANAC a conclusão de reparos, para retornar o CA à situação Normal, código “N”.\n\n Este serviço é destinado apenas a aeronaves registradas no Brasil ou aquelas em processo de nacionalização (detentora de Export CofA) e que tenham sofrido alguma avaria antes da VTI.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "CONREP",
+        "id": 87459
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74985,
+        "tipo": "Organizações de Manutenção.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121454
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações e Aprovações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 294886
+      },
+      {
+        "item": "CONREP",
+        "id": 294887
+      },
+      {
+        "item": "Conclusão de Reparos",
+        "id": 294888
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[IS nº 43.13-004.](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is)",
+        "id": 100465
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 169597,
+      "titulo": "Solicitar liberação da aeronave",
+      "descricao": "A organização de manutenção que realizou o reparo deve enviar à ANAC a documentação abaixo enviada.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 235996,
+            "nome": "Comunicação de Conclusão de Reparo preenchido(Apêndice B da [IS nº 43.13-004](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is))"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222479,
+            "tipo": "web",
+            "descricao": "A Organização de Manutenção deve enviar a solicitação via Protocolo eletrônico à ANAC. No protocolo eletrônico escolher a opção:\n\n Aeronavegabilidade: Relatório de conclusão de reparo",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169598,
+      "titulo": "Aguardar Liberação da Aeronave",
+      "descricao": "Nessa etapa a ANAC avalia a documentação e altera o status do Certificado de Aeronavegabilidade (CA) da aeronave para situação Normal (N) e informa ao requerente.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222480,
+            "tipo": "web-acompanhar",
+            "descricao": "A situação da aeronave pode ser consultada no [SACI](https://sistemas.anac.gov.br/saci/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "78",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-liberacao-apos-reparo-de-aeronaves-envolvidas-em-incidentes-acidentes",
+  "statusDestaque": false
+}

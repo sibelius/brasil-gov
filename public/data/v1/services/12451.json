@@ -1,0 +1,174 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12451",
+  "nome": "Matricular-se em ações de extensão (curso, evento, projeto ou programa) - UFTM",
+  "sigla": "",
+  "descricao": "Solicitação de inscrição em cursos, eventos, projetos ou programas de extensão oferecidos pela UFTM.",
+  "flagPortalLogado": "N",
+  "contato": "proext@uftm.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.uftm.edu.br/proext",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Extensão",
+        "id": 107279
+      },
+      {
+        "item": "Curso de extensão",
+        "id": 107280
+      },
+      {
+        "item": "Projeto de extensão",
+        "id": 107281
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 90364,
+        "tipo": "Qualquer cidadão que se interesse pelos cursos, eventos, projetos e programas de extensão e que atenda aos requisitos.",
+        "requisitos": "Para inscrever-se nos cursos, eventos, projetos e programas de extensão, é necessário atender aos requisitos publicados para cada situação."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/459",
+    "dbId": 57791,
+    "nomeOrgao": "Universidade Federal do Triângulo Mineiro (UFTM)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 149557
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instituições de Ensino Superior"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "curso",
+        "id": 358385
+      },
+      {
+        "item": "extensão",
+        "id": 358386
+      },
+      {
+        "item": "matricular",
+        "id": 358387
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 124785
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 2,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela [Lei n. 13.460/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm \"Lei n. 13.460/2017\"), tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue, conforme estabelecido pela [Lei n. 10.048, de 8 de novembro de 2000](https://www.planalto.gov.br/ccivil_03/leis/l10048.htm).",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 209377,
+      "titulo": "Entrar em contato com o coordenador do curso de extensão em questão.",
+      "descricao": "O cidadão interessado deverá entrar em contato com o coordenador do curso, evento, projeto ou programa de extensão em questão conforme publicação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 272086,
+            "tipo": "web",
+            "descricao": "Site da PROEXT:Â <https://www.uftm.edu.br/proext>",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 272087,
+            "tipo": "web-inscrever-se",
+            "descricao": "Em alguns casos, a inscrição será pelo [UFTMNet](https://sistemas.uftm.edu.br/integrado/?id=1). Se for o caso, acesse o sistema, conforme descrito em publicação, e realize o login com seu usuário e senha [GOV.BR](http://gov.br/) ou do UFTMNet.\n\n Se não possui usuário e senha do UFTMNet, [cadastre-se aqui](http://sistemas.uftm.edu.br/integrado/?id=4 \"cadastre-se aqui\").\n\n Se já possui cadastro e não lembra a senha, [recupere aqui](http://sistemas.uftm.edu.br/integrado/?id=3 \"recupere aqui\").",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 272088,
+            "tipo": "e-mail",
+            "descricao": "proext@uftm.edu.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-extensao-uftm",
+  "statusDestaque": false
+}

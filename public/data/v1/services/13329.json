@@ -1,0 +1,415 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13329",
+  "nome": "Agendar um exame no Complexo Hospital de Clínicas da Universidade Federal do Paraná (CHC-UFPR)",
+  "sigla": "",
+  "descricao": "O Complexo Hospital de Clínicas da UFPR oferece os seguintes exames: [Lista de Exames CHC-UFPR](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/saude/exames)",
+  "flagPortalLogado": "N",
+  "contato": "(41) 3360-7942  \n  \n[Contato exames](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/saude/exames)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 111928
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 94032,
+        "tipo": "Pacientes exclusivos do Complexo CHC atendidos no Hospital de Clínicas e/ou na Maternidade Victor Ferreira do Amaral.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201446",
+    "dbId": 32683,
+    "nomeOrgao": "EBSERH - Filial Hospital de Clínicas da UFPR (EBSERH-UFPR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 156088
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "exame",
+        "id": 373683
+      },
+      {
+        "item": "agendamento",
+        "id": 373684
+      },
+      {
+        "item": "procedimento",
+        "id": 373685
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 130365
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 9
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 218278,
+      "titulo": "Dirigir-se à Central de Agendamento",
+      "descricao": "Paciente comparece no balcão da recepção da Central de Agendamento com a guia do seu exame e retira uma senha para agendamento nos sistemas internos do CHC-UFPR.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292452,
+            "nome": "Carteirinha do CHC-UFPR"
+          },
+          {
+            "id": 292453,
+            "nome": "Requisição do exame"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283535,
+            "tipo": "presencial",
+            "descricao": "Rua General Carneiro 181 - entrada anexo B\n\n [Horário de Atendimento](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/acesso-a-informacao/institucional/endereco-e-horario-de-atendimento)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218279,
+      "titulo": "Agendar o exame",
+      "descricao": "Paciente, após retirar senha no balcão da Central de Agendamento, aguarda seu chamado no Painel Eletrônico. Ao ser chamado, paciente confirma seus dados junto ao atendente, que agenda o exame nos sistemas internos do CHC-UFPR.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292454,
+            "nome": "Carteirinha do CHC-UFPR"
+          },
+          {
+            "id": 292455,
+            "nome": "Requisição do exame"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283536,
+            "tipo": "presencial",
+            "descricao": "Rua General Carneiro 181 - entrada anexo B\n\n  [Horário de Atendimento](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/acesso-a-informacao/institucional/endereco-e-horario-de-atendimento)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218280,
+      "titulo": "Receber orientações sobre o exame",
+      "descricao": "Após o exame ser agendado, o atendente da Central de Agendamento entrega uma guia de agendamento, informando o local da realização do exame e com orientações em caso de necessidade de preparo para o procedimento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292456,
+            "nome": "Carteirinha do CHC-UFPR"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283537,
+            "tipo": "presencial",
+            "descricao": "Rua General Carneiro 181 - entrada anexo B\n\n [Horário de Atendimento](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/acesso-a-informacao/institucional/endereco-e-horario-de-atendimento)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218281,
+      "titulo": "Apresentar-se no balcão de atendimento",
+      "descricao": "Paciente entrega sua carteirinha do CHC-UFPR e sua guia de agendamento de exame no balcão de atendimento e é orientado a aguardar sua chamada no saguão de espera.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292457,
+            "nome": "Carteirinha do CHC-UFPR"
+          },
+          {
+            "id": 292458,
+            "nome": "Guia de agendamento do exame"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283538,
+            "tipo": "presencial",
+            "descricao": "[Lista de exames do CHC-UFPR (local de realização)](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/saude/exames)\n\n [Horário de Atendimento](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/acesso-a-informacao/institucional/endereco-e-horario-de-atendimento)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218282,
+      "titulo": "Realizar o exame",
+      "descricao": "Ao ser chamado pela equipe responsável pela realização do exame, o paciente se apresenta e é encaminhado para a sala para realização do exame.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292459,
+            "nome": "Carteirinha do CHC-UFPR"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283539,
+            "tipo": "presencial",
+            "descricao": "[Lista de exames do CHC-UFPR (local de realização)](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/saude/exames)\n\n [Horário de Atendimento](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/acesso-a-informacao/institucional/endereco-e-horario-de-atendimento)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 218283,
+      "titulo": "Acessar resultado do exame",
+      "descricao": "Paciente pode retirar uma cópia do resultado do exame no Serviço de Cópia de Prontuário do CHC-UFPR.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 292462,
+            "nome": "Carteirinha do CHC-UFPR"
+          }
+        ],
+        "casos": [
+          {
+            "id": 44382,
+            "descricao": "Retirada de exame por terceiros",
+            "documento": [
+              {
+                "id": 292460,
+                "codigo": null,
+                "descricao": "[Orientação para retirada de exame por terceiros.](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/acesso-a-informacao/perguntas-frequentes/como-solicitar-copias-de-prontuarios)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 44383,
+            "descricao": "Retirada de exames de pacientes falecidos",
+            "documento": [
+              {
+                "id": 292461,
+                "codigo": null,
+                "descricao": "[Orientação para retirada de exame de pacientes falecidos.](https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/chc-ufpr/acesso-a-informacao/perguntas-frequentes/como-solicitar-copias-de-prontuarios)",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 283540,
+            "tipo": "presencial",
+            "descricao": "Rua General Carneiro 181 - entrada anexo B\n\n Serviço de Cópia de Prontuários, dentro da Central de Agendamentos.\n\n Segunda a sexta, das 08:10 às 16:40",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 283541,
+            "tipo": "e-mail",
+            "descricao": "copiapront.chc-ufpr@ebserh.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "36",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/agendar-um-exame-no-complexo-hospitalar-de-clinicas-da-universidade-federal-do-parana-chc-ufpr",
+  "statusDestaque": false
+}

@@ -1,0 +1,300 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/61",
+  "nome": "Sacar o FGTS",
+  "sigla": "",
+  "descricao": "Para você que é trabalhador com carteira assinada, regido pela CLT (Consolidação das Leis de Trabalho), o FGTS serve como uma reserva financeira no caso de demissão sem justa causa e outras situações, tais como:\n\n   + Na aposentadoria; \n     + No término do contrato por prazo determinado; \n     + No falecimento do empregador individual ou decretação de nulidade do contrato de trabalho; \n     + No falecimento do trabalhador; \n     + Outras situações no [Portal do FGTS](https://www.fgts.gov.br/Pages/sou-trabalhador/saque.aspx)",
+  "flagPortalLogado": "N",
+  "contato": "+ [Mais Informações](https://www.fgts.gov.br/Pages/default.aspx)\n    \n\n   + [Detalhes sobre documentações específicas](https://www.caixa.gov.br/beneficios-trabalhador/fgts/saque-FGTS/Paginas/default.aspx)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.caixa.gov.br/atendimento/aplicativos/fgts/Paginas/default.aspx",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Contas Inativas do FGTS",
+        "id": 100563
+      },
+      {
+        "item": "Fundo de Garantia",
+        "id": 100564
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 85212,
+        "tipo": "Trabalhadores:\n\n  * com contrato formal regido pela Consolidação de Leis Trabalhista – CLT\n * domésticos\n * rurais\n * temporários\n * intermitentes\n * avulsos\n * safreiros (operários rurais que trabalham apenas no período de colheita)\n * atletas profissionais\n * diretores não empregados (critério do empregador)",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "5",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 5
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/91",
+    "dbId": 5201,
+    "nomeOrgao": "Caixa Econômica Federal (CAIXA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 140328
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Para o cidadão"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "sacar",
+        "id": 337818
+      },
+      {
+        "item": "direitos",
+        "id": 337819
+      },
+      {
+        "item": "demissão",
+        "id": 337820
+      },
+      {
+        "item": "sem justa causa",
+        "id": 337821
+      },
+      {
+        "item": "fgts",
+        "id": 337822
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[LEI Nº 8.036, DE 11 DE MAIO DE 1990.](https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm)",
+        "id": 117263
+      },
+      {
+        "item": "[Busca em outras legislações do FGTS](https://webp.caixa.gov.br/Portal/Legislacao/legislacao.asp)",
+        "id": 117264
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 39422,
+    "negativas": 22446
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n Urbanidade;  \nRespeito;  \nAcessibilidade;  \nCortesia;  \nPresunção da boa-fé do usuário;  \nIgualdade;  \nEficiência;  \nSegurança; e  \nÉtica.",
+  "etapas": [
+    {
+      "id": 195942,
+      "titulo": "Consultar saldo",
+      "descricao": "Por meio do [APP FGTS](https://www.caixa.gov.br/atendimento/aplicativos/fgts/Paginas/default.aspx), é possível verificar seu saldo, alterar dados cadastrais e até mesmo solicitar o Saque, sem a necessidade de atendimento presencial.\n\n Caso necessite, consulte a [Rede de Atendimento CAIXA](https://www.caixa.gov.br/atendimento/Paginas/default.aspx) para tratamento de assuntos pontuais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 255836,
+            "tipo": "aplicativo-movel",
+            "descricao": "[ APP FGTS](https://www.caixa.gov.br/atendimento/aplicativos/fgts/Paginas/default.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 195943,
+      "titulo": "Dar entrada no pedido",
+      "descricao": "O Saque pode ser solicitado de forma totalmente digital pelo aplicativo do FGTS, sem precisar ir até uma Agência da CAIXA.\n\n   \nBasta indicar no App FGTS uma conta da CAIXA ou de outra instituição financeira, para crédito dos valores, sem nenhum custo.  \n  \nA partir daí, é só enviar, pelo próprio aplicativo, os documentos necessários e acompanhar sua solicitação.  \n  \nVocê recebe seu FGTS em sua conta em até 5 dias úteis.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 267743,
+            "nome": "Documento oficial de identificação com foto;"
+          },
+          {
+            "id": 267744,
+            "nome": "Carteira de Trabalho e Previdência Social;"
+          },
+          {
+            "id": 267745,
+            "nome": "Número de inscrição no PIS/PASEP;"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 255837,
+            "tipo": "aplicativo-movel",
+            "descricao": "[APP FGTS](https://www.caixa.gov.br/atendimento/aplicativos/fgts/Paginas/default.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 255838,
+            "tipo": "presencial",
+            "descricao": "Rede de atendimento da Caixa Econômica Federal",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 195944,
+      "titulo": "Receber o dinheiro",
+      "descricao": "Se você indicou uma conta bancária no App, se sua documentação estiver toda regular, e se você tiver direito ao saque, o valor será creditado automaticamente na conta bancária informada em até 5 dias úteis.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 41552,
+            "descricao": "Caso haja necessidade de regularização de dados pessoais ou qualquer outra divergência",
+            "documento": [
+              {
+                "id": 267746,
+                "codigo": null,
+                "descricao": "Você pode comparecer à [Rede de Atendimento CAIXA](https://www.caixa.gov.br/atendimento/Paginas/default.aspx) munido de seus documentos pessoais (RG ou outro documento de identificação com foto, comprovante de residência atual e Carteira de Trabalho).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 255839,
+            "tipo": "aplicativo-movel",
+            "descricao": "Diretamente na conta bancária indicada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 255840,
+            "tipo": "presencial",
+            "descricao": "[Rede de atendimento da Caixa Econômica Federal](https://www.caixa.gov.br/atendimento/Paginas/default.aspx)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 2,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/10492",
+      "nome": "Solicitar saque no FGTS no exterior"
+    }
+  ],
+  "tempoMediaEspera": "5",
+  "percentualAvaliacoesPositivas": "64",
+  "totalSimplifique": "3",
+  "simplifiqueSolicitacoes": "1",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "2",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "B",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/sacar-o-fgts",
+  "statusDestaque": false
+}

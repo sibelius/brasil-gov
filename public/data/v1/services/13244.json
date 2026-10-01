@@ -1,0 +1,163 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13244",
+  "nome": "Informar alvarás e habite-se à Receita Federal",
+  "sigla": "Sisobra",
+  "descricao": "Informe a relação de alvarás de construção e documentos de habite-se emitidos pelo seu município à Receita Federal. Por meio deste serviço também é possível consultar, alterar e cancelar documentos enviados, assim como, enviar \"declaração de sem movimento\", quando não houver documentos registrados no período.\n\n Municípios e o Distrito Federal são obrigados a enviar essas informações, mensalmente, **até o dia 10 do mês seguinte** ao de registro dos documentos, ou no dia anterior, se dia 10 não for útil. O envio das informações fora do prazo está sujeita à multa por atraso na entrega de declaração (MAED) e impede a emissão de certidão negativa de débitos.\n\n As informações também podem ser enviadas por meio de aplicativo próprio, via webservice, seguindo regras e leiaute específicos, desde que o órgão seja optante pelo domicílio tributário eletrônico (DTE). [Saiba mais sobre o envio via webservice](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/documentos-tecnicos/sisobrapref).\n\n Para mais informações [acesse o Manual do SisobraPref](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/manuais/manual-sisobrapref.pdf).",
+  "flagPortalLogado": "N",
+  "contato": "[Fale Conosco](https://servicos.receitafederal.gov.br/servico/receita-atende/)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://cav.receita.fazenda.gov.br/autenticacao/login/index/10029",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "SisobraPref",
+        "id": 127043
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 106243,
+        "tipo": "Prefeituras Municipais e Administração Regional do Distrito Federal.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77",
+    "dbId": 42526,
+    "nomeOrgao": "Secretaria Especial da Receita Federal do Brasil (RFB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 177610
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outras Declarações e Comunicações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Construção Civil",
+        "id": 423343
+      },
+      {
+        "item": "Obras",
+        "id": 423344
+      },
+      {
+        "item": "Alvará",
+        "id": 423345
+      },
+      {
+        "item": "Habite-se",
+        "id": 423346
+      },
+      {
+        "item": "Sisobra",
+        "id": 423347
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa RFB nº 1998/2020](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=114290)",
+        "id": 152391
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 10
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 248156,
+      "titulo": "Informar a relação de alvarás e habite-se",
+      "descricao": "Acesse o sistema abaixo e cadastre os alvarás de construção e documentos de habite-se registrados pelo seu município no período a que se referem.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 323602,
+            "nome": "Relação de alvarás de construção e documentos de habite-se emitidos pelo órgão."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 320705,
+            "tipo": "web",
+            "descricao": "[Informar AlvarÃ¡s e Habite-se](https://cav.receita.fazenda.gov.br/autenticacao/login/index/10029)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "33",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/informar-alvaras-e-habite-se-a-receita-federal",
+  "statusDestaque": false
+}

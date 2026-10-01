@@ -1,0 +1,157 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/23382",
+  "nome": "Obter assistência médica em áreas de residência indígena",
+  "sigla": "",
+  "descricao": "Os indígenas que residem na abrangência dos 34 DSEI são atendidos por profissionais médicos vinculados aos Programas de Provimento Médico (PMMB e PMpB) e contratados pela Agência Brasileira de Apoio à Gestão do Sistema Único de Saúde (AgSUS), na atenção primária. Nos casos de média e alta complexidade, são transferidos para os estabelecimentos de saúde referenciados nos municípios e estados.",
+  "flagPortalLogado": "N",
+  "contato": "coair.sesai@saude.gov.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/funai/pt-br/atuacao/povos-indigenas/direitos-sociais/saude",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123272
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103010,
+        "tipo": "População indígena",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304",
+    "dbId": 37534,
+    "nomeOrgao": "Ministério da Saúde (MS)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 172292
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Apoio técnico e financeiro"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Assistência Médica",
+        "id": 410226
+      },
+      {
+        "item": "Residência Indígena",
+        "id": 410227
+      },
+      {
+        "item": "PMMB",
+        "id": 410228
+      },
+      {
+        "item": "PMpB",
+        "id": 410229
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 148161
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 240355,
+      "titulo": "Buscar rede de atendimento",
+      "descricao": "Atendimento Presencial",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 310330,
+            "tipo": "presencial",
+            "descricao": "Os DSEI prestam atendimentos de saúde diretamente nas aldeias, pelos profissionais que compõe as EMSI, Equipe Multiprofissionais de Saúde Indígena, conforme escala. As demandas de atenção especializada (média e alta complexidade) são encaminhadas às redes de referência.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 30,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "0",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-assistencia-medica-em-areas-de-residencia-indigena",
+  "statusDestaque": false
+}

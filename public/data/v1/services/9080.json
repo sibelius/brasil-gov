@@ -1,0 +1,243 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/9080",
+  "nome": "Solicitar diagnóstico molecular de referência em Leishmaniose - Fiocruz/RJ",
+  "sigla": "",
+  "descricao": "O Laboratório de Referência Nacional para o Diagnóstico Molecular de Leishmanioses (LRNDML) recebe as amostras clínicas com suspeita de leishmaniose das regiões Sul, Sudeste e Centro-Oeste do país e realiza exames para detecção de DNA de Leishmania para o diagnóstico da Leishmaniose humana pela técnica de PCR. Também realiza capacitações e desenvolve projetos de pesquisa relacionados ao desenvolvimento e otimização de metodologias para novos alvos de diagnóstico molecular e caracterização de espécies.",
+  "flagPortalLogado": "N",
+  "contato": "**Telefone:** (21) 2562-1040\n\n  \n\n **E-mail:** [cintia.mello@ioc.fiocruz.br](mailto:cintia.mello@ioc.fiocruz.br)\n\n  \n\n **Site:**<http://www.fiocruz.br/ioclabs/cgi/cgilua.exe/sys/start.htm?sid=695>",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://gal.fiocruz.sus.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 75918
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 66523,
+        "tipo": "* Órgãos e entidades públicas",
+        "requisitos": "As amostras para serem testadas devem ser encaminhadas pelo Laboratório Central de Saúde Pública (LACEN) de cada estado da federação, pelas instituições de saúde ou secretarias de saúde tanto estaduais quanto municipais após cadastro da solicitação do exame no sistema GAL (sistema Gerenciador de Ambiente Laboratorial) pelo remetente."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/315",
+    "dbId": 34312,
+    "nomeOrgao": "Fundação Oswaldo Cruz (FIOCRUZ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 104996
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Diagnóstico molecular",
+        "id": 258222
+      },
+      {
+        "item": "Leishmaniose Tegumenta",
+        "id": 258223
+      },
+      {
+        "item": "Diagnóstico molecular",
+        "id": 258224
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Guia de Vigilância em Saúde - volume único- 2017",
+        "id": 86230
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "Rampa",
+  "tratamentoPrioritario": "Terão prioridades os casos graves para esclarecimento diagnóstico e conduta clínica e o esclarecimento diagnóstico de surtos.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado por diretrizes de urbanidade, respeito, acessibilidade, cortesia, presunção da boa-fé, igualdade, eficiência, segurança e ética.",
+  "etapas": [
+    {
+      "id": 148642,
+      "titulo": "Solicitação do exame",
+      "descricao": "Cadastro da solicitação do exame no sistema GAL (sistema Gerenciador de Ambiente Laboratorial).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 210604,
+            "nome": "Ficha de Notificação SINAN"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193515,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://gal.fiocruz.sus.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 148643,
+      "titulo": "Enviar amostra",
+      "descricao": "A amostra deve ser enviada para sala de recebimento de amostra (CRA) do INCQS (Instituto Nacional de Controle de Qualidade em Saúde), localizado no Campus da Fiocruz em Manguinhos, Rio de Janeiro.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 210605,
+            "nome": "Ficha de Notificação SINAN"
+          },
+          {
+            "id": 210606,
+            "nome": "Ofício da instituição solicitante contendo a descrição do exame solicitado"
+          },
+          {
+            "id": 210607,
+            "nome": "Relatório clínico do paciente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193516,
+            "tipo": "presencial",
+            "descricao": "O endereço para entrega é Avenida Brasil,4365 - Pavilhão do INCQS.\n\n As amostras encaminhadas para analise pelos laboratórios de Referência da Fiocruz serão recebidas pelo CRA quando estiverem em condições próprias de acondicionamento e transporte e acompanhadas de documentação pertinente.\n\n Para mais informações sobre a entrega do material, entrar em contato com o CRA pelo telefone (21) 3865-5138 ou pelo e-mail: central.amostras@incqs.fiocruz.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 148644,
+      "titulo": "Receber o resultado do exame",
+      "descricao": "O usuário deverá acessar o sistema(GAL) para conferir o resultado dos exames solicitados, no prazo estabelecido.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 193517,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://gal.fiocruz.sus.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "50",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-diagnostico-molecular-de-referencia-em-leishmaniose",
+  "statusDestaque": false
+}

@@ -1,0 +1,405 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6630",
+  "nome": "Registrar diplomas de faculdades, centros universitários e universidades privadas para graduação - UFSCAR",
+  "sigla": "",
+  "descricao": "Instituições privadas de Educação Superior precisam registrar seus diplomas de graduação e pós-graduação junto as Universidades, pois não têm autonomia para registrar seus próprios diplomas. O Registro é o que dá validade nacional ao diploma expedido. Para registrar diplomas na UFSCar, siga as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "DIVISÃO DE REGISTRO DE DIPLOMAS - 16 3351 8126 - DIPLOMAS@UFSCAR.BR",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 57139
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 52444,
+        "tipo": "Pessoas Jurídicas sem fins lucrativos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "120",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 120
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/475",
+    "dbId": 34323,
+    "nomeOrgao": "Fundação Universidade Federal de São Carlos (UFSCar)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 82805
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "registro de diploma",
+        "id": 197980
+      },
+      {
+        "item": "instituição de ensino superior privada",
+        "id": 197981
+      },
+      {
+        "item": "centro universitário",
+        "id": 197982
+      },
+      {
+        "item": "faculdade",
+        "id": 197983
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 65048
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 114148,
+      "titulo": "Cadastrar Instituição de Ensino Superior (IES) no Registro de Diplomas",
+      "descricao": "Para que a instituição possa solicitar o registro de diplomas é necessário ter cadastro.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 160241,
+            "nome": "Decreto ou Portaria de Criação da Instituição de Ensino Superior (IES)"
+          },
+          {
+            "id": 160242,
+            "nome": "Cópia do Regimento Interno da Instituição, com a informação do nome das autoridades responsáveis em assinar os diplomas e cargo"
+          },
+          {
+            "id": 160243,
+            "nome": "Cópia do documento de nomeação do Diretor ou Diretora"
+          },
+          {
+            "id": 160244,
+            "nome": "Cópia com identificação e devidas assinaturas dos nomeados responsáveis em assinar os diplomas - conforme regimento"
+          },
+          {
+            "id": 160245,
+            "nome": "Portaria de Reconhecimento do(s) curso(s). Se o curso ainda não foi reconhecido, enviar a Portaria de Autorização"
+          },
+          {
+            "id": 160246,
+            "nome": "Protocolo de entrada do(s) processo(s) de reconhecimento dos cursos (novos e renovações)"
+          },
+          {
+            "id": 160247,
+            "nome": "Estrutura Curricular e vigência do(s) curso(s) - enviar conforme modelo solicitado (Histórico Escolar em branco)"
+          },
+          {
+            "id": 160248,
+            "nome": "E-mail ativo que será cadastrado como sendo da instituição, que deverá ser consultado todos os dias."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 146305,
+            "tipo": "e-mail",
+            "descricao": "diplomas@ufscar.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 114149,
+      "titulo": "Montar e enviar as remessas de processos dos formandos da instituição de ensino superior",
+      "descricao": "Nesta etapa, requerente deve montar as remessas de processos e enviar ao registro de diplomas.  \nAs orientações de como elaborar as remessas estão disponíveis em: [https://www.diplomas.ufscar.br/arquivos/instrucoes\\_crd.pdf](https://www.diplomas.ufscar.br/arquivos/instrucoes_crd.pdf \"https://www.diplomas.ufscar.br/arquivos/instrucoes_crd.pdf\")",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 160252,
+            "nome": "Ofício de encaminhamento do(s) processo(s) do(s) diploma(s) expedido(s), com termo de responsabilidade assinado pela autoridade máxima da instituição de ensino superior ou por meio de seu representante legal mediante procuração específica ou por ato de delegação de poder, atestando a regularidade do(s) diploma(s) conferido(s) ao(s) aluno(s) e dos atos de expedição, com numeração sequencial por ano"
+          },
+          {
+            "id": 160253,
+            "nome": "Processos em ordem alfabética, por curso, exatamente igual ao listado no ofício. \n\n Os cursos deverão ser identificados pelo código constante da base de dados oficial de informações relativas aos cursos no E-MEC."
+          },
+          {
+            "id": 160254,
+            "nome": "Recibo de depósito original, no valor total e exato dos serviços solicitados.\n\n Valores regulamentados pela Portaria de Taxas da Divisão de Registro de Diplomas da UFSCar disponível em: [https://www.diplomas.ufscar.br/legislacao-1](https://www.diplomas.ufscar.br/legislacao-1 \"https://www.diplomas.ufscar.br/legislacao-1\")"
+          },
+          {
+            "id": 160255,
+            "nome": "Histórico Escolar do curso a ser registrado, devidamente assinado"
+          },
+          {
+            "id": 160256,
+            "nome": "Diploma do curso a ser registrado, devidamente assinado"
+          },
+          {
+            "id": 160257,
+            "nome": "Cópia do Certificado de conclusão do Ensino Médio ou Histórico Escolar que declare que o aluno concluiu o Ensino Médio. Diploma registrado de outro curso superior substitui este certificado."
+          },
+          {
+            "id": 160258,
+            "nome": "Cópia da Cédula de Identidade (RG)."
+          },
+          {
+            "id": 160259,
+            "nome": "Outros documentos relacionados ao processo, como por exemplo, cópia da Certidão de Nascimento ou Casamento, comprovando o nome do aluno se for diferente do RG."
+          },
+          {
+            "id": 160260,
+            "nome": "Cópia do comprovante de residência, no processo de alunos que moram fora da sede da instituição que oferece somente ensino presencial."
+          }
+        ],
+        "casos": [
+          {
+            "id": 20221,
+            "descricao": "Montagem de remessa com documentos digitalizados",
+            "documento": [
+              {
+                "id": 160249,
+                "codigo": null,
+                "descricao": "O processo pode ser entregue contendo somente o DIPLOMA, conforme instruções abaixo:\n\n Ofício de entrada da remessa (em duas vias), capa do processo com o DIPLOMA e Cd com a documentação necessária para a conferência dos processos",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 160250,
+                "codigo": null,
+                "descricao": "Identificar na Caixa do CD e no CD a IES(com sigla, cidade e estado) e NÚMERO DO OFÍCIO de entrada da remessa.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 160251,
+                "codigo": null,
+                "descricao": "Diretórios nomeados com a identificação do aluno e curso. Todos os históricos escolares deverão vir ASSINADOS Digitalmente em formato*.pdf - ASSINATURA CERTIFICADA DIGITALMENTE, CADASTRADA NA SECRETARIA DA RECEITA FEDERAL.",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 17213,
+            "descricao": "TAXA DE SERVIÇOS DE REGISTRO DE DIPLOMAS",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "120,00 - 370,00",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 146306,
+            "tipo": "presencial",
+            "descricao": "DIVISÃO DE REGISTRO DE DIPLOMAS  \nPró-Reitoria de Administração  \nUniversidade Federal de São Carlos  \nVia Washington Luís, Km 235 - Caixa Postal 676  \nCEP 13565-800 - São Carlos - SP - Brasil",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 5,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 146307,
+            "tipo": "e-mail",
+            "descricao": "diplomas@ufscar.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 114150,
+      "titulo": "Realizar o registro dos diplomas",
+      "descricao": "Nesta etapa o Registro de Diplomas realizará a conferência dos documentos e a emissão dos registros dos diplomas da remessa encaminhada na etapa anterior.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 146308,
+            "tipo": "telefone",
+            "descricao": "(16) 3351-8126",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 146309,
+            "tipo": "e-mail",
+            "descricao": "diplomas@ufscar.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "120",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 120
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 114151,
+      "titulo": "Agendar para vir buscar os processos e os diplomas registrados",
+      "descricao": "Para retirar a documentação e diplomas registrados deve-se realizar o agendamento por telefone ou e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 146310,
+            "tipo": "e-mail",
+            "descricao": "diplomas@ufscar.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 146311,
+            "tipo": "telefone",
+            "descricao": "(16) 3351-8126",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "120",
+  "percentualAvaliacoesPositivas": "80",
+  "url": "https://www.gov.br/pt-br/servicos/registrar-diplomas-de-faculdades-centros-universitarios-e-universidades-privadas-ufscar",
+  "statusDestaque": false
+}

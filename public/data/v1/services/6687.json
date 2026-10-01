@@ -1,0 +1,412 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6687",
+  "nome": "Obter Assistência Estudantil - UFRR",
+  "sigla": "",
+  "descricao": "A Assistência Estudantil da UFRR oferece as bolsas e auxílios estabelecidos pelo Decreto Nº 7.234, que instituiu o Programa Nacional de Assistência Estudantil (PNAES). Programa do governo federal que dispõe sobre a política de Assistência Estudantil configura o conjunto de ações que devem ser aplicadas nas Instituições Federais de Ensino Superior – IFES, agindo, preventivamente, nas situações de repetência e evasão decorrentes da insuficiência de condições financeiras.",
+  "flagPortalLogado": "N",
+  "contato": "Diretoria de Assuntos Estudantis (Daes) - (95) 98113-0468 -  daes@ufrr.br",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Bolsas e auxílios ao estudante.",
+        "id": 29009
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 28955,
+        "tipo": "Acadêmicos de graduação presencial da UFRR que vivam em situação familiar de baixa renda.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "31",
+      "max": "60",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 31,
+    "max": 60
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1605",
+    "dbId": 34321,
+    "nomeOrgao": "Fundação Universidade Federal de Roraima (UFRR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 46180
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Permanência"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Assistência Estudantil",
+        "id": 103251
+      },
+      {
+        "item": "Auxílio",
+        "id": 103252
+      },
+      {
+        "item": "Bolsa",
+        "id": 103253
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 29136
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 7,
+    "negativas": 2
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 60387,
+      "titulo": "Aderir ao Cadastro Único.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 87897,
+            "nome": "Documento de Identificação com Foto"
+          },
+          {
+            "id": 87898,
+            "nome": "CPF"
+          },
+          {
+            "id": 87899,
+            "nome": "Documentos referente a Comprovação de Renda"
+          },
+          {
+            "id": 87900,
+            "nome": "Declaração De Imposto De Renda Pessoa Física"
+          },
+          {
+            "id": 87901,
+            "nome": "Comprovante de residência"
+          },
+          {
+            "id": 87902,
+            "nome": "Certificado de ensino médio"
+          }
+        ],
+        "casos": [
+          {
+            "id": 7310,
+            "descricao": "Menores de 18 anos.",
+            "documento": [
+              {
+                "id": 87896,
+                "codigo": null,
+                "descricao": "Para os membros menores de idade que não possuam RG: Certidão de nascimento",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 77507,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cadastro.ufrr.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77508,
+            "tipo": "e-mail",
+            "descricao": "daes@ufrr.br\n\n dasp@ufrr.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77509,
+            "tipo": "telefone",
+            "descricao": "(95) 98113-0468 – DAES \n\n (95) 98113-0513 – DASP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "10",
+          "max": "18",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 10,
+        "max": 18
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 60388,
+      "titulo": "Inscrever-se em  processo seletivo e /ou solicitar auxílio ou bolsa.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 87903,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 87904,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 87905,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 87906,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 77510,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cadastro.ufrr.br)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77511,
+            "tipo": "e-mail",
+            "descricao": "daes@ufrr.br\n\n dasp@ufrr.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77512,
+            "tipo": "telefone",
+            "descricao": "(95) 98113-0468 – DAES\n\n  (95) 98113-0513 – DASP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "16",
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 16,
+        "max": 30
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 60389,
+      "titulo": "Interposição de recurso.",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 87907,
+            "nome": "O que estiver ausente."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 77513,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cadastro.ufrr.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77514,
+            "tipo": "e-mail",
+            "descricao": "daes@ufrr.br\n\n dasp@ufrr.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77515,
+            "tipo": "telefone",
+            "descricao": "(95) 98113-0468 – DAES\n\n (95) 98113-0513 – DASP",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "2",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 2
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 60390,
+      "titulo": "Assinatura do termo de compromisso.",
+      "descricao": "",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 77516,
+            "tipo": "web",
+            "descricao": "[Acesse o site](https://cadastro.ufrr.br)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77517,
+            "tipo": "e-mail",
+            "descricao": "daes@ufrr.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77518,
+            "tipo": "telefone",
+            "descricao": "(95) 98113-0468 – DAES",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "1",
+          "max": "3",
+          "unidade": "dias-uteis"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 1,
+        "max": 3
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "60",
+  "percentualAvaliacoesPositivas": "78",
+  "url": "https://www.gov.br/pt-br/servicos/obter-assistencia-estudantil-ufrr",
+  "statusDestaque": false
+}

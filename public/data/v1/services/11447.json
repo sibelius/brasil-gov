@@ -1,0 +1,513 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11447",
+  "nome": "Programar navios para atracar e desatracar nos Portos do Rio de Janeiro e Niterói",
+  "sigla": "",
+  "descricao": "Este serviço permite que aos usuários programar as manobras e solicitar o acesso das embarcações que irão atracar, fundear e desatracar nos Portos do Rio de Janeiro e Niterói.",
+  "flagPortalLogado": "N",
+  "contato": "**Plantão: **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n **(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária: ****tatiana.pereira@portosrio.gov.br**\n\n ** (****21) 2219-8523**\n\n **(21) 99391-2706**",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://silog.portosrio.gov.br/silog/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 116567
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 97791,
+        "tipo": "Agências Marítimas/ Armadores.",
+        "requisitos": "**Antes de solicitar a utilização da infraestrutura portuária, é fundamental que o usuário esteja familiarizado com o Regulamento de Exploração dos Portos – REP.**  \n Esse regulamento estabelece as normas básicas de funcionamento dos portos organizados sob jurisdição da PortosRio (Rio de Janeiro, Niterói, Itaguaí e Angra dos Reis), devendo ser observado por todos que utilizam ou exercem atividades nas instalações portuárias, disponível no link:\n\n [https://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO\\_DE\\_EXPLORACAO\\_DOS\\_PORTOS\\_0.pdf](https://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO_DE_EXPLORACAO_DOS_PORTOS_0.pdf)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/180",
+    "dbId": 8275,
+    "nomeOrgao": "Companhia Docas do Rio de Janeiro (CDRJ)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 162610
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Programação de embarcações",
+        "id": 389526
+      },
+      {
+        "item": "Rio de Janeiro",
+        "id": 389527
+      },
+      {
+        "item": "Niterói",
+        "id": 389528
+      },
+      {
+        "item": "",
+        "id": 389529
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "Lei dos Portos nº 12.815/2013.\n\n (https://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2013/lei/l12815.htm)",
+        "id": 137643
+      },
+      {
+        "item": "Regulamento de Exploração dos Portos. \n\n (https://www.portosrio.gov.br/sites/default/files/inline-files/REGULAMENTO\\_DE\\_EXPLORACAO\\_DOS\\_PORTOS\\_0.pdf)",
+        "id": 137644
+      },
+      {
+        "item": "**DECRETO Nº 8.033/2013 – Regulamenta a Lei dos Portos**\n\n [https://www.planalto.gov.br/ccivil\\_03/\\_ato2011-2014/2013/decreto/d8033.htm](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d8033.htm)",
+        "id": 137645
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "Não há atendimento presencial para o serviço de programação de navios.",
+  "tratamentoPrioritario": "Não existe uma prioridade estabelecida para atendimento aos usuários e sim uma prioridade na programação das manobras de atracação e desatracação das embarcações que irão utilizar a infraestrutura aquaviária, conforme estabelecido nos artigos 29 e 30 do Regulamento de Exploração dos Portos organizados do Rio de Janeiro, Niterói, Itaguaí e Angra dos Reis.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética.",
+  "etapas": [
+    {
+      "id": 227805,
+      "titulo": "Cadastramento do solicitante",
+      "descricao": "Para acesso ao sistema **SILOG**, o agente marítimo deverá:",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301036,
+            "nome": "Solicitar ao setor financeiro da PortosRio, por meio do e-mail **faturamento@portosrio.gov.br**, o cadastramento da Agência Marítima, encaminhando os seguintes documentos:\n\n   * Contrato Social e última alteração contratual ou Estatuto;\n * Procuração para fins de solicitação de infraestrutura portuária"
+          },
+          {
+            "id": 301037,
+            "nome": "Após essa etapa, deverá solicitar à **Gerência Aquaviária **pelo e-mail: **gerqua@portosrio.gov.br**, o cadastramento da empresa na base de dados do SILOG, informando também os dados dos usuários que irão acessar o sistema, com as seguintes informações:\n\n   * Nome completo;\n * E-mail do colaborador;\n * CPF;\n * Telefone."
+          },
+          {
+            "id": 301038,
+            "nome": "Para o cadastro no sistema **Porto Sem Papel (PSP)**, é necessário que o agente marítimo esteja previamente cadastrado no sistema **Mercante** da Receita Federal do Brasil. Após, enviar e-mail para **portosempapel@portosrio.gov.br**, com a **ficha de habilitação** preenchida e anexada, a fim de definir o perfil de acesso. A ficha está disponível, no seguinte endereço: **https://concentrador.portosempapel.gov.br/PSP-CDP/public/pages/normas/formularios/formularios.xhtml**"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295028,
+            "tipo": "e-mail",
+            "descricao": "**Plantão: **\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227806,
+      "titulo": "Gerar o Documento Único Virtual (DUV) no sistema Porto Sem Papel (PSP);",
+      "descricao": "O Documento Único Virtual (DUV) é o principal instrumento de formalização da escala de um navio em um porto brasileiro. Ele reúne em um só lugar todas as informações e autorizações necessárias para a chegada, operação e saída da embarcação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301039,
+            "nome": "1. Acesso ao PSP: <https://concentrador.portosempapel.gov.br/portal/> Manual do PSP para auxílio: <https://capacitacao-portos.labtrans.ufsc.br/>\n\n 2. Cadastro atualizado na ANTAQ: <https://www.gov.br/portos-e-aeroportos/pt-br/assuntos/transporte-aquaviario/porto-sem-papel/noticias/orientacoes-para-cadastro-de-embarcacoes-inclusao-ou-alteracao>\n\n 3. Manual  SILOG: <https://www.portosrio.gov.br/pt-br/portos/silog>"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295029,
+            "tipo": "e-mail",
+            "descricao": "**Plantão: **\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227807,
+      "titulo": "Verificar os dados da embarcação no PSP;",
+      "descricao": "Antes de concluir o DUV, confirme se os dados da embarcação estão corretos, especialmente o DWT. Caso encontre divergências, será necessário atualizar o cadastro junto à ANTAQ, pois os sistemas são integrados e informações divergentes podem atrasar o processo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295030,
+            "tipo": "e-mail",
+            "descricao": "**Plantão: **\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227808,
+      "titulo": "Realizar o anúncio no sistema SILOG;",
+      "descricao": "Com o DUV criado e dados da embarcação atualizados, faça o anúncio no SILOG. O anúncio pode passar por validação do Operador Portuário e do Terminal Portuário, e após essas etapas o Técnico de Serviços Portuários (TSP) fará a análise final e registrará o aceite.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295031,
+            "tipo": "e-mail",
+            "descricao": "**Plantão: **\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227809,
+      "titulo": "Solicitar a ratificação do DUV/PSP;",
+      "descricao": "Se o DUV estiver no status \"Aguardando Ratificação do Aviso de Atracação\", a ratificação ocorrerá após o aceite do anúncio no SILOG. Caso contrário, será necessário solicitar a ratificação por e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295032,
+            "tipo": "e-mail",
+            "descricao": "**Plantão:**\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227810,
+      "titulo": "Providenciar as anuências no DUV;",
+      "descricao": "A obtenção das anuências é etapa obrigatória para entrada, operação e saída das embarcações. Deve atender às exigências da ANVISA, Autoridade Marítima, Autoridade Portuária (Provisão e Risco) e Polícia Marítima.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295033,
+            "tipo": "e-mail",
+            "descricao": "**Plantão:**\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227811,
+      "titulo": "Programar fundeio, atracação e desatracação;",
+      "descricao": "Solicitações de atracação e desatracação devem ser enviadas até às 14h aos e-mails indicados. O programador analisará e definirá a janela com base no Regulamento de Exploração dos Portos (REP). Fundeio para embarcações maiores de 100 metros de LOA (comprimento) segue line-up no grupo WhatsApp; para menores, via SILOG",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301040,
+            "nome": "Solicitações enviadas para\n\n jesuino.alves@portosrio.gov.br e gerqua@portosrio.gov.br\n\n Pedido de inclusão no grupo “Docas Programações de Fundeio” via gerqua@portosrio.gov.br\n\n Agendamento via SILOG para fundeios de embarcações até 100m de LOA, atracações e desatracações em Terminais Privados e Estaleiros"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295034,
+            "tipo": "e-mail",
+            "descricao": "**Plantão:**\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227812,
+      "titulo": "Agendar o Pedido de Manobras no SILOG",
+      "descricao": "Após as anuências concedidas no DUV, o usuário deve agendar o pedido de manobra no SILOG com antecedência mínima de 24 horas para entrada e 6 horas para mudanças ou saídas. Existe tolerância de até 2 horas para adiantamentos ou atrasos.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 301041,
+            "nome": "Confirmação das anuências no DUV\n\n Acesso ao SILOG para agendamento do pedido de manobra\n\n Link para a Pauta de Manobras: <https://www.portosrio.gov.br/>\n\n Verificação da publicação para confirmação da autorização"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295035,
+            "tipo": "e-mail",
+            "descricao": "**Plantão:**\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 227813,
+      "titulo": "Acompanhar a publicação na Pauta de Manobras.",
+      "descricao": "A movimentação da embarcação só é autorizada após a manobra ser analisada e publicada pelo TSP na Pauta de Manobras. A pauta está disponível no site da PortosRio.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 295036,
+            "tipo": "e-mail",
+            "descricao": "**Plantão:**\n\n ** **[**gerqua@portosrio.gov.br**](mailto:gerqua@portosrio.gov.br)\n\n ** ****(21) 2219-8600 ramal: 8642**\n\n **(21) 98882-7345**\n\n ** ****Gerência Aquaviária:**\n\n ** ****tatiana.pereira@portosrio.gov.br**\n\n ** ****(21) 2219-8523**\n\n **(21) 99391-2706**",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/23833",
+      "nome": "Solicitar credenciamento de empresa para operar no Siscomex"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/1211",
+      "nome": "Obter autorização para estadia de embarcações em portos brasileiros no Porto Sem Papel"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/12601",
+      "nome": "Cadastrar usuário no Porto Sem Papel"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/12603",
+      "nome": "Obter autorização para movimentação de cargas perigosas no Porto Sem Papel"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/13283",
+      "nome": "Alterar atracação/passe de saída do porto"
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/solicitar-programacao-de-manobra-de-embarcacao-nos-portos-do-rio-de-janeiro-e-niteroi",
+  "statusDestaque": false
+}

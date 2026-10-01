@@ -1,0 +1,241 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6062",
+  "nome": "Matricular-se em curso de graduação - UFLA",
+  "sigla": "",
+  "descricao": "Este serviço permite ao candidato convocado pela Diretoria de Registro e Controle Acadêmico a realização de sua matrícula inicial (registro acadêmico) na Universidade Federal de Lavras.",
+  "flagPortalLogado": "N",
+  "contato": "Telefone: +55 (35) 3829-1134\n\n Site: https://drca.ufla.br/\n\n E-mail: graduacao.drca@ufla.br\n\n Endereço Postal:\n\n   \nUNIVERSIDADE FEDERAL DE LAVRAS\n\n DIRETORIA DE REGISTRO E CONTROLE ACADÊMICO – DRCA\n\n ASSUNTO: MATRÍCULA INICIAL\n\n CAMPUS UNIVERSITÁRIO\n\n CEP 37200-900 - LAVRAS - MG - Brasil",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://drca.ufla.br/graduacao/matriculas",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 87737
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 75199,
+        "tipo": "Candidatos convocados para a matrícula na UFLA, após a aprovação em processo seletivo.",
+        "requisitos": "Para solicitar o registro acadêmico, o candidato precisa:\n\n Ser convocado para a matrícula;\n\n Ser aprovado em processo seletivo cumprindo os requisitos exigidos no edital."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-uteis"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/463",
+    "dbId": 57770,
+    "nomeOrgao": "Universidade Federal de Lavras (UFLA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121742
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Acesso"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "matrícula inicial",
+        "id": 295731
+      },
+      {
+        "item": "matrícula UFLA",
+        "id": 295732
+      },
+      {
+        "item": "matrícula graduação",
+        "id": 295733
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 100765
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 8,
+    "negativas": 4
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n • Urbanidade;\n\n • Respeito;\n\n • Acessibilidade;\n\n • Cortesia;\n\n • Presunção da boa-fé do usuário;\n\n • Igualdade;\n\n • Eficiência;\n\n • Segurança; e\n\n • Ética.",
+  "etapas": [
+    {
+      "id": 170301,
+      "titulo": "Conhecer as Instruções de Matrícula",
+      "descricao": "O candidato aprovado no processo seletivo deve ler as Instruções de Matrícula para saber como fazer a solicitação, conhecer os documentos necessários, o cronograma, os setores de análise dos documentos, e os canais de contato para sanar as suas dúvidas.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 223368,
+            "tipo": "web-consultar",
+            "descricao": "[MatrÃ­culas](https://drca.ufla.br/graduacao/matriculas)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "1",
+          "unidade": "dias-uteis"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 170302,
+      "titulo": "Fazer a solicitação de matrícula inicial",
+      "descricao": "O candidato convocado para a matrícula deve preencher a Ficha Cadastro e anexar a documentação exigida no sistema: [SIG - Autentição de Candidato a Estudante de Graduação](https://sig.ufla.br/modulos/processos_seletivos_alunos/candidatos_alunos/acesso/login.php). O candidato deve aguardar a análise da documentação. Caso falte ou esteja incorreto algum documento, será cadastrada uma pendência no SIG notificando o candidato para solucionar a pendência, sob pena de indeferimento da solicitação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 236831,
+            "nome": "A lista de documentos que devem ser enviados pelo sistema está prevista nas Instruções de Matrícula, conforme cada modalidade de reserva de vaga ou ampla concorrência."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 223369,
+            "tipo": "e-mail",
+            "descricao": "graduacao.drca@ufla.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "15",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 170303,
+      "titulo": "Consultar o resultado da solicitação de matrícula inicial",
+      "descricao": "O candidato, após o envio dos documentos de solicitação de matrícula, deve acompanhar o resultado da verificação de documentos, exclusivamente, por meio do [SIG - Autentição de Candidato a Estudante de Graduação](https://sig.ufla.br/modulos/processos_seletivos_alunos/candidatos_alunos/acesso/login.php). \n\n A data de divulgação dos resultados consta no Cronograma de Matrícula de cada processo seletivo.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 223370,
+            "tipo": "e-mail",
+            "descricao": "graduacao.drca@ufla.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-uteis"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "67",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-graduacao-ufla",
+  "statusDestaque": true
+}

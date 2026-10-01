@@ -1,0 +1,160 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/24103",
+  "nome": "Acessar Centro Cirúrgico do Hucam",
+  "sigla": "CCH",
+  "descricao": "O Centro Cirúrgico é o setor do hospital destinado à realização de cirurgias eletivas e de urgência/emergência. O serviço oferece estrutura física, equipamentos, materiais e profissionais especializados para garantir atendimento seguro e de qualidade ao paciente durante todas as etapas do procedimento cirúrgico, desde o preparo pré-operatório até a recuperação imediata após a cirurgia.",
+  "flagPortalLogado": "N",
+  "contato": "(27) 3335-7081",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 125209
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 104780,
+        "tipo": "Pacientes atendidos pelo Hucam-Ufes que necessitem de procedimento cirúrgico, mediante avaliação médica e agendamento ou encaminhamento pela equipe assistencial do hospital.",
+        "requisitos": "Indicação médica para procedimento cirúrgico, cadastro ativo no hospital, realização dos exames pré-operatórios necessários e agendamento pela especialidade responsável. Em situações de urgência e emergência, encaminhamento pelas unidades assistenciais do Hucam-Ufes."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "1",
+      "unidade": "horas"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 1
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/201448",
+    "dbId": 32660,
+    "nomeOrgao": "EBSERH - Filial Hospital Universitário Cassiano Antonio Moraes (EBSERH-UFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 175214
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Atendimento Especializado"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Centro Cirúrgico",
+        "id": 417074
+      },
+      {
+        "item": "Cirurgia Eletiva",
+        "id": 417075
+      },
+      {
+        "item": "Cirurgia de Urgência",
+        "id": 417076
+      },
+      {
+        "item": "",
+        "id": 417077
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 150438
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 1
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 244583,
+      "titulo": "Agendar Cirurgias Eletivas",
+      "descricao": "O agendamento das cirurgias eletivas é realizado exclusivamente pela Central de Agendamentos vinculada ao Núcleo Interno de Regulação (NIR), mediante encaminhamento da especialidade médica responsável e cumprimento dos critérios assistenciais e pré-operatórios estabelecidos pelo hospital.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 320697,
+            "nome": "Documento oficial com foto;\n\n Cartão SUS;\n\n Comprovante de residência (quando solicitado para atualização cadastral);\n\n Encaminhamento médico; exames e laudos relacionados ao procedimento;\n\n Demais documentos exigidos pela especialidade assistencial responsável."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 316150,
+            "tipo": "telefone",
+            "descricao": "(27) 3335-7081",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "1",
+  "percentualAvaliacoesPositivas": "50",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "Serviço não requer nenhum dado do usuário",
+  "url": "https://www.gov.br/pt-br/servicos/acessar-centro-cirurgico-do-hucam",
+  "statusDestaque": false
+}

@@ -1,0 +1,228 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/6538",
+  "nome": "Matricular-se em curso de Formação Inicial e Continuada - IFPA",
+  "sigla": "",
+  "descricao": "Se você deseja fazer um curso de Formação Inicial e Continuiada neste Instituto, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.",
+  "flagPortalLogado": "N",
+  "contato": "DEPARTAMENTO DE REGISTRO E INDICADORES ACADÊMICOS DA PRÓ REITORIA DE ENSINO DO IFPA - (091) 991113843 - registroacademico.proen@ifpa.edu.br",
+  "gratuito": "true",
+  "porcentagemDigital": 0,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://sso.acesso.gov.br/authorize?response_type=code&client_id=sigaa.ifpa.edu.br&scope=openid+profile+phone+email+govbr_empresa&state=6538&redirect_uri=https://sigaa.ifpa.edu.br/sigaa/govbr/obterToken.do",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Matricular-se em Cursos FICs",
+        "id": 28969
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 28924,
+        "tipo": "Cidadãos",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100917",
+    "dbId": 36759,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Pará (IFPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 46142
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Direcionada a professores"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Matrícula",
+        "id": 103148
+      },
+      {
+        "item": "FIC",
+        "id": 103149
+      },
+      {
+        "item": "Formação Continuada",
+        "id": 103150
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 29090
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 33,
+    "negativas": 15
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   \n  \n\n\n   \n  \n\n\n  \n\n   + Urbanidade;\n    \n\n   + Respeito;\n    \n\n   + Acessibilidade;\n    \n\n   + Cortesia;\n    \n\n   + Presunção da boa-fé do usuário;\n    \n\n   + Igualdade;\n    \n\n   + Eficiência;\n    \n\n   + Segurança; e\n    \n\n   + Ética.",
+  "etapas": [
+    {
+      "id": 60322,
+      "titulo": "Habilitar matrícula",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 87744,
+            "nome": "Carteira de identidade"
+          },
+          {
+            "id": 87745,
+            "nome": "Carteira de identidade de estrangeiro"
+          },
+          {
+            "id": 87746,
+            "nome": "Carteira de trabalho"
+          },
+          {
+            "id": 87747,
+            "nome": "Certidão de casamento"
+          },
+          {
+            "id": 87748,
+            "nome": "Certidão de nascimento"
+          },
+          {
+            "id": 87749,
+            "nome": "Certidões de cartório"
+          },
+          {
+            "id": 87750,
+            "nome": "Certificado de conclusão de curso"
+          },
+          {
+            "id": 87751,
+            "nome": "Comprovante de endereço/residência"
+          },
+          {
+            "id": 87752,
+            "nome": "Comprovante de renda"
+          },
+          {
+            "id": 87753,
+            "nome": "Comprovante de quitação eleitoral"
+          },
+          {
+            "id": 87754,
+            "nome": "Contrato Social"
+          },
+          {
+            "id": 87755,
+            "nome": "CPF"
+          },
+          {
+            "id": 87756,
+            "nome": "Diploma"
+          },
+          {
+            "id": 87757,
+            "nome": "NIS"
+          },
+          {
+            "id": 87758,
+            "nome": "Passaporte"
+          },
+          {
+            "id": 87759,
+            "nome": "Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 77431,
+            "tipo": "presencial",
+            "descricao": "Secretarias Acadêmicas ou setores equivalentes no Campus do IFPA",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 7,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 77432,
+            "tipo": "web",
+            "descricao": "Solicitação via Sistema Integrado de Gestão de Atividades Acadêmicas - [SIGAA](https://sigaa.ifpa.edu.br).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": {
+          "min": "2",
+          "max": "7",
+          "unidade": "dias-corridos"
+        },
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": 2,
+        "max": 7
+      },
+      "digitalizavel": false
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "69",
+  "url": "https://www.gov.br/pt-br/servicos/matricular-se-em-curso-de-formacao-inicial-e-continuada-ifpa",
+  "statusDestaque": false
+}

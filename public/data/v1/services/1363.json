@@ -1,0 +1,195 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1363",
+  "nome": "Obter autorização de importação eventual e específica de produtos vegetais",
+  "sigla": "",
+  "descricao": "Importação de artigos regulamentados, sem valor ou uso comercial destinadas ao uso e consumo em eventos culturais, esportivos, religiosos, diplomáticos e feiras/exposições internacionais.  \nAs importações realizadas de forma eventual e específica poderão ser dispensados de ARP, mediante análise e autorização prévia do DSV/SDA - § 6º do ART. 2º  da IN 25/2020.",
+  "flagPortalLogado": "N",
+  "contato": "cgfc.dsv@agricultura.gov.br\n\n Sobre o Peticionamento Eletrônico do SEI no MAPA consulte [aqui ](http://sistemasweb.agricultura.gov.br/pages/manuais/manual-peticionamento.pdf)o Manual.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": false,
+  "linkServicoDigital": "",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 58655
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 53798,
+        "tipo": "Organizadores de eventos culturais, esportivos, religiosos, diplomáticos e feiras/exposições internacionais.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308793",
+    "dbId": 58142,
+    "nomeOrgao": "Ministério da Agricultura e Pecuária (MAPA)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 84111
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Exportação e Importação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Importação",
+        "id": 202937
+      },
+      {
+        "item": "Produtos vegetais",
+        "id": 202938
+      },
+      {
+        "item": "Feiras e eventos",
+        "id": 202939
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Instrução Normativa nº 25, de 07 de abril de 2020](https://www.in.gov.br/web/dou/-/instrucao-normativa-n-25-de-7-de-abril-de-2020-251968344)",
+        "id": 66442
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 5,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:  \n· Urbanidade;  \n· Respeito;  \n· Acessibilidade;  \n· Cortesia;  \n· Presunção da boa-fé do usuário;  \n· Igualdade;  \n· Eficiência;  \n· Segurança; e  \n· Ética",
+  "etapas": [
+    {
+      "id": 116963,
+      "titulo": "Requisitar autorização",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 164028,
+            "nome": "Ofício contendo obrigatoriamente o número do CNPJ do requerente"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 149912,
+            "tipo": "web",
+            "descricao": "Através do [Módulo de Peticionamento Eletrônico do SEI](https://sistemasweb.agricultura.gov.br/pages/SEI.html)\n\n Utilize o Tipo de processo \"Sanidade Vegetal: Importação Eventual e Especifica\"",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 116964,
+      "titulo": "Receber autorização",
+      "descricao": "O interessado receberá a autorização por e-mail.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 149913,
+            "tipo": "e-mail",
+            "descricao": "E-mail",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "45",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-de-importacao-de-produtos-vegetais-para-representacoes-diplomaticas",
+  "statusDestaque": false
+}

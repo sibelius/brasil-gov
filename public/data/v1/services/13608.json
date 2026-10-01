@@ -1,0 +1,305 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/13608",
+  "nome": "Obter Licenciamento de conteúdos de titularidade da Cinemateca Brasileira - CB",
+  "sigla": "",
+  "descricao": "É o serviço em que o usuário solicita licenciamento de obras de titularidade da União e depositadas na Cinemateca Brasileira para exibição em diferentes plataformas (salas de cinema, exposições, TV) e/ou para uso em novas produções (acadêmicas, audiovisuais de ficção e não ficção). Para consultar os filmes é possível acessar a base de dados da [Filmografia Brasileira](https://bases.cinemateca.org.br/cgi-bin/wxis.exe/iah/?IsisScript=iah/iah.xis&base=FILMOGRAFIA&lang=p \"Filmografia Brasileira\") e verificar a disponibilidade dos mesmos para visionamento e marcação de time code em nossa Biblioteca utilizando a [base de materiais da Coleção VHS, DVD e Blu-ray](https://bases.cinemateca.org.br/cgi-bin/wxis.exe/iah/?IsisScript=iah/iah.xis&base=VDB&lang=p) do Centro de Documentação e Pesquisa ou consultando o site do [Banco de conteúdos Culturais](http://www.bcc.org.br/) – BCC",
+  "flagPortalLogado": "N",
+  "contato": "E-mail - [atendimento@cinemateca.org.br](mailto:atendimento@cinemateca.org.br)",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "http://www.bcc.org.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 123943
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 103754,
+        "tipo": "Qualquer pessoa que esteja produzindo uma mostra ou uma nova produção.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": {
+      "max": "50",
+      "unidade": "dias-corridos"
+    },
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 50
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308821",
+    "dbId": 58143,
+    "nomeOrgao": "Ministério da Cultura (MinC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 173401
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 173402
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 173403
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Artes"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Audiovisual",
+        "id": 412688
+      },
+      {
+        "item": "Preservação",
+        "id": 412689
+      },
+      {
+        "item": "Memória",
+        "id": 412690
+      },
+      {
+        "item": "Cinemateca Brasileira",
+        "id": 412691
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 149109
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 1,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 241878,
+      "titulo": "Enviar solicitação",
+      "descricao": "Envio de e-mail com os dados dos filmes solicitados ou trechos de filmes selecionados, informando a finalidade do licenciamento: exibição ou nova produção, sendo importante enviar o maior número de detalhes possíveis tanto das obras selecionadas quanto da finalidade.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312278,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "5",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 5
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241879,
+      "titulo": "Aguardar envio de proposta de licenciamento",
+      "descricao": "Será elaborada uma proposta comercial de Licenciamento de Obra e disponibilizada na plataforma ClickSign para assinatura do responsável pela solicitação; em caso de pessoa jurídica, a pessoa responsável pela empresa deverá assinar a proposta. A proposta tem validade de 10 dias, caso não seja assinada, o interessado deverá entrar em contato novamente para a elaboração de nova proposta.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312279,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241880,
+      "titulo": "Aguardar elaboração de Termo de Licenciamento",
+      "descricao": "Após a proposta assinada, será elaborado um Termo de Licenciamento das obras solicitadas e disponibilizado para assinatura do solicitante e uma testemunha na plataforma ClickSign. O documento ficará disponível para assinatura por 7 dias, caso ele não seja assinado o processo deverá ser reiniciado.[  \n](file:///C:/Users/flprm/Downloads/revisao_02/Servi%C3%A7o%20017%20-%20Obter%20o%20Licenciamento%20de%20Conte%C3%BAdo%20de%20Titularidade%20da%20Cinemateca%20Brasileira%20-%20Rev02.docx#_msocom_1)",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312280,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 241881,
+      "titulo": "Pagamento",
+      "descricao": "Realizar o pagamento do serviço nos canais indicados no documento Termo de Licenciamento.   \n  \nOs valores variam conforme a finalidade do licenciamento e a duração do material a ser licenciado e podem ser consultados na [Tabela de Serviços](https://cinemateca.org.br/wp-content/uploads/2024/08/tabela_valores_servicos.pdf).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 318328,
+            "nome": "Documentação em comum para todos os casos: Envio do comprovante de pagamento para o e-mail do canal de prestação. Após esse envio o solicitante receberá um recibo pelo pagamento."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41249,
+            "descricao": "Licenciamento de obra",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "A depender da finalidade e duração do material a ser licenciado.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 312281,
+            "tipo": "e-mail",
+            "descricao": "atendimento@cinemateca.org.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "15",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 15
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "50",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-licenciamento-de-conteudos-de-titularidade-da-cinemateca-brasileira-cb",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

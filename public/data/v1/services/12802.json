@@ -1,0 +1,318 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/12802",
+  "nome": "Cancelar Matrícula de Aeronaves Brasileiras",
+  "sigla": "",
+  "descricao": "Tem como finalidade cancelar a matrícula da aeronave no Registro Aeronáutico Brasileiro para que a aeronave deixe de ser aeronave ou para que possa ser exportada para outro Estado, desde que não haja restrição legal.\n\n Para mais informações, consulte a página do [Rab Digital](https://www.gov.br/anac/pt-br/sistemas/rab/rab-digital).",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://santosdumont.anac.gov.br/menu/f?p=200104:3000:105381778753722:::::",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cancelamento de Matrícula",
+        "id": 87353
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 74902,
+        "tipo": "Pessoas Físicas ou entidades por requerimento do proprietário ou explorador quando deva inscrevê-la em outro Estado, desde que não exista proibição legal, ou por decisão judicial.  \n\n\n O proprietário que considere que sua aeronave pereceu em declaração firmada no sistema RAB Digital com identificação pelo Gov.br\n\n De ofício, nas hipóteses de abandono ou perecimento da aeronave, verificado em inquérito administrativo, ou documento idôneo que ateste a destruição ou sucateamento da aeronave.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "30",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 30
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 121321
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 121322
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 121323
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 121324
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Serviços"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "ANAC",
+        "id": 294563
+      },
+      {
+        "item": "Aeronaves",
+        "id": 294564
+      },
+      {
+        "item": "Matrícula",
+        "id": 294565
+      },
+      {
+        "item": "Cancelamento",
+        "id": 294566
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei 7.565/1986 - Código Brasileiro de Aeronáutica](http://www.planalto.gov.br/ccivil_03/leis/l7565compilado.htm)",
+        "id": 100273
+      },
+      {
+        "item": "[Resolução n° 293, de 19 de novembro de 2013](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013/@@display-file/arquivo_norma/RA2013-0293%20-%20Compilado%20at%C3%A9%20RA2020-0552.pdf)",
+        "id": 100274
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 0,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 169383,
+      "titulo": "Solicitar o Cancelamento da Matrícula",
+      "descricao": "O Solicitante, ao acessar o RAB Digital, será instruído a preencher os campos necessários e a anexar os documentos em cada \"slot\" recomendado. Ao acessar o serviço de Cancelamento de Matrícula, serão apresentadas 4 opções de motivos de Cancelamento e, para cada uma delas será exigido algum dos documentos da relação abaixo apresentada. A opção de Cancelamento Ex-ofício fica reservada à Administração Pública.",
+      "documentos": {
+        "documentos": [],
+        "casos": [
+          {
+            "id": 37451,
+            "descricao": "Se Solicitante for Representante Legal (procurador)",
+            "documento": [
+              {
+                "id": 235486,
+                "codigo": null,
+                "descricao": "Documento outorgando poderes específicos para a prática do ato objeto de registro.",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235487,
+                "codigo": null,
+                "descricao": "No caso de procuração pública, deve-se apresentar o respectivo traslado. (Cópia simples)",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235488,
+                "codigo": null,
+                "descricao": "No caso da procuração ser outorgada por empresa estrangeira, no Exterior, ela deverá conter visto consular ou apostilamento, além de ser traduzida por tradutor público juramentado. (Original ou Cópia autenticada).",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37452,
+            "descricao": "Se propriedade ou Operação de Pessoa Jurídica",
+            "documento": [
+              {
+                "id": 235489,
+                "codigo": null,
+                "descricao": "Cópia simples do CNPJ",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235490,
+                "codigo": null,
+                "descricao": "Cópia simples dos Documentos constitutivos da sociedade",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235491,
+                "codigo": null,
+                "descricao": "Cópia simples do Instrumento de Nomeação dos Administradores devidamente registrado",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37453,
+            "descricao": "Se firma individual",
+            "documento": [
+              {
+                "id": 235492,
+                "codigo": null,
+                "descricao": "Registro de firma no órgão competente",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37454,
+            "descricao": "Se empresa estrangeira",
+            "documento": [
+              {
+                "id": 235493,
+                "codigo": null,
+                "descricao": "Decreto de autorização de funcionamento. Os contratos celebrados no exterior devem ter firmas reconhecidas pela autoridade competente, com visto consular ou apostilamento",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          },
+          {
+            "id": 37455,
+            "descricao": "Se cancelamento para Exportação:",
+            "documento": [
+              {
+                "id": 235494,
+                "codigo": null,
+                "descricao": "Extrato e Comprovante do Despacho de Exportação da Receita Federal ou Autorização da Receita Federal quando tratar se de credor solicitando a exportação com fundamento na Convenção da Cidade do Cabo",
+                "ondeObter": null,
+                "observacoes": null
+              },
+              {
+                "id": 235495,
+                "codigo": null,
+                "descricao": "Cópia do Export Certificate of Airworthiness (EC of A) emitido pela ANAC para exportação",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222071,
+            "tipo": "web",
+            "descricao": "[Sistema RAB digital](https://santosdumont.anac.gov.br/menu/f?p=200104:3000:105381778753722:::::)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 169384,
+      "titulo": "Receber comunicação do Cancelamento da Matrícula",
+      "descricao": "A ANAC analisa a documentação e, julgando-a conforme, procede ao Cancelamento da Matrícula.\n\n Em seguida, o solicitante receberá, por-email, as instruções para acessar o Rab digital e emitir a Certidão de Desregistro ou Certidão de Propriedade e Ônus Reais.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 222072,
+            "tipo": "web",
+            "descricao": "O pedido poderá ser acompanhado pelo [Sistema SEI](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0). Ao cadastrar a solicitação, o sistema RAB digital cria automaticamente um processo no Sistema SEI.\n\n A qualquer instante o usuário poderá, também, consultar no [Rab online](https://sistemas.anac.gov.br/aeronaves/cons_rab.asp) se a matrícula já está ou não cancelada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "30",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 30
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "30",
+  "percentualAvaliacoesPositivas": "-1",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/cancelar-matricula-de-aeronaves-brasileiras",
+  "statusDestaque": false
+}

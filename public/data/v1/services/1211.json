@@ -1,0 +1,436 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/1211",
+  "nome": "Obter autorização para estadia de embarcações em portos brasileiros no Porto Sem Papel",
+  "sigla": "PSP",
+  "descricao": "No Brasil, o controle de trânsito e estadia das embarcações nos portos nacionais compete ao Governo Federal, que, representado por diversos órgãos anuentes (Anvisa, Marinha, Polícia Federal, Receita Federal, Vigiagro e Autoridades Portuárias), fiscaliza o cumprimento de requisitos e concede anuências autorizando os procedimentos de atracação, operação e desatracação das embarcações.\n\n Por  isso, a Secretaria Nacional de Portos e Transportes Aquaviários (SNPTA) do Ministério da Infraestrutura implantou o Sistema Porto Sem Papel (PSP), com a missão de informatizar a troca de informações e documentos digitais entre as agências de navegação, também conhecidas como agências marítimas, e os diversos órgãos anuentes. O acesso ao Sistema PSP é gratuito a todos os envolvidos nas atividades portuárias, permitindo que o processo de obtenção de anuências para o trânsito e estadia das embarcações em portos brasileiros ocorra da forma mais ágil e transparente possível.",
+  "flagPortalLogado": "N",
+  "contato": "[Clique aqui](http://www.serpro.gov.br/menu/suporte1/especificos/porto-sem-papel)",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://concentrador.portosempapel.gov.br/PSP-CDP/private/comum/pages/home.jsf",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Porto sem Papel",
+        "id": 91823
+      },
+      {
+        "item": "PSP",
+        "id": 91824
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 78440,
+        "tipo": "O Sistema PSP é utilizado por agências de navegação para solicitar a autorização para trânsito e estadia das embarcações em portos brasileiros e também por órgãos anuentes do Governo Federal para fornecer as respectivas anuências.",
+        "requisitos": "Antes de iniciar a realização deste serviço, é necessário que os portos, embarcações, armadores, agências de navegação, órgãos anuentes e demais autoridades envolvidas estejam todos cadastrados e habilitados no Porto Sem Papel."
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": {
+      "min": "2",
+      "max": "7",
+      "unidade": "dias-corridos"
+    },
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": 2,
+    "max": 7
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/308817",
+    "dbId": 58147,
+    "nomeOrgao": "Ministério de Portos e Aeroportos (MPOR)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 127350
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 127351
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Instalações Portuárias"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "atracar",
+        "id": 309741
+      },
+      {
+        "item": "operação portuária",
+        "id": 309742
+      },
+      {
+        "item": "desatracar",
+        "id": 309743
+      },
+      {
+        "item": "porto sem papel",
+        "id": 309744
+      },
+      {
+        "item": "navio",
+        "id": 309745
+      },
+      {
+        "item": "barco",
+        "id": 309746
+      },
+      {
+        "item": "estadia no porto",
+        "id": 309747
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Portarias relacionadas](https://concentrador.portosempapel.gov.br/PSP-CDP/public/pages/normas/portarias/portarias.xhtml \"Portarias\")",
+        "id": 105898
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 19,
+    "negativas": 6
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:· Urbanidade;· Respeito;· Acessibilidade;· Cortesia;· Presunção da boa-fé do usuário;· Igualdade;· Eficiência;· Segurança; e· Ética",
+  "etapas": [
+    {
+      "id": 177868,
+      "titulo": "Fazer login no Porto Sem Papel",
+      "descricao": "Você deve realizar o login no Porto Sem Papel com Certificado Digital ou Login com CPF/SENHA. Clique em \"Entrar\" no canto superior direito da página do[ Porto Sem Papel](https://concentrador.portosempapel.gov.br/portal/login.html) e insira seus dados.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233614,
+            "tipo": "web",
+            "descricao": "Acesso ao Sistema Porto Sem Papel, [clique aqui.](https://concentrador.portosempapel.gov.br/portal/login.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 177869,
+      "titulo": "Criar Documento Virtual Único",
+      "descricao": "O DUV concentra todas as informações sobre as embarcações interessadas em transitar ou ancorar em portos brasileiros.\n\n A primeira ação para a geração de um DUV é a identificação, recuperação, revisão e atualização das informações cadastradas da embarcação que fará as operações de trânsito ou estadia nos portos.\n\n Em seguida, informa-se o CNPJ e demais dados da Agência Marítima, CPF do Representante da Agência, Porto e Natureza da Estadia e dados referentes à previsão de chegada da embarcação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 243668,
+            "nome": "CPF"
+          },
+          {
+            "id": 243669,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 243670,
+            "nome": "[Certificado de Livre Prática](https://www.gov.br/pt-br/servicos/obter-certificado-de-livre-pratica), exceto nos casos em que se aplique a [Lei nº 14.301/2022, Art. 16º](https://www.in.gov.br/web/dou/-/lei-n-14.301-de-7-de-janeiro-de-2022-372761122) parágrafo único."
+          },
+          {
+            "id": 243671,
+            "nome": "Passe de saída"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233615,
+            "tipo": "web",
+            "descricao": "Acesso ao Sistema Porto Sem Papel, [clique aqui.](https://concentrador.portosempapel.gov.br/portal/login.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 177870,
+      "titulo": "Solicitar atracação",
+      "descricao": "Requerida a **Solicitação de Atracação**, o DUV passa para o estado **Aguardando Anuência para Atracação**, até que cada um dos órgãos anuentes aprecie as informações disponíveis e forneça anuência ou apresente pendência a ser atendida pela agência de navegação.\n\n Quando todas as anuências de atração forem fornecidas, o DUV passa para o estado de **Aguardando Atracação**, momento em que a Agência Marítima deverá aguardar que a Administração Portuária programe a atracação da embarcação.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 243672,
+            "nome": "CPF"
+          },
+          {
+            "id": 243673,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 243674,
+            "nome": "[Certificado de Livre Prática](https://www.gov.br/pt-br/servicos/obter-certificado-de-livre-pratica), exceto nos casos em que se aplique a [Lei nº 14.301/2022, Art. 16º](https://www.in.gov.br/web/dou/-/lei-n-14.301-de-7-de-janeiro-de-2022-372761122#:~:text=Art.%2016.%20Com,de%20percurso%20nacional.) parágrafo único."
+          },
+          {
+            "id": 243675,
+            "nome": "Passe de Saída"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233616,
+            "tipo": "web",
+            "descricao": "Acesso ao Sistema Porto Sem Papel, [clique aqui.](https://concentrador.portosempapel.gov.br/portal/login.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 177871,
+      "titulo": "Realizar atracação",
+      "descricao": "Após obter as devidas anuências, o estado do DUV permanecerá **Aguardando Atracação** até que a embarcação realize a atracação.\n\n Realizada a atracação, o Sistema PSP altera o estado do DUV para **Aguardando Anuência para Operação.**\n\n Quando todas as anuências de operação forem concedidas, o DUV estará **Operando**, ocasião em que o usuário poderá executar as seguintes funcionalidades: Solicitar Operação Adicional, Solicitar Reatracação, Solicitar Desatracação e Passar Responsabilidade.**  \n**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233617,
+            "tipo": "presencial",
+            "descricao": "Porto onde a embarcação requisitou autorização para atracar.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    },
+    {
+      "id": 177872,
+      "titulo": "Solicitar desatracação",
+      "descricao": "A **Solicitação de Desatracação** é destinada a oficializar um pedido de desatracação da embarcação.\n\n Deverão ser revistas e devidamente atualizadas no DUV todas as informações enviadas na solicitação de atracação, tais como tripulantes, passageiros, provisões, inventários, entre outras, inclusive data e hora previstas para desatracar.\n\n Após a Solicitação de Desatracação, o DUV passa para o estado **Aguardando Desatracação.**",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 243676,
+            "nome": "CPF"
+          },
+          {
+            "id": 243677,
+            "nome": "CNPJ"
+          },
+          {
+            "id": 243678,
+            "nome": "[Certificado de Livre Prática](https://www.gov.br/pt-br/servicos/obter-certificado-de-livre-pratica), exceto nos casos em que se aplique a [Lei nº 14.301-2022](https://www.in.gov.br/web/dou/-/lei-n-14.301-de-7-de-janeiro-de-2022-372761122#:~:text=Art.%2016.%20Com,de%20percurso%20nacional.), Art. 16º parágrafo único."
+          },
+          {
+            "id": 243679,
+            "nome": "Passe de Saída"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233618,
+            "tipo": "web",
+            "descricao": "Acesso ao Sistema Porto Sem Papel, [clique aqui.](https://concentrador.portosempapel.gov.br/portal/login.html)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 177873,
+      "titulo": "Realizar desatracação",
+      "descricao": "A Agência Marítima deverá aguardar que a Administração Portuária programe e efetive a desatracação da embarcação. Após efetivar a desatracação, o DUV se encontrará no estado** Finalizado.**",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 233619,
+            "tipo": "presencial",
+            "descricao": "Porto onde a embarcação está atracada.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias corridos",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": false
+    }
+  ],
+  "servicosRelacionados": [
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/12601",
+      "nome": "Cadastrar usuário no Porto Sem Papel"
+    },
+    {
+      "id": "https://servicos.gov.br/api/v1/servicos/12603",
+      "nome": "Obter autorização para movimentação de cargas perigosas no Porto Sem Papel"
+    }
+  ],
+  "tempoMediaEspera": "7",
+  "percentualAvaliacoesPositivas": "76",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "O",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-para-estadia-de-embarcacoes-em-portos-brasileiros",
+  "statusDestaque": false
+}

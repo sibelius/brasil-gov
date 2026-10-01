@@ -1,0 +1,178 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/10488",
+  "nome": "Realizar reconhecimento de firma no exterior",
+  "sigla": "",
+  "descricao": "É o reconhecimento, por parte do Posto Consular, das assinaturas de brasileiros ou de estrangeiros portadores de carteira RNE válida em documentos diversos, a serem utilizados no Brasil;\n\n O reconhecimento de firma por autenticidade é solicitado presencialmente pela própria pessoa, que assina o documento perante a Autoridade Consular;\n\n O reconhecimento de firma por semelhança, efetuado por comparação entre assinaturas, somente é possível se a assinatura do interessado já estiver registrada previamente no Posto Consular.\n\n",
+  "flagPortalLogado": "N",
+  "contato": "[Ministério das Relações Exteriores](http://itamaraty.gov.br)\n\n [Postos Consulares do Brasil no exterior](https://econsular.itamaraty.gov.br/)\n\n",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://econsular.itamaraty.gov.br/",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Reconhecimento de firma",
+        "id": 15531
+      },
+      {
+        "item": "Reconhecimento de assinatura",
+        "id": 15532
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 18035,
+        "tipo": "Cidadãos brasileiros e estrangeiros portadores de carteira RNE válida podem solicitar o reconhecimento de firma.\n\n",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/263",
+    "dbId": 37539,
+    "nomeOrgao": "Ministério das Relações Exteriores (MRE)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 28239
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Outros Direitos"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Reconhecimento de firma",
+        "id": 58566
+      },
+      {
+        "item": "Reconhecimento de assinatura",
+        "id": 58567
+      },
+      {
+        "item": "Assinatura",
+        "id": 58568
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 13252
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 95,
+    "negativas": 123
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.\n\n",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.\n\n",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética\n ",
+  "etapas": [
+    {
+      "id": 35603,
+      "titulo": "Comparecer ao Posto Consular",
+      "descricao": "Para solicitar o reconhecimento de firma por autenticidade, é obrigatório comparecer perante a Autoridade Consular; \n\n Para solicitar o reconhecimento de firma por semelhança, é obrigatório apresentar o documento original à Autoridade Consular;\n\n A depender do Posto Consular, será necessário agendamento prévio. \n\n [Confira as instruções específicas do Posto Consular de seu interesse.](https://econsular.itamaraty.gov.br/)\n\n",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 58091,
+            "nome": "O documento original no qual deseja que sua firma seja reconhecida;\n\n [Confira as instruções específicas do Posto Consular de seu interesse.](https://econsular.itamaraty.gov.br/)\n\n"
+          }
+        ],
+        "casos": [
+          {
+            "id": 4690,
+            "descricao": "Para o reconhecimento de firma por semelhança",
+            "documento": [
+              {
+                "id": 58090,
+                "codigo": null,
+                "descricao": "Ter cadastrado previamente a assinatura em cartão-autógrafo no Posto Consular;\n\n",
+                "ondeObter": null,
+                "observacoes": null
+              }
+            ]
+          }
+        ]
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 5322,
+            "descricao": "Emolumentos consulares:",
+            "moeda": "R$",
+            "valor": null,
+            "valorVariavel": "o valor varia de acordo com a moeda da jurisdição consular.",
+            "statusCustoVariavel": 1
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 43664,
+            "tipo": "web",
+            "descricao": "Postos Consulares: [acesse aqui](https://econsular.itamaraty.gov.br/) o Posto Consular de seu interesse para solicitar o serviço.\n\n",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "44",
+  "url": "https://www.gov.br/pt-br/servicos/realizar-reconhecimento-de-firma-no-exterior",
+  "statusDestaque": false
+}

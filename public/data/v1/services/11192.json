@@ -1,0 +1,203 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/11192",
+  "nome": "Obter credenciamento para abastecimento de combustíveis e óleos lubrificantes a embarcações (APS S.A.)",
+  "sigla": "",
+  "descricao": "Por meio deste serviço, o usuário poderá obter credenciamento para execução dos serviços de abastecimento de combustíveis e óleos lubrificantes a embarcações atracadas no Porto de Santos",
+  "flagPortalLogado": "N",
+  "contato": "Gerência de Saúde e Segurança do Trabalho\n\n Telefone: (13) 3202-6565 - Ramal 2774\n\n E-mail geset@portodesantos.gov.br",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://portaldocliente.portodesantos.com.br/login",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 128186
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 107331,
+        "tipo": "Empresas interessadas em realizar os serviços nas áreas do Porto Organizado.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "90",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 90
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/959",
+    "dbId": 8271,
+    "nomeOrgao": "Autoridade Portuária de Santos S.A. (APS S.A.)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 179291
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Autorizações"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "serviços",
+        "id": 427273
+      },
+      {
+        "item": "abastecimento",
+        "id": 427274
+      },
+      {
+        "item": "meio ambiente",
+        "id": 427275
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[NAP.SUMAS.OPR.004/2021](http://www.portodesantos.com.br/informacoes-operacionais/normas-e-regulamentos/)\n\n [Tarifa Portuária do Porto de Santos](http://www.portodesantos.com.br/informacoes-operacionais/operacoes-portuarias/tarifas-portuarias/)",
+        "id": 153704
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 3,
+    "negativas": 0
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei nº 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n  * Urbanidade;\n * Respeito;\n * Acessibilidade;\n * Cortesia;\n * Presunção da boa-fé do usuário;\n * Igualdade;\n * Eficiência;\n * Segurança; e\n * Ética",
+  "etapas": [
+    {
+      "id": 250686,
+      "titulo": "Solicitar credenciamento",
+      "descricao": "O interessado em prestar os serviços deverá protocolar os documentos exigidos na NAP.SUMAS.OPR.004/2021, via Sistema de Protocolo Digital, acompanhados de carta endereçada à Superintendência de Meio Ambiente, Saúde e Segurança do Trabalho da APS solicitando o credenciamento.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 325691,
+            "nome": "Documentação necessária descrita na [NAP.SUMAS.OPR.004.2021](http://www.portodesantos.com.br/informacoes-operacionais/normas-e-regulamentos/)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 41853,
+            "descricao": "Custo Portuário, conforme item 12.2.4, da Tabela VII da Tarifa Portuária do Porto de Santos",
+            "moeda": "R$",
+            "valor": " 595,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324019,
+            "tipo": "web",
+            "descricao": "Sistema de Protocolo Digital [Acesse o site](http://protocolo.portodesantos.com.br/)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 250687,
+      "titulo": "Obter retorno da solicitação",
+      "descricao": "Após a protocolização, a documentação será analisada pela equipe técnica e o interessado será comunicado do resultado, podendo ser solicitada a complementação de documentos, se o caso.\n\n Finalizado o processo de análise dos documentos, a APS encaminhará carta à empresa interessada, informando sobre o deferimento ou indeferimento da solicitação.",
+      "documentos": {
+        "documentos": null,
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 324020,
+            "tipo": "e-mail",
+            "descricao": "geset@portodesantos.gov.br",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": {},
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "90",
+  "percentualAvaliacoesPositivas": "100",
+  "temLoginGovBR": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-credenciamento-para-abastecimento-de-combustiveis-e-oleos-lubrificantes-a-embarcacoes-aps-s-a",
+  "flagPagTesouro": "N",
+  "statusDestaque": false
+}

@@ -1,0 +1,527 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/3306",
+  "nome": "Obter aprovação de Grande Modificação por Certificado Suplementar de Tipo (CST) / Obter aprovação de Grande Alteração por SEGVOO 001 (F-400-04)",
+  "sigla": "CST",
+  "descricao": "Grande Modificação é uma modificação a um projeto de tipo de aeronave, motor ou hélice que afete apreciavelmente o peso, balanceamento, resistência estrutural, confiabilidade, características operacionais ou características de aeronavegabilidade. Uma grande modificação pode ser aprovada pela ANAC através de um Certificado Suplementar de Tipo (CST) ou de uma emenda ao CST. Um CST é a aprovação de uma grande modificação ao projeto de tipo da aeronave, motor ou hélice e, portanto, pode ser aplicável a várias aeronaves (elegíveis), como por exemplo, de mesmo tipo e modelo.\n\n Grande Alteração é uma alteração não listada na especificação técnica aprovada da aeronave, motor ou hélice e que:  \na) Pode afetar apreciavelmente o peso, o balanceamento, a resistência estrutural, as características de voo, e de manobrabilidade ou qualquer outra característica ligada à aeronavegabilidade; ou  \nb) Não é executada de acordo com práticas aceitas ou que não pode ser executada usando operações elementares.  \nA grande alteração é aprovada pela ANAC por meio do formulário SEGVOO 001 (F-400-04), com a assinatura no campo 3 do formulário, e é restrita a apenas uma aeronave, um motor ou uma hélice (um número de série).\n\n O processo de aprovação de grande modificação ou grande alteração envolve as mesmas considerações de segurança e confiabilidade contidas nos Regulamentos Brasileiro de Aviação Civil aplicáveis ao tipo (RBAC 23 - Aviões categoria normal, utilidade, acrobática e transporte regional; RBAC 25 - Aviões categoria transporte; RBAC 26 - Aeronavegabilidade continuada e melhorias na segurança para aviões categoria transporte; RBAC 27 - Aeronaves de asas rotativas categoria normal; RBAC 29 - Aeronaves de asas rotativas categoria transporte; RBAC 31 - Balões livres tripulados; RBAC 33 - Motores aeronáuticos; RBAC 34 - Drenagem de combustível e emissões; RBAC 35 - Hélices e RBAC 36 - Ruído).\n\n O detentor de um certificado suplementar de tipo (CST) de produto aeronáutico pode requerer uma revisão ao projeto de modificação aprovado em um CST, resultando assim em uma emenda ao CST.\n\n LINKS ÚTEIS:\n\n Para obtenção de informações sobre dicas, exemplos, guias, perguntas frequentes, consultar o site em: <https://www.gov.br/anac/pt-br/assuntos/regulados/aeronaves/certificacao-e-fabricacao/certificacao-suplementar-de-tipo> \n\n Para obter informações sobre o andamento dos processos, consultar o site em: https://sistemas.anac.gov.br/certificacao/PST/index\\_pst.asp\n\n Para informações sobre o código e a complexidade da Taxa de Fiscalização da Aviação Civil (TFAC) aplicável, consultar o site em: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2021/resolucao-no-653-20-12-2021\n\n Para gerar a GRU para pagamento da TFAC: https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=BuscarAreaInteresse",
+  "flagPortalLogado": "N",
+  "contato": "Pelo site [Fale com a Anac](https://www.gov.br/anac/pt-br/canais_atendimento/fale-com-a-anac) ou pelo telefone 163.",
+  "gratuito": "false",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.gov.br/anac/pt-br/sistemas/protocolo-eletronico-sei",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Grande modificação ao projeto de tipo",
+        "id": 90730
+      },
+      {
+        "item": "CST",
+        "id": 90731
+      },
+      {
+        "item": "SEGVOO 001",
+        "id": 90732
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 77529,
+        "tipo": "Qualquer pessoa que pretenda obter a aprovação de uma grande modificação ou grande alteração na aeronave, motor ou hélice.",
+        "requisitos": ""
+      },
+      {
+        "id": 77530,
+        "tipo": "Pessoa física ou jurídica **NÃO** detentora de um certificado de tipo de produto aeronáutico que deseja alterar este produto pela introdução de uma grande modificação do projeto de tipo.",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": {
+      "max": "900",
+      "unidade": "dias-corridos"
+    },
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": 900
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": "O certificado e os dados técnicos com base nos quais ele foi emitido são válidos até que sejam cancelados, suspensos, revogados ou um prazo limite seja estabelecido pela Agência Nacional de Aviação Civil."
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144",
+    "dbId": 908,
+    "nomeOrgao": "Agência Nacional de Aviação Civil (ANAC)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 125868
+      },
+      {
+        "item": "Empresas",
+        "idSegmento": 3,
+        "idServicoSegmento": 125869
+      },
+      {
+        "item": "Órgãos e entidades públicas",
+        "idSegmento": 2,
+        "idServicoSegmento": 125870
+      },
+      {
+        "item": "Demais segmentos (ONGs, organizações sociais, etc)",
+        "idSegmento": 4,
+        "idServicoSegmento": 125871
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certidões e Certificados"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "CST",
+        "id": 305760
+      },
+      {
+        "item": "Alteração",
+        "id": 305761
+      },
+      {
+        "item": "Modificação",
+        "id": 305762
+      },
+      {
+        "item": "F-400-01",
+        "id": 305763
+      },
+      {
+        "item": "SEGVOO",
+        "id": 305764
+      },
+      {
+        "item": "SEGVOO001",
+        "id": 305765
+      },
+      {
+        "item": "F-400-04",
+        "id": 305766
+      },
+      {
+        "item": "Anac",
+        "id": 305767
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[RBAC 21](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-21)",
+        "id": 104621
+      },
+      {
+        "item": "[IS 21-004](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-21-004)",
+        "id": 104622
+      },
+      {
+        "item": "[SEGVOO 001 - RBAC 43 ](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-43)",
+        "id": 104623
+      },
+      {
+        "item": "[F-300-03](https://sistemas.anac.gov.br/certificacao/Form/Form.asp)",
+        "id": 104624
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 12,
+    "negativas": 22
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n       - Urbanidade;\n - Respeito;\n - Acessibilidade;\n - Cortesia;\n - Presunção da boa-fé do usuário;\n - Igualdade;\n - Eficiência;\n - Segurança; e\n - Ética.",
+  "etapas": [
+    {
+      "id": 175864,
+      "titulo": "Protocolar o requerimento",
+      "descricao": "Protocolar, pela Internet, no SEI! da ANAC o requerimento para obtenção do CST ou para aprovação de grande alteração, incluindo o formulário F-101-11 ou F-300-03 devidamente preenchido. O requerimento deve vir acompanhado do Plano de Certificação.\n\n Informações detalhadas sobre o processo de abertura do projeto podem ser consultadas na IS 21-004, e acerca da documentação técnica, a ser apresentada, na IS 21-021. As IS estão disponíveis na página da ANAC.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 242191,
+            "nome": "Formulário F-101-11 ou [F-300-03](http://sistemas.anac.gov.br/certificacao/form/form.asp), (IS 21-021 - https://sistemas.anac.gov.br/certificacao/CI/CIDetail.asp?CITipo=IS&CINumero=21-021&CIRev=B)"
+          },
+          {
+            "id": 242192,
+            "nome": "Plano de Certificação"
+          },
+          {
+            "id": 242193,
+            "nome": "Declaração de responsabilidade pela modificação"
+          },
+          {
+            "id": 242194,
+            "nome": "Número da ART relativa ao serviço de engenharia a ser executado"
+          },
+          {
+            "id": 242195,
+            "nome": "Declaração do proprietário da aeronave, autorizando o requerente a conduzir o processo, no caso de grande alteração"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 231005,
+            "tipo": "presencial",
+            "descricao": "Solicitação de reunião presencial deve ser agendada por meio do e-mail: [ccst@anac.gov.br](mailto:ccst@anac.gov.br)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "horas",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 231006,
+            "tipo": "web",
+            "descricao": "[Peticionamento Eletrônico SEI!](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0), escolhendo tipo de processo:\n\n Certificação de Produto: Certificação Suplementar de Tipo Nacional - CST (F-400-01)\n\n ou\n\n Certificação de Produto: Aprovação de Grande Alteração - SEGVOO 001 (F-400-04)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 175865,
+      "titulo": "Pagar a TFAC",
+      "descricao": "O requerente receberá da ANAC um ofício SEI!, por e-mail, informando o número do projeto ANAC, o código da TFAC aplicável, as orientações para recolhimento da mesma e para a apresentação do comprovante de recolhimento.\n\n Então, o requerente deve efetuar o pagamento da TFAC e protocolar a cópia do comprovante junto ao processo SEI!, comunicando a ANAC via e-mail.\n\n Caso tenha dúvidas em gerar a GRU, veja as [orientações](https://www.gov.br/anac/pt-br/sistemas/gru).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 242196,
+            "nome": "Cópia do comprovante de pagamento da TFAC"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": [
+          {
+            "id": 29146,
+            "descricao": "Custo varia entre R$ 500,00 e",
+            "moeda": "R$",
+            "valor": " 10.000,00",
+            "valorVariavel": "",
+            "statusCustoVariavel": 0
+          }
+        ],
+        "casos": [
+          {
+            "id": 38519,
+            "descricao": "Caso seja aprovação de grande modificação ou de Grande Alteração de: Aeronave não tripulada com PMD até 25 kgf; de Hélice passo fixo; ou de Motor elét",
+            "custo": [
+              {
+                "id": 29143,
+                "descricao": "TFAC 011901",
+                "moeda": "R$",
+                "valor": " 500,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 38520,
+            "descricao": "Caso seja aprovação de grande modificação ou de Grande Alteração de: Planador; Balão; Dirigível; Aeronave não tripulada com PMD entre 26 e 150 kgf; Hé",
+            "custo": [
+              {
+                "id": 29144,
+                "descricao": "TFAC 011902",
+                "moeda": "R$",
+                "valor": " 2.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          },
+          {
+            "id": 38521,
+            "descricao": "Caso seja aprovação de grande modificação ou de Grande Alteração de: Aeronave não tripulada com PMD acima de 150 kgf; Motor a turbina à combustão inte",
+            "custo": [
+              {
+                "id": 29145,
+                "descricao": "TFAC 011903",
+                "moeda": "R$",
+                "valor": " 10.000,00",
+                "valorVariavel": "",
+                "statusCustoVariavel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 231007,
+            "tipo": "web",
+            "descricao": "O requerente deve protocolar no[ processo SEI!](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) gerado na primeira etapa o comprovante de pagamento da TFAC.\n\n Gerar GRU [aqui](https://sistemas.anac.gov.br/gruinternet/ControladorGru?cmd=ListarVooSimplesBean)\n\n Â",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 175866,
+      "titulo": "Submeter todos os dados técnicos",
+      "descricao": "O requerente deve produzir e protocolar no processo SEI! associado todos os dados técnicos previstos no plano de certificação.\n\n Esta etapa pode envolver diversas interações com a equipe técnica da ANAC até que tenham sido sanadas as pendências técnicas porventura identificadas durante a análise da documentação apresentada.\n\n Sanadas todas as pendências técnicas, o requerente receberá um e-mail da ANAC com a aceitação do Plano de Certificação e a aprovação da(s) proposta(s) de ensaio(s).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 242197,
+            "nome": "Lista Mestra de Documentos"
+          },
+          {
+            "id": 242198,
+            "nome": "Plano de Certificação"
+          },
+          {
+            "id": 242199,
+            "nome": "Descrição Técnica"
+          },
+          {
+            "id": 242200,
+            "nome": "Análise Estrutural"
+          },
+          {
+            "id": 242201,
+            "nome": "Análise de Peso e Balanceamento"
+          },
+          {
+            "id": 242202,
+            "nome": "Análise Elétrica"
+          },
+          {
+            "id": 242203,
+            "nome": "Análise de Falhas"
+          },
+          {
+            "id": 242204,
+            "nome": "Manual de Instalação"
+          },
+          {
+            "id": 242205,
+            "nome": "Proposta de Suplemento ao Manual de Voo"
+          },
+          {
+            "id": 242206,
+            "nome": "Instruções de aeronavegabilidade continuada"
+          },
+          {
+            "id": 242207,
+            "nome": "Propostas de ensaios"
+          },
+          {
+            "id": 242208,
+            "nome": "Desenhos Técnicos"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 231008,
+            "tipo": "web",
+            "descricao": "O requerente deve protocolar no [processo SEI!](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) gerado na primeira etapa toda documentação técnica.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "270",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 270
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 175867,
+      "titulo": "Submeter os resultados da inspeção de conformidade e engenharia, e dos ensaios",
+      "descricao": "O requerente deve realizar os ensaios e protocolar no processo SEI! associado os relatórios dos resultados, juntamente com a declaração de conformidade (F-300-18).\n\n Após avaliação, a ANAC poderá aceitar os resultados. Caso não aceite, a equipe técnica poderá solicitar novos ensaios, bem como testemunhá-los diretamente.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 242209,
+            "nome": "Relatório de resultados de ensaios"
+          },
+          {
+            "id": 242210,
+            "nome": "Declaração de conformidade (F-300-18)"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 231009,
+            "tipo": "web",
+            "descricao": "O requerente deve protocolar no [processo SEI!](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) gerado na primeira etapa os resultados dos ensaios e declaração de conformidade.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "140",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 140
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 175868,
+      "titulo": "Submeter a declaração de cumprimento com requisito (quando aplicável) e receber a aprovação",
+      "descricao": "Para os processos de CST, o requerente deve protocolar no SEI! associado  uma declaração de cumprimento com os requisitos da base de certificação (RBAC 21.20(b)).\n\n Após aceitação dos ensaios e o recebimento da declaração, o requerente receberá a aprovação do processo de CST ou de grande alteração.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 242211,
+            "nome": "Declaração de cumprimento com os requisitos da base de certificação (RBAC 21.20(b)), para processos de CST."
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 231010,
+            "tipo": "web",
+            "descricao": "O requerente deve protocolar no [processo SEI!](https://sei.anac.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0) gerado na primeira etapa a declaração de cumprimento com requisitos quando aplicável.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": {
+          "max": "20",
+          "unidade": "dias-corridos"
+        },
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 20
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "900",
+  "percentualAvaliacoesPositivas": "35",
+  "temLoginGovBR": "S",
+  "temNivelMinimoContaGovBR": "P",
+  "temVerificacaoDuasEtapas": "N",
+  "utilizaAPIInteroperabilidade": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-certificado-suplementar-de-tipo",
+  "statusDestaque": false
+}

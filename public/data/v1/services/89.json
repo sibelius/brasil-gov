@@ -1,0 +1,198 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/89",
+  "nome": "Emitir certidão negativa de administrador de instituição em liquidação",
+  "sigla": "",
+  "descricao": "Certidão que demonstra que você não trabalhou como administrador, diretor ou representante de uma instituição financeira (como banco, corretora, cooperativa) que esteja ou esteve em liquidação extrajudicial. A certidão traz informação dos doze meses anteriores à entrada da instituição no regime de liquidação extrajudicial.",
+  "flagPortalLogado": "N",
+  "contato": "Pelo [Fale Conosco](https://www.bcb.gov.br/meubc/faleconosco).",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www3.bcb.gov.br/nadaconsta/emitirCertidaoRegesp",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "",
+        "id": 76654
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 67197,
+        "tipo": "Pessoa Física",
+        "requisitos": ""
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": {},
+    "naoEstimadoAinda": null,
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89",
+    "dbId": 4715,
+    "nomeOrgao": "Banco Central do Brasil (BCB)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 106127
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Regulação e Fiscalização"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Administração de Instituição em Liquidação",
+        "id": 260888
+      },
+      {
+        "item": "Certidão Negativa",
+        "id": 260889
+      },
+      {
+        "item": "Direção de de Instituição em Liquidação",
+        "id": 260890
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "[Lei Complementar nº 64, de 1990.](http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm)",
+        "id": 87481
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 40,
+    "negativas": 54
+  },
+  "condicoesAcessibilidade": "O atendimento presencial do Banco Central está suspenso.",
+  "tratamentoPrioritario": "O atendimento presencial do Banco Central está suspenso.",
+  "tratamentoDispensadoAtendimento": "O cidadão tem direito a ser atendido com cortesia, respeito, urbanidade e igualdade, sem nenhum tipo de discriminação e tendo a acessibilidade respeitada. Os atendentes devem presumir sua boa-fé. Esses direitos estão previstos na Lei nº 13.460/17.",
+  "etapas": [
+    {
+      "id": 149970,
+      "titulo": "Emitir Certidão",
+      "descricao": "Acesse [aqui](https://www3.bcb.gov.br/nadaconsta/emitirCertidaoRegesp), digite seu CPF e o código mostrado na imagem. Após preencher os campos, clique no botão \"Emitir\".\n\n A certidão será emitida somente se você não trabalhou como administrador, diretor ou representante de uma instituição financeira (como banco, corretora, cooperativa) que esteja ou esteve em liquidação extrajudicial.",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 212539,
+            "nome": "CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 195511,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/nadaconsta/emitirCertidaoRegesp).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 149971,
+      "titulo": "Validar a certidão",
+      "descricao": "Validar a certidão emitida [aqui](https://www3.bcb.gov.br/nadaconsta/validacao).",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 212540,
+            "nome": "Certidão emitida com código"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 195512,
+            "tipo": "web",
+            "descricao": "Acesse [aqui](https://www3.bcb.gov.br/nadaconsta/validacao).",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": null,
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": {},
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": null
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "43",
+  "totalSimplifique": "4",
+  "simplifiqueSolicitacoes": "3",
+  "simplifiqueDenuncias": "0",
+  "simplifiqueReclamacoes": "1",
+  "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-negativa-de-administracao-de-instituicao-em-liquidacao",
+  "statusDestaque": false
+}

@@ -1,0 +1,228 @@
+{
+  "id": "https://servicos.gov.br/api/v1/servicos/5840",
+  "nome": "Obter diploma ou 2ª via de diploma  - IF ES",
+  "sigla": "",
+  "descricao": "(A) requerente que concluir com êxito um curso no Instituto Federal do Espírito Santo (curso técnico, de graduação, de especialização ou de pós-graduação stricto sensu) deverá solicitar o diploma (ou 2ª via) seguindo as orientações abaixo.",
+  "flagPortalLogado": "N",
+  "contato": "Diploma ou certificado são gratuitos.  \n Para mais informações ou dúvidas sobre este serviço, entre em contato:  \n E-mail da Coordenadoria de Registros Acadêmicos (CRA) do campus onde o(a) aluno(a) concluiu o curso. https://www.ifes.edu.br/contato",
+  "gratuito": "true",
+  "porcentagemDigital": 100,
+  "servicoDigital": true,
+  "linkServicoDigital": "https://www.ifes.edu.br/contato",
+  "nomesPopulares": {
+    "item": [
+      {
+        "item": "Cursos Técnicos",
+        "id": 126640
+      },
+      {
+        "item": "Cursos de Graduação",
+        "id": 126641
+      },
+      {
+        "item": "Pós-graduação",
+        "id": 126642
+      }
+    ]
+  },
+  "solicitantes": {
+    "solicitante": [
+      {
+        "id": 105910,
+        "tipo": "Cidadãos, estrangeiros",
+        "requisitos": "Alunos que concluíram com êxito um curso no Instituto Federal do Espírito Santo (curso técnico, de graduação, de especialização ou de pós-graduação stricto sensu)"
+      }
+    ]
+  },
+  "tempoTotalEstimado": {
+    "ate": null,
+    "entre": null,
+    "emMedia": null,
+    "atendimentoImediato": null,
+    "naoEstimadoAinda": {},
+    "descricao": null,
+    "min": null,
+    "max": null
+  },
+  "validadeDocumento": {
+    "tipo": "Sem validade",
+    "quantidade": "0",
+    "unidade": "",
+    "descricao": ""
+  },
+  "orgao": {
+    "id": "http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100912",
+    "dbId": 36754,
+    "nomeOrgao": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo (IFES)",
+    "porcentagemDigital": null,
+    "tempoMedioEspera": null,
+    "porcentagemAvaliacoesPositivas": null,
+    "qtdTotal": null,
+    "qtdTotalSolicitacoes": null,
+    "qtdDenuncias": null,
+    "qtdReclamacao": null
+  },
+  "segmentosDaSociedade": {
+    "item": [
+      {
+        "item": "Cidadãos",
+        "idSegmento": 1,
+        "idServicoSegmento": 177073
+      }
+    ]
+  },
+  "areasDeInteresse": {
+    "item": [
+      "Certificação"
+    ]
+  },
+  "palavrasChave": {
+    "item": [
+      {
+        "item": "Cursos técnicos",
+        "id": 422029
+      },
+      {
+        "item": "Cursos de Graduação",
+        "id": 422030
+      },
+      {
+        "item": "Cursos de Pós-graduação",
+        "id": 422031
+      }
+    ]
+  },
+  "legislacoes": {
+    "item": [
+      {
+        "item": "",
+        "id": 151963
+      }
+    ]
+  },
+  "avaliacoes": {
+    "positivas": 4,
+    "negativas": 11
+  },
+  "condicoesAcessibilidade": "O usuário do serviço público, conforme estabelecido pela lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.",
+  "tratamentoPrioritario": "Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000.",
+  "tratamentoDispensadoAtendimento": "O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:\n\n   + Urbanidade;\n     + Respeito;\n     + Acessibilidade;\n     + Cortesia;\n     + Presunção da boa-fé do usuário;\n     + Igualdade;\n     + Eficiência;\n     + Segurança; e\n     + Ética.",
+  "etapas": [
+    {
+      "id": 247284,
+      "titulo": "Solicitar o diploma/certificado",
+      "descricao": "Solicitação de diploma/certificado ou 2 via de diploma",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322937,
+            "nome": "Documentação em comum para todos os casos  *  Carteira de identidade\n\n \n *  Carteira de identidade de estrangeiro\n\n \n *  Certidão de casamento\n\n \n *  Certidão de nascimento\n\n \n *  Certificado de conclusão de curso\n\n \n *  Comprovante de quitação eleitoral\n\n \n *  CPF"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319712,
+            "tipo": "presencial",
+            "descricao": "Coordenadoria de Registros Acadêmicos (CRA) do campus onde o(a) aluno(a) concluiu o curso.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "minutos",
+            "tempoEstimadoEspera": 10,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 319713,
+            "tipo": "e-mail",
+            "descricao": "E-mail (Somente para diplomas digitais da graduação).  \n E-mail da Coordenadoria de Registros Acadêmicos (CRA) do campus onde o(a) aluno(a) concluiu o curso.\n\n Emails disponíveis em: https://www.ifes.edu.br/contato",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    },
+    {
+      "id": 247285,
+      "titulo": "Retirar diploma/certificado",
+      "descricao": "",
+      "documentos": {
+        "documentos": [
+          {
+            "id": 322938,
+            "nome": "*  Carteira de identidade\n\n \n *  Procuração do representante legal"
+          }
+        ],
+        "casos": []
+      },
+      "custos": {
+        "custos": null,
+        "casos": []
+      },
+      "canaisDePrestacao": {
+        "canaisDePrestacao": [
+          {
+            "id": 319714,
+            "tipo": "presencial",
+            "descricao": "Coordenadoria de Registros Acadêmicos (CRA) do campus onde o(a) aluno(a) concluiu o curso.",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": "dias úteis",
+            "tempoEstimadoEspera": 1,
+            "tempoEstimadoPeriodoService": null
+          },
+          {
+            "id": 319715,
+            "tipo": "web",
+            "descricao": "O egresso fará a solicitação via e-mail, ou junto ao setor responsável no campus. \n\n Para a verificação do código de validação do diploma: [Acesse o site](https://sigaa.ifes.edu.br/sigaa/public/diploma/consulta_publica.jsf?aba=p-graduacao)",
+            "procedimentoSistemaIndisponivel": null,
+            "tempoEstimadoPeriodo": null,
+            "tempoEstimadoEspera": null,
+            "tempoEstimadoPeriodoService": null
+          }
+        ],
+        "casos": []
+      },
+      "tempoTotalEstimado": {
+        "ate": {
+          "max": "1",
+          "unidade": "dias-corridos"
+        },
+        "entre": null,
+        "emMedia": null,
+        "atendimentoImediato": null,
+        "naoEstimadoAinda": null,
+        "descricao": null,
+        "min": null,
+        "max": 1
+      },
+      "digitalizavel": true
+    }
+  ],
+  "tempoMediaEspera": "0",
+  "percentualAvaliacoesPositivas": "27",
+  "temLoginGovBR": "N",
+  "temInfoCidadao": "N",
+  "url": "https://www.gov.br/pt-br/servicos/obter-diploma-ou-2a-via-de-diploma-if-es",
+  "statusDestaque": false
+}
