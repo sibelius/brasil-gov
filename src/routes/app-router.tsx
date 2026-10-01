@@ -2,6 +2,7 @@ import { Suspense, lazy, useSyncExternalStore } from 'react'
 import HomePage from '../pages/home-page'
 
 const ChatPage = lazy(() => import('../pages/chat-page'))
+const LocalModelPage = lazy(() => import('../pages/local-model-page'))
 
 function subscribe(onChange: () => void) {
   window.addEventListener('popstate', onChange)
@@ -16,8 +17,9 @@ function locationSnapshot() {
 export default function AppRouter() {
   const location = useSyncExternalStore(subscribe, locationSnapshot)
   const pathname = location.split('?')[0]
+  const isModelPage = pathname === '/local-model' || pathname === '/local-model/'
 
-  if (pathname !== '/chat' && pathname !== '/chat/') {
+  if (!isModelPage && pathname !== '/chat' && pathname !== '/chat/') {
     return <HomePage />
   }
 
@@ -25,11 +27,11 @@ export default function AppRouter() {
     <Suspense
       fallback={
         <p className="search-status" role="status">
-          Carregando serviços…
+          Carregando…
         </p>
       }
     >
-      <ChatPage key={location} />
+      {isModelPage ? <LocalModelPage /> : <ChatPage key={location} />}
     </Suspense>
   )
 }

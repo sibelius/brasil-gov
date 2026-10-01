@@ -1,0 +1,128 @@
+.model-page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+  line-height: 1.6;
+}
+
+.model-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.model-heading > svg {
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+
+.model-heading h1 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.model-panel {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.model-panel h2,
+.model-panel label {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.model-panel p,
+.model-heading p {
+  margin-top: 12px;
+}
+
+.model-note,
+.model-cache {
+  color: var(--ink-2);
+  font-size: 14px;
+}
+
+.model-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.model-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border: 1px solid var(--ink);
+  border-radius: 24px;
+  font-size: 14px;
+}
+
+.model-button.primary {
+  color: #fff;
+  background: var(--ink);
+}
+
+.model-panel textarea {
+  width: 100%;
+  margin-top: 12px;
+  padding: 16px;
+  border: 2px solid var(--ink);
+  border-radius: 16px;
+  font: inherit;
+  color: var(--ink);
+  resize: vertical;
+  outline: none;
+}
+
+.model-panel form,
+.model-panel button[type='submit'],
+.model-progress {
+  margin-top: 20px;
+}
+
+.model-progress progress {
+  width: 100%;
+  accent-color: var(--green);
+}
+
+.model-progress p,
+.model-error {
+  overflow-wrap: anywhere;
+}
+
+.model-error {
+  padding: 16px;
+  margin-top: 16px;
+  background: #fff4ef;
+  border-radius: 12px;
+}
+
+.model-error summary {
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.model-answer {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+  .model-page {
+    padding: 24px 16px 64px;
+  }
+
+  .model-panel {
+    padding: 20px;
+  }
+}
