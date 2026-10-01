@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
-import { Header, Icon, OfficialBanner, Reveal, Toast, navigate, useToast } from './ui'
+import { Header, Icon, OfficialBanner, REPO, Reveal, Toast, navigate, useToast } from './ui'
 import credits from './credits.json'
 import type { Hit } from './search'
 import type { Answer } from './data'
@@ -396,6 +396,7 @@ function Footer() {
     ['Fontes', '#fontes'],
     ['Em breve', '#em-breve'],
     ['Fazer uma pergunta', '/chat'],
+    ['Conserte o Brasil', REPO],
   ]
   return (
     <footer className="footer">
@@ -404,6 +405,7 @@ function Footer() {
           <a
             key={l}
             href={h}
+            {...(h.startsWith('http') ? { target: '_blank', rel: 'noreferrer' } : {})}
             onClick={(e) => {
               if (h.startsWith('/')) {
                 e.preventDefault()
@@ -527,6 +529,26 @@ export default function Home() {
             </button>
           </Reveal>
           <UpcomingCards />
+        </section>
+
+        <section className="contribute" id="contribua">
+          <Reveal className="contribute-card">
+            <Icon.Github />
+            <h2 className="display-md">Conserte o Brasil</h2>
+            <p className="lead">
+              O Brasil.gov é aberto. Achou uma resposta errada, um prazo desatualizado ou tem uma ideia? Abra uma issue ou mande um
+              pull request.
+            </p>
+            <div className="contribute-actions">
+              <a className="cta" href={REPO} target="_blank" rel="noreferrer">
+                Contribuir no GitHub
+                <Icon.Arrow />
+              </a>
+              <a className="cta ghost" href={`${REPO}/issues/new`} target="_blank" rel="noreferrer">
+                Reportar um erro
+              </a>
+            </div>
+          </Reveal>
         </section>
       </main>
       <Footer />

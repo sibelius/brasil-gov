@@ -52,6 +52,23 @@ export function OfficialBanner() {
   )
 }
 
+export const REPO = 'https://github.com/sibelius/brasil-gov'
+
+export function GithubButton({ className = '' }: { className?: string }) {
+  return (
+    <a className={`gh-btn ${className}`} href={REPO} target="_blank" rel="noreferrer">
+      <Icon.Github />
+      <span>Conserte o Brasil</span>
+    </a>
+  )
+}
+
+const goTo = (to: string) => {
+  const [path, hash] = to.split('#')
+  navigate(path || '/')
+  if (hash) setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 60)
+}
+
 const MENU = [
   { label: 'Fazer uma pergunta', to: '/chat' },
   { label: 'Como funciona', to: '/#como-funciona' },
@@ -69,9 +86,26 @@ export function Header({ light = false }: { light?: boolean }) {
     <>
       <header className={`header ${light ? 'header-light' : ''}`}>
         <Logo />
-        <button className="menu-btn" onClick={() => setOpen(true)}>
-          Menu
-        </button>
+        <nav className="header-nav">
+          {MENU.slice(1).map((m) => (
+            <a
+              key={m.to}
+              href={m.to}
+              onClick={(e) => {
+                e.preventDefault()
+                goTo(m.to)
+              }}
+            >
+              {m.label}
+            </a>
+          ))}
+        </nav>
+        <div className="header-actions">
+          <GithubButton />
+          <button className="menu-btn" onClick={() => setOpen(true)}>
+            Menu
+          </button>
+        </div>
       </header>
       {open && (
         <div className="menu-overlay" role="dialog" aria-modal>
@@ -90,14 +124,15 @@ export function Header({ light = false }: { light?: boolean }) {
                 onClick={(e) => {
                   e.preventDefault()
                   setOpen(false)
-                  const [path, hash] = m.to.split('#')
-                  navigate(path || '/')
-                  if (hash) setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 60)
+                  goTo(m.to)
                 }}
               >
                 {m.label}
               </a>
             ))}
+            <a href={REPO} target="_blank" rel="noreferrer" className="menu-gh" style={{ animationDelay: `${MENU.length * 50}ms` }}>
+              Conserte o Brasil ↗
+            </a>
           </nav>
         </div>
       )}
@@ -148,6 +183,11 @@ export function useToast() {
 const s = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.8, strokeLinecap: 'round', strokeLinejoin: 'round' } as const
 
 export const Icon = {
+  Github: () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z" />
+    </svg>
+  ),
   Info: () => (
     <svg width="14" height="14" viewBox="0 0 24 24" {...s}>
       <circle cx="12" cy="12" r="9" />

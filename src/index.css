@@ -279,3 +279,75 @@ main { overflow: hidden; }
 .hero-sugg { list-style: none; margin: 12px -8px 0; border-top: 1px solid var(--line); padding-top: 6px; }
 .hero-sugg button { width: 100%; text-align: left; padding: 10px 10px; border-radius: 12px; font-size: 15px; }
 .hero-sugg button.on, .hero-sugg button:hover { background: #f1f3f6; }
+
+/* header nav + github */
+.header-nav { display: none; }
+.header-actions { display: flex; align-items: center; gap: 10px; }
+.gh-btn {
+  display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 500; font-size: 15px;
+  padding: 10px 18px; border-radius: 999px; background: var(--ink); color: #fff; transition: transform .15s, background .15s;
+}
+.gh-btn:hover { background: var(--green); transform: translateY(-1px); }
+.header-light .gh-btn { padding: 13px 22px; font-size: 16px; }
+.menu-gh { color: var(--green) !important; }
+
+/* contribute */
+.contribute { padding: 0 24px; margin-top: 120px; }
+.contribute-card {
+  max-width: 1120px; margin: 0 auto; text-align: center; border-radius: 40px; padding: 72px 28px;
+  background: linear-gradient(135deg, #003d1a 0%, var(--navy) 100%); color: #fff; position: relative; overflow: hidden;
+}
+.contribute-card::after {
+  content: ''; position: absolute; right: -80px; top: -80px; width: 260px; height: 260px; border-radius: 50%;
+  background: var(--yellow); opacity: .14; pointer-events: none;
+}
+.contribute-card > svg { width: 40px; height: 40px; margin: 0 auto 22px; display: block; }
+.contribute-card .lead { color: rgba(255,255,255,.78); max-width: 600px; margin: 18px auto 0; line-height: 1.5; }
+.contribute-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 34px; position: relative; z-index: 1; }
+.cta { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; padding: 15px 26px; border-radius: 999px; background: var(--yellow); color: var(--ink); font-weight: 600; transition: transform .15s; }
+.cta:hover { transform: translateY(-2px); }
+.cta.ghost { background: transparent; color: #fff; box-shadow: inset 0 0 0 1.5px rgba(255,255,255,.5); }
+
+@media (max-width: 700px) {
+  .gh-btn { padding: 10px; }
+  .gh-btn span { display: none; }
+  .header-light .gh-btn { padding: 12px; }
+  .contribute-card { border-radius: 28px; padding: 52px 22px; }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+  .header { padding: 26px 40px; }
+  .header-light { padding: 22px 52px; }
+  .header-nav { display: flex; gap: 30px; position: absolute; left: 50%; transform: translateX(-50%); }
+  .header-nav a { text-decoration: none; font-size: 15px; font-weight: 500; color: var(--ink-2); transition: color .15s; }
+  .header-nav a:hover { color: var(--ink); }
+  .menu-btn { display: none; }
+
+  .hero { padding-bottom: 44px; }
+  .display { font-size: clamp(76px, 7vw, 108px); margin-top: 28px; }
+  .stage { width: min(1180px, calc(100vw - 180px)); aspect-ratio: 16 / 9; max-height: 72vh; margin-top: 48px; border-radius: 36px; }
+  .hero-search { top: 50%; left: 50%; right: auto; width: min(680px, 80%); transform: translate(-50%, -50%); padding: 22px 22px 14px; border-radius: 26px; }
+  .hero-input input { font-size: 18px; }
+  .marquee-track { font-size: 17px; }
+  .caption { left: 30px; bottom: 24px; font-size: 14px; }
+
+  .feature {
+    max-width: 1120px; margin-top: 160px; padding: 0 40px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 96px; align-items: center;
+  }
+  .feature:nth-of-type(even) > :first-child { order: 2; }
+  .feature-visual { border-radius: 36px; }
+  .feature-text { margin-top: 0; }
+  .feature h2 { font-family: var(--serif); font-size: clamp(40px, 3.6vw, 54px); letter-spacing: -0.045em; line-height: 1.04; }
+  .feature p { font-size: 18px; max-width: 440px; margin-top: 22px; }
+  .text-link { font-size: 16px; color: var(--link); }
+  .collage { transform: scale(1.25); }
+  .device-tile { width: 128px; height: 128px; }
+
+  .coming { margin-top: 200px; }
+  .contribute { margin-top: 140px; padding: 0 40px; }
+  .contribute-card { padding: 96px 40px; }
+  .footer-links { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 4px 36px; }
+  .footer-links a { font-size: 34px; }
+}
