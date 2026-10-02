@@ -19,6 +19,7 @@ const INSTRUCTIONS = `Brasil.gov: catálogo de 5.729 serviços públicos federai
 Para responder perguntas factuais, chame retrieve_context e responda somente com os trechos retornados, citando o link oficial (url) de cada serviço.
 Se o status for needs_clarification, peça ao usuário para escolher entre os serviços listados. Se for insufficient_evidence, diga o que falta e indique a página oficial.
 Use search_services para descobrir IDs e get_service ou get_service_section para ler detalhes.\nPara saber se um sistema está no ar (Detran, prefeitura, Meu INSS, e-CAC ou o link de um serviço), use get_status.
+Para "até quando fica pronto", use estimate_deadline em vez de calcular: ele conta dias úteis com os feriados nacionais. Apresente o resultado como estimativa e não como prazo oficial.
 Os dados vêm de uma coleta pontual (veja catalog_info). Lembre o usuário de confirmar custos e prazos na página oficial.`
 
 function describe(name: string) {
@@ -158,6 +159,23 @@ export function createServer(catalog: Catalog) {
 
         return { ...rest, ...page(matches, offset, limit) }
       }),
+  )
+
+  server.registerTool(
+    'estimate_deadline',
+    {
+      ...describe('estimate_deadline'),
+      inputSchema: {
+        id,
+        start: z
+          .string()
+          .regex(/^\d{4}-\d{2}-\d{2}$/)
+          .optional()
+          .describe('Data do pedido em AAAA-MM-DD. Padrão: hoje em São Paulo.'),
+      },
+      annotations: READ_ONLY,
+    },
+    ({ id: serviceId, start }) => attempt(() => catalog.estimateDeadline(serviceId, start)),
   )
 
   server.registerTool(

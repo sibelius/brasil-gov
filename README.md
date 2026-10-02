@@ -60,6 +60,39 @@ Default limits are **12,000 characters, eight passages, and three services**. Li
 
 Question fixtures in `tests/fixtures/retrieval-questions.json` check service selection, expected passages, conditional requirements, ambiguity, follow-ups, and unrelated questions. Additional tests cover all generated passages against source records, revision validation, budgets, caching, failures, and stale reducer responses. The benchmark runs in Node against local files; it does not measure network latency, browser rendering, or mobile performance.
 
+## Estimated completion date
+
+The catalog publishes deadlines as amounts and units (`tempoTotalEstimado`), not as dates. `src/lib/services/deadline.ts` turns one into the date range a request filed today is estimated to finish in, and the service page shows it under the published deadline.
+
+```sh
+pnpm data:holidays   # Regenerate public/data/v1/holidays.json from BrasilAPI
+pnpm data:check      # Verify generated retrieval and holiday data without writing
+```
+
+`estimateDeadline(start, parsedDuration, holidays)` is pure, and `start` plus the holiday calendar always come from the caller. Dates are civil dates (`YYYY-MM-DD`), never `Date` instances read in the host time zone; the only place a time zone is used is `today()`, which asks for the current calendar day in `America/Sao_Paulo`.
+
+| Unit            | Rule                                                                         |
+| --------------- | ---------------------------------------------------------------------------- |
+| `dias-uteis`    | Counts from the next day, skipping Saturdays, Sundays, and national holidays |
+| `dias-corridos` | Calendar days                                                                |
+| `meses`         | Calendar months, clamped to the last day of a shorter month                  |
+| `horas`         | Same day up to 24 hours, otherwise calendar days rounded up                  |
+| `minutos`       | Same day up to a full day, otherwise calendar days rounded up                |
+
+`ate` gives one date, `entre` gives a range, and `emMedia` is labelled as an average instead of a limit. Immediate service, `naoEstimadoAinda`, and the nine records whose amount carries an empty unit produce no date.
+
+**Coverage.** Of the 5,729 services, 2,310 publish no amount at all, 698 are immediate, 2,322 publish days, and 390 publish months, hours, or minutes. The estimate is therefore absent on roughly 40% of the pages by design, and the published deadline still shows.
+
+### Holidays
+
+`public/data/v1/holidays.json` is generated and versioned, covering 2026 to 2032 — a fixed range, because a range derived from the current date would go stale every 1 January. Business-day counting does not depend on it: every national holiday falls on a fixed calendar date, so `isNationalHoliday()` answers for any year and the dataset can only add to that set. A deadline landing in 2040 still deducts Christmas.
+
+Only the nine national holidays set by federal law count as non-business days (Leis 662/1949, 6.802/1980, 10.607/2002 and 14.759/2023). **Ponto facultativo is not deducted:** [BrasilAPI](https://brasilapi.com.br/api/feriados/v1/2026) reports Carnaval, Corpus Christi, Sexta-feira da Paixão, and Páscoa as `national`, but the first two are ponto facultativo, the third depends on municipal law (Lei 9.093/1995, art. 2), and the fourth is a Sunday. They are kept in the dataset as `opcional` for transparency and count as business days, which makes the estimate shorter rather than longer. State and municipal holidays are not considered at all.
+
+`src/lib/services/holidays.ts` is the authority and the aggregator is a cross-check: the builder warns when BrasilAPI omits a legal holiday, and `parseHolidays` refuses a calendar that is missing one, so a holiday can never silently be counted as a business day. If the dataset cannot be read, the MCP server falls back to the calendar derived from the law.
+
+The estimate is presented as an estimate. It does not replace the official deadline, which can be suspended, interrupted, or changed by the agency.
+
 ## State, loading, and cache
 
 - One chat reducer handles input, searches, pagination, selected services, loading, errors, and reset. Request IDs prevent late responses from replacing newer results. Async work starts in event handlers; effects handle session lifecycle and scrolling.
@@ -85,8 +118,9 @@ src/
     services/                     Search results and service details
     reveal.tsx                    Visibility animation
   hooks/use-chat.ts                Async commands and session lifecycle
+  hooks/use-holidays.ts            Shared holiday calendar loading
   reducers/chat-reducer.ts         Conversation state and transitions
-  lib/services/                   Service validation, loading, and worker protocol
+  lib/services/                   Service validation, loading, deadlines, and worker protocol
   lib/retrieval/                  Query analysis, ranking, passages, and context
   lib/json-cache.ts               Shared bounded JSON loader
   lib/photo-credits.ts            On-demand photo credit loading
@@ -97,7 +131,8 @@ public/
   data/v1/index.json              5,729 service summaries (about 2.15 MB)
   data/v1/services/<id>.json       Individual source records
   data/v1/retrieval/              Generated index, revision manifest, and passages
-scripts/                         Reproducible retrieval build and benchmark
+  data/v1/holidays.json           Generated national holidays for 2026-2032
+scripts/                         Reproducible retrieval and holiday builds, benchmark
 mcp/                             MCP server (stdio and Streamable HTTP)
 tests/                           Dataset, retrieval, reducer, and cache checks
 ```
@@ -134,6 +169,7 @@ claude mcp add --scope user brasil-gov -- node --experimental-strip-types --no-w
 | `list_agencies`           | Agencies with service counts, optional filter                                            |
 | `list_services_by_agency` | Services of one agency                                                                   |
 | `get_status`              | Hourly availability of federal systems, Detrans, states, capitals, and catalog hosts     |
+| `estimate_deadline`       | Published deadline → estimated completion date, counting business days and holidays      |
 | `catalog_info`            | Provenance, collection date, revisions, and counts                                       |
 
 Resources: `brasil-gov://catalog` and `brasil-gov://services/{id}` (the original API record). Prompt: `answer_with_sources`. Tool names and descriptions live in `src/lib/mcp/manifest.ts`, shared by the server and the `/mcp` page; `tests/mcp.test.ts` checks that both stay in sync.

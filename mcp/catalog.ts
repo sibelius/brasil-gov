@@ -10,6 +10,15 @@ import {
 } from '../src/lib/retrieval/types.ts'
 import { validateIndex, validatePassages } from '../src/lib/retrieval/validation.ts'
 import { createCatalogSuggester } from '../src/lib/services/catalog-suggestions.ts'
+import {
+  DEADLINE_DISCLAIMER,
+  estimateDeadline,
+  isCivilDate,
+  today,
+  TIME_ZONE,
+} from '../src/lib/services/deadline.ts'
+import { durationLabel, parseDuration } from '../src/lib/services/duration.ts'
+import { legalCalendar, parseHolidays, type HolidayCalendar } from '../src/lib/services/holidays.ts'
 import { DATASET, parseService, type ServiceSummary } from '../src/lib/services/model.ts'
 
 export const LOCAL_DATA = new URL('../public/data/v1/', import.meta.url)
@@ -139,6 +148,13 @@ export async function openCatalog(base: URL = LOCAL_DATA) {
     return job
   }
 
+  // Federal law alone is enough to count business days, so a missing or
+  // unreachable dataset degrades to the law-derived calendar instead of
+  // failing the whole catalog.
+  const holidays: HolidayCalendar = await readJson('holidays.json')
+    .then(parseHolidays)
+    .catch(() => legalCalendar(new Date().getUTCFullYear(), new Date().getUTCFullYear() + 4))
+
   const retriever = createRetriever({ index, loadPassages })
   const suggest = createCatalogSuggester(index)
   const agencies = new Map<string, number>()
@@ -247,6 +263,41 @@ export async function openCatalog(base: URL = LOCAL_DATA) {
     return retriever.retrieveContext({ question, selectedServiceId, budget })
   }
 
+  async function estimateServiceDeadline(id: string, start?: string) {
+    if (start !== undefined && !isCivilDate(start)) {
+      throw new Error('Data inicial inválida. Use o formato AAAA-MM-DD.')
+    }
+
+    const raw = await loadRaw(id)
+    const parsed = parseDuration(raw.tempoTotalEstimado)
+    const from = start ?? today()
+    const deadline = estimateDeadline(from, parsed, holidays)
+
+    return {
+      service: summary(id),
+      start: from,
+      timeZone: TIME_ZONE,
+      publishedDuration: {
+        kind: parsed.kind,
+        label: durationLabel(parsed) || null,
+        min: parsed.min || null,
+        max: parsed.max || null,
+        unit: parsed.unit || null,
+        note: parsed.note || null,
+      },
+      estimate: deadline,
+      holidayCalendar: {
+        years: { from: holidays.from, to: holidays.to },
+        nationalHolidays: holidays.national.size,
+        coverage:
+          'Os feriados nacionais são datas fixas de lei federal, então a contagem de dias úteis vale para qualquer ano, inclusive fora do intervalo acima.',
+        pontoFacultativo:
+          'Não descontado: Carnaval, Corpus Christi e Sexta-feira da Paixão contam como dias úteis.',
+      },
+      disclaimer: DEADLINE_DISCLAIMER,
+    }
+  }
+
   function info() {
     return {
       name: 'Brasil.gov',
@@ -278,6 +329,7 @@ export async function openCatalog(base: URL = LOCAL_DATA) {
     listAgencies,
     servicesByAgency,
     retrieveContext,
+    estimateDeadline: estimateServiceDeadline,
   }
 }
 

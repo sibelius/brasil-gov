@@ -147,6 +147,23 @@ export const MCP_TOOLS: ToolManifest[] = [
     prompt: 'O site do Detran de São Paulo está fora do ar agora?',
   },
   {
+    name: 'estimate_deadline',
+    title: 'Estimar a data de conclusão',
+    description:
+      'Converte o prazo publicado de um serviço em uma data estimada de conclusão, contando dias úteis sem sábados, domingos e feriados nacionais, no fuso America/Sao_Paulo. Pontos facultativos, como Carnaval e Corpus Christi, contam como dias úteis. Prazos "entre X e Y" devolvem um intervalo de datas. Não substitui o prazo oficial.',
+    parameters: [
+      { name: 'id', type: 'string', required: true, description: 'ID numérico do serviço.' },
+      {
+        name: 'start',
+        type: 'string',
+        required: false,
+        description: 'Data do pedido em AAAA-MM-DD. Padrão: hoje em São Paulo.',
+      },
+    ],
+    example: { id: '2833' },
+    prompt: 'Se eu pedir o serviço 2833 hoje, até quando fica pronto?',
+  },
+  {
     name: 'catalog_info',
     title: 'Sobre o catálogo',
     description:

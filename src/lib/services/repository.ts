@@ -1,4 +1,5 @@
 import { DATASET, parseCatalog, parseService } from './model.ts'
+import { parseHolidays } from './holidays.ts'
 import { createJsonLoader } from '../json-cache.ts'
 
 const loadJson = createJsonLoader({ cacheName: `brasil-gov-data-${DATASET.revision}` })
@@ -13,4 +14,8 @@ export function loadService(id: string) {
   }
 
   return loadJson(`${DATASET.base}/services/${id}.json`, (value) => parseService(value, id))
+}
+
+export function loadHolidays() {
+  return loadJson(`${DATASET.base}/holidays.json`, parseHolidays)
 }
