@@ -27,6 +27,7 @@ export function Footer() {
     ['Fontes', '#fontes'],
     ['Em breve', '#em-breve'],
     ['Fazer uma pergunta', '/chat'],
+    ['Servidor MCP', '/mcp'],
     ['Conserte o Brasil', REPOSITORY_URL],
   ]
 

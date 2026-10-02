@@ -98,12 +98,36 @@ public/
   data/v1/services/<id>.json       Individual source records
   data/v1/retrieval/              Generated index, revision manifest, and passages
 scripts/                         Reproducible retrieval build and benchmark
+mcp/                             MCP server (stdio and Streamable HTTP)
 tests/                           Dataset, retrieval, reducer, and cache checks
 ```
 
 The loader derives service paths from validated IDs because the index's `arquivo` field uses the original `servicos/` directory name. Tests in `tests/` cover dataset integrity, catalog navigation, reducer races, and cache behavior. Photos under `public/img` are from Wikimedia Commons, with credits in `public/photo-credits.json` and the footer.
 
 All source filenames use **kebab-case**. Components and types use **PascalCase**; functions, hooks, and variables use **camelCase**; module constants use **UPPER_SNAKE_CASE**. Use one variable declaration per statement and blank lines between functions and between declarations, validations, and returns. Prettier handles formatting; these separations remain part of the coding convention. Interface icons use named imports from `lucide-react`; the original Brazilian flag remains a brand asset in `public/brazil-flag.svg`. `application.tsx` composes the router and error boundary; chat state stays local to its page, so no global Context provider is needed.
+
+## MCP server
+
+`mcp/` exposes the catalog to Claude, Codex, and any [Model Context Protocol](https://modelcontextprotocol.io) client. It reuses the same retrieval engine as the chat, is read-only, and needs no API key. Installation instructions for each client and the full tool reference are at [`/mcp`](https://brasil-gov.vercel.app/mcp).
+
+```sh
+pnpm mcp                    # stdio, reads public/data/v1 from this clone
+pnpm mcp --remote           # stdio, reads the published catalog from brasil-gov.vercel.app
+pnpm mcp:http --port 3333   # Streamable HTTP (stateless) at http://127.0.0.1:3333/mcp
+claude mcp add --scope user brasil-gov -- node --experimental-strip-types --no-warnings "$PWD/mcp/main.ts"
+```
+
+| Tool                      | Purpose                                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------------------- |
+| `search_services`         | Ranked, paginated search by name, agency, alias, or keyword                              |
+| `get_service`             | Normalized record: steps, documents, costs, deadlines, channels, audiences               |
+| `get_service_section`     | Passages of one section with their source JSON pointer                                   |
+| `retrieve_context`        | Question → cited passages plus `ready` / `needs_clarification` / `insufficient_evidence` |
+| `list_agencies`           | Agencies with service counts, optional filter                                            |
+| `list_services_by_agency` | Services of one agency                                                                   |
+| `catalog_info`            | Provenance, collection date, revisions, and counts                                       |
+
+Resources: `brasil-gov://catalog` and `brasil-gov://services/{id}` (the original API record). Prompt: `answer_with_sources`. Tool names and descriptions live in `src/lib/mcp/manifest.ts`, shared by the server and the `/mcp` page; `tests/mcp.test.ts` checks that both stay in sync.
 
 ## Next stages
 
