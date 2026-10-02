@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720">
+  <defs>
+    <pattern id="straw" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <rect width="8" height="8" fill="#ead9a4"/>
+      <path d="M0 4 H8" stroke="#d9c385" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <g stroke="#0b1f4d" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- torso -->
+    <path d="M70 720 C 80 610, 140 545, 235 522 L 365 522 C 460 545, 520 610, 530 720 Z" fill="#fbf8f0"/>
+    <!-- suspenders -->
+    <path d="M228 528 L 205 720" stroke="#009c3b" stroke-width="30"/>
+    <path d="M372 528 L 395 720" stroke="#009c3b" stroke-width="30"/>
+    <!-- pocket + pen -->
+    <path d="M150 612 L 196 612 L 194 662 L 152 662 Z" fill="#f1ece0"/>
+    <path d="M162 612 L 162 572" stroke="#1f5bd8" stroke-width="10"/>
+    <path d="M182 612 L 182 590" stroke="#0b1f4d" stroke-width="6"/>
+    <!-- neck -->
+    <path d="M262 430 L 262 528 L 338 528 L 338 430 Z" fill="#e2a87c"/>
+    <!-- collar -->
+    <path d="M250 512 L 300 552 L 268 580 L 232 530 Z" fill="#ffffff"/>
+    <path d="M350 512 L 300 552 L 332 580 L 368 530 Z" fill="#ffffff"/>
+    <!-- bow tie -->
+    <path d="M300 552 L 252 528 L 252 580 Z" fill="#ffdf00"/>
+    <path d="M300 552 L 348 528 L 348 580 Z" fill="#ffdf00"/>
+    <circle cx="300" cy="553" r="14" fill="#0b1f4d"/>
+    <!-- ears -->
+    <ellipse cx="196" cy="372" rx="18" ry="30" fill="#e8b48a"/>
+    <ellipse cx="404" cy="372" rx="18" ry="30" fill="#e8b48a"/>
+    <!-- head -->
+    <path d="M198 330 C 198 250, 402 250, 402 330 L 402 380 C 402 470, 350 492, 300 492 C 250 492, 198 470, 198 380 Z" fill="#eebd93"/>
+    <!-- side hair -->
+    <path d="M200 300 C 186 330, 190 360, 202 372 L 214 300 Z" fill="#d6d9de"/>
+    <path d="M400 300 C 414 330, 410 360, 398 372 L 386 300 Z" fill="#d6d9de"/>
+    <!-- cheeks -->
+    <circle cx="240" cy="412" r="18" fill="#f2a08a" stroke="none" opacity=".7"/>
+    <circle cx="360" cy="412" r="18" fill="#f2a08a" stroke="none" opacity=".7"/>
+    <!-- eyebrows -->
+    <path d="M222 326 C 238 306, 268 306, 282 322" stroke="#b9bec6" stroke-width="12"/>
+    <path d="M318 322 C 332 306, 362 306, 378 326" stroke="#b9bec6" stroke-width="12"/>
+    <!-- eyes -->
+    <circle cx="256" cy="350" r="8" fill="#0b1f4d" stroke="none"/>
+    <circle cx="344" cy="350" r="8" fill="#0b1f4d" stroke="none"/>
+    <!-- glasses (on the tip of the nose) -->
+    <rect x="222" y="352" width="62" height="34" rx="12" fill="#ffffff" fill-opacity=".25"/>
+    <rect x="316" y="352" width="62" height="34" rx="12" fill="#ffffff" fill-opacity=".25"/>
+    <path d="M284 366 C 292 358, 308 358, 316 366" fill="none"/>
+    <path d="M222 362 L 204 356" /><path d="M378 362 L 396 356"/>
+    <!-- nose -->
+    <path d="M300 352 C 296 376, 284 392, 288 402 C 296 410, 308 410, 316 402" fill="#e8a982"/>
+    <!-- mustache -->
+    <path d="M300 416 C 272 398, 226 402, 196 434 C 214 444, 236 430, 252 438 C 270 446, 290 440, 300 432 C 310 440, 330 446, 348 438 C 364 430, 386 444, 404 434 C 374 402, 328 398, 300 416 Z" fill="#dfe2e6"/>
+    <!-- smile -->
+    <path d="M276 456 C 290 466, 310 466, 324 456" fill="none"/>
+    <!-- hat brim -->
+    <ellipse cx="300" cy="268" rx="196" ry="40" fill="url(#straw)"/>
+    <!-- hat crown -->
+    <path d="M188 268 C 186 196, 204 150, 300 146 C 396 150, 414 196, 412 268 C 360 282, 240 282, 188 268 Z" fill="url(#straw)"/>
+    <path d="M250 160 C 272 178, 328 178, 350 160" fill="none" stroke-width="4"/>
+    <!-- hat band -->
+    <path d="M190 228 C 250 244, 350 244, 410 228 L 412 262 C 350 278, 250 278, 188 262 Z" fill="#009c3b"/>
+    <path d="M189 242 C 250 258, 350 258, 411 242 L 411 250 C 350 266, 250 266, 189 250 Z" fill="#ffdf00" stroke-width="0"/>
+    <g transform="translate(300 640) scale(1.35) translate(-330 -640)">
+    <!-- sleeve (arm coming forward) -->
+    <path d="M540 720 C 520 640, 470 600, 404 594 L 372 676 C 420 690, 460 706, 474 720 Z" fill="#fbf8f0"/>
+    <path d="M396 586 L 420 594 L 384 690 L 360 680 Z" fill="#f1ece0"/>
+    <!-- fist -->
+    <path d="M378 610 C 350 590, 290 592, 270 612 C 254 630, 260 670, 290 686 C 320 700, 362 690, 374 676 Z" fill="#eebd93"/>
+    <path d="M300 640 C 316 646, 334 646, 350 640" fill="none" stroke-width="4"/>
+    <path d="M300 664 C 316 670, 334 670, 350 664" fill="none" stroke-width="4"/>
+    <!-- thumb -->
+    <path d="M330 606 C 310 600, 286 612, 284 628 C 300 630, 322 624, 340 618 Z" fill="#e8b48a"/>
+    <!-- pointing finger, foreshortened toward the viewer -->
+    <ellipse cx="262" cy="626" rx="38" ry="40" fill="#f2c7a2"/>
+    <ellipse cx="258" cy="612" rx="18" ry="14" fill="#fbe3cf" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

@@ -894,9 +894,29 @@ main {
   opacity: 0.14;
   pointer-events: none;
 }
-.contribute-icon {
-  margin: 0 auto 22px;
+.contribute-mascot {
   display: block;
+  width: 196px;
+  height: 196px;
+  margin: 0 auto 18px;
+  overflow: hidden;
+  border: 4px solid var(--yellow);
+  border-radius: 50%;
+  background: #f3ead3;
+}
+.contribute-mascot img {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 10px auto 0;
+}
+.contribute-kicker {
+  color: var(--yellow);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
 }
 .contribute-card .lead {
   color: rgba(255, 255, 255, 0.78);

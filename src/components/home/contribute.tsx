@@ -1,4 +1,4 @@
-import { ArrowRight, GitPullRequest } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { REPOSITORY_URL } from '../../lib/project'
 import { Reveal } from '../reveal'
 
@@ -6,7 +6,10 @@ export function Contribute() {
   return (
     <section className="contribute" id="contribua" aria-labelledby="contribute-title">
       <Reveal className="contribute-card">
-        <GitPullRequest className="contribute-icon" size={40} aria-hidden="true" />
+        <a className="contribute-mascot" href="/tio-bras-poster.jpg" target="_blank">
+          <img src="/tio-bras.svg" alt="Tio Brás apontando para você" width={180} height={216} />
+        </a>
+        <p className="contribute-kicker">O Tio Brás quer você</p>
         <h2 className="display-md" id="contribute-title">
           Conserte o Brasil
         </h2>
