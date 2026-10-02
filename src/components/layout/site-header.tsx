@@ -9,6 +9,7 @@ const MENU = [
   { label: 'Como funciona', to: '/#como-funciona' },
   { label: 'Privacidade', to: '/#privacidade' },
   { label: 'Fontes', to: '/#fontes' },
+  { label: 'MCP', to: '/mcp' },
   { label: 'Em breve', to: '/#em-breve' },
 ]
 

@@ -11,20 +11,24 @@
     "typecheck": "tsc -b",
     "preview": "vite preview",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "format": "prettier --write src scripts tests README.md package.json .oxlintrc.json .prettierrc.json",
-    "format:check": "prettier --check src scripts tests README.md package.json .oxlintrc.json .prettierrc.json",
+    "format": "prettier --write src scripts mcp tests README.md package.json .oxlintrc.json .prettierrc.json",
+    "format:check": "prettier --check src scripts mcp tests README.md package.json .oxlintrc.json .prettierrc.json",
     "data:build": "node --experimental-strip-types scripts/build-retrieval.ts",
     "data:benchmark": "node --experimental-strip-types scripts/benchmark-retrieval.ts",
-    "data:check": "node --experimental-strip-types scripts/build-retrieval.ts --check"
+    "data:check": "node --experimental-strip-types scripts/build-retrieval.ts --check",
+    "mcp": "node --experimental-strip-types --no-warnings mcp/main.ts",
+    "mcp:http": "node --experimental-strip-types --no-warnings mcp/main.ts --http"
   },
   "dependencies": {
     "@mlc-ai/web-llm": "0.2.85",
+    "@modelcontextprotocol/sdk": "^1.31.0",
     "lucide-react": "^1.49.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-markdown": "^10.1.0",
     "rehype-raw": "^7.0.0",
-    "rehype-sanitize": "^6.0.0"
+    "rehype-sanitize": "^6.0.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",

@@ -3,6 +3,7 @@ import HomePage from '../pages/home-page'
 
 const ChatPage = lazy(() => import('../pages/chat-page'))
 const LocalModelPage = lazy(() => import('../pages/local-model-page'))
+const McpPage = lazy(() => import('../pages/mcp-page'))
 
 function subscribe(onChange: () => void) {
   window.addEventListener('popstate', onChange)
@@ -18,8 +19,9 @@ export default function AppRouter() {
   const location = useSyncExternalStore(subscribe, locationSnapshot)
   const pathname = location.split('?')[0]
   const isModelPage = pathname === '/local-model' || pathname === '/local-model/'
+  const isMcpPage = pathname === '/mcp' || pathname === '/mcp/'
 
-  if (!isModelPage && pathname !== '/chat' && pathname !== '/chat/') {
+  if (!isModelPage && !isMcpPage && pathname !== '/chat' && pathname !== '/chat/') {
     return <HomePage />
   }
 
@@ -31,7 +33,7 @@ export default function AppRouter() {
         </p>
       }
     >
-      {isModelPage ? <LocalModelPage /> : <ChatPage key={location} />}
+      {isModelPage ? <LocalModelPage /> : isMcpPage ? <McpPage /> : <ChatPage key={location} />}
     </Suspense>
   )
 }
