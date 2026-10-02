@@ -1,4 +1,37 @@
 {
-  "rewrites": [{ "source": "/((?!img/|assets/|.*\\..*).*)", "destination": "/index.html" }],
-  "headers": [{ "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }]
+  "functions": {
+    "api/mcp.ts": {
+      "excludeFiles": "public/**",
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/mcp",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*(text/event-stream|application/json).*"
+        }
+      ],
+      "destination": "/api/mcp"
+    },
+    {
+      "source": "/((?!img/|assets/|api/|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
 }

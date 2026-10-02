@@ -11,6 +11,7 @@ import {
 import { REPOSITORY_URL } from '../lib/project'
 import '../styles/mcp.css'
 
+const MCP_URL = 'https://brasil-gov.vercel.app/mcp'
 const DIR = '/caminho/para/brasil-gov'
 const ENTRY = `${DIR}/${MCP_REPOSITORY_PATH}`
 const NODE_ARGS = ['--experimental-strip-types', '--no-warnings', ENTRY]
@@ -26,44 +27,77 @@ const JSON_CONFIG = JSON.stringify(
   2,
 )
 
-const CLIENTS = [
+const REMOTE_JSON = JSON.stringify(
+  { mcpServers: { [MCP_NAME]: { type: 'http', url: MCP_URL } } },
+  null,
+  2,
+)
+
+const BRIDGE_JSON = JSON.stringify(
+  { mcpServers: { [MCP_NAME]: { command: 'npx', args: ['-y', 'mcp-remote', MCP_URL] } } },
+  null,
+  2,
+)
+
+type Step = { text: string; code?: string }
+
+const CLIENTS: { id: string; label: string; remote: Step[]; local: Step[] }[] = [
   {
     id: 'claude-code',
     label: 'Claude Code',
-    steps: [
+    remote: [
       {
-        text: 'Adicione o servidor para todos os seus projetos:',
-        code: `claude mcp add --scope user ${MCP_NAME} -- node ${NODE_ARGS.join(' ')}`,
+        text: 'Um comando, para todos os seus projetos:',
+        code: `claude mcp add --scope user --transport http ${MCP_NAME} ${MCP_URL}`,
       },
       {
         text: 'Confira se ele conectou. Dentro do Claude Code, /mcp lista as ferramentas.',
-        code: `claude mcp list`,
+        code: 'claude mcp list',
+      },
+    ],
+    local: [
+      {
+        text: 'Depois de clonar, aponte para o arquivo local:',
+        code: `claude mcp add --scope user ${MCP_NAME} -- node ${NODE_ARGS.join(' ')}`,
       },
     ],
   },
   {
-    id: 'claude-desktop',
-    label: 'Claude Desktop',
-    steps: [
+    id: 'claude-ai',
+    label: 'Claude.ai e Desktop',
+    remote: [
       {
-        text: 'Abra Settings → Developer → Edit Config e adicione ao claude_desktop_config.json:',
-        code: JSON_CONFIG,
+        text: 'Em Configurações → Conectores, clique em “Adicionar conector personalizado” e cole a URL:',
+        code: MCP_URL,
       },
       {
-        text: 'Reinicie o Claude Desktop. As ferramentas aparecem no menu de conectores do chat.',
+        text: 'Ative o conector em uma conversa pelo menu de ferramentas. Ele vale para o Claude.ai e para o Claude Desktop.',
+      },
+    ],
+    local: [
+      {
+        text: 'Abra Settings → Developer → Edit Config e adicione ao claude_desktop_config.json. Depois, reinicie o app.',
+        code: JSON_CONFIG,
       },
     ],
   },
   {
     id: 'codex',
     label: 'Codex',
-    steps: [
+    remote: [
       {
-        text: 'Pela linha de comando:',
-        code: `codex mcp add ${MCP_NAME} -- node ${NODE_ARGS.join(' ')}`,
+        text: 'Adicione ao ~/.codex/config.toml:',
+        code: `[mcp_servers.${MCP_NAME}]
+url = "${MCP_URL}"`,
       },
       {
-        text: 'Ou edite ~/.codex/config.toml:',
+        text: 'Ou pela linha de comando:',
+        code: `codex mcp add ${MCP_NAME} --url ${MCP_URL}`,
+      },
+    ],
+    local: [
+      {
+        text: 'Adicione ao ~/.codex/config.toml:',
         code: `[mcp_servers.${MCP_NAME}]
 command = "node"
 args = [${NODE_ARGS.map((arg) => `"${arg}"`).join(', ')}]`,
@@ -72,36 +106,41 @@ args = [${NODE_ARGS.map((arg) => `"${arg}"`).join(', ')}]`,
   },
   {
     id: 'generic',
-    label: 'Outros (stdio)',
-    steps: [
+    label: 'Cursor, VS Code e outros',
+    remote: [
       {
-        text: 'Cursor, Windsurf, VS Code, Zed, Cline e a maioria dos clientes aceitam o formato mcpServers:',
-        code: JSON_CONFIG,
+        text: 'Clientes com suporte a HTTP (Cursor, VS Code, Windsurf, Cline…) aceitam a URL direto:',
+        code: REMOTE_JSON,
       },
       {
-        text: 'Sem clonar os dados? Acrescente --remote aos args para ler o catálogo publicado em brasil-gov.vercel.app.',
+        text: 'Seu cliente só aceita stdio? Use a ponte mcp-remote:',
+        code: BRIDGE_JSON,
+      },
+    ],
+    local: [
+      {
+        text: 'Formato mcpServers com stdio. Acrescente --remote aos args para ler os dados publicados em vez dos arquivos locais.',
+        code: JSON_CONFIG,
       },
     ],
   },
   {
-    id: 'http',
-    label: 'HTTP',
-    steps: [
+    id: 'curl',
+    label: 'curl',
+    remote: [
       {
-        text: 'Suba o servidor com Streamable HTTP (sem sessão, só leitura):',
-        code: `pnpm mcp:http            # http://127.0.0.1:3333/mcp
-pnpm mcp:http --port 8080 --host 0.0.0.0`,
-      },
-      {
-        text: 'Conecte qualquer cliente compatível com HTTP, por exemplo:',
-        code: `claude mcp add --transport http ${MCP_NAME} http://127.0.0.1:3333/mcp`,
-      },
-      {
-        text: 'Ou teste com curl:',
-        code: `curl -s http://127.0.0.1:3333/mcp \\
+        text: 'Teste o endpoint sem nenhum cliente:',
+        code: `curl -s ${MCP_URL} \\
   -H 'content-type: application/json' \\
   -H 'accept: application/json, text/event-stream' \\
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"search_services","arguments":{"query":"passaporte"}}}'`,
+      },
+    ],
+    local: [
+      {
+        text: 'Suba o servidor HTTP no seu computador e troque a URL nos exemplos:',
+        code: `pnpm mcp:http            # http://127.0.0.1:3333/mcp
+pnpm mcp:http --port 8080 --host 0.0.0.0`,
       },
     ],
   },
@@ -148,7 +187,9 @@ function Code({ value }: { value: string }) {
 
 export default function McpPage() {
   const [client, setClient] = useState(CLIENTS[0].id)
+  const [mode, setMode] = useState<'remote' | 'local'>('remote')
   const active = CLIENTS.find((entry) => entry.id === client) ?? CLIENTS[0]
+  const steps = active[mode]
 
   useEffect(() => {
     document.title = 'Servidor MCP · Brasil.gov'
@@ -164,9 +205,9 @@ export default function McpPage() {
           </span>
           <h1>O catálogo do gov.br dentro do seu assistente.</h1>
           <p className="lead">
-            O servidor MCP do Brasil.gov dá ao Claude, ao Codex e a qualquer cliente MCP acesso
-            somente leitura a 5.729 serviços públicos federais e 67.488 trechos com fonte. As
-            respostas citam a página oficial de cada serviço.
+            O servidor MCP do Brasil.gov, hospedado em brasil-gov.vercel.app/mcp, dá ao Claude, ao
+            Codex e a qualquer cliente MCP acesso somente leitura a 5.729 serviços públicos federais
+            e 67.488 trechos com fonte. As respostas citam a página oficial de cada serviço.
           </p>
           <ul className="mcp-facts">
             <li>
@@ -187,13 +228,40 @@ export default function McpPage() {
         <section className="mcp-section" aria-labelledby="mcp-install">
           <h2 id="mcp-install">Instalação</h2>
           <p>
-            Requer Node.js 22.13+ e pnpm. Clone o repositório uma vez; os dados ficam no seu
-            computador e nenhuma pergunta sai dele.
+            O servidor já está no ar. Cole a URL no seu cliente; não precisa baixar nem rodar nada.
           </p>
-          <Code value={SETUP} />
-          <p className="mcp-note">
-            Troque <code>{DIR}</code> pelo caminho absoluto do clone nos exemplos abaixo.
-          </p>
+          <Code value={MCP_URL} />
+
+          <div className="mcp-mode" role="radiogroup" aria-label="Modo de instalação">
+            <button
+              type="button"
+              role="radio"
+              aria-checked={mode === 'remote'}
+              className={mode === 'remote' ? 'active' : ''}
+              onClick={() => setMode('remote')}
+            >
+              Remoto · recomendado
+            </button>
+            <button
+              type="button"
+              role="radio"
+              aria-checked={mode === 'local'}
+              className={mode === 'local' ? 'active' : ''}
+              onClick={() => setMode('local')}
+            >
+              Local · offline
+            </button>
+          </div>
+
+          {mode === 'local' && (
+            <>
+              <p className="mcp-note">
+                Requer Node.js 22.13+ e pnpm. Os dados ficam no seu computador e nenhuma pergunta
+                sai dele. Troque <code>{DIR}</code> pelo caminho absoluto do clone.
+              </p>
+              <Code value={SETUP} />
+            </>
+          )}
 
           <div className="mcp-tabs" role="tablist" aria-label="Cliente MCP">
             {CLIENTS.map((entry) => (
@@ -218,7 +286,7 @@ export default function McpPage() {
             aria-labelledby={`tab-${active.id}`}
           >
             <ol>
-              {active.steps.map((step) => (
+              {steps.map((step) => (
                 <li key={step.text}>
                   <p>{step.text}</p>
                   {step.code && <Code value={step.code} />}
@@ -232,7 +300,7 @@ export default function McpPage() {
           <h2 id="mcp-tools">
             <Wrench size={22} aria-hidden="true" /> Ferramentas
           </h2>
-          <p>Todas são somente leitura e não acessam a internet, exceto no modo --remote.</p>
+          <p>Todas são somente leitura. Nenhuma pede login, chave de API ou dados pessoais.</p>
           <div className="mcp-grid">
             {MCP_TOOLS.map((tool) => (
               <article className="mcp-tool" key={tool.name} id={tool.name}>

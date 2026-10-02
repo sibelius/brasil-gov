@@ -324,3 +324,29 @@
     margin-bottom: 12px;
   }
 }
+
+.mcp-mode {
+  display: inline-flex;
+  gap: 4px;
+  margin-top: 28px;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--card);
+}
+
+.mcp-mode button {
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-2);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mcp-mode button.active {
+  color: var(--ink);
+  background: var(--bg);
+  box-shadow: 0 1px 3px rgba(11, 26, 51, 0.12);
+}

@@ -110,6 +110,14 @@ All source filenames use **kebab-case**. Components and types use **PascalCase**
 
 `mcp/` exposes the catalog to Claude, Codex, and any [Model Context Protocol](https://modelcontextprotocol.io) client. It reuses the same retrieval engine as the chat, is read-only, and needs no API key. Installation instructions for each client and the full tool reference are at [`/mcp`](https://brasil-gov.vercel.app/mcp).
 
+The hosted endpoint needs no clone: `https://brasil-gov.vercel.app/mcp` (Streamable HTTP, stateless). `api/mcp.ts` runs it as a Vercel function, reading the published catalog; `vercel.json` routes `/mcp` requests that accept JSON or event streams to the function, while browsers get the documentation page.
+
+```sh
+claude mcp add --scope user --transport http brasil-gov https://brasil-gov.vercel.app/mcp
+```
+
+To run it yourself:
+
 ```sh
 pnpm mcp                    # stdio, reads public/data/v1 from this clone
 pnpm mcp --remote           # stdio, reads the published catalog from brasil-gov.vercel.app
