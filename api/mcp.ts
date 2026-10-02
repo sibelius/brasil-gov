@@ -50,7 +50,10 @@ export default {
     }
 
     if (request.method === 'GET' && request.headers.get('accept')?.includes('text/event-stream')) {
-      return json({ jsonrpc: '2.0', error: { code: -32000, message: 'SSE não suportado.' }, id: null }, 405)
+      return json(
+        { jsonrpc: '2.0', error: { code: -32000, message: 'SSE não suportado.' }, id: null },
+        405,
+      )
     }
 
     if (request.method !== 'POST') {
@@ -58,7 +61,8 @@ export default {
         name: 'brasil-gov',
         transport: 'streamable-http',
         endpoint: 'https://brasil-gov.vercel.app/mcp',
-        usage: 'Envie requisições JSON-RPC via POST. Documentação: https://brasil-gov.vercel.app/mcp',
+        usage:
+          'Envie requisições JSON-RPC via POST. Documentação: https://brasil-gov.vercel.app/mcp',
       })
     }
 

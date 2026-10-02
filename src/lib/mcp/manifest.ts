@@ -117,6 +117,36 @@ export const MCP_TOOLS: ToolManifest[] = [
     prompt: 'Liste os serviços do INSS.',
   },
   {
+    name: 'get_status',
+    title: 'Status dos sistemas',
+    description:
+      'Informa se sistemas públicos estão no ar segundo a última verificação horária feita de São Paulo: plataformas federais, os 27 Detrans, governos estaduais, prefeituras das capitais e os 835 sistemas usados pelo catálogo. Filtra por nome, UF, grupo, situação ou serviço.',
+    parameters: [
+      { name: 'query', type: 'string', required: false, description: 'Nome, domínio ou órgão.' },
+      { name: 'uf', type: 'string', required: false, description: 'Sigla do estado.' },
+      {
+        name: 'group',
+        type: 'enum',
+        required: false,
+        description: 'federal, detran, estado, capital ou catalogo.',
+      },
+      {
+        name: 'level',
+        type: 'enum',
+        required: false,
+        description: 'up, slow, restricted, broken ou down.',
+      },
+      {
+        name: 'serviceId',
+        type: 'string',
+        required: false,
+        description: 'Sistemas de que um serviço depende.',
+      },
+    ],
+    example: { group: 'detran', uf: 'SP' },
+    prompt: 'O site do Detran de São Paulo está fora do ar agora?',
+  },
+  {
     name: 'catalog_info',
     title: 'Sobre o catálogo',
     description:

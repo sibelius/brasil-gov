@@ -51,5 +51,8 @@ jobs:
       - name: Check generated retrieval data
         run: pnpm data:check
 
+      - name: Check status targets
+        run: pnpm status:targets --check
+
       - name: Build
         run: pnpm build

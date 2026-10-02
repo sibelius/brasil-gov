@@ -133,9 +133,18 @@ claude mcp add --scope user brasil-gov -- node --experimental-strip-types --no-w
 | `retrieve_context`        | Question → cited passages plus `ready` / `needs_clarification` / `insufficient_evidence` |
 | `list_agencies`           | Agencies with service counts, optional filter                                            |
 | `list_services_by_agency` | Services of one agency                                                                   |
+| `get_status`              | Hourly availability of federal systems, Detrans, states, capitals, and catalog hosts     |
 | `catalog_info`            | Provenance, collection date, revisions, and counts                                       |
 
 Resources: `brasil-gov://catalog` and `brasil-gov://services/{id}` (the original API record). Prompt: `answer_with_sources`. Tool names and descriptions live in `src/lib/mcp/manifest.ts`, shared by the server and the `/mcp` page; `tests/mcp.test.ts` checks that both stay in sync.
+
+## Status page
+
+`/status` shows whether public systems are reachable: 23 federal platforms, the 27 Detrans, the 27 state governments, the 27 state-capital city halls (`status/curated.ts`), and the 835 distinct hosts behind the catalog's digital-service links (`status/targets.json`, built by `pnpm status:targets`). Each catalog host lists the services that depend on it.
+
+`.github/workflows/status.yml` runs hourly. It calls `api/status-check.ts`, a Vercel function pinned to São Paulo (`gru1`) because many `.gov.br` sites block foreign IPs, and pushes `latest.json` and a 7-day `history.json` to the `status-data` branch. The page reads that branch from raw.githubusercontent.com and falls back to the snapshot in `public/data/status/`. Run `pnpm status:check` to check locally.
+
+The function requires a `STATUS_TOKEN` environment variable on Vercel, and the same value as a GitHub Actions secret.
 
 ## Next stages
 

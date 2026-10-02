@@ -134,3 +134,12 @@ test('mcp: service resource and prompt', async () => {
 
   assert.match(JSON.stringify(prompt.messages), /retrieve_context/)
 })
+
+test('mcp: get_status filters the status snapshot', async () => {
+  const status = await callJson('get_status', { group: 'detran', uf: 'SP' })
+
+  assert.equal(status.total, 1)
+  assert.equal(status.items[0].id, 'detran:SP')
+  assert.ok(['up', 'slow', 'restricted', 'broken', 'down'].includes(status.items[0].level))
+  assert.ok(status.checkedAt)
+})
