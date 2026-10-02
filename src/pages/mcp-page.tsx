@@ -206,8 +206,9 @@ export default function McpPage() {
           <h1>O catálogo do gov.br dentro do seu assistente.</h1>
           <p className="lead">
             O servidor MCP do Brasil.gov, hospedado em brasil-gov.vercel.app/mcp, dá ao Claude, ao
-            Codex e a qualquer cliente MCP acesso somente leitura a 5.729 serviços públicos federais
-            e 67.488 trechos com fonte. As respostas citam a página oficial de cada serviço.
+            Codex e a qualquer cliente MCP acesso somente leitura a 5.729 serviços públicos
+            federais, a 67.488 trechos com fonte e ao status de 939 sistemas públicos, verificado de
+            hora em hora. As respostas citam a página oficial de cada serviço.
           </p>
           <ul className="mcp-facts">
             <li>

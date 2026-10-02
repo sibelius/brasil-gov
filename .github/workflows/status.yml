@@ -1,0 +1,50 @@
+name: Status
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: status
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    name: Check public systems from São Paulo
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      - name: Check out the status data
+        run: |
+          git fetch origin status-data --depth=1 && git worktree add status-data origin/status-data \
+            || (git worktree add --detach status-data && git -C status-data switch --orphan status-data)
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Run checks
+        env:
+          STATUS_TOKEN: ${{ secrets.STATUS_TOKEN }}
+        run: >
+          node --experimental-strip-types --no-warnings status/run.ts
+          --remote https://brasil-gov.vercel.app/api/status-check
+          --shards 4 --out status-data --origin "Vercel gru1 (São Paulo)"
+
+      - name: Publish
+        working-directory: status-data
+        run: |
+          git config user.name "brasil-gov-status"
+          git config user.email "status@users.noreply.github.com"
+          git add latest.json history.json
+          git commit -m "status: $(date -u +%Y-%m-%dT%H:%MZ)" --quiet
+          git push origin HEAD:status-data

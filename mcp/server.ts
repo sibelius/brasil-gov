@@ -3,6 +3,8 @@ import { z } from 'zod'
 import { SECTIONS } from '../src/lib/retrieval/types.ts'
 import { MCP_NAME, MCP_TOOLS, MCP_VERSION } from '../src/lib/mcp/manifest.ts'
 import { page, MAX_PAGE, type Catalog } from './catalog.ts'
+import { queryStatus } from './status.ts'
+import { STATUS_GROUPS, STATUS_LEVELS } from '../src/lib/status/types.ts'
 
 const READ_ONLY = { readOnlyHint: true, openWorldHint: false } as const
 
@@ -16,7 +18,7 @@ const limit = z.number().int().min(1).max(MAX_PAGE).default(10).describe('Itens 
 const INSTRUCTIONS = `Brasil.gov: catálogo de 5.729 serviços públicos federais do gov.br (projeto independente, não oficial).
 Para responder perguntas factuais, chame retrieve_context e responda somente com os trechos retornados, citando o link oficial (url) de cada serviço.
 Se o status for needs_clarification, peça ao usuário para escolher entre os serviços listados. Se for insufficient_evidence, diga o que falta e indique a página oficial.
-Use search_services para descobrir IDs e get_service ou get_service_section para ler detalhes.
+Use search_services para descobrir IDs e get_service ou get_service_section para ler detalhes.\nPara saber se um sistema está no ar (Detran, prefeitura, Meu INSS, e-CAC ou o link de um serviço), use get_status.
 Os dados vêm de uma coleta pontual (veja catalog_info). Lembre o usuário de confirmar custos e prazos na página oficial.`
 
 function describe(name: string) {
@@ -133,6 +135,29 @@ export function createServer(catalog: Catalog) {
     },
     ({ agency, offset, limit }) =>
       attempt(() => ({ agency, ...page(catalog.servicesByAgency(agency), offset, limit) })),
+  )
+
+  server.registerTool(
+    'get_status',
+    {
+      ...describe('get_status'),
+      inputSchema: {
+        query: z.string().max(200).optional().describe('Nome, domínio, órgão ou cidade.'),
+        uf: z.string().length(2).optional().describe('Sigla do estado, ex.: "SP".'),
+        group: z.enum(STATUS_GROUPS).optional(),
+        level: z.enum(STATUS_LEVELS).optional(),
+        serviceId: id.optional().describe('Sistemas usados por este serviço do catálogo.'),
+        offset,
+        limit,
+      },
+      annotations: { readOnlyHint: true, openWorldHint: true },
+    },
+    ({ offset, limit, ...filter }) =>
+      attempt(async () => {
+        const { matches, ...rest } = await queryStatus(filter)
+
+        return { ...rest, ...page(matches, offset, limit) }
+      }),
   )
 
   server.registerTool(

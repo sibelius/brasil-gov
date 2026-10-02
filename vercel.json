@@ -4,6 +4,14 @@
       "excludeFiles": "public/**",
       "maxDuration": 30,
       "memory": 1024
+    },
+    "api/status-check.ts": {
+      "regions": [
+        "gru1"
+      ],
+      "maxDuration": 300,
+      "memory": 1024,
+      "excludeFiles": "public/**"
     }
   },
   "rewrites": [

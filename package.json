@@ -11,13 +11,15 @@
     "typecheck": "tsc -b",
     "preview": "vite preview",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "format": "prettier --write src scripts mcp tests README.md package.json .oxlintrc.json .prettierrc.json",
-    "format:check": "prettier --check src scripts mcp tests README.md package.json .oxlintrc.json .prettierrc.json",
+    "format": "prettier --write src scripts mcp status api tests README.md package.json .oxlintrc.json .prettierrc.json",
+    "format:check": "prettier --check src scripts mcp status api tests README.md package.json .oxlintrc.json .prettierrc.json",
     "data:build": "node --experimental-strip-types scripts/build-retrieval.ts",
     "data:benchmark": "node --experimental-strip-types scripts/benchmark-retrieval.ts",
     "data:check": "node --experimental-strip-types scripts/build-retrieval.ts --check",
     "mcp": "node --experimental-strip-types --no-warnings mcp/main.ts",
-    "mcp:http": "node --experimental-strip-types --no-warnings mcp/main.ts --http"
+    "mcp:http": "node --experimental-strip-types --no-warnings mcp/main.ts --http",
+    "status:targets": "node --experimental-strip-types --no-warnings status/build-targets.ts",
+    "status:check": "node --experimental-strip-types --no-warnings status/run.ts"
   },
   "dependencies": {
     "@mlc-ai/web-llm": "0.2.85",
