@@ -1,6 +1,6 @@
 import type { DurationRange, ParsedDuration } from './duration.ts'
 import { durationRange } from './duration.ts'
-import type { HolidayCalendar } from './holidays.ts'
+import { isNationalHoliday, type HolidayCalendar } from './holidays.ts'
 
 export const TIME_ZONE = 'America/Sao_Paulo'
 
@@ -13,6 +13,13 @@ export const DEADLINE_NOTE = 'Estimativa; não substitui o prazo oficial do órg
 
 export const BUSINESS_DAY_NOTE =
   'Dias úteis descontam sábados, domingos e feriados nacionais. Pontos facultativos, como o Carnaval, contam como dias úteis.'
+
+/**
+ * Refuses amounts no real deadline reaches, so a corrupt value cannot make the
+ * business-day loop run for millions of iterations. The catalog's longest
+ * published deadline is 1,825 calendar days.
+ */
+const MAX_AMOUNT = 36_500
 
 const HOURS_IN_DAY = 24
 const MINUTES_IN_DAY = 24 * 60
@@ -30,8 +37,6 @@ export type Deadline = {
   to: CivilDate | null
   unit: DurationRange['unit'] | null
   average: boolean
-  /** True when the result leaves the years the holiday calendar covers. */
-  beyondHolidayData: boolean
   label: string
 }
 
@@ -108,7 +113,12 @@ export function addCalendarDays(date: CivilDate, days: number): CivilDate {
 export function isBusinessDay(date: CivilDate, holidays: HolidayCalendar): boolean {
   const day = weekday(date)
 
-  return day !== 0 && day !== 6 && !holidays.businessDayExceptions.has(date)
+  if (day === 0 || day === 6) {
+    return false
+  }
+
+  // The law covers every year; the dataset can only add to it.
+  return !isNationalHoliday(date) && !holidays.national.has(date)
 }
 
 /**
@@ -216,7 +226,6 @@ function unavailable(start: CivilDate): Deadline {
     to: null,
     unit: null,
     average: false,
-    beyondHolidayData: false,
     label: label('indisponivel', start, null, null, false),
   }
 }
@@ -243,14 +252,13 @@ export function estimateDeadline(
       to: null,
       unit: null,
       average: false,
-      beyondHolidayData: false,
       label: label('imediato', start, null, null, false),
     }
   }
 
   const range = durationRange(parsed)
 
-  if (!range) {
+  if (!range || range.max > MAX_AMOUNT) {
     return unavailable(start)
   }
 
@@ -265,7 +273,6 @@ export function estimateDeadline(
       to: start,
       unit: range.unit,
       average: range.average,
-      beyondHolidayData: false,
       label: label('mesmo-dia', start, null, null, range.average),
     }
   }
@@ -273,10 +280,6 @@ export function estimateDeadline(
   // A minimum that falls inside the same day still reads as a range: the
   // estimate then runs from the request date itself to the maximum.
   const begin = from ?? start
-  const startYear = Number(start.slice(0, 4))
-  const endYear = Number(to.slice(0, 4))
-  const beyondHolidayData =
-    range.unit === 'dias-uteis' && (startYear < holidays.from || endYear > holidays.to)
   const interval = begin !== to
   const kind = interval ? 'intervalo' : 'data'
 
@@ -287,7 +290,6 @@ export function estimateDeadline(
     to,
     unit: range.unit,
     average: range.average,
-    beyondHolidayData,
     label: label(kind, start, interval ? begin : null, to, range.average),
   }
 }

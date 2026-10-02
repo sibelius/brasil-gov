@@ -132,7 +132,7 @@ export async function buildHolidays() {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const result = await buildHolidays()
-  const national = result.businessDayExceptions.size
+  const national = result.national.size
   const optional = result.holidays.length - national
 
   console.log(

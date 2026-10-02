@@ -21,11 +21,7 @@ export default function ServiceDeadline({ duration }: { duration: ParsedDuration
     return null
   }
 
-  const note = [
-    DEADLINE_NOTE,
-    deadline.unit === 'dias-uteis' ? BUSINESS_DAY_NOTE : '',
-    deadline.beyondHolidayData ? 'A data passa dos anos com feriados conhecidos.' : '',
-  ]
+  const note = [DEADLINE_NOTE, deadline.unit === 'dias-uteis' ? BUSINESS_DAY_NOTE : '']
     .filter(Boolean)
     .join(' ')
 

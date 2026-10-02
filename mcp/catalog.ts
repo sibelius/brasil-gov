@@ -288,7 +288,9 @@ export async function openCatalog(base: URL = LOCAL_DATA) {
       estimate: deadline,
       holidayCalendar: {
         years: { from: holidays.from, to: holidays.to },
-        nationalHolidays: holidays.businessDayExceptions.size,
+        nationalHolidays: holidays.national.size,
+        coverage:
+          'Os feriados nacionais são datas fixas de lei federal, então a contagem de dias úteis vale para qualquer ano, inclusive fora do intervalo acima.',
         pontoFacultativo:
           'Não descontado: Carnaval, Corpus Christi e Sexta-feira da Paixão contam como dias úteis.',
       },

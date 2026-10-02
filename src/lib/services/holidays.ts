@@ -13,7 +13,7 @@ export type HolidayCalendar = {
   to: number
   holidays: Holiday[]
   /** Only `nacional` dates. Optional closures never shorten a legal deadline. */
-  businessDayExceptions: Set<string>
+  national: Set<string>
 }
 
 /**
@@ -42,6 +42,23 @@ export const NATIONAL_HOLIDAYS: { monthDay: string; name: string; law: string }[
 /** 20 November only became a national holiday in 2024. */
 const ZUMBI_FIRST_YEAR = 2024
 
+const MONTH_DAYS = new Set(NATIONAL_HOLIDAYS.map((entry) => entry.monthDay))
+
+/**
+ * Whether a date is a national holiday, for any year. Every national holiday
+ * falls on a fixed calendar date, so this answers correctly outside the years
+ * the generated dataset happens to cover.
+ */
+export function isNationalHoliday(date: string): boolean {
+  const monthDay = date.slice(5)
+
+  if (monthDay === '11-20' && Number(date.slice(0, 4)) < ZUMBI_FIRST_YEAR) {
+    return false
+  }
+
+  return MONTH_DAYS.has(monthDay)
+}
+
 export function nationalHolidays(from: number, to: number): Holiday[] {
   const holidays: Holiday[] = []
 
@@ -67,7 +84,7 @@ export function calendar(holidays: Holiday[], from: number, to: number): Holiday
     from,
     to,
     holidays,
-    businessDayExceptions: new Set(
+    national: new Set(
       holidays.filter((entry) => entry.observance === 'nacional').map((entry) => entry.date),
     ),
   }

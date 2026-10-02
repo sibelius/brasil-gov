@@ -16,6 +16,7 @@ import {
 import { durationRange, parseDuration } from '../src/lib/services/duration.ts'
 import { legalCalendar, parseHolidays } from '../src/lib/services/holidays.ts'
 import { duration } from '../src/lib/services/model.ts'
+import { YEARS } from '../scripts/build-holidays.ts'
 
 const root = new URL('../public/data/v1/', import.meta.url)
 const holidays = parseHolidays(JSON.parse(await readFile(new URL('holidays.json', root), 'utf8')))
@@ -28,15 +29,26 @@ function range(kind: string, max: string, unidade: string, min?: string) {
   return { [kind]: min === undefined ? { max, unidade } : { min, max, unidade } }
 }
 
-test('deadline: the generated calendar covers this year and the next', () => {
-  const year = Number(today().slice(0, 4))
+test('deadline: the generated calendar matches the declared range', () => {
+  assert.equal(holidays.from, YEARS.from)
+  assert.equal(holidays.to, YEARS.to)
+  assert.equal(holidays.national.size, (YEARS.to - YEARS.from + 1) * 9)
+})
 
-  assert.ok(holidays.from <= year, `calendário começa em ${holidays.from}`)
-  assert.ok(
-    holidays.to >= year + 1,
-    `calendário termina em ${holidays.to}; rode pnpm data:holidays`,
-  )
-  assert.equal(holidays.businessDayExceptions.size, (holidays.to - holidays.from + 1) * 9)
+test('deadline: business days stay correct outside the generated range', () => {
+  // National holidays are fixed dates set by federal law, so the count must not
+  // depend on the years the dataset happens to cover. Without this, estimates
+  // would silently stop deducting holidays once the data aged out.
+  assert.ok('2040-12-24' > `${YEARS.to}-12-31`)
+  assert.equal(isBusinessDay('2040-12-25', holidays), false)
+  assert.equal(isBusinessDay('2040-09-07', holidays), false)
+  assert.equal(addBusinessDays('2040-12-24', 2, holidays), '2040-12-27')
+
+  // 20 November was not a national holiday before Lei 14.759/2023.
+  assert.equal(isBusinessDay('2019-11-20', holidays), true)
+  assert.equal(isBusinessDay('2026-11-20', holidays), false)
+
+  assert.equal(addBusinessDays('2040-12-24', 2, legalCalendar(2026, 2026)), '2040-12-27')
 })
 
 test('deadline: national holidays are not business days, ponto facultativo is', () => {
@@ -81,7 +93,6 @@ test('deadline: calendar days ignore weekends and holidays', () => {
 
   assert.equal(result.kind, 'data')
   assert.equal(result.to, '2027-01-03')
-  assert.equal(result.beyondHolidayData, false)
 })
 
 test('deadline: "entre" returns a range of dates', () => {
@@ -148,17 +159,19 @@ test('deadline: no estimate when the catalog has no usable amount', () => {
   )
 })
 
-test('deadline: flags results that leave the known holiday years', () => {
-  const narrow = legalCalendar(2026, 2026)
-  const long = estimateDeadline(
-    '2026-10-02',
-    parseDuration(range('ate', '720', 'dias-uteis')),
-    narrow,
-  )
+test('deadline: the longest published deadlines resolve, absurd ones do not', () => {
+  const longest = parseDuration(range('ate', '720', 'dias-uteis'))
 
-  assert.equal(long.beyondHolidayData, true)
-  assert.equal(estimate(range('ate', '720', 'dias-uteis')).beyondHolidayData, false)
-  assert.equal(estimate(range('ate', '1825', 'dias-corridos')).beyondHolidayData, false)
+  // The same answer whether or not the dataset covers the years it lands in.
+  assert.equal(
+    estimateDeadline('2026-10-02', longest, legalCalendar(2026, 2026)).to,
+    estimate(range('ate', '720', 'dias-uteis')).to,
+  )
+  assert.equal(estimate(range('ate', '1825', 'dias-corridos')).kind, 'data')
+
+  // A corrupt amount must not spin the business-day loop for millions of steps.
+  assert.equal(estimate(range('ate', '36500', 'dias-uteis')).kind, 'data')
+  assert.equal(estimate(range('ate', '36501', 'dias-uteis')).kind, 'indisponivel')
 })
 
 test('deadline: today follows America/Sao_Paulo, not the host time zone', () => {
@@ -203,7 +216,7 @@ test('deadline: rejects a calendar that is missing a national holiday', () => {
     holidays: legalCalendar(2026, 2026).holidays,
   }
 
-  assert.equal(parseHolidays(valid).businessDayExceptions.size, 9)
+  assert.equal(parseHolidays(valid).national.size, 9)
   assert.throws(
     () => parseHolidays({ ...valid, holidays: valid.holidays.slice(1) }),
     /Feriado nacional ausente/,

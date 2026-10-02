@@ -85,11 +85,11 @@ pnpm data:check      # Verify generated retrieval and holiday data without writi
 
 ### Holidays
 
-`public/data/v1/holidays.json` is generated and versioned, covering 2026 to 2032 — a fixed range, because the longest deadline in the catalog is 720 business days and a range derived from the current date would go stale every 1 January.
+`public/data/v1/holidays.json` is generated and versioned, covering 2026 to 2032 — a fixed range, because a range derived from the current date would go stale every 1 January. Business-day counting does not depend on it: every national holiday falls on a fixed calendar date, so `isNationalHoliday()` answers for any year and the dataset can only add to that set. A deadline landing in 2040 still deducts Christmas.
 
 Only the nine national holidays set by federal law count as non-business days (Leis 662/1949, 6.802/1980, 10.607/2002 and 14.759/2023). **Ponto facultativo is not deducted:** [BrasilAPI](https://brasilapi.com.br/api/feriados/v1/2026) reports Carnaval, Corpus Christi, Sexta-feira da Paixão, and Páscoa as `national`, but the first two are ponto facultativo, the third depends on municipal law (Lei 9.093/1995, art. 2), and the fourth is a Sunday. They are kept in the dataset as `opcional` for transparency and count as business days, which makes the estimate shorter rather than longer. State and municipal holidays are not considered at all.
 
-Every national holiday falls on a fixed calendar date, so `src/lib/services/holidays.ts` is the authority and the aggregator is a cross-check: the builder warns when BrasilAPI omits a legal holiday, and `parseHolidays` refuses a calendar that is missing one, so a holiday can never silently be counted as a business day. If the dataset cannot be read, the MCP server falls back to the calendar derived from the law.
+`src/lib/services/holidays.ts` is the authority and the aggregator is a cross-check: the builder warns when BrasilAPI omits a legal holiday, and `parseHolidays` refuses a calendar that is missing one, so a holiday can never silently be counted as a business day. If the dataset cannot be read, the MCP server falls back to the calendar derived from the law.
 
 The estimate is presented as an estimate. It does not replace the official deadline, which can be suspended, interrupted, or changed by the agency.
 
