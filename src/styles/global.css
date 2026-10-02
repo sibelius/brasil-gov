@@ -1786,6 +1786,31 @@ summary:focus-visible {
 .service-facts dd p {
   margin: 0;
 }
+.service-deadline {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgb(0 0 0 / 7%);
+}
+.service-deadline-estimate {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.service-deadline-estimate > svg {
+  align-self: flex-start;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+.service-deadline-note {
+  margin: 4px 0 0;
+  color: var(--ink-2);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
 .service-block {
   margin-top: 20px;
 }

@@ -28,6 +28,10 @@ async function callJson(name: string, args: Record<string, unknown> = {}) {
   return JSON.parse(result.body)
 }
 
+// A service whose published total is in business days, to exercise the holiday
+// count instead of plain calendar arithmetic.
+const businessDayService = '10007'
+
 test.after(() => client.close())
 
 test('mcp: lists every tool in the manifest', async () => {
@@ -47,6 +51,34 @@ test('mcp: catalog_info reports counts and provenance', async () => {
   assert.equal(info.passages, 67488)
   assert.ok(info.agencies > 100)
   assert.match(info.source, /^https:\/\/api-servicos\.estaleiro\.serpro\.gov\.br/)
+})
+
+test('mcp: estimate_deadline converts a published duration into dates', async () => {
+  const immediate = await callJson('estimate_deadline', { id: '2833', start: '2026-10-02' })
+
+  assert.equal(immediate.start, '2026-10-02')
+  assert.equal(immediate.timeZone, 'America/Sao_Paulo')
+  assert.match(immediate.disclaimer, /Não substitui o prazo oficial/)
+  assert.ok(
+    ['imediato', 'mesmo-dia', 'data', 'intervalo', 'indisponivel'].includes(
+      immediate.estimate.kind,
+    ),
+  )
+
+  const business = await callJson('estimate_deadline', {
+    id: businessDayService,
+    start: '2026-02-13',
+  })
+
+  assert.equal(business.publishedDuration.unit, 'dias-uteis')
+  assert.equal(business.estimate.unit, 'dias-uteis')
+  assert.ok(business.estimate.to > '2026-02-13')
+  assert.equal(business.holidayCalendar.nationalHolidays % 9, 0)
+
+  const invalid = await call('estimate_deadline', { id: '2833', start: '2026-02-30' })
+
+  assert.equal(invalid.isError, true)
+  assert.match(invalid.body, /Data inicial inválida/)
 })
 
 test('mcp: search_services paginates ranked results', async () => {

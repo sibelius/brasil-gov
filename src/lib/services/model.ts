@@ -1,4 +1,5 @@
 import { safeUrl } from '../../helpers/safe-url.ts'
+import { formatDuration, parseDuration, type ParsedDuration } from './duration.ts'
 
 export const DATASET = {
   base: '/data/v1',
@@ -22,6 +23,7 @@ export type ServiceStep = {
   title: string
   description: string
   duration: string
+  durationEstimate: ParsedDuration
   groups: ContentGroup[]
 }
 
@@ -30,6 +32,7 @@ export type Service = ServiceSummary & {
   digitalUrl: string
   cost: string
   duration: string
+  durationEstimate: ParsedDuration
   applicants: ContentGroup[]
   steps: ServiceStep[]
   contact: string
@@ -51,10 +54,6 @@ function records(value: unknown): RecordValue[] {
 
 function text(value: unknown): string {
   return typeof value === 'string' ? value.trim() : ''
-}
-
-function numberText(value: unknown): string {
-  return typeof value === 'number' ? String(value) : text(value)
 }
 
 export function serviceId(value: unknown): string {
@@ -91,30 +90,8 @@ export function parseCatalog(value: unknown): ServiceSummary[] {
   })
 }
 
-function timeUnit(value: unknown): string {
-  return text(value).replaceAll('-', ' ').replace('uteis', 'úteis')
-}
-
 export function duration(value: unknown): string {
-  const row = object(value)
-  let label = ''
-
-  if (row.atendimentoImediato != null) {
-    label = 'Atendimento imediato'
-  } else if (row.entre != null) {
-    const range = object(row.entre)
-
-    label = `Entre ${numberText(range.min)} e ${numberText(range.max)} ${timeUnit(range.unidade)}`
-  } else {
-    const range = object(row.ate ?? row.emMedia)
-    const prefix = row.ate != null ? 'Até' : 'Em média'
-
-    if (range.max != null) {
-      label = `${prefix} ${numberText(range.max)} ${timeUnit(range.unidade)}`
-    }
-  }
-
-  return [label, text(row.descricao)].filter(Boolean).join('\n\n')
+  return formatDuration(parseDuration(value))
 }
 
 function entryText(row: RecordValue): string {
@@ -177,6 +154,7 @@ export function parseService(value: unknown, expectedId: string): Service {
     contact: text(row.contato),
     cost: serviceCost(row.gratuito),
     duration: duration(row.tempoTotalEstimado),
+    durationEstimate: parseDuration(row.tempoTotalEstimado),
     applicants: records(object(row.solicitantes).solicitante).map((item) => ({
       title: text(item.tipo),
       entries: [text(item.requisitos)].filter(Boolean),
@@ -185,6 +163,7 @@ export function parseService(value: unknown, expectedId: string): Service {
       title: text(step.titulo) || `Etapa ${index + 1}`,
       description: text(step.descricao),
       duration: duration(step.tempoTotalEstimado),
+      durationEstimate: parseDuration(step.tempoTotalEstimado),
       groups: [
         ...groups(step.documentos, 'documentos', 'documento', 'Documentos'),
         ...groups(step.custos, 'custos', 'custo', 'Custos'),

@@ -3,6 +3,7 @@ import { ArrowUpRight, Clock3, Wallet } from 'lucide-react'
 import { DATASET, type Service } from '../../lib/services/model.ts'
 import { scrollToChatContent } from '../../helpers/scroll-to-chat-content'
 import { ServiceContent as Content } from './service-content'
+import ServiceDeadline from './service-deadline'
 
 export default function ServiceDetails({
   service,
@@ -47,6 +48,7 @@ export default function ServiceDetails({
           </dt>
           <dd>
             <Content text={service.duration || 'Não informado no catálogo.'} />
+            <ServiceDeadline duration={service.durationEstimate} />
           </dd>
         </div>
       </dl>
